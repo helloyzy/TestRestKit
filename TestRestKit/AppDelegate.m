@@ -8,12 +8,51 @@
 
 #import "AppDelegate.h"
 #import <RestKit/RestKit.h>
+#import <RestKit/CoreData.h>
 
 
 @implementation AppDelegate
 
+- (void)generateSeed {
+    NSURL * base = [NSURL URLWithString:@"http://base.com"];
+    RKObjectManager * objectManager = [RKObjectManager objectManagerWithBaseURL:base];
+    
+    NSString *seedDatabaseName = nil;
+    NSString *databaseName = RKDefaultSeedDatabaseFileName;
+    
+    objectManager.objectStore = [RKManagedObjectStore objectStoreWithStoreFilename:databaseName usingSeedDatabaseName:seedDatabaseName managedObjectModel:nil delegate:self];
+    
+    RKManagedObjectMapping *brandMapping = [RKManagedObjectMapping mappingForEntityWithName:@"Brand" inManagedObjectStore:objectManager.objectStore];
+    brandMapping.primaryKeyAttribute = @"brandID";
+    [brandMapping mapKeyPath:@"id" toAttribute:@"brandID"];
+    [brandMapping mapKeyPath:@"name" toAttribute:@"name"];
+    [brandMapping mapKeyPath:@"display_order" toAttribute:@"displayOrder"];
+    [brandMapping mapKeyPath:@"children" toRelationship:@"children" withMapping:brandMapping];
+    
+    RKManagedObjectMapping *productCategoryMapping = [RKManagedObjectMapping mappingForEntityWithName:@"ProductCategory" inManagedObjectStore:objectManager.objectStore];
+    productCategoryMapping.primaryKeyAttribute = @"productCategoryID";
+    [productCategoryMapping mapKeyPath:@"id" toAttribute:@"productCategoryID"];
+    [productCategoryMapping mapKeyPath:@"name" toAttribute:@"name"];
+    [productCategoryMapping mapKeyPath:@"area_name" toAttribute:@"areaName"];
+    [productCategoryMapping mapKeyPath:@"display_order" toAttribute:@"displayOrder"];
+    [productCategoryMapping mapKeyPath:@"children" toRelationship:@"children" withMapping:productCategoryMapping];
+    
+    [brandMapping mapKeyPath:@"product_categories" toRelationship:@"productCategories" withMapping:productCategoryMapping];
+    
+    RKLogConfigureByName("RestKit/ObjectMapping", RKLogLevelDebug);
+    RKLogConfigureByName("RestKit/CoreData", RKLogLevelDebug);
+    
+    RKManagedObjectSeeder *seeder = [RKManagedObjectSeeder objectSeederWithObjectManager:objectManager];
+    [seeder seedObjectsFromFile:@"brands.json" withObjectMapping:brandMapping];
+    [seeder finalizeSeedingAndExit];
+
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+#ifdef RESTKIT_GENERATE_SEED_DB
+    [self generateSeed];
+#endif   
     // Override point for customization after application launch.
     UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
     UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
