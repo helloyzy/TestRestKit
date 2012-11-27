@@ -75,7 +75,6 @@
 		00AB8471166497CC00E5EB97 /* IBMessageProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB8455166497CC00E5EB97 /* IBMessageProcessor.m */; };
 		00AB8472166497CC00E5EB97 /* IBTargetAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB8457166497CC00E5EB97 /* IBTargetAction.m */; };
 		00AB84741664986000E5EB97 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AB84731664986000E5EB97 /* CoreText.framework */; };
-		00AB847616649A0F00E5EB97 /* RKSeedDatabase.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 00AB847516649A0F00E5EB97 /* RKSeedDatabase.sqlite */; };
 		00AB847D1664E67700E5EB97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 002E48DC166357A70003B4B4 /* main.m */; };
 		00AB847E1664E67700E5EB97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 002E48E0166357A70003B4B4 /* AppDelegate.m */; };
 		00AB847F1664E67700E5EB97 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 002E48EC166357A70003B4B4 /* MasterViewController.m */; };
@@ -130,7 +129,10 @@
 		00AB84B21664E67700E5EB97 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 002E48E4166357A70003B4B4 /* Default@2x.png */; };
 		00AB84B31664E67700E5EB97 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 002E48E6166357A70003B4B4 /* Default-568h@2x.png */; };
 		00AB84B41664E67700E5EB97 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002E48E8166357A70003B4B4 /* MainStoryboard.storyboard */; };
-		00AB84B51664E67700E5EB97 /* RKSeedDatabase.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 00AB847516649A0F00E5EB97 /* RKSeedDatabase.sqlite */; };
+		E2AC495616650C2B00009863 /* brands.json in Resources */ = {isa = PBXBuildFile; fileRef = E2AC495516650C2B00009863 /* brands.json */; };
+		E2AC49E61665224300009863 /* ECBrand.json in Resources */ = {isa = PBXBuildFile; fileRef = E2AC49E51665224300009863 /* ECBrand.json */; };
+		E2AC49E81665240700009863 /* RKSeedDatabase.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = E2AC49E71665240700009863 /* RKSeedDatabase.sqlite */; };
+		E2AC49E91665241800009863 /* RKSeedDatabase.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = E2AC49E71665240700009863 /* RKSeedDatabase.sqlite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -212,8 +214,6 @@
 		002E4934166362320003B4B4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		002E49361663623B0003B4B4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		002E4938166362460003B4B4 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
-		00AB8385166463EF00E5EB97 /* TestRestKit copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TestRestKit copy-Info.plist"; path = "/Users/aaa/Whitman/DevResource/WorkingSpace_Test/TestRestKit/TestRestKit copy-Info.plist"; sourceTree = "<absolute>"; };
-		00AB838D166478D700E5EB97 /* brands.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = brands.json; sourceTree = SOURCE_ROOT; };
 		00AB83EB1664866600E5EB97 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		00AB83F6166489A200E5EB97 /* _Brand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Brand.h; sourceTree = "<group>"; };
 		00AB83F7166489A200E5EB97 /* _Brand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Brand.m; sourceTree = "<group>"; };
@@ -283,10 +283,10 @@
 		00AB8456166497CC00E5EB97 /* IBTargetAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBTargetAction.h; sourceTree = "<group>"; };
 		00AB8457166497CC00E5EB97 /* IBTargetAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBTargetAction.m; sourceTree = "<group>"; };
 		00AB84731664986000E5EB97 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
-		00AB847516649A0F00E5EB97 /* RKSeedDatabase.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = RKSeedDatabase.sqlite; sourceTree = SOURCE_ROOT; };
-		00AB84771664D6A800E5EB97 /* ECBrand.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ECBrand.json; sourceTree = SOURCE_ROOT; };
 		00AB84B91664E67700E5EB97 /* TestRestKit copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TestRestKit copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		00AB84BB1664E67700E5EB97 /* TestRestKit copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TestRestKit copy2-Info.plist"; path = "/Users/aaa/Whitman/DevResource/WorkingSpace_Test/TestRestKit/TestRestKit copy2-Info.plist"; sourceTree = "<absolute>"; };
+		E2AC495516650C2B00009863 /* brands.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = brands.json; sourceTree = SOURCE_ROOT; };
+		E2AC49E51665224300009863 /* ECBrand.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ECBrand.json; sourceTree = SOURCE_ROOT; };
+		E2AC49E71665240700009863 /* RKSeedDatabase.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = RKSeedDatabase.sqlite; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -338,8 +338,6 @@
 				002E48D6166357A70003B4B4 /* TestRestKit */,
 				002E48CF166357A70003B4B4 /* Frameworks */,
 				002E48CD166357A70003B4B4 /* Products */,
-				00AB8385166463EF00E5EB97 /* TestRestKit copy-Info.plist */,
-				00AB84BB1664E67700E5EB97 /* TestRestKit copy2-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -390,10 +388,10 @@
 		002E48D7166357A70003B4B4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				00AB84771664D6A800E5EB97 /* ECBrand.json */,
-				00AB847516649A0F00E5EB97 /* RKSeedDatabase.sqlite */,
+				E2AC49E71665240700009863 /* RKSeedDatabase.sqlite */,
+				E2AC49E51665224300009863 /* ECBrand.json */,
+				E2AC495516650C2B00009863 /* brands.json */,
 				00AB83EA1664866600E5EB97 /* Model.xcdatamodeld */,
-				00AB838D166478D700E5EB97 /* brands.json */,
 				002E48D8166357A70003B4B4 /* TestRestKit-Info.plist */,
 				002E48D9166357A70003B4B4 /* InfoPlist.strings */,
 				002E48DC166357A70003B4B4 /* main.m */,
@@ -708,7 +706,7 @@
 				002E48E5166357A70003B4B4 /* Default@2x.png in Resources */,
 				002E48E7166357A70003B4B4 /* Default-568h@2x.png in Resources */,
 				002E48EA166357A70003B4B4 /* MainStoryboard.storyboard in Resources */,
-				00AB847616649A0F00E5EB97 /* RKSeedDatabase.sqlite in Resources */,
+				E2AC49E81665240700009863 /* RKSeedDatabase.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -716,12 +714,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2AC49E91665241800009863 /* RKSeedDatabase.sqlite in Resources */,
 				00AB84B01664E67700E5EB97 /* InfoPlist.strings in Resources */,
 				00AB84B11664E67700E5EB97 /* Default.png in Resources */,
 				00AB84B21664E67700E5EB97 /* Default@2x.png in Resources */,
 				00AB84B31664E67700E5EB97 /* Default-568h@2x.png in Resources */,
 				00AB84B41664E67700E5EB97 /* MainStoryboard.storyboard in Resources */,
-				00AB84B51664E67700E5EB97 /* RKSeedDatabase.sqlite in Resources */,
+				E2AC495616650C2B00009863 /* brands.json in Resources */,
+				E2AC49E61665224300009863 /* ECBrand.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1026,6 +1026,7 @@
 				00AB83F4166488FA00E5EB97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00AB84B61664E67700E5EB97 /* Build configuration list for PBXNativeTarget "Generate Seed" */ = {
 			isa = XCConfigurationList;
