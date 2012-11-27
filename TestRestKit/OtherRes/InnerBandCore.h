@@ -221,6 +221,73 @@ typedef void (^ib_http_proc_t)(NSData *, NSInteger);
 @end
 
 
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+
+@interface IBCoreDataStore : NSObject {
+	NSManagedObjectContext *_managedObjectContext;
+}
+
+@property (nonatomic, readonly) NSManagedObjectContext *context;
+
++ (IBCoreDataStore *)mainStore;
++ (IBCoreDataStore *)createStore;
++ (IBCoreDataStore *)createStoreWithContext:(NSManagedObjectContext *)context;
+
+- (id)initWithContext:(NSManagedObjectContext *)context;
+
+/* Clears all data from peristent store and re-initializes (great for unit testing!) */
+- (void)clearAllData;
+
+/* Saves context. */
+- (void)save;
+
+/* Create a new entity by name. */
+- (NSManagedObject *)createNewEntityByName:(NSString *)entityName;
+
+/* Remove entity. */
+- (void)removeEntity:(NSManagedObject *)entity;
+
+/* Remove all objects of an entity. */
+- (void)removeAllEntitiesByName:(NSString *)entityName;
+
+
+/* Returns ALL objects for an entity. */
+- (NSArray *)allForEntity:(NSString *)entityName error:(NSError **)error;
+
+/* Returns ALL objects for an entity given a predicate. */
+- (NSArray *)allForEntity:(NSString *)entityName predicate:(NSPredicate *)predicate error:(NSError **)error;
+
+/* Returns ALL objects for an entity given a predicate and sorting. */
+- (NSArray *)allForEntity:(NSString *)entityName predicate:(NSPredicate *)predicate orderBy:(NSString *)key ascending:(BOOL)ascending error:(NSError **)error;
+
+/* Returns ALL objects for an entity ordered by a field. */
+- (NSArray *)allForEntity:(NSString *)entityName orderBy:(NSString *)key ascending:(BOOL)ascending error:(NSError **)error;
+
+
+
+/* Returns a single entity by name. */
+- (NSManagedObject *)entityByName:(NSString *)entityName error:(NSError **)error;
+
+/* Returns a single entity with the specified key/value. */
+- (NSManagedObject *)entityByName:(NSString *)entityName key:(NSString *)key value:(NSObject *)value error:(NSError **)error;
+
+
+
+/* Returns object based on URI representation. */
+- (NSManagedObject *)entityByURI:(NSURL *)uri;
+
+/* Returns object based on Object ID. */
+- (NSManagedObject *)entityByObjectID:(NSManagedObjectID *)oid;
+
+
+
+/* Returns an entity description by name. */
+- (NSEntityDescription *)entityDescriptionForEntity:(NSString *)entityName;
+
+
+@end
+
 
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
@@ -468,75 +535,6 @@ typedef enum {
  }
  **/
 + (id)loadInstanceOfView:(Class)clazz fromNibNamed:(NSString *)name;
-
-@end
-
-
-
-#import <Foundation/Foundation.h>
-#import <CoreData/CoreData.h>
-
-@interface IBCoreDataStore : NSObject {
-	NSManagedObjectContext *_managedObjectContext;	
-}
-
-@property (nonatomic, readonly) NSManagedObjectContext *context;
-
-+ (IBCoreDataStore *)mainStore;
-+ (IBCoreDataStore *)createStore;
-+ (IBCoreDataStore *)createStoreWithContext:(NSManagedObjectContext *)context;
-
-- (id)initWithContext:(NSManagedObjectContext *)context;
-
-/* Clears all data from peristent store and re-initializes (great for unit testing!) */
-- (void)clearAllData;
-
-/* Saves context. */
-- (void)save;
-
-/* Create a new entity by name. */
-- (NSManagedObject *)createNewEntityByName:(NSString *)entityName;
-
-/* Remove entity. */
-- (void)removeEntity:(NSManagedObject *)entity;
-
-/* Remove all objects of an entity. */
-- (void)removeAllEntitiesByName:(NSString *)entityName;
-
-
-/* Returns ALL objects for an entity. */
-- (NSArray *)allForEntity:(NSString *)entityName error:(NSError **)error;
-
-/* Returns ALL objects for an entity given a predicate. */
-- (NSArray *)allForEntity:(NSString *)entityName predicate:(NSPredicate *)predicate error:(NSError **)error;
-
-/* Returns ALL objects for an entity given a predicate and sorting. */
-- (NSArray *)allForEntity:(NSString *)entityName predicate:(NSPredicate *)predicate orderBy:(NSString *)key ascending:(BOOL)ascending error:(NSError **)error;
-
-/* Returns ALL objects for an entity ordered by a field. */
-- (NSArray *)allForEntity:(NSString *)entityName orderBy:(NSString *)key ascending:(BOOL)ascending error:(NSError **)error;
-
-
-
-/* Returns a single entity by name. */
-- (NSManagedObject *)entityByName:(NSString *)entityName error:(NSError **)error;
-
-/* Returns a single entity with the specified key/value. */
-- (NSManagedObject *)entityByName:(NSString *)entityName key:(NSString *)key value:(NSObject *)value error:(NSError **)error;
-
-
-
-/* Returns object based on URI representation. */
-- (NSManagedObject *)entityByURI:(NSURL *)uri;
-
-/* Returns object based on Object ID. */
-- (NSManagedObject *)entityByObjectID:(NSManagedObjectID *)oid;
-
-
-
-/* Returns an entity description by name. */
-- (NSEntityDescription *)entityDescriptionForEntity:(NSString *)entityName;
-
 
 @end
 

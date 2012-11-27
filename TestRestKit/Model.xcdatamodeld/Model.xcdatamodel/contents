@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1810" systemVersion="11E53" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1810" systemVersion="11G63b" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
     <entity name="Brand" representedClassName="Brand" syncable="YES">
         <attribute name="brandID" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="displayOrder" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="is_internal" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="show_sub_brnd" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <relationship name="children" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Brand" inverseName="parent" inverseEntity="Brand" syncable="YES"/>
         <relationship name="parent" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Brand" inverseName="children" inverseEntity="Brand" syncable="YES"/>
         <relationship name="productCategories" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ProductCategory" inverseName="brand" inverseEntity="ProductCategory" syncable="YES"/>
+        <relationship name="topBrand" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Brand" syncable="YES"/>
     </entity>
     <entity name="ProductCategory" representedClassName="ProductCategory" syncable="YES">
         <attribute name="areaName" optional="YES" attributeType="String" syncable="YES"/>
@@ -18,7 +21,7 @@
         <relationship name="parent" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="ProductCategory" inverseName="children" inverseEntity="ProductCategory" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Brand" positionX="16" positionY="193" width="128" height="135"/>
+        <element name="Brand" positionX="16" positionY="193" width="128" height="180"/>
         <element name="ProductCategory" positionX="-371" positionY="189" width="128" height="150"/>
     </elements>
 </model>

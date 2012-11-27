@@ -9,13 +9,13 @@
 #import "AppDelegate.h"
 #import <RestKit/RestKit.h>
 #import <RestKit/CoreData.h>
-
+#import "CoreDataTest.h"
+#import "IBFunctions.h"
 
 @implementation AppDelegate
 
 - (void)generateSeed {
-    NSURL * base = [NSURL URLWithString:@"http://base.com"];
-    RKObjectManager * objectManager = [RKObjectManager objectManagerWithBaseURL:base];
+    RKObjectManager * objectManager = [RKObjectManager objectManagerWithBaseURLString:@"http://ec.com"];
     
     NSString *seedDatabaseName = nil;
     NSString *databaseName = RKDefaultSeedDatabaseFileName;
@@ -48,16 +48,34 @@
 
 }
 
+- (void)initDBIfNecessary {
+    RKObjectManager * objectManager = [RKObjectManager objectManagerWithBaseURLString:@"http://ec.com"];
+    
+    NSString *seedDatabaseName = RKDefaultSeedDatabaseFileName;
+    NSString *databaseName = @"CoreDataStore.sqlite";
+    
+    objectManager.objectStore = [RKManagedObjectStore objectStoreWithStoreFilename:databaseName usingSeedDatabaseName:seedDatabaseName managedObjectModel:nil delegate:self];
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
 #ifdef RESTKIT_GENERATE_SEED_DB
     [self generateSeed];
+#else
+    [self initDBIfNecessary];
 #endif   
+    [self test];
     // Override point for customization after application launch.
     UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
     UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
     splitViewController.delegate = (id)navigationController.topViewController;
     return YES;
+}
+
+- (void) test {
+    NSLog(@"%@", IB_DOCUMENTS_DIR());
+    // [CoreDataTest createData];
+    [CoreDataTest queryBrand];
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
