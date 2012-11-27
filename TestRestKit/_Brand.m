@@ -6,13 +6,17 @@
 const struct BrandAttributes BrandAttributes = {
 	.brandID = @"brandID",
 	.displayOrder = @"displayOrder",
+	.is_internal = @"is_internal",
 	.name = @"name",
+	.show_sub_brnd = @"show_sub_brnd",
 };
 
 const struct BrandRelationships BrandRelationships = {
 	.children = @"children",
 	.parent = @"parent",
 	.productCategories = @"productCategories",
+	.subBrands = @"subBrands",
+	.topBrand = @"topBrand",
 };
 
 const struct BrandFetchedProperties BrandFetchedProperties = {
@@ -51,6 +55,16 @@ const struct BrandFetchedProperties BrandFetchedProperties = {
 	}
 	if ([key isEqualToString:@"displayOrderValue"]) {
 		NSSet *affectingKey = [NSSet setWithObject:@"displayOrder"];
+		keyPaths = [keyPaths setByAddingObjectsFromSet:affectingKey];
+		return keyPaths;
+	}
+	if ([key isEqualToString:@"is_internalValue"]) {
+		NSSet *affectingKey = [NSSet setWithObject:@"is_internal"];
+		keyPaths = [keyPaths setByAddingObjectsFromSet:affectingKey];
+		return keyPaths;
+	}
+	if ([key isEqualToString:@"show_sub_brndValue"]) {
+		NSSet *affectingKey = [NSSet setWithObject:@"show_sub_brnd"];
 		keyPaths = [keyPaths setByAddingObjectsFromSet:affectingKey];
 		return keyPaths;
 	}
@@ -113,8 +127,60 @@ const struct BrandFetchedProperties BrandFetchedProperties = {
 
 
 
+@dynamic is_internal;
+
+
+
+- (int16_t)is_internalValue {
+	NSNumber *result = [self is_internal];
+	return [result shortValue];
+}
+
+- (void)setIs_internalValue:(int16_t)value_ {
+	[self setIs_internal:[NSNumber numberWithShort:value_]];
+}
+
+- (int16_t)primitiveIs_internalValue {
+	NSNumber *result = [self primitiveIs_internal];
+	return [result shortValue];
+}
+
+- (void)setPrimitiveIs_internalValue:(int16_t)value_ {
+	[self setPrimitiveIs_internal:[NSNumber numberWithShort:value_]];
+}
+
+
+
+
+
 @dynamic name;
 
+
+
+
+
+
+@dynamic show_sub_brnd;
+
+
+
+- (int16_t)show_sub_brndValue {
+	NSNumber *result = [self show_sub_brnd];
+	return [result shortValue];
+}
+
+- (void)setShow_sub_brndValue:(int16_t)value_ {
+	[self setShow_sub_brnd:[NSNumber numberWithShort:value_]];
+}
+
+- (int16_t)primitiveShow_sub_brndValue {
+	NSNumber *result = [self primitiveShow_sub_brnd];
+	return [result shortValue];
+}
+
+- (void)setPrimitiveShow_sub_brndValue:(int16_t)value_ {
+	[self setPrimitiveShow_sub_brnd:[NSNumber numberWithShort:value_]];
+}
 
 
 
@@ -148,6 +214,23 @@ const struct BrandFetchedProperties BrandFetchedProperties = {
 	[self didAccessValueForKey:@"productCategories"];
 	return result;
 }
+	
+
+@dynamic subBrands;
+
+	
+- (NSMutableSet*)subBrandsSet {
+	[self willAccessValueForKey:@"subBrands"];
+  
+	NSMutableSet *result = (NSMutableSet*)[self mutableSetValueForKey:@"subBrands"];
+  
+	[self didAccessValueForKey:@"subBrands"];
+	return result;
+}
+	
+
+@dynamic topBrand;
+
 	
 
 

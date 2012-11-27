@@ -14,14 +14,8 @@
 
 @implementation AppDelegate
 
-- (void)generateSeed {
-    RKObjectManager * objectManager = [RKObjectManager objectManagerWithBaseURLString:@"http://ec.com"];
-    
-    NSString *seedDatabaseName = nil;
-    NSString *databaseName = RKDefaultSeedDatabaseFileName;
-    
-    objectManager.objectStore = [RKManagedObjectStore objectStoreWithStoreFilename:databaseName usingSeedDatabaseName:seedDatabaseName managedObjectModel:nil delegate:self];
-    
+- (void) seedOld:(RKObjectManager *) objectManager {
+
     RKManagedObjectMapping *brandMapping = [RKManagedObjectMapping mappingForEntityWithName:@"Brand" inManagedObjectStore:objectManager.objectStore];
     brandMapping.primaryKeyAttribute = @"brandID";
     [brandMapping mapKeyPath:@"id" toAttribute:@"brandID"];
@@ -45,7 +39,19 @@
     RKManagedObjectSeeder *seeder = [RKManagedObjectSeeder objectSeederWithObjectManager:objectManager];
     [seeder seedObjectsFromFile:@"brands.json" withObjectMapping:brandMapping];
     [seeder finalizeSeedingAndExit];
+}
 
+
+
+- (void)generateSeed {
+    RKObjectManager * objectManager = [RKObjectManager objectManagerWithBaseURLString:@"http://ec.com"];
+    
+    NSString *seedDatabaseName = nil;
+    NSString *databaseName = RKDefaultSeedDatabaseFileName;
+    
+    objectManager.objectStore = [RKManagedObjectStore objectStoreWithStoreFilename:databaseName usingSeedDatabaseName:seedDatabaseName managedObjectModel:nil delegate:self];
+    [self seedOld:objectManager];
+    
 }
 
 - (void)initDBIfNecessary {
