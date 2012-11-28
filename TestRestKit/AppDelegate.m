@@ -41,6 +41,10 @@
     [seeder finalizeSeedingAndExit];
 }
 
+- (void) seedNew:(RKObjectManager *) objectManager {
+    
+}
+
 
 
 - (void)generateSeed {
