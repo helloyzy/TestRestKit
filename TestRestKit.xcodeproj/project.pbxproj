@@ -129,6 +129,7 @@
 		00AB84B21664E67700E5EB97 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 002E48E4166357A70003B4B4 /* Default@2x.png */; };
 		00AB84B31664E67700E5EB97 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 002E48E6166357A70003B4B4 /* Default-568h@2x.png */; };
 		00AB84B41664E67700E5EB97 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002E48E8166357A70003B4B4 /* MainStoryboard.storyboard */; };
+		00BCD44A1665C87800F3D5D6 /* ECBrand1.json in Resources */ = {isa = PBXBuildFile; fileRef = 00BCD4491665C87800F3D5D6 /* ECBrand1.json */; };
 		E2AC495616650C2B00009863 /* brands.json in Resources */ = {isa = PBXBuildFile; fileRef = E2AC495516650C2B00009863 /* brands.json */; };
 		E2AC49E61665224300009863 /* ECBrand.json in Resources */ = {isa = PBXBuildFile; fileRef = E2AC49E51665224300009863 /* ECBrand.json */; };
 		E2AC49E81665240700009863 /* RKSeedDatabase.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = E2AC49E71665240700009863 /* RKSeedDatabase.sqlite */; };
@@ -284,6 +285,7 @@
 		00AB8457166497CC00E5EB97 /* IBTargetAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBTargetAction.m; sourceTree = "<group>"; };
 		00AB84731664986000E5EB97 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		00AB84B91664E67700E5EB97 /* TestRestKit copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TestRestKit copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00BCD4491665C87800F3D5D6 /* ECBrand1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ECBrand1.json; sourceTree = SOURCE_ROOT; };
 		E2AC495516650C2B00009863 /* brands.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = brands.json; sourceTree = SOURCE_ROOT; };
 		E2AC49E51665224300009863 /* ECBrand.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ECBrand.json; sourceTree = SOURCE_ROOT; };
 		E2AC49E71665240700009863 /* RKSeedDatabase.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = RKSeedDatabase.sqlite; sourceTree = SOURCE_ROOT; };
@@ -388,6 +390,7 @@
 		002E48D7166357A70003B4B4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				00BCD4491665C87800F3D5D6 /* ECBrand1.json */,
 				E2AC49E71665240700009863 /* RKSeedDatabase.sqlite */,
 				E2AC49E51665224300009863 /* ECBrand.json */,
 				E2AC495516650C2B00009863 /* brands.json */,
@@ -722,6 +725,7 @@
 				00AB84B41664E67700E5EB97 /* MainStoryboard.storyboard in Resources */,
 				E2AC495616650C2B00009863 /* brands.json in Resources */,
 				E2AC49E61665224300009863 /* ECBrand.json in Resources */,
+				00BCD44A1665C87800F3D5D6 /* ECBrand1.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

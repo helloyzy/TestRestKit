@@ -4,8 +4,11 @@
         <attribute name="brandID" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="displayOrder" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="is_internal" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="mkg_dig_aset_ownr_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="prnt_brnd_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="show_sub_brnd" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="top_brnd_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <relationship name="children" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Brand" inverseName="parent" inverseEntity="Brand" syncable="YES"/>
         <relationship name="parent" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Brand" inverseName="children" inverseEntity="Brand" syncable="YES"/>
         <relationship name="productCategories" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ProductCategory" inverseName="brand" inverseEntity="ProductCategory" syncable="YES"/>
@@ -22,7 +25,7 @@
         <relationship name="parent" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="ProductCategory" inverseName="children" inverseEntity="ProductCategory" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Brand" positionX="16" positionY="193" width="128" height="195"/>
+        <element name="Brand" positionX="16" positionY="193" width="128" height="240"/>
         <element name="ProductCategory" positionX="-371" positionY="189" width="128" height="150"/>
     </elements>
 </model>

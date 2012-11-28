@@ -7,8 +7,11 @@ const struct BrandAttributes BrandAttributes = {
 	.brandID = @"brandID",
 	.displayOrder = @"displayOrder",
 	.is_internal = @"is_internal",
+	.mkg_dig_aset_ownr_id = @"mkg_dig_aset_ownr_id",
 	.name = @"name",
+	.prnt_brnd_id = @"prnt_brnd_id",
 	.show_sub_brnd = @"show_sub_brnd",
+	.top_brnd_id = @"top_brnd_id",
 };
 
 const struct BrandRelationships BrandRelationships = {
@@ -63,8 +66,23 @@ const struct BrandFetchedProperties BrandFetchedProperties = {
 		keyPaths = [keyPaths setByAddingObjectsFromSet:affectingKey];
 		return keyPaths;
 	}
+	if ([key isEqualToString:@"mkg_dig_aset_ownr_idValue"]) {
+		NSSet *affectingKey = [NSSet setWithObject:@"mkg_dig_aset_ownr_id"];
+		keyPaths = [keyPaths setByAddingObjectsFromSet:affectingKey];
+		return keyPaths;
+	}
+	if ([key isEqualToString:@"prnt_brnd_idValue"]) {
+		NSSet *affectingKey = [NSSet setWithObject:@"prnt_brnd_id"];
+		keyPaths = [keyPaths setByAddingObjectsFromSet:affectingKey];
+		return keyPaths;
+	}
 	if ([key isEqualToString:@"show_sub_brndValue"]) {
 		NSSet *affectingKey = [NSSet setWithObject:@"show_sub_brnd"];
+		keyPaths = [keyPaths setByAddingObjectsFromSet:affectingKey];
+		return keyPaths;
+	}
+	if ([key isEqualToString:@"top_brnd_idValue"]) {
+		NSSet *affectingKey = [NSSet setWithObject:@"top_brnd_id"];
 		keyPaths = [keyPaths setByAddingObjectsFromSet:affectingKey];
 		return keyPaths;
 	}
@@ -153,8 +171,60 @@ const struct BrandFetchedProperties BrandFetchedProperties = {
 
 
 
+@dynamic mkg_dig_aset_ownr_id;
+
+
+
+- (int16_t)mkg_dig_aset_ownr_idValue {
+	NSNumber *result = [self mkg_dig_aset_ownr_id];
+	return [result shortValue];
+}
+
+- (void)setMkg_dig_aset_ownr_idValue:(int16_t)value_ {
+	[self setMkg_dig_aset_ownr_id:[NSNumber numberWithShort:value_]];
+}
+
+- (int16_t)primitiveMkg_dig_aset_ownr_idValue {
+	NSNumber *result = [self primitiveMkg_dig_aset_ownr_id];
+	return [result shortValue];
+}
+
+- (void)setPrimitiveMkg_dig_aset_ownr_idValue:(int16_t)value_ {
+	[self setPrimitiveMkg_dig_aset_ownr_id:[NSNumber numberWithShort:value_]];
+}
+
+
+
+
+
 @dynamic name;
 
+
+
+
+
+
+@dynamic prnt_brnd_id;
+
+
+
+- (int16_t)prnt_brnd_idValue {
+	NSNumber *result = [self prnt_brnd_id];
+	return [result shortValue];
+}
+
+- (void)setPrnt_brnd_idValue:(int16_t)value_ {
+	[self setPrnt_brnd_id:[NSNumber numberWithShort:value_]];
+}
+
+- (int16_t)primitivePrnt_brnd_idValue {
+	NSNumber *result = [self primitivePrnt_brnd_id];
+	return [result shortValue];
+}
+
+- (void)setPrimitivePrnt_brnd_idValue:(int16_t)value_ {
+	[self setPrimitivePrnt_brnd_id:[NSNumber numberWithShort:value_]];
+}
 
 
 
@@ -180,6 +250,32 @@ const struct BrandFetchedProperties BrandFetchedProperties = {
 
 - (void)setPrimitiveShow_sub_brndValue:(int16_t)value_ {
 	[self setPrimitiveShow_sub_brnd:[NSNumber numberWithShort:value_]];
+}
+
+
+
+
+
+@dynamic top_brnd_id;
+
+
+
+- (int16_t)top_brnd_idValue {
+	NSNumber *result = [self top_brnd_id];
+	return [result shortValue];
+}
+
+- (void)setTop_brnd_idValue:(int16_t)value_ {
+	[self setTop_brnd_id:[NSNumber numberWithShort:value_]];
+}
+
+- (int16_t)primitiveTop_brnd_idValue {
+	NSNumber *result = [self primitiveTop_brnd_id];
+	return [result shortValue];
+}
+
+- (void)setPrimitiveTop_brnd_idValue:(int16_t)value_ {
+	[self setPrimitiveTop_brnd_id:[NSNumber numberWithShort:value_]];
 }
 
 

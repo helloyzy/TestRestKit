@@ -42,6 +42,32 @@
 }
 
 - (void) seedNew:(RKObjectManager *) objectManager {
+    RKManagedObjectMapping *brandMapping = [RKManagedObjectMapping mappingForEntityWithName:@"Brand" inManagedObjectStore:objectManager.objectStore];
+    brandMapping.primaryKeyAttribute = @"brandID";
+    [brandMapping mapKeyPath:@"mkg_brnd_id" toAttribute:@"brandID"];
+    [brandMapping mapKeyPath:@"brnd_nm" toAttribute:@"name"];
+    [brandMapping mapKeyPath:@"dsp_ord" toAttribute:@"displayOrder"];
+    [brandMapping mapAttributes:@"is_internal", @"show_sub_brnd", @"prnt_brnd_id", @"top_brnd_id", @"mkg_dig_aset_ownr_id", nil];
+    
+    [brandMapping hasOne:@"parent" withMapping:brandMapping];
+    [brandMapping connectRelationship:@"parent" withObjectForPrimaryKeyAttribute:@"prnt_brnd_id"];
+    
+    [brandMapping hasOne:@"topBrand" withMapping:brandMapping];
+    [brandMapping connectRelationship:@"topBrand" withObjectForPrimaryKeyAttribute:@"top_brnd_id"];
+    
+    // Register our mappings with the provider
+    [objectManager.mappingProvider setMapping:brandMapping forKeyPath:@"MKG_BRND"];
+    // [[RKObjectManager sharedManager].mappingProvider setMapping:brandMapping forKeyPath:@"MKG_BRND"];
+    
+    RKLogConfigureByName("RestKit/ObjectMapping", RKLogLevelDebug);
+    RKLogConfigureByName("RestKit/CoreData", RKLogLevelDebug);
+    
+    RKManagedObjectSeeder *seeder = [RKManagedObjectSeeder objectSeederWithObjectManager:objectManager];
+    // [seeder seedObjectsFromFile:@"ECBrand.json" withObjectMapping:brandMapping];
+    // use the associated mapping provider with the object manager
+    [seeder seedObjectsFromFiles:@"ECBrand.json", nil];
+    [seeder finalizeSeedingAndExit];
+    
     
 }
 
@@ -54,7 +80,8 @@
     NSString *databaseName = RKDefaultSeedDatabaseFileName;
     
     objectManager.objectStore = [RKManagedObjectStore objectStoreWithStoreFilename:databaseName usingSeedDatabaseName:seedDatabaseName managedObjectModel:nil delegate:self];
-    [self seedOld:objectManager];
+    // [RKObjectManager setSharedManager:objectManager];
+    [self seedNew:objectManager];
     
 }
 
