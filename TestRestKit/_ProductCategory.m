@@ -16,6 +16,7 @@ const struct ProductCategoryAttributes ProductCategoryAttributes = {
 const struct ProductCategoryRelationships ProductCategoryRelationships = {
 	.brand = @"brand",
 	.children = @"children",
+	.fkBrandInfo = @"fkBrandInfo",
 	.parent = @"parent",
 	.productArea = @"productArea",
 };
@@ -238,6 +239,19 @@ const struct ProductCategoryFetchedProperties ProductCategoryFetchedProperties =
 	NSMutableSet *result = (NSMutableSet*)[self mutableSetValueForKey:@"children"];
   
 	[self didAccessValueForKey:@"children"];
+	return result;
+}
+	
+
+@dynamic fkBrandInfo;
+
+	
+- (NSMutableSet*)fkBrandInfoSet {
+	[self willAccessValueForKey:@"fkBrandInfo"];
+  
+	NSMutableSet *result = (NSMutableSet*)[self mutableSetValueForKey:@"fkBrandInfo"];
+  
+	[self didAccessValueForKey:@"fkBrandInfo"];
 	return result;
 }
 	

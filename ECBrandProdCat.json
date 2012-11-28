@@ -1,0 +1,2116 @@
+{
+	"MKG_BRND_PROD_CAT": [
+		{
+		  "mkg_brnd_prod_cat_id": 211,
+		  "mkg_brnd_id": 1,
+		  "mkg_prod_cat_id": 2,
+		  "mkg_dig_aset_ownr_id": 4693
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 212,
+		  "mkg_brnd_id": 1,
+		  "mkg_prod_cat_id": 3,
+		  "mkg_dig_aset_ownr_id": 4694
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 213,
+		  "mkg_brnd_id": 1,
+		  "mkg_prod_cat_id": 4,
+		  "mkg_dig_aset_ownr_id": 4695
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 214,
+		  "mkg_brnd_id": 1,
+		  "mkg_prod_cat_id": 6,
+		  "mkg_dig_aset_ownr_id": 4696
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 234,
+		  "mkg_brnd_id": 1,
+		  "mkg_prod_cat_id": 7,
+		  "mkg_dig_aset_ownr_id": 4716
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 216,
+		  "mkg_brnd_id": 1,
+		  "mkg_prod_cat_id": 8,
+		  "mkg_dig_aset_ownr_id": 4698
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 263,
+		  "mkg_brnd_id": 1,
+		  "mkg_prod_cat_id": 12,
+		  "mkg_dig_aset_ownr_id": 4745
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 217,
+		  "mkg_brnd_id": 1,
+		  "mkg_prod_cat_id": 13,
+		  "mkg_dig_aset_ownr_id": 4699
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 218,
+		  "mkg_brnd_id": 1,
+		  "mkg_prod_cat_id": 15,
+		  "mkg_dig_aset_ownr_id": 4700
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 219,
+		  "mkg_brnd_id": 1,
+		  "mkg_prod_cat_id": 16,
+		  "mkg_dig_aset_ownr_id": 4701
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 242,
+		  "mkg_brnd_id": 1,
+		  "mkg_prod_cat_id": 17,
+		  "mkg_dig_aset_ownr_id": 4724
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 246,
+		  "mkg_brnd_id": 1,
+		  "mkg_prod_cat_id": 18,
+		  "mkg_dig_aset_ownr_id": 4728
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 265,
+		  "mkg_brnd_id": 1,
+		  "mkg_prod_cat_id": 19,
+		  "mkg_dig_aset_ownr_id": 4747
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 248,
+		  "mkg_brnd_id": 1,
+		  "mkg_prod_cat_id": 20,
+		  "mkg_dig_aset_ownr_id": 4730
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 235,
+		  "mkg_brnd_id": 1,
+		  "mkg_prod_cat_id": 23,
+		  "mkg_dig_aset_ownr_id": 4717
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 220,
+		  "mkg_brnd_id": 1,
+		  "mkg_prod_cat_id": 24,
+		  "mkg_dig_aset_ownr_id": 4702
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 223,
+		  "mkg_brnd_id": 1,
+		  "mkg_prod_cat_id": 26,
+		  "mkg_dig_aset_ownr_id": 4705
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 224,
+		  "mkg_brnd_id": 1,
+		  "mkg_prod_cat_id": 28,
+		  "mkg_dig_aset_ownr_id": 4706
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 225,
+		  "mkg_brnd_id": 1,
+		  "mkg_prod_cat_id": 31,
+		  "mkg_dig_aset_ownr_id": 4707
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 267,
+		  "mkg_brnd_id": 1,
+		  "mkg_prod_cat_id": 37,
+		  "mkg_dig_aset_ownr_id": 4749
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 226,
+		  "mkg_brnd_id": 1,
+		  "mkg_prod_cat_id": 39,
+		  "mkg_dig_aset_ownr_id": 4708
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 227,
+		  "mkg_brnd_id": 1,
+		  "mkg_prod_cat_id": 40,
+		  "mkg_dig_aset_ownr_id": 4709
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 228,
+		  "mkg_brnd_id": 1,
+		  "mkg_prod_cat_id": 41,
+		  "mkg_dig_aset_ownr_id": 4710
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 230,
+		  "mkg_brnd_id": 1,
+		  "mkg_prod_cat_id": 42,
+		  "mkg_dig_aset_ownr_id": 4712
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 229,
+		  "mkg_brnd_id": 1,
+		  "mkg_prod_cat_id": 43,
+		  "mkg_dig_aset_ownr_id": 4711
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 231,
+		  "mkg_brnd_id": 1,
+		  "mkg_prod_cat_id": 44,
+		  "mkg_dig_aset_ownr_id": 4713
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 232,
+		  "mkg_brnd_id": 1,
+		  "mkg_prod_cat_id": 45,
+		  "mkg_dig_aset_ownr_id": 4714
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 233,
+		  "mkg_brnd_id": 1,
+		  "mkg_prod_cat_id": 46,
+		  "mkg_dig_aset_ownr_id": 4715
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 236,
+		  "mkg_brnd_id": 1,
+		  "mkg_prod_cat_id": 47,
+		  "mkg_dig_aset_ownr_id": 4718
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 268,
+		  "mkg_brnd_id": 1,
+		  "mkg_prod_cat_id": 48,
+		  "mkg_dig_aset_ownr_id": 4750
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 1,
+		  "mkg_brnd_id": 2,
+		  "mkg_prod_cat_id": 2,
+		  "mkg_dig_aset_ownr_id": 935
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 2,
+		  "mkg_brnd_id": 2,
+		  "mkg_prod_cat_id": 3,
+		  "mkg_dig_aset_ownr_id": 936
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 3,
+		  "mkg_brnd_id": 2,
+		  "mkg_prod_cat_id": 4,
+		  "mkg_dig_aset_ownr_id": 937
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 4,
+		  "mkg_brnd_id": 2,
+		  "mkg_prod_cat_id": 6,
+		  "mkg_dig_aset_ownr_id": 938
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 21,
+		  "mkg_brnd_id": 2,
+		  "mkg_prod_cat_id": 8,
+		  "mkg_dig_aset_ownr_id": 955
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 6,
+		  "mkg_brnd_id": 2,
+		  "mkg_prod_cat_id": 13,
+		  "mkg_dig_aset_ownr_id": 940
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 7,
+		  "mkg_brnd_id": 2,
+		  "mkg_prod_cat_id": 15,
+		  "mkg_dig_aset_ownr_id": 941
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 8,
+		  "mkg_brnd_id": 2,
+		  "mkg_prod_cat_id": 16,
+		  "mkg_dig_aset_ownr_id": 942
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 241,
+		  "mkg_brnd_id": 2,
+		  "mkg_prod_cat_id": 17,
+		  "mkg_dig_aset_ownr_id": 4723
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 245,
+		  "mkg_brnd_id": 2,
+		  "mkg_prod_cat_id": 18,
+		  "mkg_dig_aset_ownr_id": 4727
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 247,
+		  "mkg_brnd_id": 2,
+		  "mkg_prod_cat_id": 20,
+		  "mkg_dig_aset_ownr_id": 4729
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 324,
+		  "mkg_brnd_id": 2,
+		  "mkg_prod_cat_id": 22,
+		  "mkg_dig_aset_ownr_id": 5785
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 9,
+		  "mkg_brnd_id": 2,
+		  "mkg_prod_cat_id": 24,
+		  "mkg_dig_aset_ownr_id": 943
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 22,
+		  "mkg_brnd_id": 2,
+		  "mkg_prod_cat_id": 26,
+		  "mkg_dig_aset_ownr_id": 956
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 12,
+		  "mkg_brnd_id": 2,
+		  "mkg_prod_cat_id": 28,
+		  "mkg_dig_aset_ownr_id": 946
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 13,
+		  "mkg_brnd_id": 2,
+		  "mkg_prod_cat_id": 31,
+		  "mkg_dig_aset_ownr_id": 947
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 365,
+		  "mkg_brnd_id": 2,
+		  "mkg_prod_cat_id": 36,
+		  "mkg_dig_aset_ownr_id": 7400
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 355,
+		  "mkg_brnd_id": 2,
+		  "mkg_prod_cat_id": 37,
+		  "mkg_dig_aset_ownr_id": 7217
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 14,
+		  "mkg_brnd_id": 2,
+		  "mkg_prod_cat_id": 39,
+		  "mkg_dig_aset_ownr_id": 948
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 15,
+		  "mkg_brnd_id": 2,
+		  "mkg_prod_cat_id": 40,
+		  "mkg_dig_aset_ownr_id": 949
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 16,
+		  "mkg_brnd_id": 2,
+		  "mkg_prod_cat_id": 41,
+		  "mkg_dig_aset_ownr_id": 950
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 23,
+		  "mkg_brnd_id": 2,
+		  "mkg_prod_cat_id": 42,
+		  "mkg_dig_aset_ownr_id": 957
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 17,
+		  "mkg_brnd_id": 2,
+		  "mkg_prod_cat_id": 43,
+		  "mkg_dig_aset_ownr_id": 951
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 18,
+		  "mkg_brnd_id": 2,
+		  "mkg_prod_cat_id": 44,
+		  "mkg_dig_aset_ownr_id": 952
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 19,
+		  "mkg_brnd_id": 2,
+		  "mkg_prod_cat_id": 45,
+		  "mkg_dig_aset_ownr_id": 953
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 20,
+		  "mkg_brnd_id": 2,
+		  "mkg_prod_cat_id": 46,
+		  "mkg_dig_aset_ownr_id": 954
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 364,
+		  "mkg_brnd_id": 2,
+		  "mkg_prod_cat_id": 63,
+		  "mkg_dig_aset_ownr_id": 7399
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 24,
+		  "mkg_brnd_id": 3,
+		  "mkg_prod_cat_id": 3,
+		  "mkg_dig_aset_ownr_id": 958
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 25,
+		  "mkg_brnd_id": 3,
+		  "mkg_prod_cat_id": 4,
+		  "mkg_dig_aset_ownr_id": 959
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 26,
+		  "mkg_brnd_id": 3,
+		  "mkg_prod_cat_id": 6,
+		  "mkg_dig_aset_ownr_id": 960
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 27,
+		  "mkg_brnd_id": 3,
+		  "mkg_prod_cat_id": 7,
+		  "mkg_dig_aset_ownr_id": 961
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 38,
+		  "mkg_brnd_id": 3,
+		  "mkg_prod_cat_id": 8,
+		  "mkg_dig_aset_ownr_id": 972
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 117,
+		  "mkg_brnd_id": 3,
+		  "mkg_prod_cat_id": 12,
+		  "mkg_dig_aset_ownr_id": 1384
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 39,
+		  "mkg_brnd_id": 3,
+		  "mkg_prod_cat_id": 13,
+		  "mkg_dig_aset_ownr_id": 973
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 40,
+		  "mkg_brnd_id": 3,
+		  "mkg_prod_cat_id": 15,
+		  "mkg_dig_aset_ownr_id": 974
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 28,
+		  "mkg_brnd_id": 3,
+		  "mkg_prod_cat_id": 16,
+		  "mkg_dig_aset_ownr_id": 962
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 264,
+		  "mkg_brnd_id": 3,
+		  "mkg_prod_cat_id": 17,
+		  "mkg_dig_aset_ownr_id": 4746
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 118,
+		  "mkg_brnd_id": 3,
+		  "mkg_prod_cat_id": 18,
+		  "mkg_dig_aset_ownr_id": 1396
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 119,
+		  "mkg_brnd_id": 3,
+		  "mkg_prod_cat_id": 19,
+		  "mkg_dig_aset_ownr_id": 1401
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 120,
+		  "mkg_brnd_id": 3,
+		  "mkg_prod_cat_id": 20,
+		  "mkg_dig_aset_ownr_id": 1408
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 29,
+		  "mkg_brnd_id": 3,
+		  "mkg_prod_cat_id": 23,
+		  "mkg_dig_aset_ownr_id": 963
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 30,
+		  "mkg_brnd_id": 3,
+		  "mkg_prod_cat_id": 24,
+		  "mkg_dig_aset_ownr_id": 964
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 41,
+		  "mkg_brnd_id": 3,
+		  "mkg_prod_cat_id": 26,
+		  "mkg_dig_aset_ownr_id": 975
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 31,
+		  "mkg_brnd_id": 3,
+		  "mkg_prod_cat_id": 28,
+		  "mkg_dig_aset_ownr_id": 965
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 32,
+		  "mkg_brnd_id": 3,
+		  "mkg_prod_cat_id": 31,
+		  "mkg_dig_aset_ownr_id": 966
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 523,
+		  "mkg_brnd_id": 3,
+		  "mkg_prod_cat_id": 35,
+		  "mkg_dig_aset_ownr_id": 11921
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 349,
+		  "mkg_brnd_id": 3,
+		  "mkg_prod_cat_id": 36,
+		  "mkg_dig_aset_ownr_id": 7042
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 125,
+		  "mkg_brnd_id": 3,
+		  "mkg_prod_cat_id": 37,
+		  "mkg_dig_aset_ownr_id": 1681
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 126,
+		  "mkg_brnd_id": 3,
+		  "mkg_prod_cat_id": 39,
+		  "mkg_dig_aset_ownr_id": 1684
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 127,
+		  "mkg_brnd_id": 3,
+		  "mkg_prod_cat_id": 40,
+		  "mkg_dig_aset_ownr_id": 1687
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 33,
+		  "mkg_brnd_id": 3,
+		  "mkg_prod_cat_id": 41,
+		  "mkg_dig_aset_ownr_id": 967
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 42,
+		  "mkg_brnd_id": 3,
+		  "mkg_prod_cat_id": 42,
+		  "mkg_dig_aset_ownr_id": 976
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 34,
+		  "mkg_brnd_id": 3,
+		  "mkg_prod_cat_id": 43,
+		  "mkg_dig_aset_ownr_id": 968
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 35,
+		  "mkg_brnd_id": 3,
+		  "mkg_prod_cat_id": 44,
+		  "mkg_dig_aset_ownr_id": 969
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 36,
+		  "mkg_brnd_id": 3,
+		  "mkg_prod_cat_id": 46,
+		  "mkg_dig_aset_ownr_id": 970
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 37,
+		  "mkg_brnd_id": 3,
+		  "mkg_prod_cat_id": 47,
+		  "mkg_dig_aset_ownr_id": 971
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 128,
+		  "mkg_brnd_id": 3,
+		  "mkg_prod_cat_id": 48,
+		  "mkg_dig_aset_ownr_id": 1787
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 494,
+		  "mkg_brnd_id": 3,
+		  "mkg_prod_cat_id": 49,
+		  "mkg_dig_aset_ownr_id": 10784
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 345,
+		  "mkg_brnd_id": 3,
+		  "mkg_prod_cat_id": 63,
+		  "mkg_dig_aset_ownr_id": 6766
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 525,
+		  "mkg_brnd_id": 3,
+		  "mkg_prod_cat_id": 73,
+		  "mkg_dig_aset_ownr_id": 12276
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 79,
+		  "mkg_brnd_id": 4,
+		  "mkg_prod_cat_id": 3,
+		  "mkg_dig_aset_ownr_id": 1015
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 81,
+		  "mkg_brnd_id": 4,
+		  "mkg_prod_cat_id": 4,
+		  "mkg_dig_aset_ownr_id": 1021
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 83,
+		  "mkg_brnd_id": 4,
+		  "mkg_prod_cat_id": 6,
+		  "mkg_dig_aset_ownr_id": 1060
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 239,
+		  "mkg_brnd_id": 4,
+		  "mkg_prod_cat_id": 8,
+		  "mkg_dig_aset_ownr_id": 4721
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 86,
+		  "mkg_brnd_id": 4,
+		  "mkg_prod_cat_id": 13,
+		  "mkg_dig_aset_ownr_id": 1081
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 88,
+		  "mkg_brnd_id": 4,
+		  "mkg_prod_cat_id": 15,
+		  "mkg_dig_aset_ownr_id": 1089
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 244,
+		  "mkg_brnd_id": 4,
+		  "mkg_prod_cat_id": 16,
+		  "mkg_dig_aset_ownr_id": 4726
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 243,
+		  "mkg_brnd_id": 4,
+		  "mkg_prod_cat_id": 17,
+		  "mkg_dig_aset_ownr_id": 4725
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 91,
+		  "mkg_brnd_id": 4,
+		  "mkg_prod_cat_id": 18,
+		  "mkg_dig_aset_ownr_id": 1098
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 93,
+		  "mkg_brnd_id": 4,
+		  "mkg_prod_cat_id": 20,
+		  "mkg_dig_aset_ownr_id": 1104
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 95,
+		  "mkg_brnd_id": 4,
+		  "mkg_prod_cat_id": 24,
+		  "mkg_dig_aset_ownr_id": 1110
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 249,
+		  "mkg_brnd_id": 4,
+		  "mkg_prod_cat_id": 26,
+		  "mkg_dig_aset_ownr_id": 4731
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 250,
+		  "mkg_brnd_id": 4,
+		  "mkg_prod_cat_id": 28,
+		  "mkg_dig_aset_ownr_id": 4732
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 255,
+		  "mkg_brnd_id": 4,
+		  "mkg_prod_cat_id": 31,
+		  "mkg_dig_aset_ownr_id": 4737
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 350,
+		  "mkg_brnd_id": 4,
+		  "mkg_prod_cat_id": 36,
+		  "mkg_dig_aset_ownr_id": 7065
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 356,
+		  "mkg_brnd_id": 4,
+		  "mkg_prod_cat_id": 37,
+		  "mkg_dig_aset_ownr_id": 7218
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 103,
+		  "mkg_brnd_id": 4,
+		  "mkg_prod_cat_id": 39,
+		  "mkg_dig_aset_ownr_id": 1148
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 105,
+		  "mkg_brnd_id": 4,
+		  "mkg_prod_cat_id": 40,
+		  "mkg_dig_aset_ownr_id": 1154
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 107,
+		  "mkg_brnd_id": 4,
+		  "mkg_prod_cat_id": 41,
+		  "mkg_dig_aset_ownr_id": 1160
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 261,
+		  "mkg_brnd_id": 4,
+		  "mkg_prod_cat_id": 42,
+		  "mkg_dig_aset_ownr_id": 4743
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 109,
+		  "mkg_brnd_id": 4,
+		  "mkg_prod_cat_id": 43,
+		  "mkg_dig_aset_ownr_id": 1190
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 111,
+		  "mkg_brnd_id": 4,
+		  "mkg_prod_cat_id": 44,
+		  "mkg_dig_aset_ownr_id": 1196
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 113,
+		  "mkg_brnd_id": 4,
+		  "mkg_prod_cat_id": 45,
+		  "mkg_dig_aset_ownr_id": 1202
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 115,
+		  "mkg_brnd_id": 4,
+		  "mkg_prod_cat_id": 46,
+		  "mkg_dig_aset_ownr_id": 1208
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 346,
+		  "mkg_brnd_id": 4,
+		  "mkg_prod_cat_id": 63,
+		  "mkg_dig_aset_ownr_id": 6768
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 78,
+		  "mkg_brnd_id": 5,
+		  "mkg_prod_cat_id": 2,
+		  "mkg_dig_aset_ownr_id": 1012
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 80,
+		  "mkg_brnd_id": 5,
+		  "mkg_prod_cat_id": 3,
+		  "mkg_dig_aset_ownr_id": 1018
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 82,
+		  "mkg_brnd_id": 5,
+		  "mkg_prod_cat_id": 4,
+		  "mkg_dig_aset_ownr_id": 1034
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 84,
+		  "mkg_brnd_id": 5,
+		  "mkg_prod_cat_id": 6,
+		  "mkg_dig_aset_ownr_id": 1065
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 87,
+		  "mkg_brnd_id": 5,
+		  "mkg_prod_cat_id": 13,
+		  "mkg_dig_aset_ownr_id": 1086
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 89,
+		  "mkg_brnd_id": 5,
+		  "mkg_prod_cat_id": 15,
+		  "mkg_dig_aset_ownr_id": 1092
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 240,
+		  "mkg_brnd_id": 5,
+		  "mkg_prod_cat_id": 16,
+		  "mkg_dig_aset_ownr_id": 4722
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 90,
+		  "mkg_brnd_id": 5,
+		  "mkg_prod_cat_id": 17,
+		  "mkg_dig_aset_ownr_id": 1095
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 92,
+		  "mkg_brnd_id": 5,
+		  "mkg_prod_cat_id": 18,
+		  "mkg_dig_aset_ownr_id": 1101
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 94,
+		  "mkg_brnd_id": 5,
+		  "mkg_prod_cat_id": 20,
+		  "mkg_dig_aset_ownr_id": 1107
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 254,
+		  "mkg_brnd_id": 5,
+		  "mkg_prod_cat_id": 26,
+		  "mkg_dig_aset_ownr_id": 4736
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 253,
+		  "mkg_brnd_id": 5,
+		  "mkg_prod_cat_id": 28,
+		  "mkg_dig_aset_ownr_id": 4735
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 258,
+		  "mkg_brnd_id": 5,
+		  "mkg_prod_cat_id": 31,
+		  "mkg_dig_aset_ownr_id": 4740
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 351,
+		  "mkg_brnd_id": 5,
+		  "mkg_prod_cat_id": 36,
+		  "mkg_dig_aset_ownr_id": 7066
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 357,
+		  "mkg_brnd_id": 5,
+		  "mkg_prod_cat_id": 37,
+		  "mkg_dig_aset_ownr_id": 7219
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 104,
+		  "mkg_brnd_id": 5,
+		  "mkg_prod_cat_id": 39,
+		  "mkg_dig_aset_ownr_id": 1151
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 106,
+		  "mkg_brnd_id": 5,
+		  "mkg_prod_cat_id": 40,
+		  "mkg_dig_aset_ownr_id": 1157
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 108,
+		  "mkg_brnd_id": 5,
+		  "mkg_prod_cat_id": 41,
+		  "mkg_dig_aset_ownr_id": 1173
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 262,
+		  "mkg_brnd_id": 5,
+		  "mkg_prod_cat_id": 42,
+		  "mkg_dig_aset_ownr_id": 4744
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 110,
+		  "mkg_brnd_id": 5,
+		  "mkg_prod_cat_id": 43,
+		  "mkg_dig_aset_ownr_id": 1193
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 112,
+		  "mkg_brnd_id": 5,
+		  "mkg_prod_cat_id": 44,
+		  "mkg_dig_aset_ownr_id": 1199
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 114,
+		  "mkg_brnd_id": 5,
+		  "mkg_prod_cat_id": 45,
+		  "mkg_dig_aset_ownr_id": 1205
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 116,
+		  "mkg_brnd_id": 5,
+		  "mkg_prod_cat_id": 46,
+		  "mkg_dig_aset_ownr_id": 1211
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 347,
+		  "mkg_brnd_id": 5,
+		  "mkg_prod_cat_id": 63,
+		  "mkg_dig_aset_ownr_id": 6769
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 43,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 4,
+		  "mkg_dig_aset_ownr_id": 977
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 44,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 5,
+		  "mkg_dig_aset_ownr_id": 978
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 45,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 6,
+		  "mkg_dig_aset_ownr_id": 979
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 46,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 7,
+		  "mkg_dig_aset_ownr_id": 980
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 75,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 8,
+		  "mkg_dig_aset_ownr_id": 1009
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 47,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 9,
+		  "mkg_dig_aset_ownr_id": 981
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 48,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 10,
+		  "mkg_dig_aset_ownr_id": 982
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 50,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 12,
+		  "mkg_dig_aset_ownr_id": 984
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 51,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 14,
+		  "mkg_dig_aset_ownr_id": 985
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 52,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 15,
+		  "mkg_dig_aset_ownr_id": 986
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 53,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 16,
+		  "mkg_dig_aset_ownr_id": 987
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 275,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 17,
+		  "mkg_dig_aset_ownr_id": 4757
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 274,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 19,
+		  "mkg_dig_aset_ownr_id": 4756
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 237,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 20,
+		  "mkg_dig_aset_ownr_id": 4719
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 281,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 22,
+		  "mkg_dig_aset_ownr_id": 4763
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 55,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 23,
+		  "mkg_dig_aset_ownr_id": 989
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 56,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 24,
+		  "mkg_dig_aset_ownr_id": 990
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 76,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 26,
+		  "mkg_dig_aset_ownr_id": 1010
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 59,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 28,
+		  "mkg_dig_aset_ownr_id": 993
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 60,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 31,
+		  "mkg_dig_aset_ownr_id": 994
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 61,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 34,
+		  "mkg_dig_aset_ownr_id": 995
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 536,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 35,
+		  "mkg_dig_aset_ownr_id": 12616
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 62,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 36,
+		  "mkg_dig_aset_ownr_id": 996
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 63,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 38,
+		  "mkg_dig_aset_ownr_id": 997
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 64,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 40,
+		  "mkg_dig_aset_ownr_id": 998
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 65,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 41,
+		  "mkg_dig_aset_ownr_id": 999
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 74,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 42,
+		  "mkg_dig_aset_ownr_id": 1008
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 66,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 43,
+		  "mkg_dig_aset_ownr_id": 1000
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 67,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 44,
+		  "mkg_dig_aset_ownr_id": 1001
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 68,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 46,
+		  "mkg_dig_aset_ownr_id": 1002
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 69,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 47,
+		  "mkg_dig_aset_ownr_id": 1003
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 300,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 48,
+		  "mkg_dig_aset_ownr_id": 4782
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 303,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 49,
+		  "mkg_dig_aset_ownr_id": 4785
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 238,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 50,
+		  "mkg_dig_aset_ownr_id": 4720
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 70,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 51,
+		  "mkg_dig_aset_ownr_id": 1004
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 71,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 52,
+		  "mkg_dig_aset_ownr_id": 1005
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 72,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 53,
+		  "mkg_dig_aset_ownr_id": 1006
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 306,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 54,
+		  "mkg_dig_aset_ownr_id": 4788
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 307,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 55,
+		  "mkg_dig_aset_ownr_id": 4789
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 308,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 56,
+		  "mkg_dig_aset_ownr_id": 4790
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 309,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 57,
+		  "mkg_dig_aset_ownr_id": 4791
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 310,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 58,
+		  "mkg_dig_aset_ownr_id": 4792
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 311,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 59,
+		  "mkg_dig_aset_ownr_id": 4793
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 73,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 60,
+		  "mkg_dig_aset_ownr_id": 1007
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 381,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 63,
+		  "mkg_dig_aset_ownr_id": 8441
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 483,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 65,
+		  "mkg_dig_aset_ownr_id": 10373
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 484,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 66,
+		  "mkg_dig_aset_ownr_id": 10374
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 485,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 67,
+		  "mkg_dig_aset_ownr_id": 10375
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 486,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 68,
+		  "mkg_dig_aset_ownr_id": 10376
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 487,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 69,
+		  "mkg_dig_aset_ownr_id": 10377
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 488,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 70,
+		  "mkg_dig_aset_ownr_id": 10378
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 489,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 71,
+		  "mkg_dig_aset_ownr_id": 10379
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 490,
+		  "mkg_brnd_id": 6,
+		  "mkg_prod_cat_id": 72,
+		  "mkg_dig_aset_ownr_id": 10380
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 137,
+		  "mkg_brnd_id": 7,
+		  "mkg_prod_cat_id": 7,
+		  "mkg_dig_aset_ownr_id": 2222
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 161,
+		  "mkg_brnd_id": 7,
+		  "mkg_prod_cat_id": 23,
+		  "mkg_dig_aset_ownr_id": 2788
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 299,
+		  "mkg_brnd_id": 7,
+		  "mkg_prod_cat_id": 47,
+		  "mkg_dig_aset_ownr_id": 4781
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 196,
+		  "mkg_brnd_id": 7,
+		  "mkg_prod_cat_id": 48,
+		  "mkg_dig_aset_ownr_id": 4364
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 369,
+		  "mkg_brnd_id": 7,
+		  "mkg_prod_cat_id": 49,
+		  "mkg_dig_aset_ownr_id": 7994
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 495,
+		  "mkg_brnd_id": 7,
+		  "mkg_prod_cat_id": 73,
+		  "mkg_dig_aset_ownr_id": 10889
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 424,
+		  "mkg_brnd_id": 8,
+		  "mkg_prod_cat_id": 2,
+		  "mkg_dig_aset_ownr_id": 9239
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 129,
+		  "mkg_brnd_id": 8,
+		  "mkg_prod_cat_id": 4,
+		  "mkg_dig_aset_ownr_id": 1821
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 133,
+		  "mkg_brnd_id": 8,
+		  "mkg_prod_cat_id": 6,
+		  "mkg_dig_aset_ownr_id": 2064
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 271,
+		  "mkg_brnd_id": 8,
+		  "mkg_prod_cat_id": 8,
+		  "mkg_dig_aset_ownr_id": 4753
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 145,
+		  "mkg_brnd_id": 8,
+		  "mkg_prod_cat_id": 12,
+		  "mkg_dig_aset_ownr_id": 2554
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 150,
+		  "mkg_brnd_id": 8,
+		  "mkg_prod_cat_id": 15,
+		  "mkg_dig_aset_ownr_id": 2616
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 273,
+		  "mkg_brnd_id": 8,
+		  "mkg_prod_cat_id": 16,
+		  "mkg_dig_aset_ownr_id": 4755
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 272,
+		  "mkg_brnd_id": 8,
+		  "mkg_prod_cat_id": 17,
+		  "mkg_dig_aset_ownr_id": 4754
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 152,
+		  "mkg_brnd_id": 8,
+		  "mkg_prod_cat_id": 19,
+		  "mkg_dig_aset_ownr_id": 2637
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 155,
+		  "mkg_brnd_id": 8,
+		  "mkg_prod_cat_id": 20,
+		  "mkg_dig_aset_ownr_id": 2666
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 319,
+		  "mkg_brnd_id": 8,
+		  "mkg_prod_cat_id": 22,
+		  "mkg_dig_aset_ownr_id": 5780
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 163,
+		  "mkg_brnd_id": 8,
+		  "mkg_prod_cat_id": 24,
+		  "mkg_dig_aset_ownr_id": 2806
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 283,
+		  "mkg_brnd_id": 8,
+		  "mkg_prod_cat_id": 26,
+		  "mkg_dig_aset_ownr_id": 4765
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 282,
+		  "mkg_brnd_id": 8,
+		  "mkg_prod_cat_id": 28,
+		  "mkg_dig_aset_ownr_id": 4764
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 289,
+		  "mkg_brnd_id": 8,
+		  "mkg_prod_cat_id": 31,
+		  "mkg_dig_aset_ownr_id": 4771
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 181,
+		  "mkg_brnd_id": 8,
+		  "mkg_prod_cat_id": 34,
+		  "mkg_dig_aset_ownr_id": 3792
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 506,
+		  "mkg_brnd_id": 8,
+		  "mkg_prod_cat_id": 35,
+		  "mkg_dig_aset_ownr_id": 11198
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 184,
+		  "mkg_brnd_id": 8,
+		  "mkg_prod_cat_id": 36,
+		  "mkg_dig_aset_ownr_id": 4077
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 372,
+		  "mkg_brnd_id": 8,
+		  "mkg_prod_cat_id": 41,
+		  "mkg_dig_aset_ownr_id": 8375
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 296,
+		  "mkg_brnd_id": 8,
+		  "mkg_prod_cat_id": 42,
+		  "mkg_dig_aset_ownr_id": 4778
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 189,
+		  "mkg_brnd_id": 8,
+		  "mkg_prod_cat_id": 43,
+		  "mkg_dig_aset_ownr_id": 4181
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 192,
+		  "mkg_brnd_id": 8,
+		  "mkg_prod_cat_id": 44,
+		  "mkg_dig_aset_ownr_id": 4241
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 195,
+		  "mkg_brnd_id": 8,
+		  "mkg_prod_cat_id": 46,
+		  "mkg_dig_aset_ownr_id": 4355
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 348,
+		  "mkg_brnd_id": 8,
+		  "mkg_prod_cat_id": 63,
+		  "mkg_dig_aset_ownr_id": 6770
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 425,
+		  "mkg_brnd_id": 8,
+		  "mkg_prod_cat_id": 66,
+		  "mkg_dig_aset_ownr_id": 9240
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 426,
+		  "mkg_brnd_id": 8,
+		  "mkg_prod_cat_id": 67,
+		  "mkg_dig_aset_ownr_id": 9241
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 427,
+		  "mkg_brnd_id": 8,
+		  "mkg_prod_cat_id": 68,
+		  "mkg_dig_aset_ownr_id": 9242
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 428,
+		  "mkg_brnd_id": 8,
+		  "mkg_prod_cat_id": 69,
+		  "mkg_dig_aset_ownr_id": 9243
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 429,
+		  "mkg_brnd_id": 8,
+		  "mkg_prod_cat_id": 70,
+		  "mkg_dig_aset_ownr_id": 9244
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 430,
+		  "mkg_brnd_id": 8,
+		  "mkg_prod_cat_id": 71,
+		  "mkg_dig_aset_ownr_id": 9245
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 432,
+		  "mkg_brnd_id": 8,
+		  "mkg_prod_cat_id": 72,
+		  "mkg_dig_aset_ownr_id": 9300
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 130,
+		  "mkg_brnd_id": 10,
+		  "mkg_prod_cat_id": 4,
+		  "mkg_dig_aset_ownr_id": 1842
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 135,
+		  "mkg_brnd_id": 10,
+		  "mkg_prod_cat_id": 6,
+		  "mkg_dig_aset_ownr_id": 2081
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 138,
+		  "mkg_brnd_id": 10,
+		  "mkg_prod_cat_id": 7,
+		  "mkg_dig_aset_ownr_id": 2419
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 269,
+		  "mkg_brnd_id": 10,
+		  "mkg_prod_cat_id": 8,
+		  "mkg_dig_aset_ownr_id": 4751
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 140,
+		  "mkg_brnd_id": 10,
+		  "mkg_prod_cat_id": 9,
+		  "mkg_dig_aset_ownr_id": 2511
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 146,
+		  "mkg_brnd_id": 10,
+		  "mkg_prod_cat_id": 12,
+		  "mkg_dig_aset_ownr_id": 2559
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 148,
+		  "mkg_brnd_id": 10,
+		  "mkg_prod_cat_id": 14,
+		  "mkg_dig_aset_ownr_id": 2592
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 151,
+		  "mkg_brnd_id": 10,
+		  "mkg_prod_cat_id": 15,
+		  "mkg_dig_aset_ownr_id": 2625
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 279,
+		  "mkg_brnd_id": 10,
+		  "mkg_prod_cat_id": 16,
+		  "mkg_dig_aset_ownr_id": 4761
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 278,
+		  "mkg_brnd_id": 10,
+		  "mkg_prod_cat_id": 17,
+		  "mkg_dig_aset_ownr_id": 4760
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 154,
+		  "mkg_brnd_id": 10,
+		  "mkg_prod_cat_id": 19,
+		  "mkg_dig_aset_ownr_id": 2656
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 157,
+		  "mkg_brnd_id": 10,
+		  "mkg_prod_cat_id": 20,
+		  "mkg_dig_aset_ownr_id": 2682
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 321,
+		  "mkg_brnd_id": 10,
+		  "mkg_prod_cat_id": 22,
+		  "mkg_dig_aset_ownr_id": 5782
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 314,
+		  "mkg_brnd_id": 10,
+		  "mkg_prod_cat_id": 23,
+		  "mkg_dig_aset_ownr_id": 5154
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 165,
+		  "mkg_brnd_id": 10,
+		  "mkg_prod_cat_id": 24,
+		  "mkg_dig_aset_ownr_id": 2883
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 288,
+		  "mkg_brnd_id": 10,
+		  "mkg_prod_cat_id": 26,
+		  "mkg_dig_aset_ownr_id": 4770
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 287,
+		  "mkg_brnd_id": 10,
+		  "mkg_prod_cat_id": 28,
+		  "mkg_dig_aset_ownr_id": 4769
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 292,
+		  "mkg_brnd_id": 10,
+		  "mkg_prod_cat_id": 31,
+		  "mkg_dig_aset_ownr_id": 4774
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 182,
+		  "mkg_brnd_id": 10,
+		  "mkg_prod_cat_id": 34,
+		  "mkg_dig_aset_ownr_id": 3817
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 507,
+		  "mkg_brnd_id": 10,
+		  "mkg_prod_cat_id": 35,
+		  "mkg_dig_aset_ownr_id": 11200
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 359,
+		  "mkg_brnd_id": 10,
+		  "mkg_prod_cat_id": 37,
+		  "mkg_dig_aset_ownr_id": 7221
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 312,
+		  "mkg_brnd_id": 10,
+		  "mkg_prod_cat_id": 41,
+		  "mkg_dig_aset_ownr_id": 5102
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 297,
+		  "mkg_brnd_id": 10,
+		  "mkg_prod_cat_id": 42,
+		  "mkg_dig_aset_ownr_id": 4779
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 190,
+		  "mkg_brnd_id": 10,
+		  "mkg_prod_cat_id": 43,
+		  "mkg_dig_aset_ownr_id": 4190
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 193,
+		  "mkg_brnd_id": 10,
+		  "mkg_prod_cat_id": 44,
+		  "mkg_dig_aset_ownr_id": 4256
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 301,
+		  "mkg_brnd_id": 10,
+		  "mkg_prod_cat_id": 47,
+		  "mkg_dig_aset_ownr_id": 4783
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 197,
+		  "mkg_brnd_id": 10,
+		  "mkg_prod_cat_id": 48,
+		  "mkg_dig_aset_ownr_id": 4444
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 199,
+		  "mkg_brnd_id": 10,
+		  "mkg_prod_cat_id": 49,
+		  "mkg_dig_aset_ownr_id": 4465
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 491,
+		  "mkg_brnd_id": 10,
+		  "mkg_prod_cat_id": 63,
+		  "mkg_dig_aset_ownr_id": 10443
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 434,
+		  "mkg_brnd_id": 10,
+		  "mkg_prod_cat_id": 72,
+		  "mkg_dig_aset_ownr_id": 9302
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 131,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 4,
+		  "mkg_dig_aset_ownr_id": 1905
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 132,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 5,
+		  "mkg_dig_aset_ownr_id": 2023
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 136,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 6,
+		  "mkg_dig_aset_ownr_id": 2138
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 139,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 7,
+		  "mkg_dig_aset_ownr_id": 2457
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 270,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 8,
+		  "mkg_dig_aset_ownr_id": 4752
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 141,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 9,
+		  "mkg_dig_aset_ownr_id": 2520
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 142,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 10,
+		  "mkg_dig_aset_ownr_id": 2539
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 147,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 12,
+		  "mkg_dig_aset_ownr_id": 2566
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 149,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 14,
+		  "mkg_dig_aset_ownr_id": 2609
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 280,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 16,
+		  "mkg_dig_aset_ownr_id": 4762
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 316,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 17,
+		  "mkg_dig_aset_ownr_id": 5777
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 317,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 18,
+		  "mkg_dig_aset_ownr_id": 5778
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 318,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 19,
+		  "mkg_dig_aset_ownr_id": 5779
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 158,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 20,
+		  "mkg_dig_aset_ownr_id": 2714
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 160,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 22,
+		  "mkg_dig_aset_ownr_id": 2763
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 162,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 23,
+		  "mkg_dig_aset_ownr_id": 2797
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 166,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 24,
+		  "mkg_dig_aset_ownr_id": 3091
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 294,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 26,
+		  "mkg_dig_aset_ownr_id": 4776
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 293,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 31,
+		  "mkg_dig_aset_ownr_id": 4775
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 183,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 34,
+		  "mkg_dig_aset_ownr_id": 3884
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 508,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 35,
+		  "mkg_dig_aset_ownr_id": 11201
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 185,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 36,
+		  "mkg_dig_aset_ownr_id": 4082
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 360,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 37,
+		  "mkg_dig_aset_ownr_id": 7222
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 186,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 38,
+		  "mkg_dig_aset_ownr_id": 4087
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 187,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 40,
+		  "mkg_dig_aset_ownr_id": 4111
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 188,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 41,
+		  "mkg_dig_aset_ownr_id": 4128
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 298,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 42,
+		  "mkg_dig_aset_ownr_id": 4780
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 191,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 43,
+		  "mkg_dig_aset_ownr_id": 4213
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 194,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 44,
+		  "mkg_dig_aset_ownr_id": 4295
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 341,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 46,
+		  "mkg_dig_aset_ownr_id": 6181
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 302,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 47,
+		  "mkg_dig_aset_ownr_id": 4784
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 198,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 48,
+		  "mkg_dig_aset_ownr_id": 4451
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 200,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 49,
+		  "mkg_dig_aset_ownr_id": 4470
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 304,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 50,
+		  "mkg_dig_aset_ownr_id": 4786
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 305,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 51,
+		  "mkg_dig_aset_ownr_id": 4787
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 201,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 52,
+		  "mkg_dig_aset_ownr_id": 4477
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 202,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 53,
+		  "mkg_dig_aset_ownr_id": 4522
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 203,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 54,
+		  "mkg_dig_aset_ownr_id": 4531
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 204,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 55,
+		  "mkg_dig_aset_ownr_id": 4548
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 205,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 56,
+		  "mkg_dig_aset_ownr_id": 4571
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 206,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 57,
+		  "mkg_dig_aset_ownr_id": 4604
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 207,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 58,
+		  "mkg_dig_aset_ownr_id": 4627
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 208,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 59,
+		  "mkg_dig_aset_ownr_id": 4636
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 209,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 60,
+		  "mkg_dig_aset_ownr_id": 4651
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 407,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 65,
+		  "mkg_dig_aset_ownr_id": 8880
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 435,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 72,
+		  "mkg_dig_aset_ownr_id": 9303
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 541,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 84,
+		  "mkg_dig_aset_ownr_id": 12863
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 542,
+		  "mkg_brnd_id": 11,
+		  "mkg_prod_cat_id": 85,
+		  "mkg_dig_aset_ownr_id": 12864
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 210,
+		  "mkg_brnd_id": 13,
+		  "mkg_prod_cat_id": 24,
+		  "mkg_dig_aset_ownr_id": 4684
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 77,
+		  "mkg_brnd_id": 14,
+		  "mkg_prod_cat_id": 6,
+		  "mkg_dig_aset_ownr_id": 1011
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 406,
+		  "mkg_brnd_id": 14,
+		  "mkg_prod_cat_id": 7,
+		  "mkg_dig_aset_ownr_id": 8691
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 398,
+		  "mkg_brnd_id": 14,
+		  "mkg_prod_cat_id": 8,
+		  "mkg_dig_aset_ownr_id": 8683
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 400,
+		  "mkg_brnd_id": 14,
+		  "mkg_prod_cat_id": 9,
+		  "mkg_dig_aset_ownr_id": 8685
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 401,
+		  "mkg_brnd_id": 14,
+		  "mkg_prod_cat_id": 10,
+		  "mkg_dig_aset_ownr_id": 8686
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 402,
+		  "mkg_brnd_id": 14,
+		  "mkg_prod_cat_id": 12,
+		  "mkg_dig_aset_ownr_id": 8687
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 382,
+		  "mkg_brnd_id": 14,
+		  "mkg_prod_cat_id": 15,
+		  "mkg_dig_aset_ownr_id": 8667
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 385,
+		  "mkg_brnd_id": 14,
+		  "mkg_prod_cat_id": 16,
+		  "mkg_dig_aset_ownr_id": 8670
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 386,
+		  "mkg_brnd_id": 14,
+		  "mkg_prod_cat_id": 17,
+		  "mkg_dig_aset_ownr_id": 8671
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 387,
+		  "mkg_brnd_id": 14,
+		  "mkg_prod_cat_id": 18,
+		  "mkg_dig_aset_ownr_id": 8672
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 388,
+		  "mkg_brnd_id": 14,
+		  "mkg_prod_cat_id": 19,
+		  "mkg_dig_aset_ownr_id": 8673
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 389,
+		  "mkg_brnd_id": 14,
+		  "mkg_prod_cat_id": 22,
+		  "mkg_dig_aset_ownr_id": 8674
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 383,
+		  "mkg_brnd_id": 14,
+		  "mkg_prod_cat_id": 24,
+		  "mkg_dig_aset_ownr_id": 8668
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 390,
+		  "mkg_brnd_id": 14,
+		  "mkg_prod_cat_id": 26,
+		  "mkg_dig_aset_ownr_id": 8675
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 391,
+		  "mkg_brnd_id": 14,
+		  "mkg_prod_cat_id": 28,
+		  "mkg_dig_aset_ownr_id": 8676
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 394,
+		  "mkg_brnd_id": 14,
+		  "mkg_prod_cat_id": 31,
+		  "mkg_dig_aset_ownr_id": 8679
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 397,
+		  "mkg_brnd_id": 14,
+		  "mkg_prod_cat_id": 34,
+		  "mkg_dig_aset_ownr_id": 8682
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 403,
+		  "mkg_brnd_id": 14,
+		  "mkg_prod_cat_id": 47,
+		  "mkg_dig_aset_ownr_id": 8688
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 404,
+		  "mkg_brnd_id": 14,
+		  "mkg_prod_cat_id": 48,
+		  "mkg_dig_aset_ownr_id": 8689
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 405,
+		  "mkg_brnd_id": 14,
+		  "mkg_prod_cat_id": 49,
+		  "mkg_dig_aset_ownr_id": 8690
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 399,
+		  "mkg_brnd_id": 14,
+		  "mkg_prod_cat_id": 63,
+		  "mkg_dig_aset_ownr_id": 8684
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 493,
+		  "mkg_brnd_id": 15,
+		  "mkg_prod_cat_id": 8,
+		  "mkg_dig_aset_ownr_id": 10453
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 422,
+		  "mkg_brnd_id": 15,
+		  "mkg_prod_cat_id": 9,
+		  "mkg_dig_aset_ownr_id": 9180
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 423,
+		  "mkg_brnd_id": 15,
+		  "mkg_prod_cat_id": 12,
+		  "mkg_dig_aset_ownr_id": 9181
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 492,
+		  "mkg_brnd_id": 15,
+		  "mkg_prod_cat_id": 26,
+		  "mkg_dig_aset_ownr_id": 10452
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 421,
+		  "mkg_brnd_id": 15,
+		  "mkg_prod_cat_id": 36,
+		  "mkg_dig_aset_ownr_id": 9179
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 431,
+		  "mkg_brnd_id": 16,
+		  "mkg_prod_cat_id": 34,
+		  "mkg_dig_aset_ownr_id": 9254
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 535,
+		  "mkg_brnd_id": 19,
+		  "mkg_prod_cat_id": 8,
+		  "mkg_dig_aset_ownr_id": 12338
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 481,
+		  "mkg_brnd_id": 19,
+		  "mkg_prod_cat_id": 9,
+		  "mkg_dig_aset_ownr_id": 10230
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 482,
+		  "mkg_brnd_id": 19,
+		  "mkg_prod_cat_id": 12,
+		  "mkg_dig_aset_ownr_id": 10231
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 534,
+		  "mkg_brnd_id": 19,
+		  "mkg_prod_cat_id": 26,
+		  "mkg_dig_aset_ownr_id": 12337
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 480,
+		  "mkg_brnd_id": 19,
+		  "mkg_prod_cat_id": 36,
+		  "mkg_dig_aset_ownr_id": 10229
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 526,
+		  "mkg_brnd_id": 19,
+		  "mkg_prod_cat_id": 74,
+		  "mkg_dig_aset_ownr_id": 12324
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 531,
+		  "mkg_brnd_id": 19,
+		  "mkg_prod_cat_id": 75,
+		  "mkg_dig_aset_ownr_id": 12329
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 527,
+		  "mkg_brnd_id": 19,
+		  "mkg_prod_cat_id": 76,
+		  "mkg_dig_aset_ownr_id": 12325
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 532,
+		  "mkg_brnd_id": 19,
+		  "mkg_prod_cat_id": 77,
+		  "mkg_dig_aset_ownr_id": 12330
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 528,
+		  "mkg_brnd_id": 19,
+		  "mkg_prod_cat_id": 78,
+		  "mkg_dig_aset_ownr_id": 12326
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 533,
+		  "mkg_brnd_id": 19,
+		  "mkg_prod_cat_id": 79,
+		  "mkg_dig_aset_ownr_id": 12331
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 529,
+		  "mkg_brnd_id": 19,
+		  "mkg_prod_cat_id": 80,
+		  "mkg_dig_aset_ownr_id": 12327
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 530,
+		  "mkg_brnd_id": 19,
+		  "mkg_prod_cat_id": 81,
+		  "mkg_dig_aset_ownr_id": 12328
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 539,
+		  "mkg_brnd_id": 19,
+		  "mkg_prod_cat_id": 82,
+		  "mkg_dig_aset_ownr_id": 12774
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 540,
+		  "mkg_brnd_id": 19,
+		  "mkg_prod_cat_id": 83,
+		  "mkg_dig_aset_ownr_id": 12775
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 509,
+		  "mkg_brnd_id": 20,
+		  "mkg_prod_cat_id": 24,
+		  "mkg_dig_aset_ownr_id": 11283
+		},
+		{
+		  "mkg_brnd_prod_cat_id": 479,
+		  "mkg_brnd_id": 20,
+		  "mkg_prod_cat_id": 34,
+		  "mkg_dig_aset_ownr_id": 9867
+		}
+	  ]
+}

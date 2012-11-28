@@ -17,6 +17,7 @@ extern const struct ProductCategoryAttributes {
 extern const struct ProductCategoryRelationships {
 	__unsafe_unretained NSString *brand;
 	__unsafe_unretained NSString *children;
+	__unsafe_unretained NSString *fkBrandInfo;
 	__unsafe_unretained NSString *parent;
 	__unsafe_unretained NSString *productArea;
 } ProductCategoryRelationships;
@@ -26,6 +27,7 @@ extern const struct ProductCategoryFetchedProperties {
 
 @class Brand;
 @class ProductCategory;
+@class BrandProdCat;
 @class ProductCategory;
 @class ProductArea;
 
@@ -154,6 +156,13 @@ extern const struct ProductCategoryFetchedProperties {
 
 
 
+@property (nonatomic, strong) NSSet *fkBrandInfo;
+
+- (NSMutableSet*)fkBrandInfoSet;
+
+
+
+
 @property (nonatomic, strong) ProductCategory *parent;
 
 //- (BOOL)validateParent:(id*)value_ error:(NSError**)error_;
@@ -177,6 +186,11 @@ extern const struct ProductCategoryFetchedProperties {
 - (void)removeChildren:(NSSet*)value_;
 - (void)addChildrenObject:(ProductCategory*)value_;
 - (void)removeChildrenObject:(ProductCategory*)value_;
+
+- (void)addFkBrandInfo:(NSSet*)value_;
+- (void)removeFkBrandInfo:(NSSet*)value_;
+- (void)addFkBrandInfoObject:(BrandProdCat*)value_;
+- (void)removeFkBrandInfoObject:(BrandProdCat*)value_;
 
 @end
 
@@ -248,6 +262,11 @@ extern const struct ProductCategoryFetchedProperties {
 
 - (NSMutableSet*)primitiveChildren;
 - (void)setPrimitiveChildren:(NSMutableSet*)value;
+
+
+
+- (NSMutableSet*)primitiveFkBrandInfo;
+- (void)setPrimitiveFkBrandInfo:(NSMutableSet*)value;
 
 
 

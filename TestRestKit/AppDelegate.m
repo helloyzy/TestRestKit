@@ -81,6 +81,16 @@
         
     [objectManager.mappingProvider setMapping:productCategoryMapping forKeyPath:@"MKG_PROD_CAT"];
     
+    RKManagedObjectMapping * brandProdCatMapping = [RKManagedObjectMapping mappingForEntityWithName:@"BrandProdCat" inManagedObjectStore:objectManager.objectStore];
+    brandProdCatMapping.primaryKeyAttribute = @"mkg_brnd_prod_cat_id";
+    [brandProdCatMapping mapAttributes:@"mkg_brnd_prod_cat_id", @"mkg_brnd_id", @"mkg_prod_cat_id", @"mkg_dig_aset_ownr_id", nil];
+    
+    [brandProdCatMapping hasOne:@"brand" withMapping:brandMapping];
+    [brandProdCatMapping connectRelationship:@"brand" withObjectForPrimaryKeyAttribute:@"mkg_brnd_id"];
+    [brandProdCatMapping hasOne:@"prodCat" withMapping:productCategoryMapping];
+    [brandProdCatMapping connectRelationship:@"prodCat" withObjectForPrimaryKeyAttribute:@"mkg_prod_cat_id"];
+
+    [objectManager.mappingProvider setMapping:brandProdCatMapping forKeyPath:@"MKG_BRND_PROD_CAT"];
      
     RKLogConfigureByName("RestKit/ObjectMapping", RKLogLevelDebug);
     RKLogConfigureByName("RestKit/CoreData", RKLogLevelDebug);

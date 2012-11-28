@@ -12,6 +12,7 @@ const struct ProductAreaAttributes ProductAreaAttributes = {
 };
 
 const struct ProductAreaRelationships ProductAreaRelationships = {
+	.prodCat = @"prodCat",
 };
 
 const struct ProductAreaFetchedProperties ProductAreaFetchedProperties = {
@@ -156,6 +157,19 @@ const struct ProductAreaFetchedProperties ProductAreaFetchedProperties = {
 
 
 
+
+@dynamic prodCat;
+
+	
+- (NSMutableSet*)prodCatSet {
+	[self willAccessValueForKey:@"prodCat"];
+  
+	NSMutableSet *result = (NSMutableSet*)[self mutableSetValueForKey:@"prodCat"];
+  
+	[self didAccessValueForKey:@"prodCat"];
+	return result;
+}
+	
 
 
 

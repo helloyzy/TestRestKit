@@ -13,11 +13,13 @@ extern const struct ProductAreaAttributes {
 } ProductAreaAttributes;
 
 extern const struct ProductAreaRelationships {
+	__unsafe_unretained NSString *prodCat;
 } ProductAreaRelationships;
 
 extern const struct ProductAreaFetchedProperties {
 } ProductAreaFetchedProperties;
 
+@class ProductCategory;
 
 
 
@@ -100,10 +102,22 @@ extern const struct ProductAreaFetchedProperties {
 
 
 
+@property (nonatomic, strong) NSSet *prodCat;
+
+- (NSMutableSet*)prodCatSet;
+
+
+
+
 
 @end
 
 @interface _ProductArea (CoreDataGeneratedAccessors)
+
+- (void)addProdCat:(NSSet*)value_;
+- (void)removeProdCat:(NSSet*)value_;
+- (void)addProdCatObject:(ProductCategory*)value_;
+- (void)removeProdCatObject:(ProductCategory*)value_;
 
 @end
 
@@ -147,6 +161,11 @@ extern const struct ProductAreaFetchedProperties {
 - (void)setPrimitiveProd_area_nm:(NSString*)value;
 
 
+
+
+
+- (NSMutableSet*)primitiveProdCat;
+- (void)setPrimitiveProdCat:(NSMutableSet*)value;
 
 
 @end
