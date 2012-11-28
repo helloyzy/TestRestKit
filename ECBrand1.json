@@ -1,162 +1,778 @@
-[
-    {
-      "mkg_brnd_id": 1,
-      "prnt_brnd_id": null,
-      "top_brnd_id": null,
-      "brnd_nm": "Electrolux",
-      "is_internal": 1,
-      "mkg_dig_aset_ownr_id": 5,
-      "dsp_ord": 1,
-      "show_sub_brnd": 0
-    },
-    {
-      "mkg_brnd_id": 2,
-      "prnt_brnd_id": 1,
-      "top_brnd_id": 1,
-      "brnd_nm": "Electrolux ICON",
-      "is_internal": 1,
-      "mkg_dig_aset_ownr_id": 6,
-      "dsp_ord": 2,
-      "show_sub_brnd": 0
-    },
-    {
-      "mkg_brnd_id": 3,
-      "prnt_brnd_id": 1,
-      "top_brnd_id": 1,
-      "brnd_nm": "Electrolux",
-      "is_internal": 1,
-      "mkg_dig_aset_ownr_id": 7,
-      "dsp_ord": 1,
-      "show_sub_brnd": 0
-    },
-    {
-      "mkg_brnd_id": 4,
-      "prnt_brnd_id": 2,
-      "top_brnd_id": 1,
-      "brnd_nm": "Professional Series",
-      "is_internal": 1,
-      "mkg_dig_aset_ownr_id": 8,
-      "dsp_ord": 1,
-      "show_sub_brnd": 0
-    },
-    {
-      "mkg_brnd_id": 5,
-      "prnt_brnd_id": 2,
-      "top_brnd_id": 1,
-      "brnd_nm": "Designer Series",
-      "is_internal": 1,
-      "mkg_dig_aset_ownr_id": 9,
-      "dsp_ord": 2,
-      "show_sub_brnd": 0
-    },
-    {
-      "mkg_brnd_id": 6,
-      "prnt_brnd_id": null,
-      "top_brnd_id": null,
-      "brnd_nm": "Frigidaire",
-      "is_internal": 1,
-      "mkg_dig_aset_ownr_id": 10,
-      "dsp_ord": 2,
-      "show_sub_brnd": 1
-    },
-    {
-      "mkg_brnd_id": 7,
-      "prnt_brnd_id": 6,
-      "top_brnd_id": 6,
-      "brnd_nm": "Affinity",
-      "is_internal": 1,
-      "mkg_dig_aset_ownr_id": 11,
-      "dsp_ord": 1,
-      "show_sub_brnd": 0
-    },
-    {
-      "mkg_brnd_id": 8,
-      "prnt_brnd_id": 6,
-      "top_brnd_id": 6,
-      "brnd_nm": "Professional",
-      "is_internal": 1,
-      "mkg_dig_aset_ownr_id": 12,
-      "dsp_ord": 2,
-      "show_sub_brnd": 0
-    },
-    {
-      "mkg_brnd_id": 10,
-      "prnt_brnd_id": 6,
-      "top_brnd_id": 6,
-      "brnd_nm": "Gallery",
-      "is_internal": 1,
-      "mkg_dig_aset_ownr_id": 14,
-      "dsp_ord": 4,
-      "show_sub_brnd": 0
-    },
-    {
-      "mkg_brnd_id": 11,
-      "prnt_brnd_id": 6,
-      "top_brnd_id": 6,
-      "brnd_nm": "Frigidaire",
-      "is_internal": 1,
-      "mkg_dig_aset_ownr_id": 15,
-      "dsp_ord": 5,
-      "show_sub_brnd": 0
-    },
-    {
-      "mkg_brnd_id": 13,
-      "prnt_brnd_id": null,
-      "top_brnd_id": null,
-      "brnd_nm": "Tappan",
-      "is_internal": 1,
-      "mkg_dig_aset_ownr_id": 17,
-      "dsp_ord": 4,
-      "show_sub_brnd": 0
-    },
-    {
-      "mkg_brnd_id": 14,
-      "prnt_brnd_id": null,
-      "top_brnd_id": null,
-      "brnd_nm": "White Westinghouse",
-      "is_internal": 1,
-      "mkg_dig_aset_ownr_id": 18,
-      "dsp_ord": 5,
-      "show_sub_brnd": 0
-    },
-    {
-      "mkg_brnd_id": 15,
-      "prnt_brnd_id": 6,
-      "top_brnd_id": null,
-      "brnd_nm": "Commercial",
-      "is_internal": 1,
-      "mkg_dig_aset_ownr_id": 9178,
-      "dsp_ord": 6,
-      "show_sub_brnd": 0
-    },
-    {
-      "mkg_brnd_id": 16,
-      "prnt_brnd_id": null,
-      "top_brnd_id": null,
-      "brnd_nm": "Kelvinator",
-      "is_internal": 1,
-      "mkg_dig_aset_ownr_id": 9237,
-      "dsp_ord": 3,
-      "show_sub_brnd": 0
-    },
-    {
-      "mkg_brnd_id": 19,
-      "prnt_brnd_id": 16,
-      "top_brnd_id": null,
-      "brnd_nm": "Commercial",
-      "is_internal": 0,
-      "mkg_dig_aset_ownr_id": 9856,
-      "dsp_ord": 2,
-      "show_sub_brnd": 0
-    },
-    {
-      "mkg_brnd_id": 20,
-      "prnt_brnd_id": 16,
-      "top_brnd_id": null,
-      "brnd_nm": "Kelvinator",
-      "is_internal": 0,
-      "mkg_dig_aset_ownr_id": 9865,
-      "dsp_ord": 1,
-      "show_sub_brnd": 0
-    }
-]
+{
+    "MKG_BRND": [
+                 {
+                 "mkg_brnd_id": 1,
+                 "prnt_brnd_id": null,
+                 "top_brnd_id": null,
+                 "brnd_nm": "Electrolux",
+                 "is_internal": 1,
+                 "mkg_dig_aset_ownr_id": 5,
+                 "dsp_ord": 1,
+                 "show_sub_brnd": 0
+                 },
+                 {
+                 "mkg_brnd_id": 2,
+                 "prnt_brnd_id": 1,
+                 "top_brnd_id": 1,
+                 "brnd_nm": "Electrolux ICON",
+                 "is_internal": 1,
+                 "mkg_dig_aset_ownr_id": 6,
+                 "dsp_ord": 2,
+                 "show_sub_brnd": 0
+                 },
+                 {
+                 "mkg_brnd_id": 3,
+                 "prnt_brnd_id": 1,
+                 "top_brnd_id": 1,
+                 "brnd_nm": "Electrolux",
+                 "is_internal": 1,
+                 "mkg_dig_aset_ownr_id": 7,
+                 "dsp_ord": 1,
+                 "show_sub_brnd": 0
+                 },
+                 {
+                 "mkg_brnd_id": 4,
+                 "prnt_brnd_id": 2,
+                 "top_brnd_id": 1,
+                 "brnd_nm": "Professional Series",
+                 "is_internal": 1,
+                 "mkg_dig_aset_ownr_id": 8,
+                 "dsp_ord": 1,
+                 "show_sub_brnd": 0
+                 },
+                 {
+                 "mkg_brnd_id": 5,
+                 "prnt_brnd_id": 2,
+                 "top_brnd_id": 1,
+                 "brnd_nm": "Designer Series",
+                 "is_internal": 1,
+                 "mkg_dig_aset_ownr_id": 9,
+                 "dsp_ord": 2,
+                 "show_sub_brnd": 0
+                 },
+                 {
+                 "mkg_brnd_id": 6,
+                 "prnt_brnd_id": null,
+                 "top_brnd_id": null,
+                 "brnd_nm": "Frigidaire",
+                 "is_internal": 1,
+                 "mkg_dig_aset_ownr_id": 10,
+                 "dsp_ord": 2,
+                 "show_sub_brnd": 1
+                 },
+                 {
+                 "mkg_brnd_id": 7,
+                 "prnt_brnd_id": 6,
+                 "top_brnd_id": 6,
+                 "brnd_nm": "Affinity",
+                 "is_internal": 1,
+                 "mkg_dig_aset_ownr_id": 11,
+                 "dsp_ord": 1,
+                 "show_sub_brnd": 0
+                 },
+                 {
+                 "mkg_brnd_id": 8,
+                 "prnt_brnd_id": 6,
+                 "top_brnd_id": 6,
+                 "brnd_nm": "Professional",
+                 "is_internal": 1,
+                 "mkg_dig_aset_ownr_id": 12,
+                 "dsp_ord": 2,
+                 "show_sub_brnd": 0
+                 },
+                 {
+                 "mkg_brnd_id": 10,
+                 "prnt_brnd_id": 6,
+                 "top_brnd_id": 6,
+                 "brnd_nm": "Gallery",
+                 "is_internal": 1,
+                 "mkg_dig_aset_ownr_id": 14,
+                 "dsp_ord": 4,
+                 "show_sub_brnd": 0
+                 },
+                 {
+                 "mkg_brnd_id": 11,
+                 "prnt_brnd_id": 6,
+                 "top_brnd_id": 6,
+                 "brnd_nm": "Frigidaire",
+                 "is_internal": 1,
+                 "mkg_dig_aset_ownr_id": 15,
+                 "dsp_ord": 5,
+                 "show_sub_brnd": 0
+                 },
+                 {
+                 "mkg_brnd_id": 13,
+                 "prnt_brnd_id": null,
+                 "top_brnd_id": null,
+                 "brnd_nm": "Tappan",
+                 "is_internal": 1,
+                 "mkg_dig_aset_ownr_id": 17,
+                 "dsp_ord": 4,
+                 "show_sub_brnd": 0
+                 },
+                 {
+                 "mkg_brnd_id": 14,
+                 "prnt_brnd_id": null,
+                 "top_brnd_id": null,
+                 "brnd_nm": "White Westinghouse",
+                 "is_internal": 1,
+                 "mkg_dig_aset_ownr_id": 18,
+                 "dsp_ord": 5,
+                 "show_sub_brnd": 0
+                 },
+                 {
+                 "mkg_brnd_id": 15,
+                 "prnt_brnd_id": 6,
+                 "top_brnd_id": null,
+                 "brnd_nm": "Commercial",
+                 "is_internal": 1,
+                 "mkg_dig_aset_ownr_id": 9178,
+                 "dsp_ord": 6,
+                 "show_sub_brnd": 0
+                 },
+                 {
+                 "mkg_brnd_id": 16,
+                 "prnt_brnd_id": null,
+                 "top_brnd_id": null,
+                 "brnd_nm": "Kelvinator",
+                 "is_internal": 1,
+                 "mkg_dig_aset_ownr_id": 9237,
+                 "dsp_ord": 3,
+                 "show_sub_brnd": 0
+                 },
+                 {
+                 "mkg_brnd_id": 19,
+                 "prnt_brnd_id": 16,
+                 "top_brnd_id": null,
+                 "brnd_nm": "Commercial",
+                 "is_internal": 0,
+                 "mkg_dig_aset_ownr_id": 9856,
+                 "dsp_ord": 2,
+                 "show_sub_brnd": 0
+                 },
+                 {
+                 "mkg_brnd_id": 20,
+                 "prnt_brnd_id": 16,
+                 "top_brnd_id": null,
+                 "brnd_nm": "Kelvinator",
+                 "is_internal": 0,
+                 "mkg_dig_aset_ownr_id": 9865,
+                 "dsp_ord": 1,
+                 "show_sub_brnd": 0
+                 }
+                 ],
+    "MKG_PROD_CAT": [
+                     {
+                     "mkg_prod_cat_id": 1,
+                     "prod_cat_nm": "N/A",
+                     "mkg_prod_area_id": 1,
+                     "is_actv": 1,
+                     "dsp_ord": 1
+                     },
+                     {
+                     "mkg_prod_cat_id": 2,
+                     "prod_cat_nm": "Coffee Maker",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 43
+                     },
+                     {
+                     "mkg_prod_cat_id": 3,
+                     "prod_cat_nm": "Compactor",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 42
+                     },
+                     {
+                     "mkg_prod_cat_id": 4,
+                     "prod_cat_nm": "Cooktop",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 2
+                     },
+                     {
+                     "mkg_prod_cat_id": 5,
+                     "prod_cat_nm": "Dehumidifier",
+                     "mkg_prod_area_id": 2,
+                     "is_actv": 1,
+                     "dsp_ord": 63
+                     },
+                     {
+                     "mkg_prod_cat_id": 6,
+                     "prod_cat_nm": "Dishwasher",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 34
+                     },
+                     {
+                     "mkg_prod_cat_id": 7,
+                     "prod_cat_nm": "Dryer",
+                     "mkg_prod_area_id": 4,
+                     "is_actv": 1,
+                     "dsp_ord": 48
+                     },
+                     {
+                     "mkg_prod_cat_id": 8,
+                     "prod_cat_nm": "Freezer",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 35
+                     },
+                     {
+                     "mkg_prod_cat_id": 9,
+                     "prod_cat_nm": "Chest",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 37
+                     },
+                     {
+                     "mkg_prod_cat_id": 10,
+                     "prod_cat_nm": "Convertible",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 38
+                     },
+                     {
+                     "mkg_prod_cat_id": 12,
+                     "prod_cat_nm": "Upright",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 40
+                     },
+                     {
+                     "mkg_prod_cat_id": 13,
+                     "prod_cat_nm": "Ice Makers",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 41
+                     },
+                     {
+                     "mkg_prod_cat_id": 14,
+                     "prod_cat_nm": "Laundry Center",
+                     "mkg_prod_area_id": 4,
+                     "is_actv": 1,
+                     "dsp_ord": 50
+                     },
+                     {
+                     "mkg_prod_cat_id": 15,
+                     "prod_cat_nm": "Micro Combi",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 7
+                     },
+                     {
+                     "mkg_prod_cat_id": 16,
+                     "prod_cat_nm": "Microwave",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 12
+                     },
+                     {
+                     "mkg_prod_cat_id": 17,
+                     "prod_cat_nm": "Built-In",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 13
+                     },
+                     {
+                     "mkg_prod_cat_id": 18,
+                     "prod_cat_nm": "Drop-Down Door",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 14
+                     },
+                     {
+                     "mkg_prod_cat_id": 19,
+                     "prod_cat_nm": "Side-Swing Door",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 15
+                     },
+                     {
+                     "mkg_prod_cat_id": 20,
+                     "prod_cat_nm": "Over-The-Range",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 16
+                     },
+                     {
+                     "mkg_prod_cat_id": 22,
+                     "prod_cat_nm": "Countertop",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 18
+                     },
+                     {
+                     "mkg_prod_cat_id": 23,
+                     "prod_cat_nm": "Pedestal",
+                     "mkg_prod_area_id": 4,
+                     "is_actv": 1,
+                     "dsp_ord": 49
+                     },
+                     {
+                     "mkg_prod_cat_id": 24,
+                     "prod_cat_nm": "Ranges",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 9
+                     },
+                     {
+                     "mkg_prod_cat_id": 26,
+                     "prod_cat_nm": "Refrigerator",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 19
+                     },
+                     {
+                     "mkg_prod_cat_id": 28,
+                     "prod_cat_nm": "French Door",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 21
+                     },
+                     {
+                     "mkg_prod_cat_id": 31,
+                     "prod_cat_nm": "Side-By-Side",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 24
+                     },
+                     {
+                     "mkg_prod_cat_id": 34,
+                     "prod_cat_nm": "Top Freezer",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 27
+                     },
+                     {
+                     "mkg_prod_cat_id": 35,
+                     "prod_cat_nm": "Bottom Freezer",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 28
+                     },
+                     {
+                     "mkg_prod_cat_id": 36,
+                     "prod_cat_nm": "All Refrigerator",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 29
+                     },
+                     {
+                     "mkg_prod_cat_id": 37,
+                     "prod_cat_nm": "Beverage Center",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 30
+                     },
+                     {
+                     "mkg_prod_cat_id": 38,
+                     "prod_cat_nm": "Compact",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 31
+                     },
+                     {
+                     "mkg_prod_cat_id": 39,
+                     "prod_cat_nm": "Refrigerator Drawer",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 32
+                     },
+                     {
+                     "mkg_prod_cat_id": 40,
+                     "prod_cat_nm": "Wine Storage",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 33
+                     },
+                     {
+                     "mkg_prod_cat_id": 41,
+                     "prod_cat_nm": "Ventilation",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 11
+                     },
+                     {
+                     "mkg_prod_cat_id": 42,
+                     "prod_cat_nm": "Wall Oven",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 3
+                     },
+                     {
+                     "mkg_prod_cat_id": 43,
+                     "prod_cat_nm": "Double",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 4
+                     },
+                     {
+                     "mkg_prod_cat_id": 44,
+                     "prod_cat_nm": "Single",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 5
+                     },
+                     {
+                     "mkg_prod_cat_id": 45,
+                     "prod_cat_nm": "High-Speed",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 6
+                     },
+                     {
+                     "mkg_prod_cat_id": 46,
+                     "prod_cat_nm": "Warmer Drawers",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 8
+                     },
+                     {
+                     "mkg_prod_cat_id": 47,
+                     "prod_cat_nm": "Washer",
+                     "mkg_prod_area_id": 4,
+                     "is_actv": 1,
+                     "dsp_ord": 45
+                     },
+                     {
+                     "mkg_prod_cat_id": 48,
+                     "prod_cat_nm": "Front Load",
+                     "mkg_prod_area_id": 4,
+                     "is_actv": 1,
+                     "dsp_ord": 46
+                     },
+                     {
+                     "mkg_prod_cat_id": 49,
+                     "prod_cat_nm": "Top Load",
+                     "mkg_prod_area_id": 4,
+                     "is_actv": 1,
+                     "dsp_ord": 47
+                     },
+                     {
+                     "mkg_prod_cat_id": 50,
+                     "prod_cat_nm": "AC",
+                     "mkg_prod_area_id": 2,
+                     "is_actv": 1,
+                     "dsp_ord": 51
+                     },
+                     {
+                     "mkg_prod_cat_id": 51,
+                     "prod_cat_nm": "Window",
+                     "mkg_prod_area_id": 2,
+                     "is_actv": 1,
+                     "dsp_ord": 52
+                     },
+                     {
+                     "mkg_prod_cat_id": 52,
+                     "prod_cat_nm": "Built-In",
+                     "mkg_prod_area_id": 2,
+                     "is_actv": 1,
+                     "dsp_ord": 59
+                     },
+                     {
+                     "mkg_prod_cat_id": 53,
+                     "prod_cat_nm": "Portable",
+                     "mkg_prod_area_id": 2,
+                     "is_actv": 1,
+                     "dsp_ord": 60
+                     },
+                     {
+                     "mkg_prod_cat_id": 54,
+                     "prod_cat_nm": "Heavy-Duty",
+                     "mkg_prod_area_id": 2,
+                     "is_actv": 1,
+                     "dsp_ord": 53
+                     },
+                     {
+                     "mkg_prod_cat_id": 55,
+                     "prod_cat_nm": "Median",
+                     "mkg_prod_area_id": 2,
+                     "is_actv": 1,
+                     "dsp_ord": 54
+                     },
+                     {
+                     "mkg_prod_cat_id": 56,
+                     "prod_cat_nm": "Compact",
+                     "mkg_prod_area_id": 2,
+                     "is_actv": 1,
+                     "dsp_ord": 55
+                     },
+                     {
+                     "mkg_prod_cat_id": 57,
+                     "prod_cat_nm": "Mini Compact",
+                     "mkg_prod_area_id": 2,
+                     "is_actv": 1,
+                     "dsp_ord": 56
+                     },
+                     {
+                     "mkg_prod_cat_id": 58,
+                     "prod_cat_nm": "Mini",
+                     "mkg_prod_area_id": 2,
+                     "is_actv": 1,
+                     "dsp_ord": 57
+                     },
+                     {
+                     "mkg_prod_cat_id": 59,
+                     "prod_cat_nm": "Slider/Casement",
+                     "mkg_prod_area_id": 2,
+                     "is_actv": 1,
+                     "dsp_ord": 58
+                     },
+                     {
+                     "mkg_prod_cat_id": 60,
+                     "prod_cat_nm": "Split",
+                     "mkg_prod_area_id": 2,
+                     "is_actv": 1,
+                     "dsp_ord": 61
+                     },
+                     {
+                     "mkg_prod_cat_id": 63,
+                     "prod_cat_nm": "All Freezer",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 36
+                     },
+                     {
+                     "mkg_prod_cat_id": 64,
+                     "prod_cat_nm": "Built-In Coffee Maker",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 44
+                     },
+                     {
+                     "mkg_prod_cat_id": 65,
+                     "prod_cat_nm": "PTAC",
+                     "mkg_prod_area_id": 2,
+                     "is_actv": 1,
+                     "dsp_ord": 62
+                     },
+                     {
+                     "mkg_prod_cat_id": 66,
+                     "prod_cat_nm": "Convection Toaster Oven",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 64
+                     },
+                     {
+                     "mkg_prod_cat_id": 67,
+                     "prod_cat_nm": "Blender",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 65
+                     },
+                     {
+                     "mkg_prod_cat_id": 68,
+                     "prod_cat_nm": "Slow Cooker",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 66
+                     },
+                     {
+                     "mkg_prod_cat_id": 69,
+                     "prod_cat_nm": "Panini Press",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 67
+                     },
+                     {
+                     "mkg_prod_cat_id": 70,
+                     "prod_cat_nm": "Toaster",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 68
+                     },
+                     {
+                     "mkg_prod_cat_id": 71,
+                     "prod_cat_nm": "Immersion Blender",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 69
+                     },
+                     {
+                     "mkg_prod_cat_id": 72,
+                     "prod_cat_nm": "Waste Disposer",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 69
+                     },
+                     {
+                     "mkg_prod_cat_id": 73,
+                     "prod_cat_nm": "Iron",
+                     "mkg_prod_area_id": 4,
+                     "is_actv": 1,
+                     "dsp_ord": 72
+                     },
+                     {
+                     "mkg_prod_cat_id": 74,
+                     "prod_cat_nm": "Merchandiser",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 33
+                     },
+                     {
+                     "mkg_prod_cat_id": 75,
+                     "prod_cat_nm": "Merchandiser",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 40
+                     },
+                     {
+                     "mkg_prod_cat_id": 76,
+                     "prod_cat_nm": "Reach-In",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 33
+                     },
+                     {
+                     "mkg_prod_cat_id": 77,
+                     "prod_cat_nm": "Reach-In",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 40
+                     },
+                     {
+                     "mkg_prod_cat_id": 78,
+                     "prod_cat_nm": "Undercounter",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 33
+                     },
+                     {
+                     "mkg_prod_cat_id": 79,
+                     "prod_cat_nm": "Undercounter",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 40
+                     },
+                     {
+                     "mkg_prod_cat_id": 80,
+                     "prod_cat_nm": "Bottle Cooler",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 33
+                     },
+                     {
+                     "mkg_prod_cat_id": 81,
+                     "prod_cat_nm": "Prep Table",
+                     "mkg_prod_area_id": 3,
+                     "is_actv": 1,
+                     "dsp_ord": 33
+                     },
+                     {
+                     "mkg_prod_cat_id": 82,
+                     "prod_cat_nm": "Ice Cream",
+                     "mkg_prod_area_id": 7,
+                     "is_actv": 1,
+                     "dsp_ord": 38
+                     },
+                     {
+                     "mkg_prod_cat_id": 83,
+                     "prod_cat_nm": "Novelty",
+                     "mkg_prod_area_id": 7,
+                     "is_actv": 1,
+                     "dsp_ord": 39
+                     },
+                     {
+                     "mkg_prod_cat_id": 84,
+                     "prod_cat_nm": "Slide-Out Chassis",
+                     "mkg_prod_area_id": 2,
+                     "is_actv": 1,
+                     "dsp_ord": 59
+                     },
+                     {
+                     "mkg_prod_cat_id": 85,
+                     "prod_cat_nm": "Low-Profile",
+                     "mkg_prod_area_id": 2,
+                     "is_actv": 1,
+                     "dsp_ord": 60
+                     },
+                     {
+                     "mkg_prod_cat_id": 86,
+                     "prod_cat_nm": "Vacuum",
+                     "mkg_prod_area_id": 8,
+                     "is_actv": 1,
+                     "dsp_ord": 73
+                     },
+                     {
+                     "mkg_prod_cat_id": 87,
+                     "prod_cat_nm": "Canister",
+                     "mkg_prod_area_id": 8,
+                     "is_actv": 1,
+                     "dsp_ord": 74
+                     },
+                     {
+                     "mkg_prod_cat_id": 88,
+                     "prod_cat_nm": "Lightweight",
+                     "mkg_prod_area_id": 8,
+                     "is_actv": 1,
+                     "dsp_ord": 75
+                     },
+                     {
+                     "mkg_prod_cat_id": 89,
+                     "prod_cat_nm": "Steam",
+                     "mkg_prod_area_id": 8,
+                     "is_actv": 1,
+                     "dsp_ord": 77
+                     },
+                     {
+                     "mkg_prod_cat_id": 90,
+                     "prod_cat_nm": "Robotic",
+                     "mkg_prod_area_id": 8,
+                     "is_actv": 1,
+                     "dsp_ord": 76
+                     },
+                     {
+                     "mkg_prod_cat_id": 91,
+                     "prod_cat_nm": "Upright",
+                     "mkg_prod_area_id": 8,
+                     "is_actv": 1,
+                     "dsp_ord": 78
+                     }
+                     ],
+    "MKG_PROD_AREA": [
+                      {
+                      "mkg_prod_area_id": 1,
+                      "prod_area_nm": "N/A",
+                      "prod_area_desc": "N/A",
+                      "is_actv": 0,
+                      "dsp_ord": 1
+                      },
+                      {
+                      "mkg_prod_area_id": 2,
+                      "prod_area_nm": "Home Comfort",
+                      "prod_area_desc": "AC & Dehum",
+                      "is_actv": 1,
+                      "dsp_ord": 2
+                      },
+                      {
+                      "mkg_prod_area_id": 3,
+                      "prod_area_nm": "Kitchen",
+                      "prod_area_desc": "Cooking, Dish, Refrig, Compactor, Freezer",
+                      "is_actv": 1,
+                      "dsp_ord": 3
+                      },
+                      {
+                      "mkg_prod_area_id": 4,
+                      "prod_area_nm": "Laundry",
+                      "prod_area_desc": "Washer, Dryer, Pedestal",
+                      "is_actv": 1,
+                      "dsp_ord": 4
+                      },
+                      {
+                      "mkg_prod_area_id": 7,
+                      "prod_area_nm": "Commercial",
+                      "prod_area_desc": "",
+                      "is_actv": 1,
+                      "dsp_ord": 2
+                      },
+                      {
+                      "mkg_prod_area_id": 8,
+                      "prod_area_nm": "Floor Care",
+                      "prod_area_desc": "",
+                      "is_actv": 1,
+                      "dsp_ord": 5
+                      }
+                      ]
+    
+}

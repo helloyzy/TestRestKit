@@ -130,6 +130,12 @@
 		00AB84B31664E67700E5EB97 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 002E48E6166357A70003B4B4 /* Default-568h@2x.png */; };
 		00AB84B41664E67700E5EB97 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002E48E8166357A70003B4B4 /* MainStoryboard.storyboard */; };
 		00BCD44A1665C87800F3D5D6 /* ECBrand1.json in Resources */ = {isa = PBXBuildFile; fileRef = 00BCD4491665C87800F3D5D6 /* ECBrand1.json */; };
+		00BCD44D1665E92200F3D5D6 /* ECProdArea.json in Resources */ = {isa = PBXBuildFile; fileRef = 00BCD44B1665E92200F3D5D6 /* ECProdArea.json */; };
+		00BCD44E1665E92200F3D5D6 /* ECProdCat.json in Resources */ = {isa = PBXBuildFile; fileRef = 00BCD44C1665E92200F3D5D6 /* ECProdCat.json */; };
+		00BCD4511665EE2300F3D5D6 /* _ProductArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BCD4501665EE2300F3D5D6 /* _ProductArea.m */; };
+		00BCD4521665EE2300F3D5D6 /* _ProductArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BCD4501665EE2300F3D5D6 /* _ProductArea.m */; };
+		00BCD4551665EE3400F3D5D6 /* ProductArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BCD4541665EE3400F3D5D6 /* ProductArea.m */; };
+		00BCD4561665EE3400F3D5D6 /* ProductArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BCD4541665EE3400F3D5D6 /* ProductArea.m */; };
 		E2AC495616650C2B00009863 /* brands.json in Resources */ = {isa = PBXBuildFile; fileRef = E2AC495516650C2B00009863 /* brands.json */; };
 		E2AC49E61665224300009863 /* ECBrand.json in Resources */ = {isa = PBXBuildFile; fileRef = E2AC49E51665224300009863 /* ECBrand.json */; };
 		E2AC49E81665240700009863 /* RKSeedDatabase.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = E2AC49E71665240700009863 /* RKSeedDatabase.sqlite */; };
@@ -286,6 +292,12 @@
 		00AB84731664986000E5EB97 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		00AB84B91664E67700E5EB97 /* TestRestKit copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TestRestKit copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00BCD4491665C87800F3D5D6 /* ECBrand1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ECBrand1.json; sourceTree = SOURCE_ROOT; };
+		00BCD44B1665E92200F3D5D6 /* ECProdArea.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ECProdArea.json; sourceTree = SOURCE_ROOT; };
+		00BCD44C1665E92200F3D5D6 /* ECProdCat.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ECProdCat.json; sourceTree = SOURCE_ROOT; };
+		00BCD44F1665EE2300F3D5D6 /* _ProductArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _ProductArea.h; sourceTree = "<group>"; };
+		00BCD4501665EE2300F3D5D6 /* _ProductArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _ProductArea.m; sourceTree = "<group>"; };
+		00BCD4531665EE3400F3D5D6 /* ProductArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductArea.h; sourceTree = "<group>"; };
+		00BCD4541665EE3400F3D5D6 /* ProductArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductArea.m; sourceTree = "<group>"; };
 		E2AC495516650C2B00009863 /* brands.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = brands.json; sourceTree = SOURCE_ROOT; };
 		E2AC49E51665224300009863 /* ECBrand.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ECBrand.json; sourceTree = SOURCE_ROOT; };
 		E2AC49E71665240700009863 /* RKSeedDatabase.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = RKSeedDatabase.sqlite; sourceTree = SOURCE_ROOT; };
@@ -390,6 +402,8 @@
 		002E48D7166357A70003B4B4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				00BCD44B1665E92200F3D5D6 /* ECProdArea.json */,
+				00BCD44C1665E92200F3D5D6 /* ECProdCat.json */,
 				00BCD4491665C87800F3D5D6 /* ECBrand1.json */,
 				E2AC49E71665240700009863 /* RKSeedDatabase.sqlite */,
 				E2AC49E51665224300009863 /* ECBrand.json */,
@@ -432,6 +446,8 @@
 		00AB83EF166488AE00E5EB97 /* Machine */ = {
 			isa = PBXGroup;
 			children = (
+				00BCD44F1665EE2300F3D5D6 /* _ProductArea.h */,
+				00BCD4501665EE2300F3D5D6 /* _ProductArea.m */,
 				00AB83F6166489A200E5EB97 /* _Brand.h */,
 				00AB83F7166489A200E5EB97 /* _Brand.m */,
 				00AB83F8166489A200E5EB97 /* _ProductCategory.h */,
@@ -443,6 +459,8 @@
 		00AB83F0166488B700E5EB97 /* Human */ = {
 			isa = PBXGroup;
 			children = (
+				00BCD4531665EE3400F3D5D6 /* ProductArea.h */,
+				00BCD4541665EE3400F3D5D6 /* ProductArea.m */,
 				00AB83FF166489C900E5EB97 /* Brand.h */,
 				00AB8400166489C900E5EB97 /* Brand.m */,
 				00AB8401166489C900E5EB97 /* ProductCategory.h */,
@@ -726,6 +744,8 @@
 				E2AC495616650C2B00009863 /* brands.json in Resources */,
 				E2AC49E61665224300009863 /* ECBrand.json in Resources */,
 				00BCD44A1665C87800F3D5D6 /* ECBrand1.json in Resources */,
+				00BCD44D1665E92200F3D5D6 /* ECProdArea.json in Resources */,
+				00BCD44E1665E92200F3D5D6 /* ECProdCat.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -789,6 +809,8 @@
 				00AB8470166497CC00E5EB97 /* IBMessageCenter.m in Sources */,
 				00AB8471166497CC00E5EB97 /* IBMessageProcessor.m in Sources */,
 				00AB8472166497CC00E5EB97 /* IBTargetAction.m in Sources */,
+				00BCD4511665EE2300F3D5D6 /* _ProductArea.m in Sources */,
+				00BCD4551665EE3400F3D5D6 /* ProductArea.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -833,6 +855,8 @@
 				00AB849F1664E67700E5EB97 /* IBMessageCenter.m in Sources */,
 				00AB84A01664E67700E5EB97 /* IBMessageProcessor.m in Sources */,
 				00AB84A11664E67700E5EB97 /* IBTargetAction.m in Sources */,
+				00BCD4521665EE2300F3D5D6 /* _ProductArea.m in Sources */,
+				00BCD4561665EE3400F3D5D6 /* ProductArea.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

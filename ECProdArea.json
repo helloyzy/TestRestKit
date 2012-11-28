@@ -1,0 +1,46 @@
+{
+	"MKG_PROD_AREA": [
+		{
+		  "mkg_prod_area_id": 1,
+		  "prod_area_nm": "N/A",
+		  "prod_area_desc": "N/A",
+		  "is_actv": 0,
+		  "dsp_ord": 1
+		},
+		{
+		  "mkg_prod_area_id": 2,
+		  "prod_area_nm": "Home Comfort",
+		  "prod_area_desc": "AC & Dehum",
+		  "is_actv": 1,
+		  "dsp_ord": 2
+		},
+		{
+		  "mkg_prod_area_id": 3,
+		  "prod_area_nm": "Kitchen",
+		  "prod_area_desc": "Cooking, Dish, Refrig, Compactor, Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": 3
+		},
+		{
+		  "mkg_prod_area_id": 4,
+		  "prod_area_nm": "Laundry",
+		  "prod_area_desc": "Washer, Dryer, Pedestal",
+		  "is_actv": 1,
+		  "dsp_ord": 4
+		},
+		{
+		  "mkg_prod_area_id": 7,
+		  "prod_area_nm": "Commercial",
+		  "prod_area_desc": "",
+		  "is_actv": 1,
+		  "dsp_ord": 2
+		},
+		{
+		  "mkg_prod_area_id": 8,
+		  "prod_area_nm": "Floor Care",
+		  "prod_area_desc": "",
+		  "is_actv": 1,
+		  "dsp_ord": 5
+		}
+	  ]
+}

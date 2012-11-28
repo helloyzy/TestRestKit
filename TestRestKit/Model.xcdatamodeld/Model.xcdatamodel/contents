@@ -15,17 +15,29 @@
         <relationship name="subBrands" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Brand" inverseName="topBrand" inverseEntity="Brand" syncable="YES"/>
         <relationship name="topBrand" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Brand" inverseName="subBrands" inverseEntity="Brand" syncable="YES"/>
     </entity>
+    <entity name="ProductArea" representedClassName="ProductArea" syncable="YES">
+        <attribute name="dsp_ord" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="is_actv" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="mkg_prod_area_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="prod_area_desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="prod_area_nm" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
     <entity name="ProductCategory" representedClassName="ProductCategory" syncable="YES">
         <attribute name="areaName" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="displayOrder" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="is_actv" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="mkg_prod_area_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="prnt_prod_cat_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="productCategoryID" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <relationship name="brand" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Brand" inverseName="productCategories" inverseEntity="Brand" syncable="YES"/>
         <relationship name="children" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ProductCategory" inverseName="parent" inverseEntity="ProductCategory" syncable="YES"/>
         <relationship name="parent" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="ProductCategory" inverseName="children" inverseEntity="ProductCategory" syncable="YES"/>
+        <relationship name="productArea" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="ProductArea" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Brand" positionX="16" positionY="193" width="128" height="240"/>
-        <element name="ProductCategory" positionX="-371" positionY="189" width="128" height="150"/>
+        <element name="Brand" positionX="-441" positionY="45" width="128" height="240"/>
+        <element name="ProductCategory" positionX="-630" positionY="108" width="128" height="210"/>
+        <element name="ProductArea" positionX="-801" positionY="162" width="128" height="120"/>
     </elements>
 </model>

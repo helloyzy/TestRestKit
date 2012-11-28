@@ -59,13 +59,36 @@
     [objectManager.mappingProvider setMapping:brandMapping forKeyPath:@"MKG_BRND"];
     // [[RKObjectManager sharedManager].mappingProvider setMapping:brandMapping forKeyPath:@"MKG_BRND"];
     
+    
+    RKManagedObjectMapping * prodAreaMapping = [RKManagedObjectMapping mappingForEntityWithName:@"ProductArea" inManagedObjectStore:objectManager.objectStore];
+    prodAreaMapping.primaryKeyAttribute = @"mkg_prod_area_id";
+    [prodAreaMapping mapAttributes:@"mkg_prod_area_id", @"prod_area_nm", @"prod_area_desc", @"is_actv", @"dsp_ord", nil];
+    
+    [objectManager.mappingProvider setMapping:prodAreaMapping forKeyPath:@"MKG_PROD_AREA"];
+    
+    RKManagedObjectMapping *productCategoryMapping = [RKManagedObjectMapping mappingForEntityWithName:@"ProductCategory" inManagedObjectStore:objectManager.objectStore];
+    productCategoryMapping.primaryKeyAttribute = @"productCategoryID";
+    [productCategoryMapping mapKeyPath:@"mkg_prod_cat_id" toAttribute:@"productCategoryID"];
+    [productCategoryMapping mapKeyPath:@"prod_cat_nm" toAttribute:@"name"];
+    [productCategoryMapping mapKeyPath:@"dsp_ord" toAttribute:@"displayOrder"];
+    [productCategoryMapping mapAttributes:@"is_actv", @"mkg_prod_area_id", @"prnt_prod_cat_id", nil];
+    
+    [productCategoryMapping hasOne:@"parent" withMapping:productCategoryMapping];
+    [productCategoryMapping connectRelationship:@"parent" withObjectForPrimaryKeyAttribute:@"prnt_prod_cat_id"];
+    
+    [productCategoryMapping hasOne:@"productArea" withMapping:prodAreaMapping];
+    [productCategoryMapping connectRelationship:@"productArea" withObjectForPrimaryKeyAttribute:@"mkg_prod_area_id"];
+        
+    [objectManager.mappingProvider setMapping:productCategoryMapping forKeyPath:@"MKG_PROD_CAT"];
+    
+     
     RKLogConfigureByName("RestKit/ObjectMapping", RKLogLevelDebug);
     RKLogConfigureByName("RestKit/CoreData", RKLogLevelDebug);
     
     RKManagedObjectSeeder *seeder = [RKManagedObjectSeeder objectSeederWithObjectManager:objectManager];
     // [seeder seedObjectsFromFile:@"ECBrand.json" withObjectMapping:brandMapping];
     // use the associated mapping provider with the object manager
-    [seeder seedObjectsFromFiles:@"ECBrand.json", nil];
+    [seeder seedObjectsFromFiles:@"ECBrand1.json", nil];
     [seeder finalizeSeedingAndExit];
     
     

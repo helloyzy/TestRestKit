@@ -7,7 +7,10 @@
 extern const struct ProductCategoryAttributes {
 	__unsafe_unretained NSString *areaName;
 	__unsafe_unretained NSString *displayOrder;
+	__unsafe_unretained NSString *is_actv;
+	__unsafe_unretained NSString *mkg_prod_area_id;
 	__unsafe_unretained NSString *name;
+	__unsafe_unretained NSString *prnt_prod_cat_id;
 	__unsafe_unretained NSString *productCategoryID;
 } ProductCategoryAttributes;
 
@@ -15,6 +18,7 @@ extern const struct ProductCategoryRelationships {
 	__unsafe_unretained NSString *brand;
 	__unsafe_unretained NSString *children;
 	__unsafe_unretained NSString *parent;
+	__unsafe_unretained NSString *productArea;
 } ProductCategoryRelationships;
 
 extern const struct ProductCategoryFetchedProperties {
@@ -23,6 +27,10 @@ extern const struct ProductCategoryFetchedProperties {
 @class Brand;
 @class ProductCategory;
 @class ProductCategory;
+@class ProductArea;
+
+
+
 
 
 
@@ -66,11 +74,53 @@ extern const struct ProductCategoryFetchedProperties {
 
 
 
+@property (nonatomic, strong) NSNumber* is_actv;
+
+
+
+@property int16_t is_actvValue;
+- (int16_t)is_actvValue;
+- (void)setIs_actvValue:(int16_t)value_;
+
+//- (BOOL)validateIs_actv:(id*)value_ error:(NSError**)error_;
+
+
+
+
+
+@property (nonatomic, strong) NSNumber* mkg_prod_area_id;
+
+
+
+@property int16_t mkg_prod_area_idValue;
+- (int16_t)mkg_prod_area_idValue;
+- (void)setMkg_prod_area_idValue:(int16_t)value_;
+
+//- (BOOL)validateMkg_prod_area_id:(id*)value_ error:(NSError**)error_;
+
+
+
+
+
 @property (nonatomic, strong) NSString* name;
 
 
 
 //- (BOOL)validateName:(id*)value_ error:(NSError**)error_;
+
+
+
+
+
+@property (nonatomic, strong) NSNumber* prnt_prod_cat_id;
+
+
+
+@property int16_t prnt_prod_cat_idValue;
+- (int16_t)prnt_prod_cat_idValue;
+- (void)setPrnt_prod_cat_idValue:(int16_t)value_;
+
+//- (BOOL)validatePrnt_prod_cat_id:(id*)value_ error:(NSError**)error_;
 
 
 
@@ -111,6 +161,13 @@ extern const struct ProductCategoryFetchedProperties {
 
 
 
+@property (nonatomic, strong) ProductArea *productArea;
+
+//- (BOOL)validateProductArea:(id*)value_ error:(NSError**)error_;
+
+
+
+
 
 @end
 
@@ -141,8 +198,35 @@ extern const struct ProductCategoryFetchedProperties {
 
 
 
+- (NSNumber*)primitiveIs_actv;
+- (void)setPrimitiveIs_actv:(NSNumber*)value;
+
+- (int16_t)primitiveIs_actvValue;
+- (void)setPrimitiveIs_actvValue:(int16_t)value_;
+
+
+
+
+- (NSNumber*)primitiveMkg_prod_area_id;
+- (void)setPrimitiveMkg_prod_area_id:(NSNumber*)value;
+
+- (int16_t)primitiveMkg_prod_area_idValue;
+- (void)setPrimitiveMkg_prod_area_idValue:(int16_t)value_;
+
+
+
+
 - (NSString*)primitiveName;
 - (void)setPrimitiveName:(NSString*)value;
+
+
+
+
+- (NSNumber*)primitivePrnt_prod_cat_id;
+- (void)setPrimitivePrnt_prod_cat_id:(NSNumber*)value;
+
+- (int16_t)primitivePrnt_prod_cat_idValue;
+- (void)setPrimitivePrnt_prod_cat_idValue:(int16_t)value_;
 
 
 
@@ -169,6 +253,11 @@ extern const struct ProductCategoryFetchedProperties {
 
 - (ProductCategory*)primitiveParent;
 - (void)setPrimitiveParent:(ProductCategory*)value;
+
+
+
+- (ProductArea*)primitiveProductArea;
+- (void)setPrimitiveProductArea:(ProductArea*)value;
 
 
 @end
