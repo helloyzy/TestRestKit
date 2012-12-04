@@ -4,11 +4,11 @@
 #import "_Brand.h"
 
 const struct BrandAttributes BrandAttributes = {
-	.brandID = @"brandID",
-	.displayOrder = @"displayOrder",
+	.brnd_nm = @"brnd_nm",
+	.dsp_ord = @"dsp_ord",
 	.is_internal = @"is_internal",
+	.mkg_brnd_id = @"mkg_brnd_id",
 	.mkg_dig_aset_ownr_id = @"mkg_dig_aset_ownr_id",
-	.name = @"name",
 	.prnt_brnd_id = @"prnt_brnd_id",
 	.show_sub_brnd = @"show_sub_brnd",
 	.top_brnd_id = @"top_brnd_id",
@@ -18,7 +18,6 @@ const struct BrandRelationships BrandRelationships = {
 	.children = @"children",
 	.fkProdCatInfo = @"fkProdCatInfo",
 	.parent = @"parent",
-	.productCategories = @"productCategories",
 	.subBrands = @"subBrands",
 	.topBrand = @"topBrand",
 };
@@ -52,18 +51,18 @@ const struct BrandFetchedProperties BrandFetchedProperties = {
 + (NSSet*)keyPathsForValuesAffectingValueForKey:(NSString*)key {
 	NSSet *keyPaths = [super keyPathsForValuesAffectingValueForKey:key];
 	
-	if ([key isEqualToString:@"brandIDValue"]) {
-		NSSet *affectingKey = [NSSet setWithObject:@"brandID"];
-		keyPaths = [keyPaths setByAddingObjectsFromSet:affectingKey];
-		return keyPaths;
-	}
-	if ([key isEqualToString:@"displayOrderValue"]) {
-		NSSet *affectingKey = [NSSet setWithObject:@"displayOrder"];
+	if ([key isEqualToString:@"dsp_ordValue"]) {
+		NSSet *affectingKey = [NSSet setWithObject:@"dsp_ord"];
 		keyPaths = [keyPaths setByAddingObjectsFromSet:affectingKey];
 		return keyPaths;
 	}
 	if ([key isEqualToString:@"is_internalValue"]) {
 		NSSet *affectingKey = [NSSet setWithObject:@"is_internal"];
+		keyPaths = [keyPaths setByAddingObjectsFromSet:affectingKey];
+		return keyPaths;
+	}
+	if ([key isEqualToString:@"mkg_brnd_idValue"]) {
+		NSSet *affectingKey = [NSSet setWithObject:@"mkg_brnd_id"];
 		keyPaths = [keyPaths setByAddingObjectsFromSet:affectingKey];
 		return keyPaths;
 	}
@@ -94,52 +93,33 @@ const struct BrandFetchedProperties BrandFetchedProperties = {
 
 
 
-@dynamic brandID;
+@dynamic brnd_nm;
 
 
 
-- (int16_t)brandIDValue {
-	NSNumber *result = [self brandID];
+
+
+
+@dynamic dsp_ord;
+
+
+
+- (int16_t)dsp_ordValue {
+	NSNumber *result = [self dsp_ord];
 	return [result shortValue];
 }
 
-- (void)setBrandIDValue:(int16_t)value_ {
-	[self setBrandID:[NSNumber numberWithShort:value_]];
+- (void)setDsp_ordValue:(int16_t)value_ {
+	[self setDsp_ord:[NSNumber numberWithShort:value_]];
 }
 
-- (int16_t)primitiveBrandIDValue {
-	NSNumber *result = [self primitiveBrandID];
+- (int16_t)primitiveDsp_ordValue {
+	NSNumber *result = [self primitiveDsp_ord];
 	return [result shortValue];
 }
 
-- (void)setPrimitiveBrandIDValue:(int16_t)value_ {
-	[self setPrimitiveBrandID:[NSNumber numberWithShort:value_]];
-}
-
-
-
-
-
-@dynamic displayOrder;
-
-
-
-- (int16_t)displayOrderValue {
-	NSNumber *result = [self displayOrder];
-	return [result shortValue];
-}
-
-- (void)setDisplayOrderValue:(int16_t)value_ {
-	[self setDisplayOrder:[NSNumber numberWithShort:value_]];
-}
-
-- (int16_t)primitiveDisplayOrderValue {
-	NSNumber *result = [self primitiveDisplayOrder];
-	return [result shortValue];
-}
-
-- (void)setPrimitiveDisplayOrderValue:(int16_t)value_ {
-	[self setPrimitiveDisplayOrder:[NSNumber numberWithShort:value_]];
+- (void)setPrimitiveDsp_ordValue:(int16_t)value_ {
+	[self setPrimitiveDsp_ord:[NSNumber numberWithShort:value_]];
 }
 
 
@@ -172,6 +152,32 @@ const struct BrandFetchedProperties BrandFetchedProperties = {
 
 
 
+@dynamic mkg_brnd_id;
+
+
+
+- (int16_t)mkg_brnd_idValue {
+	NSNumber *result = [self mkg_brnd_id];
+	return [result shortValue];
+}
+
+- (void)setMkg_brnd_idValue:(int16_t)value_ {
+	[self setMkg_brnd_id:[NSNumber numberWithShort:value_]];
+}
+
+- (int16_t)primitiveMkg_brnd_idValue {
+	NSNumber *result = [self primitiveMkg_brnd_id];
+	return [result shortValue];
+}
+
+- (void)setPrimitiveMkg_brnd_idValue:(int16_t)value_ {
+	[self setPrimitiveMkg_brnd_id:[NSNumber numberWithShort:value_]];
+}
+
+
+
+
+
 @dynamic mkg_dig_aset_ownr_id;
 
 
@@ -193,13 +199,6 @@ const struct BrandFetchedProperties BrandFetchedProperties = {
 - (void)setPrimitiveMkg_dig_aset_ownr_idValue:(int16_t)value_ {
 	[self setPrimitiveMkg_dig_aset_ownr_id:[NSNumber numberWithShort:value_]];
 }
-
-
-
-
-
-@dynamic name;
-
 
 
 
@@ -311,19 +310,6 @@ const struct BrandFetchedProperties BrandFetchedProperties = {
 
 @dynamic parent;
 
-	
-
-@dynamic productCategories;
-
-	
-- (NSMutableSet*)productCategoriesSet {
-	[self willAccessValueForKey:@"productCategories"];
-  
-	NSMutableSet *result = (NSMutableSet*)[self mutableSetValueForKey:@"productCategories"];
-  
-	[self didAccessValueForKey:@"productCategories"];
-	return result;
-}
 	
 
 @dynamic subBrands;

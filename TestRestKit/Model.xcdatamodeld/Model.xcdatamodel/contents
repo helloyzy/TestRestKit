@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1810" systemVersion="11G63b" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
     <entity name="Brand" representedClassName="Brand" syncable="YES">
-        <attribute name="brandID" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
-        <attribute name="displayOrder" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="brnd_nm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dsp_ord" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="is_internal" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="mkg_brnd_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="mkg_dig_aset_ownr_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
-        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="prnt_brnd_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="show_sub_brnd" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="top_brnd_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <relationship name="children" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Brand" inverseName="parent" inverseEntity="Brand" syncable="YES"/>
         <relationship name="fkProdCatInfo" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="BrandProdCat" inverseName="brand" inverseEntity="BrandProdCat" syncable="YES"/>
         <relationship name="parent" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Brand" inverseName="children" inverseEntity="Brand" syncable="YES"/>
-        <relationship name="productCategories" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ProductCategory" inverseName="brand" inverseEntity="ProductCategory" syncable="YES"/>
         <relationship name="subBrands" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Brand" inverseName="topBrand" inverseEntity="Brand" syncable="YES"/>
         <relationship name="topBrand" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Brand" inverseName="subBrands" inverseEntity="Brand" syncable="YES"/>
     </entity>
@@ -24,6 +23,19 @@
         <relationship name="brand" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Brand" inverseName="fkProdCatInfo" inverseEntity="Brand" syncable="YES"/>
         <relationship name="prodCat" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="ProductCategory" inverseName="fkBrandInfo" inverseEntity="ProductCategory" syncable="YES"/>
     </entity>
+    <entity name="Product" representedClassName="Product" syncable="YES">
+        <attribute name="mkg_brnd_modl_yr_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="mkg_brnd_prod_cat_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="mkg_dig_aset_ownr_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="mkg_inst_typ_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="mkg_nmnl_powr_typ_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="mkg_nmnl_prod_sz_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="mkg_prod_desc_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="mkg_prod_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="mkg_prod_lif_stts_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="prod_cd" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="prodVrnts" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ProdVrnt" inverseName="product" inverseEntity="ProdVrnt" syncable="YES"/>
+    </entity>
     <entity name="ProductArea" representedClassName="ProductArea" syncable="YES">
         <attribute name="dsp_ord" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="is_actv" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
@@ -33,23 +45,34 @@
         <relationship name="prodCat" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ProductCategory" inverseName="productArea" inverseEntity="ProductCategory" syncable="YES"/>
     </entity>
     <entity name="ProductCategory" representedClassName="ProductCategory" syncable="YES">
-        <attribute name="areaName" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="displayOrder" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="dsp_ord" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="is_actv" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="mkg_prod_area_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
-        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mkg_prod_cat_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="prnt_prod_cat_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
-        <attribute name="productCategoryID" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
-        <relationship name="brand" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Brand" inverseName="productCategories" inverseEntity="Brand" syncable="YES"/>
+        <attribute name="prod_cat_nm" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="children" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ProductCategory" inverseName="parent" inverseEntity="ProductCategory" syncable="YES"/>
         <relationship name="fkBrandInfo" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="BrandProdCat" inverseName="prodCat" inverseEntity="BrandProdCat" syncable="YES"/>
         <relationship name="parent" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="ProductCategory" inverseName="children" inverseEntity="ProductCategory" syncable="YES"/>
         <relationship name="productArea" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="ProductArea" inverseName="prodCat" inverseEntity="ProductArea" syncable="YES"/>
     </entity>
+    <entity name="ProdVrnt" representedClassName="ProdVrnt" syncable="YES">
+        <attribute name="mkg_chnl_vis_stts_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="mkg_cons_vis_stts_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="mkg_dig_aset_ownr_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="mkg_prod_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="mkg_prod_vrnt_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="mkg_vrtn_typ_cd_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="prod_vrnt_sku" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="prod_vrnt_upc" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="product" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Product" inverseName="prodVrnts" inverseEntity="Product" syncable="YES"/>
+    </entity>
     <elements>
-        <element name="Brand" positionX="-468" positionY="-0" width="128" height="255"/>
-        <element name="ProductArea" positionX="-873" positionY="153" width="128" height="135"/>
-        <element name="ProductCategory" positionX="-666" positionY="63" width="128" height="225"/>
+        <element name="Brand" positionX="-468" positionY="-0" width="128" height="240"/>
         <element name="BrandProdCat" positionX="-648" positionY="-126" width="128" height="135"/>
+        <element name="ProductArea" positionX="-873" positionY="153" width="128" height="135"/>
+        <element name="ProductCategory" positionX="-666" positionY="63" width="128" height="195"/>
+        <element name="Product" positionX="-839" positionY="-90" width="128" height="210"/>
+        <element name="ProdVrnt" positionX="-837" positionY="-180" width="128" height="180"/>
     </elements>
 </model>

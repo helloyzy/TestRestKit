@@ -4,17 +4,15 @@
 #import "_ProductCategory.h"
 
 const struct ProductCategoryAttributes ProductCategoryAttributes = {
-	.areaName = @"areaName",
-	.displayOrder = @"displayOrder",
+	.dsp_ord = @"dsp_ord",
 	.is_actv = @"is_actv",
 	.mkg_prod_area_id = @"mkg_prod_area_id",
-	.name = @"name",
+	.mkg_prod_cat_id = @"mkg_prod_cat_id",
 	.prnt_prod_cat_id = @"prnt_prod_cat_id",
-	.productCategoryID = @"productCategoryID",
+	.prod_cat_nm = @"prod_cat_nm",
 };
 
 const struct ProductCategoryRelationships ProductCategoryRelationships = {
-	.brand = @"brand",
 	.children = @"children",
 	.fkBrandInfo = @"fkBrandInfo",
 	.parent = @"parent",
@@ -50,8 +48,8 @@ const struct ProductCategoryFetchedProperties ProductCategoryFetchedProperties =
 + (NSSet*)keyPathsForValuesAffectingValueForKey:(NSString*)key {
 	NSSet *keyPaths = [super keyPathsForValuesAffectingValueForKey:key];
 	
-	if ([key isEqualToString:@"displayOrderValue"]) {
-		NSSet *affectingKey = [NSSet setWithObject:@"displayOrder"];
+	if ([key isEqualToString:@"dsp_ordValue"]) {
+		NSSet *affectingKey = [NSSet setWithObject:@"dsp_ord"];
 		keyPaths = [keyPaths setByAddingObjectsFromSet:affectingKey];
 		return keyPaths;
 	}
@@ -65,13 +63,13 @@ const struct ProductCategoryFetchedProperties ProductCategoryFetchedProperties =
 		keyPaths = [keyPaths setByAddingObjectsFromSet:affectingKey];
 		return keyPaths;
 	}
-	if ([key isEqualToString:@"prnt_prod_cat_idValue"]) {
-		NSSet *affectingKey = [NSSet setWithObject:@"prnt_prod_cat_id"];
+	if ([key isEqualToString:@"mkg_prod_cat_idValue"]) {
+		NSSet *affectingKey = [NSSet setWithObject:@"mkg_prod_cat_id"];
 		keyPaths = [keyPaths setByAddingObjectsFromSet:affectingKey];
 		return keyPaths;
 	}
-	if ([key isEqualToString:@"productCategoryIDValue"]) {
-		NSSet *affectingKey = [NSSet setWithObject:@"productCategoryID"];
+	if ([key isEqualToString:@"prnt_prod_cat_idValue"]) {
+		NSSet *affectingKey = [NSSet setWithObject:@"prnt_prod_cat_id"];
 		keyPaths = [keyPaths setByAddingObjectsFromSet:affectingKey];
 		return keyPaths;
 	}
@@ -82,33 +80,26 @@ const struct ProductCategoryFetchedProperties ProductCategoryFetchedProperties =
 
 
 
-@dynamic areaName;
+@dynamic dsp_ord;
 
 
 
-
-
-
-@dynamic displayOrder;
-
-
-
-- (int16_t)displayOrderValue {
-	NSNumber *result = [self displayOrder];
+- (int16_t)dsp_ordValue {
+	NSNumber *result = [self dsp_ord];
 	return [result shortValue];
 }
 
-- (void)setDisplayOrderValue:(int16_t)value_ {
-	[self setDisplayOrder:[NSNumber numberWithShort:value_]];
+- (void)setDsp_ordValue:(int16_t)value_ {
+	[self setDsp_ord:[NSNumber numberWithShort:value_]];
 }
 
-- (int16_t)primitiveDisplayOrderValue {
-	NSNumber *result = [self primitiveDisplayOrder];
+- (int16_t)primitiveDsp_ordValue {
+	NSNumber *result = [self primitiveDsp_ord];
 	return [result shortValue];
 }
 
-- (void)setPrimitiveDisplayOrderValue:(int16_t)value_ {
-	[self setPrimitiveDisplayOrder:[NSNumber numberWithShort:value_]];
+- (void)setPrimitiveDsp_ordValue:(int16_t)value_ {
+	[self setPrimitiveDsp_ord:[NSNumber numberWithShort:value_]];
 }
 
 
@@ -167,8 +158,27 @@ const struct ProductCategoryFetchedProperties ProductCategoryFetchedProperties =
 
 
 
-@dynamic name;
+@dynamic mkg_prod_cat_id;
 
+
+
+- (int16_t)mkg_prod_cat_idValue {
+	NSNumber *result = [self mkg_prod_cat_id];
+	return [result shortValue];
+}
+
+- (void)setMkg_prod_cat_idValue:(int16_t)value_ {
+	[self setMkg_prod_cat_id:[NSNumber numberWithShort:value_]];
+}
+
+- (int16_t)primitiveMkg_prod_cat_idValue {
+	NSNumber *result = [self primitiveMkg_prod_cat_id];
+	return [result shortValue];
+}
+
+- (void)setPrimitiveMkg_prod_cat_idValue:(int16_t)value_ {
+	[self setPrimitiveMkg_prod_cat_id:[NSNumber numberWithShort:value_]];
+}
 
 
 
@@ -200,35 +210,12 @@ const struct ProductCategoryFetchedProperties ProductCategoryFetchedProperties =
 
 
 
-@dynamic productCategoryID;
-
-
-
-- (int16_t)productCategoryIDValue {
-	NSNumber *result = [self productCategoryID];
-	return [result shortValue];
-}
-
-- (void)setProductCategoryIDValue:(int16_t)value_ {
-	[self setProductCategoryID:[NSNumber numberWithShort:value_]];
-}
-
-- (int16_t)primitiveProductCategoryIDValue {
-	NSNumber *result = [self primitiveProductCategoryID];
-	return [result shortValue];
-}
-
-- (void)setPrimitiveProductCategoryIDValue:(int16_t)value_ {
-	[self setPrimitiveProductCategoryID:[NSNumber numberWithShort:value_]];
-}
+@dynamic prod_cat_nm;
 
 
 
 
 
-@dynamic brand;
-
-	
 
 @dynamic children;
 

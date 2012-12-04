@@ -164,6 +164,7 @@
     "MKG_PROD_CAT": [
                      {
                      "mkg_prod_cat_id": 1,
+                     "prnt_prod_cat_id": null,
                      "prod_cat_nm": "N/A",
                      "mkg_prod_area_id": 1,
                      "is_actv": 1,
@@ -171,6 +172,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 2,
+                     "prnt_prod_cat_id": null,
                      "prod_cat_nm": "Coffee Maker",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -178,6 +180,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 3,
+                     "prnt_prod_cat_id": null,
                      "prod_cat_nm": "Compactor",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -185,6 +188,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 4,
+                     "prnt_prod_cat_id": null,
                      "prod_cat_nm": "Cooktop",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -192,6 +196,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 5,
+                     "prnt_prod_cat_id": null,
                      "prod_cat_nm": "Dehumidifier",
                      "mkg_prod_area_id": 2,
                      "is_actv": 1,
@@ -199,6 +204,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 6,
+                     "prnt_prod_cat_id": null,
                      "prod_cat_nm": "Dishwasher",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -206,6 +212,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 7,
+                     "prnt_prod_cat_id": null,
                      "prod_cat_nm": "Dryer",
                      "mkg_prod_area_id": 4,
                      "is_actv": 1,
@@ -213,6 +220,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 8,
+                     "prnt_prod_cat_id": null,
                      "prod_cat_nm": "Freezer",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -220,6 +228,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 9,
+                     "prnt_prod_cat_id": 8,
                      "prod_cat_nm": "Chest",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -227,6 +236,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 10,
+                     "prnt_prod_cat_id": 8,
                      "prod_cat_nm": "Convertible",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -234,6 +244,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 12,
+                     "prnt_prod_cat_id": 8,
                      "prod_cat_nm": "Upright",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -241,6 +252,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 13,
+                     "prnt_prod_cat_id": null,
                      "prod_cat_nm": "Ice Makers",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -248,6 +260,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 14,
+                     "prnt_prod_cat_id": null,
                      "prod_cat_nm": "Laundry Center",
                      "mkg_prod_area_id": 4,
                      "is_actv": 1,
@@ -255,6 +268,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 15,
+                     "prnt_prod_cat_id": null,
                      "prod_cat_nm": "Micro Combi",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -262,6 +276,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 16,
+                     "prnt_prod_cat_id": null,
                      "prod_cat_nm": "Microwave",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -269,6 +284,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 17,
+                     "prnt_prod_cat_id": 16,
                      "prod_cat_nm": "Built-In",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -276,6 +292,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 18,
+                     "prnt_prod_cat_id": 17,
                      "prod_cat_nm": "Drop-Down Door",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -283,6 +300,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 19,
+                     "prnt_prod_cat_id": 17,
                      "prod_cat_nm": "Side-Swing Door",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -290,6 +308,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 20,
+                     "prnt_prod_cat_id": 16,
                      "prod_cat_nm": "Over-The-Range",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -297,6 +316,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 22,
+                     "prnt_prod_cat_id": 16,
                      "prod_cat_nm": "Countertop",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -304,6 +324,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 23,
+                     "prnt_prod_cat_id": null,
                      "prod_cat_nm": "Pedestal",
                      "mkg_prod_area_id": 4,
                      "is_actv": 1,
@@ -311,6 +332,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 24,
+                     "prnt_prod_cat_id": null,
                      "prod_cat_nm": "Ranges",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -318,6 +340,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 26,
+                     "prnt_prod_cat_id": null,
                      "prod_cat_nm": "Refrigerator",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -325,6 +348,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 28,
+                     "prnt_prod_cat_id": 26,
                      "prod_cat_nm": "French Door",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -332,6 +356,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 31,
+                     "prnt_prod_cat_id": 26,
                      "prod_cat_nm": "Side-By-Side",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -339,6 +364,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 34,
+                     "prnt_prod_cat_id": 26,
                      "prod_cat_nm": "Top Freezer",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -346,6 +372,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 35,
+                     "prnt_prod_cat_id": 26,
                      "prod_cat_nm": "Bottom Freezer",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -353,6 +380,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 36,
+                     "prnt_prod_cat_id": 26,
                      "prod_cat_nm": "All Refrigerator",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -360,6 +388,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 37,
+                     "prnt_prod_cat_id": 26,
                      "prod_cat_nm": "Beverage Center",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -367,6 +396,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 38,
+                     "prnt_prod_cat_id": 26,
                      "prod_cat_nm": "Compact",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -374,6 +404,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 39,
+                     "prnt_prod_cat_id": 26,
                      "prod_cat_nm": "Refrigerator Drawer",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -381,6 +412,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 40,
+                     "prnt_prod_cat_id": 26,
                      "prod_cat_nm": "Wine Storage",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -388,6 +420,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 41,
+                     "prnt_prod_cat_id": null,
                      "prod_cat_nm": "Ventilation",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -395,6 +428,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 42,
+                     "prnt_prod_cat_id": null,
                      "prod_cat_nm": "Wall Oven",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -402,6 +436,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 43,
+                     "prnt_prod_cat_id": 42,
                      "prod_cat_nm": "Double",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -409,6 +444,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 44,
+                     "prnt_prod_cat_id": 42,
                      "prod_cat_nm": "Single",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -416,6 +452,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 45,
+                     "prnt_prod_cat_id": 42,
                      "prod_cat_nm": "High-Speed",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -423,6 +460,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 46,
+                     "prnt_prod_cat_id": null,
                      "prod_cat_nm": "Warmer Drawers",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -430,6 +468,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 47,
+                     "prnt_prod_cat_id": null,
                      "prod_cat_nm": "Washer",
                      "mkg_prod_area_id": 4,
                      "is_actv": 1,
@@ -437,6 +476,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 48,
+                     "prnt_prod_cat_id": 47,
                      "prod_cat_nm": "Front Load",
                      "mkg_prod_area_id": 4,
                      "is_actv": 1,
@@ -444,6 +484,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 49,
+                     "prnt_prod_cat_id": 47,
                      "prod_cat_nm": "Top Load",
                      "mkg_prod_area_id": 4,
                      "is_actv": 1,
@@ -451,6 +492,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 50,
+                     "prnt_prod_cat_id": null,
                      "prod_cat_nm": "AC",
                      "mkg_prod_area_id": 2,
                      "is_actv": 1,
@@ -458,6 +500,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 51,
+                     "prnt_prod_cat_id": 50,
                      "prod_cat_nm": "Window",
                      "mkg_prod_area_id": 2,
                      "is_actv": 1,
@@ -465,6 +508,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 52,
+                     "prnt_prod_cat_id": 50,
                      "prod_cat_nm": "Built-In",
                      "mkg_prod_area_id": 2,
                      "is_actv": 1,
@@ -472,6 +516,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 53,
+                     "prnt_prod_cat_id": 50,
                      "prod_cat_nm": "Portable",
                      "mkg_prod_area_id": 2,
                      "is_actv": 1,
@@ -479,6 +524,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 54,
+                     "prnt_prod_cat_id": 51,
                      "prod_cat_nm": "Heavy-Duty",
                      "mkg_prod_area_id": 2,
                      "is_actv": 1,
@@ -486,6 +532,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 55,
+                     "prnt_prod_cat_id": 51,
                      "prod_cat_nm": "Median",
                      "mkg_prod_area_id": 2,
                      "is_actv": 1,
@@ -493,6 +540,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 56,
+                     "prnt_prod_cat_id": 51,
                      "prod_cat_nm": "Compact",
                      "mkg_prod_area_id": 2,
                      "is_actv": 1,
@@ -500,6 +548,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 57,
+                     "prnt_prod_cat_id": 51,
                      "prod_cat_nm": "Mini Compact",
                      "mkg_prod_area_id": 2,
                      "is_actv": 1,
@@ -507,6 +556,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 58,
+                     "prnt_prod_cat_id": 51,
                      "prod_cat_nm": "Mini",
                      "mkg_prod_area_id": 2,
                      "is_actv": 1,
@@ -514,6 +564,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 59,
+                     "prnt_prod_cat_id": 51,
                      "prod_cat_nm": "Slider/Casement",
                      "mkg_prod_area_id": 2,
                      "is_actv": 1,
@@ -521,6 +572,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 60,
+                     "prnt_prod_cat_id": 50,
                      "prod_cat_nm": "Split",
                      "mkg_prod_area_id": 2,
                      "is_actv": 1,
@@ -528,6 +580,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 63,
+                     "prnt_prod_cat_id": 8,
                      "prod_cat_nm": "All Freezer",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -535,6 +588,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 64,
+                     "prnt_prod_cat_id": 2,
                      "prod_cat_nm": "Built-In Coffee Maker",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -542,6 +596,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 65,
+                     "prnt_prod_cat_id": 50,
                      "prod_cat_nm": "PTAC",
                      "mkg_prod_area_id": 2,
                      "is_actv": 1,
@@ -549,6 +604,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 66,
+                     "prnt_prod_cat_id": null,
                      "prod_cat_nm": "Convection Toaster Oven",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -556,6 +612,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 67,
+                     "prnt_prod_cat_id": null,
                      "prod_cat_nm": "Blender",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -563,6 +620,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 68,
+                     "prnt_prod_cat_id": null,
                      "prod_cat_nm": "Slow Cooker",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -570,6 +628,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 69,
+                     "prnt_prod_cat_id": null,
                      "prod_cat_nm": "Panini Press",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -577,6 +636,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 70,
+                     "prnt_prod_cat_id": null,
                      "prod_cat_nm": "Toaster",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -584,6 +644,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 71,
+                     "prnt_prod_cat_id": null,
                      "prod_cat_nm": "Immersion Blender",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -591,6 +652,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 72,
+                     "prnt_prod_cat_id": null,
                      "prod_cat_nm": "Waste Disposer",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -598,6 +660,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 73,
+                     "prnt_prod_cat_id": null,
                      "prod_cat_nm": "Iron",
                      "mkg_prod_area_id": 4,
                      "is_actv": 1,
@@ -605,6 +668,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 74,
+                     "prnt_prod_cat_id": 26,
                      "prod_cat_nm": "Merchandiser",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -612,6 +676,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 75,
+                     "prnt_prod_cat_id": 8,
                      "prod_cat_nm": "Merchandiser",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -619,6 +684,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 76,
+                     "prnt_prod_cat_id": 26,
                      "prod_cat_nm": "Reach-In",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -626,6 +692,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 77,
+                     "prnt_prod_cat_id": 8,
                      "prod_cat_nm": "Reach-In",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -633,6 +700,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 78,
+                     "prnt_prod_cat_id": 26,
                      "prod_cat_nm": "Undercounter",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -640,6 +708,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 79,
+                     "prnt_prod_cat_id": 8,
                      "prod_cat_nm": "Undercounter",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -647,6 +716,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 80,
+                     "prnt_prod_cat_id": 26,
                      "prod_cat_nm": "Bottle Cooler",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -654,6 +724,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 81,
+                     "prnt_prod_cat_id": 26,
                      "prod_cat_nm": "Prep Table",
                      "mkg_prod_area_id": 3,
                      "is_actv": 1,
@@ -661,6 +732,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 82,
+                     "prnt_prod_cat_id": 8,
                      "prod_cat_nm": "Ice Cream",
                      "mkg_prod_area_id": 7,
                      "is_actv": 1,
@@ -668,6 +740,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 83,
+                     "prnt_prod_cat_id": 8,
                      "prod_cat_nm": "Novelty",
                      "mkg_prod_area_id": 7,
                      "is_actv": 1,
@@ -675,6 +748,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 84,
+                     "prnt_prod_cat_id": 51,
                      "prod_cat_nm": "Slide-Out Chassis",
                      "mkg_prod_area_id": 2,
                      "is_actv": 1,
@@ -682,6 +756,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 85,
+                     "prnt_prod_cat_id": 51,
                      "prod_cat_nm": "Low-Profile",
                      "mkg_prod_area_id": 2,
                      "is_actv": 1,
@@ -689,6 +764,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 86,
+                     "prnt_prod_cat_id": null,
                      "prod_cat_nm": "Vacuum",
                      "mkg_prod_area_id": 8,
                      "is_actv": 1,
@@ -696,6 +772,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 87,
+                     "prnt_prod_cat_id": 86,
                      "prod_cat_nm": "Canister",
                      "mkg_prod_area_id": 8,
                      "is_actv": 1,
@@ -703,6 +780,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 88,
+                     "prnt_prod_cat_id": 86,
                      "prod_cat_nm": "Lightweight",
                      "mkg_prod_area_id": 8,
                      "is_actv": 1,
@@ -710,6 +788,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 89,
+                     "prnt_prod_cat_id": 86,
                      "prod_cat_nm": "Steam",
                      "mkg_prod_area_id": 8,
                      "is_actv": 1,
@@ -717,6 +796,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 90,
+                     "prnt_prod_cat_id": 86,
                      "prod_cat_nm": "Robotic",
                      "mkg_prod_area_id": 8,
                      "is_actv": 1,
@@ -724,6 +804,7 @@
                      },
                      {
                      "mkg_prod_cat_id": 91,
+                     "prnt_prod_cat_id": 86,
                      "prod_cat_nm": "Upright",
                      "mkg_prod_area_id": 8,
                      "is_actv": 1,

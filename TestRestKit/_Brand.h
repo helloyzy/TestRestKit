@@ -5,11 +5,11 @@
 
 
 extern const struct BrandAttributes {
-	__unsafe_unretained NSString *brandID;
-	__unsafe_unretained NSString *displayOrder;
+	__unsafe_unretained NSString *brnd_nm;
+	__unsafe_unretained NSString *dsp_ord;
 	__unsafe_unretained NSString *is_internal;
+	__unsafe_unretained NSString *mkg_brnd_id;
 	__unsafe_unretained NSString *mkg_dig_aset_ownr_id;
-	__unsafe_unretained NSString *name;
 	__unsafe_unretained NSString *prnt_brnd_id;
 	__unsafe_unretained NSString *show_sub_brnd;
 	__unsafe_unretained NSString *top_brnd_id;
@@ -19,7 +19,6 @@ extern const struct BrandRelationships {
 	__unsafe_unretained NSString *children;
 	__unsafe_unretained NSString *fkProdCatInfo;
 	__unsafe_unretained NSString *parent;
-	__unsafe_unretained NSString *productCategories;
 	__unsafe_unretained NSString *subBrands;
 	__unsafe_unretained NSString *topBrand;
 } BrandRelationships;
@@ -30,7 +29,6 @@ extern const struct BrandFetchedProperties {
 @class Brand;
 @class BrandProdCat;
 @class Brand;
-@class ProductCategory;
 @class Brand;
 @class Brand;
 
@@ -56,29 +54,25 @@ extern const struct BrandFetchedProperties {
 
 
 
-@property (nonatomic, strong) NSNumber* brandID;
+@property (nonatomic, strong) NSString* brnd_nm;
 
 
 
-@property int16_t brandIDValue;
-- (int16_t)brandIDValue;
-- (void)setBrandIDValue:(int16_t)value_;
-
-//- (BOOL)validateBrandID:(id*)value_ error:(NSError**)error_;
+//- (BOOL)validateBrnd_nm:(id*)value_ error:(NSError**)error_;
 
 
 
 
 
-@property (nonatomic, strong) NSNumber* displayOrder;
+@property (nonatomic, strong) NSNumber* dsp_ord;
 
 
 
-@property int16_t displayOrderValue;
-- (int16_t)displayOrderValue;
-- (void)setDisplayOrderValue:(int16_t)value_;
+@property int16_t dsp_ordValue;
+- (int16_t)dsp_ordValue;
+- (void)setDsp_ordValue:(int16_t)value_;
 
-//- (BOOL)validateDisplayOrder:(id*)value_ error:(NSError**)error_;
+//- (BOOL)validateDsp_ord:(id*)value_ error:(NSError**)error_;
 
 
 
@@ -98,6 +92,20 @@ extern const struct BrandFetchedProperties {
 
 
 
+@property (nonatomic, strong) NSNumber* mkg_brnd_id;
+
+
+
+@property int16_t mkg_brnd_idValue;
+- (int16_t)mkg_brnd_idValue;
+- (void)setMkg_brnd_idValue:(int16_t)value_;
+
+//- (BOOL)validateMkg_brnd_id:(id*)value_ error:(NSError**)error_;
+
+
+
+
+
 @property (nonatomic, strong) NSNumber* mkg_dig_aset_ownr_id;
 
 
@@ -107,16 +115,6 @@ extern const struct BrandFetchedProperties {
 - (void)setMkg_dig_aset_ownr_idValue:(int16_t)value_;
 
 //- (BOOL)validateMkg_dig_aset_ownr_id:(id*)value_ error:(NSError**)error_;
-
-
-
-
-
-@property (nonatomic, strong) NSString* name;
-
-
-
-//- (BOOL)validateName:(id*)value_ error:(NSError**)error_;
 
 
 
@@ -185,13 +183,6 @@ extern const struct BrandFetchedProperties {
 
 
 
-@property (nonatomic, strong) NSSet *productCategories;
-
-- (NSMutableSet*)productCategoriesSet;
-
-
-
-
 @property (nonatomic, strong) NSSet *subBrands;
 
 - (NSMutableSet*)subBrandsSet;
@@ -221,11 +212,6 @@ extern const struct BrandFetchedProperties {
 - (void)addFkProdCatInfoObject:(BrandProdCat*)value_;
 - (void)removeFkProdCatInfoObject:(BrandProdCat*)value_;
 
-- (void)addProductCategories:(NSSet*)value_;
-- (void)removeProductCategories:(NSSet*)value_;
-- (void)addProductCategoriesObject:(ProductCategory*)value_;
-- (void)removeProductCategoriesObject:(ProductCategory*)value_;
-
 - (void)addSubBrands:(NSSet*)value_;
 - (void)removeSubBrands:(NSSet*)value_;
 - (void)addSubBrandsObject:(Brand*)value_;
@@ -236,20 +222,17 @@ extern const struct BrandFetchedProperties {
 @interface _Brand (CoreDataGeneratedPrimitiveAccessors)
 
 
-- (NSNumber*)primitiveBrandID;
-- (void)setPrimitiveBrandID:(NSNumber*)value;
-
-- (int16_t)primitiveBrandIDValue;
-- (void)setPrimitiveBrandIDValue:(int16_t)value_;
+- (NSString*)primitiveBrnd_nm;
+- (void)setPrimitiveBrnd_nm:(NSString*)value;
 
 
 
 
-- (NSNumber*)primitiveDisplayOrder;
-- (void)setPrimitiveDisplayOrder:(NSNumber*)value;
+- (NSNumber*)primitiveDsp_ord;
+- (void)setPrimitiveDsp_ord:(NSNumber*)value;
 
-- (int16_t)primitiveDisplayOrderValue;
-- (void)setPrimitiveDisplayOrderValue:(int16_t)value_;
+- (int16_t)primitiveDsp_ordValue;
+- (void)setPrimitiveDsp_ordValue:(int16_t)value_;
 
 
 
@@ -263,17 +246,20 @@ extern const struct BrandFetchedProperties {
 
 
 
+- (NSNumber*)primitiveMkg_brnd_id;
+- (void)setPrimitiveMkg_brnd_id:(NSNumber*)value;
+
+- (int16_t)primitiveMkg_brnd_idValue;
+- (void)setPrimitiveMkg_brnd_idValue:(int16_t)value_;
+
+
+
+
 - (NSNumber*)primitiveMkg_dig_aset_ownr_id;
 - (void)setPrimitiveMkg_dig_aset_ownr_id:(NSNumber*)value;
 
 - (int16_t)primitiveMkg_dig_aset_ownr_idValue;
 - (void)setPrimitiveMkg_dig_aset_ownr_idValue:(int16_t)value_;
-
-
-
-
-- (NSString*)primitiveName;
-- (void)setPrimitiveName:(NSString*)value;
 
 
 
@@ -318,11 +304,6 @@ extern const struct BrandFetchedProperties {
 
 - (Brand*)primitiveParent;
 - (void)setPrimitiveParent:(Brand*)value;
-
-
-
-- (NSMutableSet*)primitiveProductCategories;
-- (void)setPrimitiveProductCategories:(NSMutableSet*)value;
 
 
 

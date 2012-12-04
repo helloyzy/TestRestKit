@@ -98,7 +98,7 @@
     RKManagedObjectSeeder *seeder = [RKManagedObjectSeeder objectSeederWithObjectManager:objectManager];
     // [seeder seedObjectsFromFile:@"ECBrand.json" withObjectMapping:brandMapping];
     // use the associated mapping provider with the object manager
-    [seeder seedObjectsFromFiles:@"ECBrand1.json", nil];
+    [seeder seedObjectsFromFiles:@"ECData.json", nil];
     [seeder finalizeSeedingAndExit];
     
     
@@ -129,11 +129,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+/**
 #ifdef RESTKIT_GENERATE_SEED_DB
     [self generateSeed];
 #else
     [self initDBIfNecessary];
-#endif   
+#endif 
+ */
+    [self createSeedIfNecessary];
     [self test];
     // Override point for customization after application launch.
     UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
@@ -142,10 +145,117 @@
     return YES;
 }
 
+- (void)initRKStore {
+    RKObjectManager * objectManager = [RKObjectManager objectManagerWithBaseURLString:@"http://ec.com"];
+    
+    NSString *seedDatabaseName = nil;
+    NSString *databaseName = @"CoreDataStore.sqlite";
+    
+    objectManager.objectStore = [RKManagedObjectStore objectStoreWithStoreFilename:databaseName usingSeedDatabaseName:seedDatabaseName managedObjectModel:nil delegate:self];
+    
+    [RKObjectManager setSharedManager: objectManager];
+}
+
+- (void)seed {
+    RKObjectManager * objectManager = [RKObjectManager sharedManager];
+    
+    RKManagedObjectMapping *brandMapping = [RKManagedObjectMapping mappingForEntityWithName:@"Brand" inManagedObjectStore:objectManager.objectStore];
+    brandMapping.primaryKeyAttribute = @"mkg_brnd_id";
+    // [brandMapping mapKeyPath:@"mkg_brnd_id" toAttribute:@"brandID"];
+    // [brandMapping mapKeyPath:@"brnd_nm" toAttribute:@"name"];
+    // [brandMapping mapKeyPath:@"dsp_ord" toAttribute:@"displayOrder"];
+    [brandMapping mapAttributes: @"mkg_brnd_id", @"brnd_nm", @"dsp_ord", @"is_internal", @"show_sub_brnd", @"prnt_brnd_id", @"top_brnd_id", @"mkg_dig_aset_ownr_id", nil];
+    
+    [brandMapping hasOne:@"parent" withMapping:brandMapping];
+    [brandMapping connectRelationship:@"parent" withObjectForPrimaryKeyAttribute:@"prnt_brnd_id"];
+    
+    [brandMapping hasOne:@"topBrand" withMapping:brandMapping];
+    [brandMapping connectRelationship:@"topBrand" withObjectForPrimaryKeyAttribute:@"top_brnd_id"];
+    
+    // Register our mappings with the provider
+    [objectManager.mappingProvider setMapping:brandMapping forKeyPath:@"MKG_BRND"];
+    // [[RKObjectManager sharedManager].mappingProvider setMapping:brandMapping forKeyPath:@"MKG_BRND"];
+    
+    
+    RKManagedObjectMapping * prodAreaMapping = [RKManagedObjectMapping mappingForEntityWithName:@"ProductArea" inManagedObjectStore:objectManager.objectStore];
+    prodAreaMapping.primaryKeyAttribute = @"mkg_prod_area_id";
+    [prodAreaMapping mapAttributes:@"mkg_prod_area_id", @"prod_area_nm", @"prod_area_desc", @"is_actv", @"dsp_ord", nil];
+    
+    [objectManager.mappingProvider setMapping:prodAreaMapping forKeyPath:@"MKG_PROD_AREA"];
+    
+    RKManagedObjectMapping *productCategoryMapping = [RKManagedObjectMapping mappingForEntityWithName:@"ProductCategory" inManagedObjectStore:objectManager.objectStore];
+    productCategoryMapping.primaryKeyAttribute = @"mkg_prod_cat_id";
+    // [productCategoryMapping mapKeyPath:@"mkg_prod_cat_id" toAttribute:@"productCategoryID"];
+    // [productCategoryMapping mapKeyPath:@"prod_cat_nm" toAttribute:@"name"];
+    // [productCategoryMapping mapKeyPath:@"dsp_ord" toAttribute:@"displayOrder"];
+    [productCategoryMapping mapAttributes:@"mkg_prod_cat_id", @"prod_cat_nm", @"dsp_ord", @"is_actv", @"mkg_prod_area_id", @"prnt_prod_cat_id", nil];
+    
+    [productCategoryMapping hasOne:@"parent" withMapping:productCategoryMapping];
+    [productCategoryMapping connectRelationship:@"parent" withObjectForPrimaryKeyAttribute:@"prnt_prod_cat_id"];
+    
+    [productCategoryMapping hasOne:@"productArea" withMapping:prodAreaMapping];
+    [productCategoryMapping connectRelationship:@"productArea" withObjectForPrimaryKeyAttribute:@"mkg_prod_area_id"];
+    
+    [objectManager.mappingProvider setMapping:productCategoryMapping forKeyPath:@"MKG_PROD_CAT"];
+    
+    RKManagedObjectMapping * brandProdCatMapping = [RKManagedObjectMapping mappingForEntityWithName:@"BrandProdCat" inManagedObjectStore:objectManager.objectStore];
+    brandProdCatMapping.primaryKeyAttribute = @"mkg_brnd_prod_cat_id";
+    [brandProdCatMapping mapAttributes:@"mkg_brnd_prod_cat_id", @"mkg_brnd_id", @"mkg_prod_cat_id", @"mkg_dig_aset_ownr_id", nil];
+    
+    [brandProdCatMapping hasOne:@"brand" withMapping:brandMapping];
+    [brandProdCatMapping connectRelationship:@"brand" withObjectForPrimaryKeyAttribute:@"mkg_brnd_id"];
+    [brandProdCatMapping hasOne:@"prodCat" withMapping:productCategoryMapping];
+    [brandProdCatMapping connectRelationship:@"prodCat" withObjectForPrimaryKeyAttribute:@"mkg_prod_cat_id"];
+    
+    [objectManager.mappingProvider setMapping:brandProdCatMapping forKeyPath:@"MKG_BRND_PROD_CAT"];
+    
+    // below are for product and product variant
+    
+    RKManagedObjectMapping * productMapping = [RKManagedObjectMapping mappingForEntityWithName:@"Product" inManagedObjectStore:objectManager.objectStore];
+    productMapping.primaryKeyAttribute = @"mkg_prod_id";
+    [productMapping mapAttributes:@"mkg_prod_id", @"prod_cd", @"mkg_brnd_prod_cat_id", @"mkg_brnd_modl_yr_id", @"mkg_inst_typ_id", @"mkg_prod_desc_id", @"mkg_nmnl_powr_typ_id", @"mkg_nmnl_prod_sz_id", @"mkg_prod_lif_stts_id", @"mkg_dig_aset_ownr_id",  nil];
+    
+    [objectManager.mappingProvider setMapping:productMapping forKeyPath:@"MKG_PROD"];
+    
+    
+    RKManagedObjectMapping * prodVrntMapping = [RKManagedObjectMapping mappingForEntityWithName:@"ProdVrnt" inManagedObjectStore:objectManager.objectStore];
+    prodVrntMapping.primaryKeyAttribute = @"mkg_prod_vrnt_id";
+    [prodVrntMapping mapAttributes:@"mkg_prod_vrnt_id", @"mkg_prod_id", @"mkg_vrtn_typ_cd_id", @"prod_vrnt_sku", @"prod_vrnt_upc", @"mkg_cons_vis_stts_id", @"mkg_chnl_vis_stts_id", @"mkg_dig_aset_ownr_id", nil];
+    [prodVrntMapping hasOne:@"product" withMapping:productMapping];
+    [prodVrntMapping connectRelationship:@"product" withObjectForPrimaryKeyAttribute:@"mkg_prod_id"];
+    
+    [objectManager.mappingProvider setMapping:prodVrntMapping forKeyPath:@"MKG_PROD_VRNT"];
+    
+    RKLogConfigureByName("RestKit/ObjectMapping", RKLogLevelDebug);
+    RKLogConfigureByName("RestKit/CoreData", RKLogLevelDebug);
+    
+    RKManagedObjectSeeder *seeder = [RKManagedObjectSeeder objectSeederWithObjectManager:objectManager];
+    // [seeder seedObjectsFromFile:@"ECBrand.json" withObjectMapping:brandMapping];
+    // use the associated mapping provider with the object manager
+    [seeder seedObjectsFromFiles:@"ECData.json", @"ECProducts.json", @"ECSku.json", nil];
+    [seeder finalizeSeedingAndExit];
+}
+
+NSString * DOCUMENTS_DIR() {
+    return IB_DOCUMENTS_DIR();
+}
+
+- (void)createSeedIfNecessary {
+    NSString * docDir = DOCUMENTS_DIR();
+    NSString * seedPath = [docDir stringByAppendingPathComponent:@"CoreDataStore.sqlite"];
+    if (NO == [[NSFileManager defaultManager] fileExistsAtPath:seedPath]) {
+        [self initRKStore];
+        [self seed];
+    } else {
+        NSLog(@"The seed database already exists in: %@", seedPath);
+    }
+}
+
+
 - (void) test {
     NSLog(@"%@", IB_DOCUMENTS_DIR());
     // [CoreDataTest createData];
-    [CoreDataTest queryBrand];
+    // [CoreDataTest queryBrand];
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application

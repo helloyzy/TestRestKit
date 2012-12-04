@@ -5,17 +5,15 @@
 
 
 extern const struct ProductCategoryAttributes {
-	__unsafe_unretained NSString *areaName;
-	__unsafe_unretained NSString *displayOrder;
+	__unsafe_unretained NSString *dsp_ord;
 	__unsafe_unretained NSString *is_actv;
 	__unsafe_unretained NSString *mkg_prod_area_id;
-	__unsafe_unretained NSString *name;
+	__unsafe_unretained NSString *mkg_prod_cat_id;
 	__unsafe_unretained NSString *prnt_prod_cat_id;
-	__unsafe_unretained NSString *productCategoryID;
+	__unsafe_unretained NSString *prod_cat_nm;
 } ProductCategoryAttributes;
 
 extern const struct ProductCategoryRelationships {
-	__unsafe_unretained NSString *brand;
 	__unsafe_unretained NSString *children;
 	__unsafe_unretained NSString *fkBrandInfo;
 	__unsafe_unretained NSString *parent;
@@ -25,12 +23,10 @@ extern const struct ProductCategoryRelationships {
 extern const struct ProductCategoryFetchedProperties {
 } ProductCategoryFetchedProperties;
 
-@class Brand;
 @class ProductCategory;
 @class BrandProdCat;
 @class ProductCategory;
 @class ProductArea;
-
 
 
 
@@ -52,25 +48,15 @@ extern const struct ProductCategoryFetchedProperties {
 
 
 
-@property (nonatomic, strong) NSString* areaName;
+@property (nonatomic, strong) NSNumber* dsp_ord;
 
 
 
-//- (BOOL)validateAreaName:(id*)value_ error:(NSError**)error_;
+@property int16_t dsp_ordValue;
+- (int16_t)dsp_ordValue;
+- (void)setDsp_ordValue:(int16_t)value_;
 
-
-
-
-
-@property (nonatomic, strong) NSNumber* displayOrder;
-
-
-
-@property int16_t displayOrderValue;
-- (int16_t)displayOrderValue;
-- (void)setDisplayOrderValue:(int16_t)value_;
-
-//- (BOOL)validateDisplayOrder:(id*)value_ error:(NSError**)error_;
+//- (BOOL)validateDsp_ord:(id*)value_ error:(NSError**)error_;
 
 
 
@@ -104,11 +90,15 @@ extern const struct ProductCategoryFetchedProperties {
 
 
 
-@property (nonatomic, strong) NSString* name;
+@property (nonatomic, strong) NSNumber* mkg_prod_cat_id;
 
 
 
-//- (BOOL)validateName:(id*)value_ error:(NSError**)error_;
+@property int16_t mkg_prod_cat_idValue;
+- (int16_t)mkg_prod_cat_idValue;
+- (void)setMkg_prod_cat_idValue:(int16_t)value_;
+
+//- (BOOL)validateMkg_prod_cat_id:(id*)value_ error:(NSError**)error_;
 
 
 
@@ -128,23 +118,12 @@ extern const struct ProductCategoryFetchedProperties {
 
 
 
-@property (nonatomic, strong) NSNumber* productCategoryID;
+@property (nonatomic, strong) NSString* prod_cat_nm;
 
 
 
-@property int16_t productCategoryIDValue;
-- (int16_t)productCategoryIDValue;
-- (void)setProductCategoryIDValue:(int16_t)value_;
+//- (BOOL)validateProd_cat_nm:(id*)value_ error:(NSError**)error_;
 
-//- (BOOL)validateProductCategoryID:(id*)value_ error:(NSError**)error_;
-
-
-
-
-
-@property (nonatomic, strong) Brand *brand;
-
-//- (BOOL)validateBrand:(id*)value_ error:(NSError**)error_;
 
 
 
@@ -197,17 +176,11 @@ extern const struct ProductCategoryFetchedProperties {
 @interface _ProductCategory (CoreDataGeneratedPrimitiveAccessors)
 
 
-- (NSString*)primitiveAreaName;
-- (void)setPrimitiveAreaName:(NSString*)value;
+- (NSNumber*)primitiveDsp_ord;
+- (void)setPrimitiveDsp_ord:(NSNumber*)value;
 
-
-
-
-- (NSNumber*)primitiveDisplayOrder;
-- (void)setPrimitiveDisplayOrder:(NSNumber*)value;
-
-- (int16_t)primitiveDisplayOrderValue;
-- (void)setPrimitiveDisplayOrderValue:(int16_t)value_;
+- (int16_t)primitiveDsp_ordValue;
+- (void)setPrimitiveDsp_ordValue:(int16_t)value_;
 
 
 
@@ -230,8 +203,11 @@ extern const struct ProductCategoryFetchedProperties {
 
 
 
-- (NSString*)primitiveName;
-- (void)setPrimitiveName:(NSString*)value;
+- (NSNumber*)primitiveMkg_prod_cat_id;
+- (void)setPrimitiveMkg_prod_cat_id:(NSNumber*)value;
+
+- (int16_t)primitiveMkg_prod_cat_idValue;
+- (void)setPrimitiveMkg_prod_cat_idValue:(int16_t)value_;
 
 
 
@@ -245,18 +221,10 @@ extern const struct ProductCategoryFetchedProperties {
 
 
 
-- (NSNumber*)primitiveProductCategoryID;
-- (void)setPrimitiveProductCategoryID:(NSNumber*)value;
-
-- (int16_t)primitiveProductCategoryIDValue;
-- (void)setPrimitiveProductCategoryIDValue:(int16_t)value_;
+- (NSString*)primitiveProd_cat_nm;
+- (void)setPrimitiveProd_cat_nm:(NSString*)value;
 
 
-
-
-
-- (Brand*)primitiveBrand;
-- (void)setPrimitiveBrand:(Brand*)value;
 
 
 

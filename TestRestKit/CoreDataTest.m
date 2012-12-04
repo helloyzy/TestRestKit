@@ -14,6 +14,7 @@
 @implementation CoreDataTest
 
 + (Brand *)createSampleBrand {
+    /**
     ProductCategory * category = [ProductCategory create];
     category.name = @"category1";
     category.productCategoryIDValue = 1;
@@ -61,6 +62,9 @@
     brand.name = @"Elextrolux";
     brand.children = [NSSet setWithObjects:brand1,brand2, brand3, nil];
     return brand;
+     */
+    // TO DO
+    return nil;
 }
 
 + (NSMutableArray *)createData {
