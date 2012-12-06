@@ -20,6 +20,8 @@
         <attribute name="mkg_brnd_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="mkg_brnd_modl_yr_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="mkg_modl_yr_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="modelYr" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="ModelYr" inverseName="brandModelYrs" inverseEntity="ModelYr" syncable="YES"/>
+        <relationship name="products" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Product" inverseName="modelYr" inverseEntity="Product" syncable="YES"/>
     </entity>
     <entity name="BrandProdCat" representedClassName="BrandProdCat" syncable="YES">
         <attribute name="mkg_brnd_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
@@ -36,6 +38,7 @@
         <attribute name="is_actv" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="is_protected" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="mkg_chnl_vis_stts_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="prodVrnts" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ProdVrnt" inverseName="chnlVisStatus" inverseEntity="ProdVrnt" syncable="YES"/>
     </entity>
     <entity name="ConsumerVisStatus" representedClassName="ConsumerVisStatus" syncable="YES">
         <attribute name="cons_vis_stts_desc" optional="YES" attributeType="String" syncable="YES"/>
@@ -44,6 +47,7 @@
         <attribute name="is_actv" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="is_protected" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="mkg_cons_vis_stts_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="prodVrnts" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ProdVrnt" inverseName="consumerVisStatus" inverseEntity="ProdVrnt" syncable="YES"/>
     </entity>
     <entity name="InstallType" representedClassName="InstallType" syncable="YES">
         <attribute name="dsp_ord" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
@@ -51,6 +55,7 @@
         <attribute name="inst_typ_nm" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="is_actv" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="mkg_inst_typ_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="products" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Product" inverseName="installType" inverseEntity="Product" syncable="YES"/>
     </entity>
     <entity name="ModelYr" representedClassName="ModelYr" syncable="YES">
         <attribute name="dsp_ord" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
@@ -60,6 +65,7 @@
         <attribute name="mkg_modl_yr_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="modl_yr_note" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="modl_yr_val" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="brandModelYrs" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="BrandModelYr" inverseName="modelYr" inverseEntity="BrandModelYr" syncable="YES"/>
     </entity>
     <entity name="ProdDesc" representedClassName="ProdDesc" syncable="YES">
         <attribute name="dsp_ord" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
@@ -68,6 +74,7 @@
         <attribute name="mkg_prod_prce_typ_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="prod_prce_typ_desc" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="prod_prce_typ_nm" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="products" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Product" inverseName="prodDesc" inverseEntity="Product" syncable="YES"/>
     </entity>
     <entity name="ProdLifeStatus" representedClassName="ProdLifeStatus" syncable="YES">
         <attribute name="dsp_ord" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
@@ -75,18 +82,22 @@
         <attribute name="is_protected" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="mkg_prod_lif_stts_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="prod_lif_stts_nm" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="products" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Product" inverseName="lifeCycleStatus" inverseEntity="Product" syncable="YES"/>
     </entity>
     <entity name="ProdPowerType" representedClassName="ProdPowerType" syncable="YES">
         <attribute name="dsp_ord" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="is_actv" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="mkg_nmnl_powr_typ_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="nmnl_powr_typ_nm" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="products" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Product" inverseName="powerType" inverseEntity="Product" syncable="YES"/>
     </entity>
     <entity name="ProdPrice" representedClassName="ProdPrice" syncable="YES">
         <attribute name="mkg_prod_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="mkg_prod_prce_crnt_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="mkg_prod_prce_typ_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="prod_prce_amt" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="prictType" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="ProdPriceType" inverseName="fkPrices" inverseEntity="ProdPriceType" syncable="YES"/>
+        <relationship name="product" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Product" inverseName="fkPrices" inverseEntity="Product" syncable="YES"/>
     </entity>
     <entity name="ProdPriceType" representedClassName="ProdPriceType" syncable="YES">
         <attribute name="dsp_ord" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
@@ -95,6 +106,7 @@
         <attribute name="mkg_prod_prce_typ_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="prod_prce_typ_desc" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="prod_prce_typ_nm" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="fkPrices" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ProdPrice" inverseName="prictType" inverseEntity="ProdPrice" syncable="YES"/>
     </entity>
     <entity name="ProdSize" representedClassName="ProdSize" syncable="YES">
         <attribute name="dsp_ord" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
@@ -102,6 +114,7 @@
         <attribute name="mkg_nmnl_prod_sz_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="mkg_prod_cat_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="nmnl_prod_sz_nm" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="products" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Product" inverseName="prodSize" inverseEntity="Product" syncable="YES"/>
     </entity>
     <entity name="Product" representedClassName="Product" syncable="YES">
         <attribute name="mkg_brnd_modl_yr_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
@@ -114,6 +127,13 @@
         <attribute name="mkg_prod_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="mkg_prod_lif_stts_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="prod_cd" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="fkPrices" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ProdPrice" inverseName="product" inverseEntity="ProdPrice" syncable="YES"/>
+        <relationship name="installType" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="InstallType" inverseName="products" inverseEntity="InstallType" syncable="YES"/>
+        <relationship name="lifeCycleStatus" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="ProdLifeStatus" inverseName="products" inverseEntity="ProdLifeStatus" syncable="YES"/>
+        <relationship name="modelYr" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="BrandModelYr" inverseName="products" inverseEntity="BrandModelYr" syncable="YES"/>
+        <relationship name="powerType" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="ProdPowerType" inverseName="products" inverseEntity="ProdPowerType" syncable="YES"/>
+        <relationship name="prodDesc" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="ProdDesc" inverseName="products" inverseEntity="ProdDesc" syncable="YES"/>
+        <relationship name="prodSize" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="ProdSize" inverseName="products" inverseEntity="ProdSize" syncable="YES"/>
         <relationship name="prodVrnts" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ProdVrnt" inverseName="product" inverseEntity="ProdVrnt" syncable="YES"/>
     </entity>
     <entity name="ProductArea" representedClassName="ProductArea" syncable="YES">
@@ -145,25 +165,27 @@
         <attribute name="mkg_vrtn_typ_cd_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="prod_vrnt_sku" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="prod_vrnt_upc" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="chnlVisStatus" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="ChnlVisStatus" inverseName="prodVrnts" inverseEntity="ChnlVisStatus" syncable="YES"/>
+        <relationship name="consumerVisStatus" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="ConsumerVisStatus" inverseName="prodVrnts" inverseEntity="ConsumerVisStatus" syncable="YES"/>
         <relationship name="product" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Product" inverseName="prodVrnts" inverseEntity="Product" syncable="YES"/>
     </entity>
     <elements>
         <element name="Brand" positionX="-468" positionY="-0" width="128" height="240"/>
         <element name="BrandProdCat" positionX="-648" positionY="-126" width="128" height="135"/>
-        <element name="Product" positionX="-1089" positionY="-111" width="128" height="210"/>
+        <element name="Product" positionX="-1089" positionY="-111" width="128" height="315"/>
         <element name="ProductArea" positionX="-873" positionY="153" width="128" height="135"/>
         <element name="ProductCategory" positionX="-666" positionY="63" width="128" height="195"/>
-        <element name="ProdVrnt" positionX="-1296" positionY="-81" width="128" height="180"/>
-        <element name="ProdDesc" positionX="-1080" positionY="-297" width="128" height="135"/>
-        <element name="ProdPriceType" positionX="160" positionY="192" width="128" height="135"/>
-        <element name="ProdPrice" positionX="160" positionY="192" width="128" height="105"/>
-        <element name="ConsumerVisStatus" positionX="160" positionY="192" width="128" height="135"/>
-        <element name="ProdPowerType" positionX="160" positionY="192" width="128" height="105"/>
-        <element name="BrandModelYr" positionX="160" positionY="192" width="128" height="105"/>
-        <element name="InstallType" positionX="160" positionY="192" width="128" height="120"/>
-        <element name="ModelYr" positionX="160" positionY="192" width="128" height="150"/>
-        <element name="ProdLifeStatus" positionX="160" positionY="192" width="128" height="120"/>
-        <element name="ChnlVisStatus" positionX="160" positionY="192" width="128" height="135"/>
-        <element name="ProdSize" positionX="160" positionY="192" width="128" height="120"/>
+        <element name="ProdVrnt" positionX="-1521" positionY="-9" width="128" height="210"/>
+        <element name="ProdDesc" positionX="-1118" positionY="-348" width="128" height="150"/>
+        <element name="ProdPriceType" positionX="-1368" positionY="450" width="128" height="150"/>
+        <element name="ProdPrice" positionX="-1352" positionY="252" width="128" height="135"/>
+        <element name="ConsumerVisStatus" positionX="-1809" positionY="54" width="128" height="150"/>
+        <element name="ProdPowerType" positionX="-891" positionY="-282" width="128" height="120"/>
+        <element name="BrandModelYr" positionX="-1080" positionY="288" width="128" height="135"/>
+        <element name="InstallType" positionX="-1323" positionY="-315" width="128" height="135"/>
+        <element name="ModelYr" positionX="-794" positionY="396" width="128" height="165"/>
+        <element name="ProdLifeStatus" positionX="-1368" positionY="-153" width="128" height="135"/>
+        <element name="ChnlVisStatus" positionX="-1757" positionY="-234" width="128" height="150"/>
+        <element name="ProdSize" positionX="-848" positionY="-90" width="128" height="135"/>
     </elements>
 </model>
