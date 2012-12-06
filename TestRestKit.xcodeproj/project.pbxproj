@@ -75,89 +75,92 @@
 		00AB8471166497CC00E5EB97 /* IBMessageProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB8455166497CC00E5EB97 /* IBMessageProcessor.m */; };
 		00AB8472166497CC00E5EB97 /* IBTargetAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB8457166497CC00E5EB97 /* IBTargetAction.m */; };
 		00AB84741664986000E5EB97 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AB84731664986000E5EB97 /* CoreText.framework */; };
-		00AB847D1664E67700E5EB97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 002E48DC166357A70003B4B4 /* main.m */; };
-		00AB847E1664E67700E5EB97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 002E48E0166357A70003B4B4 /* AppDelegate.m */; };
-		00AB847F1664E67700E5EB97 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 002E48EC166357A70003B4B4 /* MasterViewController.m */; };
-		00AB84801664E67700E5EB97 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 002E48EF166357A70003B4B4 /* DetailViewController.m */; };
-		00AB84811664E67700E5EB97 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00AB83EA1664866600E5EB97 /* Model.xcdatamodeld */; };
-		00AB84821664E67700E5EB97 /* _Brand.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB83F7166489A200E5EB97 /* _Brand.m */; };
-		00AB84831664E67700E5EB97 /* _ProductCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB83F9166489A200E5EB97 /* _ProductCategory.m */; };
-		00AB84841664E67700E5EB97 /* Brand.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB8400166489C900E5EB97 /* Brand.m */; };
-		00AB84851664E67700E5EB97 /* ProductCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB8402166489C900E5EB97 /* ProductCategory.m */; };
-		00AB84861664E67700E5EB97 /* CoreDataTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB840B1664932A00E5EB97 /* CoreDataTest.m */; };
-		00AB84871664E67700E5EB97 /* IBAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB8419166497CC00E5EB97 /* IBAlertView.m */; };
-		00AB84881664E67700E5EB97 /* IBCoreTextLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB841B166497CC00E5EB97 /* IBCoreTextLabel.m */; };
-		00AB84891664E67700E5EB97 /* IBHTMLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB841D166497CC00E5EB97 /* IBHTMLLabel.m */; };
-		00AB848A1664E67700E5EB97 /* CGContext+InnerBand.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB8421166497CC00E5EB97 /* CGContext+InnerBand.m */; };
-		00AB848B1664E67700E5EB97 /* NSArray+InnerBand.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB8423166497CC00E5EB97 /* NSArray+InnerBand.m */; };
-		00AB848C1664E67700E5EB97 /* NSDate+InnerBand.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB8425166497CC00E5EB97 /* NSDate+InnerBand.m */; };
-		00AB848D1664E67700E5EB97 /* NSManagedObject+InnerBand.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB8427166497CC00E5EB97 /* NSManagedObject+InnerBand.m */; };
-		00AB848E1664E67700E5EB97 /* NSMutableArray+InnerBand.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB8429166497CC00E5EB97 /* NSMutableArray+InnerBand.m */; };
-		00AB848F1664E67700E5EB97 /* NSMutableString+InnerBand.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB842B166497CC00E5EB97 /* NSMutableString+InnerBand.m */; };
-		00AB84901664E67700E5EB97 /* NSNumber+InnerBand.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB842D166497CC00E5EB97 /* NSNumber+InnerBand.m */; };
-		00AB84911664E67700E5EB97 /* NSObject+InnerBand.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB842F166497CC00E5EB97 /* NSObject+InnerBand.m */; };
-		00AB84921664E67700E5EB97 /* NSString+InnerBand.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB8431166497CC00E5EB97 /* NSString+InnerBand.m */; };
-		00AB84931664E67700E5EB97 /* NSString+XMLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB8433166497CC00E5EB97 /* NSString+XMLEncoding.m */; };
-		00AB84941664E67700E5EB97 /* UIColor+InnerBand.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB8435166497CC00E5EB97 /* UIColor+InnerBand.m */; };
-		00AB84951664E67700E5EB97 /* UIImage+InnerBand.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB8437166497CC00E5EB97 /* UIImage+InnerBand.m */; };
-		00AB84961664E67700E5EB97 /* UIView+InnerBand.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB8439166497CC00E5EB97 /* UIView+InnerBand.m */; };
-		00AB84971664E67700E5EB97 /* IBFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB843B166497CC00E5EB97 /* IBFunctions.m */; };
-		00AB84981664E67700E5EB97 /* IBViewUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB8442166497CC00E5EB97 /* IBViewUtil.m */; };
-		00AB84991664E67700E5EB97 /* IBCoreDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB8445166497CC00E5EB97 /* IBCoreDataStore.m */; };
-		00AB849A1664E67700E5EB97 /* IBBlockBasedDispatchMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB8449166497CC00E5EB97 /* IBBlockBasedDispatchMessage.m */; };
-		00AB849B1664E67700E5EB97 /* IBHTTPGetRequestMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB844B166497CC00E5EB97 /* IBHTTPGetRequestMessage.m */; };
-		00AB849C1664E67700E5EB97 /* IBHTTPPostRequestMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB844D166497CC00E5EB97 /* IBHTTPPostRequestMessage.m */; };
-		00AB849D1664E67700E5EB97 /* IBSequencedMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB844F166497CC00E5EB97 /* IBSequencedMessage.m */; };
-		00AB849E1664E67700E5EB97 /* IBDispatchMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB8451166497CC00E5EB97 /* IBDispatchMessage.m */; };
-		00AB849F1664E67700E5EB97 /* IBMessageCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB8453166497CC00E5EB97 /* IBMessageCenter.m */; };
-		00AB84A01664E67700E5EB97 /* IBMessageProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB8455166497CC00E5EB97 /* IBMessageProcessor.m */; };
-		00AB84A11664E67700E5EB97 /* IBTargetAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB8457166497CC00E5EB97 /* IBTargetAction.m */; };
-		00AB84A31664E67700E5EB97 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AB84731664986000E5EB97 /* CoreText.framework */; };
-		00AB84A41664E67700E5EB97 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E4938166362460003B4B4 /* libxml2.dylib */; };
-		00AB84A51664E67700E5EB97 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E49361663623B0003B4B4 /* QuartzCore.framework */; };
-		00AB84A61664E67700E5EB97 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E4934166362320003B4B4 /* SystemConfiguration.framework */; };
-		00AB84A71664E67700E5EB97 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E4932166362280003B4B4 /* Security.framework */; };
-		00AB84A81664E67700E5EB97 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E49301663621E0003B4B4 /* MobileCoreServices.framework */; };
-		00AB84A91664E67700E5EB97 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E492E166362170003B4B4 /* CoreData.framework */; };
-		00AB84AA1664E67700E5EB97 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E492C166362030003B4B4 /* CFNetwork.framework */; };
-		00AB84AB1664E67700E5EB97 /* libRestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E491F1663617C0003B4B4 /* libRestKit.a */; };
-		00AB84AC1664E67700E5EB97 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E48D0166357A70003B4B4 /* UIKit.framework */; };
-		00AB84AD1664E67700E5EB97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E48D2166357A70003B4B4 /* Foundation.framework */; };
-		00AB84AE1664E67700E5EB97 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E48D4166357A70003B4B4 /* CoreGraphics.framework */; };
-		00AB84B01664E67700E5EB97 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 002E48D9166357A70003B4B4 /* InfoPlist.strings */; };
-		00AB84B11664E67700E5EB97 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 002E48E2166357A70003B4B4 /* Default.png */; };
-		00AB84B21664E67700E5EB97 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 002E48E4166357A70003B4B4 /* Default@2x.png */; };
-		00AB84B31664E67700E5EB97 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 002E48E6166357A70003B4B4 /* Default-568h@2x.png */; };
-		00AB84B41664E67700E5EB97 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002E48E8166357A70003B4B4 /* MainStoryboard.storyboard */; };
 		00BC2912166611DA0051BDEE /* _BrandProdCat.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BC2911166611DA0051BDEE /* _BrandProdCat.m */; };
-		00BC2913166611DA0051BDEE /* _BrandProdCat.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BC2911166611DA0051BDEE /* _BrandProdCat.m */; };
 		00BC2916166611F20051BDEE /* BrandProdCat.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BC2915166611F20051BDEE /* BrandProdCat.m */; };
-		00BC2917166611F20051BDEE /* BrandProdCat.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BC2915166611F20051BDEE /* BrandProdCat.m */; };
-		00BCD44A1665C87800F3D5D6 /* ECData.json in Resources */ = {isa = PBXBuildFile; fileRef = 00BCD4491665C87800F3D5D6 /* ECData.json */; };
-		00BCD44D1665E92200F3D5D6 /* ECProdArea.json in Resources */ = {isa = PBXBuildFile; fileRef = 00BCD44B1665E92200F3D5D6 /* ECProdArea.json */; };
-		00BCD44E1665E92200F3D5D6 /* ECProdCat.json in Resources */ = {isa = PBXBuildFile; fileRef = 00BCD44C1665E92200F3D5D6 /* ECProdCat.json */; };
 		00BCD4511665EE2300F3D5D6 /* _ProductArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BCD4501665EE2300F3D5D6 /* _ProductArea.m */; };
-		00BCD4521665EE2300F3D5D6 /* _ProductArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BCD4501665EE2300F3D5D6 /* _ProductArea.m */; };
 		00BCD4551665EE3400F3D5D6 /* ProductArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BCD4541665EE3400F3D5D6 /* ProductArea.m */; };
-		00BCD4561665EE3400F3D5D6 /* ProductArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BCD4541665EE3400F3D5D6 /* ProductArea.m */; };
 		00D60F36166E0E4A002ECCBB /* _Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D60F33166E0E4A002ECCBB /* _Product.m */; };
-		00D60F37166E0E4A002ECCBB /* _Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D60F33166E0E4A002ECCBB /* _Product.m */; };
 		00D60F38166E0E4A002ECCBB /* _ProdVrnt.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D60F35166E0E4A002ECCBB /* _ProdVrnt.m */; };
-		00D60F39166E0E4A002ECCBB /* _ProdVrnt.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D60F35166E0E4A002ECCBB /* _ProdVrnt.m */; };
 		00D60F3E166E0E5A002ECCBB /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D60F3B166E0E5A002ECCBB /* Product.m */; };
-		00D60F3F166E0E5A002ECCBB /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D60F3B166E0E5A002ECCBB /* Product.m */; };
 		00D60F40166E0E5A002ECCBB /* ProdVrnt.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D60F3D166E0E5A002ECCBB /* ProdVrnt.m */; };
-		00D60F41166E0E5A002ECCBB /* ProdVrnt.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D60F3D166E0E5A002ECCBB /* ProdVrnt.m */; };
 		00D60F44166E0E83002ECCBB /* ECProducts.json in Resources */ = {isa = PBXBuildFile; fileRef = 00D60F42166E0E83002ECCBB /* ECProducts.json */; };
-		00D60F45166E0E83002ECCBB /* ECProducts.json in Resources */ = {isa = PBXBuildFile; fileRef = 00D60F42166E0E83002ECCBB /* ECProducts.json */; };
 		00D60F46166E0E83002ECCBB /* ECSku.json in Resources */ = {isa = PBXBuildFile; fileRef = 00D60F43166E0E83002ECCBB /* ECSku.json */; };
-		00D60F47166E0E83002ECCBB /* ECSku.json in Resources */ = {isa = PBXBuildFile; fileRef = 00D60F43166E0E83002ECCBB /* ECSku.json */; };
 		00D60F48166E0E8C002ECCBB /* ECData.json in Resources */ = {isa = PBXBuildFile; fileRef = 00BCD4491665C87800F3D5D6 /* ECData.json */; };
 		00D60F4B166E0F35002ECCBB /* NSArray+ECDataRelated.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D60F4A166E0F35002ECCBB /* NSArray+ECDataRelated.m */; };
-		E2AC495616650C2B00009863 /* brands.json in Resources */ = {isa = PBXBuildFile; fileRef = E2AC495516650C2B00009863 /* brands.json */; };
-		E2AC49E61665224300009863 /* ECBrand.json in Resources */ = {isa = PBXBuildFile; fileRef = E2AC49E51665224300009863 /* ECBrand.json */; };
+		00D6103116707F9B002ECCBB /* ECProdDesc.json in Resources */ = {isa = PBXBuildFile; fileRef = 00D6102E16707F9B002ECCBB /* ECProdDesc.json */; };
+		00D6103216707F9B002ECCBB /* ECProdMisc.json in Resources */ = {isa = PBXBuildFile; fileRef = 00D6102F16707F9B002ECCBB /* ECProdMisc.json */; };
+		00D610371670805C002ECCBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 002E48DC166357A70003B4B4 /* main.m */; };
+		00D610381670805C002ECCBB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 002E48E0166357A70003B4B4 /* AppDelegate.m */; };
+		00D610391670805C002ECCBB /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 002E48EC166357A70003B4B4 /* MasterViewController.m */; };
+		00D6103A1670805C002ECCBB /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 002E48EF166357A70003B4B4 /* DetailViewController.m */; };
+		00D6103B1670805C002ECCBB /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00AB83EA1664866600E5EB97 /* Model.xcdatamodeld */; };
+		00D6103C1670805C002ECCBB /* _Brand.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB83F7166489A200E5EB97 /* _Brand.m */; };
+		00D6103D1670805C002ECCBB /* _ProductCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB83F9166489A200E5EB97 /* _ProductCategory.m */; };
+		00D6103E1670805C002ECCBB /* Brand.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB8400166489C900E5EB97 /* Brand.m */; };
+		00D6103F1670805C002ECCBB /* ProductCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB8402166489C900E5EB97 /* ProductCategory.m */; };
+		00D610401670805C002ECCBB /* CoreDataTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB840B1664932A00E5EB97 /* CoreDataTest.m */; };
+		00D610411670805C002ECCBB /* IBAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB8419166497CC00E5EB97 /* IBAlertView.m */; };
+		00D610421670805C002ECCBB /* IBCoreTextLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB841B166497CC00E5EB97 /* IBCoreTextLabel.m */; };
+		00D610431670805C002ECCBB /* IBHTMLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB841D166497CC00E5EB97 /* IBHTMLLabel.m */; };
+		00D610441670805C002ECCBB /* CGContext+InnerBand.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB8421166497CC00E5EB97 /* CGContext+InnerBand.m */; };
+		00D610451670805C002ECCBB /* NSArray+InnerBand.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB8423166497CC00E5EB97 /* NSArray+InnerBand.m */; };
+		00D610461670805C002ECCBB /* NSDate+InnerBand.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB8425166497CC00E5EB97 /* NSDate+InnerBand.m */; };
+		00D610471670805C002ECCBB /* NSManagedObject+InnerBand.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB8427166497CC00E5EB97 /* NSManagedObject+InnerBand.m */; };
+		00D610481670805C002ECCBB /* NSMutableArray+InnerBand.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB8429166497CC00E5EB97 /* NSMutableArray+InnerBand.m */; };
+		00D610491670805C002ECCBB /* NSMutableString+InnerBand.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB842B166497CC00E5EB97 /* NSMutableString+InnerBand.m */; };
+		00D6104A1670805C002ECCBB /* NSNumber+InnerBand.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB842D166497CC00E5EB97 /* NSNumber+InnerBand.m */; };
+		00D6104B1670805C002ECCBB /* NSObject+InnerBand.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB842F166497CC00E5EB97 /* NSObject+InnerBand.m */; };
+		00D6104C1670805C002ECCBB /* NSString+InnerBand.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB8431166497CC00E5EB97 /* NSString+InnerBand.m */; };
+		00D6104D1670805C002ECCBB /* NSString+XMLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB8433166497CC00E5EB97 /* NSString+XMLEncoding.m */; };
+		00D6104E1670805C002ECCBB /* UIColor+InnerBand.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB8435166497CC00E5EB97 /* UIColor+InnerBand.m */; };
+		00D6104F1670805C002ECCBB /* UIImage+InnerBand.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB8437166497CC00E5EB97 /* UIImage+InnerBand.m */; };
+		00D610501670805C002ECCBB /* UIView+InnerBand.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB8439166497CC00E5EB97 /* UIView+InnerBand.m */; };
+		00D610511670805C002ECCBB /* IBFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB843B166497CC00E5EB97 /* IBFunctions.m */; };
+		00D610521670805C002ECCBB /* IBViewUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB8442166497CC00E5EB97 /* IBViewUtil.m */; };
+		00D610531670805C002ECCBB /* IBCoreDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB8445166497CC00E5EB97 /* IBCoreDataStore.m */; };
+		00D610541670805C002ECCBB /* IBBlockBasedDispatchMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB8449166497CC00E5EB97 /* IBBlockBasedDispatchMessage.m */; };
+		00D610551670805C002ECCBB /* IBHTTPGetRequestMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB844B166497CC00E5EB97 /* IBHTTPGetRequestMessage.m */; };
+		00D610561670805C002ECCBB /* IBHTTPPostRequestMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB844D166497CC00E5EB97 /* IBHTTPPostRequestMessage.m */; };
+		00D610571670805C002ECCBB /* IBSequencedMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB844F166497CC00E5EB97 /* IBSequencedMessage.m */; };
+		00D610581670805C002ECCBB /* IBDispatchMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB8451166497CC00E5EB97 /* IBDispatchMessage.m */; };
+		00D610591670805C002ECCBB /* IBMessageCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB8453166497CC00E5EB97 /* IBMessageCenter.m */; };
+		00D6105A1670805C002ECCBB /* IBMessageProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB8455166497CC00E5EB97 /* IBMessageProcessor.m */; };
+		00D6105B1670805C002ECCBB /* IBTargetAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB8457166497CC00E5EB97 /* IBTargetAction.m */; };
+		00D6105C1670805C002ECCBB /* _ProductArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BCD4501665EE2300F3D5D6 /* _ProductArea.m */; };
+		00D6105D1670805C002ECCBB /* ProductArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BCD4541665EE3400F3D5D6 /* ProductArea.m */; };
+		00D6105E1670805C002ECCBB /* _BrandProdCat.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BC2911166611DA0051BDEE /* _BrandProdCat.m */; };
+		00D6105F1670805C002ECCBB /* BrandProdCat.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BC2915166611F20051BDEE /* BrandProdCat.m */; };
+		00D610601670805C002ECCBB /* _Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D60F33166E0E4A002ECCBB /* _Product.m */; };
+		00D610611670805C002ECCBB /* _ProdVrnt.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D60F35166E0E4A002ECCBB /* _ProdVrnt.m */; };
+		00D610621670805C002ECCBB /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D60F3B166E0E5A002ECCBB /* Product.m */; };
+		00D610631670805C002ECCBB /* ProdVrnt.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D60F3D166E0E5A002ECCBB /* ProdVrnt.m */; };
+		00D610641670805C002ECCBB /* NSArray+ECDataRelated.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D60F4A166E0F35002ECCBB /* NSArray+ECDataRelated.m */; };
+		00D610661670805C002ECCBB /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AB84731664986000E5EB97 /* CoreText.framework */; };
+		00D610671670805C002ECCBB /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E4938166362460003B4B4 /* libxml2.dylib */; };
+		00D610681670805C002ECCBB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E49361663623B0003B4B4 /* QuartzCore.framework */; };
+		00D610691670805C002ECCBB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E4934166362320003B4B4 /* SystemConfiguration.framework */; };
+		00D6106A1670805C002ECCBB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E4932166362280003B4B4 /* Security.framework */; };
+		00D6106B1670805C002ECCBB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E49301663621E0003B4B4 /* MobileCoreServices.framework */; };
+		00D6106C1670805C002ECCBB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E492E166362170003B4B4 /* CoreData.framework */; };
+		00D6106D1670805C002ECCBB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E492C166362030003B4B4 /* CFNetwork.framework */; };
+		00D6106E1670805C002ECCBB /* libRestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E491F1663617C0003B4B4 /* libRestKit.a */; };
+		00D6106F1670805C002ECCBB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E48D0166357A70003B4B4 /* UIKit.framework */; };
+		00D610701670805C002ECCBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E48D2166357A70003B4B4 /* Foundation.framework */; };
+		00D610711670805C002ECCBB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E48D4166357A70003B4B4 /* CoreGraphics.framework */; };
+		00D610731670805C002ECCBB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 002E48D9166357A70003B4B4 /* InfoPlist.strings */; };
+		00D610741670805C002ECCBB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 002E48E2166357A70003B4B4 /* Default.png */; };
+		00D610751670805C002ECCBB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 002E48E4166357A70003B4B4 /* Default@2x.png */; };
+		00D610761670805C002ECCBB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 002E48E6166357A70003B4B4 /* Default-568h@2x.png */; };
+		00D610771670805C002ECCBB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002E48E8166357A70003B4B4 /* MainStoryboard.storyboard */; };
+		00D610781670805C002ECCBB /* RKSeedDatabase.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = E2AC49E71665240700009863 /* RKSeedDatabase.sqlite */; };
+		00D610791670805C002ECCBB /* ECProducts.json in Resources */ = {isa = PBXBuildFile; fileRef = 00D60F42166E0E83002ECCBB /* ECProducts.json */; };
+		00D6107A1670805C002ECCBB /* ECSku.json in Resources */ = {isa = PBXBuildFile; fileRef = 00D60F43166E0E83002ECCBB /* ECSku.json */; };
+		00D6107B1670805C002ECCBB /* ECData.json in Resources */ = {isa = PBXBuildFile; fileRef = 00BCD4491665C87800F3D5D6 /* ECData.json */; };
+		00D6107D1670805C002ECCBB /* ECProdDesc.json in Resources */ = {isa = PBXBuildFile; fileRef = 00D6102E16707F9B002ECCBB /* ECProdDesc.json */; };
+		00D6107E1670805C002ECCBB /* ECProdMisc.json in Resources */ = {isa = PBXBuildFile; fileRef = 00D6102F16707F9B002ECCBB /* ECProdMisc.json */; };
+		00E3F9FB167097DD0017B783 /* ECProdPrice.json in Resources */ = {isa = PBXBuildFile; fileRef = 00E3F9FA167097DD0017B783 /* ECProdPrice.json */; };
+		00E3F9FC167097E90017B783 /* ECProdPrice.json in Resources */ = {isa = PBXBuildFile; fileRef = 00E3F9FA167097DD0017B783 /* ECProdPrice.json */; };
 		E2AC49E81665240700009863 /* RKSeedDatabase.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = E2AC49E71665240700009863 /* RKSeedDatabase.sqlite */; };
-		E2AC49E91665241800009863 /* RKSeedDatabase.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = E2AC49E71665240700009863 /* RKSeedDatabase.sqlite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -203,7 +206,7 @@
 			remoteGlobalIDString = 25160D1514564E810060A5C5;
 			remoteInfo = RestKit;
 		};
-		00AB847B1664E67700E5EB97 /* PBXContainerItemProxy */ = {
+		00D610351670805C002ECCBB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 002E49131663617C0003B4B4 /* RestKit.xcodeproj */;
 			proxyType = 1;
@@ -308,14 +311,11 @@
 		00AB8456166497CC00E5EB97 /* IBTargetAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBTargetAction.h; sourceTree = "<group>"; };
 		00AB8457166497CC00E5EB97 /* IBTargetAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBTargetAction.m; sourceTree = "<group>"; };
 		00AB84731664986000E5EB97 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
-		00AB84B91664E67700E5EB97 /* TestRestKit copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TestRestKit copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00BC2910166611DA0051BDEE /* _BrandProdCat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _BrandProdCat.h; sourceTree = "<group>"; };
 		00BC2911166611DA0051BDEE /* _BrandProdCat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _BrandProdCat.m; sourceTree = "<group>"; };
 		00BC2914166611F20051BDEE /* BrandProdCat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProdCat.h; sourceTree = "<group>"; };
 		00BC2915166611F20051BDEE /* BrandProdCat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandProdCat.m; sourceTree = "<group>"; };
 		00BCD4491665C87800F3D5D6 /* ECData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ECData.json; sourceTree = SOURCE_ROOT; };
-		00BCD44B1665E92200F3D5D6 /* ECProdArea.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ECProdArea.json; sourceTree = SOURCE_ROOT; };
-		00BCD44C1665E92200F3D5D6 /* ECProdCat.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ECProdCat.json; sourceTree = SOURCE_ROOT; };
 		00BCD44F1665EE2300F3D5D6 /* _ProductArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _ProductArea.h; sourceTree = "<group>"; };
 		00BCD4501665EE2300F3D5D6 /* _ProductArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _ProductArea.m; sourceTree = "<group>"; };
 		00BCD4531665EE3400F3D5D6 /* ProductArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductArea.h; sourceTree = "<group>"; };
@@ -332,8 +332,11 @@
 		00D60F43166E0E83002ECCBB /* ECSku.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ECSku.json; sourceTree = SOURCE_ROOT; };
 		00D60F49166E0F35002ECCBB /* NSArray+ECDataRelated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ECDataRelated.h"; sourceTree = "<group>"; };
 		00D60F4A166E0F35002ECCBB /* NSArray+ECDataRelated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ECDataRelated.m"; sourceTree = "<group>"; };
-		E2AC495516650C2B00009863 /* brands.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = brands.json; sourceTree = SOURCE_ROOT; };
-		E2AC49E51665224300009863 /* ECBrand.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ECBrand.json; sourceTree = SOURCE_ROOT; };
+		00D6102E16707F9B002ECCBB /* ECProdDesc.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ECProdDesc.json; sourceTree = SOURCE_ROOT; };
+		00D6102F16707F9B002ECCBB /* ECProdMisc.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ECProdMisc.json; sourceTree = SOURCE_ROOT; };
+		00D610821670805C002ECCBB /* SeedDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeedDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00D610841670805D002ECCBB /* SeedDB.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = SeedDB.plist; path = /Users/aaa/Whitman/DevResource/WorkingSpace_Test/TestRestKit/SeedDB.plist; sourceTree = "<absolute>"; };
+		00E3F9FA167097DD0017B783 /* ECProdPrice.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ECProdPrice.json; sourceTree = SOURCE_ROOT; };
 		E2AC49E71665240700009863 /* RKSeedDatabase.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = RKSeedDatabase.sqlite; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -357,22 +360,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		00AB84A21664E67700E5EB97 /* Frameworks */ = {
+		00D610651670805C002ECCBB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00AB84A31664E67700E5EB97 /* CoreText.framework in Frameworks */,
-				00AB84A41664E67700E5EB97 /* libxml2.dylib in Frameworks */,
-				00AB84A51664E67700E5EB97 /* QuartzCore.framework in Frameworks */,
-				00AB84A61664E67700E5EB97 /* SystemConfiguration.framework in Frameworks */,
-				00AB84A71664E67700E5EB97 /* Security.framework in Frameworks */,
-				00AB84A81664E67700E5EB97 /* MobileCoreServices.framework in Frameworks */,
-				00AB84A91664E67700E5EB97 /* CoreData.framework in Frameworks */,
-				00AB84AA1664E67700E5EB97 /* CFNetwork.framework in Frameworks */,
-				00AB84AB1664E67700E5EB97 /* libRestKit.a in Frameworks */,
-				00AB84AC1664E67700E5EB97 /* UIKit.framework in Frameworks */,
-				00AB84AD1664E67700E5EB97 /* Foundation.framework in Frameworks */,
-				00AB84AE1664E67700E5EB97 /* CoreGraphics.framework in Frameworks */,
+				00D610661670805C002ECCBB /* CoreText.framework in Frameworks */,
+				00D610671670805C002ECCBB /* libxml2.dylib in Frameworks */,
+				00D610681670805C002ECCBB /* QuartzCore.framework in Frameworks */,
+				00D610691670805C002ECCBB /* SystemConfiguration.framework in Frameworks */,
+				00D6106A1670805C002ECCBB /* Security.framework in Frameworks */,
+				00D6106B1670805C002ECCBB /* MobileCoreServices.framework in Frameworks */,
+				00D6106C1670805C002ECCBB /* CoreData.framework in Frameworks */,
+				00D6106D1670805C002ECCBB /* CFNetwork.framework in Frameworks */,
+				00D6106E1670805C002ECCBB /* libRestKit.a in Frameworks */,
+				00D6106F1670805C002ECCBB /* UIKit.framework in Frameworks */,
+				00D610701670805C002ECCBB /* Foundation.framework in Frameworks */,
+				00D610711670805C002ECCBB /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +389,7 @@
 				002E48D6166357A70003B4B4 /* TestRestKit */,
 				002E48CF166357A70003B4B4 /* Frameworks */,
 				002E48CD166357A70003B4B4 /* Products */,
+				00D610841670805D002ECCBB /* SeedDB.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -393,7 +397,7 @@
 			isa = PBXGroup;
 			children = (
 				002E48CC166357A70003B4B4 /* TestRestKit.app */,
-				00AB84B91664E67700E5EB97 /* TestRestKit copy.app */,
+				00D610821670805C002ECCBB /* SeedDB.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -436,14 +440,13 @@
 		002E48D7166357A70003B4B4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				00E3F9FA167097DD0017B783 /* ECProdPrice.json */,
+				00D6102E16707F9B002ECCBB /* ECProdDesc.json */,
+				00D6102F16707F9B002ECCBB /* ECProdMisc.json */,
 				00D60F42166E0E83002ECCBB /* ECProducts.json */,
 				00D60F43166E0E83002ECCBB /* ECSku.json */,
-				00BCD44B1665E92200F3D5D6 /* ECProdArea.json */,
-				00BCD44C1665E92200F3D5D6 /* ECProdCat.json */,
 				00BCD4491665C87800F3D5D6 /* ECData.json */,
 				E2AC49E71665240700009863 /* RKSeedDatabase.sqlite */,
-				E2AC49E51665224300009863 /* ECBrand.json */,
-				E2AC495516650C2B00009863 /* brands.json */,
 				00AB83EA1664866600E5EB97 /* Model.xcdatamodeld */,
 				002E48D8166357A70003B4B4 /* TestRestKit-Info.plist */,
 				002E48D9166357A70003B4B4 /* InfoPlist.strings */,
@@ -677,22 +680,22 @@
 			productReference = 002E48CC166357A70003B4B4 /* TestRestKit.app */;
 			productType = "com.apple.product-type.application";
 		};
-		00AB84791664E67700E5EB97 /* Generate Seed */ = {
+		00D610331670805C002ECCBB /* SeedDB */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00AB84B61664E67700E5EB97 /* Build configuration list for PBXNativeTarget "Generate Seed" */;
+			buildConfigurationList = 00D6107F1670805C002ECCBB /* Build configuration list for PBXNativeTarget "SeedDB" */;
 			buildPhases = (
-				00AB847C1664E67700E5EB97 /* Sources */,
-				00AB84A21664E67700E5EB97 /* Frameworks */,
-				00AB84AF1664E67700E5EB97 /* Resources */,
+				00D610361670805C002ECCBB /* Sources */,
+				00D610651670805C002ECCBB /* Frameworks */,
+				00D610721670805C002ECCBB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				00AB847A1664E67700E5EB97 /* PBXTargetDependency */,
+				00D610341670805C002ECCBB /* PBXTargetDependency */,
 			);
-			name = "Generate Seed";
+			name = SeedDB;
 			productName = TestRestKit;
-			productReference = 00AB84B91664E67700E5EB97 /* TestRestKit copy.app */;
+			productReference = 00D610821670805C002ECCBB /* SeedDB.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -724,7 +727,7 @@
 			targets = (
 				002E48CB166357A70003B4B4 /* TestRestKit */,
 				00AB83F1166488FA00E5EB97 /* CoreDataGenerator */,
-				00AB84791664E67700E5EB97 /* Generate Seed */,
+				00D610331670805C002ECCBB /* SeedDB */,
 			);
 		};
 /* End PBXProject section */
@@ -781,26 +784,28 @@
 				00D60F44166E0E83002ECCBB /* ECProducts.json in Resources */,
 				00D60F46166E0E83002ECCBB /* ECSku.json in Resources */,
 				00D60F48166E0E8C002ECCBB /* ECData.json in Resources */,
+				00D6103116707F9B002ECCBB /* ECProdDesc.json in Resources */,
+				00D6103216707F9B002ECCBB /* ECProdMisc.json in Resources */,
+				00E3F9FB167097DD0017B783 /* ECProdPrice.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		00AB84AF1664E67700E5EB97 /* Resources */ = {
+		00D610721670805C002ECCBB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2AC49E91665241800009863 /* RKSeedDatabase.sqlite in Resources */,
-				00AB84B01664E67700E5EB97 /* InfoPlist.strings in Resources */,
-				00AB84B11664E67700E5EB97 /* Default.png in Resources */,
-				00AB84B21664E67700E5EB97 /* Default@2x.png in Resources */,
-				00AB84B31664E67700E5EB97 /* Default-568h@2x.png in Resources */,
-				00AB84B41664E67700E5EB97 /* MainStoryboard.storyboard in Resources */,
-				E2AC495616650C2B00009863 /* brands.json in Resources */,
-				E2AC49E61665224300009863 /* ECBrand.json in Resources */,
-				00BCD44A1665C87800F3D5D6 /* ECData.json in Resources */,
-				00BCD44D1665E92200F3D5D6 /* ECProdArea.json in Resources */,
-				00BCD44E1665E92200F3D5D6 /* ECProdCat.json in Resources */,
-				00D60F45166E0E83002ECCBB /* ECProducts.json in Resources */,
-				00D60F47166E0E83002ECCBB /* ECSku.json in Resources */,
+				00D610731670805C002ECCBB /* InfoPlist.strings in Resources */,
+				00D610741670805C002ECCBB /* Default.png in Resources */,
+				00D610751670805C002ECCBB /* Default@2x.png in Resources */,
+				00D610761670805C002ECCBB /* Default-568h@2x.png in Resources */,
+				00D610771670805C002ECCBB /* MainStoryboard.storyboard in Resources */,
+				00D610781670805C002ECCBB /* RKSeedDatabase.sqlite in Resources */,
+				00D610791670805C002ECCBB /* ECProducts.json in Resources */,
+				00D6107A1670805C002ECCBB /* ECSku.json in Resources */,
+				00D6107B1670805C002ECCBB /* ECData.json in Resources */,
+				00D6107D1670805C002ECCBB /* ECProdDesc.json in Resources */,
+				00D6107E1670805C002ECCBB /* ECProdMisc.json in Resources */,
+				00E3F9FC167097E90017B783 /* ECProdPrice.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -876,55 +881,56 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		00AB847C1664E67700E5EB97 /* Sources */ = {
+		00D610361670805C002ECCBB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00AB847D1664E67700E5EB97 /* main.m in Sources */,
-				00AB847E1664E67700E5EB97 /* AppDelegate.m in Sources */,
-				00AB847F1664E67700E5EB97 /* MasterViewController.m in Sources */,
-				00AB84801664E67700E5EB97 /* DetailViewController.m in Sources */,
-				00AB84811664E67700E5EB97 /* Model.xcdatamodeld in Sources */,
-				00AB84821664E67700E5EB97 /* _Brand.m in Sources */,
-				00AB84831664E67700E5EB97 /* _ProductCategory.m in Sources */,
-				00AB84841664E67700E5EB97 /* Brand.m in Sources */,
-				00AB84851664E67700E5EB97 /* ProductCategory.m in Sources */,
-				00AB84861664E67700E5EB97 /* CoreDataTest.m in Sources */,
-				00AB84871664E67700E5EB97 /* IBAlertView.m in Sources */,
-				00AB84881664E67700E5EB97 /* IBCoreTextLabel.m in Sources */,
-				00AB84891664E67700E5EB97 /* IBHTMLLabel.m in Sources */,
-				00AB848A1664E67700E5EB97 /* CGContext+InnerBand.m in Sources */,
-				00AB848B1664E67700E5EB97 /* NSArray+InnerBand.m in Sources */,
-				00AB848C1664E67700E5EB97 /* NSDate+InnerBand.m in Sources */,
-				00AB848D1664E67700E5EB97 /* NSManagedObject+InnerBand.m in Sources */,
-				00AB848E1664E67700E5EB97 /* NSMutableArray+InnerBand.m in Sources */,
-				00AB848F1664E67700E5EB97 /* NSMutableString+InnerBand.m in Sources */,
-				00AB84901664E67700E5EB97 /* NSNumber+InnerBand.m in Sources */,
-				00AB84911664E67700E5EB97 /* NSObject+InnerBand.m in Sources */,
-				00AB84921664E67700E5EB97 /* NSString+InnerBand.m in Sources */,
-				00AB84931664E67700E5EB97 /* NSString+XMLEncoding.m in Sources */,
-				00AB84941664E67700E5EB97 /* UIColor+InnerBand.m in Sources */,
-				00AB84951664E67700E5EB97 /* UIImage+InnerBand.m in Sources */,
-				00AB84961664E67700E5EB97 /* UIView+InnerBand.m in Sources */,
-				00AB84971664E67700E5EB97 /* IBFunctions.m in Sources */,
-				00AB84981664E67700E5EB97 /* IBViewUtil.m in Sources */,
-				00AB84991664E67700E5EB97 /* IBCoreDataStore.m in Sources */,
-				00AB849A1664E67700E5EB97 /* IBBlockBasedDispatchMessage.m in Sources */,
-				00AB849B1664E67700E5EB97 /* IBHTTPGetRequestMessage.m in Sources */,
-				00AB849C1664E67700E5EB97 /* IBHTTPPostRequestMessage.m in Sources */,
-				00AB849D1664E67700E5EB97 /* IBSequencedMessage.m in Sources */,
-				00AB849E1664E67700E5EB97 /* IBDispatchMessage.m in Sources */,
-				00AB849F1664E67700E5EB97 /* IBMessageCenter.m in Sources */,
-				00AB84A01664E67700E5EB97 /* IBMessageProcessor.m in Sources */,
-				00AB84A11664E67700E5EB97 /* IBTargetAction.m in Sources */,
-				00BCD4521665EE2300F3D5D6 /* _ProductArea.m in Sources */,
-				00BCD4561665EE3400F3D5D6 /* ProductArea.m in Sources */,
-				00BC2913166611DA0051BDEE /* _BrandProdCat.m in Sources */,
-				00BC2917166611F20051BDEE /* BrandProdCat.m in Sources */,
-				00D60F37166E0E4A002ECCBB /* _Product.m in Sources */,
-				00D60F39166E0E4A002ECCBB /* _ProdVrnt.m in Sources */,
-				00D60F3F166E0E5A002ECCBB /* Product.m in Sources */,
-				00D60F41166E0E5A002ECCBB /* ProdVrnt.m in Sources */,
+				00D610371670805C002ECCBB /* main.m in Sources */,
+				00D610381670805C002ECCBB /* AppDelegate.m in Sources */,
+				00D610391670805C002ECCBB /* MasterViewController.m in Sources */,
+				00D6103A1670805C002ECCBB /* DetailViewController.m in Sources */,
+				00D6103B1670805C002ECCBB /* Model.xcdatamodeld in Sources */,
+				00D6103C1670805C002ECCBB /* _Brand.m in Sources */,
+				00D6103D1670805C002ECCBB /* _ProductCategory.m in Sources */,
+				00D6103E1670805C002ECCBB /* Brand.m in Sources */,
+				00D6103F1670805C002ECCBB /* ProductCategory.m in Sources */,
+				00D610401670805C002ECCBB /* CoreDataTest.m in Sources */,
+				00D610411670805C002ECCBB /* IBAlertView.m in Sources */,
+				00D610421670805C002ECCBB /* IBCoreTextLabel.m in Sources */,
+				00D610431670805C002ECCBB /* IBHTMLLabel.m in Sources */,
+				00D610441670805C002ECCBB /* CGContext+InnerBand.m in Sources */,
+				00D610451670805C002ECCBB /* NSArray+InnerBand.m in Sources */,
+				00D610461670805C002ECCBB /* NSDate+InnerBand.m in Sources */,
+				00D610471670805C002ECCBB /* NSManagedObject+InnerBand.m in Sources */,
+				00D610481670805C002ECCBB /* NSMutableArray+InnerBand.m in Sources */,
+				00D610491670805C002ECCBB /* NSMutableString+InnerBand.m in Sources */,
+				00D6104A1670805C002ECCBB /* NSNumber+InnerBand.m in Sources */,
+				00D6104B1670805C002ECCBB /* NSObject+InnerBand.m in Sources */,
+				00D6104C1670805C002ECCBB /* NSString+InnerBand.m in Sources */,
+				00D6104D1670805C002ECCBB /* NSString+XMLEncoding.m in Sources */,
+				00D6104E1670805C002ECCBB /* UIColor+InnerBand.m in Sources */,
+				00D6104F1670805C002ECCBB /* UIImage+InnerBand.m in Sources */,
+				00D610501670805C002ECCBB /* UIView+InnerBand.m in Sources */,
+				00D610511670805C002ECCBB /* IBFunctions.m in Sources */,
+				00D610521670805C002ECCBB /* IBViewUtil.m in Sources */,
+				00D610531670805C002ECCBB /* IBCoreDataStore.m in Sources */,
+				00D610541670805C002ECCBB /* IBBlockBasedDispatchMessage.m in Sources */,
+				00D610551670805C002ECCBB /* IBHTTPGetRequestMessage.m in Sources */,
+				00D610561670805C002ECCBB /* IBHTTPPostRequestMessage.m in Sources */,
+				00D610571670805C002ECCBB /* IBSequencedMessage.m in Sources */,
+				00D610581670805C002ECCBB /* IBDispatchMessage.m in Sources */,
+				00D610591670805C002ECCBB /* IBMessageCenter.m in Sources */,
+				00D6105A1670805C002ECCBB /* IBMessageProcessor.m in Sources */,
+				00D6105B1670805C002ECCBB /* IBTargetAction.m in Sources */,
+				00D6105C1670805C002ECCBB /* _ProductArea.m in Sources */,
+				00D6105D1670805C002ECCBB /* ProductArea.m in Sources */,
+				00D6105E1670805C002ECCBB /* _BrandProdCat.m in Sources */,
+				00D6105F1670805C002ECCBB /* BrandProdCat.m in Sources */,
+				00D610601670805C002ECCBB /* _Product.m in Sources */,
+				00D610611670805C002ECCBB /* _ProdVrnt.m in Sources */,
+				00D610621670805C002ECCBB /* Product.m in Sources */,
+				00D610631670805C002ECCBB /* ProdVrnt.m in Sources */,
+				00D610641670805C002ECCBB /* NSArray+ECDataRelated.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -936,10 +942,10 @@
 			name = RestKit;
 			targetProxy = 002E4929166361B10003B4B4 /* PBXContainerItemProxy */;
 		};
-		00AB847A1664E67700E5EB97 /* PBXTargetDependency */ = {
+		00D610341670805C002ECCBB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RestKit;
-			targetProxy = 00AB847B1664E67700E5EB97 /* PBXContainerItemProxy */;
+			targetProxy = 00D610351670805C002ECCBB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1060,36 +1066,36 @@
 			};
 			name = Release;
 		};
-		00AB84B71664E67700E5EB97 /* Debug */ = {
+		00D610801670805C002ECCBB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestRestKit/TestRestKit-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = RESTKIT_GENERATE_SEED_DB;
 				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"";
-				INFOPLIST_FILE = "TestRestKit copy2-Info.plist";
+				INFOPLIST_FILE = SeedDB.plist;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
 				);
-				PRODUCT_NAME = "TestRestKit copy";
+				PRODUCT_NAME = SeedDB;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		00AB84B81664E67700E5EB97 /* Release */ = {
+		00D610811670805C002ECCBB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestRestKit/TestRestKit-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = RESTKIT_GENERATE_SEED_DB;
 				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"";
-				INFOPLIST_FILE = "TestRestKit copy2-Info.plist";
+				INFOPLIST_FILE = SeedDB.plist;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
 				);
-				PRODUCT_NAME = "TestRestKit copy";
+				PRODUCT_NAME = SeedDB;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -1124,11 +1130,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		00AB84B61664E67700E5EB97 /* Build configuration list for PBXNativeTarget "Generate Seed" */ = {
+		00D6107F1670805C002ECCBB /* Build configuration list for PBXNativeTarget "SeedDB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00AB84B71664E67700E5EB97 /* Debug */,
-				00AB84B81664E67700E5EB97 /* Release */,
+				00D610801670805C002ECCBB /* Debug */,
+				00D610811670805C002ECCBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,0 +1,6780 @@
+{
+	"MKG_PROD_DESC": [
+		{
+		  "mkg_prod_desc_id": 504,
+		  "mkg_brnd_prod_cat_id": 218,
+		  "prod_desc_shrt": "30\" Wall Oven and Microwave Combination with Wave-",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 1
+		},
+		{
+		  "mkg_prod_desc_id": 531,
+		  "mkg_brnd_prod_cat_id": 1,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 2
+		},
+		{
+		  "mkg_prod_desc_id": 532,
+		  "mkg_brnd_prod_cat_id": 21,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 2
+		},
+		{
+		  "mkg_prod_desc_id": 534,
+		  "mkg_brnd_prod_cat_id": 6,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 2
+		},
+		{
+		  "mkg_prod_desc_id": 535,
+		  "mkg_brnd_prod_cat_id": 7,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 2
+		},
+		{
+		  "mkg_prod_desc_id": 536,
+		  "mkg_brnd_prod_cat_id": 8,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 2
+		},
+		{
+		  "mkg_prod_desc_id": 537,
+		  "mkg_brnd_prod_cat_id": 241,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 2
+		},
+		{
+		  "mkg_prod_desc_id": 538,
+		  "mkg_brnd_prod_cat_id": 245,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 2
+		},
+		{
+		  "mkg_prod_desc_id": 543,
+		  "mkg_brnd_prod_cat_id": 247,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 2
+		},
+		{
+		  "mkg_prod_desc_id": 545,
+		  "mkg_brnd_prod_cat_id": 9,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 2
+		},
+		{
+		  "mkg_prod_desc_id": 549,
+		  "mkg_brnd_prod_cat_id": 22,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 2
+		},
+		{
+		  "mkg_prod_desc_id": 555,
+		  "mkg_brnd_prod_cat_id": 12,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 2
+		},
+		{
+		  "mkg_prod_desc_id": 558,
+		  "mkg_brnd_prod_cat_id": 13,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 2
+		},
+		{
+		  "mkg_prod_desc_id": 562,
+		  "mkg_brnd_prod_cat_id": 14,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 2
+		},
+		{
+		  "mkg_prod_desc_id": 563,
+		  "mkg_brnd_prod_cat_id": 15,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 2
+		},
+		{
+		  "mkg_prod_desc_id": 564,
+		  "mkg_brnd_prod_cat_id": 23,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 2
+		},
+		{
+		  "mkg_prod_desc_id": 507,
+		  "mkg_brnd_prod_cat_id": 17,
+		  "prod_desc_shrt": "27? Electric Double Wall Oven with IQ-Touch? Contr",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 2
+		},
+		{
+		  "mkg_prod_desc_id": 571,
+		  "mkg_brnd_prod_cat_id": 17,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 2
+		},
+		{
+		  "mkg_prod_desc_id": 574,
+		  "mkg_brnd_prod_cat_id": 18,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 2
+		},
+		{
+		  "mkg_prod_desc_id": 576,
+		  "mkg_brnd_prod_cat_id": 19,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 2
+		},
+		{
+		  "mkg_prod_desc_id": 72,
+		  "mkg_brnd_prod_cat_id": 24,
+		  "prod_desc_shrt": "15\" Built-In Under-Counter Compactor",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 475,
+		  "mkg_brnd_prod_cat_id": 24,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 73,
+		  "mkg_brnd_prod_cat_id": 25,
+		  "prod_desc_shrt": "30\" Induction Cooktop",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 74,
+		  "mkg_brnd_prod_cat_id": 25,
+		  "prod_desc_shrt": "30\" Electric Cooktop",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 75,
+		  "mkg_brnd_prod_cat_id": 25,
+		  "prod_desc_shrt": "30\" Gas Cooktop",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 76,
+		  "mkg_brnd_prod_cat_id": 25,
+		  "prod_desc_shrt": "36\" Gas Cooktop",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 78,
+		  "mkg_brnd_prod_cat_id": 25,
+		  "prod_desc_shrt": "30\" Induction Hybrid Cooktop",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 79,
+		  "mkg_brnd_prod_cat_id": 25,
+		  "prod_desc_shrt": "36\" Electric Cooktop",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 80,
+		  "mkg_brnd_prod_cat_id": 25,
+		  "prod_desc_shrt": "36\" Induction Cooktop",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 81,
+		  "mkg_brnd_prod_cat_id": 25,
+		  "prod_desc_shrt": "36\" Induction Hybrid Cooktop",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 476,
+		  "mkg_brnd_prod_cat_id": 25,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 82,
+		  "mkg_brnd_prod_cat_id": 26,
+		  "prod_desc_shrt": "24\" Built-In Dishwasher with IQ-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 83,
+		  "mkg_brnd_prod_cat_id": 26,
+		  "prod_desc_shrt": "24\" Built-In Panel-Ready Dishwasher with IQ-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 84,
+		  "mkg_brnd_prod_cat_id": 26,
+		  "prod_desc_shrt": "24\" Built-In Dishwasher with IQ-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 85,
+		  "mkg_brnd_prod_cat_id": 26,
+		  "prod_desc_shrt": "24\" Built-In Dishwasher with Wave-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 477,
+		  "mkg_brnd_prod_cat_id": 26,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 885,
+		  "mkg_brnd_prod_cat_id": 26,
+		  "prod_desc_shrt": "18\"Built-In Dishwasher with IQ-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 86,
+		  "mkg_brnd_prod_cat_id": 27,
+		  "prod_desc_shrt": "8.0 Cu. Ft. Electric Front Load Dryer with IQ-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 87,
+		  "mkg_brnd_prod_cat_id": 27,
+		  "prod_desc_shrt": "8.0 Cu. Ft. Electric Front Load Dryer with Wave-Touch? Controls featuring Perfect Steam?",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 88,
+		  "mkg_brnd_prod_cat_id": 27,
+		  "prod_desc_shrt": "8.0 Cu. Ft. Gas Front Load Dryer with IQ-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 89,
+		  "mkg_brnd_prod_cat_id": 27,
+		  "prod_desc_shrt": "8.0 Cu. Ft. Gas Front Load Dryer with Wave-Touch? Controls featuring Perfect Steam?",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 91,
+		  "mkg_brnd_prod_cat_id": 27,
+		  "prod_desc_shrt": "8.0 Cu. Ft. Electric Front Load Dryer with IQ-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 92,
+		  "mkg_brnd_prod_cat_id": 27,
+		  "prod_desc_shrt": "8.0 Cu. Ft. Gas Front Load Dryer with IQ-Touch? Controls featuring Perfect Steam?",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 93,
+		  "mkg_brnd_prod_cat_id": 27,
+		  "prod_desc_shrt": "8.0 Cu. Ft. Electric Front Load Dryer with IQ-Touch? Controls featuring Perfect Steam?",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 94,
+		  "mkg_brnd_prod_cat_id": 27,
+		  "prod_desc_shrt": "8.0 Cu. Ft. Gas Front Load Dryer with Wave-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 95,
+		  "mkg_brnd_prod_cat_id": 27,
+		  "prod_desc_shrt": "8.0 Cu. Ft. Electric Front Load Dryer with Wave-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 96,
+		  "mkg_brnd_prod_cat_id": 27,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 758,
+		  "mkg_brnd_prod_cat_id": 27,
+		  "prod_desc_shrt": "8.0 Cu. Ft. Electric Front Load Dryer with Luxury-Touch? Controls featuring Perfect Steam?",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 759,
+		  "mkg_brnd_prod_cat_id": 27,
+		  "prod_desc_shrt": "8.0 Cu. Ft. Gas Front Load Dryer with Luxury-Touch? Controls featuring Perfect Steam?",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 1000,
+		  "mkg_brnd_prod_cat_id": 27,
+		  "prod_desc_shrt": "8.0 Cu. Ft. Electric Front Load Dryer with IQ-Touch? Controls featuring Perfect Steam?",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 1001,
+		  "mkg_brnd_prod_cat_id": 27,
+		  "prod_desc_shrt": "8.0 Cu. Ft. Gas Front Load Dryer with IQ-Touch? Controls featuring Perfect Steam?",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 1136,
+		  "mkg_brnd_prod_cat_id": 27,
+		  "prod_desc_shrt": "8.0 Cu. Ft. Gas Front Load Dryer with IQ-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 1137,
+		  "mkg_brnd_prod_cat_id": 27,
+		  "prod_desc_shrt": "8.0 Cu. Ft. Gas Front Load Dryer with IQ-Touch? Controls featuring Perfect Steam?",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 1138,
+		  "mkg_brnd_prod_cat_id": 27,
+		  "prod_desc_shrt": "8.0 Cu. Ft. Electric Front Load Dryer with IQ-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 478,
+		  "mkg_brnd_prod_cat_id": 38,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 97,
+		  "mkg_brnd_prod_cat_id": 117,
+		  "prod_desc_shrt": "17 cu.ft. Upright Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 98,
+		  "mkg_brnd_prod_cat_id": 117,
+		  "prod_desc_shrt": "21 cu.ft. Upright Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 479,
+		  "mkg_brnd_prod_cat_id": 117,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 99,
+		  "mkg_brnd_prod_cat_id": 39,
+		  "prod_desc_shrt": "15\" Under-Counter Ice Maker",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 480,
+		  "mkg_brnd_prod_cat_id": 39,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 500,
+		  "mkg_brnd_prod_cat_id": 40,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 505,
+		  "mkg_brnd_prod_cat_id": 40,
+		  "prod_desc_shrt": "30\" Wall Oven and Microwave Combination with Wave-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 506,
+		  "mkg_brnd_prod_cat_id": 40,
+		  "prod_desc_shrt": "27\" Wall Oven and Microwave Combination with Wave-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 481,
+		  "mkg_brnd_prod_cat_id": 28,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 512,
+		  "mkg_brnd_prod_cat_id": 264,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 101,
+		  "mkg_brnd_prod_cat_id": 118,
+		  "prod_desc_shrt": "30\" Built-In Microwave Oven with Drop-Down Door",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 102,
+		  "mkg_brnd_prod_cat_id": 118,
+		  "prod_desc_shrt": "27\" Built-In Microwave Oven with Drop-Down Door",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 513,
+		  "mkg_brnd_prod_cat_id": 118,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 1133,
+		  "mkg_brnd_prod_cat_id": 118,
+		  "prod_desc_shrt": "27\" Built-In Convection Microwave Oven with Drop-Down Door",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 1134,
+		  "mkg_brnd_prod_cat_id": 118,
+		  "prod_desc_shrt": "30\" Built-In Convection Microwave Oven with Drop-Down Door",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 103,
+		  "mkg_brnd_prod_cat_id": 119,
+		  "prod_desc_shrt": "27\" Built-In Microwave Oven",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 104,
+		  "mkg_brnd_prod_cat_id": 119,
+		  "prod_desc_shrt": "27\"/30\" Built-In Microwave Oven",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 105,
+		  "mkg_brnd_prod_cat_id": 119,
+		  "prod_desc_shrt": "30\" Built-In Microwave Oven",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 514,
+		  "mkg_brnd_prod_cat_id": 119,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 106,
+		  "mkg_brnd_prod_cat_id": 120,
+		  "prod_desc_shrt": "30\" Over-the-Range Microwave Oven",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 107,
+		  "mkg_brnd_prod_cat_id": 120,
+		  "prod_desc_shrt": "30\" Over-the-Range Microwave Oven with Bottom Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 515,
+		  "mkg_brnd_prod_cat_id": 120,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 1028,
+		  "mkg_brnd_prod_cat_id": 120,
+		  "prod_desc_shrt": "30\" Over-the-Range Microwave Oven with Bottom Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 1164,
+		  "mkg_brnd_prod_cat_id": 120,
+		  "prod_desc_shrt": "30\" Over-the-Range Microwave Oven with Bottom Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 108,
+		  "mkg_brnd_prod_cat_id": 29,
+		  "prod_desc_shrt": "Luxury-Glide? Pedestal featuring Touch-2-Open? Drawer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 516,
+		  "mkg_brnd_prod_cat_id": 29,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 109,
+		  "mkg_brnd_prod_cat_id": 30,
+		  "prod_desc_shrt": "30\" Natural Gas Built-In Range with IQ-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 110,
+		  "mkg_brnd_prod_cat_id": 30,
+		  "prod_desc_shrt": "30\" Natural Gas Freestanding Range with Wave-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 111,
+		  "mkg_brnd_prod_cat_id": 30,
+		  "prod_desc_shrt": "30\" Gas Freestanding Range with IQ-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 112,
+		  "mkg_brnd_prod_cat_id": 30,
+		  "prod_desc_shrt": "30\" Dual-Fuel Freestanding Range with Wave-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 113,
+		  "mkg_brnd_prod_cat_id": 30,
+		  "prod_desc_shrt": "30\" Gas Built-In Range with Wave-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 114,
+		  "mkg_brnd_prod_cat_id": 30,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 115,
+		  "mkg_brnd_prod_cat_id": 30,
+		  "prod_desc_shrt": "30\" Electric Built-In Range with IQ-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 116,
+		  "mkg_brnd_prod_cat_id": 30,
+		  "prod_desc_shrt": "30\" Dual-Fuel Freestanding Range with Wave-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 117,
+		  "mkg_brnd_prod_cat_id": 30,
+		  "prod_desc_shrt": "30\" Electric Freestanding Range with Wave-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 118,
+		  "mkg_brnd_prod_cat_id": 30,
+		  "prod_desc_shrt": "30\" Natural Gas Built-In Range with Wave-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 119,
+		  "mkg_brnd_prod_cat_id": 30,
+		  "prod_desc_shrt": "30\" Electric Built-In Range with Wave-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 120,
+		  "mkg_brnd_prod_cat_id": 30,
+		  "prod_desc_shrt": "30\" Gas Freestanding Range with Wave-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 121,
+		  "mkg_brnd_prod_cat_id": 30,
+		  "prod_desc_shrt": "30\" Electric Freestanding Range with IQ-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 122,
+		  "mkg_brnd_prod_cat_id": 30,
+		  "prod_desc_shrt": "30\" Dual-Fuel Built-In Range with IQ-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 123,
+		  "mkg_brnd_prod_cat_id": 30,
+		  "prod_desc_shrt": "30\" Dual-Fuel Built-In Range with Wave-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 124,
+		  "mkg_brnd_prod_cat_id": 30,
+		  "prod_desc_shrt": "30\" Induction Built-In Range with Wave-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 125,
+		  "mkg_brnd_prod_cat_id": 30,
+		  "prod_desc_shrt": "30\" Electric Freestanding Range with IQ-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 126,
+		  "mkg_brnd_prod_cat_id": 30,
+		  "prod_desc_shrt": "30\" Natural Gas Freestanding Range with IQ-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 127,
+		  "mkg_brnd_prod_cat_id": 30,
+		  "prod_desc_shrt": "30\" Gas Freestanding Range with Wave-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 266,
+		  "mkg_brnd_prod_cat_id": 30,
+		  "prod_desc_shrt": "30\" LP Gas Freestanding Range with Wave-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 752,
+		  "mkg_brnd_prod_cat_id": 30,
+		  "prod_desc_shrt": "30\" Electric Freestanding Range with Induction Cooktop and Wave-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 1128,
+		  "mkg_brnd_prod_cat_id": 30,
+		  "prod_desc_shrt": "30\" Double Oven Freestanding Gas Range with Wave-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 1129,
+		  "mkg_brnd_prod_cat_id": 30,
+		  "prod_desc_shrt": "30\" Double Oven Freestanding Electric Range with Wave-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 1201,
+		  "mkg_brnd_prod_cat_id": 30,
+		  "prod_desc_shrt": "30\" Electric Built-In Range with IQ-Touch? controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 517,
+		  "mkg_brnd_prod_cat_id": 41,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 518,
+		  "mkg_brnd_prod_cat_id": 31,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 930,
+		  "mkg_brnd_prod_cat_id": 31,
+		  "prod_desc_shrt": "Counter-Depth French Door Refrigerator with IQ-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 931,
+		  "mkg_brnd_prod_cat_id": 31,
+		  "prod_desc_shrt": "Counter-Depth French Door Refrigerator with Luxury-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 932,
+		  "mkg_brnd_prod_cat_id": 31,
+		  "prod_desc_shrt": "Counter-Depth French Door Refrigerator with Wave-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 933,
+		  "mkg_brnd_prod_cat_id": 31,
+		  "prod_desc_shrt": "Standard-Depth French Door Refrigerator with IQ-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 934,
+		  "mkg_brnd_prod_cat_id": 31,
+		  "prod_desc_shrt": "Standard-Depth French Door Refrigerator with Luxury-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 935,
+		  "mkg_brnd_prod_cat_id": 31,
+		  "prod_desc_shrt": "Standard-Depth French Door Refrigerator with Wave-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 1082,
+		  "mkg_brnd_prod_cat_id": 31,
+		  "prod_desc_shrt": "Counter-Depth French Door Refrigerator with IQ-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 1083,
+		  "mkg_brnd_prod_cat_id": 31,
+		  "prod_desc_shrt": "Standard-Depth French Door Refrigerator with IQ-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 1084,
+		  "mkg_brnd_prod_cat_id": 31,
+		  "prod_desc_shrt": "Counter-Depth French Door Refrigerator with Wave-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 521,
+		  "mkg_brnd_prod_cat_id": 32,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 926,
+		  "mkg_brnd_prod_cat_id": 32,
+		  "prod_desc_shrt": "Counter-Depth Side-By-Side Refrigerator with IQ-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 927,
+		  "mkg_brnd_prod_cat_id": 32,
+		  "prod_desc_shrt": "Counter-Depth Side-By-Side Refrigerator with Wave-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 928,
+		  "mkg_brnd_prod_cat_id": 32,
+		  "prod_desc_shrt": "Standard-Depth Side-By-Side Refrigerator with IQ-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 929,
+		  "mkg_brnd_prod_cat_id": 32,
+		  "prod_desc_shrt": "Standard-Depth Side-By-Side Refrigerator with Wave-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 1078,
+		  "mkg_brnd_prod_cat_id": 32,
+		  "prod_desc_shrt": "Counter-Depth Side-By-Side Refrigerator with IQ-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 1079,
+		  "mkg_brnd_prod_cat_id": 32,
+		  "prod_desc_shrt": "Counter-Depth Side-By-Side Refrigerator with Wave-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 1080,
+		  "mkg_brnd_prod_cat_id": 32,
+		  "prod_desc_shrt": "Standard-Depth Side-By-Side Refrigerator with Wave-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 1081,
+		  "mkg_brnd_prod_cat_id": 32,
+		  "prod_desc_shrt": "Standard-Depth Side-By-Side Refrigerator with Wave-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 1119,
+		  "mkg_brnd_prod_cat_id": 523,
+		  "prod_desc_shrt": "11.3 Cu. Ft. Bottom Freezer Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 722,
+		  "mkg_brnd_prod_cat_id": 349,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 724,
+		  "mkg_brnd_prod_cat_id": 349,
+		  "prod_desc_shrt": "Built-In All Refrigerator with IQ-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 142,
+		  "mkg_brnd_prod_cat_id": 125,
+		  "prod_desc_shrt": "24\" Beverage Center",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 524,
+		  "mkg_brnd_prod_cat_id": 125,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 143,
+		  "mkg_brnd_prod_cat_id": 126,
+		  "prod_desc_shrt": "24\" Refrigerator Drawers",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 525,
+		  "mkg_brnd_prod_cat_id": 126,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 144,
+		  "mkg_brnd_prod_cat_id": 127,
+		  "prod_desc_shrt": "24\" Under-Counter Wine Cooler",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 145,
+		  "mkg_brnd_prod_cat_id": 127,
+		  "prod_desc_shrt": "24\" European Tall Wine Tower",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 526,
+		  "mkg_brnd_prod_cat_id": 127,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 60,
+		  "mkg_brnd_prod_cat_id": 33,
+		  "prod_desc_shrt": "42\" Glass and Stainless Canopy Island-Mount Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 146,
+		  "mkg_brnd_prod_cat_id": 33,
+		  "prod_desc_shrt": "36\" Stainless Steel Under-Cabinet Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 147,
+		  "mkg_brnd_prod_cat_id": 33,
+		  "prod_desc_shrt": "30\" Stainless Steel Chimney Wall-Mount Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 148,
+		  "mkg_brnd_prod_cat_id": 33,
+		  "prod_desc_shrt": "36\" Stainless Steel Chimney Wall-Mount Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 149,
+		  "mkg_brnd_prod_cat_id": 33,
+		  "prod_desc_shrt": "42\" Designer Glass Canopy Island-Mount Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 150,
+		  "mkg_brnd_prod_cat_id": 33,
+		  "prod_desc_shrt": "30\" Overhead Range Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 151,
+		  "mkg_brnd_prod_cat_id": 33,
+		  "prod_desc_shrt": "36\" Overhead Range Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 152,
+		  "mkg_brnd_prod_cat_id": 33,
+		  "prod_desc_shrt": "30\" Designer Glass Canopy Wall-Mount Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 153,
+		  "mkg_brnd_prod_cat_id": 33,
+		  "prod_desc_shrt": "36\" Designer Glass Canopy Wall-Mount Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 154,
+		  "mkg_brnd_prod_cat_id": 33,
+		  "prod_desc_shrt": "30\" Stainless Steel Under-Cabinet Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 155,
+		  "mkg_brnd_prod_cat_id": 33,
+		  "prod_desc_shrt": "36\" Designer Glass Canopy Island-Mount Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 156,
+		  "mkg_brnd_prod_cat_id": 33,
+		  "prod_desc_shrt": "36\" Glass Canopy Wall-Mount Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 527,
+		  "mkg_brnd_prod_cat_id": 33,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 849,
+		  "mkg_brnd_prod_cat_id": 33,
+		  "prod_desc_shrt": "36\" Glass and Stainless Canopy Island-Mount Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 850,
+		  "mkg_brnd_prod_cat_id": 33,
+		  "prod_desc_shrt": "36\" Glass and Stainless Canopy Wall-Mount Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 851,
+		  "mkg_brnd_prod_cat_id": 33,
+		  "prod_desc_shrt": "30\" Glass and Stainless Canopy Wall-Mount Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 852,
+		  "mkg_brnd_prod_cat_id": 33,
+		  "prod_desc_shrt": "36\" Chimney Wall-Mount Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 853,
+		  "mkg_brnd_prod_cat_id": 33,
+		  "prod_desc_shrt": "30\" Chimney Wall-Mount Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 859,
+		  "mkg_brnd_prod_cat_id": 33,
+		  "prod_desc_shrt": "36\" Downdraft Vent",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 860,
+		  "mkg_brnd_prod_cat_id": 33,
+		  "prod_desc_shrt": "30\" Downdraft Vent",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 886,
+		  "mkg_brnd_prod_cat_id": 33,
+		  "prod_desc_shrt": "30\" Hood Insert",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 887,
+		  "mkg_brnd_prod_cat_id": 33,
+		  "prod_desc_shrt": "36\" Hood Insert",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 888,
+		  "mkg_brnd_prod_cat_id": 33,
+		  "prod_desc_shrt": "42\" Hood Insert",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 1027,
+		  "mkg_brnd_prod_cat_id": 33,
+		  "prod_desc_shrt": "1600-CFM blower",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 1036,
+		  "mkg_brnd_prod_cat_id": 33,
+		  "prod_desc_shrt": "48\" Hood Insert",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 157,
+		  "mkg_brnd_prod_cat_id": 34,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 158,
+		  "mkg_brnd_prod_cat_id": 34,
+		  "prod_desc_shrt": "27\" Electric Double Wall Oven with Wave-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 162,
+		  "mkg_brnd_prod_cat_id": 34,
+		  "prod_desc_shrt": "30\" Electric Double Wall Oven with Wave-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 508,
+		  "mkg_brnd_prod_cat_id": 34,
+		  "prod_desc_shrt": "27? Electric Double Wall Oven with IQ-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 509,
+		  "mkg_brnd_prod_cat_id": 34,
+		  "prod_desc_shrt": "30? Electric Double Wall Oven with IQ-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 163,
+		  "mkg_brnd_prod_cat_id": 35,
+		  "prod_desc_shrt": "30\" Electric Single Wall Oven with Wave-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 164,
+		  "mkg_brnd_prod_cat_id": 35,
+		  "prod_desc_shrt": "27\" Electric Single Wall Oven with Wave-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 165,
+		  "mkg_brnd_prod_cat_id": 35,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 501,
+		  "mkg_brnd_prod_cat_id": 35,
+		  "prod_desc_shrt": "30\" Electric Single Wall Oven with IQ-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 502,
+		  "mkg_brnd_prod_cat_id": 35,
+		  "prod_desc_shrt": "27\" Electric Single Wall Oven with IQ-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 166,
+		  "mkg_brnd_prod_cat_id": 36,
+		  "prod_desc_shrt": "30\" Built-In Warmer Drawer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 167,
+		  "mkg_brnd_prod_cat_id": 36,
+		  "prod_desc_shrt": "27\" Built-In Warmer Drawer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 528,
+		  "mkg_brnd_prod_cat_id": 36,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 529,
+		  "mkg_brnd_prod_cat_id": 37,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 168,
+		  "mkg_brnd_prod_cat_id": 128,
+		  "prod_desc_shrt": "Front Load Washer with Wave-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 169,
+		  "mkg_brnd_prod_cat_id": 128,
+		  "prod_desc_shrt": "4.4 Cu. Ft. Front Load Washer with Wave-Touch? Controls featuring Perfect Steam?",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 170,
+		  "mkg_brnd_prod_cat_id": 128,
+		  "prod_desc_shrt": "4.2 Cu. Ft. Front Load Washer with IQ-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 171,
+		  "mkg_brnd_prod_cat_id": 128,
+		  "prod_desc_shrt": "4.2 Cu. Ft. Front Load Washer with IQ-Touch? Controls featuring Perfect Steam?",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 530,
+		  "mkg_brnd_prod_cat_id": 128,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 757,
+		  "mkg_brnd_prod_cat_id": 128,
+		  "prod_desc_shrt": "4.4 Cu. Ft. Front Load Washer with Luxury-Touch? Controls featuring Perfect Steam?",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 1126,
+		  "mkg_brnd_prod_cat_id": 128,
+		  "prod_desc_shrt": "4.3 Cu. Ft. Front Load Washer with IQ-Touch? Controls featuring Perfect Steam?",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 1135,
+		  "mkg_brnd_prod_cat_id": 128,
+		  "prod_desc_shrt": "4.2 Cu. Ft. Front Load Washer with IQ-Touch? Controls featuring Perfect Steam?",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 1139,
+		  "mkg_brnd_prod_cat_id": 128,
+		  "prod_desc_shrt": "4.2 Cu. Ft. Front Load Washer with IQ-Touch? Controls featuring Perfect Steam?",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 1032,
+		  "mkg_brnd_prod_cat_id": 494,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 721,
+		  "mkg_brnd_prod_cat_id": 345,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 723,
+		  "mkg_brnd_prod_cat_id": 345,
+		  "prod_desc_shrt": "Built-In All Freezer with IQ-Touch? Controls",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 1140,
+		  "mkg_brnd_prod_cat_id": 525,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 1162,
+		  "mkg_brnd_prod_cat_id": 525,
+		  "prod_desc_shrt": "Electrolux Perfect Glide? Iron",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 3
+		},
+		{
+		  "mkg_prod_desc_id": 2,
+		  "mkg_brnd_prod_cat_id": 79,
+		  "prod_desc_shrt": "Trash Compactor",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 510,
+		  "mkg_brnd_prod_cat_id": 79,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 4,
+		  "mkg_brnd_prod_cat_id": 81,
+		  "prod_desc_shrt": "48\" Gas Slide-In Cooktop",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 5,
+		  "mkg_brnd_prod_cat_id": 81,
+		  "prod_desc_shrt": "30\" Gas Slide-In Cooktop",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 6,
+		  "mkg_brnd_prod_cat_id": 81,
+		  "prod_desc_shrt": "36\" Gas Slide-In Cooktop",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 582,
+		  "mkg_brnd_prod_cat_id": 81,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 18,
+		  "mkg_brnd_prod_cat_id": 83,
+		  "prod_desc_shrt": "Built-In Dishwasher",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 19,
+		  "mkg_brnd_prod_cat_id": 83,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 584,
+		  "mkg_brnd_prod_cat_id": 239,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 24,
+		  "mkg_brnd_prod_cat_id": 86,
+		  "prod_desc_shrt": "Under-Counter Ice Maker",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 540,
+		  "mkg_brnd_prod_cat_id": 86,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 587,
+		  "mkg_brnd_prod_cat_id": 86,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 26,
+		  "mkg_brnd_prod_cat_id": 88,
+		  "prod_desc_shrt": "30\" Microwave Combination Oven",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 542,
+		  "mkg_brnd_prod_cat_id": 88,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 590,
+		  "mkg_brnd_prod_cat_id": 88,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 591,
+		  "mkg_brnd_prod_cat_id": 244,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 547,
+		  "mkg_brnd_prod_cat_id": 243,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 592,
+		  "mkg_brnd_prod_cat_id": 243,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 29,
+		  "mkg_brnd_prod_cat_id": 91,
+		  "prod_desc_shrt": "Built-In Microwave with Drop-Down Door",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 548,
+		  "mkg_brnd_prod_cat_id": 91,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 593,
+		  "mkg_brnd_prod_cat_id": 91,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 31,
+		  "mkg_brnd_prod_cat_id": 93,
+		  "prod_desc_shrt": "Over-the-Range Microwave",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 550,
+		  "mkg_brnd_prod_cat_id": 93,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 594,
+		  "mkg_brnd_prod_cat_id": 93,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 619,
+		  "mkg_brnd_prod_cat_id": 93,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 33,
+		  "mkg_brnd_prod_cat_id": 95,
+		  "prod_desc_shrt": "36\" Dual-Fuel Freestanding Range",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 34,
+		  "mkg_brnd_prod_cat_id": 95,
+		  "prod_desc_shrt": "30\" Dual-Fuel Freestanding Range",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 35,
+		  "mkg_brnd_prod_cat_id": 95,
+		  "prod_desc_shrt": "36\" Full-Natural Gas Freestanding Range",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 36,
+		  "mkg_brnd_prod_cat_id": 95,
+		  "prod_desc_shrt": "30\" Full-Gas Freestanding Range",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 557,
+		  "mkg_brnd_prod_cat_id": 95,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 595,
+		  "mkg_brnd_prod_cat_id": 95,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 1130,
+		  "mkg_brnd_prod_cat_id": 95,
+		  "prod_desc_shrt": "48\" Dual-Fuel Freestanding Range",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 597,
+		  "mkg_brnd_prod_cat_id": 249,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 566,
+		  "mkg_brnd_prod_cat_id": 250,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 599,
+		  "mkg_brnd_prod_cat_id": 250,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 938,
+		  "mkg_brnd_prod_cat_id": 250,
+		  "prod_desc_shrt": "French Door Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 568,
+		  "mkg_brnd_prod_cat_id": 255,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 922,
+		  "mkg_brnd_prod_cat_id": 255,
+		  "prod_desc_shrt": "Counter-Depth Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 924,
+		  "mkg_brnd_prod_cat_id": 255,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 936,
+		  "mkg_brnd_prod_cat_id": 255,
+		  "prod_desc_shrt": "42\" Built-In Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 937,
+		  "mkg_brnd_prod_cat_id": 255,
+		  "prod_desc_shrt": "42\" Built-In Refrigerator Panel-Ready Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 734,
+		  "mkg_brnd_prod_cat_id": 350,
+		  "prod_desc_shrt": "32\" Built-In All Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 736,
+		  "mkg_brnd_prod_cat_id": 350,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 45,
+		  "mkg_brnd_prod_cat_id": 103,
+		  "prod_desc_shrt": "Under-Counter Refrigerator Drawers",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 573,
+		  "mkg_brnd_prod_cat_id": 103,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 604,
+		  "mkg_brnd_prod_cat_id": 103,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 47,
+		  "mkg_brnd_prod_cat_id": 105,
+		  "prod_desc_shrt": "Under-Counter Wine Cooler",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 575,
+		  "mkg_brnd_prod_cat_id": 105,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 605,
+		  "mkg_brnd_prod_cat_id": 105,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 49,
+		  "mkg_brnd_prod_cat_id": 107,
+		  "prod_desc_shrt": "30\" Canopy Vent Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 50,
+		  "mkg_brnd_prod_cat_id": 107,
+		  "prod_desc_shrt": "36\" Glass Canopy Island Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 51,
+		  "mkg_brnd_prod_cat_id": 107,
+		  "prod_desc_shrt": "48\" Wall-Mount Canopy Vent Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 52,
+		  "mkg_brnd_prod_cat_id": 107,
+		  "prod_desc_shrt": "36\" Canopy Vent Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 53,
+		  "mkg_brnd_prod_cat_id": 107,
+		  "prod_desc_shrt": "36\" Glass Canopy Wall-Mount Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 54,
+		  "mkg_brnd_prod_cat_id": 107,
+		  "prod_desc_shrt": "36\" Canopy Vent Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 607,
+		  "mkg_brnd_prod_cat_id": 261,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 63,
+		  "mkg_brnd_prod_cat_id": 109,
+		  "prod_desc_shrt": "30\" Double Wall Oven",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 608,
+		  "mkg_brnd_prod_cat_id": 109,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 65,
+		  "mkg_brnd_prod_cat_id": 111,
+		  "prod_desc_shrt": "30\" Single Wall Oven",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 609,
+		  "mkg_brnd_prod_cat_id": 111,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 67,
+		  "mkg_brnd_prod_cat_id": 113,
+		  "prod_desc_shrt": "High-Speed Oven",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 610,
+		  "mkg_brnd_prod_cat_id": 113,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 69,
+		  "mkg_brnd_prod_cat_id": 115,
+		  "prod_desc_shrt": "30\" Warmer Drawer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 588,
+		  "mkg_brnd_prod_cat_id": 115,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 589,
+		  "mkg_brnd_prod_cat_id": 115,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 730,
+		  "mkg_brnd_prod_cat_id": 346,
+		  "prod_desc_shrt": "32\" Built-In All Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 732,
+		  "mkg_brnd_prod_cat_id": 346,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 4
+		},
+		{
+		  "mkg_prod_desc_id": 1,
+		  "mkg_brnd_prod_cat_id": 78,
+		  "prod_desc_shrt": "Built-In Coffee Maker",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 612,
+		  "mkg_brnd_prod_cat_id": 78,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 1132,
+		  "mkg_brnd_prod_cat_id": 78,
+		  "prod_desc_shrt": "Built-In Coffee Maker",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 3,
+		  "mkg_brnd_prod_cat_id": 80,
+		  "prod_desc_shrt": "Trash Compactor",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 613,
+		  "mkg_brnd_prod_cat_id": 80,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 7,
+		  "mkg_brnd_prod_cat_id": 82,
+		  "prod_desc_shrt": "36\" Gas Drop-In Cooktop",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 8,
+		  "mkg_brnd_prod_cat_id": 82,
+		  "prod_desc_shrt": "30\" Electric Touch-Control Drop-In Cooktop",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 9,
+		  "mkg_brnd_prod_cat_id": 82,
+		  "prod_desc_shrt": "36\" Electric Drop-In Cooktop",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 10,
+		  "mkg_brnd_prod_cat_id": 82,
+		  "prod_desc_shrt": "30\" Electric Drop-In Cooktop",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 11,
+		  "mkg_brnd_prod_cat_id": 82,
+		  "prod_desc_shrt": "36\" Electric Touch-Control Drop-In Cooktop",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 12,
+		  "mkg_brnd_prod_cat_id": 82,
+		  "prod_desc_shrt": "36\" Electric Slide-In Cooktop",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 13,
+		  "mkg_brnd_prod_cat_id": 82,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 14,
+		  "mkg_brnd_prod_cat_id": 82,
+		  "prod_desc_shrt": "30\" Gas Drop-In Cooktop",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 15,
+		  "mkg_brnd_prod_cat_id": 82,
+		  "prod_desc_shrt": "30\" Induction Cooktop",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 16,
+		  "mkg_brnd_prod_cat_id": 82,
+		  "prod_desc_shrt": "36\" Induction Cooktop",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 17,
+		  "mkg_brnd_prod_cat_id": 82,
+		  "prod_desc_shrt": "36\" Gas Slide-In Cooktop",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 20,
+		  "mkg_brnd_prod_cat_id": 84,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 21,
+		  "mkg_brnd_prod_cat_id": 84,
+		  "prod_desc_shrt": "Built-In Dishwasher",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 25,
+		  "mkg_brnd_prod_cat_id": 87,
+		  "prod_desc_shrt": "Under-Counter Ice Maker",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 541,
+		  "mkg_brnd_prod_cat_id": 87,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 614,
+		  "mkg_brnd_prod_cat_id": 87,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 27,
+		  "mkg_brnd_prod_cat_id": 89,
+		  "prod_desc_shrt": "30\" Microwave Combination Oven",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 544,
+		  "mkg_brnd_prod_cat_id": 89,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 615,
+		  "mkg_brnd_prod_cat_id": 89,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 616,
+		  "mkg_brnd_prod_cat_id": 240,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 28,
+		  "mkg_brnd_prod_cat_id": 90,
+		  "prod_desc_shrt": "Built-In Microwave",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 551,
+		  "mkg_brnd_prod_cat_id": 90,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 617,
+		  "mkg_brnd_prod_cat_id": 90,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 30,
+		  "mkg_brnd_prod_cat_id": 92,
+		  "prod_desc_shrt": "Built-In Microwave with Drop-Down Door",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 553,
+		  "mkg_brnd_prod_cat_id": 92,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 618,
+		  "mkg_brnd_prod_cat_id": 92,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 32,
+		  "mkg_brnd_prod_cat_id": 94,
+		  "prod_desc_shrt": "Over-the-Range Microwave",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 554,
+		  "mkg_brnd_prod_cat_id": 94,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 623,
+		  "mkg_brnd_prod_cat_id": 94,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 620,
+		  "mkg_brnd_prod_cat_id": 254,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 577,
+		  "mkg_brnd_prod_cat_id": 253,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 621,
+		  "mkg_brnd_prod_cat_id": 253,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 939,
+		  "mkg_brnd_prod_cat_id": 253,
+		  "prod_desc_shrt": "French Door Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 580,
+		  "mkg_brnd_prod_cat_id": 258,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 923,
+		  "mkg_brnd_prod_cat_id": 258,
+		  "prod_desc_shrt": "Counter-Depth Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 925,
+		  "mkg_brnd_prod_cat_id": 258,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 735,
+		  "mkg_brnd_prod_cat_id": 351,
+		  "prod_desc_shrt": "32\" Built-In All Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 737,
+		  "mkg_brnd_prod_cat_id": 351,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 46,
+		  "mkg_brnd_prod_cat_id": 104,
+		  "prod_desc_shrt": "Under-Counter Refrigerator Drawers",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 581,
+		  "mkg_brnd_prod_cat_id": 104,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 625,
+		  "mkg_brnd_prod_cat_id": 104,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 48,
+		  "mkg_brnd_prod_cat_id": 106,
+		  "prod_desc_shrt": "Under-Counter Wine Cooler",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 583,
+		  "mkg_brnd_prod_cat_id": 106,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 626,
+		  "mkg_brnd_prod_cat_id": 106,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 55,
+		  "mkg_brnd_prod_cat_id": 108,
+		  "prod_desc_shrt": "36\" Downdraft Vent",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 56,
+		  "mkg_brnd_prod_cat_id": 108,
+		  "prod_desc_shrt": "36\" Glass Canopy Wall-Mount Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 57,
+		  "mkg_brnd_prod_cat_id": 108,
+		  "prod_desc_shrt": "42\" Glass Canopy Island Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 58,
+		  "mkg_brnd_prod_cat_id": 108,
+		  "prod_desc_shrt": "30\" Downdraft Vent",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 59,
+		  "mkg_brnd_prod_cat_id": 108,
+		  "prod_desc_shrt": "40\" Island Vent Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 61,
+		  "mkg_brnd_prod_cat_id": 108,
+		  "prod_desc_shrt": "36\" Wall-Mount Vent Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 62,
+		  "mkg_brnd_prod_cat_id": 108,
+		  "prod_desc_shrt": "30\" Glass Canopy Wall-Mount Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 627,
+		  "mkg_brnd_prod_cat_id": 262,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 64,
+		  "mkg_brnd_prod_cat_id": 110,
+		  "prod_desc_shrt": "30\" Double Wall Oven",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 628,
+		  "mkg_brnd_prod_cat_id": 110,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 66,
+		  "mkg_brnd_prod_cat_id": 112,
+		  "prod_desc_shrt": "30\" Single Wall Oven",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 629,
+		  "mkg_brnd_prod_cat_id": 112,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 68,
+		  "mkg_brnd_prod_cat_id": 114,
+		  "prod_desc_shrt": "High-Speed Oven",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 630,
+		  "mkg_brnd_prod_cat_id": 114,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 70,
+		  "mkg_brnd_prod_cat_id": 116,
+		  "prod_desc_shrt": "30\" Panel-Ready Warmer Drawer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 71,
+		  "mkg_brnd_prod_cat_id": 116,
+		  "prod_desc_shrt": "30\" Warmer Drawer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 631,
+		  "mkg_brnd_prod_cat_id": 116,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 731,
+		  "mkg_brnd_prod_cat_id": 347,
+		  "prod_desc_shrt": "32\" Built-In All Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 733,
+		  "mkg_brnd_prod_cat_id": 347,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 5
+		},
+		{
+		  "mkg_prod_desc_id": 632,
+		  "mkg_brnd_prod_cat_id": 75,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 6
+		},
+		{
+		  "mkg_prod_desc_id": 633,
+		  "mkg_brnd_prod_cat_id": 47,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 6
+		},
+		{
+		  "mkg_prod_desc_id": 634,
+		  "mkg_brnd_prod_cat_id": 48,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 6
+		},
+		{
+		  "mkg_prod_desc_id": 636,
+		  "mkg_brnd_prod_cat_id": 50,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 6
+		},
+		{
+		  "mkg_prod_desc_id": 637,
+		  "mkg_brnd_prod_cat_id": 51,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 6
+		},
+		{
+		  "mkg_prod_desc_id": 638,
+		  "mkg_brnd_prod_cat_id": 52,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 6
+		},
+		{
+		  "mkg_prod_desc_id": 640,
+		  "mkg_brnd_prod_cat_id": 281,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 6
+		},
+		{
+		  "mkg_prod_desc_id": 641,
+		  "mkg_brnd_prod_cat_id": 55,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 6
+		},
+		{
+		  "mkg_prod_desc_id": 642,
+		  "mkg_brnd_prod_cat_id": 56,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 6
+		},
+		{
+		  "mkg_prod_desc_id": 645,
+		  "mkg_brnd_prod_cat_id": 59,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 6
+		},
+		{
+		  "mkg_prod_desc_id": 647,
+		  "mkg_brnd_prod_cat_id": 62,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 6
+		},
+		{
+		  "mkg_prod_desc_id": 648,
+		  "mkg_brnd_prod_cat_id": 63,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 6
+		},
+		{
+		  "mkg_prod_desc_id": 649,
+		  "mkg_brnd_prod_cat_id": 64,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 6
+		},
+		{
+		  "mkg_prod_desc_id": 601,
+		  "mkg_brnd_prod_cat_id": 65,
+		  "prod_desc_shrt": "Frigidaire 30\" Stainless Steel Wall-Mount Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 6
+		},
+		{
+		  "mkg_prod_desc_id": 650,
+		  "mkg_brnd_prod_cat_id": 65,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 6
+		},
+		{
+		  "mkg_prod_desc_id": 651,
+		  "mkg_brnd_prod_cat_id": 68,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 6
+		},
+		{
+		  "mkg_prod_desc_id": 652,
+		  "mkg_brnd_prod_cat_id": 71,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 6
+		},
+		{
+		  "mkg_prod_desc_id": 653,
+		  "mkg_brnd_prod_cat_id": 72,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 6
+		},
+		{
+		  "mkg_prod_desc_id": 655,
+		  "mkg_brnd_prod_cat_id": 306,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 6
+		},
+		{
+		  "mkg_prod_desc_id": 657,
+		  "mkg_brnd_prod_cat_id": 309,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 6
+		},
+		{
+		  "mkg_prod_desc_id": 658,
+		  "mkg_brnd_prod_cat_id": 310,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 6
+		},
+		{
+		  "mkg_prod_desc_id": 654,
+		  "mkg_brnd_prod_cat_id": 73,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 6
+		},
+		{
+		  "mkg_prod_desc_id": 206,
+		  "mkg_brnd_prod_cat_id": 137,
+		  "prod_desc_shrt": "Frigidaire Affinity 7.0 Cu. Ft. Electric Dryer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 7
+		},
+		{
+		  "mkg_prod_desc_id": 207,
+		  "mkg_brnd_prod_cat_id": 137,
+		  "prod_desc_shrt": "Frigidaire Affinity 7.0 Cu. Ft. Gas Dryer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 7
+		},
+		{
+		  "mkg_prod_desc_id": 208,
+		  "mkg_brnd_prod_cat_id": 137,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 7
+		},
+		{
+		  "mkg_prod_desc_id": 209,
+		  "mkg_brnd_prod_cat_id": 137,
+		  "prod_desc_shrt": "Frigidaire Affinity 7.0 Cu. Ft. Electric Dryer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 7
+		},
+		{
+		  "mkg_prod_desc_id": 210,
+		  "mkg_brnd_prod_cat_id": 137,
+		  "prod_desc_shrt": "Frigidaire Affinity 7.0 Cu. Ft. Gas Dryer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 7
+		},
+		{
+		  "mkg_prod_desc_id": 1124,
+		  "mkg_brnd_prod_cat_id": 137,
+		  "prod_desc_shrt": "Frigidaire Affinity 7.0 Cu. Ft. Electric Dryer featuring Ready Steam?",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 7
+		},
+		{
+		  "mkg_prod_desc_id": 1125,
+		  "mkg_brnd_prod_cat_id": 137,
+		  "prod_desc_shrt": "Frigidaire Affinity 7.0 Cu. Ft. Gas Dryer featuring Ready Steam?",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 7
+		},
+		{
+		  "mkg_prod_desc_id": 283,
+		  "mkg_brnd_prod_cat_id": 161,
+		  "prod_desc_shrt": "Frigidaire Affinity Optional Pedestal",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 7
+		},
+		{
+		  "mkg_prod_desc_id": 455,
+		  "mkg_brnd_prod_cat_id": 161,
+		  "prod_desc_shrt": "Frigidaire Optional Pedestal",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 7
+		},
+		{
+		  "mkg_prod_desc_id": 659,
+		  "mkg_brnd_prod_cat_id": 161,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 7
+		},
+		{
+		  "mkg_prod_desc_id": 423,
+		  "mkg_brnd_prod_cat_id": 196,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 7
+		},
+		{
+		  "mkg_prod_desc_id": 424,
+		  "mkg_brnd_prod_cat_id": 196,
+		  "prod_desc_shrt": "Frigidaire Affinity 4.2 Cu. Ft. Front Load Washer Featuring Ready Steam?",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 7
+		},
+		{
+		  "mkg_prod_desc_id": 425,
+		  "mkg_brnd_prod_cat_id": 196,
+		  "prod_desc_shrt": "Frigidaire Affinity 3.5 Cu. Ft. Front Load Washer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 7
+		},
+		{
+		  "mkg_prod_desc_id": 426,
+		  "mkg_brnd_prod_cat_id": 196,
+		  "prod_desc_shrt": "Frigidaire Affinity 4.4 Cu. Ft. Front Load Washer Featuring Ready Steam?",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 7
+		},
+		{
+		  "mkg_prod_desc_id": 428,
+		  "mkg_brnd_prod_cat_id": 196,
+		  "prod_desc_shrt": "Frigidaire Affinity 4.0 Cu. Ft. Front Load Washer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 7
+		},
+		{
+		  "mkg_prod_desc_id": 429,
+		  "mkg_brnd_prod_cat_id": 196,
+		  "prod_desc_shrt": "Frigidaire Affinity 3.8 Cu. Ft. Front Load Washer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 7
+		},
+		{
+		  "mkg_prod_desc_id": 456,
+		  "mkg_brnd_prod_cat_id": 196,
+		  "prod_desc_shrt": "Frigidaire Affinity 4.2 Cu. Ft. Front Load Washer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 7
+		},
+		{
+		  "mkg_prod_desc_id": 800,
+		  "mkg_brnd_prod_cat_id": 196,
+		  "prod_desc_shrt": "Frigidaire Affinity 3.81 Cu. Ft. Front Load Washer featuring Ready Steam?",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 7
+		},
+		{
+		  "mkg_prod_desc_id": 802,
+		  "mkg_brnd_prod_cat_id": 196,
+		  "prod_desc_shrt": "Frigidaire Affinity 3.65 Cu. Ft. Front Load Washer Featuring Ready Steam?",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 7
+		},
+		{
+		  "mkg_prod_desc_id": 803,
+		  "mkg_brnd_prod_cat_id": 196,
+		  "prod_desc_shrt": "Frigidaire Affinity 3.26 Cu. Ft. Front Load Washer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 7
+		},
+		{
+		  "mkg_prod_desc_id": 805,
+		  "mkg_brnd_prod_cat_id": 196,
+		  "prod_desc_shrt": "Frigidaire Affinity 2.65 Cu. Ft. Front Load Washer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 7
+		},
+		{
+		  "mkg_prod_desc_id": 808,
+		  "mkg_brnd_prod_cat_id": 196,
+		  "prod_desc_shrt": "Frigidaire Affinity 3.23 Cu. Ft. Front Load Washer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 7
+		},
+		{
+		  "mkg_prod_desc_id": 809,
+		  "mkg_brnd_prod_cat_id": 196,
+		  "prod_desc_shrt": "Frigidaire Affinity 3.65 Cu. Ft. Front Load Washer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 7
+		},
+		{
+		  "mkg_prod_desc_id": 810,
+		  "mkg_brnd_prod_cat_id": 196,
+		  "prod_desc_shrt": "Frigidaire Affinity 3.68 Cu. Ft. Front Load Washer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 7
+		},
+		{
+		  "mkg_prod_desc_id": 812,
+		  "mkg_brnd_prod_cat_id": 196,
+		  "prod_desc_shrt": "Frigidaire Affinity 3.81 Cu. Ft. Front Load Washer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 7
+		},
+		{
+		  "mkg_prod_desc_id": 1120,
+		  "mkg_brnd_prod_cat_id": 196,
+		  "prod_desc_shrt": "Frigidaire Affinity 3.9 Cu. Ft. Front Load Washer featuring Ready Steam?",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 7
+		},
+		{
+		  "mkg_prod_desc_id": 1121,
+		  "mkg_brnd_prod_cat_id": 196,
+		  "prod_desc_shrt": "Frigidaire Affinity 3.8 Cu. Ft. Front Load Washer with Ready Steam?",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 7
+		},
+		{
+		  "mkg_prod_desc_id": 1122,
+		  "mkg_brnd_prod_cat_id": 196,
+		  "prod_desc_shrt": "Frigidaire Affinity 3.7 Cu. Ft. Front Load Washer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 7
+		},
+		{
+		  "mkg_prod_desc_id": 1123,
+		  "mkg_brnd_prod_cat_id": 196,
+		  "prod_desc_shrt": "Frigidaire Affinity 3.3 Cu. Ft. Front Load Washer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 7
+		},
+		{
+		  "mkg_prod_desc_id": 741,
+		  "mkg_brnd_prod_cat_id": 369,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 7
+		},
+		{
+		  "mkg_prod_desc_id": 1041,
+		  "mkg_brnd_prod_cat_id": 495,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 7
+		},
+		{
+		  "mkg_prod_desc_id": 1068,
+		  "mkg_brnd_prod_cat_id": 495,
+		  "prod_desc_shrt": "Frigidaire Affinity Steam+Pro LCD Iron",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 7
+		},
+		{
+		  "mkg_prod_desc_id": 1069,
+		  "mkg_brnd_prod_cat_id": 495,
+		  "prod_desc_shrt": "Frigidaire Affinity Steam+LED Iron",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 7
+		},
+		{
+		  "mkg_prod_desc_id": 782,
+		  "mkg_brnd_prod_cat_id": 424,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 998,
+		  "mkg_brnd_prod_cat_id": 424,
+		  "prod_desc_shrt": "Frigidaire Professional 12-Cup Drip Coffee Maker",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 172,
+		  "mkg_brnd_prod_cat_id": 129,
+		  "prod_desc_shrt": "Frigidaire Professional 36\" Gas Cooktop",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 173,
+		  "mkg_brnd_prod_cat_id": 129,
+		  "prod_desc_shrt": "Frigidaire Professional 36\" Electric Cooktop",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 174,
+		  "mkg_brnd_prod_cat_id": 129,
+		  "prod_desc_shrt": "Frigidaire Professional 30\" Gas Cooktop",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 175,
+		  "mkg_brnd_prod_cat_id": 129,
+		  "prod_desc_shrt": "Frigidaire Professional 30\" Induction Hybrid Cooktop",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 176,
+		  "mkg_brnd_prod_cat_id": 129,
+		  "prod_desc_shrt": "Frigidaire Professional 30\" Electric Cooktop",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 177,
+		  "mkg_brnd_prod_cat_id": 129,
+		  "prod_desc_shrt": "Frigidaire Professional 36\" Induction Hybrid Cooktop",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 511,
+		  "mkg_brnd_prod_cat_id": 129,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 982,
+		  "mkg_brnd_prod_cat_id": 129,
+		  "prod_desc_shrt": "Frigidaire Professional 30\" Induction Cooktop",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 983,
+		  "mkg_brnd_prod_cat_id": 129,
+		  "prod_desc_shrt": "Frigidaire Professional 36\" Induction Cooktop",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 197,
+		  "mkg_brnd_prod_cat_id": 133,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 198,
+		  "mkg_brnd_prod_cat_id": 133,
+		  "prod_desc_shrt": "Frigidaire Professional 24\" Built-In Dishwasher",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 660,
+		  "mkg_brnd_prod_cat_id": 271,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 240,
+		  "mkg_brnd_prod_cat_id": 145,
+		  "prod_desc_shrt": "Frigidaire Professional 17 Cu. Ft. Upright Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 662,
+		  "mkg_brnd_prod_cat_id": 145,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 256,
+		  "mkg_brnd_prod_cat_id": 150,
+		  "prod_desc_shrt": "Frigidaire Professional 30\" Electric Wall Oven/Microwave Combination",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 257,
+		  "mkg_brnd_prod_cat_id": 150,
+		  "prod_desc_shrt": "Frigidaire Professional 27\" Electric Wall Oven/Microwave Combination",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 663,
+		  "mkg_brnd_prod_cat_id": 150,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 260,
+		  "mkg_brnd_prod_cat_id": 152,
+		  "prod_desc_shrt": "Frigidaire Professional 2.0 Cu. Ft. Built-In Microwave",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 261,
+		  "mkg_brnd_prod_cat_id": 152,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 265,
+		  "mkg_brnd_prod_cat_id": 155,
+		  "prod_desc_shrt": "Frigidaire Professional 1.8 Cu. Ft. Over-The-Range Microwave",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 1037,
+		  "mkg_brnd_prod_cat_id": 155,
+		  "prod_desc_shrt": "Frigidaire Professional 2.0 Cu. Ft. Over-The-Range Microwave",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 285,
+		  "mkg_brnd_prod_cat_id": 163,
+		  "prod_desc_shrt": "Frigidaire Professional 30\" Freestanding Gas Range",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 286,
+		  "mkg_brnd_prod_cat_id": 163,
+		  "prod_desc_shrt": "Frigidaire Professional 30\" Slide-In Gas Range",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 287,
+		  "mkg_brnd_prod_cat_id": 163,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 288,
+		  "mkg_brnd_prod_cat_id": 163,
+		  "prod_desc_shrt": "Frigidaire Professional 30\" Freestanding Electric Range",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 289,
+		  "mkg_brnd_prod_cat_id": 163,
+		  "prod_desc_shrt": "Frigidaire Professional 30\" Slide-In Induction Hybrid Range",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 290,
+		  "mkg_brnd_prod_cat_id": 163,
+		  "prod_desc_shrt": "Frigidaire Professional 30\" Slide-In Dual-Fuel Range",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 291,
+		  "mkg_brnd_prod_cat_id": 163,
+		  "prod_desc_shrt": "Frigidaire 30\" Slide-In Induction Hybrid Range",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 292,
+		  "mkg_brnd_prod_cat_id": 163,
+		  "prod_desc_shrt": "Frigidaire Professional 30\" Electric Built-In Range",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 293,
+		  "mkg_brnd_prod_cat_id": 163,
+		  "prod_desc_shrt": "Frigidaire Professional 30\" Gas Built-In Range",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 294,
+		  "mkg_brnd_prod_cat_id": 163,
+		  "prod_desc_shrt": "Frigidaire Professional 30\" Slide-In Electric Range",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 295,
+		  "mkg_brnd_prod_cat_id": 163,
+		  "prod_desc_shrt": "Frigidaire Professional 30\" Freestanding Induction Hybrid Range",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 296,
+		  "mkg_brnd_prod_cat_id": 163,
+		  "prod_desc_shrt": "Frigidaire Professional 30\" Dual Fuel Built-In Range",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 746,
+		  "mkg_brnd_prod_cat_id": 163,
+		  "prod_desc_shrt": "Frigidaire Professional 30\" Freestanding Induction Range",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 1009,
+		  "mkg_brnd_prod_cat_id": 163,
+		  "prod_desc_shrt": "Frigidaire 40\" Freestanding Dual Fuel Range",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 1010,
+		  "mkg_brnd_prod_cat_id": 163,
+		  "prod_desc_shrt": "Frigidaire Professional 30\" Freestanding Electric Double Oven",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 1011,
+		  "mkg_brnd_prod_cat_id": 163,
+		  "prod_desc_shrt": "Frigidaire Professional 30\" Freestanding Gas Double Oven",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 1012,
+		  "mkg_brnd_prod_cat_id": 163,
+		  "prod_desc_shrt": "Frigidaire Professional 36\" Freestanding Gas Range",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 1013,
+		  "mkg_brnd_prod_cat_id": 163,
+		  "prod_desc_shrt": "Frigidaire Professional 40\" Freestanding Dual Fuel Range",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 1014,
+		  "mkg_brnd_prod_cat_id": 163,
+		  "prod_desc_shrt": "Frigidaire Professional 40\" Freestanding Electric Range",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 665,
+		  "mkg_brnd_prod_cat_id": 282,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 897,
+		  "mkg_brnd_prod_cat_id": 282,
+		  "prod_desc_shrt": "Frigidaire Professional 22.6 Cu. Ft. French Door Counter-Depth Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 898,
+		  "mkg_brnd_prod_cat_id": 282,
+		  "prod_desc_shrt": "Frigidaire Professional 27.8 Cu. Ft. French Door Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 1174,
+		  "mkg_brnd_prod_cat_id": 282,
+		  "prod_desc_shrt": "Frigidaire Professional 23 Cu. Ft. French Door Counter-Depth Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 1175,
+		  "mkg_brnd_prod_cat_id": 282,
+		  "prod_desc_shrt": "Frigidaire Professional 28 Cu. Ft. French Door Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 909,
+		  "mkg_brnd_prod_cat_id": 289,
+		  "prod_desc_shrt": "Frigidaire Professional 22.6 Cu. Ft. Counter-Depth Side-by-Side Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 910,
+		  "mkg_brnd_prod_cat_id": 289,
+		  "prod_desc_shrt": "Frigidaire Professional 22.6 Cu. Ft. Side-by-Side Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 911,
+		  "mkg_brnd_prod_cat_id": 289,
+		  "prod_desc_shrt": "Frigidaire Professional 26 Cu. Ft. Side-by-Side Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 918,
+		  "mkg_brnd_prod_cat_id": 289,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 1171,
+		  "mkg_brnd_prod_cat_id": 289,
+		  "prod_desc_shrt": "Frigidaire Professional 23 Cu. Ft. Counter-Depth Side-by-Side Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 1176,
+		  "mkg_brnd_prod_cat_id": 289,
+		  "prod_desc_shrt": "Frigidaire Professional 23 Cu. Ft. Side-by-Side Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 352,
+		  "mkg_brnd_prod_cat_id": 181,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 353,
+		  "mkg_brnd_prod_cat_id": 181,
+		  "prod_desc_shrt": "Frigidaire Professional 20.61 Cu. Ft. Top Freezer Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 354,
+		  "mkg_brnd_prod_cat_id": 181,
+		  "prod_desc_shrt": "Frigidaire Professional 18.28 Cu. Ft. Top Freezer Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 355,
+		  "mkg_brnd_prod_cat_id": 181,
+		  "prod_desc_shrt": "Frigidaire 18.28 Cu. Ft. Top Freezer Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 356,
+		  "mkg_brnd_prod_cat_id": 181,
+		  "prod_desc_shrt": "Frigidaire Professional 20.6 Cu. Ft. Top Freezer Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 1070,
+		  "mkg_brnd_prod_cat_id": 506,
+		  "prod_desc_shrt": "Frigidaire Professional 20.2 Cu. Ft. Bottom Freezer Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 1071,
+		  "mkg_brnd_prod_cat_id": 506,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 1072,
+		  "mkg_brnd_prod_cat_id": 506,
+		  "prod_desc_shrt": "Frigidaire Professional 22.8 Cu. Ft. Bottom Freezer Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 377,
+		  "mkg_brnd_prod_cat_id": 184,
+		  "prod_desc_shrt": "Frigidaire Professional 17 Cu. Ft. All Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 378,
+		  "mkg_brnd_prod_cat_id": 184,
+		  "prod_desc_shrt": "Frigidaire Professional 17 Cu. Ft. All Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 497,
+		  "mkg_brnd_prod_cat_id": 184,
+		  "prod_desc_shrt": "Frigidaire Professional 19 Cu. Ft. All Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 667,
+		  "mkg_brnd_prod_cat_id": 184,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 726,
+		  "mkg_brnd_prod_cat_id": 184,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 728,
+		  "mkg_brnd_prod_cat_id": 184,
+		  "prod_desc_shrt": "Frigidaire Professional 19 Cu. Ft. All Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 399,
+		  "mkg_brnd_prod_cat_id": 189,
+		  "prod_desc_shrt": "Frigidaire Professional 30\" Double Electric Wall Oven",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 400,
+		  "mkg_brnd_prod_cat_id": 189,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 401,
+		  "mkg_brnd_prod_cat_id": 189,
+		  "prod_desc_shrt": "Frigidaire Professional 27\" Double Electric Wall Oven",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 408,
+		  "mkg_brnd_prod_cat_id": 192,
+		  "prod_desc_shrt": "Frigidaire Professional 30\" Single Electric Wall Oven",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 409,
+		  "mkg_brnd_prod_cat_id": 192,
+		  "prod_desc_shrt": "Frigidaire Professional 27\" Single Electric Wall Oven",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 410,
+		  "mkg_brnd_prod_cat_id": 192,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 421,
+		  "mkg_brnd_prod_cat_id": 195,
+		  "prod_desc_shrt": "Frigidaire Professional 27\" Warmer Drawer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 422,
+		  "mkg_brnd_prod_cat_id": 195,
+		  "prod_desc_shrt": "Frigidaire Professional 30\" Warmer Drawer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 668,
+		  "mkg_brnd_prod_cat_id": 195,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 725,
+		  "mkg_brnd_prod_cat_id": 348,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 727,
+		  "mkg_brnd_prod_cat_id": 348,
+		  "prod_desc_shrt": "Frigidaire Professional 19 Cu. Ft. All Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 729,
+		  "mkg_brnd_prod_cat_id": 348,
+		  "prod_desc_shrt": "Frigidaire Professional 17 Cu. Ft. All Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 783,
+		  "mkg_brnd_prod_cat_id": 425,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 999,
+		  "mkg_brnd_prod_cat_id": 425,
+		  "prod_desc_shrt": "Frigidaire Professional 6-Slice Convection Toaster Oven",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 784,
+		  "mkg_brnd_prod_cat_id": 426,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 1085,
+		  "mkg_brnd_prod_cat_id": 426,
+		  "prod_desc_shrt": "Frigidaire Professional 56-Ounce Blender",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 785,
+		  "mkg_brnd_prod_cat_id": 427,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 1042,
+		  "mkg_brnd_prod_cat_id": 427,
+		  "prod_desc_shrt": "Frigidaire Professional 7-Quart Programmable Slow Cooker",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 786,
+		  "mkg_brnd_prod_cat_id": 428,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 1163,
+		  "mkg_brnd_prod_cat_id": 428,
+		  "prod_desc_shrt": "Frigidaire Professional Panini Press",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 787,
+		  "mkg_brnd_prod_cat_id": 429,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 997,
+		  "mkg_brnd_prod_cat_id": 429,
+		  "prod_desc_shrt": "Frigidaire Professional 2-Slice Wide Slots Toaster",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 788,
+		  "mkg_brnd_prod_cat_id": 430,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 1167,
+		  "mkg_brnd_prod_cat_id": 430,
+		  "prod_desc_shrt": "Frigidaire Professional Tri-Blade Immersion Blender / Mixer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 792,
+		  "mkg_brnd_prod_cat_id": 432,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 988,
+		  "mkg_brnd_prod_cat_id": 432,
+		  "prod_desc_shrt": "Frigidaire Professional 1 HP Waste Disposer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 989,
+		  "mkg_brnd_prod_cat_id": 432,
+		  "prod_desc_shrt": "Frigidaire Professional 3/4 HP Waste Disposer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 990,
+		  "mkg_brnd_prod_cat_id": 432,
+		  "prod_desc_shrt": "Frigidaire Professional 3/4 HP Batch Feed Waste Disposer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 8
+		},
+		{
+		  "mkg_prod_desc_id": 178,
+		  "mkg_brnd_prod_cat_id": 130,
+		  "prod_desc_shrt": "Frigidaire Gallery 36\" Gas Cooktop",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 179,
+		  "mkg_brnd_prod_cat_id": 130,
+		  "prod_desc_shrt": "Frigidaire Gallery 36\" Electric Cooktop",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 180,
+		  "mkg_brnd_prod_cat_id": 130,
+		  "prod_desc_shrt": "Frigidaire Gallery Portable Induction Burner",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 181,
+		  "mkg_brnd_prod_cat_id": 130,
+		  "prod_desc_shrt": "Frigidaire Gallery 30\" Gas Cooktop",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 182,
+		  "mkg_brnd_prod_cat_id": 130,
+		  "prod_desc_shrt": "Frigidaire Gallery 30\" Electric Cooktop",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 683,
+		  "mkg_brnd_prod_cat_id": 130,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 984,
+		  "mkg_brnd_prod_cat_id": 130,
+		  "prod_desc_shrt": "Frigidaire Gallery 30\" Induction Cooktop",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 985,
+		  "mkg_brnd_prod_cat_id": 130,
+		  "prod_desc_shrt": "Frigidaire Gallery 36\" Induction Cooktop",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 200,
+		  "mkg_brnd_prod_cat_id": 135,
+		  "prod_desc_shrt": "Frigidaire Gallery 24\" Built-In Dishwasher",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 201,
+		  "mkg_brnd_prod_cat_id": 135,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 211,
+		  "mkg_brnd_prod_cat_id": 138,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 212,
+		  "mkg_brnd_prod_cat_id": 138,
+		  "prod_desc_shrt": "Frigidaire Gallery 5.8 Cu. Ft. Electric Dryer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 213,
+		  "mkg_brnd_prod_cat_id": 138,
+		  "prod_desc_shrt": "Frigidaire Gallery 7.0 Cu. Ft. Gas Dryer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 214,
+		  "mkg_brnd_prod_cat_id": 138,
+		  "prod_desc_shrt": "Frigidaire Gallery 7.0 Cu. Ft. Electric Dryer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 215,
+		  "mkg_brnd_prod_cat_id": 138,
+		  "prod_desc_shrt": "Frigidaire Gallery 5.8 Cu. Ft. Gas Dryer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 684,
+		  "mkg_brnd_prod_cat_id": 269,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 224,
+		  "mkg_brnd_prod_cat_id": 140,
+		  "prod_desc_shrt": "Frigidaire Gallery 14.8 Cu. Ft. Chest Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 225,
+		  "mkg_brnd_prod_cat_id": 140,
+		  "prod_desc_shrt": "Frigidaire Gallery 24.6 Cu. Ft. Chest Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 226,
+		  "mkg_brnd_prod_cat_id": 140,
+		  "prod_desc_shrt": "Frigidaire Gallery 12.8 Cu. Ft. Chest Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 227,
+		  "mkg_brnd_prod_cat_id": 140,
+		  "prod_desc_shrt": "Frigidaire Gallery 19.7 Cu. Ft. Chest Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 230,
+		  "mkg_brnd_prod_cat_id": 140,
+		  "prod_desc_shrt": "Frigidaire Gallery 12.8 Cu. Ft. Chest Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 685,
+		  "mkg_brnd_prod_cat_id": 140,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 241,
+		  "mkg_brnd_prod_cat_id": 146,
+		  "prod_desc_shrt": "Frigidaire Gallery 16.6 Cu. Ft. Upright Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 242,
+		  "mkg_brnd_prod_cat_id": 146,
+		  "prod_desc_shrt": "Frigidaire Gallery 20.5 Cu. Ft. Upright Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 687,
+		  "mkg_brnd_prod_cat_id": 146,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 1004,
+		  "mkg_brnd_prod_cat_id": 146,
+		  "prod_desc_shrt": "Frigidaire Gallery 17 Cu. Ft. Upright Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 252,
+		  "mkg_brnd_prod_cat_id": 148,
+		  "prod_desc_shrt": "Frigidaire Gallery Electric Washer/Dryer Laundry Center",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 253,
+		  "mkg_brnd_prod_cat_id": 148,
+		  "prod_desc_shrt": "Frigidaire Gallery Gas Washer/Dryer Laundry Center",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 688,
+		  "mkg_brnd_prod_cat_id": 148,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 258,
+		  "mkg_brnd_prod_cat_id": 151,
+		  "prod_desc_shrt": "Frigidaire Gallery 27\" Electric Wall Oven/Microwave Combination",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 259,
+		  "mkg_brnd_prod_cat_id": 151,
+		  "prod_desc_shrt": "Frigidaire Gallery 30\" Electric Wall Oven/Microwave Combination",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 689,
+		  "mkg_brnd_prod_cat_id": 151,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 263,
+		  "mkg_brnd_prod_cat_id": 154,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 264,
+		  "mkg_brnd_prod_cat_id": 154,
+		  "prod_desc_shrt": "Frigidaire Gallery 2.0 Cu. Ft. Built-In Microwave",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 268,
+		  "mkg_brnd_prod_cat_id": 157,
+		  "prod_desc_shrt": "Frigidaire Gallery 1.7 Cu. Ft. Over-The-Range Microwave",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 269,
+		  "mkg_brnd_prod_cat_id": 157,
+		  "prod_desc_shrt": "Frigidaire Gallery Premier 1.8 Cu. Ft. Over-The-Range Microwave",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 270,
+		  "mkg_brnd_prod_cat_id": 157,
+		  "prod_desc_shrt": "Frigidaire Gallery Premier Collection 1.8 Cu. Ft. Over-The-Range Microwave",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 271,
+		  "mkg_brnd_prod_cat_id": 157,
+		  "prod_desc_shrt": "Frigidaire Gallery 1.8 Cu. Ft. Over-The-Range Microwave",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 750,
+		  "mkg_brnd_prod_cat_id": 157,
+		  "prod_desc_shrt": "Frigidaire Gallery 1.6 Cu. Ft. Over-The-Range Microwave",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 751,
+		  "mkg_brnd_prod_cat_id": 157,
+		  "prod_desc_shrt": "Frigidaire Gallery 1.5 Cu. Ft. Over-The-Range Microwave with Convection",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 1018,
+		  "mkg_brnd_prod_cat_id": 157,
+		  "prod_desc_shrt": "Frigidaire Gallery 2.0 Cu. Ft. Over-The-Range Microwave",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 690,
+		  "mkg_brnd_prod_cat_id": 314,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 302,
+		  "mkg_brnd_prod_cat_id": 165,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 303,
+		  "mkg_brnd_prod_cat_id": 165,
+		  "prod_desc_shrt": "Frigidaire Gallery 30\" Freestanding Electric Range",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 304,
+		  "mkg_brnd_prod_cat_id": 165,
+		  "prod_desc_shrt": "Frigidaire Gallery 30\" Freestanding Gas Range",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 305,
+		  "mkg_brnd_prod_cat_id": 165,
+		  "prod_desc_shrt": "Frigidaire Gallery 30\" Slide-In Gas Range",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 306,
+		  "mkg_brnd_prod_cat_id": 165,
+		  "prod_desc_shrt": "Frigidaire Premier Gallery 30\" Slide-In Gas Range",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 307,
+		  "mkg_brnd_prod_cat_id": 165,
+		  "prod_desc_shrt": "Frigidaire Gallery 30\" Electric Built-In Range",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 308,
+		  "mkg_brnd_prod_cat_id": 165,
+		  "prod_desc_shrt": "Frigidaire Gallery 30\" Dual Fuel Built-In Range",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 309,
+		  "mkg_brnd_prod_cat_id": 165,
+		  "prod_desc_shrt": "Frigidaire Gallery 30\" Slide-In Electric Range",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 310,
+		  "mkg_brnd_prod_cat_id": 165,
+		  "prod_desc_shrt": "Frigidaire Gallery 30\" Slide-In Dual-Fuel Range",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 311,
+		  "mkg_brnd_prod_cat_id": 165,
+		  "prod_desc_shrt": "Frigidaire Gallery 30\" Gas Built-In Range",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 1006,
+		  "mkg_brnd_prod_cat_id": 165,
+		  "prod_desc_shrt": "Frigidaire Gallery 30\" Freestanding Electric Double Oven Range",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 1007,
+		  "mkg_brnd_prod_cat_id": 165,
+		  "prod_desc_shrt": "Frigidaire Gallery 30\" Freestanding Gas Double Oven Range",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 1161,
+		  "mkg_brnd_prod_cat_id": 165,
+		  "prod_desc_shrt": "Frigidaire Gallery 30\" Freestanding Induction Range",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 692,
+		  "mkg_brnd_prod_cat_id": 287,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 738,
+		  "mkg_brnd_prod_cat_id": 287,
+		  "prod_desc_shrt": "Frigidaire Gallery 22.6 French Door Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 899,
+		  "mkg_brnd_prod_cat_id": 287,
+		  "prod_desc_shrt": "Frigidaire Gallery 22.6 Cu. Ft. French Door Counter-Depth Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 900,
+		  "mkg_brnd_prod_cat_id": 287,
+		  "prod_desc_shrt": "Frigidaire Gallery 27.8 Cu. Ft. French Door Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 901,
+		  "mkg_brnd_prod_cat_id": 287,
+		  "prod_desc_shrt": "Frigidaire Gallery 25.8 Cu. Ft. French Door Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 1172,
+		  "mkg_brnd_prod_cat_id": 287,
+		  "prod_desc_shrt": "Frigidaire Gallery 26 Cu. Ft. French Door Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 908,
+		  "mkg_brnd_prod_cat_id": 292,
+		  "prod_desc_shrt": "Frigidaire Gallery 22.6 Cu. Ft. Counter-Depth Side-by-Side Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 915,
+		  "mkg_brnd_prod_cat_id": 292,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 919,
+		  "mkg_brnd_prod_cat_id": 292,
+		  "prod_desc_shrt": "Frigidaire Gallery 26 Cu. Ft. Side-by-Side Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 920,
+		  "mkg_brnd_prod_cat_id": 292,
+		  "prod_desc_shrt": "Frigidaire Gallery 22.6 Cu. Ft. Side-by-Side Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 921,
+		  "mkg_brnd_prod_cat_id": 292,
+		  "prod_desc_shrt": "Frigidaire Gallery 23 Cu. Ft. Side-By-Side Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 1173,
+		  "mkg_brnd_prod_cat_id": 292,
+		  "prod_desc_shrt": "Frigidaire Gallery 23 Cu. Ft. Counter-Depth Side-by-Side Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 357,
+		  "mkg_brnd_prod_cat_id": 182,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 358,
+		  "mkg_brnd_prod_cat_id": 182,
+		  "prod_desc_shrt": "Frigidaire Gallery 18.28 Cu. Ft. Top Freezer Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 359,
+		  "mkg_brnd_prod_cat_id": 182,
+		  "prod_desc_shrt": "Frigidaire Gallery 20.61 Cu. Ft. Top Freezer Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 360,
+		  "mkg_brnd_prod_cat_id": 182,
+		  "prod_desc_shrt": "Frigidaire 20.6 Cu. Ft. Top Freezer Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 361,
+		  "mkg_brnd_prod_cat_id": 182,
+		  "prod_desc_shrt": "Frigidaire Gallery 20.6 Cu. Ft. Top Freezer Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 362,
+		  "mkg_brnd_prod_cat_id": 182,
+		  "prod_desc_shrt": "Frigidaire 18.2 Cu. Ft. Top Freezer Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 1170,
+		  "mkg_brnd_prod_cat_id": 182,
+		  "prod_desc_shrt": "Frigidaire Gallery 18 Cu. Ft. Top Freezer Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 1073,
+		  "mkg_brnd_prod_cat_id": 507,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 1075,
+		  "mkg_brnd_prod_cat_id": 507,
+		  "prod_desc_shrt": "Frigidaire Gallery 20.2 Cu. Ft. Bottom Freezer Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 1077,
+		  "mkg_brnd_prod_cat_id": 507,
+		  "prod_desc_shrt": "Frigidaire Gallery 22.8 Cu. Ft. Bottom Freezer Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 77,
+		  "mkg_brnd_prod_cat_id": 312,
+		  "prod_desc_shrt": "Frigidaire Gallery 36\" Glass Canopy Island Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 458,
+		  "mkg_brnd_prod_cat_id": 312,
+		  "prod_desc_shrt": "Frigidaire Gallery 42\" Glass Canopy Island Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 460,
+		  "mkg_brnd_prod_cat_id": 312,
+		  "prod_desc_shrt": "Frigidaire Gallery 30\" Glass Canopy Wall-Mount Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 462,
+		  "mkg_brnd_prod_cat_id": 312,
+		  "prod_desc_shrt": "Frigidaire Gallery 36\" Glass Canopy Wall-Mount Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 466,
+		  "mkg_brnd_prod_cat_id": 312,
+		  "prod_desc_shrt": "Frigidaire Gallery 36\" Stainless Canopy Wall-Mount Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 468,
+		  "mkg_brnd_prod_cat_id": 312,
+		  "prod_desc_shrt": "Frigidaire Gallery 30\" Stainless Canopy Wall-Mount Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 485,
+		  "mkg_brnd_prod_cat_id": 312,
+		  "prod_desc_shrt": "Frigidaire Gallery 36\" Island-Mount Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 486,
+		  "mkg_brnd_prod_cat_id": 312,
+		  "prod_desc_shrt": "Frigidaire Gallery 42\" Island-Mount Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 487,
+		  "mkg_brnd_prod_cat_id": 312,
+		  "prod_desc_shrt": "Frigidaire Gallery 30\" Wall-Mount Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 488,
+		  "mkg_brnd_prod_cat_id": 312,
+		  "prod_desc_shrt": "Frigidaire Gallery 36\" Wall-Mount Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 489,
+		  "mkg_brnd_prod_cat_id": 312,
+		  "prod_desc_shrt": "Frigidaire Gallery 30\" Overhead Range Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 490,
+		  "mkg_brnd_prod_cat_id": 312,
+		  "prod_desc_shrt": "Frigidaire Gallery 36\" Overhead Range Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 694,
+		  "mkg_brnd_prod_cat_id": 312,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 402,
+		  "mkg_brnd_prod_cat_id": 190,
+		  "prod_desc_shrt": "Frigidaire Gallery 27\" Double Electric Wall Oven",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 403,
+		  "mkg_brnd_prod_cat_id": 190,
+		  "prod_desc_shrt": "Frigidaire Gallery 30\" Double Electric Wall Oven",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 404,
+		  "mkg_brnd_prod_cat_id": 190,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 411,
+		  "mkg_brnd_prod_cat_id": 193,
+		  "prod_desc_shrt": "Frigidaire Gallery 30\" Single Electric Wall Oven",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 412,
+		  "mkg_brnd_prod_cat_id": 193,
+		  "prod_desc_shrt": "Frigidaire Gallery 27\" Single Electric Wall Oven",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 413,
+		  "mkg_brnd_prod_cat_id": 193,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 430,
+		  "mkg_brnd_prod_cat_id": 197,
+		  "prod_desc_shrt": "Frigidaire Gallery 3.5 Cu. Ft. Front Load Washer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 431,
+		  "mkg_brnd_prod_cat_id": 197,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 435,
+		  "mkg_brnd_prod_cat_id": 199,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 1003,
+		  "mkg_brnd_prod_cat_id": 491,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 1005,
+		  "mkg_brnd_prod_cat_id": 491,
+		  "prod_desc_shrt": "Frigidaire Gallery 17 Cu. Ft. Upright Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 793,
+		  "mkg_brnd_prod_cat_id": 434,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 856,
+		  "mkg_brnd_prod_cat_id": 434,
+		  "prod_desc_shrt": "Frigidaire Gallery 3/4 HP Waste Disposer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 10
+		},
+		{
+		  "mkg_prod_desc_id": 183,
+		  "mkg_brnd_prod_cat_id": 131,
+		  "prod_desc_shrt": "Frigidaire 26\" Gas Cooktop",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 184,
+		  "mkg_brnd_prod_cat_id": 131,
+		  "prod_desc_shrt": "Frigidaire 30\" Electric Cooktop",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 185,
+		  "mkg_brnd_prod_cat_id": 131,
+		  "prod_desc_shrt": "Frigidaire 32\" Electric Cooktop",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 186,
+		  "mkg_brnd_prod_cat_id": 131,
+		  "prod_desc_shrt": "Frigidaire 36\" Electric Cooktop",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 187,
+		  "mkg_brnd_prod_cat_id": 131,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 188,
+		  "mkg_brnd_prod_cat_id": 131,
+		  "prod_desc_shrt": "Frigidaire 26\" Electric Cooktop",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 189,
+		  "mkg_brnd_prod_cat_id": 131,
+		  "prod_desc_shrt": "Frigidaire 30\" Gas Cooktop",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 190,
+		  "mkg_brnd_prod_cat_id": 131,
+		  "prod_desc_shrt": "Frigidaire 36\" Gas Cooktop",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 191,
+		  "mkg_brnd_prod_cat_id": 132,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 192,
+		  "mkg_brnd_prod_cat_id": 132,
+		  "prod_desc_shrt": "Frigidaire 70 Pint Capacity Dehumidifier",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 193,
+		  "mkg_brnd_prod_cat_id": 132,
+		  "prod_desc_shrt": "Frigidaire 50 Pint Capacity Dehumidifier",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 194,
+		  "mkg_brnd_prod_cat_id": 132,
+		  "prod_desc_shrt": "Frigidaire 40 Pint Capacity Dehumidifier",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 195,
+		  "mkg_brnd_prod_cat_id": 132,
+		  "prod_desc_shrt": "Frigidaire 25 Pint Capacity Dehumidifier",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 196,
+		  "mkg_brnd_prod_cat_id": 132,
+		  "prod_desc_shrt": "Frigidaire 30 Pint Capacity Dehumidifier",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 994,
+		  "mkg_brnd_prod_cat_id": 132,
+		  "prod_desc_shrt": "Lowe's Exclusive Frigidaire 50 Pint Capacity Dehumidifier",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 995,
+		  "mkg_brnd_prod_cat_id": 132,
+		  "prod_desc_shrt": "Lowe's Exclusive Frigidaire 30 Pint Capacity Dehumidifier",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 996,
+		  "mkg_brnd_prod_cat_id": 132,
+		  "prod_desc_shrt": "Lowe's Exclusive Frigidaire 70 Pint Capacity Dehumidifier",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 202,
+		  "mkg_brnd_prod_cat_id": 136,
+		  "prod_desc_shrt": "Frigidaire 24\" Built-In Dishwasher",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 203,
+		  "mkg_brnd_prod_cat_id": 136,
+		  "prod_desc_shrt": "Frigidaire 18\" Built-In Dishwasher",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 204,
+		  "mkg_brnd_prod_cat_id": 136,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 205,
+		  "mkg_brnd_prod_cat_id": 136,
+		  "prod_desc_shrt": "Frigidaire 18\" Portable Dishwasher",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 216,
+		  "mkg_brnd_prod_cat_id": 139,
+		  "prod_desc_shrt": "Frigidaire 7.0 Cu. Ft. Gas Dryer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 217,
+		  "mkg_brnd_prod_cat_id": 139,
+		  "prod_desc_shrt": "Frigidaire 7.0 Cu. Ft. Electric Dryer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 218,
+		  "mkg_brnd_prod_cat_id": 139,
+		  "prod_desc_shrt": "Frigidaire 5.7 Cu. Ft. Gas Dryer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 219,
+		  "mkg_brnd_prod_cat_id": 139,
+		  "prod_desc_shrt": "Frigidaire 5.7 Cu. Ft. Electric Dryer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 220,
+		  "mkg_brnd_prod_cat_id": 139,
+		  "prod_desc_shrt": "Frigidaire 5.8 Cu. Ft. Electric Dryer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 221,
+		  "mkg_brnd_prod_cat_id": 139,
+		  "prod_desc_shrt": "Frigidaire 5.8 Cu. Ft. Electric Dryer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 222,
+		  "mkg_brnd_prod_cat_id": 139,
+		  "prod_desc_shrt": "Frigidaire 5.8 Cu. Ft. Gas Dryer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 223,
+		  "mkg_brnd_prod_cat_id": 139,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 695,
+		  "mkg_brnd_prod_cat_id": 270,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 228,
+		  "mkg_brnd_prod_cat_id": 141,
+		  "prod_desc_shrt": "Frigidaire 8.8 Cu. Ft. Chest Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 229,
+		  "mkg_brnd_prod_cat_id": 141,
+		  "prod_desc_shrt": "Frigidaire 5.0 Cu. Ft. Chest Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 231,
+		  "mkg_brnd_prod_cat_id": 141,
+		  "prod_desc_shrt": "Frigidaire 14.8 Cu. Ft. Chest Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 232,
+		  "mkg_brnd_prod_cat_id": 141,
+		  "prod_desc_shrt": "Frigidaire 7.2 Cu. Ft. Chest Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 233,
+		  "mkg_brnd_prod_cat_id": 141,
+		  "prod_desc_shrt": "Frigidaire 5 Cu. Ft. Chest Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 696,
+		  "mkg_brnd_prod_cat_id": 141,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 1022,
+		  "mkg_brnd_prod_cat_id": 141,
+		  "prod_desc_shrt": "Frigidaire 12.9 Cu. Ft. Chest Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 1160,
+		  "mkg_brnd_prod_cat_id": 141,
+		  "prod_desc_shrt": "Frigidaire 17.8 Cu. Ft. Chest Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 234,
+		  "mkg_brnd_prod_cat_id": 142,
+		  "prod_desc_shrt": "Frigidaire 17.0 Cu. Ft. Upright Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 697,
+		  "mkg_brnd_prod_cat_id": 142,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 243,
+		  "mkg_brnd_prod_cat_id": 147,
+		  "prod_desc_shrt": "Frigidaire 20.5 Cu. Ft. Upright Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 244,
+		  "mkg_brnd_prod_cat_id": 147,
+		  "prod_desc_shrt": "Frigidaire 16.7 Cu. Ft. Upright Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 245,
+		  "mkg_brnd_prod_cat_id": 147,
+		  "prod_desc_shrt": "Frigidaire 16.6 Cu. Ft. Upright Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 246,
+		  "mkg_brnd_prod_cat_id": 147,
+		  "prod_desc_shrt": "Frigidaire 12.1 Cu. Ft. Upright Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 247,
+		  "mkg_brnd_prod_cat_id": 147,
+		  "prod_desc_shrt": "Frigidaire 13.7 Cu. Ft. Upright Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 248,
+		  "mkg_brnd_prod_cat_id": 147,
+		  "prod_desc_shrt": "Frigidaire 12.5 Cu. Ft. Upright Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 249,
+		  "mkg_brnd_prod_cat_id": 147,
+		  "prod_desc_shrt": "Frigidaire 14.1 Cu. Ft. Upright Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 250,
+		  "mkg_brnd_prod_cat_id": 147,
+		  "prod_desc_shrt": "Frigidaire 17.0 Cu. Ft. Upright Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 251,
+		  "mkg_brnd_prod_cat_id": 147,
+		  "prod_desc_shrt": "Frigidaire 20.7 Cu. Ft. Upright Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 698,
+		  "mkg_brnd_prod_cat_id": 147,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 1159,
+		  "mkg_brnd_prod_cat_id": 147,
+		  "prod_desc_shrt": "Frigidaire 18.5 Cu. Ft. Upright Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 254,
+		  "mkg_brnd_prod_cat_id": 149,
+		  "prod_desc_shrt": "Frigidaire Electric Washer/Dryer Laundry Center",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 255,
+		  "mkg_brnd_prod_cat_id": 149,
+		  "prod_desc_shrt": "Frigidaire Gas Washer/Dryer Laundry Center",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 699,
+		  "mkg_brnd_prod_cat_id": 149,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 748,
+		  "mkg_brnd_prod_cat_id": 316,
+		  "prod_desc_shrt": "Frigidaire 1.6 Cu. Ft. Built-in Microwave",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 273,
+		  "mkg_brnd_prod_cat_id": 158,
+		  "prod_desc_shrt": "Frigidaire 1.6 Cu. Ft. Over-The-Range Microwave",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 274,
+		  "mkg_brnd_prod_cat_id": 158,
+		  "prod_desc_shrt": "Frigidaire 1.5 Cu. Ft. Over-The-Range Microwave",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 277,
+		  "mkg_brnd_prod_cat_id": 160,
+		  "prod_desc_shrt": "Frigidaire 2.2 Cu. Ft. Countertop Microwave",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 278,
+		  "mkg_brnd_prod_cat_id": 160,
+		  "prod_desc_shrt": "Frigidaire 0.9 Cu. Ft. Countertop Microwave",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 279,
+		  "mkg_brnd_prod_cat_id": 160,
+		  "prod_desc_shrt": "Frigidaire 0.7 Cu. Ft. Countertop Microwave",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 280,
+		  "mkg_brnd_prod_cat_id": 160,
+		  "prod_desc_shrt": "Frigidaire 1.1 Cu. Ft. Countertop Microwave",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 281,
+		  "mkg_brnd_prod_cat_id": 160,
+		  "prod_desc_shrt": "Frigidaire 1.6 Cu. Ft. Countertop Microwave",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 282,
+		  "mkg_brnd_prod_cat_id": 160,
+		  "prod_desc_shrt": "Frigidaire 1.2 Cu. Ft. Countertop Microwave",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 701,
+		  "mkg_brnd_prod_cat_id": 160,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 747,
+		  "mkg_brnd_prod_cat_id": 160,
+		  "prod_desc_shrt": "Frigidaire 1.4 Cu. Ft. Countertop Microwave",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 749,
+		  "mkg_brnd_prod_cat_id": 160,
+		  "prod_desc_shrt": "Frigidaire 1.6 Cu. Ft. Built-in Microwave",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 1166,
+		  "mkg_brnd_prod_cat_id": 160,
+		  "prod_desc_shrt": "Frigidaire 1.1 Cu. Ft. Countertop Microwave Grill",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 284,
+		  "mkg_brnd_prod_cat_id": 162,
+		  "prod_desc_shrt": "Frigidaire Optional Pedestal",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 702,
+		  "mkg_brnd_prod_cat_id": 162,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 312,
+		  "mkg_brnd_prod_cat_id": 166,
+		  "prod_desc_shrt": "Frigidaire 30\" Slide-In Electric Range",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 313,
+		  "mkg_brnd_prod_cat_id": 166,
+		  "prod_desc_shrt": "Frigidaire 30\" Freestanding Electric Range",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 314,
+		  "mkg_brnd_prod_cat_id": 166,
+		  "prod_desc_shrt": "Frigidaire 30\" Freestanding Gas Range",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 315,
+		  "mkg_brnd_prod_cat_id": 166,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 316,
+		  "mkg_brnd_prod_cat_id": 166,
+		  "prod_desc_shrt": "Frigidaire 24\" Freestanding Electric Range",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 317,
+		  "mkg_brnd_prod_cat_id": 166,
+		  "prod_desc_shrt": "Frigidaire 30\" Drop-In Electric Range",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 318,
+		  "mkg_brnd_prod_cat_id": 166,
+		  "prod_desc_shrt": "Frigidaire 30\" Slide-In Gas Range",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 319,
+		  "mkg_brnd_prod_cat_id": 166,
+		  "prod_desc_shrt": "Frigidaire 30\" Slide-In Dual Fuel Range",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 895,
+		  "mkg_brnd_prod_cat_id": 166,
+		  "prod_desc_shrt": "Frigidaire 20\" Freestanding Gas Range",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 1008,
+		  "mkg_brnd_prod_cat_id": 166,
+		  "prod_desc_shrt": "Frigidaire 40\" Freestanding Electric Range",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 904,
+		  "mkg_brnd_prod_cat_id": 293,
+		  "prod_desc_shrt": "Frigidaire 26 Cu. Ft. Side-by-Side Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 905,
+		  "mkg_brnd_prod_cat_id": 293,
+		  "prod_desc_shrt": "Frigidaire 22.6 Cu. Ft. Side-by-Side Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 906,
+		  "mkg_brnd_prod_cat_id": 293,
+		  "prod_desc_shrt": "Frigidaire 23 Cu. Ft. Side-by-Side Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 907,
+		  "mkg_brnd_prod_cat_id": 293,
+		  "prod_desc_shrt": "Frigidaire 22.6 Cu. Ft. Counter-Depth Side-by-Side Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 917,
+		  "mkg_brnd_prod_cat_id": 293,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 363,
+		  "mkg_brnd_prod_cat_id": 183,
+		  "prod_desc_shrt": "Frigidaire 18 Cu. Ft. Top Freezer Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 364,
+		  "mkg_brnd_prod_cat_id": 183,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 365,
+		  "mkg_brnd_prod_cat_id": 183,
+		  "prod_desc_shrt": "Frigidaire 18.2 Cu. Ft. Top Freezer Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 366,
+		  "mkg_brnd_prod_cat_id": 183,
+		  "prod_desc_shrt": "Frigidaire 16.5 Cu. Ft. Top Freezer Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 367,
+		  "mkg_brnd_prod_cat_id": 183,
+		  "prod_desc_shrt": "Frigidaire 14.8 Cu. Ft. Top Freezer Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 368,
+		  "mkg_brnd_prod_cat_id": 183,
+		  "prod_desc_shrt": "Frigidaire 20.6 Cu. Ft. Top Freezer Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 369,
+		  "mkg_brnd_prod_cat_id": 183,
+		  "prod_desc_shrt": "Frigidaire 20.5 Cu. Ft. Top Freezer Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 370,
+		  "mkg_brnd_prod_cat_id": 183,
+		  "prod_desc_shrt": "Frigidaire 21 Cu. Ft. Top Freezer Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 371,
+		  "mkg_brnd_prod_cat_id": 183,
+		  "prod_desc_shrt": "Frigidaire 17 Cu. Ft. Top Freezer Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 372,
+		  "mkg_brnd_prod_cat_id": 183,
+		  "prod_desc_shrt": "Frigidaire 15 Cu. Ft. Top Freezer Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 373,
+		  "mkg_brnd_prod_cat_id": 183,
+		  "prod_desc_shrt": "Frigidaire 18 Cu. Ft. Top Mount Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 374,
+		  "mkg_brnd_prod_cat_id": 183,
+		  "prod_desc_shrt": "Frigidaire 12 Cu. Ft. Top Freezer Apartment-Size Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 375,
+		  "mkg_brnd_prod_cat_id": 183,
+		  "prod_desc_shrt": "Frigidaire 16.5 Cu. Ft. Refrigerator/Freezer Beverage Center",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 376,
+		  "mkg_brnd_prod_cat_id": 183,
+		  "prod_desc_shrt": "Frigidaire 9.9 Cu. Ft. Top Freezer Apartment-Size Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 760,
+		  "mkg_brnd_prod_cat_id": 183,
+		  "prod_desc_shrt": "Frigidaire 14 Cu. Ft. Top Freezer Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 761,
+		  "mkg_brnd_prod_cat_id": 183,
+		  "prod_desc_shrt": "Frigidaire 11 Cu. Ft. Top Freezer Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 773,
+		  "mkg_brnd_prod_cat_id": 183,
+		  "prod_desc_shrt": "Frigidaire 9 Cu. Ft. Top Freezer Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 774,
+		  "mkg_brnd_prod_cat_id": 183,
+		  "prod_desc_shrt": "Frigidaire 16 Cu. Ft. Top Freezer Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 1074,
+		  "mkg_brnd_prod_cat_id": 508,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 1076,
+		  "mkg_brnd_prod_cat_id": 508,
+		  "prod_desc_shrt": "Frigidaire 20.2 Cu. Ft. Bottom Freezer Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 379,
+		  "mkg_brnd_prod_cat_id": 185,
+		  "prod_desc_shrt": "Frigidaire 17 Cu. Ft. All Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 704,
+		  "mkg_brnd_prod_cat_id": 185,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 380,
+		  "mkg_brnd_prod_cat_id": 186,
+		  "prod_desc_shrt": "Frigidaire 4.4 Cu. Ft. Compact Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 381,
+		  "mkg_brnd_prod_cat_id": 186,
+		  "prod_desc_shrt": "Frigidaire 3.3 Cu. Ft. Compact Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 382,
+		  "mkg_brnd_prod_cat_id": 186,
+		  "prod_desc_shrt": "Frigidaire 2.5 Cu. Ft. Compact Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 383,
+		  "mkg_brnd_prod_cat_id": 186,
+		  "prod_desc_shrt": "Frigidaire 1.6 Cu. Ft. Compact Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 384,
+		  "mkg_brnd_prod_cat_id": 186,
+		  "prod_desc_shrt": "Frigidaire 3.1 Cu. Ft. Compact Refrigierator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 385,
+		  "mkg_brnd_prod_cat_id": 186,
+		  "prod_desc_shrt": "Frigidaire 3.1 Cu. Ft. Compact Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 705,
+		  "mkg_brnd_prod_cat_id": 186,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 945,
+		  "mkg_brnd_prod_cat_id": 186,
+		  "prod_desc_shrt": "Frigidaire 4.5 Cu. Ft. Compact Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 946,
+		  "mkg_brnd_prod_cat_id": 186,
+		  "prod_desc_shrt": "Frigidaire 4.7 Cu. Ft. Compact Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 1165,
+		  "mkg_brnd_prod_cat_id": 186,
+		  "prod_desc_shrt": "Frigidaire 4.0 Cu. Ft. Compact Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 1168,
+		  "mkg_brnd_prod_cat_id": 186,
+		  "prod_desc_shrt": "Frigidaire 3.25 Cu. Ft. Compact Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 1169,
+		  "mkg_brnd_prod_cat_id": 186,
+		  "prod_desc_shrt": "Frigidaire 1.76 Cu. Ft. Compact Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 100,
+		  "mkg_brnd_prod_cat_id": 187,
+		  "prod_desc_shrt": "Frigidaire 138 12 oz. Can Capacity Beverage Center",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 386,
+		  "mkg_brnd_prod_cat_id": 187,
+		  "prod_desc_shrt": "Frigidaire 4.6 Cu. Ft. Wine Cooler",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 387,
+		  "mkg_brnd_prod_cat_id": 187,
+		  "prod_desc_shrt": "Frigidaire 3.9 Cu. Ft. Wine Cooler",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 388,
+		  "mkg_brnd_prod_cat_id": 187,
+		  "prod_desc_shrt": "Frigidaire 4.6 Cu. Ft. Beverage Center",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 482,
+		  "mkg_brnd_prod_cat_id": 187,
+		  "prod_desc_shrt": "Frigidaire 38 Bottle Two-Zone Wine Cooler",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 483,
+		  "mkg_brnd_prod_cat_id": 187,
+		  "prod_desc_shrt": "Frigidaire 42 Bottle Wine Cooler",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 484,
+		  "mkg_brnd_prod_cat_id": 187,
+		  "prod_desc_shrt": "Frigidaire 35 Bottle Wine Cooler",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 706,
+		  "mkg_brnd_prod_cat_id": 187,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 389,
+		  "mkg_brnd_prod_cat_id": 188,
+		  "prod_desc_shrt": "Frigidaire 30\" Downdraft Ventilator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 390,
+		  "mkg_brnd_prod_cat_id": 188,
+		  "prod_desc_shrt": "Frigidaire 30\" Stainless Canopy Wall-Mounted Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 391,
+		  "mkg_brnd_prod_cat_id": 188,
+		  "prod_desc_shrt": "Frigidaire 42\" Glass Canopy Island Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 392,
+		  "mkg_brnd_prod_cat_id": 188,
+		  "prod_desc_shrt": "Frigidaire 36\" Glass Canopy Wall-Mount Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 393,
+		  "mkg_brnd_prod_cat_id": 188,
+		  "prod_desc_shrt": "Frigidaire 36\" Downdraft Ventilator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 395,
+		  "mkg_brnd_prod_cat_id": 188,
+		  "prod_desc_shrt": "Frigidaire 30\" Glass Canopy Wall-Mount Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 397,
+		  "mkg_brnd_prod_cat_id": 188,
+		  "prod_desc_shrt": "Frigidaire 36\" Island Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 398,
+		  "mkg_brnd_prod_cat_id": 188,
+		  "prod_desc_shrt": "Frigidaire 36\" Stainless Canopy Wall-Mount Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 498,
+		  "mkg_brnd_prod_cat_id": 188,
+		  "prod_desc_shrt": "Frigidaire 30\" Overhead Range Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 499,
+		  "mkg_brnd_prod_cat_id": 188,
+		  "prod_desc_shrt": "Frigidaire 36\" Overhead Range Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 707,
+		  "mkg_brnd_prod_cat_id": 188,
+		  "prod_desc_shrt": "Frigidaire 30\" Chimney Wall-Mount Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 772,
+		  "mkg_brnd_prod_cat_id": 188,
+		  "prod_desc_shrt": "Frigidaire 36\" Wall-Mount Hood",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 405,
+		  "mkg_brnd_prod_cat_id": 191,
+		  "prod_desc_shrt": "Frigidaire 24\" Single Gas Oven with Lower Broiler",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 406,
+		  "mkg_brnd_prod_cat_id": 191,
+		  "prod_desc_shrt": "Frigidaire 27\" Double Electric Wall Oven",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 407,
+		  "mkg_brnd_prod_cat_id": 191,
+		  "prod_desc_shrt": "Frigidaire 30\" Double Electric Wall Oven",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 708,
+		  "mkg_brnd_prod_cat_id": 191,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 414,
+		  "mkg_brnd_prod_cat_id": 194,
+		  "prod_desc_shrt": "Frigidaire 24\" Single Electric Wall Oven",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 415,
+		  "mkg_brnd_prod_cat_id": 194,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 416,
+		  "mkg_brnd_prod_cat_id": 194,
+		  "prod_desc_shrt": "Frigidaire 30\" Single Electric Wall Oven",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 417,
+		  "mkg_brnd_prod_cat_id": 194,
+		  "prod_desc_shrt": "Frigidaire 27\" Single Electric Wall Oven",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 418,
+		  "mkg_brnd_prod_cat_id": 194,
+		  "prod_desc_shrt": "Frigidaire 24\" Single Gas Wall Oven",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 419,
+		  "mkg_brnd_prod_cat_id": 194,
+		  "prod_desc_shrt": "Frigidaire 30\" Electric Wall Oven",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 420,
+		  "mkg_brnd_prod_cat_id": 194,
+		  "prod_desc_shrt": "Frigidaire 27\" Side-Swing Single Wall Oven",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 432,
+		  "mkg_brnd_prod_cat_id": 198,
+		  "prod_desc_shrt": "Frigidaire 3.5 Cu. Ft. Front Load Washer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 433,
+		  "mkg_brnd_prod_cat_id": 198,
+		  "prod_desc_shrt": "Frigidaire 3.1 Cu. Ft. Front Load Washer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 434,
+		  "mkg_brnd_prod_cat_id": 198,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 804,
+		  "mkg_brnd_prod_cat_id": 198,
+		  "prod_desc_shrt": "Frigidaire 3.21 Cu. Ft. Front Load Washer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 813,
+		  "mkg_brnd_prod_cat_id": 198,
+		  "prod_desc_shrt": "Frigidaire 3.23 Cu. Ft. Front Load Washer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 814,
+		  "mkg_brnd_prod_cat_id": 198,
+		  "prod_desc_shrt": "Frigidaire 2.65 Cu. Ft. Front Load Washer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 436,
+		  "mkg_brnd_prod_cat_id": 200,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 437,
+		  "mkg_brnd_prod_cat_id": 200,
+		  "prod_desc_shrt": "Frigidaire 3.0 Cu. Ft. Top Load Washer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 892,
+		  "mkg_brnd_prod_cat_id": 200,
+		  "prod_desc_shrt": "Frigidaire Top Load Washer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 438,
+		  "mkg_brnd_prod_cat_id": 201,
+		  "prod_desc_shrt": "Frigidaire Built-In Room Air Conditioner",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 439,
+		  "mkg_brnd_prod_cat_id": 201,
+		  "prod_desc_shrt": "Through-the-Wall Room Air Conditioner",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 709,
+		  "mkg_brnd_prod_cat_id": 201,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 440,
+		  "mkg_brnd_prod_cat_id": 202,
+		  "prod_desc_shrt": "Frigidaire Portable Room Air Conditioner",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 710,
+		  "mkg_brnd_prod_cat_id": 202,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 441,
+		  "mkg_brnd_prod_cat_id": 203,
+		  "prod_desc_shrt": "Frigidaire Window-Mounted Heavy Duty Room Air Conditioner",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 712,
+		  "mkg_brnd_prod_cat_id": 203,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 442,
+		  "mkg_brnd_prod_cat_id": 204,
+		  "prod_desc_shrt": "Frigidaire Window-Mounted Median Room Air Conditioner",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 443,
+		  "mkg_brnd_prod_cat_id": 204,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 444,
+		  "mkg_brnd_prod_cat_id": 204,
+		  "prod_desc_shrt": "Frigidaire Median Room Air Conditioner",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 445,
+		  "mkg_brnd_prod_cat_id": 205,
+		  "prod_desc_shrt": "Frigidaire Window-Mounted Compact Room Air Conditioner",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 713,
+		  "mkg_brnd_prod_cat_id": 205,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 446,
+		  "mkg_brnd_prod_cat_id": 206,
+		  "prod_desc_shrt": "Frigidaire Window-Mounted Mini Compact Room Air Conditioner",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 447,
+		  "mkg_brnd_prod_cat_id": 206,
+		  "prod_desc_shrt": "Frigidaire Mini Compact Room Air Conditioner",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 448,
+		  "mkg_brnd_prod_cat_id": 206,
+		  "prod_desc_shrt": "Frigidaire Window-Mounted Compact Room Air Conditioner",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 714,
+		  "mkg_brnd_prod_cat_id": 206,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 449,
+		  "mkg_brnd_prod_cat_id": 207,
+		  "prod_desc_shrt": "Frigidaire Window-Mounted Mini Room Air Conditioner",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 715,
+		  "mkg_brnd_prod_cat_id": 207,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 450,
+		  "mkg_brnd_prod_cat_id": 208,
+		  "prod_desc_shrt": "Frigidaire Window-Mounted Slider / Casement Air Conditioner",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 451,
+		  "mkg_brnd_prod_cat_id": 208,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 1197,
+		  "mkg_brnd_prod_cat_id": 208,
+		  "prod_desc_shrt": "8000 BTU Frigidaire Window-Mounted Slider / Casement Air Conditioner",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 1198,
+		  "mkg_brnd_prod_cat_id": 208,
+		  "prod_desc_shrt": "12000 BTU Frigidaire Window-Mounted Slider / Casement Air Conditioner",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 452,
+		  "mkg_brnd_prod_cat_id": 209,
+		  "prod_desc_shrt": "Frigidaire Ductless Split Air Conditioner",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 711,
+		  "mkg_brnd_prod_cat_id": 209,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 993,
+		  "mkg_brnd_prod_cat_id": 209,
+		  "prod_desc_shrt": "Frigidaire Ductless Split Air Conditioner with Heat Pump",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 1193,
+		  "mkg_brnd_prod_cat_id": 209,
+		  "prod_desc_shrt": "24000 BTU Frigidaire Ductless Split Air Conditioner",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 1194,
+		  "mkg_brnd_prod_cat_id": 209,
+		  "prod_desc_shrt": "18000 BTU Frigidaire Ductless Split Air Conditioner",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 1195,
+		  "mkg_brnd_prod_cat_id": 209,
+		  "prod_desc_shrt": "9000 BTU Frigidaire Ductless Split Air Conditioner",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 1196,
+		  "mkg_brnd_prod_cat_id": 209,
+		  "prod_desc_shrt": "12000 BTU Frigidaire Ductless Split Air Conditioner",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 756,
+		  "mkg_brnd_prod_cat_id": 407,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 806,
+		  "mkg_brnd_prod_cat_id": 407,
+		  "prod_desc_shrt": "Frigidaire Packaged Terminal Air Conditioner with Electric Heat",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 807,
+		  "mkg_brnd_prod_cat_id": 407,
+		  "prod_desc_shrt": "Frigidaire Packaged Terminal Air Conditioner with Heat Pump",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 794,
+		  "mkg_brnd_prod_cat_id": 435,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 854,
+		  "mkg_brnd_prod_cat_id": 435,
+		  "prod_desc_shrt": "Frigidaire 1/3 HP Waste Disposer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 855,
+		  "mkg_brnd_prod_cat_id": 435,
+		  "prod_desc_shrt": "Frigidaire 1/2 HP Waste Disposer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 1019,
+		  "mkg_brnd_prod_cat_id": 435,
+		  "prod_desc_shrt": "Frigidaire 3/4 HP Waste Disposer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 1190,
+		  "mkg_brnd_prod_cat_id": 541,
+		  "prod_desc_shrt": "Frigidaire Window-Mounted Slide-Out Chassis Air Conditioner",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 1192,
+		  "mkg_brnd_prod_cat_id": 542,
+		  "prod_desc_shrt": "Frigidaire Window-Mounted Low-Profile Air Conditioner",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 11
+		},
+		{
+		  "mkg_prod_desc_id": 453,
+		  "mkg_brnd_prod_cat_id": 210,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 13
+		},
+		{
+		  "mkg_prod_desc_id": 1117,
+		  "mkg_brnd_prod_cat_id": 210,
+		  "prod_desc_shrt": "30\" Freestanding Electric Range",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 13
+		},
+		{
+		  "mkg_prod_desc_id": 755,
+		  "mkg_brnd_prod_cat_id": 406,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 14
+		},
+		{
+		  "mkg_prod_desc_id": 890,
+		  "mkg_brnd_prod_cat_id": 406,
+		  "prod_desc_shrt": "White Westinghouse Electric Front Load Dryer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 14
+		},
+		{
+		  "mkg_prod_desc_id": 891,
+		  "mkg_brnd_prod_cat_id": 406,
+		  "prod_desc_shrt": "White Westinghouse Gas Front Load Dryer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 14
+		},
+		{
+		  "mkg_prod_desc_id": 1118,
+		  "mkg_brnd_prod_cat_id": 383,
+		  "prod_desc_shrt": "30\" Freestanding Electric Range",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 14
+		},
+		{
+		  "mkg_prod_desc_id": 940,
+		  "mkg_brnd_prod_cat_id": 394,
+		  "prod_desc_shrt": "White Westinghouse 26 Cu. Ft. Side-by-Side Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 14
+		},
+		{
+		  "mkg_prod_desc_id": 941,
+		  "mkg_brnd_prod_cat_id": 394,
+		  "prod_desc_shrt": "White Westinghouse 26 Cu. Ft. Side-by-Side Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 14
+		},
+		{
+		  "mkg_prod_desc_id": 942,
+		  "mkg_brnd_prod_cat_id": 394,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 14
+		},
+		{
+		  "mkg_prod_desc_id": 789,
+		  "mkg_brnd_prod_cat_id": 397,
+		  "prod_desc_shrt": "White Westinghouse 18.2 Cu. Ft. Top Freezer Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 14
+		},
+		{
+		  "mkg_prod_desc_id": 790,
+		  "mkg_brnd_prod_cat_id": 397,
+		  "prod_desc_shrt": "White Westinghouse 14.8 Cu. Ft. Top Freezer Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 14
+		},
+		{
+		  "mkg_prod_desc_id": 753,
+		  "mkg_brnd_prod_cat_id": 404,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 14
+		},
+		{
+		  "mkg_prod_desc_id": 889,
+		  "mkg_brnd_prod_cat_id": 404,
+		  "prod_desc_shrt": "White Westinghouse Front Load Washer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 14
+		},
+		{
+		  "mkg_prod_desc_id": 754,
+		  "mkg_brnd_prod_cat_id": 405,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 14
+		},
+		{
+		  "mkg_prod_desc_id": 965,
+		  "mkg_brnd_prod_cat_id": 422,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 15
+		},
+		{
+		  "mkg_prod_desc_id": 967,
+		  "mkg_brnd_prod_cat_id": 422,
+		  "prod_desc_shrt": "Frigidaire Commercial 7.2 Cu. Ft. Food Service Grade Ice Cream Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 15
+		},
+		{
+		  "mkg_prod_desc_id": 968,
+		  "mkg_brnd_prod_cat_id": 422,
+		  "prod_desc_shrt": "Frigidaire Commercial 14.8 Cu. Ft. Food Service Grade Novelty Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 15
+		},
+		{
+		  "mkg_prod_desc_id": 969,
+		  "mkg_brnd_prod_cat_id": 422,
+		  "prod_desc_shrt": "Frigidaire Commercial 19.8 Cu. Ft. Food Service Grade Novelty Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 15
+		},
+		{
+		  "mkg_prod_desc_id": 970,
+		  "mkg_brnd_prod_cat_id": 422,
+		  "prod_desc_shrt": "Frigidaire Commercial 7.2 Cu. Ft. Food Service Grade Chest Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 15
+		},
+		{
+		  "mkg_prod_desc_id": 971,
+		  "mkg_brnd_prod_cat_id": 422,
+		  "prod_desc_shrt": "Frigidaire Commercial 14.9 Cu. Ft. Food Service Grade Chest Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 15
+		},
+		{
+		  "mkg_prod_desc_id": 972,
+		  "mkg_brnd_prod_cat_id": 422,
+		  "prod_desc_shrt": "Frigidaire Commercial 19.9 Cu. Ft. Food Service Grade Chest Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 15
+		},
+		{
+		  "mkg_prod_desc_id": 966,
+		  "mkg_brnd_prod_cat_id": 423,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 15
+		},
+		{
+		  "mkg_prod_desc_id": 973,
+		  "mkg_brnd_prod_cat_id": 423,
+		  "prod_desc_shrt": "Frigidaire Commercial 19.4 Cu. Ft. Food Service Grade Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 15
+		},
+		{
+		  "mkg_prod_desc_id": 964,
+		  "mkg_brnd_prod_cat_id": 421,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 15
+		},
+		{
+		  "mkg_prod_desc_id": 974,
+		  "mkg_brnd_prod_cat_id": 421,
+		  "prod_desc_shrt": "Frigidaire Commercial 19.4 Cu. Ft. Food Service Grade Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 15
+		},
+		{
+		  "mkg_prod_desc_id": 975,
+		  "mkg_brnd_prod_cat_id": 421,
+		  "prod_desc_shrt": "Frigidaire Commercial 19.7 Cu. Ft. Food Service Grade Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 15
+		},
+		{
+		  "mkg_prod_desc_id": 780,
+		  "mkg_brnd_prod_cat_id": 431,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 16
+		},
+		{
+		  "mkg_prod_desc_id": 781,
+		  "mkg_brnd_prod_cat_id": 431,
+		  "prod_desc_shrt": "Kelvinator 18 Cu. Ft. Top Freezer Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 16
+		},
+		{
+		  "mkg_prod_desc_id": 947,
+		  "mkg_brnd_prod_cat_id": 481,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 19
+		},
+		{
+		  "mkg_prod_desc_id": 948,
+		  "mkg_brnd_prod_cat_id": 481,
+		  "prod_desc_shrt": "Kelvinator Commercial 5.0 Cu. Ft. Food Service Grade Ice Cream Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 19
+		},
+		{
+		  "mkg_prod_desc_id": 949,
+		  "mkg_brnd_prod_cat_id": 481,
+		  "prod_desc_shrt": "Kelvinator Commercial 7.2 Cu. Ft. Food Service Grade Ice Cream Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 19
+		},
+		{
+		  "mkg_prod_desc_id": 950,
+		  "mkg_brnd_prod_cat_id": 481,
+		  "prod_desc_shrt": "Kelvinator Commercial 8.8 Cu. Ft. Food Service Grade Ice Cream Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 19
+		},
+		{
+		  "mkg_prod_desc_id": 951,
+		  "mkg_brnd_prod_cat_id": 481,
+		  "prod_desc_shrt": "Kelvinator Commercial 12.8 Cu. Ft. Food Service Grade Ice Cream Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 19
+		},
+		{
+		  "mkg_prod_desc_id": 952,
+		  "mkg_brnd_prod_cat_id": 481,
+		  "prod_desc_shrt": "Kelvinator Commercial 14.8 Cu. Ft. Food Service Grade Ice Cream Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 19
+		},
+		{
+		  "mkg_prod_desc_id": 953,
+		  "mkg_brnd_prod_cat_id": 481,
+		  "prod_desc_shrt": "Kelvinator Commercial 19.8 Cu. Ft. Food Service Grade Ice Cream Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 19
+		},
+		{
+		  "mkg_prod_desc_id": 954,
+		  "mkg_brnd_prod_cat_id": 481,
+		  "prod_desc_shrt": "Kelvinator Commercial 5.0 Cu. Ft. Food Service Grade Chest Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 19
+		},
+		{
+		  "mkg_prod_desc_id": 955,
+		  "mkg_brnd_prod_cat_id": 481,
+		  "prod_desc_shrt": "Kelvinator Commercial 7.2 Cu. Ft. Food Service Grade Chest Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 19
+		},
+		{
+		  "mkg_prod_desc_id": 956,
+		  "mkg_brnd_prod_cat_id": 481,
+		  "prod_desc_shrt": "Kelvinator Commercial 12.9 Cu. Ft. Food Service Grade Chest Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 19
+		},
+		{
+		  "mkg_prod_desc_id": 957,
+		  "mkg_brnd_prod_cat_id": 481,
+		  "prod_desc_shrt": "Kelvinator Commercial 14.9 Cu. Ft. Food Service Grade Chest Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 19
+		},
+		{
+		  "mkg_prod_desc_id": 958,
+		  "mkg_brnd_prod_cat_id": 481,
+		  "prod_desc_shrt": "Kelvinator Commercial 19.9 Cu. Ft. Food Service Grade Chest Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 19
+		},
+		{
+		  "mkg_prod_desc_id": 959,
+		  "mkg_brnd_prod_cat_id": 482,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 19
+		},
+		{
+		  "mkg_prod_desc_id": 960,
+		  "mkg_brnd_prod_cat_id": 482,
+		  "prod_desc_shrt": "Kelvinator Commercial 19.4 Cu. Ft. Food Service Grade Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 19
+		},
+		{
+		  "mkg_prod_desc_id": 961,
+		  "mkg_brnd_prod_cat_id": 480,
+		  "prod_desc_shrt": "",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 19
+		},
+		{
+		  "mkg_prod_desc_id": 962,
+		  "mkg_brnd_prod_cat_id": 480,
+		  "prod_desc_shrt": "Kelvinator Commercial 19.4 Cu. Ft. Food Service Grade Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 19
+		},
+		{
+		  "mkg_prod_desc_id": 963,
+		  "mkg_brnd_prod_cat_id": 480,
+		  "prod_desc_shrt": "Kelvinator Commercial 19.7 Cu. Ft. Food Service Grade Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 19
+		},
+		{
+		  "mkg_prod_desc_id": 1147,
+		  "mkg_brnd_prod_cat_id": 526,
+		  "prod_desc_shrt": "Kelvinator Commercial 10.0 Cu. Ft. Food Service Grade Refrigerator Merchandiser",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 19
+		},
+		{
+		  "mkg_prod_desc_id": 1148,
+		  "mkg_brnd_prod_cat_id": 526,
+		  "prod_desc_shrt": "Kelvinator Commercial 24.0 Cu. Ft. Food Service Grade Refrigerator Merchandiser",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 19
+		},
+		{
+		  "mkg_prod_desc_id": 1149,
+		  "mkg_brnd_prod_cat_id": 526,
+		  "prod_desc_shrt": "Kelvinator Commercial 47.0 Cu. Ft. Food Service Grade Refrigerator Merchandiser",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 19
+		},
+		{
+		  "mkg_prod_desc_id": 1145,
+		  "mkg_brnd_prod_cat_id": 531,
+		  "prod_desc_shrt": "Kelvinator Commercial 9.0 Cu. Ft. Food Service Grade Freezer Merchandiser",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 19
+		},
+		{
+		  "mkg_prod_desc_id": 1146,
+		  "mkg_brnd_prod_cat_id": 531,
+		  "prod_desc_shrt": "Kelvinator Commercial 27.0 Cu. Ft. Food Service Grade Freezer Merchandiser",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 19
+		},
+		{
+		  "mkg_prod_desc_id": 1143,
+		  "mkg_brnd_prod_cat_id": 527,
+		  "prod_desc_shrt": "Kelvinator Commercial 23.0 Cu. Ft. Food Service Grade Reach-In Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 19
+		},
+		{
+		  "mkg_prod_desc_id": 1144,
+		  "mkg_brnd_prod_cat_id": 527,
+		  "prod_desc_shrt": "Kelvinator Commercial 48.0 Cu. Ft. Food Service Grade Reach-In Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 19
+		},
+		{
+		  "mkg_prod_desc_id": 1141,
+		  "mkg_brnd_prod_cat_id": 532,
+		  "prod_desc_shrt": "Kelvinator Commercial 23.0 Cu. Ft. Food Service Grade Reach-In Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 19
+		},
+		{
+		  "mkg_prod_desc_id": 1142,
+		  "mkg_brnd_prod_cat_id": 532,
+		  "prod_desc_shrt": "Kelvinator Commercial 48.0 Cu. Ft. Food Service Grade Reach-In Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 19
+		},
+		{
+		  "mkg_prod_desc_id": 1157,
+		  "mkg_brnd_prod_cat_id": 528,
+		  "prod_desc_shrt": "Kelvinator Commercial 6.0 Cu. Ft. Food Service Grade Undercounter Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 19
+		},
+		{
+		  "mkg_prod_desc_id": 1158,
+		  "mkg_brnd_prod_cat_id": 528,
+		  "prod_desc_shrt": "Kelvinator Commercial 12.0 Cu. Ft. Food Service Grade Undercounter Refrigerator",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 19
+		},
+		{
+		  "mkg_prod_desc_id": 1155,
+		  "mkg_brnd_prod_cat_id": 533,
+		  "prod_desc_shrt": "Kelvinator Commercial 6.0 Cu. Ft. Food Service Grade Undercounter Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 19
+		},
+		{
+		  "mkg_prod_desc_id": 1156,
+		  "mkg_brnd_prod_cat_id": 533,
+		  "prod_desc_shrt": "Kelvinator Commercial 12.0 Cu. Ft. Food Service Grade Undercounter Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 19
+		},
+		{
+		  "mkg_prod_desc_id": 1150,
+		  "mkg_brnd_prod_cat_id": 529,
+		  "prod_desc_shrt": "Kelvinator Commercial 13.0 Cu. Ft. Food Service Grade Bottle Cooler",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 19
+		},
+		{
+		  "mkg_prod_desc_id": 1151,
+		  "mkg_brnd_prod_cat_id": 529,
+		  "prod_desc_shrt": "Kelvinator Commercial 18.0 Cu. Ft. Food Service Grade Bottle Cooler",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 19
+		},
+		{
+		  "mkg_prod_desc_id": 1152,
+		  "mkg_brnd_prod_cat_id": 530,
+		  "prod_desc_shrt": "Kelvinator Commercial Food Service Grade Pizza Prep Table",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 19
+		},
+		{
+		  "mkg_prod_desc_id": 1153,
+		  "mkg_brnd_prod_cat_id": 530,
+		  "prod_desc_shrt": "Kelvinator Commercial Food Service Grade Sandwich Prep Table",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 19
+		},
+		{
+		  "mkg_prod_desc_id": 1154,
+		  "mkg_brnd_prod_cat_id": 530,
+		  "prod_desc_shrt": "Kelvinator Commercial Food Service Grade Mega-Top Prep Table",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 19
+		},
+		{
+		  "mkg_prod_desc_id": 1177,
+		  "mkg_brnd_prod_cat_id": 539,
+		  "prod_desc_shrt": "Kelvinator Commercial 12.8 Cu. Ft. Food Service Grade Ice Cream Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 19
+		},
+		{
+		  "mkg_prod_desc_id": 1178,
+		  "mkg_brnd_prod_cat_id": 539,
+		  "prod_desc_shrt": "Kelvinator Commercial 14.8 Cu. Ft. Food Service Grade Ice Cream Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 19
+		},
+		{
+		  "mkg_prod_desc_id": 1179,
+		  "mkg_brnd_prod_cat_id": 539,
+		  "prod_desc_shrt": "Kelvinator Commercial 19.8 Cu. Ft. Food Service Grade Ice Cream Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 19
+		},
+		{
+		  "mkg_prod_desc_id": 1180,
+		  "mkg_brnd_prod_cat_id": 539,
+		  "prod_desc_shrt": "Kelvinator Commercial 5.0 Cu. Ft. Food Service Grade Ice Cream Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 19
+		},
+		{
+		  "mkg_prod_desc_id": 1181,
+		  "mkg_brnd_prod_cat_id": 539,
+		  "prod_desc_shrt": "Kelvinator Commercial 7.2 Cu. Ft. Food Service Grade Ice Cream Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 19
+		},
+		{
+		  "mkg_prod_desc_id": 1182,
+		  "mkg_brnd_prod_cat_id": 539,
+		  "prod_desc_shrt": "Kelvinator Commercial 8.8 Cu. Ft. Food Service Grade Ice Cream Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 19
+		},
+		{
+		  "mkg_prod_desc_id": 1183,
+		  "mkg_brnd_prod_cat_id": 540,
+		  "prod_desc_shrt": "Kelvinator Commercial 7.2 Cu. Ft. Food Service Grade Novelty Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 19
+		},
+		{
+		  "mkg_prod_desc_id": 1184,
+		  "mkg_brnd_prod_cat_id": 540,
+		  "prod_desc_shrt": "Kelvinator Commercial 5.1 Cu. Ft. Food Service Grade Novelty Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 19
+		},
+		{
+		  "mkg_prod_desc_id": 1185,
+		  "mkg_brnd_prod_cat_id": 540,
+		  "prod_desc_shrt": "Kelvinator Commercial 19.8 Cu. Ft. Food Service Grade Novelty Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 19
+		},
+		{
+		  "mkg_prod_desc_id": 1186,
+		  "mkg_brnd_prod_cat_id": 540,
+		  "prod_desc_shrt": "Kelvinator Commercial 12.8 Cu. Ft. Food Service Grade Novelty Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 19
+		},
+		{
+		  "mkg_prod_desc_id": 1187,
+		  "mkg_brnd_prod_cat_id": 540,
+		  "prod_desc_shrt": "Kelvinator Commercial 14.8 Cu. Ft. Food Service Grade Novelty Freezer",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 19
+		},
+		{
+		  "mkg_prod_desc_id": 1116,
+		  "mkg_brnd_prod_cat_id": 509,
+		  "prod_desc_shrt": "30\" Freestanding Electric Range",
+		  "is_actv": 1,
+		  "dsp_ord": null,
+		  "mkg_brnd_id": 20
+		}
+	  ]    
+}

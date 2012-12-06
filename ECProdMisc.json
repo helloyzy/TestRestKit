@@ -1,0 +1,1907 @@
+{
+	"MKG_CONS_VIS_STTS": [
+		{
+		  "cons_vis_stts_nm": "Undetermined",
+		  "cons_vis_stts_desc": "Undetermined",
+		  "is_actv": 1,
+		  "is_protected": 1,
+		  "dsp_ord": 1
+		},
+		{
+		  "cons_vis_stts_nm": "Future",
+		  "cons_vis_stts_desc": "Future",
+		  "is_actv": 1,
+		  "is_protected": 1,
+		  "dsp_ord": 2
+		},
+		{
+		  "cons_vis_stts_nm": "Published",
+		  "cons_vis_stts_desc": "Published",
+		  "is_actv": 1,
+		  "is_protected": 1,
+		  "dsp_ord": 3
+		},
+		{
+		  "cons_vis_stts_nm": "Active",
+		  "cons_vis_stts_desc": "Active",
+		  "is_actv": 1,
+		  "is_protected": 1,
+		  "dsp_ord": 4
+		},
+		{
+		  "cons_vis_stts_nm": "Obsolete",
+		  "cons_vis_stts_desc": "Obselete",
+		  "is_actv": 1,
+		  "is_protected": 1,
+		  "dsp_ord": 5
+		},
+		{
+		  "cons_vis_stts_nm": "DIGITAL USE ONLY",
+		  "cons_vis_stts_desc": "",
+		  "is_actv": 1,
+		  "is_protected": 1,
+		  "dsp_ord": 0
+		}
+	],
+	"MKG_NMNL_POWR_TYP": [
+		{
+		  "mkg_nmnl_powr_typ_id": 1,
+		  "nmnl_powr_typ_nm": "None",
+		  "is_actv": 1,
+		  "dsp_ord": 1
+		},
+		{
+		  "mkg_nmnl_powr_typ_id": 2,
+		  "nmnl_powr_typ_nm": "Electric",
+		  "is_actv": 1,
+		  "dsp_ord": 3
+		},
+		{
+		  "mkg_nmnl_powr_typ_id": 3,
+		  "nmnl_powr_typ_nm": "Gas",
+		  "is_actv": 1,
+		  "dsp_ord": 4
+		},
+		{
+		  "mkg_nmnl_powr_typ_id": 4,
+		  "nmnl_powr_typ_nm": "Dual Fuel",
+		  "is_actv": 1,
+		  "dsp_ord": 2
+		},
+		{
+		  "mkg_nmnl_powr_typ_id": 5,
+		  "nmnl_powr_typ_nm": "Induction",
+		  "is_actv": 1,
+		  "dsp_ord": 6
+		},
+		{
+		  "mkg_nmnl_powr_typ_id": 6,
+		  "nmnl_powr_typ_nm": "Hybrid",
+		  "is_actv": 1,
+		  "dsp_ord": 5
+		}
+	  ],
+	"MKG_BRND_MODL_YR": [
+		{
+		  "mkg_brnd_modl_yr_id": 35,
+		  "mkg_brnd_id": 1,
+		  "mkg_modl_yr_id": 1,
+		  "cd_val": "L"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 17,
+		  "mkg_brnd_id": 2,
+		  "mkg_modl_yr_id": 5,
+		  "cd_val": "D"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 18,
+		  "mkg_brnd_id": 2,
+		  "mkg_modl_yr_id": 6,
+		  "cd_val": "E"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 19,
+		  "mkg_brnd_id": 2,
+		  "mkg_modl_yr_id": 8,
+		  "cd_val": "F"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 20,
+		  "mkg_brnd_id": 2,
+		  "mkg_modl_yr_id": 9,
+		  "cd_val": "G"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 21,
+		  "mkg_brnd_id": 2,
+		  "mkg_modl_yr_id": 10,
+		  "cd_val": "H"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 27,
+		  "mkg_brnd_id": 2,
+		  "mkg_modl_yr_id": 11,
+		  "cd_val": "I"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 36,
+		  "mkg_brnd_id": 3,
+		  "mkg_modl_yr_id": 1,
+		  "cd_val": "D"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 12,
+		  "mkg_brnd_id": 3,
+		  "mkg_modl_yr_id": 9,
+		  "cd_val": "G"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 13,
+		  "mkg_brnd_id": 3,
+		  "mkg_modl_yr_id": 10,
+		  "cd_val": "H"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 14,
+		  "mkg_brnd_id": 3,
+		  "mkg_modl_yr_id": 11,
+		  "cd_val": "I"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 15,
+		  "mkg_brnd_id": 3,
+		  "mkg_modl_yr_id": 12,
+		  "cd_val": "J"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 64,
+		  "mkg_brnd_id": 3,
+		  "mkg_modl_yr_id": 13,
+		  "cd_val": "K"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 104,
+		  "mkg_brnd_id": 3,
+		  "mkg_modl_yr_id": 14,
+		  "cd_val": "L"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 126,
+		  "mkg_brnd_id": 3,
+		  "mkg_modl_yr_id": 15,
+		  "cd_val": "M"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 68,
+		  "mkg_brnd_id": 4,
+		  "mkg_modl_yr_id": 12,
+		  "cd_val": "J"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 65,
+		  "mkg_brnd_id": 4,
+		  "mkg_modl_yr_id": 13,
+		  "cd_val": "K"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 106,
+		  "mkg_brnd_id": 4,
+		  "mkg_modl_yr_id": 14,
+		  "cd_val": "L"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 66,
+		  "mkg_brnd_id": 5,
+		  "mkg_modl_yr_id": 12,
+		  "cd_val": "J"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 67,
+		  "mkg_brnd_id": 5,
+		  "mkg_modl_yr_id": 13,
+		  "cd_val": "K"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 105,
+		  "mkg_brnd_id": 5,
+		  "mkg_modl_yr_id": 14,
+		  "cd_val": "L"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 43,
+		  "mkg_brnd_id": 6,
+		  "mkg_modl_yr_id": 1,
+		  "cd_val": "P"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 2,
+		  "mkg_brnd_id": 6,
+		  "mkg_modl_yr_id": 2,
+		  "cd_val": "A"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 3,
+		  "mkg_brnd_id": 6,
+		  "mkg_modl_yr_id": 3,
+		  "cd_val": "B"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 4,
+		  "mkg_brnd_id": 6,
+		  "mkg_modl_yr_id": 4,
+		  "cd_val": "C"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 5,
+		  "mkg_brnd_id": 6,
+		  "mkg_modl_yr_id": 5,
+		  "cd_val": "D"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 6,
+		  "mkg_brnd_id": 6,
+		  "mkg_modl_yr_id": 7,
+		  "cd_val": "E"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 7,
+		  "mkg_brnd_id": 6,
+		  "mkg_modl_yr_id": 9,
+		  "cd_val": "F"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 26,
+		  "mkg_brnd_id": 6,
+		  "mkg_modl_yr_id": 10,
+		  "cd_val": "J"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 9,
+		  "mkg_brnd_id": 6,
+		  "mkg_modl_yr_id": 11,
+		  "cd_val": "K"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 10,
+		  "mkg_brnd_id": 6,
+		  "mkg_modl_yr_id": 12,
+		  "cd_val": "L"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 78,
+		  "mkg_brnd_id": 6,
+		  "mkg_modl_yr_id": 13,
+		  "cd_val": "M"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 79,
+		  "mkg_brnd_id": 6,
+		  "mkg_modl_yr_id": 14,
+		  "cd_val": "N"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 54,
+		  "mkg_brnd_id": 7,
+		  "mkg_modl_yr_id": 12,
+		  "cd_val": "L"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 55,
+		  "mkg_brnd_id": 7,
+		  "mkg_modl_yr_id": 13,
+		  "cd_val": "M"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 80,
+		  "mkg_brnd_id": 7,
+		  "mkg_modl_yr_id": 14,
+		  "cd_val": "N"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 69,
+		  "mkg_brnd_id": 8,
+		  "mkg_modl_yr_id": 11,
+		  "cd_val": "K"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 70,
+		  "mkg_brnd_id": 8,
+		  "mkg_modl_yr_id": 12,
+		  "cd_val": "L"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 71,
+		  "mkg_brnd_id": 8,
+		  "mkg_modl_yr_id": 13,
+		  "cd_val": "M"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 81,
+		  "mkg_brnd_id": 8,
+		  "mkg_modl_yr_id": 14,
+		  "cd_val": "N"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 138,
+		  "mkg_brnd_id": 8,
+		  "mkg_modl_yr_id": 15,
+		  "cd_val": "P"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 139,
+		  "mkg_brnd_id": 8,
+		  "mkg_modl_yr_id": 16,
+		  "cd_val": "Q"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 58,
+		  "mkg_brnd_id": 10,
+		  "mkg_modl_yr_id": 12,
+		  "cd_val": "L"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 59,
+		  "mkg_brnd_id": 10,
+		  "mkg_modl_yr_id": 13,
+		  "cd_val": "M"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 83,
+		  "mkg_brnd_id": 10,
+		  "mkg_modl_yr_id": 14,
+		  "cd_val": "N"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 140,
+		  "mkg_brnd_id": 10,
+		  "mkg_modl_yr_id": 15,
+		  "cd_val": "P"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 141,
+		  "mkg_brnd_id": 10,
+		  "mkg_modl_yr_id": 16,
+		  "cd_val": "Q"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 136,
+		  "mkg_brnd_id": 11,
+		  "mkg_modl_yr_id": 9,
+		  "cd_val": "G"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 137,
+		  "mkg_brnd_id": 11,
+		  "mkg_modl_yr_id": 10,
+		  "cd_val": "H"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 57,
+		  "mkg_brnd_id": 11,
+		  "mkg_modl_yr_id": 12,
+		  "cd_val": "L"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 56,
+		  "mkg_brnd_id": 11,
+		  "mkg_modl_yr_id": 13,
+		  "cd_val": "M"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 84,
+		  "mkg_brnd_id": 11,
+		  "mkg_modl_yr_id": 14,
+		  "cd_val": "N"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 142,
+		  "mkg_brnd_id": 11,
+		  "mkg_modl_yr_id": 15,
+		  "cd_val": "P"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 143,
+		  "mkg_brnd_id": 11,
+		  "mkg_modl_yr_id": 16,
+		  "cd_val": "Q"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 24,
+		  "mkg_brnd_id": 13,
+		  "mkg_modl_yr_id": 1,
+		  "cd_val": "G"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 133,
+		  "mkg_brnd_id": 13,
+		  "mkg_modl_yr_id": 6,
+		  "cd_val": "E"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 25,
+		  "mkg_brnd_id": 14,
+		  "mkg_modl_yr_id": 1,
+		  "cd_val": "K"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 135,
+		  "mkg_brnd_id": 14,
+		  "mkg_modl_yr_id": 9,
+		  "cd_val": "G"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 87,
+		  "mkg_brnd_id": 14,
+		  "mkg_modl_yr_id": 11,
+		  "cd_val": "K"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 77,
+		  "mkg_brnd_id": 14,
+		  "mkg_modl_yr_id": 12,
+		  "cd_val": "L"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 76,
+		  "mkg_brnd_id": 14,
+		  "mkg_modl_yr_id": 13,
+		  "cd_val": "M"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 107,
+		  "mkg_brnd_id": 15,
+		  "mkg_modl_yr_id": 12,
+		  "cd_val": "L"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 108,
+		  "mkg_brnd_id": 15,
+		  "mkg_modl_yr_id": 13,
+		  "cd_val": "M"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 109,
+		  "mkg_brnd_id": 15,
+		  "mkg_modl_yr_id": 14,
+		  "cd_val": "N"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 86,
+		  "mkg_brnd_id": 16,
+		  "mkg_modl_yr_id": 13,
+		  "cd_val": "M"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 99,
+		  "mkg_brnd_id": 19,
+		  "mkg_modl_yr_id": 1,
+		  "cd_val": "Z"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 110,
+		  "mkg_brnd_id": 19,
+		  "mkg_modl_yr_id": 9,
+		  "cd_val": "G"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 111,
+		  "mkg_brnd_id": 19,
+		  "mkg_modl_yr_id": 10,
+		  "cd_val": "H"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 112,
+		  "mkg_brnd_id": 19,
+		  "mkg_modl_yr_id": 11,
+		  "cd_val": "K"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 113,
+		  "mkg_brnd_id": 19,
+		  "mkg_modl_yr_id": 12,
+		  "cd_val": "L"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 102,
+		  "mkg_brnd_id": 19,
+		  "mkg_modl_yr_id": 13,
+		  "cd_val": "M"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 103,
+		  "mkg_brnd_id": 19,
+		  "mkg_modl_yr_id": 14,
+		  "cd_val": "N"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 134,
+		  "mkg_brnd_id": 20,
+		  "mkg_modl_yr_id": 6,
+		  "cd_val": "E"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 100,
+		  "mkg_brnd_id": 20,
+		  "mkg_modl_yr_id": 13,
+		  "cd_val": "M"
+		},
+		{
+		  "mkg_brnd_modl_yr_id": 101,
+		  "mkg_brnd_id": 20,
+		  "mkg_modl_yr_id": 14,
+		  "cd_val": "N"
+		}
+	  ],
+  "MKG_INST_TYP": [
+		{
+		  "mkg_inst_typ_id": 1,
+		  "inst_typ_nm": "N/A",
+		  "inst_typ_desc": "",
+		  "is_actv": 1,
+		  "dsp_ord": 0
+		},
+		{
+		  "mkg_inst_typ_id": 2,
+		  "inst_typ_nm": "Built-In",
+		  "inst_typ_desc": "",
+		  "is_actv": 1,
+		  "dsp_ord": 1
+		},
+		{
+		  "mkg_inst_typ_id": 3,
+		  "inst_typ_nm": "Downdraft Vent",
+		  "inst_typ_desc": "",
+		  "is_actv": 1,
+		  "dsp_ord": 3
+		},
+		{
+		  "mkg_inst_typ_id": 4,
+		  "inst_typ_nm": "Drop-In",
+		  "inst_typ_desc": "",
+		  "is_actv": 1,
+		  "dsp_ord": 4
+		},
+		{
+		  "mkg_inst_typ_id": 5,
+		  "inst_typ_nm": "Free-Standing",
+		  "inst_typ_desc": "",
+		  "is_actv": 1,
+		  "dsp_ord": 5
+		},
+		{
+		  "mkg_inst_typ_id": 6,
+		  "inst_typ_nm": "Island/Peninsula",
+		  "inst_typ_desc": "",
+		  "is_actv": 1,
+		  "dsp_ord": 6
+		},
+		{
+		  "mkg_inst_typ_id": 7,
+		  "inst_typ_nm": "Over-the-Range",
+		  "inst_typ_desc": "",
+		  "is_actv": 1,
+		  "dsp_ord": 7
+		},
+		{
+		  "mkg_inst_typ_id": 8,
+		  "inst_typ_nm": "Portable",
+		  "inst_typ_desc": "",
+		  "is_actv": 1,
+		  "dsp_ord": 8
+		},
+		{
+		  "mkg_inst_typ_id": 9,
+		  "inst_typ_nm": "Slide-In",
+		  "inst_typ_desc": "",
+		  "is_actv": 1,
+		  "dsp_ord": 9
+		},
+		{
+		  "mkg_inst_typ_id": 10,
+		  "inst_typ_nm": "Under Cabinet",
+		  "inst_typ_desc": "",
+		  "is_actv": 1,
+		  "dsp_ord": 10
+		},
+		{
+		  "mkg_inst_typ_id": 11,
+		  "inst_typ_nm": "Wall Mounted",
+		  "inst_typ_desc": "",
+		  "is_actv": 1,
+		  "dsp_ord": 11
+		},
+		{
+		  "mkg_inst_typ_id": 12,
+		  "inst_typ_nm": "Window Mounted",
+		  "inst_typ_desc": "",
+		  "is_actv": 1,
+		  "dsp_ord": 12
+		},
+		{
+		  "mkg_inst_typ_id": 13,
+		  "inst_typ_nm": "Countertop",
+		  "inst_typ_desc": "",
+		  "is_actv": 1,
+		  "dsp_ord": 2
+		},
+		{
+		  "mkg_inst_typ_id": 14,
+		  "inst_typ_nm": "Under Sink",
+		  "inst_typ_desc": "",
+		  "is_actv": 1,
+		  "dsp_ord": 10
+		}
+	  ],
+  "MKG_MODL_YR": [
+		{
+		  "mkg_modl_yr_id": 1,
+		  "modl_yr_val": "Unknown",
+		  "modl_yr_note": "",
+		  "effv_strt_dt": "1/1/2000",
+		  "effv_end_dt": "12/31/2008",
+		  "is_actv": 1,
+		  "dsp_ord": 1
+		},
+		{
+		  "mkg_modl_yr_id": 2,
+		  "modl_yr_val": "2001",
+		  "modl_yr_note": "",
+		  "effv_strt_dt": "1/1/2001",
+		  "effv_end_dt": "12/31/2001",
+		  "is_actv": 1,
+		  "dsp_ord": 2
+		},
+		{
+		  "mkg_modl_yr_id": 3,
+		  "modl_yr_val": "2002",
+		  "modl_yr_note": "",
+		  "effv_strt_dt": "1/1/2002",
+		  "effv_end_dt": "12/31/2002",
+		  "is_actv": 1,
+		  "dsp_ord": 3
+		},
+		{
+		  "mkg_modl_yr_id": 4,
+		  "modl_yr_val": "2003",
+		  "modl_yr_note": "",
+		  "effv_strt_dt": "1/1/2003",
+		  "effv_end_dt": "12/31/2003",
+		  "is_actv": 1,
+		  "dsp_ord": 4
+		},
+		{
+		  "mkg_modl_yr_id": 5,
+		  "modl_yr_val": "2004",
+		  "modl_yr_note": "",
+		  "effv_strt_dt": "1/1/2004",
+		  "effv_end_dt": "12/31/2004",
+		  "is_actv": 1,
+		  "dsp_ord": 5
+		},
+		{
+		  "mkg_modl_yr_id": 6,
+		  "modl_yr_val": "2005",
+		  "modl_yr_note": "",
+		  "effv_strt_dt": "1/1/2005",
+		  "effv_end_dt": "12/31/2005",
+		  "is_actv": 1,
+		  "dsp_ord": 6
+		},
+		{
+		  "mkg_modl_yr_id": 7,
+		  "modl_yr_val": "2005-2006",
+		  "modl_yr_note": "",
+		  "effv_strt_dt": "1/1/2005",
+		  "effv_end_dt": "12/31/2006",
+		  "is_actv": 1,
+		  "dsp_ord": 7
+		},
+		{
+		  "mkg_modl_yr_id": 8,
+		  "modl_yr_val": "2006",
+		  "modl_yr_note": "",
+		  "effv_strt_dt": "1/1/2006",
+		  "effv_end_dt": "12/31/2006",
+		  "is_actv": 1,
+		  "dsp_ord": 8
+		},
+		{
+		  "mkg_modl_yr_id": 9,
+		  "modl_yr_val": "2007",
+		  "modl_yr_note": "",
+		  "effv_strt_dt": "1/1/2007",
+		  "effv_end_dt": "12/31/2007",
+		  "is_actv": 1,
+		  "dsp_ord": 9
+		},
+		{
+		  "mkg_modl_yr_id": 10,
+		  "modl_yr_val": "2008",
+		  "modl_yr_note": "",
+		  "effv_strt_dt": "1/1/2008",
+		  "effv_end_dt": "12/31/2008",
+		  "is_actv": 1,
+		  "dsp_ord": 10
+		},
+		{
+		  "mkg_modl_yr_id": 11,
+		  "modl_yr_val": "2009",
+		  "modl_yr_note": "",
+		  "effv_strt_dt": "1/1/2009",
+		  "effv_end_dt": "12/31/2009",
+		  "is_actv": 1,
+		  "dsp_ord": 11
+		},
+		{
+		  "mkg_modl_yr_id": 12,
+		  "modl_yr_val": "2010",
+		  "modl_yr_note": "",
+		  "effv_strt_dt": "1/1/2010",
+		  "effv_end_dt": "12/31/2010",
+		  "is_actv": 1,
+		  "dsp_ord": 12
+		},
+		{
+		  "mkg_modl_yr_id": 13,
+		  "modl_yr_val": "2011",
+		  "modl_yr_note": "",
+		  "effv_strt_dt": "1/1/2011",
+		  "effv_end_dt": "12/31/2011",
+		  "is_actv": 1,
+		  "dsp_ord": 13
+		},
+		{
+		  "mkg_modl_yr_id": 14,
+		  "modl_yr_val": "2012",
+		  "modl_yr_note": "",
+		  "effv_strt_dt": "1/1/2012",
+		  "effv_end_dt": "12/31/2012",
+		  "is_actv": 1,
+		  "dsp_ord": 14
+		},
+		{
+		  "mkg_modl_yr_id": 15,
+		  "modl_yr_val": "2013",
+		  "modl_yr_note": "",
+		  "effv_strt_dt": "1/1/2013",
+		  "effv_end_dt": "12/31/2013",
+		  "is_actv": 1,
+		  "dsp_ord": 15
+		},
+		{
+		  "mkg_modl_yr_id": 16,
+		  "modl_yr_val": "2014",
+		  "modl_yr_note": "",
+		  "effv_strt_dt": "1/1/2014",
+		  "effv_end_dt": "12/31/2014",
+		  "is_actv": 1,
+		  "dsp_ord": 16
+		}
+	  ],
+	"MKG_PROD_LIF_STTS": [
+    {
+      "mkg_prod_lif_stts_id": 1,
+      "prod_lif_stts_nm": "Undetermined",
+      "is_actv": 0,
+      "is_protected": 1,
+      "dsp_ord": 1
+    },
+    {
+      "mkg_prod_lif_stts_id": 2,
+      "prod_lif_stts_nm": "PI",
+      "is_actv": 1,
+      "is_protected": 1,
+      "dsp_ord": 2
+    },
+    {
+      "mkg_prod_lif_stts_id": 3,
+      "prod_lif_stts_nm": "CP00",
+      "is_actv": 1,
+      "is_protected": 1,
+      "dsp_ord": 3
+    },
+    {
+      "mkg_prod_lif_stts_id": 4,
+      "prod_lif_stts_nm": "CP0",
+      "is_actv": 1,
+      "is_protected": 1,
+      "dsp_ord": 4
+    },
+    {
+      "mkg_prod_lif_stts_id": 5,
+      "prod_lif_stts_nm": "CP1",
+      "is_actv": 1,
+      "is_protected": 1,
+      "dsp_ord": 5
+    },
+    {
+      "mkg_prod_lif_stts_id": 6,
+      "prod_lif_stts_nm": "CP2",
+      "is_actv": 1,
+      "is_protected": 1,
+      "dsp_ord": 6
+    },
+    {
+      "mkg_prod_lif_stts_id": 7,
+      "prod_lif_stts_nm": "CP3",
+      "is_actv": 1,
+      "is_protected": 1,
+      "dsp_ord": 7
+    },
+    {
+      "mkg_prod_lif_stts_id": 8,
+      "prod_lif_stts_nm": "Market Launch",
+      "is_actv": 1,
+      "is_protected": 1,
+      "dsp_ord": 8
+    },
+    {
+      "mkg_prod_lif_stts_id": 9,
+      "prod_lif_stts_nm": "On Hold",
+      "is_actv": 1,
+      "is_protected": 1,
+      "dsp_ord": 9
+    },
+    {
+      "mkg_prod_lif_stts_id": 10,
+      "prod_lif_stts_nm": "Rejected",
+      "is_actv": 1,
+      "is_protected": 1,
+      "dsp_ord": 10
+    },
+    {
+      "mkg_prod_lif_stts_id": 11,
+      "prod_lif_stts_nm": "Phase Out",
+      "is_actv": 1,
+      "is_protected": 1,
+      "dsp_ord": 11
+    },
+    {
+      "mkg_prod_lif_stts_id": 12,
+      "prod_lif_stts_nm": "Obsolete",
+      "is_actv": 1,
+      "is_protected": 1,
+      "dsp_ord": 12
+    },
+    {
+      "mkg_prod_lif_stts_id": 14,
+      "prod_lif_stts_nm": "Pending Delete",
+      "is_actv": 1,
+      "is_protected": 1,
+      "dsp_ord": 0
+    }
+  ],
+  "MKG_CHNL_VIS_STTS": [
+    {
+      "mkg_chnl_vis_stts_id": 1,
+      "chnl_vis_stts_nm": "Undetermined",
+      "chnl_vis_stts_desc": "Undetermined",
+      "is_actv": 0,
+      "is_protected": 1,
+      "dsp_ord": 1
+    },
+    {
+      "mkg_chnl_vis_stts_id": 2,
+      "chnl_vis_stts_nm": "PI",
+      "chnl_vis_stts_desc": "",
+      "is_actv": 1,
+      "is_protected": 1,
+      "dsp_ord": 2
+    },
+    {
+      "mkg_chnl_vis_stts_id": 3,
+      "chnl_vis_stts_nm": "CP00",
+      "chnl_vis_stts_desc": "",
+      "is_actv": 1,
+      "is_protected": 1,
+      "dsp_ord": 3
+    },
+    {
+      "mkg_chnl_vis_stts_id": 4,
+      "chnl_vis_stts_nm": "CP0",
+      "chnl_vis_stts_desc": "",
+      "is_actv": 1,
+      "is_protected": 1,
+      "dsp_ord": 4
+    },
+    {
+      "mkg_chnl_vis_stts_id": 5,
+      "chnl_vis_stts_nm": "CP1",
+      "chnl_vis_stts_desc": "",
+      "is_actv": 1,
+      "is_protected": 1,
+      "dsp_ord": 5
+    },
+    {
+      "mkg_chnl_vis_stts_id": 6,
+      "chnl_vis_stts_nm": "CP2",
+      "chnl_vis_stts_desc": "",
+      "is_actv": 1,
+      "is_protected": 1,
+      "dsp_ord": 6
+    },
+    {
+      "mkg_chnl_vis_stts_id": 7,
+      "chnl_vis_stts_nm": "CP3",
+      "chnl_vis_stts_desc": "",
+      "is_actv": 1,
+      "is_protected": 1,
+      "dsp_ord": 7
+    },
+    {
+      "mkg_chnl_vis_stts_id": 8,
+      "chnl_vis_stts_nm": "Market Launch",
+      "chnl_vis_stts_desc": "",
+      "is_actv": 1,
+      "is_protected": 1,
+      "dsp_ord": 8
+    },
+    {
+      "mkg_chnl_vis_stts_id": 9,
+      "chnl_vis_stts_nm": "On Hold",
+      "chnl_vis_stts_desc": "",
+      "is_actv": 1,
+      "is_protected": 1,
+      "dsp_ord": 9
+    },
+    {
+      "mkg_chnl_vis_stts_id": 10,
+      "chnl_vis_stts_nm": "Rejected",
+      "chnl_vis_stts_desc": "",
+      "is_actv": 1,
+      "is_protected": 1,
+      "dsp_ord": 10
+    },
+    {
+      "mkg_chnl_vis_stts_id": 11,
+      "chnl_vis_stts_nm": "Phase Out",
+      "chnl_vis_stts_desc": "",
+      "is_actv": 1,
+      "is_protected": 1,
+      "dsp_ord": 11
+    },
+    {
+      "mkg_chnl_vis_stts_id": 12,
+      "chnl_vis_stts_nm": "Obsolete",
+      "chnl_vis_stts_desc": "",
+      "is_actv": 1,
+      "is_protected": 1,
+      "dsp_ord": 12
+    },
+    {
+      "mkg_chnl_vis_stts_id": 14,
+      "chnl_vis_stts_nm": "Pending Delete",
+      "chnl_vis_stts_desc": "for marking Products entered in Error by PLMs",
+      "is_actv": 1,
+      "is_protected": 1,
+      "dsp_ord": 0
+    }
+  ],
+  "MKG_NMNL_PROD_SZ": [
+    {
+      "mkg_nmnl_prod_sz_id": 1,
+      "nmnl_prod_sz_nm": "N/A",
+      "mkg_prod_cat_id": 1,
+      "is_actv": 1,
+      "dsp_ord": 950
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 2,
+      "nmnl_prod_sz_nm": "0.7 Cu. Ft.",
+      "mkg_prod_cat_id": 16,
+      "is_actv": 1,
+      "dsp_ord": 851
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 3,
+      "nmnl_prod_sz_nm": "0.9 Cu. Ft.",
+      "mkg_prod_cat_id": 16,
+      "is_actv": 1,
+      "dsp_ord": 852
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 4,
+      "nmnl_prod_sz_nm": "1.1 Cu. Ft.",
+      "mkg_prod_cat_id": 16,
+      "is_actv": 1,
+      "dsp_ord": 853
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 5,
+      "nmnl_prod_sz_nm": "1.2 Cu. Ft.",
+      "mkg_prod_cat_id": 16,
+      "is_actv": 1,
+      "dsp_ord": 854
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 6,
+      "nmnl_prod_sz_nm": "1.5 Cu. Ft.",
+      "mkg_prod_cat_id": 16,
+      "is_actv": 1,
+      "dsp_ord": 855
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 7,
+      "nmnl_prod_sz_nm": "1.6 Cu. Ft.",
+      "mkg_prod_cat_id": 16,
+      "is_actv": 1,
+      "dsp_ord": 856
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 8,
+      "nmnl_prod_sz_nm": "1.7 Cu. Ft.",
+      "mkg_prod_cat_id": 16,
+      "is_actv": 1,
+      "dsp_ord": 857
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 9,
+      "nmnl_prod_sz_nm": "1.8 Cu. Ft.",
+      "mkg_prod_cat_id": 16,
+      "is_actv": 1,
+      "dsp_ord": 858
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 10,
+      "nmnl_prod_sz_nm": "2.0 Cu. Ft.",
+      "mkg_prod_cat_id": 16,
+      "is_actv": 1,
+      "dsp_ord": 859
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 11,
+      "nmnl_prod_sz_nm": "2.1 Cu. Ft.",
+      "mkg_prod_cat_id": 16,
+      "is_actv": 1,
+      "dsp_ord": 860
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 12,
+      "nmnl_prod_sz_nm": "2.2 Cu. Ft.",
+      "mkg_prod_cat_id": 16,
+      "is_actv": 1,
+      "dsp_ord": 861
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 13,
+      "nmnl_prod_sz_nm": "10 Cu. Ft.",
+      "mkg_prod_cat_id": 26,
+      "is_actv": 1,
+      "dsp_ord": 11
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 14,
+      "nmnl_prod_sz_nm": "12 Cu. Ft.",
+      "mkg_prod_cat_id": 26,
+      "is_actv": 1,
+      "dsp_ord": 12
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 15,
+      "nmnl_prod_sz_nm": "15 Cu. Ft.",
+      "mkg_prod_cat_id": 26,
+      "is_actv": 1,
+      "dsp_ord": 14
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 16,
+      "nmnl_prod_sz_nm": "17 Cu. Ft.",
+      "mkg_prod_cat_id": 26,
+      "is_actv": 1,
+      "dsp_ord": 15
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 17,
+      "nmnl_prod_sz_nm": "18 Cu. Ft.",
+      "mkg_prod_cat_id": 26,
+      "is_actv": 1,
+      "dsp_ord": 16
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 18,
+      "nmnl_prod_sz_nm": "21 Cu. Ft.",
+      "mkg_prod_cat_id": 26,
+      "is_actv": 1,
+      "dsp_ord": 19
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 19,
+      "nmnl_prod_sz_nm": "23 Cu. Ft.",
+      "mkg_prod_cat_id": 26,
+      "is_actv": 1,
+      "dsp_ord": 21
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 20,
+      "nmnl_prod_sz_nm": "25 Cu. Ft.",
+      "mkg_prod_cat_id": 26,
+      "is_actv": 1,
+      "dsp_ord": 23
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 21,
+      "nmnl_prod_sz_nm": "26 Cu. Ft.",
+      "mkg_prod_cat_id": 26,
+      "is_actv": 1,
+      "dsp_ord": 24
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 22,
+      "nmnl_prod_sz_nm": "28 Cu. Ft.",
+      "mkg_prod_cat_id": 26,
+      "is_actv": 1,
+      "dsp_ord": 25
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 23,
+      "nmnl_prod_sz_nm": "48\"",
+      "mkg_prod_cat_id": 4,
+      "is_actv": 1,
+      "dsp_ord": 456
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 24,
+      "nmnl_prod_sz_nm": "30\"",
+      "mkg_prod_cat_id": 4,
+      "is_actv": 1,
+      "dsp_ord": 453
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 25,
+      "nmnl_prod_sz_nm": "36\"",
+      "mkg_prod_cat_id": 4,
+      "is_actv": 1,
+      "dsp_ord": 455
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 26,
+      "nmnl_prod_sz_nm": "24\"",
+      "mkg_prod_cat_id": 6,
+      "is_actv": 1,
+      "dsp_ord": 420
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 28,
+      "nmnl_prod_sz_nm": "30\"",
+      "mkg_prod_cat_id": 41,
+      "is_actv": 1,
+      "dsp_ord": 904
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 29,
+      "nmnl_prod_sz_nm": "36\"",
+      "mkg_prod_cat_id": 41,
+      "is_actv": 1,
+      "dsp_ord": 905
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 30,
+      "nmnl_prod_sz_nm": "48\"",
+      "mkg_prod_cat_id": 41,
+      "is_actv": 1,
+      "dsp_ord": 908
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 31,
+      "nmnl_prod_sz_nm": "42\"",
+      "mkg_prod_cat_id": 41,
+      "is_actv": 1,
+      "dsp_ord": 907
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 32,
+      "nmnl_prod_sz_nm": "40\"",
+      "mkg_prod_cat_id": 41,
+      "is_actv": 1,
+      "dsp_ord": 906
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 33,
+      "nmnl_prod_sz_nm": "15\"",
+      "mkg_prod_cat_id": 3,
+      "is_actv": 1,
+      "dsp_ord": 651
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 36,
+      "nmnl_prod_sz_nm": "24\"",
+      "mkg_prod_cat_id": 2,
+      "is_actv": 1,
+      "dsp_ord": 501
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 38,
+      "nmnl_prod_sz_nm": "15\"",
+      "mkg_prod_cat_id": 13,
+      "is_actv": 1,
+      "dsp_ord": 601
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 39,
+      "nmnl_prod_sz_nm": "30\"",
+      "mkg_prod_cat_id": 16,
+      "is_actv": 1,
+      "dsp_ord": 863
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 40,
+      "nmnl_prod_sz_nm": "27\"",
+      "mkg_prod_cat_id": 16,
+      "is_actv": 1,
+      "dsp_ord": 862
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 42,
+      "nmnl_prod_sz_nm": "30\"",
+      "mkg_prod_cat_id": 24,
+      "is_actv": 1,
+      "dsp_ord": 477
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 44,
+      "nmnl_prod_sz_nm": "36\"",
+      "mkg_prod_cat_id": 26,
+      "is_actv": 1,
+      "dsp_ord": 28
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 47,
+      "nmnl_prod_sz_nm": "33\"",
+      "mkg_prod_cat_id": 26,
+      "is_actv": 1,
+      "dsp_ord": 27
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 48,
+      "nmnl_prod_sz_nm": "24\"",
+      "mkg_prod_cat_id": 26,
+      "is_actv": 1,
+      "dsp_ord": 26
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 52,
+      "nmnl_prod_sz_nm": "30\"",
+      "mkg_prod_cat_id": 42,
+      "is_actv": 1,
+      "dsp_ord": 703
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 53,
+      "nmnl_prod_sz_nm": "27\"",
+      "mkg_prod_cat_id": 42,
+      "is_actv": 1,
+      "dsp_ord": 702
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 54,
+      "nmnl_prod_sz_nm": "30\"",
+      "mkg_prod_cat_id": 46,
+      "is_actv": 1,
+      "dsp_ord": 802
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 55,
+      "nmnl_prod_sz_nm": "27\"",
+      "mkg_prod_cat_id": 46,
+      "is_actv": 1,
+      "dsp_ord": 801
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 56,
+      "nmnl_prod_sz_nm": "14\"",
+      "mkg_prod_cat_id": 4,
+      "is_actv": 1,
+      "dsp_ord": 451
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 57,
+      "nmnl_prod_sz_nm": "26\"",
+      "mkg_prod_cat_id": 4,
+      "is_actv": 1,
+      "dsp_ord": 452
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 58,
+      "nmnl_prod_sz_nm": "32\"",
+      "mkg_prod_cat_id": 4,
+      "is_actv": 1,
+      "dsp_ord": 454
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 59,
+      "nmnl_prod_sz_nm": "18\"",
+      "mkg_prod_cat_id": 6,
+      "is_actv": 1,
+      "dsp_ord": 410
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 60,
+      "nmnl_prod_sz_nm": "7.0 Cu. Ft.",
+      "mkg_prod_cat_id": 7,
+      "is_actv": 1,
+      "dsp_ord": 923
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 61,
+      "nmnl_prod_sz_nm": "5.7 Cu. Ft.",
+      "mkg_prod_cat_id": 7,
+      "is_actv": 1,
+      "dsp_ord": 921
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 62,
+      "nmnl_prod_sz_nm": "5.8 Cu. Ft.",
+      "mkg_prod_cat_id": 7,
+      "is_actv": 1,
+      "dsp_ord": 921
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 63,
+      "nmnl_prod_sz_nm": "9 Cu. Ft.",
+      "mkg_prod_cat_id": 8,
+      "is_actv": 1,
+      "dsp_ord": 62
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 64,
+      "nmnl_prod_sz_nm": "5 Cu. Ft.",
+      "mkg_prod_cat_id": 8,
+      "is_actv": 1,
+      "dsp_ord": 60
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 65,
+      "nmnl_prod_sz_nm": "7 Cu. Ft.",
+      "mkg_prod_cat_id": 8,
+      "is_actv": 1,
+      "dsp_ord": 61
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 67,
+      "nmnl_prod_sz_nm": "21 Cu. Ft.",
+      "mkg_prod_cat_id": 8,
+      "is_actv": 1,
+      "dsp_ord": 71
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 69,
+      "nmnl_prod_sz_nm": "14 Cu. Ft.",
+      "mkg_prod_cat_id": 8,
+      "is_actv": 1,
+      "dsp_ord": 65
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 70,
+      "nmnl_prod_sz_nm": "12.5 Cu. Ft.",
+      "mkg_prod_cat_id": 8,
+      "is_actv": 1,
+      "dsp_ord": 63
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 71,
+      "nmnl_prod_sz_nm": "30\"",
+      "mkg_prod_cat_id": 15,
+      "is_actv": 1,
+      "dsp_ord": 877
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 72,
+      "nmnl_prod_sz_nm": "27\"",
+      "mkg_prod_cat_id": 15,
+      "is_actv": 1,
+      "dsp_ord": 876
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 73,
+      "nmnl_prod_sz_nm": "24\"",
+      "mkg_prod_cat_id": 24,
+      "is_actv": 1,
+      "dsp_ord": 476
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 74,
+      "nmnl_prod_sz_nm": "40\"",
+      "mkg_prod_cat_id": 24,
+      "is_actv": 1,
+      "dsp_ord": 479
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 75,
+      "nmnl_prod_sz_nm": "3 Cu. Ft.",
+      "mkg_prod_cat_id": 26,
+      "is_actv": 1,
+      "dsp_ord": 3
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 76,
+      "nmnl_prod_sz_nm": "4 Cu. Ft.",
+      "mkg_prod_cat_id": 26,
+      "is_actv": 1,
+      "dsp_ord": 7
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 77,
+      "nmnl_prod_sz_nm": "24\"",
+      "mkg_prod_cat_id": 42,
+      "is_actv": 1,
+      "dsp_ord": 701
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 78,
+      "nmnl_prod_sz_nm": "18\"",
+      "mkg_prod_cat_id": 41,
+      "is_actv": 1,
+      "dsp_ord": 903
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 80,
+      "nmnl_prod_sz_nm": "--- Ventilation ---",
+      "mkg_prod_cat_id": 41,
+      "is_actv": 1,
+      "dsp_ord": 900
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 81,
+      "nmnl_prod_sz_nm": "--- Dishwashers ---",
+      "mkg_prod_cat_id": 6,
+      "is_actv": 1,
+      "dsp_ord": 400
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 82,
+      "nmnl_prod_sz_nm": "--- Warmer Drawers ---",
+      "mkg_prod_cat_id": 46,
+      "is_actv": 1,
+      "dsp_ord": 800
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 83,
+      "nmnl_prod_sz_nm": "--- Compactors ---",
+      "mkg_prod_cat_id": 3,
+      "is_actv": 1,
+      "dsp_ord": 650
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 84,
+      "nmnl_prod_sz_nm": "--- Ice Makers ---",
+      "mkg_prod_cat_id": 13,
+      "is_actv": 1,
+      "dsp_ord": 600
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 85,
+      "nmnl_prod_sz_nm": "--- Coffee Makers ---",
+      "mkg_prod_cat_id": 2,
+      "is_actv": 1,
+      "dsp_ord": 500
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 86,
+      "nmnl_prod_sz_nm": "--- Microwaves ---",
+      "mkg_prod_cat_id": 16,
+      "is_actv": 1,
+      "dsp_ord": 850
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 87,
+      "nmnl_prod_sz_nm": "--- Refrigerator ---",
+      "mkg_prod_cat_id": 26,
+      "is_actv": 1,
+      "dsp_ord": 0
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 88,
+      "nmnl_prod_sz_nm": "--- Freezers ---",
+      "mkg_prod_cat_id": 8,
+      "is_actv": 1,
+      "dsp_ord": 59
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 89,
+      "nmnl_prod_sz_nm": "--- Wall Ovens ---",
+      "mkg_prod_cat_id": 42,
+      "is_actv": 1,
+      "dsp_ord": 700
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 90,
+      "nmnl_prod_sz_nm": "--- Cooktops ---",
+      "mkg_prod_cat_id": 4,
+      "is_actv": 1,
+      "dsp_ord": 450
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 91,
+      "nmnl_prod_sz_nm": "--- Ranges ---",
+      "mkg_prod_cat_id": 24,
+      "is_actv": 1,
+      "dsp_ord": 474
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 92,
+      "nmnl_prod_sz_nm": "--- Micro Combi ---",
+      "mkg_prod_cat_id": 15,
+      "is_actv": 1,
+      "dsp_ord": 875
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 93,
+      "nmnl_prod_sz_nm": "--- Dryers ---",
+      "mkg_prod_cat_id": 7,
+      "is_actv": 1,
+      "dsp_ord": 920
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 94,
+      "nmnl_prod_sz_nm": "--- Washers ---",
+      "mkg_prod_cat_id": 47,
+      "is_actv": 1,
+      "dsp_ord": 940
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 95,
+      "nmnl_prod_sz_nm": "3.0 Cu. Ft.",
+      "mkg_prod_cat_id": 47,
+      "is_actv": 1,
+      "dsp_ord": 941
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 96,
+      "nmnl_prod_sz_nm": "3.1 Cu. Ft.",
+      "mkg_prod_cat_id": 47,
+      "is_actv": 1,
+      "dsp_ord": 942
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 97,
+      "nmnl_prod_sz_nm": "3.5 Cu. Ft.",
+      "mkg_prod_cat_id": 47,
+      "is_actv": 1,
+      "dsp_ord": 943
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 98,
+      "nmnl_prod_sz_nm": "3.7 Cu. Ft.",
+      "mkg_prod_cat_id": 47,
+      "is_actv": 1,
+      "dsp_ord": 944
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 99,
+      "nmnl_prod_sz_nm": "3.8 Cu. Ft.",
+      "mkg_prod_cat_id": 47,
+      "is_actv": 1,
+      "dsp_ord": 945
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 100,
+      "nmnl_prod_sz_nm": "4.0 Cu. Ft.",
+      "mkg_prod_cat_id": 47,
+      "is_actv": 1,
+      "dsp_ord": 946
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 101,
+      "nmnl_prod_sz_nm": "4.2 Cu. Ft.",
+      "mkg_prod_cat_id": 47,
+      "is_actv": 1,
+      "dsp_ord": 947
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 102,
+      "nmnl_prod_sz_nm": "4.4 Cu. Ft.",
+      "mkg_prod_cat_id": 47,
+      "is_actv": 1,
+      "dsp_ord": 948
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 103,
+      "nmnl_prod_sz_nm": "16.5 Cu. Ft.",
+      "mkg_prod_cat_id": 36,
+      "is_actv": 1,
+      "dsp_ord": 16
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 104,
+      "nmnl_prod_sz_nm": "16.8 Cu. Ft.",
+      "mkg_prod_cat_id": 63,
+      "is_actv": 1,
+      "dsp_ord": 67
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 105,
+      "nmnl_prod_sz_nm": "36\"",
+      "mkg_prod_cat_id": 24,
+      "is_actv": 1,
+      "dsp_ord": 478
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 106,
+      "nmnl_prod_sz_nm": "48\"",
+      "mkg_prod_cat_id": 24,
+      "is_actv": 1,
+      "dsp_ord": 480
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 107,
+      "nmnl_prod_sz_nm": "19 Cu. Ft.",
+      "mkg_prod_cat_id": 26,
+      "is_actv": 1,
+      "dsp_ord": 17
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 108,
+      "nmnl_prod_sz_nm": "19 Cu. Ft.",
+      "mkg_prod_cat_id": 8,
+      "is_actv": 1,
+      "dsp_ord": 69
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 109,
+      "nmnl_prod_sz_nm": "1.4 Cu. Ft.",
+      "mkg_prod_cat_id": 22,
+      "is_actv": 1,
+      "dsp_ord": 862
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 110,
+      "nmnl_prod_sz_nm": "20\"",
+      "mkg_prod_cat_id": 24,
+      "is_actv": 1,
+      "dsp_ord": 475
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 111,
+      "nmnl_prod_sz_nm": "1.4 Cu. Ft.",
+      "mkg_prod_cat_id": 16,
+      "is_actv": 1,
+      "dsp_ord": 855
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 112,
+      "nmnl_prod_sz_nm": "3.9 Cu. Ft.",
+      "mkg_prod_cat_id": 26,
+      "is_actv": 1,
+      "dsp_ord": 6
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 113,
+      "nmnl_prod_sz_nm": "3.3 Cu. Ft.",
+      "mkg_prod_cat_id": 26,
+      "is_actv": 1,
+      "dsp_ord": 5
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 114,
+      "nmnl_prod_sz_nm": "1.6 Cu. Ft.",
+      "mkg_prod_cat_id": 26,
+      "is_actv": 1,
+      "dsp_ord": 1
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 115,
+      "nmnl_prod_sz_nm": "2.5 Cu. Ft.",
+      "mkg_prod_cat_id": 26,
+      "is_actv": 1,
+      "dsp_ord": 2
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 116,
+      "nmnl_prod_sz_nm": "3.1 Cu. Ft.",
+      "mkg_prod_cat_id": 26,
+      "is_actv": 1,
+      "dsp_ord": 4
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 117,
+      "nmnl_prod_sz_nm": "4.4 Cu. Ft.",
+      "mkg_prod_cat_id": 26,
+      "is_actv": 1,
+      "dsp_ord": 8
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 118,
+      "nmnl_prod_sz_nm": "4.6 Cu. Ft.",
+      "mkg_prod_cat_id": 26,
+      "is_actv": 1,
+      "dsp_ord": 9
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 119,
+      "nmnl_prod_sz_nm": "4.5 Cu. Ft.",
+      "mkg_prod_cat_id": 26,
+      "is_actv": 1,
+      "dsp_ord": 9
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 120,
+      "nmnl_prod_sz_nm": "4.7 Cu. Ft.",
+      "mkg_prod_cat_id": 26,
+      "is_actv": 1,
+      "dsp_ord": 10
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 121,
+      "nmnl_prod_sz_nm": "15 Cu. Ft.",
+      "mkg_prod_cat_id": 8,
+      "is_actv": 1,
+      "dsp_ord": 66
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 122,
+      "nmnl_prod_sz_nm": "20 Cu. Ft.",
+      "mkg_prod_cat_id": 8,
+      "is_actv": 1,
+      "dsp_ord": 70
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 123,
+      "nmnl_prod_sz_nm": "20 Cu. Ft.",
+      "mkg_prod_cat_id": 26,
+      "is_actv": 1,
+      "dsp_ord": 18
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 124,
+      "nmnl_prod_sz_nm": "8.0 Cu. Ft.",
+      "mkg_prod_cat_id": 7,
+      "is_actv": 1,
+      "dsp_ord": 925
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 125,
+      "nmnl_prod_sz_nm": "13 Cu. Ft.",
+      "mkg_prod_cat_id": 8,
+      "is_actv": 1,
+      "dsp_ord": 64
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 126,
+      "nmnl_prod_sz_nm": "16 Cu. Ft.",
+      "mkg_prod_cat_id": 26,
+      "is_actv": 1,
+      "dsp_ord": 15
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 127,
+      "nmnl_prod_sz_nm": "14 Cu. Ft.",
+      "mkg_prod_cat_id": 34,
+      "is_actv": 1,
+      "dsp_ord": 13
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 128,
+      "nmnl_prod_sz_nm": "26\"",
+      "mkg_prod_cat_id": 6,
+      "is_actv": 1,
+      "dsp_ord": 430
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 129,
+      "nmnl_prod_sz_nm": "17 Cu. Ft.",
+      "mkg_prod_cat_id": 8,
+      "is_actv": 1,
+      "dsp_ord": 68
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 130,
+      "nmnl_prod_sz_nm": "12 Cu. Ft.",
+      "mkg_prod_cat_id": 8,
+      "is_actv": 1,
+      "dsp_ord": 63
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 131,
+      "nmnl_prod_sz_nm": "25 Cu. Ft.",
+      "mkg_prod_cat_id": 8,
+      "is_actv": 1,
+      "dsp_ord": 73
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 132,
+      "nmnl_prod_sz_nm": "21\"",
+      "mkg_prod_cat_id": 20,
+      "is_actv": 1,
+      "dsp_ord": 861
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 133,
+      "nmnl_prod_sz_nm": "48 Cu. Ft.",
+      "mkg_prod_cat_id": 26,
+      "is_actv": 1,
+      "dsp_ord": 26
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 134,
+      "nmnl_prod_sz_nm": "47 Cu. Ft.",
+      "mkg_prod_cat_id": 26,
+      "is_actv": 1,
+      "dsp_ord": 26
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 135,
+      "nmnl_prod_sz_nm": "24 Cu. Ft.",
+      "mkg_prod_cat_id": 26,
+      "is_actv": 1,
+      "dsp_ord": 22
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 136,
+      "nmnl_prod_sz_nm": "6 Cu. Ft.",
+      "mkg_prod_cat_id": 26,
+      "is_actv": 1,
+      "dsp_ord": 11
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 137,
+      "nmnl_prod_sz_nm": "13 Cu. Ft.",
+      "mkg_prod_cat_id": 26,
+      "is_actv": 1,
+      "dsp_ord": 13
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 138,
+      "nmnl_prod_sz_nm": "6 Cu. Ft.",
+      "mkg_prod_cat_id": 8,
+      "is_actv": 1,
+      "dsp_ord": 61
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 139,
+      "nmnl_prod_sz_nm": "23 Cu. Ft.",
+      "mkg_prod_cat_id": 8,
+      "is_actv": 1,
+      "dsp_ord": 72
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 140,
+      "nmnl_prod_sz_nm": "48 Cu. Ft.",
+      "mkg_prod_cat_id": 8,
+      "is_actv": 1,
+      "dsp_ord": 75
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 141,
+      "nmnl_prod_sz_nm": "27 Cu. Ft.",
+      "mkg_prod_cat_id": 8,
+      "is_actv": 1,
+      "dsp_ord": 74
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 142,
+      "nmnl_prod_sz_nm": "18 Cu. Ft.",
+      "mkg_prod_cat_id": 8,
+      "is_actv": 1,
+      "dsp_ord": 69
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 143,
+      "nmnl_prod_sz_nm": "11 Cu. Ft.",
+      "mkg_prod_cat_id": 26,
+      "is_actv": 1,
+      "dsp_ord": 11
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 144,
+      "nmnl_prod_sz_nm": "9 Cu. Ft.",
+      "mkg_prod_cat_id": 26,
+      "is_actv": 1,
+      "dsp_ord": 10
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 145,
+      "nmnl_prod_sz_nm": "3.25 Cu. Ft.",
+      "mkg_prod_cat_id": 38,
+      "is_actv": 1,
+      "dsp_ord": 4
+    },
+    {
+      "mkg_nmnl_prod_sz_id": 146,
+      "nmnl_prod_sz_nm": "1.76 Cu. Ft.",
+      "mkg_prod_cat_id": 26,
+      "is_actv": 1,
+      "dsp_ord": 2
+    }
+  ],
+}

@@ -14,33 +14,7 @@
 
 @implementation AppDelegate
 
-- (void) seedOld:(RKObjectManager *) objectManager {
-
-    RKManagedObjectMapping *brandMapping = [RKManagedObjectMapping mappingForEntityWithName:@"Brand" inManagedObjectStore:objectManager.objectStore];
-    brandMapping.primaryKeyAttribute = @"brandID";
-    [brandMapping mapKeyPath:@"id" toAttribute:@"brandID"];
-    [brandMapping mapKeyPath:@"name" toAttribute:@"name"];
-    [brandMapping mapKeyPath:@"display_order" toAttribute:@"displayOrder"];
-    [brandMapping mapKeyPath:@"children" toRelationship:@"children" withMapping:brandMapping];
-    
-    RKManagedObjectMapping *productCategoryMapping = [RKManagedObjectMapping mappingForEntityWithName:@"ProductCategory" inManagedObjectStore:objectManager.objectStore];
-    productCategoryMapping.primaryKeyAttribute = @"productCategoryID";
-    [productCategoryMapping mapKeyPath:@"id" toAttribute:@"productCategoryID"];
-    [productCategoryMapping mapKeyPath:@"name" toAttribute:@"name"];
-    [productCategoryMapping mapKeyPath:@"area_name" toAttribute:@"areaName"];
-    [productCategoryMapping mapKeyPath:@"display_order" toAttribute:@"displayOrder"];
-    [productCategoryMapping mapKeyPath:@"children" toRelationship:@"children" withMapping:productCategoryMapping];
-    
-    [brandMapping mapKeyPath:@"product_categories" toRelationship:@"productCategories" withMapping:productCategoryMapping];
-    
-    RKLogConfigureByName("RestKit/ObjectMapping", RKLogLevelDebug);
-    RKLogConfigureByName("RestKit/CoreData", RKLogLevelDebug);
-    
-    RKManagedObjectSeeder *seeder = [RKManagedObjectSeeder objectSeederWithObjectManager:objectManager];
-    [seeder seedObjectsFromFile:@"brands.json" withObjectMapping:brandMapping];
-    [seeder finalizeSeedingAndExit];
-}
-
+/**
 - (void) seedNew:(RKObjectManager *) objectManager {
     RKManagedObjectMapping *brandMapping = [RKManagedObjectMapping mappingForEntityWithName:@"Brand" inManagedObjectStore:objectManager.objectStore];
     brandMapping.primaryKeyAttribute = @"brandID";
@@ -126,23 +100,43 @@
     
     objectManager.objectStore = [RKManagedObjectStore objectStoreWithStoreFilename:databaseName usingSeedDatabaseName:seedDatabaseName managedObjectModel:nil delegate:self];
 }
+ */
+
+- (void) test {
+    NSLog(@"%@", IB_DOCUMENTS_DIR());
+    // [CoreDataTest createData];
+    // [CoreDataTest queryBrand];
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-/**
 #ifdef RESTKIT_GENERATE_SEED_DB
-    [self generateSeed];
+    [self initRKStore];
+    [self seed];
 #else
-    [self initDBIfNecessary];
-#endif 
- */
     [self createSeedIfNecessary];
+#endif
     [self test];
     // Override point for customization after application launch.
     UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
     UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
     splitViewController.delegate = (id)navigationController.topViewController;
     return YES;
+}
+
+NSString * DOCUMENTS_DIR() {
+    return IB_DOCUMENTS_DIR();
+}
+
+- (void)createSeedIfNecessary {
+    NSString * docDir = DOCUMENTS_DIR();
+    NSString * seedPath = [docDir stringByAppendingPathComponent:@"CoreDataStore.sqlite"];
+    if (NO == [[NSFileManager defaultManager] fileExistsAtPath:seedPath]) {
+        [self initRKStore];
+        [self seed];
+    } else {
+        NSLog(@"The seed database already exists in: %@", seedPath);
+    }
 }
 
 - (void)initRKStore {
@@ -232,30 +226,9 @@
     RKManagedObjectSeeder *seeder = [RKManagedObjectSeeder objectSeederWithObjectManager:objectManager];
     // [seeder seedObjectsFromFile:@"ECBrand.json" withObjectMapping:brandMapping];
     // use the associated mapping provider with the object manager
-    [seeder seedObjectsFromFiles:@"ECData.json", @"ECProducts.json", @"ECSku.json", nil];
+    // [seeder seedObjectsFromFiles:@"ECData.json", nil];
+    [seeder seedObjectsFromFiles:@"ECProducts.json", @"ECSku.json", nil];
     [seeder finalizeSeedingAndExit];
-}
-
-NSString * DOCUMENTS_DIR() {
-    return IB_DOCUMENTS_DIR();
-}
-
-- (void)createSeedIfNecessary {
-    NSString * docDir = DOCUMENTS_DIR();
-    NSString * seedPath = [docDir stringByAppendingPathComponent:@"CoreDataStore.sqlite"];
-    if (NO == [[NSFileManager defaultManager] fileExistsAtPath:seedPath]) {
-        [self initRKStore];
-        [self seed];
-    } else {
-        NSLog(@"The seed database already exists in: %@", seedPath);
-    }
-}
-
-
-- (void) test {
-    NSLog(@"%@", IB_DOCUMENTS_DIR());
-    // [CoreDataTest createData];
-    // [CoreDataTest queryBrand];
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application

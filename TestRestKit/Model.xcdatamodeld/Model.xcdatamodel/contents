@@ -15,6 +15,12 @@
         <relationship name="subBrands" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Brand" inverseName="topBrand" inverseEntity="Brand" syncable="YES"/>
         <relationship name="topBrand" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Brand" inverseName="subBrands" inverseEntity="Brand" syncable="YES"/>
     </entity>
+    <entity name="BrandModelYr" representedClassName="BrandModelYr" syncable="YES">
+        <attribute name="cd_val" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mkg_brnd_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="mkg_brnd_modl_yr_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="mkg_modl_yr_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
     <entity name="BrandProdCat" representedClassName="BrandProdCat" syncable="YES">
         <attribute name="mkg_brnd_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="mkg_brnd_prod_cat_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
@@ -22,6 +28,80 @@
         <attribute name="mkg_prod_cat_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <relationship name="brand" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Brand" inverseName="fkProdCatInfo" inverseEntity="Brand" syncable="YES"/>
         <relationship name="prodCat" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="ProductCategory" inverseName="fkBrandInfo" inverseEntity="ProductCategory" syncable="YES"/>
+    </entity>
+    <entity name="ChnlVisStatus" representedClassName="ChnlVisStatus" syncable="YES">
+        <attribute name="chnl_vis_stts_desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chnl_vis_stts_nm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dsp_ord" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="is_actv" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="is_protected" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="mkg_chnl_vis_stts_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="ConsumerVisStatus" representedClassName="ConsumerVisStatus" syncable="YES">
+        <attribute name="cons_vis_stts_desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cons_vis_stts_nm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dsp_ord" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="is_actv" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="is_protected" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="mkg_cons_vis_stts_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="InstallType" representedClassName="InstallType" syncable="YES">
+        <attribute name="dsp_ord" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="inst_typ_desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="inst_typ_nm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="is_actv" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="mkg_inst_typ_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="ModelYr" representedClassName="ModelYr" syncable="YES">
+        <attribute name="dsp_ord" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="effv_end_dt" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="effv_strt_dt" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="is_actv" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="mkg_modl_yr_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="modl_yr_note" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="modl_yr_val" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ProdDesc" representedClassName="ProdDesc" syncable="YES">
+        <attribute name="dsp_ord" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="is_actv" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="mkg_mkt_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="mkg_prod_prce_typ_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="prod_prce_typ_desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="prod_prce_typ_nm" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ProdLifeStatus" representedClassName="ProdLifeStatus" syncable="YES">
+        <attribute name="dsp_ord" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="is_actv" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="is_protected" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="mkg_prod_lif_stts_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="prod_lif_stts_nm" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ProdPowerType" representedClassName="ProdPowerType" syncable="YES">
+        <attribute name="dsp_ord" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="is_actv" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="mkg_nmnl_powr_typ_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="nmnl_powr_typ_nm" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ProdPrice" representedClassName="ProdPrice" syncable="YES">
+        <attribute name="mkg_prod_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="mkg_prod_prce_crnt_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="mkg_prod_prce_typ_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="prod_prce_amt" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="ProdPriceType" representedClassName="ProdPriceType" syncable="YES">
+        <attribute name="dsp_ord" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="is_actv" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="mkg_mkt_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="mkg_prod_prce_typ_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="prod_prce_typ_desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="prod_prce_typ_nm" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ProdSize" representedClassName="ProdSize" syncable="YES">
+        <attribute name="dsp_ord" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="is_actv" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="mkg_nmnl_prod_sz_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="mkg_prod_cat_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="nmnl_prod_sz_nm" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <entity name="Product" representedClassName="Product" syncable="YES">
         <attribute name="mkg_brnd_modl_yr_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
@@ -70,9 +150,20 @@
     <elements>
         <element name="Brand" positionX="-468" positionY="-0" width="128" height="240"/>
         <element name="BrandProdCat" positionX="-648" positionY="-126" width="128" height="135"/>
+        <element name="Product" positionX="-1089" positionY="-111" width="128" height="210"/>
         <element name="ProductArea" positionX="-873" positionY="153" width="128" height="135"/>
         <element name="ProductCategory" positionX="-666" positionY="63" width="128" height="195"/>
-        <element name="Product" positionX="-839" positionY="-90" width="128" height="210"/>
-        <element name="ProdVrnt" positionX="-837" positionY="-180" width="128" height="180"/>
+        <element name="ProdVrnt" positionX="-1296" positionY="-81" width="128" height="180"/>
+        <element name="ProdDesc" positionX="-1080" positionY="-297" width="128" height="135"/>
+        <element name="ProdPriceType" positionX="160" positionY="192" width="128" height="135"/>
+        <element name="ProdPrice" positionX="160" positionY="192" width="128" height="105"/>
+        <element name="ConsumerVisStatus" positionX="160" positionY="192" width="128" height="135"/>
+        <element name="ProdPowerType" positionX="160" positionY="192" width="128" height="105"/>
+        <element name="BrandModelYr" positionX="160" positionY="192" width="128" height="105"/>
+        <element name="InstallType" positionX="160" positionY="192" width="128" height="120"/>
+        <element name="ModelYr" positionX="160" positionY="192" width="128" height="150"/>
+        <element name="ProdLifeStatus" positionX="160" positionY="192" width="128" height="120"/>
+        <element name="ChnlVisStatus" positionX="160" positionY="192" width="128" height="135"/>
+        <element name="ProdSize" positionX="160" positionY="192" width="128" height="120"/>
     </elements>
 </model>

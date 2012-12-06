@@ -31,6 +31,16 @@
                  "show_sub_brnd": 0
                  },
                  {
+                 "mkg_brnd_id": 21,
+                 "prnt_brnd_id": 1,
+                 "top_brnd_id": 1,
+                 "brnd_nm": "Electrolux Mock",
+                 "is_internal": 1,
+                 "mkg_dig_aset_ownr_id": 9866,
+                 "dsp_ord": 3,
+                 "show_sub_brnd": 0
+                 },
+                 {
                  "mkg_brnd_id": 4,
                  "prnt_brnd_id": 2,
                  "top_brnd_id": 1,
