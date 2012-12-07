@@ -1,6 +1,7 @@
 {
 	"MKG_CONS_VIS_STTS": [
 		{
+          "mkg_cons_vis_stts_id" : 1,
 		  "cons_vis_stts_nm": "Undetermined",
 		  "cons_vis_stts_desc": "Undetermined",
 		  "is_actv": 1,
@@ -8,6 +9,7 @@
 		  "dsp_ord": 1
 		},
 		{
+          "mkg_cons_vis_stts_id" : 2,
 		  "cons_vis_stts_nm": "Future",
 		  "cons_vis_stts_desc": "Future",
 		  "is_actv": 1,
@@ -15,6 +17,7 @@
 		  "dsp_ord": 2
 		},
 		{
+          "mkg_cons_vis_stts_id" : 3,
 		  "cons_vis_stts_nm": "Published",
 		  "cons_vis_stts_desc": "Published",
 		  "is_actv": 1,
@@ -22,6 +25,7 @@
 		  "dsp_ord": 3
 		},
 		{
+          "mkg_cons_vis_stts_id" : 4,
 		  "cons_vis_stts_nm": "Active",
 		  "cons_vis_stts_desc": "Active",
 		  "is_actv": 1,
@@ -29,6 +33,7 @@
 		  "dsp_ord": 4
 		},
 		{
+          "mkg_cons_vis_stts_id" : 5,
 		  "cons_vis_stts_nm": "Obsolete",
 		  "cons_vis_stts_desc": "Obselete",
 		  "is_actv": 1,
@@ -36,6 +41,7 @@
 		  "dsp_ord": 5
 		},
 		{
+          "mkg_cons_vis_stts_id" : 6,
 		  "cons_vis_stts_nm": "DIGITAL USE ONLY",
 		  "cons_vis_stts_desc": "",
 		  "is_actv": 1,
@@ -1903,5 +1909,5 @@
       "is_actv": 1,
       "dsp_ord": 2
     }
-  ],
+  ]
 }

@@ -203,35 +203,116 @@ NSString * DOCUMENTS_DIR() {
     
     [objectManager.mappingProvider setMapping:brandProdCatMapping forKeyPath:@"MKG_BRND_PROD_CAT"];
     
+    // ------------------------------------- Products -------------------------------------
+    
+    // model year
+    RKManagedObjectMapping * modelYrMapping = [RKManagedObjectMapping mappingForEntityWithName:@"ModelYr" inManagedObjectStore:objectManager.objectStore];
+    modelYrMapping.primaryKeyAttribute = @"mkg_modl_yr_id";
+    [modelYrMapping mapAttributes:@"mkg_modl_yr_id", @"effv_end_dt", @"effv_strt_dt", @"modl_yr_note", @"modl_yr_val", @"is_actv", @"dsp_ord", nil];
+    [objectManager.mappingProvider setMapping:modelYrMapping forKeyPath:@"MKG_MODL_YR"];
+    
+    RKManagedObjectMapping * brandModelYrMapping = [RKManagedObjectMapping mappingForEntityWithName:@"BrandModelYr" inManagedObjectStore:objectManager.objectStore];
+    brandModelYrMapping.primaryKeyAttribute = @"mkg_brnd_modl_yr_id";
+    [brandModelYrMapping mapAttributes:@"mkg_brnd_modl_yr_id", @"cd_val", @"mkg_brnd_id", @"mkg_modl_yr_id", nil];
+    [brandModelYrMapping hasOne:@"modelYr" withMapping:modelYrMapping];
+    [brandModelYrMapping connectRelationship:@"modelYr" withObjectForPrimaryKeyAttribute:@"mkg_modl_yr_id"];
+    [objectManager.mappingProvider setMapping:brandModelYrMapping forKeyPath:@"MKG_BRND_MODL_YR"];
+    
+    // other product properties    
+    RKManagedObjectMapping * prodDescMapping = [RKManagedObjectMapping mappingForEntityWithName:@"ProdDesc" inManagedObjectStore:objectManager.objectStore];
+    prodDescMapping.primaryKeyAttribute = @"mkg_prod_desc_id";
+    [prodDescMapping mapAttributes:@"mkg_prod_desc_id", @"prod_desc_shrt", @"mkg_brnd_prod_cat_id", @"mkg_brnd_id", @"is_actv", @"dsp_ord", nil];
+    [objectManager.mappingProvider setMapping:prodDescMapping forKeyPath:@"MKG_PROD_DESC"];
+    
+    RKManagedObjectMapping * prodInsTypeMapping = [RKManagedObjectMapping mappingForEntityWithName:@"InstallType" inManagedObjectStore:objectManager.objectStore];
+    prodInsTypeMapping.primaryKeyAttribute = @"mkg_inst_typ_id";
+    [prodInsTypeMapping mapAttributes:@"mkg_inst_typ_id", @"is_actv", @"inst_typ_nm", @"inst_typ_desc", @"dsp_ord", nil];
+    [objectManager.mappingProvider setMapping:prodInsTypeMapping forKeyPath:@"MKG_INST_TYP"];
+    
+    RKManagedObjectMapping * powerTypeMapping = [RKManagedObjectMapping mappingForEntityWithName:@"ProdPowerType" inManagedObjectStore:objectManager.objectStore];
+    powerTypeMapping.primaryKeyAttribute = @"mkg_nmnl_powr_typ_id";
+    [powerTypeMapping mapAttributes:@"mkg_nmnl_powr_typ_id", @"is_actv", @"nmnl_powr_typ_nm", @"dsp_ord", nil];
+    [objectManager.mappingProvider setMapping:powerTypeMapping forKeyPath:@"MKG_NMNL_POWR_TYP"];
+    
+    RKManagedObjectMapping * prodSizeMapping = [RKManagedObjectMapping mappingForEntityWithName:@"ProdSize" inManagedObjectStore:objectManager.objectStore];
+    prodSizeMapping.primaryKeyAttribute = @"mkg_nmnl_prod_sz_id";
+    [prodSizeMapping mapAttributes:@"mkg_nmnl_prod_sz_id", @"is_actv", @"mkg_prod_cat_id", @"dsp_ord", @"nmnl_prod_sz_nm", nil];
+    [objectManager.mappingProvider setMapping:prodSizeMapping forKeyPath:@"MKG_NMNL_PROD_SZ"];
+    
+    RKManagedObjectMapping * prodLifeMapping = [RKManagedObjectMapping mappingForEntityWithName:@"ProdLifeStatus" inManagedObjectStore:objectManager.objectStore];
+    prodLifeMapping.primaryKeyAttribute = @"mkg_prod_lif_stts_id";
+    [prodLifeMapping mapAttributes:@"mkg_prod_lif_stts_id", @"is_actv", @"is_protected", @"dsp_ord", @"prod_lif_stts_nm", nil];
+    [objectManager.mappingProvider setMapping:prodLifeMapping forKeyPath:@"MKG_PROD_LIF_STTS"];
+    
     // below are for product and product variant
     
     RKManagedObjectMapping * productMapping = [RKManagedObjectMapping mappingForEntityWithName:@"Product" inManagedObjectStore:objectManager.objectStore];
     productMapping.primaryKeyAttribute = @"mkg_prod_id";
     [productMapping mapAttributes:@"mkg_prod_id", @"prod_cd", @"mkg_brnd_prod_cat_id", @"mkg_brnd_modl_yr_id", @"mkg_inst_typ_id", @"mkg_prod_desc_id", @"mkg_nmnl_powr_typ_id", @"mkg_nmnl_prod_sz_id", @"mkg_prod_lif_stts_id", @"mkg_dig_aset_ownr_id",  nil];
-    
+    [productMapping hasOne:@"installType" withMapping:prodInsTypeMapping];
+    [productMapping connectRelationship:@"installType" withObjectForPrimaryKeyAttribute:@"mkg_inst_typ_id"];
+    [productMapping hasOne:@"lifeCycleStatus" withMapping:prodLifeMapping];
+    [productMapping connectRelationship:@"lifeCycleStatus" withObjectForPrimaryKeyAttribute:@"mkg_prod_lif_stts_id"];
+    [productMapping hasOne:@"powerType" withMapping:powerTypeMapping];
+    [productMapping connectRelationship:@"powerType" withObjectForPrimaryKeyAttribute:@"mkg_nmnl_powr_typ_id"];
+    [productMapping hasOne:@"prodDesc" withMapping:prodDescMapping];
+    [productMapping connectRelationship:@"prodDesc" withObjectForPrimaryKeyAttribute:@"mkg_prod_desc_id"];
+    [productMapping hasOne:@"prodSize" withMapping:prodSizeMapping];
+    [productMapping connectRelationship:@"prodSize" withObjectForPrimaryKeyAttribute:@"mkg_nmnl_prod_sz_id"];
+    [productMapping hasOne:@"modelYr" withMapping:brandModelYrMapping];
+    [productMapping connectRelationship:@"modelYr" withObjectForPrimaryKeyAttribute:@"mkg_brnd_modl_yr_id"];
     [objectManager.mappingProvider setMapping:productMapping forKeyPath:@"MKG_PROD"];
     
+    // priceType and price
+    RKManagedObjectMapping * priceTypeMapping = [RKManagedObjectMapping mappingForEntityWithName:@"ProdPriceType" inManagedObjectStore:objectManager.objectStore];
+    priceTypeMapping.primaryKeyAttribute = @"mkg_prod_prce_typ_id";
+    [priceTypeMapping mapAttributes:@"mkg_prod_prce_typ_id", @"mkg_mkt_id", @"prod_prce_typ_desc", @"prod_prce_typ_nm", @"is_actv", @"dsp_ord", nil];
+    [objectManager.mappingProvider setMapping:priceTypeMapping forKeyPath:@"MKG_PROD_PRCE_TYP"];
+    
+    RKManagedObjectMapping * priceInfoMapping = [RKManagedObjectMapping mappingForEntityWithName:@"ProdPrice" inManagedObjectStore:objectManager.objectStore];
+    priceInfoMapping.primaryKeyAttribute = @"mkg_prod_prce_crnt_id";
+    [priceInfoMapping mapAttributes:@"mkg_prod_prce_crnt_id", @"mkg_prod_id", @"mkg_prod_prce_typ_id", @"prod_prce_amt", nil];
+    [priceInfoMapping hasOne:@"priceType" withMapping:priceTypeMapping];
+    [priceInfoMapping connectRelationship:@"priceType" withObjectForPrimaryKeyAttribute:@"mkg_prod_prce_typ_id"];
+    [priceInfoMapping hasOne:@"product" withMapping:productMapping];
+    [priceInfoMapping connectRelationship:@"product" withObjectForPrimaryKeyAttribute:@"mkg_prod_id"];
+    [objectManager.mappingProvider setMapping:priceInfoMapping forKeyPath:@"MKG_PROD_PRCE_CRNT"];
+    
+    //--------------------------------- PROD VRNT --------------------------------
+    
+    RKManagedObjectMapping * consVisStatus = [RKManagedObjectMapping mappingForEntityWithName:@"ConsumerVisStatus" inManagedObjectStore:objectManager.objectStore];
+    consVisStatus.primaryKeyAttribute = @"mkg_cons_vis_stts_id";
+    [consVisStatus mapAttributes:@"mkg_cons_vis_stts_id", @"is_actv", @"is_protected", @"dsp_ord", @"cons_vis_stts_desc", @"cons_vis_stts_nm", nil];
+    [objectManager.mappingProvider setMapping:consVisStatus forKeyPath:@"MKG_CONS_VIS_STTS"];
+    
+    RKManagedObjectMapping * chnlVisStatus = [RKManagedObjectMapping mappingForEntityWithName:@"ChnlVisStatus" inManagedObjectStore:objectManager.objectStore];
+    chnlVisStatus.primaryKeyAttribute = @"mkg_chnl_vis_stts_id";
+    [chnlVisStatus mapAttributes:@"mkg_chnl_vis_stts_id", @"is_actv", @"is_protected", @"dsp_ord", @"chnl_vis_stts_nm", @"chnl_vis_stts_desc", nil];
+    [objectManager.mappingProvider setMapping:chnlVisStatus forKeyPath:@"MKG_CHNL_VIS_STTS"];
     
     RKManagedObjectMapping * prodVrntMapping = [RKManagedObjectMapping mappingForEntityWithName:@"ProdVrnt" inManagedObjectStore:objectManager.objectStore];
     prodVrntMapping.primaryKeyAttribute = @"mkg_prod_vrnt_id";
     [prodVrntMapping mapAttributes:@"mkg_prod_vrnt_id", @"mkg_prod_id", @"mkg_vrtn_typ_cd_id", @"prod_vrnt_sku", @"prod_vrnt_upc", @"mkg_cons_vis_stts_id", @"mkg_chnl_vis_stts_id", @"mkg_dig_aset_ownr_id", nil];
     [prodVrntMapping hasOne:@"product" withMapping:productMapping];
     [prodVrntMapping connectRelationship:@"product" withObjectForPrimaryKeyAttribute:@"mkg_prod_id"];
+    [prodVrntMapping hasOne:@"chnlVisStatus" withMapping:chnlVisStatus];
+    [prodVrntMapping connectRelationship:@"chnlVisStatus" withObjectForPrimaryKeyAttribute:@"mkg_chnl_vis_stts_id"];
+    [prodVrntMapping hasOne:@"consumerVisStatus" withMapping:consVisStatus];
+    [prodVrntMapping connectRelationship:@"consumerVisStatus" withObjectForPrimaryKeyAttribute:@"mkg_cons_vis_stts_id"];
     
     [objectManager.mappingProvider setMapping:prodVrntMapping forKeyPath:@"MKG_PROD_VRNT"];
-    
-    RKManagedObjectMapping * prodDescMapping = [RKManagedObjectMapping mappingForEntityWithName:@"ProdDesc" inManagedObjectStore:objectManager.objectStore];
-    prodDescMapping.primaryKeyAttribute = @"mkg_prod_desc_id";
-    [prodDescMapping mapAttributes:@"mkg_prod_desc_id", @"prod_desc_shrt", @"mkg_brnd_prod_cat_id", @"mkg_brnd_id", @"is_actv", @"dsp_ord", nil];
-    
     
     RKLogConfigureByName("RestKit/ObjectMapping", RKLogLevelDebug);
     RKLogConfigureByName("RestKit/CoreData", RKLogLevelDebug);
     
     RKManagedObjectSeeder *seeder = [RKManagedObjectSeeder objectSeederWithObjectManager:objectManager];
-    // [seeder seedObjectsFromFile:@"ECBrand.json" withObjectMapping:brandMapping];
     // use the associated mapping provider with the object manager
-    // [seeder seedObjectsFromFiles:@"ECData.json", nil];
+    [seeder seedObjectsFromFiles:@"ECData.json", nil];
+    
+    // products related
+    [seeder seedObjectsFromFiles:@"ECProdPrice.json", nil];
+    [seeder seedObjectsFromFiles:@"ECProdDesc.json", nil];
+    [seeder seedObjectsFromFiles:@"ECProdMisc.json", nil];
     [seeder seedObjectsFromFiles:@"ECProducts.json", @"ECSku.json", nil];
     [seeder finalizeSeedingAndExit];
 }

@@ -96,7 +96,7 @@
         <attribute name="mkg_prod_prce_crnt_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="mkg_prod_prce_typ_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="prod_prce_amt" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
-        <relationship name="prictType" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="ProdPriceType" inverseName="fkPrices" inverseEntity="ProdPriceType" syncable="YES"/>
+        <relationship name="priceType" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="ProdPriceType" inverseName="fkPrices" inverseEntity="ProdPriceType" syncable="YES"/>
         <relationship name="product" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Product" inverseName="fkPrices" inverseEntity="Product" syncable="YES"/>
     </entity>
     <entity name="ProdPriceType" representedClassName="ProdPriceType" syncable="YES">
@@ -106,7 +106,7 @@
         <attribute name="mkg_prod_prce_typ_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="prod_prce_typ_desc" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="prod_prce_typ_nm" optional="YES" attributeType="String" syncable="YES"/>
-        <relationship name="fkPrices" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ProdPrice" inverseName="prictType" inverseEntity="ProdPrice" syncable="YES"/>
+        <relationship name="fkPrices" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ProdPrice" inverseName="priceType" inverseEntity="ProdPrice" syncable="YES"/>
     </entity>
     <entity name="ProdSize" representedClassName="ProdSize" syncable="YES">
         <attribute name="dsp_ord" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>

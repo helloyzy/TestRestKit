@@ -18,12 +18,26 @@ extern const struct ProductAttributes {
 } ProductAttributes;
 
 extern const struct ProductRelationships {
+	__unsafe_unretained NSString *fkPrices;
+	__unsafe_unretained NSString *installType;
+	__unsafe_unretained NSString *lifeCycleStatus;
+	__unsafe_unretained NSString *modelYr;
+	__unsafe_unretained NSString *powerType;
+	__unsafe_unretained NSString *prodDesc;
+	__unsafe_unretained NSString *prodSize;
 	__unsafe_unretained NSString *prodVrnts;
 } ProductRelationships;
 
 extern const struct ProductFetchedProperties {
 } ProductFetchedProperties;
 
+@class ProdPrice;
+@class InstallType;
+@class ProdLifeStatus;
+@class BrandModelYr;
+@class ProdPowerType;
+@class ProdDesc;
+@class ProdSize;
 @class ProdVrnt;
 
 
@@ -186,6 +200,55 @@ extern const struct ProductFetchedProperties {
 
 
 
+@property (nonatomic, strong) NSSet *fkPrices;
+
+- (NSMutableSet*)fkPricesSet;
+
+
+
+
+@property (nonatomic, strong) InstallType *installType;
+
+//- (BOOL)validateInstallType:(id*)value_ error:(NSError**)error_;
+
+
+
+
+@property (nonatomic, strong) ProdLifeStatus *lifeCycleStatus;
+
+//- (BOOL)validateLifeCycleStatus:(id*)value_ error:(NSError**)error_;
+
+
+
+
+@property (nonatomic, strong) BrandModelYr *modelYr;
+
+//- (BOOL)validateModelYr:(id*)value_ error:(NSError**)error_;
+
+
+
+
+@property (nonatomic, strong) ProdPowerType *powerType;
+
+//- (BOOL)validatePowerType:(id*)value_ error:(NSError**)error_;
+
+
+
+
+@property (nonatomic, strong) ProdDesc *prodDesc;
+
+//- (BOOL)validateProdDesc:(id*)value_ error:(NSError**)error_;
+
+
+
+
+@property (nonatomic, strong) ProdSize *prodSize;
+
+//- (BOOL)validateProdSize:(id*)value_ error:(NSError**)error_;
+
+
+
+
 @property (nonatomic, strong) NSSet *prodVrnts;
 
 - (NSMutableSet*)prodVrntsSet;
@@ -197,6 +260,11 @@ extern const struct ProductFetchedProperties {
 @end
 
 @interface _Product (CoreDataGeneratedAccessors)
+
+- (void)addFkPrices:(NSSet*)value_;
+- (void)removeFkPrices:(NSSet*)value_;
+- (void)addFkPricesObject:(ProdPrice*)value_;
+- (void)removeFkPricesObject:(ProdPrice*)value_;
 
 - (void)addProdVrnts:(NSSet*)value_;
 - (void)removeProdVrnts:(NSSet*)value_;
@@ -293,6 +361,41 @@ extern const struct ProductFetchedProperties {
 - (void)setPrimitiveProd_cd:(NSString*)value;
 
 
+
+
+
+- (NSMutableSet*)primitiveFkPrices;
+- (void)setPrimitiveFkPrices:(NSMutableSet*)value;
+
+
+
+- (InstallType*)primitiveInstallType;
+- (void)setPrimitiveInstallType:(InstallType*)value;
+
+
+
+- (ProdLifeStatus*)primitiveLifeCycleStatus;
+- (void)setPrimitiveLifeCycleStatus:(ProdLifeStatus*)value;
+
+
+
+- (BrandModelYr*)primitiveModelYr;
+- (void)setPrimitiveModelYr:(BrandModelYr*)value;
+
+
+
+- (ProdPowerType*)primitivePowerType;
+- (void)setPrimitivePowerType:(ProdPowerType*)value;
+
+
+
+- (ProdDesc*)primitiveProdDesc;
+- (void)setPrimitiveProdDesc:(ProdDesc*)value;
+
+
+
+- (ProdSize*)primitiveProdSize;
+- (void)setPrimitiveProdSize:(ProdSize*)value;
 
 
 
