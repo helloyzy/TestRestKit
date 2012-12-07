@@ -220,6 +220,11 @@ NSString * DOCUMENTS_DIR() {
     
     [objectManager.mappingProvider setMapping:prodVrntMapping forKeyPath:@"MKG_PROD_VRNT"];
     
+    RKManagedObjectMapping * prodDescMapping = [RKManagedObjectMapping mappingForEntityWithName:@"ProdDesc" inManagedObjectStore:objectManager.objectStore];
+    prodDescMapping.primaryKeyAttribute = @"mkg_prod_desc_id";
+    [prodDescMapping mapAttributes:@"mkg_prod_desc_id", @"prod_desc_shrt", @"mkg_brnd_prod_cat_id", @"mkg_brnd_id", @"is_actv", @"dsp_ord", nil];
+    
+    
     RKLogConfigureByName("RestKit/ObjectMapping", RKLogLevelDebug);
     RKLogConfigureByName("RestKit/CoreData", RKLogLevelDebug);
     
