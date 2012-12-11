@@ -21,9 +21,10 @@ extern const struct ProductRelationships {
 	__unsafe_unretained NSString *fkPrices;
 	__unsafe_unretained NSString *installType;
 	__unsafe_unretained NSString *lifeCycleStatus;
-	__unsafe_unretained NSString *modelYr;
 	__unsafe_unretained NSString *powerType;
+	__unsafe_unretained NSString *prodAttrSets;
 	__unsafe_unretained NSString *prodDesc;
+	__unsafe_unretained NSString *prodFetrVrnts;
 	__unsafe_unretained NSString *prodSize;
 	__unsafe_unretained NSString *prodVrnts;
 } ProductRelationships;
@@ -34,9 +35,10 @@ extern const struct ProductFetchedProperties {
 @class ProdPrice;
 @class InstallType;
 @class ProdLifeStatus;
-@class BrandModelYr;
 @class ProdPowerType;
+@class ProdAttrSet;
 @class ProdDesc;
+@class ProdFeatureVrnt;
 @class ProdSize;
 @class ProdVrnt;
 
@@ -221,13 +223,6 @@ extern const struct ProductFetchedProperties {
 
 
 
-@property (nonatomic, strong) BrandModelYr *modelYr;
-
-//- (BOOL)validateModelYr:(id*)value_ error:(NSError**)error_;
-
-
-
-
 @property (nonatomic, strong) ProdPowerType *powerType;
 
 //- (BOOL)validatePowerType:(id*)value_ error:(NSError**)error_;
@@ -235,9 +230,23 @@ extern const struct ProductFetchedProperties {
 
 
 
+@property (nonatomic, strong) NSSet *prodAttrSets;
+
+- (NSMutableSet*)prodAttrSetsSet;
+
+
+
+
 @property (nonatomic, strong) ProdDesc *prodDesc;
 
 //- (BOOL)validateProdDesc:(id*)value_ error:(NSError**)error_;
+
+
+
+
+@property (nonatomic, strong) NSSet *prodFetrVrnts;
+
+- (NSMutableSet*)prodFetrVrntsSet;
 
 
 
@@ -265,6 +274,16 @@ extern const struct ProductFetchedProperties {
 - (void)removeFkPrices:(NSSet*)value_;
 - (void)addFkPricesObject:(ProdPrice*)value_;
 - (void)removeFkPricesObject:(ProdPrice*)value_;
+
+- (void)addProdAttrSets:(NSSet*)value_;
+- (void)removeProdAttrSets:(NSSet*)value_;
+- (void)addProdAttrSetsObject:(ProdAttrSet*)value_;
+- (void)removeProdAttrSetsObject:(ProdAttrSet*)value_;
+
+- (void)addProdFetrVrnts:(NSSet*)value_;
+- (void)removeProdFetrVrnts:(NSSet*)value_;
+- (void)addProdFetrVrntsObject:(ProdFeatureVrnt*)value_;
+- (void)removeProdFetrVrntsObject:(ProdFeatureVrnt*)value_;
 
 - (void)addProdVrnts:(NSSet*)value_;
 - (void)removeProdVrnts:(NSSet*)value_;
@@ -379,18 +398,23 @@ extern const struct ProductFetchedProperties {
 
 
 
-- (BrandModelYr*)primitiveModelYr;
-- (void)setPrimitiveModelYr:(BrandModelYr*)value;
-
-
-
 - (ProdPowerType*)primitivePowerType;
 - (void)setPrimitivePowerType:(ProdPowerType*)value;
 
 
 
+- (NSMutableSet*)primitiveProdAttrSets;
+- (void)setPrimitiveProdAttrSets:(NSMutableSet*)value;
+
+
+
 - (ProdDesc*)primitiveProdDesc;
 - (void)setPrimitiveProdDesc:(ProdDesc*)value;
+
+
+
+- (NSMutableSet*)primitiveProdFetrVrnts;
+- (void)setPrimitiveProdFetrVrnts:(NSMutableSet*)value;
 
 
 

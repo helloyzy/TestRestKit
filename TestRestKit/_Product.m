@@ -20,9 +20,10 @@ const struct ProductRelationships ProductRelationships = {
 	.fkPrices = @"fkPrices",
 	.installType = @"installType",
 	.lifeCycleStatus = @"lifeCycleStatus",
-	.modelYr = @"modelYr",
 	.powerType = @"powerType",
+	.prodAttrSets = @"prodAttrSets",
 	.prodDesc = @"prodDesc",
+	.prodFetrVrnts = @"prodFetrVrnts",
 	.prodSize = @"prodSize",
 	.prodVrnts = @"prodVrnts",
 };
@@ -370,16 +371,38 @@ const struct ProductFetchedProperties ProductFetchedProperties = {
 
 	
 
-@dynamic modelYr;
-
-	
-
 @dynamic powerType;
 
 	
 
+@dynamic prodAttrSets;
+
+	
+- (NSMutableSet*)prodAttrSetsSet {
+	[self willAccessValueForKey:@"prodAttrSets"];
+  
+	NSMutableSet *result = (NSMutableSet*)[self mutableSetValueForKey:@"prodAttrSets"];
+  
+	[self didAccessValueForKey:@"prodAttrSets"];
+	return result;
+}
+	
+
 @dynamic prodDesc;
 
+	
+
+@dynamic prodFetrVrnts;
+
+	
+- (NSMutableSet*)prodFetrVrntsSet {
+	[self willAccessValueForKey:@"prodFetrVrnts"];
+  
+	NSMutableSet *result = (NSMutableSet*)[self mutableSetValueForKey:@"prodFetrVrnts"];
+  
+	[self didAccessValueForKey:@"prodFetrVrnts"];
+	return result;
+}
 	
 
 @dynamic prodSize;

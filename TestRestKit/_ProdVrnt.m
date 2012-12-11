@@ -18,6 +18,7 @@ const struct ProdVrntRelationships ProdVrntRelationships = {
 	.chnlVisStatus = @"chnlVisStatus",
 	.consumerVisStatus = @"consumerVisStatus",
 	.product = @"product",
+	.vrtnTypeCode = @"vrtnTypeCode",
 };
 
 const struct ProdVrntFetchedProperties ProdVrntFetchedProperties = {
@@ -265,6 +266,10 @@ const struct ProdVrntFetchedProperties ProdVrntFetchedProperties = {
 	
 
 @dynamic product;
+
+	
+
+@dynamic vrtnTypeCode;
 
 	
 

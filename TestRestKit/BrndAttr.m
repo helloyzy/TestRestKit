@@ -1,14 +1,14 @@
-#import "ModelYr.h"
+#import "BrndAttr.h"
 
 
-@interface ModelYr ()
+@interface BrndAttr ()
 
 // Private interface goes here.
 
 @end
 
 
-@implementation ModelYr
+@implementation BrndAttr
 
 // Custom logic goes here.
 

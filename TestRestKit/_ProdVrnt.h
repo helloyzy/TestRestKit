@@ -19,6 +19,7 @@ extern const struct ProdVrntRelationships {
 	__unsafe_unretained NSString *chnlVisStatus;
 	__unsafe_unretained NSString *consumerVisStatus;
 	__unsafe_unretained NSString *product;
+	__unsafe_unretained NSString *vrtnTypeCode;
 } ProdVrntRelationships;
 
 extern const struct ProdVrntFetchedProperties {
@@ -27,6 +28,7 @@ extern const struct ProdVrntFetchedProperties {
 @class ChnlVisStatus;
 @class ConsumerVisStatus;
 @class Product;
+@class VrtnTypeCode;
 
 
 
@@ -175,6 +177,13 @@ extern const struct ProdVrntFetchedProperties {
 
 
 
+@property (nonatomic, strong) VrtnTypeCode *vrtnTypeCode;
+
+//- (BOOL)validateVrtnTypeCode:(id*)value_ error:(NSError**)error_;
+
+
+
+
 
 @end
 
@@ -264,6 +273,11 @@ extern const struct ProdVrntFetchedProperties {
 
 - (Product*)primitiveProduct;
 - (void)setPrimitiveProduct:(Product*)value;
+
+
+
+- (VrtnTypeCode*)primitiveVrtnTypeCode;
+- (void)setPrimitiveVrtnTypeCode:(VrtnTypeCode*)value;
 
 
 @end
