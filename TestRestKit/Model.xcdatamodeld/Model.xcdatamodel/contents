@@ -65,24 +65,6 @@
         <attribute name="mkg_brnd_prod_cat_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="mkg_dig_aset_ownr_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
     </entity>
-    <entity name="ChnlVisStatus" representedClassName="ChnlVisStatus" syncable="YES">
-        <attribute name="chnl_vis_stts_desc" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="chnl_vis_stts_nm" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="dsp_ord" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
-        <attribute name="is_actv" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
-        <attribute name="is_protected" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
-        <attribute name="mkg_chnl_vis_stts_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
-        <relationship name="prodVrnts" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ProdVrnt" inverseName="chnlVisStatus" inverseEntity="ProdVrnt" syncable="YES"/>
-    </entity>
-    <entity name="ConsumerVisStatus" representedClassName="ConsumerVisStatus" syncable="YES">
-        <attribute name="cons_vis_stts_desc" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="cons_vis_stts_nm" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="dsp_ord" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
-        <attribute name="is_actv" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
-        <attribute name="is_protected" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
-        <attribute name="mkg_cons_vis_stts_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
-        <relationship name="prodVrnts" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ProdVrnt" inverseName="consumerVisStatus" inverseEntity="ProdVrnt" syncable="YES"/>
-    </entity>
     <entity name="FeatureVrnt" representedClassName="FeatureVrnt" syncable="YES">
         <attribute name="bult_txt_proc" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="desc_proc" optional="YES" attributeType="String" syncable="YES"/>
@@ -228,8 +210,6 @@
         <attribute name="mkg_vrtn_typ_cd_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="prod_vrnt_sku" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="prod_vrnt_upc" optional="YES" attributeType="String" syncable="YES"/>
-        <relationship name="chnlVisStatus" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="ChnlVisStatus" inverseName="prodVrnts" inverseEntity="ChnlVisStatus" syncable="YES"/>
-        <relationship name="consumerVisStatus" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="ConsumerVisStatus" inverseName="prodVrnts" inverseEntity="ConsumerVisStatus" syncable="YES"/>
         <relationship name="product" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Product" inverseName="prodVrnts" inverseEntity="Product" syncable="YES"/>
         <relationship name="vrtnTypeCode" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="VrtnTypeCode" inverseName="prodVrtns" inverseEntity="VrtnTypeCode" syncable="YES"/>
     </entity>
@@ -246,8 +226,6 @@
     <elements>
         <element name="Brand" positionX="-468" positionY="-0" width="128" height="240"/>
         <element name="BrandProdCat" positionX="-648" positionY="-126" width="128" height="135"/>
-        <element name="ChnlVisStatus" positionX="-1757" positionY="-234" width="128" height="150"/>
-        <element name="ConsumerVisStatus" positionX="-1809" positionY="54" width="128" height="150"/>
         <element name="InstallType" positionX="-1323" positionY="-315" width="128" height="135"/>
         <element name="ProdDesc" positionX="-1118" positionY="-348" width="128" height="150"/>
         <element name="ProdLifeStatus" positionX="-1307" positionY="-63" width="128" height="135"/>
@@ -258,7 +236,7 @@
         <element name="Product" positionX="-1089" positionY="-111" width="128" height="330"/>
         <element name="ProductArea" positionX="-873" positionY="153" width="128" height="135"/>
         <element name="ProductCategory" positionX="-666" positionY="63" width="128" height="195"/>
-        <element name="ProdVrnt" positionX="-1521" positionY="-9" width="128" height="225"/>
+        <element name="ProdVrnt" positionX="-1521" positionY="-9" width="128" height="195"/>
         <element name="VrtnTypeCode" positionX="-1532" positionY="279" width="128" height="165"/>
         <element name="ProdFeatureVrnt" positionX="-1512" positionY="-222" width="128" height="150"/>
         <element name="BrndCatFvnt" positionX="-1458" positionY="-432" width="128" height="150"/>

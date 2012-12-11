@@ -160,10 +160,6 @@
 		00D6107E1670805C002ECCBB /* ECProdMisc.json in Resources */ = {isa = PBXBuildFile; fileRef = 00D6102F16707F9B002ECCBB /* ECProdMisc.json */; };
 		00E3F9FB167097DD0017B783 /* ECProdPrice.json in Resources */ = {isa = PBXBuildFile; fileRef = 00E3F9FA167097DD0017B783 /* ECProdPrice.json */; };
 		00E3F9FC167097E90017B783 /* ECProdPrice.json in Resources */ = {isa = PBXBuildFile; fileRef = 00E3F9FA167097DD0017B783 /* ECProdPrice.json */; };
-		00E3FA231671A32D0017B783 /* _ChnlVisStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E3FA0E1671A32D0017B783 /* _ChnlVisStatus.m */; };
-		00E3FA241671A32D0017B783 /* _ChnlVisStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E3FA0E1671A32D0017B783 /* _ChnlVisStatus.m */; };
-		00E3FA251671A32D0017B783 /* _ConsumerVisStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E3FA101671A32D0017B783 /* _ConsumerVisStatus.m */; };
-		00E3FA261671A32D0017B783 /* _ConsumerVisStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E3FA101671A32D0017B783 /* _ConsumerVisStatus.m */; };
 		00E3FA271671A32D0017B783 /* _InstallType.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E3FA121671A32D0017B783 /* _InstallType.m */; };
 		00E3FA281671A32D0017B783 /* _InstallType.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E3FA121671A32D0017B783 /* _InstallType.m */; };
 		00E3FA2B1671A32D0017B783 /* _ProdDesc.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E3FA161671A32D0017B783 /* _ProdDesc.m */; };
@@ -190,10 +186,6 @@
 		00E3FA4C1671A3610017B783 /* ProdPriceType.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E3FA401671A3610017B783 /* ProdPriceType.m */; };
 		00E3FA4D1671A3610017B783 /* ProdSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E3FA421671A3610017B783 /* ProdSize.m */; };
 		00E3FA4E1671A3610017B783 /* ProdSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E3FA421671A3610017B783 /* ProdSize.m */; };
-		00E3FA5B1671A3850017B783 /* ChnlVisStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E3FA521671A3850017B783 /* ChnlVisStatus.m */; };
-		00E3FA5C1671A3850017B783 /* ChnlVisStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E3FA521671A3850017B783 /* ChnlVisStatus.m */; };
-		00E3FA5D1671A3850017B783 /* ConsumerVisStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E3FA541671A3850017B783 /* ConsumerVisStatus.m */; };
-		00E3FA5E1671A3850017B783 /* ConsumerVisStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E3FA541671A3850017B783 /* ConsumerVisStatus.m */; };
 		00E3FA5F1671A3850017B783 /* InstallType.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E3FA561671A3850017B783 /* InstallType.m */; };
 		00E3FA601671A3850017B783 /* InstallType.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E3FA561671A3850017B783 /* InstallType.m */; };
 		E2AC49E81665240700009863 /* RKSeedDatabase.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = E2AC49E71665240700009863 /* RKSeedDatabase.sqlite */; };
@@ -373,10 +365,6 @@
 		00D610821670805C002ECCBB /* SeedDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeedDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00D610841670805D002ECCBB /* SeedDB.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = SeedDB.plist; path = /Users/aaa/Whitman/DevResource/WorkingSpace_Test/TestRestKit/SeedDB.plist; sourceTree = "<absolute>"; };
 		00E3F9FA167097DD0017B783 /* ECProdPrice.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ECProdPrice.json; sourceTree = SOURCE_ROOT; };
-		00E3FA0D1671A32D0017B783 /* _ChnlVisStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _ChnlVisStatus.h; sourceTree = "<group>"; };
-		00E3FA0E1671A32D0017B783 /* _ChnlVisStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _ChnlVisStatus.m; sourceTree = "<group>"; };
-		00E3FA0F1671A32D0017B783 /* _ConsumerVisStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _ConsumerVisStatus.h; sourceTree = "<group>"; };
-		00E3FA101671A32D0017B783 /* _ConsumerVisStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _ConsumerVisStatus.m; sourceTree = "<group>"; };
 		00E3FA111671A32D0017B783 /* _InstallType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _InstallType.h; sourceTree = "<group>"; };
 		00E3FA121671A32D0017B783 /* _InstallType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _InstallType.m; sourceTree = "<group>"; };
 		00E3FA151671A32D0017B783 /* _ProdDesc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _ProdDesc.h; sourceTree = "<group>"; };
@@ -403,10 +391,6 @@
 		00E3FA401671A3610017B783 /* ProdPriceType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProdPriceType.m; sourceTree = "<group>"; };
 		00E3FA411671A3610017B783 /* ProdSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProdSize.h; sourceTree = "<group>"; };
 		00E3FA421671A3610017B783 /* ProdSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProdSize.m; sourceTree = "<group>"; };
-		00E3FA511671A3850017B783 /* ChnlVisStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChnlVisStatus.h; sourceTree = "<group>"; };
-		00E3FA521671A3850017B783 /* ChnlVisStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChnlVisStatus.m; sourceTree = "<group>"; };
-		00E3FA531671A3850017B783 /* ConsumerVisStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsumerVisStatus.h; sourceTree = "<group>"; };
-		00E3FA541671A3850017B783 /* ConsumerVisStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsumerVisStatus.m; sourceTree = "<group>"; };
 		00E3FA551671A3850017B783 /* InstallType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstallType.h; sourceTree = "<group>"; };
 		00E3FA561671A3850017B783 /* InstallType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstallType.m; sourceTree = "<group>"; };
 		E2AC49E71665240700009863 /* RKSeedDatabase.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = RKSeedDatabase.sqlite; sourceTree = SOURCE_ROOT; };
@@ -559,10 +543,6 @@
 		00AB83EF166488AE00E5EB97 /* Machine */ = {
 			isa = PBXGroup;
 			children = (
-				00E3FA0D1671A32D0017B783 /* _ChnlVisStatus.h */,
-				00E3FA0E1671A32D0017B783 /* _ChnlVisStatus.m */,
-				00E3FA0F1671A32D0017B783 /* _ConsumerVisStatus.h */,
-				00E3FA101671A32D0017B783 /* _ConsumerVisStatus.m */,
 				00E3FA111671A32D0017B783 /* _InstallType.h */,
 				00E3FA121671A32D0017B783 /* _InstallType.m */,
 				00E3FA151671A32D0017B783 /* _ProdDesc.h */,
@@ -596,10 +576,6 @@
 		00AB83F0166488B700E5EB97 /* Human */ = {
 			isa = PBXGroup;
 			children = (
-				00E3FA511671A3850017B783 /* ChnlVisStatus.h */,
-				00E3FA521671A3850017B783 /* ChnlVisStatus.m */,
-				00E3FA531671A3850017B783 /* ConsumerVisStatus.h */,
-				00E3FA541671A3850017B783 /* ConsumerVisStatus.m */,
 				00E3FA551671A3850017B783 /* InstallType.h */,
 				00E3FA561671A3850017B783 /* InstallType.m */,
 				00E3FA371671A3610017B783 /* ProdDesc.h */,
@@ -986,8 +962,6 @@
 				00D60F3E166E0E5A002ECCBB /* Product.m in Sources */,
 				00D60F40166E0E5A002ECCBB /* ProdVrnt.m in Sources */,
 				00D60F4B166E0F35002ECCBB /* NSArray+ECDataRelated.m in Sources */,
-				00E3FA231671A32D0017B783 /* _ChnlVisStatus.m in Sources */,
-				00E3FA251671A32D0017B783 /* _ConsumerVisStatus.m in Sources */,
 				00E3FA271671A32D0017B783 /* _InstallType.m in Sources */,
 				00E3FA2B1671A32D0017B783 /* _ProdDesc.m in Sources */,
 				00E3FA2D1671A32D0017B783 /* _ProdLifeStatus.m in Sources */,
@@ -1001,8 +975,6 @@
 				00E3FA491671A3610017B783 /* ProdPrice.m in Sources */,
 				00E3FA4B1671A3610017B783 /* ProdPriceType.m in Sources */,
 				00E3FA4D1671A3610017B783 /* ProdSize.m in Sources */,
-				00E3FA5B1671A3850017B783 /* ChnlVisStatus.m in Sources */,
-				00E3FA5D1671A3850017B783 /* ConsumerVisStatus.m in Sources */,
 				00E3FA5F1671A3850017B783 /* InstallType.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1057,8 +1029,6 @@
 				00D610621670805C002ECCBB /* Product.m in Sources */,
 				00D610631670805C002ECCBB /* ProdVrnt.m in Sources */,
 				00D610641670805C002ECCBB /* NSArray+ECDataRelated.m in Sources */,
-				00E3FA241671A32D0017B783 /* _ChnlVisStatus.m in Sources */,
-				00E3FA261671A32D0017B783 /* _ConsumerVisStatus.m in Sources */,
 				00E3FA281671A32D0017B783 /* _InstallType.m in Sources */,
 				00E3FA2C1671A32D0017B783 /* _ProdDesc.m in Sources */,
 				00E3FA2E1671A32D0017B783 /* _ProdLifeStatus.m in Sources */,
@@ -1072,8 +1042,6 @@
 				00E3FA4A1671A3610017B783 /* ProdPrice.m in Sources */,
 				00E3FA4C1671A3610017B783 /* ProdPriceType.m in Sources */,
 				00E3FA4E1671A3610017B783 /* ProdSize.m in Sources */,
-				00E3FA5C1671A3850017B783 /* ChnlVisStatus.m in Sources */,
-				00E3FA5E1671A3850017B783 /* ConsumerVisStatus.m in Sources */,
 				00E3FA601671A3850017B783 /* InstallType.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
