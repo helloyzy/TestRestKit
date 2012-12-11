@@ -205,19 +205,6 @@ NSString * DOCUMENTS_DIR() {
     
     // ------------------------------------- Products -------------------------------------
     
-    // model year
-    RKManagedObjectMapping * modelYrMapping = [RKManagedObjectMapping mappingForEntityWithName:@"ModelYr" inManagedObjectStore:objectManager.objectStore];
-    modelYrMapping.primaryKeyAttribute = @"mkg_modl_yr_id";
-    [modelYrMapping mapAttributes:@"mkg_modl_yr_id", @"effv_end_dt", @"effv_strt_dt", @"modl_yr_note", @"modl_yr_val", @"is_actv", @"dsp_ord", nil];
-    [objectManager.mappingProvider setMapping:modelYrMapping forKeyPath:@"MKG_MODL_YR"];
-    
-    RKManagedObjectMapping * brandModelYrMapping = [RKManagedObjectMapping mappingForEntityWithName:@"BrandModelYr" inManagedObjectStore:objectManager.objectStore];
-    brandModelYrMapping.primaryKeyAttribute = @"mkg_brnd_modl_yr_id";
-    [brandModelYrMapping mapAttributes:@"mkg_brnd_modl_yr_id", @"cd_val", @"mkg_brnd_id", @"mkg_modl_yr_id", nil];
-    [brandModelYrMapping hasOne:@"modelYr" withMapping:modelYrMapping];
-    [brandModelYrMapping connectRelationship:@"modelYr" withObjectForPrimaryKeyAttribute:@"mkg_modl_yr_id"];
-    [objectManager.mappingProvider setMapping:brandModelYrMapping forKeyPath:@"MKG_BRND_MODL_YR"];
-    
     // other product properties    
     RKManagedObjectMapping * prodDescMapping = [RKManagedObjectMapping mappingForEntityWithName:@"ProdDesc" inManagedObjectStore:objectManager.objectStore];
     prodDescMapping.primaryKeyAttribute = @"mkg_prod_desc_id";
@@ -259,8 +246,6 @@ NSString * DOCUMENTS_DIR() {
     [productMapping connectRelationship:@"prodDesc" withObjectForPrimaryKeyAttribute:@"mkg_prod_desc_id"];
     [productMapping hasOne:@"prodSize" withMapping:prodSizeMapping];
     [productMapping connectRelationship:@"prodSize" withObjectForPrimaryKeyAttribute:@"mkg_nmnl_prod_sz_id"];
-    [productMapping hasOne:@"modelYr" withMapping:brandModelYrMapping];
-    [productMapping connectRelationship:@"modelYr" withObjectForPrimaryKeyAttribute:@"mkg_brnd_modl_yr_id"];
     [objectManager.mappingProvider setMapping:productMapping forKeyPath:@"MKG_PROD"];
     
     // priceType and price
@@ -280,25 +265,11 @@ NSString * DOCUMENTS_DIR() {
     
     //--------------------------------- PROD VRNT --------------------------------
     
-    RKManagedObjectMapping * consVisStatus = [RKManagedObjectMapping mappingForEntityWithName:@"ConsumerVisStatus" inManagedObjectStore:objectManager.objectStore];
-    consVisStatus.primaryKeyAttribute = @"mkg_cons_vis_stts_id";
-    [consVisStatus mapAttributes:@"mkg_cons_vis_stts_id", @"is_actv", @"is_protected", @"dsp_ord", @"cons_vis_stts_desc", @"cons_vis_stts_nm", nil];
-    [objectManager.mappingProvider setMapping:consVisStatus forKeyPath:@"MKG_CONS_VIS_STTS"];
-    
-    RKManagedObjectMapping * chnlVisStatus = [RKManagedObjectMapping mappingForEntityWithName:@"ChnlVisStatus" inManagedObjectStore:objectManager.objectStore];
-    chnlVisStatus.primaryKeyAttribute = @"mkg_chnl_vis_stts_id";
-    [chnlVisStatus mapAttributes:@"mkg_chnl_vis_stts_id", @"is_actv", @"is_protected", @"dsp_ord", @"chnl_vis_stts_nm", @"chnl_vis_stts_desc", nil];
-    [objectManager.mappingProvider setMapping:chnlVisStatus forKeyPath:@"MKG_CHNL_VIS_STTS"];
-    
     RKManagedObjectMapping * prodVrntMapping = [RKManagedObjectMapping mappingForEntityWithName:@"ProdVrnt" inManagedObjectStore:objectManager.objectStore];
     prodVrntMapping.primaryKeyAttribute = @"mkg_prod_vrnt_id";
     [prodVrntMapping mapAttributes:@"mkg_prod_vrnt_id", @"mkg_prod_id", @"mkg_vrtn_typ_cd_id", @"prod_vrnt_sku", @"prod_vrnt_upc", @"mkg_cons_vis_stts_id", @"mkg_chnl_vis_stts_id", @"mkg_dig_aset_ownr_id", nil];
     [prodVrntMapping hasOne:@"product" withMapping:productMapping];
     [prodVrntMapping connectRelationship:@"product" withObjectForPrimaryKeyAttribute:@"mkg_prod_id"];
-    [prodVrntMapping hasOne:@"chnlVisStatus" withMapping:chnlVisStatus];
-    [prodVrntMapping connectRelationship:@"chnlVisStatus" withObjectForPrimaryKeyAttribute:@"mkg_chnl_vis_stts_id"];
-    [prodVrntMapping hasOne:@"consumerVisStatus" withMapping:consVisStatus];
-    [prodVrntMapping connectRelationship:@"consumerVisStatus" withObjectForPrimaryKeyAttribute:@"mkg_cons_vis_stts_id"];
     
     [objectManager.mappingProvider setMapping:prodVrntMapping forKeyPath:@"MKG_PROD_VRNT"];
     
