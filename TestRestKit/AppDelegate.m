@@ -11,6 +11,7 @@
 #import <RestKit/CoreData.h>
 #import "CoreDataTest.h"
 #import "IBFunctions.h"
+#import "Brand.h"
 
 @implementation AppDelegate
 
@@ -106,6 +107,7 @@
     NSLog(@"%@", IB_DOCUMENTS_DIR());
     // [CoreDataTest createData];
     // [CoreDataTest queryBrand];
+    NSLog(@"All top brand size is %d", [[Brand allTopBrands] count]);
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -248,17 +250,11 @@ NSString * DOCUMENTS_DIR() {
     [productMapping connectRelationship:@"prodSize" withObjectForPrimaryKeyAttribute:@"mkg_nmnl_prod_sz_id"];
     [objectManager.mappingProvider setMapping:productMapping forKeyPath:@"MKG_PROD"];
     
-    // priceType and price
-    RKManagedObjectMapping * priceTypeMapping = [RKManagedObjectMapping mappingForEntityWithName:@"ProdPriceType" inManagedObjectStore:objectManager.objectStore];
-    priceTypeMapping.primaryKeyAttribute = @"mkg_prod_prce_typ_id";
-    [priceTypeMapping mapAttributes:@"mkg_prod_prce_typ_id", @"mkg_mkt_id", @"prod_prce_typ_desc", @"prod_prce_typ_nm", @"is_actv", @"dsp_ord", nil];
-    [objectManager.mappingProvider setMapping:priceTypeMapping forKeyPath:@"MKG_PROD_PRCE_TYP"];
+    // price
     
     RKManagedObjectMapping * priceInfoMapping = [RKManagedObjectMapping mappingForEntityWithName:@"ProdPrice" inManagedObjectStore:objectManager.objectStore];
     priceInfoMapping.primaryKeyAttribute = @"mkg_prod_prce_crnt_id";
     [priceInfoMapping mapAttributes:@"mkg_prod_prce_crnt_id", @"mkg_prod_id", @"mkg_prod_prce_typ_id", @"prod_prce_amt", nil];
-    [priceInfoMapping hasOne:@"priceType" withMapping:priceTypeMapping];
-    [priceInfoMapping connectRelationship:@"priceType" withObjectForPrimaryKeyAttribute:@"mkg_prod_prce_typ_id"];
     [priceInfoMapping hasOne:@"product" withMapping:productMapping];
     [priceInfoMapping connectRelationship:@"product" withObjectForPrimaryKeyAttribute:@"mkg_prod_id"];
     [objectManager.mappingProvider setMapping:priceInfoMapping forKeyPath:@"MKG_PROD_PRCE_CRNT"];

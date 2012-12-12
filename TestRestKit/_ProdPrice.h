@@ -12,14 +12,12 @@ extern const struct ProdPriceAttributes {
 } ProdPriceAttributes;
 
 extern const struct ProdPriceRelationships {
-	__unsafe_unretained NSString *priceType;
 	__unsafe_unretained NSString *product;
 } ProdPriceRelationships;
 
 extern const struct ProdPriceFetchedProperties {
 } ProdPriceFetchedProperties;
 
-@class ProdPriceType;
 @class Product;
 
 
@@ -96,13 +94,6 @@ extern const struct ProdPriceFetchedProperties {
 
 
 
-@property (nonatomic, strong) ProdPriceType *priceType;
-
-//- (BOOL)validatePriceType:(id*)value_ error:(NSError**)error_;
-
-
-
-
 @property (nonatomic, strong) Product *product;
 
 //- (BOOL)validateProduct:(id*)value_ error:(NSError**)error_;
@@ -154,11 +145,6 @@ extern const struct ProdPriceFetchedProperties {
 - (void)setPrimitiveProd_prce_amtValue:(double)value_;
 
 
-
-
-
-- (ProdPriceType*)primitivePriceType;
-- (void)setPrimitivePriceType:(ProdPriceType*)value;
 
 
 

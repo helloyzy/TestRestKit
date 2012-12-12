@@ -11,7 +11,6 @@ const struct ProdPriceAttributes ProdPriceAttributes = {
 };
 
 const struct ProdPriceRelationships ProdPriceRelationships = {
-	.priceType = @"priceType",
 	.product = @"product",
 };
 
@@ -174,10 +173,6 @@ const struct ProdPriceFetchedProperties ProdPriceFetchedProperties = {
 
 
 
-
-@dynamic priceType;
-
-	
 
 @dynamic product;
 

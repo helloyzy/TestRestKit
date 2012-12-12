@@ -133,17 +133,7 @@
         <attribute name="mkg_prod_prce_crnt_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="mkg_prod_prce_typ_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="prod_prce_amt" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
-        <relationship name="priceType" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="ProdPriceType" inverseName="fkPrices" inverseEntity="ProdPriceType" syncable="YES"/>
         <relationship name="product" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Product" inverseName="fkPrices" inverseEntity="Product" syncable="YES"/>
-    </entity>
-    <entity name="ProdPriceType" representedClassName="ProdPriceType" syncable="YES">
-        <attribute name="dsp_ord" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
-        <attribute name="is_actv" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
-        <attribute name="mkg_mkt_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
-        <attribute name="mkg_prod_prce_typ_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
-        <attribute name="prod_prce_typ_desc" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="prod_prce_typ_nm" optional="YES" attributeType="String" syncable="YES"/>
-        <relationship name="fkPrices" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ProdPrice" inverseName="priceType" inverseEntity="ProdPrice" syncable="YES"/>
     </entity>
     <entity name="ProdSize" representedClassName="ProdSize" syncable="YES">
         <attribute name="dsp_ord" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
@@ -224,29 +214,28 @@
         <relationship name="prodVrtns" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ProdVrnt" inverseName="vrtnTypeCode" inverseEntity="ProdVrnt" syncable="YES"/>
     </entity>
     <elements>
+        <element name="AttrVal" positionX="-839" positionY="396" width="128" height="135"/>
         <element name="Brand" positionX="-468" positionY="-0" width="128" height="240"/>
+        <element name="BrandImage" positionX="-1278" positionY="-486" width="128" height="105"/>
         <element name="BrandProdCat" positionX="-648" positionY="-126" width="128" height="135"/>
+        <element name="BrndAttr" positionX="-1089" positionY="591" width="128" height="120"/>
+        <element name="BrndAttrType" positionX="-875" positionY="555" width="128" height="120"/>
+        <element name="BrndCatFvnt" positionX="-1458" positionY="-432" width="128" height="150"/>
+        <element name="BrndCatImage" positionX="-1136" positionY="-477" width="128" height="90"/>
+        <element name="FeatureVrnt" positionX="-1665" positionY="-423" width="128" height="150"/>
         <element name="InstallType" positionX="-1323" positionY="-315" width="128" height="135"/>
+        <element name="ProdAttrSet" positionX="-1107" positionY="312" width="128" height="210"/>
         <element name="ProdDesc" positionX="-1118" positionY="-348" width="128" height="150"/>
+        <element name="ProdFeatureVrnt" positionX="-1512" positionY="-222" width="128" height="150"/>
         <element name="ProdLifeStatus" positionX="-1307" positionY="-63" width="128" height="135"/>
         <element name="ProdPowerType" positionX="-891" positionY="-282" width="128" height="120"/>
-        <element name="ProdPrice" positionX="-1352" positionY="252" width="128" height="135"/>
-        <element name="ProdPriceType" positionX="-1368" positionY="450" width="128" height="150"/>
+        <element name="ProdPrice" positionX="-1352" positionY="252" width="128" height="120"/>
         <element name="ProdSize" positionX="-848" positionY="-90" width="128" height="135"/>
         <element name="Product" positionX="-1089" positionY="-111" width="128" height="330"/>
         <element name="ProductArea" positionX="-873" positionY="153" width="128" height="135"/>
         <element name="ProductCategory" positionX="-666" positionY="63" width="128" height="195"/>
+        <element name="ProductImage" positionX="-992" positionY="-513" width="128" height="120"/>
         <element name="ProdVrnt" positionX="-1521" positionY="-9" width="128" height="195"/>
         <element name="VrtnTypeCode" positionX="-1532" positionY="279" width="128" height="165"/>
-        <element name="ProdFeatureVrnt" positionX="-1512" positionY="-222" width="128" height="150"/>
-        <element name="BrndCatFvnt" positionX="-1458" positionY="-432" width="128" height="150"/>
-        <element name="FeatureVrnt" positionX="-1665" positionY="-423" width="128" height="150"/>
-        <element name="BrndAttrType" positionX="-875" positionY="555" width="128" height="120"/>
-        <element name="BrndAttr" positionX="-1089" positionY="591" width="128" height="120"/>
-        <element name="AttrVal" positionX="-839" positionY="396" width="128" height="135"/>
-        <element name="ProdAttrSet" positionX="-1107" positionY="312" width="128" height="210"/>
-        <element name="ProductImage" positionX="-992" positionY="-513" width="128" height="120"/>
-        <element name="BrandImage" positionX="-1278" positionY="-486" width="128" height="105"/>
-        <element name="BrndCatImage" positionX="-1136" positionY="-477" width="128" height="90"/>
     </elements>
 </model>
