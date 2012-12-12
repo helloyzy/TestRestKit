@@ -23,7 +23,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
 #ifdef RESTKIT_GENERATE_SEED_DB
-    [ECSeeder seed]
+    [ECSeeder seed];
 #else
     [ECSeeder seedIfNecessary];
 #endif
