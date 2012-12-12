@@ -1,4 +1,1248 @@
 {
+    "MKG_VRTN_TYP_CD": [
+                        {
+                        "mkg_vrtn_typ_cd_id": 1,
+                        "vrtn_typ_cd_nm": "Stainless Steel",
+                        "vrtn_typ_cd": "S",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 1,
+                        "is_actv": 1,
+                        "dsp_ord": 5
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 2,
+                        "vrtn_typ_cd_nm": "White",
+                        "vrtn_typ_cd": "W",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 1,
+                        "is_actv": 1,
+                        "dsp_ord": 0
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 3,
+                        "vrtn_typ_cd_nm": "Black",
+                        "vrtn_typ_cd": "B",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 1,
+                        "is_actv": 1,
+                        "dsp_ord": 1
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 4,
+                        "vrtn_typ_cd_nm": "Black on White",
+                        "vrtn_typ_cd": "Z",
+                        "vrtn_typ_cd_desc": "White with Black Controls",
+                        "mkg_prod_vrtn_typ_id": 1,
+                        "is_actv": 1,
+                        "dsp_ord": 1
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 5,
+                        "vrtn_typ_cd_nm": "Island White",
+                        "vrtn_typ_cd": "IW",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 1,
+                        "is_actv": 1,
+                        "dsp_ord": 0
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 6,
+                        "vrtn_typ_cd_nm": "Mediterranean Blue",
+                        "vrtn_typ_cd": "MB",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 1,
+                        "is_actv": 1,
+                        "dsp_ord": 11
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 7,
+                        "vrtn_typ_cd_nm": "Silver Sands",
+                        "vrtn_typ_cd": "SS",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 1,
+                        "is_actv": 1,
+                        "dsp_ord": 11
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 8,
+                        "vrtn_typ_cd_nm": "Turquoise Sky",
+                        "vrtn_typ_cd": "TS",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 1,
+                        "is_actv": 1,
+                        "dsp_ord": 9
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 9,
+                        "vrtn_typ_cd_nm": "Stainless Steel",
+                        "vrtn_typ_cd": "S",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 2,
+                        "is_actv": 1,
+                        "dsp_ord": 65
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 10,
+                        "vrtn_typ_cd_nm": "Titanium",
+                        "vrtn_typ_cd": "T",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 2,
+                        "is_actv": 1,
+                        "dsp_ord": 66
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 11,
+                        "vrtn_typ_cd_nm": "Kelly Green",
+                        "vrtn_typ_cd": "KG",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 1,
+                        "is_actv": 1,
+                        "dsp_ord": 11
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 12,
+                        "vrtn_typ_cd_nm": "Red Hot Red",
+                        "vrtn_typ_cd": "RR",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 1,
+                        "is_actv": 1,
+                        "dsp_ord": 11
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 13,
+                        "vrtn_typ_cd_nm": "Panel",
+                        "vrtn_typ_cd": "T",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 1,
+                        "is_actv": 1,
+                        "dsp_ord": 11
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 14,
+                        "vrtn_typ_cd_nm": "Black",
+                        "vrtn_typ_cd": "B",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 3,
+                        "is_actv": 1,
+                        "dsp_ord": 1
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 15,
+                        "vrtn_typ_cd_nm": "Ebony Black",
+                        "vrtn_typ_cd": "E",
+                        "vrtn_typ_cd_desc": "Ebony Black (Smooth)",
+                        "mkg_prod_vrtn_typ_id": 3,
+                        "is_actv": 1,
+                        "dsp_ord": 1
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 16,
+                        "vrtn_typ_cd_nm": "Stainless Steel",
+                        "vrtn_typ_cd": "F",
+                        "vrtn_typ_cd_desc": "Real Stainless Steel",
+                        "mkg_prod_vrtn_typ_id": 3,
+                        "is_actv": 1,
+                        "dsp_ord": 5
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 17,
+                        "vrtn_typ_cd_nm": "Glacier Blue",
+                        "vrtn_typ_cd": "G",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 3,
+                        "is_actv": 1,
+                        "dsp_ord": 22
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 18,
+                        "vrtn_typ_cd_nm": "Stainless Steel",
+                        "vrtn_typ_cd": "K",
+                        "vrtn_typ_cd_desc": "Reverse Stainless",
+                        "mkg_prod_vrtn_typ_id": 3,
+                        "is_actv": 1,
+                        "dsp_ord": 5
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 19,
+                        "vrtn_typ_cd_nm": "Silver Mist",
+                        "vrtn_typ_cd": "M",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 3,
+                        "is_actv": 1,
+                        "dsp_ord": 24
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 20,
+                        "vrtn_typ_cd_nm": "Pearl White",
+                        "vrtn_typ_cd": "P",
+                        "vrtn_typ_cd_desc": "Pearl White (Smooth), Plastic",
+                        "mkg_prod_vrtn_typ_id": 3,
+                        "is_actv": 1,
+                        "dsp_ord": 0
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 21,
+                        "vrtn_typ_cd_nm": "Bisque",
+                        "vrtn_typ_cd": "Q",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 3,
+                        "is_actv": 1,
+                        "dsp_ord": 27
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 22,
+                        "vrtn_typ_cd_nm": "Stainless Steel",
+                        "vrtn_typ_cd": "R",
+                        "vrtn_typ_cd_desc": "Reverse Stainless Steel",
+                        "mkg_prod_vrtn_typ_id": 3,
+                        "is_actv": 1,
+                        "dsp_ord": 5
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 23,
+                        "vrtn_typ_cd_nm": "Stainless Steel",
+                        "vrtn_typ_cd": "S",
+                        "vrtn_typ_cd_desc": "Stainless",
+                        "mkg_prod_vrtn_typ_id": 3,
+                        "is_actv": 1,
+                        "dsp_ord": 5
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 24,
+                        "vrtn_typ_cd_nm": "White",
+                        "vrtn_typ_cd": "V",
+                        "vrtn_typ_cd_desc": "Reverse White",
+                        "mkg_prod_vrtn_typ_id": 3,
+                        "is_actv": 1,
+                        "dsp_ord": 0
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 25,
+                        "vrtn_typ_cd_nm": "White",
+                        "vrtn_typ_cd": "W",
+                        "vrtn_typ_cd_desc": "White on White",
+                        "mkg_prod_vrtn_typ_id": 3,
+                        "is_actv": 1,
+                        "dsp_ord": 0
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 26,
+                        "vrtn_typ_cd_nm": "Gray",
+                        "vrtn_typ_cd": "Y",
+                        "vrtn_typ_cd_desc": "Gray",
+                        "mkg_prod_vrtn_typ_id": 3,
+                        "is_actv": 1,
+                        "dsp_ord": 32
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 27,
+                        "vrtn_typ_cd_nm": "Black on White",
+                        "vrtn_typ_cd": "Z",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 3,
+                        "is_actv": 1,
+                        "dsp_ord": 1
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 28,
+                        "vrtn_typ_cd_nm": "Classic Blue",
+                        "vrtn_typ_cd": "N",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 3,
+                        "is_actv": 1,
+                        "dsp_ord": 25
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 29,
+                        "vrtn_typ_cd_nm": "Silver",
+                        "vrtn_typ_cd": "A",
+                        "vrtn_typ_cd_desc": "Silver (Laundry Only)",
+                        "mkg_prod_vrtn_typ_id": 3,
+                        "is_actv": 1,
+                        "dsp_ord": 18
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 30,
+                        "vrtn_typ_cd_nm": "Classic Red",
+                        "vrtn_typ_cd": "R",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 4,
+                        "is_actv": 1,
+                        "dsp_ord": 16
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 31,
+                        "vrtn_typ_cd_nm": "Classic Blue",
+                        "vrtn_typ_cd": "N",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 4,
+                        "is_actv": 1,
+                        "dsp_ord": 15
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 32,
+                        "vrtn_typ_cd_nm": "Classic Silver",
+                        "vrtn_typ_cd": "A",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 4,
+                        "is_actv": 1,
+                        "dsp_ord": 12
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 33,
+                        "vrtn_typ_cd_nm": "Classic White",
+                        "vrtn_typ_cd": "W",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 4,
+                        "is_actv": 1,
+                        "dsp_ord": 0
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 34,
+                        "vrtn_typ_cd_nm": "Classic Black",
+                        "vrtn_typ_cd": "B",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 4,
+                        "is_actv": 1,
+                        "dsp_ord": 1
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 35,
+                        "vrtn_typ_cd_nm": "White",
+                        "vrtn_typ_cd": "1",
+                        "vrtn_typ_cd_desc": "Voltage (115 above 7.5 amps) (room air only)",
+                        "mkg_prod_vrtn_typ_id": 5,
+                        "is_actv": 1,
+                        "dsp_ord": 0
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 36,
+                        "vrtn_typ_cd_nm": "White",
+                        "vrtn_typ_cd": "2",
+                        "vrtn_typ_cd_desc": "Voltage (230V) (room air only)",
+                        "mkg_prod_vrtn_typ_id": 5,
+                        "is_actv": 1,
+                        "dsp_ord": 0
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 37,
+                        "vrtn_typ_cd_nm": "White",
+                        "vrtn_typ_cd": "7",
+                        "vrtn_typ_cd_desc": "Voltage (115 below 7.5 amps) (room air only)",
+                        "mkg_prod_vrtn_typ_id": 5,
+                        "is_actv": 1,
+                        "dsp_ord": 0
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 38,
+                        "vrtn_typ_cd_nm": "White",
+                        "vrtn_typ_cd": "A",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 5,
+                        "is_actv": 1,
+                        "dsp_ord": 0
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 39,
+                        "vrtn_typ_cd_nm": "Beige",
+                        "vrtn_typ_cd": "B",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 5,
+                        "is_actv": 1,
+                        "dsp_ord": 63
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 40,
+                        "vrtn_typ_cd_nm": "Grey",
+                        "vrtn_typ_cd": "C",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 5,
+                        "is_actv": 1,
+                        "dsp_ord": 64
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 41,
+                        "vrtn_typ_cd_nm": "Brushed Chrome",
+                        "vrtn_typ_cd": "C",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 6,
+                        "is_actv": 1,
+                        "dsp_ord": 36
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 42,
+                        "vrtn_typ_cd_nm": "Stainless Steel",
+                        "vrtn_typ_cd": "C",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 6,
+                        "is_actv": 1,
+                        "dsp_ord": 37
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 43,
+                        "vrtn_typ_cd_nm": "Black",
+                        "vrtn_typ_cd": "B",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 6,
+                        "is_actv": 1,
+                        "dsp_ord": 1
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 44,
+                        "vrtn_typ_cd_nm": "Bisque",
+                        "vrtn_typ_cd": "Q",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 6,
+                        "is_actv": 1,
+                        "dsp_ord": 48
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 45,
+                        "vrtn_typ_cd_nm": "White",
+                        "vrtn_typ_cd": "S",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 6,
+                        "is_actv": 1,
+                        "dsp_ord": 0
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 46,
+                        "vrtn_typ_cd_nm": "Stainless Steel",
+                        "vrtn_typ_cd": "S",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 6,
+                        "is_actv": 1,
+                        "dsp_ord": 50
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 47,
+                        "vrtn_typ_cd_nm": "White",
+                        "vrtn_typ_cd": "W",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 6,
+                        "is_actv": 1,
+                        "dsp_ord": 0
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 48,
+                        "vrtn_typ_cd_nm": "Silver Mist",
+                        "vrtn_typ_cd": "M",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 6,
+                        "is_actv": 1,
+                        "dsp_ord": 41
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 49,
+                        "vrtn_typ_cd_nm": "Silver",
+                        "vrtn_typ_cd": "A",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 6,
+                        "is_actv": 1,
+                        "dsp_ord": 34
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 50,
+                        "vrtn_typ_cd_nm": "Glacier Blue",
+                        "vrtn_typ_cd": "GB",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 4,
+                        "is_actv": 1,
+                        "dsp_ord": 14
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 51,
+                        "vrtn_typ_cd_nm": "Ebony Black",
+                        "vrtn_typ_cd": "E",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 6,
+                        "is_actv": 1,
+                        "dsp_ord": 38
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 52,
+                        "vrtn_typ_cd_nm": "Unknown",
+                        "vrtn_typ_cd": "U",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 6,
+                        "is_actv": 1,
+                        "dsp_ord": 55
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 53,
+                        "vrtn_typ_cd_nm": "Pearl Black",
+                        "vrtn_typ_cd": "PB",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 6,
+                        "is_actv": 1,
+                        "dsp_ord": 45
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 54,
+                        "vrtn_typ_cd_nm": "Pearl White",
+                        "vrtn_typ_cd": "PW",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 6,
+                        "is_actv": 1,
+                        "dsp_ord": 0
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 55,
+                        "vrtn_typ_cd_nm": "Stainless Steel",
+                        "vrtn_typ_cd": "K",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 6,
+                        "is_actv": 1,
+                        "dsp_ord": 40
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 56,
+                        "vrtn_typ_cd_nm": "Silver Mist on Black",
+                        "vrtn_typ_cd": "MB",
+                        "vrtn_typ_cd_desc": "Silver Mist on Black",
+                        "mkg_prod_vrtn_typ_id": 6,
+                        "is_actv": 1,
+                        "dsp_ord": 42
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 57,
+                        "vrtn_typ_cd_nm": "Pearl White",
+                        "vrtn_typ_cd": "P",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 6,
+                        "is_actv": 1,
+                        "dsp_ord": 0
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 58,
+                        "vrtn_typ_cd_nm": "Pearl Black",
+                        "vrtn_typ_cd": "PB",
+                        "vrtn_typ_cd_desc": "Pearl Black Doors",
+                        "mkg_prod_vrtn_typ_id": 6,
+                        "is_actv": 1,
+                        "dsp_ord": 44
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 59,
+                        "vrtn_typ_cd_nm": "Pearl White",
+                        "vrtn_typ_cd": "PW",
+                        "vrtn_typ_cd_desc": "Pearl White Doors",
+                        "mkg_prod_vrtn_typ_id": 6,
+                        "is_actv": 1,
+                        "dsp_ord": 0
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 60,
+                        "vrtn_typ_cd_nm": "Stainless on Black",
+                        "vrtn_typ_cd": "SB",
+                        "vrtn_typ_cd_desc": "Stainless on Black",
+                        "mkg_prod_vrtn_typ_id": 6,
+                        "is_actv": 1,
+                        "dsp_ord": 51
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 61,
+                        "vrtn_typ_cd_nm": "Stainless on Silver Mist",
+                        "vrtn_typ_cd": "SM",
+                        "vrtn_typ_cd_desc": "Stainless on Silver Mist",
+                        "mkg_prod_vrtn_typ_id": 6,
+                        "is_actv": 1,
+                        "dsp_ord": 53
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 62,
+                        "vrtn_typ_cd_nm": "Stainless on Stainless Look",
+                        "vrtn_typ_cd": "SS",
+                        "vrtn_typ_cd_desc": "Stainless on Stainless Look",
+                        "mkg_prod_vrtn_typ_id": 6,
+                        "is_actv": 1,
+                        "dsp_ord": 54
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 63,
+                        "vrtn_typ_cd_nm": "Reverse White",
+                        "vrtn_typ_cd": "V",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 6,
+                        "is_actv": 1,
+                        "dsp_ord": 0
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 64,
+                        "vrtn_typ_cd_nm": "White",
+                        "vrtn_typ_cd": "Z",
+                        "vrtn_typ_cd_desc": "Left Swing Door",
+                        "mkg_prod_vrtn_typ_id": 6,
+                        "is_actv": 1,
+                        "dsp_ord": 0
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 65,
+                        "vrtn_typ_cd_nm": "Stainless Steel",
+                        "vrtn_typ_cd": "SK",
+                        "vrtn_typ_cd_desc": "Stainless: Reverse Door",
+                        "mkg_prod_vrtn_typ_id": 6,
+                        "is_actv": 1,
+                        "dsp_ord": 52
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 66,
+                        "vrtn_typ_cd_nm": "Glacier Blue",
+                        "vrtn_typ_cd": "G",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 6,
+                        "is_actv": 1,
+                        "dsp_ord": 39
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 67,
+                        "vrtn_typ_cd_nm": "Black",
+                        "vrtn_typ_cd": "B",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 7,
+                        "is_actv": 1,
+                        "dsp_ord": 0
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 68,
+                        "vrtn_typ_cd_nm": "Stainless Steel",
+                        "vrtn_typ_cd": "S",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 7,
+                        "is_actv": 1,
+                        "dsp_ord": 1
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 69,
+                        "vrtn_typ_cd_nm": "White",
+                        "vrtn_typ_cd": "W",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 7,
+                        "is_actv": 1,
+                        "dsp_ord": 2
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 70,
+                        "vrtn_typ_cd_nm": "White",
+                        "vrtn_typ_cd": "W",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 8,
+                        "is_actv": 1,
+                        "dsp_ord": 2
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 71,
+                        "vrtn_typ_cd_nm": "Black",
+                        "vrtn_typ_cd": "B",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 8,
+                        "is_actv": 1,
+                        "dsp_ord": 0
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 72,
+                        "vrtn_typ_cd_nm": "Titanium",
+                        "vrtn_typ_cd": "T",
+                        "vrtn_typ_cd_desc": "Titanium",
+                        "mkg_prod_vrtn_typ_id": 4,
+                        "is_actv": 1,
+                        "dsp_ord": 72
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 73,
+                        "vrtn_typ_cd_nm": "Lemongrass",
+                        "vrtn_typ_cd": "1",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 9,
+                        "is_actv": 1,
+                        "dsp_ord": 8
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 74,
+                        "vrtn_typ_cd_nm": "White",
+                        "vrtn_typ_cd": "2",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 9,
+                        "is_actv": 1,
+                        "dsp_ord": 15
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 75,
+                        "vrtn_typ_cd_nm": "Blackberry",
+                        "vrtn_typ_cd": "0",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 9,
+                        "is_actv": 1,
+                        "dsp_ord": 2
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 76,
+                        "vrtn_typ_cd_nm": "Classic Blue",
+                        "vrtn_typ_cd": "5",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 9,
+                        "is_actv": 1,
+                        "dsp_ord": 6
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 77,
+                        "vrtn_typ_cd_nm": "Classic Silver",
+                        "vrtn_typ_cd": "7",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 9,
+                        "is_actv": 1,
+                        "dsp_ord": 7
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 78,
+                        "vrtn_typ_cd_nm": "Mirror",
+                        "vrtn_typ_cd": "M",
+                        "vrtn_typ_cd_desc": "FOR MEXICO USE ONLY",
+                        "mkg_prod_vrtn_typ_id": 3,
+                        "is_actv": 1,
+                        "dsp_ord": 5
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 79,
+                        "vrtn_typ_cd_nm": "Black",
+                        "vrtn_typ_cd": "9",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 9,
+                        "is_actv": 1,
+                        "dsp_ord": 4
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 80,
+                        "vrtn_typ_cd_nm": "Silver",
+                        "vrtn_typ_cd": "G",
+                        "vrtn_typ_cd_desc": "Mexico Silver",
+                        "mkg_prod_vrtn_typ_id": 3,
+                        "is_actv": 1,
+                        "dsp_ord": 1
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 81,
+                        "vrtn_typ_cd_nm": "Stainless Steel, Black Handles",
+                        "vrtn_typ_cd": "H",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 3,
+                        "is_actv": 1,
+                        "dsp_ord": 5
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 82,
+                        "vrtn_typ_cd_nm": "White",
+                        "vrtn_typ_cd": "W",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 11,
+                        "is_actv": 1,
+                        "dsp_ord": 2
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 83,
+                        "vrtn_typ_cd_nm": "Stainless Steel",
+                        "vrtn_typ_cd": "S",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 11,
+                        "is_actv": 1,
+                        "dsp_ord": 1
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 85,
+                        "vrtn_typ_cd_nm": "Bisque",
+                        "vrtn_typ_cd": "4",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 9,
+                        "is_actv": 1,
+                        "dsp_ord": 0
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 86,
+                        "vrtn_typ_cd_nm": "White",
+                        "vrtn_typ_cd": "T",
+                        "vrtn_typ_cd_desc": "White for MEXICO PRODUCT ONLY",
+                        "mkg_prod_vrtn_typ_id": 3,
+                        "is_actv": 1,
+                        "dsp_ord": 0
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 87,
+                        "vrtn_typ_cd_nm": "Stainless Steel",
+                        "vrtn_typ_cd": "M",
+                        "vrtn_typ_cd_desc": "FOR MEXICO USE ONLY",
+                        "mkg_prod_vrtn_typ_id": 3,
+                        "is_actv": 1,
+                        "dsp_ord": 0
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 88,
+                        "vrtn_typ_cd_nm": "Stainless Steel",
+                        "vrtn_typ_cd": "3",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 9,
+                        "is_actv": 1,
+                        "dsp_ord": 11
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 90,
+                        "vrtn_typ_cd_nm": "Blue",
+                        "vrtn_typ_cd": "",
+                        "vrtn_typ_cd_desc": "there is no product code (not part of nomenclature for waste disposers)",
+                        "mkg_prod_vrtn_typ_id": 12,
+                        "is_actv": 1,
+                        "dsp_ord": 1
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 91,
+                        "vrtn_typ_cd_nm": "Silver",
+                        "vrtn_typ_cd": "",
+                        "vrtn_typ_cd_desc": "there is no product code (not part of nomenclature for waste disposers)",
+                        "mkg_prod_vrtn_typ_id": 12,
+                        "is_actv": 0,
+                        "dsp_ord": 2
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 92,
+                        "vrtn_typ_cd_nm": "White",
+                        "vrtn_typ_cd": "1",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 9,
+                        "is_actv": 1,
+                        "dsp_ord": 13
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 93,
+                        "vrtn_typ_cd_nm": "Black/Ultra Silver",
+                        "vrtn_typ_cd": "8",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 9,
+                        "is_actv": 1,
+                        "dsp_ord": 5
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 94,
+                        "vrtn_typ_cd_nm": "Gray",
+                        "vrtn_typ_cd": "Y",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 11,
+                        "is_actv": 1,
+                        "dsp_ord": 0
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 95,
+                        "vrtn_typ_cd_nm": "Black",
+                        "vrtn_typ_cd": "5",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 9,
+                        "is_actv": 1,
+                        "dsp_ord": 3
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 96,
+                        "vrtn_typ_cd_nm": "Stainless Steel",
+                        "vrtn_typ_cd": "0",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 9,
+                        "is_actv": 1,
+                        "dsp_ord": 10
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 97,
+                        "vrtn_typ_cd_nm": "Black Cabinet, Stainless Door",
+                        "vrtn_typ_cd": "B",
+                        "vrtn_typ_cd_desc": "Black Cabinet with Stainless Door - FOR FRIG COMMERCIAL USE ONLY",
+                        "mkg_prod_vrtn_typ_id": 3,
+                        "is_actv": 1,
+                        "dsp_ord": 5
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 98,
+                        "vrtn_typ_cd_nm": "Black Cabinet, Stainless Door",
+                        "vrtn_typ_cd": "B",
+                        "vrtn_typ_cd_desc": "Black Cabinet, Stainless Door - Frig COMMERCIAL USE ONLY",
+                        "mkg_prod_vrtn_typ_id": 6,
+                        "is_actv": 1,
+                        "dsp_ord": 0
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 99,
+                        "vrtn_typ_cd_nm": "Mirror",
+                        "vrtn_typ_cd": "M",
+                        "vrtn_typ_cd_desc": "FOR MEXICO USE ONLY",
+                        "mkg_prod_vrtn_typ_id": 6,
+                        "is_actv": 1,
+                        "dsp_ord": 12
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 100,
+                        "vrtn_typ_cd_nm": "Reverse White",
+                        "vrtn_typ_cd": "Z",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 3,
+                        "is_actv": 1,
+                        "dsp_ord": 40
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 101,
+                        "vrtn_typ_cd_nm": "Stainless Steel",
+                        "vrtn_typ_cd": "6",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 9,
+                        "is_actv": 1,
+                        "dsp_ord": 12
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 102,
+                        "vrtn_typ_cd_nm": "White",
+                        "vrtn_typ_cd": "8",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 9,
+                        "is_actv": 1,
+                        "dsp_ord": 16
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 103,
+                        "vrtn_typ_cd_nm": "Red",
+                        "vrtn_typ_cd": "R",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 4,
+                        "is_actv": 1,
+                        "dsp_ord": 0
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 104,
+                        "vrtn_typ_cd_nm": "Blue",
+                        "vrtn_typ_cd": "N",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 4,
+                        "is_actv": 1,
+                        "dsp_ord": 0
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 105,
+                        "vrtn_typ_cd_nm": "Black",
+                        "vrtn_typ_cd": "B",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 4,
+                        "is_actv": 1,
+                        "dsp_ord": 0
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 106,
+                        "vrtn_typ_cd_nm": "Gray",
+                        "vrtn_typ_cd": "A",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 4,
+                        "is_actv": 1,
+                        "dsp_ord": 0
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 107,
+                        "vrtn_typ_cd_nm": "White",
+                        "vrtn_typ_cd": "23",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 13,
+                        "is_actv": 1,
+                        "dsp_ord": 3
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 108,
+                        "vrtn_typ_cd_nm": "Black",
+                        "vrtn_typ_cd": "63",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 13,
+                        "is_actv": 1,
+                        "dsp_ord": 1
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 109,
+                        "vrtn_typ_cd_nm": "Stainless Steel",
+                        "vrtn_typ_cd": "53",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 13,
+                        "is_actv": 1,
+                        "dsp_ord": 2
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 110,
+                        "vrtn_typ_cd_nm": "White",
+                        "vrtn_typ_cd": "W",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 14,
+                        "is_actv": 1,
+                        "dsp_ord": 1
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 111,
+                        "vrtn_typ_cd_nm": "White",
+                        "vrtn_typ_cd": "WH",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 15,
+                        "is_actv": 1,
+                        "dsp_ord": 6
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 112,
+                        "vrtn_typ_cd_nm": "White",
+                        "vrtn_typ_cd": "W",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 15,
+                        "is_actv": 1,
+                        "dsp_ord": 5
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 113,
+                        "vrtn_typ_cd_nm": "Black",
+                        "vrtn_typ_cd": "BL",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 15,
+                        "is_actv": 1,
+                        "dsp_ord": 2
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 114,
+                        "vrtn_typ_cd_nm": "Black",
+                        "vrtn_typ_cd": "B",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 15,
+                        "is_actv": 1,
+                        "dsp_ord": 1
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 115,
+                        "vrtn_typ_cd_nm": "Stainless Steel",
+                        "vrtn_typ_cd": "S",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 15,
+                        "is_actv": 1,
+                        "dsp_ord": 3
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 116,
+                        "vrtn_typ_cd_nm": "Stainless Steel",
+                        "vrtn_typ_cd": "SS",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 15,
+                        "is_actv": 1,
+                        "dsp_ord": 4
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 117,
+                        "vrtn_typ_cd_nm": "White",
+                        "vrtn_typ_cd": "S",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 17,
+                        "is_actv": 1,
+                        "dsp_ord": 2
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 118,
+                        "vrtn_typ_cd_nm": "Black/Stainless",
+                        "vrtn_typ_cd": "C",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 17,
+                        "is_actv": 1,
+                        "dsp_ord": 1
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 119,
+                        "vrtn_typ_cd_nm": "White",
+                        "vrtn_typ_cd": "W",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 16,
+                        "is_actv": 1,
+                        "dsp_ord": 4
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 120,
+                        "vrtn_typ_cd_nm": "Bisque",
+                        "vrtn_typ_cd": "Q",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 16,
+                        "is_actv": 1,
+                        "dsp_ord": 1
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 121,
+                        "vrtn_typ_cd_nm": "Black",
+                        "vrtn_typ_cd": "B",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 16,
+                        "is_actv": 1,
+                        "dsp_ord": 2
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 122,
+                        "vrtn_typ_cd_nm": "Stainless Steel",
+                        "vrtn_typ_cd": "S",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 16,
+                        "is_actv": 1,
+                        "dsp_ord": 3
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 123,
+                        "vrtn_typ_cd_nm": "Gray",
+                        "vrtn_typ_cd": "G",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 1,
+                        "is_actv": 1,
+                        "dsp_ord": 0
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 124,
+                        "vrtn_typ_cd_nm": "Silver Mist",
+                        "vrtn_typ_cd": "6",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 9,
+                        "is_actv": 1,
+                        "dsp_ord": 9
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 125,
+                        "vrtn_typ_cd_nm": "Bisque Zebra",
+                        "vrtn_typ_cd": "0",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 9,
+                        "is_actv": 1,
+                        "dsp_ord": 1
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 126,
+                        "vrtn_typ_cd_nm": "White Zebra",
+                        "vrtn_typ_cd": "W",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 7,
+                        "is_actv": 1,
+                        "dsp_ord": 3
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 127,
+                        "vrtn_typ_cd_nm": "White",
+                        "vrtn_typ_cd": "S",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 11,
+                        "is_actv": 1,
+                        "dsp_ord": 0
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 128,
+                        "vrtn_typ_cd_nm": "White",
+                        "vrtn_typ_cd": "S",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 8,
+                        "is_actv": 1,
+                        "dsp_ord": 1
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 129,
+                        "vrtn_typ_cd_nm": "Ruby Red",
+                        "vrtn_typ_cd": "7",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 9,
+                        "is_actv": 1,
+                        "dsp_ord": 8
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 130,
+                        "vrtn_typ_cd_nm": "Plata",
+                        "vrtn_typ_cd": "S",
+                        "vrtn_typ_cd_desc": "Silver for MEXICO PRODUCT ONLY.",
+                        "mkg_prod_vrtn_typ_id": 3,
+                        "is_actv": 1,
+                        "dsp_ord": 0
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 131,
+                        "vrtn_typ_cd_nm": "White Zebra",
+                        "vrtn_typ_cd": "1",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 9,
+                        "is_actv": 1,
+                        "dsp_ord": 14
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 132,
+                        "vrtn_typ_cd_nm": "Titanium",
+                        "vrtn_typ_cd": "T",
+                        "vrtn_typ_cd_desc": "laundry",
+                        "mkg_prod_vrtn_typ_id": 1,
+                        "is_actv": 1,
+                        "dsp_ord": 0
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 133,
+                        "vrtn_typ_cd_nm": "Black",
+                        "vrtn_typ_cd": "B",
+                        "vrtn_typ_cd_desc": "",
+                        "mkg_prod_vrtn_typ_id": 11,
+                        "is_actv": 1,
+                        "dsp_ord": 0
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 134,
+                        "vrtn_typ_cd_nm": "Silver",
+                        "vrtn_typ_cd": "T",
+                        "vrtn_typ_cd_desc": "For use with Electroulx Irons Only!",
+                        "mkg_prod_vrtn_typ_id": 1,
+                        "is_actv": 1,
+                        "dsp_ord": 0
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 135,
+                        "vrtn_typ_cd_nm": "Blue",
+                        "vrtn_typ_cd": "M",
+                        "vrtn_typ_cd_desc": "For Electrolux IRONS only",
+                        "mkg_prod_vrtn_typ_id": 1,
+                        "is_actv": 1,
+                        "dsp_ord": 0
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 136,
+                        "vrtn_typ_cd_nm": "Red",
+                        "vrtn_typ_cd": "R",
+                        "vrtn_typ_cd_desc": "For Electrolux IRONS use only",
+                        "mkg_prod_vrtn_typ_id": 1,
+                        "is_actv": 1,
+                        "dsp_ord": 0
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 137,
+                        "vrtn_typ_cd_nm": "Ebony Black",
+                        "vrtn_typ_cd": "B",
+                        "vrtn_typ_cd_desc": "Elux Irons Only",
+                        "mkg_prod_vrtn_typ_id": 1,
+                        "is_actv": 1,
+                        "dsp_ord": 0
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 138,
+                        "vrtn_typ_cd_nm": "Watermelon Red and White",
+                        "vrtn_typ_cd": "R",
+                        "vrtn_typ_cd_desc": "Elux Irons Only",
+                        "mkg_prod_vrtn_typ_id": 1,
+                        "is_actv": 1,
+                        "dsp_ord": 0
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 139,
+                        "vrtn_typ_cd_nm": "Jeans Blue and White",
+                        "vrtn_typ_cd": "M",
+                        "vrtn_typ_cd_desc": "Elux Irons Only",
+                        "mkg_prod_vrtn_typ_id": 1,
+                        "is_actv": 1,
+                        "dsp_ord": 0
+                        },
+                        {
+                        "mkg_vrtn_typ_cd_id": 140,
+                        "vrtn_typ_cd_nm": "Gray and White",
+                        "vrtn_typ_cd": "T",
+                        "vrtn_typ_cd_desc": "Elux Irons Only",
+                        "mkg_prod_vrtn_typ_id": 1,
+                        "is_actv": 1,
+                        "dsp_ord": 0
+                        }
+                        ],
 	"MKG_PROD_VRNT": [
 		{
 		  "mkg_prod_vrnt_id": 1,

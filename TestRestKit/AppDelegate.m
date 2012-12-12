@@ -261,12 +261,19 @@ NSString * DOCUMENTS_DIR() {
     
     //--------------------------------- PROD VRNT --------------------------------
     
+    RKManagedObjectMapping * vrtnTypeCodeMapping = [RKManagedObjectMapping mappingForEntityWithName:@"VrtnTypeCode" inManagedObjectStore:objectManager.objectStore];
+    vrtnTypeCodeMapping.primaryKeyAttribute = @"mkg_vrtn_typ_cd_id";
+    [vrtnTypeCodeMapping mapAttributes:@"mkg_vrtn_typ_cd_id", @"vrtn_typ_cd_nm", @"vrtn_typ_cd", @"vrtn_typ_cd_desc", @"mkg_prod_vrtn_typ_id", @"is_actv", @"dsp_ord", nil];
+    [objectManager.mappingProvider setMapping:vrtnTypeCodeMapping forKeyPath:@"MKG_VRTN_TYP_CD"];
+    
+    
     RKManagedObjectMapping * prodVrntMapping = [RKManagedObjectMapping mappingForEntityWithName:@"ProdVrnt" inManagedObjectStore:objectManager.objectStore];
     prodVrntMapping.primaryKeyAttribute = @"mkg_prod_vrnt_id";
     [prodVrntMapping mapAttributes:@"mkg_prod_vrnt_id", @"mkg_prod_id", @"mkg_vrtn_typ_cd_id", @"prod_vrnt_sku", @"prod_vrnt_upc", @"mkg_cons_vis_stts_id", @"mkg_chnl_vis_stts_id", @"mkg_dig_aset_ownr_id", nil];
     [prodVrntMapping hasOne:@"product" withMapping:productMapping];
     [prodVrntMapping connectRelationship:@"product" withObjectForPrimaryKeyAttribute:@"mkg_prod_id"];
-    
+    [prodVrntMapping hasOne:@"vrtnTypeCode" withMapping:vrtnTypeCodeMapping];
+    [prodVrntMapping connectRelationship:@"vrtnTypeCode" withObjectForPrimaryKeyAttribute:@"mkg_vrtn_typ_cd_id"];
     [objectManager.mappingProvider setMapping:prodVrntMapping forKeyPath:@"MKG_PROD_VRNT"];
     
     RKLogConfigureByName("RestKit/ObjectMapping", RKLogLevelDebug);
