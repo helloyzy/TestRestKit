@@ -17,6 +17,7 @@ const struct ProductAttributes ProductAttributes = {
 };
 
 const struct ProductRelationships ProductRelationships = {
+	.brandProdCat = @"brandProdCat",
 	.fkPrices = @"fkPrices",
 	.installType = @"installType",
 	.lifeCycleStatus = @"lifeCycleStatus",
@@ -349,6 +350,10 @@ const struct ProductFetchedProperties ProductFetchedProperties = {
 
 
 
+
+@dynamic brandProdCat;
+
+	
 
 @dynamic fkPrices;
 

@@ -14,6 +14,7 @@ extern const struct BrandProdCatAttributes {
 extern const struct BrandProdCatRelationships {
 	__unsafe_unretained NSString *brand;
 	__unsafe_unretained NSString *prodCat;
+	__unsafe_unretained NSString *products;
 } BrandProdCatRelationships;
 
 extern const struct BrandProdCatFetchedProperties {
@@ -21,6 +22,7 @@ extern const struct BrandProdCatFetchedProperties {
 
 @class Brand;
 @class ProductCategory;
+@class Product;
 
 
 
@@ -110,10 +112,22 @@ extern const struct BrandProdCatFetchedProperties {
 
 
 
+@property (nonatomic, strong) NSSet *products;
+
+- (NSMutableSet*)productsSet;
+
+
+
+
 
 @end
 
 @interface _BrandProdCat (CoreDataGeneratedAccessors)
+
+- (void)addProducts:(NSSet*)value_;
+- (void)removeProducts:(NSSet*)value_;
+- (void)addProductsObject:(Product*)value_;
+- (void)removeProductsObject:(Product*)value_;
 
 @end
 
@@ -164,6 +178,11 @@ extern const struct BrandProdCatFetchedProperties {
 
 - (ProductCategory*)primitiveProdCat;
 - (void)setPrimitiveProdCat:(ProductCategory*)value;
+
+
+
+- (NSMutableSet*)primitiveProducts;
+- (void)setPrimitiveProducts:(NSMutableSet*)value;
 
 
 @end

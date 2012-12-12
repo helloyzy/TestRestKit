@@ -13,6 +13,7 @@ const struct BrandProdCatAttributes BrandProdCatAttributes = {
 const struct BrandProdCatRelationships BrandProdCatRelationships = {
 	.brand = @"brand",
 	.prodCat = @"prodCat",
+	.products = @"products",
 };
 
 const struct BrandProdCatFetchedProperties BrandProdCatFetchedProperties = {
@@ -181,6 +182,19 @@ const struct BrandProdCatFetchedProperties BrandProdCatFetchedProperties = {
 
 @dynamic prodCat;
 
+	
+
+@dynamic products;
+
+	
+- (NSMutableSet*)productsSet {
+	[self willAccessValueForKey:@"products"];
+  
+	NSMutableSet *result = (NSMutableSet*)[self mutableSetValueForKey:@"products"];
+  
+	[self didAccessValueForKey:@"products"];
+	return result;
+}
 	
 
 

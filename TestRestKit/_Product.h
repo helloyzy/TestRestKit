@@ -18,6 +18,7 @@ extern const struct ProductAttributes {
 } ProductAttributes;
 
 extern const struct ProductRelationships {
+	__unsafe_unretained NSString *brandProdCat;
 	__unsafe_unretained NSString *fkPrices;
 	__unsafe_unretained NSString *installType;
 	__unsafe_unretained NSString *lifeCycleStatus;
@@ -32,6 +33,7 @@ extern const struct ProductRelationships {
 extern const struct ProductFetchedProperties {
 } ProductFetchedProperties;
 
+@class BrandProdCat;
 @class ProdPrice;
 @class InstallType;
 @class ProdLifeStatus;
@@ -198,6 +200,13 @@ extern const struct ProductFetchedProperties {
 
 //- (BOOL)validateProd_cd:(id*)value_ error:(NSError**)error_;
 
+
+
+
+
+@property (nonatomic, strong) BrandProdCat *brandProdCat;
+
+//- (BOOL)validateBrandProdCat:(id*)value_ error:(NSError**)error_;
 
 
 
@@ -380,6 +389,11 @@ extern const struct ProductFetchedProperties {
 - (void)setPrimitiveProd_cd:(NSString*)value;
 
 
+
+
+
+- (BrandProdCat*)primitiveBrandProdCat;
+- (void)setPrimitiveBrandProdCat:(BrandProdCat*)value;
 
 
 

@@ -12,6 +12,7 @@
 #import "CoreDataTest.h"
 #import "IBFunctions.h"
 #import "Brand.h"
+#import "ECSeeder.h"
 
 @implementation AppDelegate
 
@@ -113,10 +114,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
 #ifdef RESTKIT_GENERATE_SEED_DB
-    [self initRKStore];
-    [self seed];
+    [ECSeeder seed]
 #else
-    [self createSeedIfNecessary];
+    [ECSeeder seedIfNecessary];
 #endif
     [self test];
     // Override point for customization after application launch.
@@ -126,6 +126,7 @@
     return YES;
 }
 
+/**
 NSString * DOCUMENTS_DIR() {
     return IB_DOCUMENTS_DIR();
 }
@@ -134,12 +135,14 @@ NSString * DOCUMENTS_DIR() {
     NSString * docDir = DOCUMENTS_DIR();
     NSString * seedPath = [docDir stringByAppendingPathComponent:@"CoreDataStore.sqlite"];
     if (NO == [[NSFileManager defaultManager] fileExistsAtPath:seedPath]) {
-        [self initRKStore];
-        [self seed];
+        [ECSeeder seed];
     } else {
         NSLog(@"The seed database already exists in: %@", seedPath);
     }
 }
+*/
+ 
+/**
 
 - (void)initRKStore {
     RKObjectManager * objectManager = [RKObjectManager objectManagerWithBaseURLString:@"http://ec.com"];
@@ -276,21 +279,10 @@ NSString * DOCUMENTS_DIR() {
     [prodVrntMapping connectRelationship:@"vrtnTypeCode" withObjectForPrimaryKeyAttribute:@"mkg_vrtn_typ_cd_id"];
     [objectManager.mappingProvider setMapping:prodVrntMapping forKeyPath:@"MKG_PROD_VRNT"];
     
-    RKLogConfigureByName("RestKit/ObjectMapping", RKLogLevelDebug);
-    RKLogConfigureByName("RestKit/CoreData", RKLogLevelDebug);
-    
-    RKManagedObjectSeeder *seeder = [RKManagedObjectSeeder objectSeederWithObjectManager:objectManager];
-    // use the associated mapping provider with the object manager
-    [seeder seedObjectsFromFiles:@"ECData.json", nil];
-    
-    // products related
-    [seeder seedObjectsFromFiles:@"ECProdPrice.json", nil];
-    [seeder seedObjectsFromFiles:@"ECProdDesc.json", nil];
-    [seeder seedObjectsFromFiles:@"ECProdMisc.json", nil];
-    [seeder seedObjectsFromFiles:@"ECProducts.json", @"ECSku.json", nil];
-    [seeder finalizeSeedingAndExit];
+   
 }
-							
+*/
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
