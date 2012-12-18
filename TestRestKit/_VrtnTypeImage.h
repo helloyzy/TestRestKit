@@ -1,54 +1,38 @@
 // DO NOT EDIT. This file is machine-generated and constantly overwritten.
-// Make changes to ProductImage.h instead.
+// Make changes to VrtnTypeImage.h instead.
 
 #import <CoreData/CoreData.h>
 
 
-extern const struct ProductImageAttributes {
-	__unsafe_unretained NSString *dsp_ord;
+extern const struct VrtnTypeImageAttributes {
 	__unsafe_unretained NSString *file_lctn;
 	__unsafe_unretained NSString *mkg_dig_aset_id;
 	__unsafe_unretained NSString *mkg_dig_aset_ownr_id;
-	__unsafe_unretained NSString *mkg_dig_aset_purp_nm;
 	__unsafe_unretained NSString *mkg_ownd_dig_aset_id;
-} ProductImageAttributes;
+	__unsafe_unretained NSString *mkg_vrtn_typ_cd_id;
+} VrtnTypeImageAttributes;
 
-extern const struct ProductImageRelationships {
-} ProductImageRelationships;
+extern const struct VrtnTypeImageRelationships {
+} VrtnTypeImageRelationships;
 
-extern const struct ProductImageFetchedProperties {
-} ProductImageFetchedProperties;
-
-
-
+extern const struct VrtnTypeImageFetchedProperties {
+} VrtnTypeImageFetchedProperties;
 
 
 
 
 
 
-@interface ProductImageID : NSManagedObjectID {}
+
+
+@interface VrtnTypeImageID : NSManagedObjectID {}
 @end
 
-@interface _ProductImage : NSManagedObject {}
+@interface _VrtnTypeImage : NSManagedObject {}
 + (id)insertInManagedObjectContext:(NSManagedObjectContext*)moc_;
 + (NSString*)entityName;
 + (NSEntityDescription*)entityInManagedObjectContext:(NSManagedObjectContext*)moc_;
-- (ProductImageID*)objectID;
-
-
-
-
-
-@property (nonatomic, strong) NSNumber* dsp_ord;
-
-
-
-@property int16_t dsp_ordValue;
-- (int16_t)dsp_ordValue;
-- (void)setDsp_ordValue:(int16_t)value_;
-
-//- (BOOL)validateDsp_ord:(id*)value_ error:(NSError**)error_;
+- (VrtnTypeImageID*)objectID;
 
 
 
@@ -92,16 +76,6 @@ extern const struct ProductImageFetchedProperties {
 
 
 
-@property (nonatomic, strong) NSString* mkg_dig_aset_purp_nm;
-
-
-
-//- (BOOL)validateMkg_dig_aset_purp_nm:(id*)value_ error:(NSError**)error_;
-
-
-
-
-
 @property (nonatomic, strong) NSNumber* mkg_ownd_dig_aset_id;
 
 
@@ -116,23 +90,28 @@ extern const struct ProductImageFetchedProperties {
 
 
 
+@property (nonatomic, strong) NSNumber* mkg_vrtn_typ_cd_id;
+
+
+
+@property int16_t mkg_vrtn_typ_cd_idValue;
+- (int16_t)mkg_vrtn_typ_cd_idValue;
+- (void)setMkg_vrtn_typ_cd_idValue:(int16_t)value_;
+
+//- (BOOL)validateMkg_vrtn_typ_cd_id:(id*)value_ error:(NSError**)error_;
+
+
+
+
+
 
 @end
 
-@interface _ProductImage (CoreDataGeneratedAccessors)
+@interface _VrtnTypeImage (CoreDataGeneratedAccessors)
 
 @end
 
-@interface _ProductImage (CoreDataGeneratedPrimitiveAccessors)
-
-
-- (NSNumber*)primitiveDsp_ord;
-- (void)setPrimitiveDsp_ord:(NSNumber*)value;
-
-- (int16_t)primitiveDsp_ordValue;
-- (void)setPrimitiveDsp_ordValue:(int16_t)value_;
-
-
+@interface _VrtnTypeImage (CoreDataGeneratedPrimitiveAccessors)
 
 
 - (NSString*)primitiveFile_lctn;
@@ -159,17 +138,20 @@ extern const struct ProductImageFetchedProperties {
 
 
 
-- (NSString*)primitiveMkg_dig_aset_purp_nm;
-- (void)setPrimitiveMkg_dig_aset_purp_nm:(NSString*)value;
-
-
-
-
 - (NSNumber*)primitiveMkg_ownd_dig_aset_id;
 - (void)setPrimitiveMkg_ownd_dig_aset_id:(NSNumber*)value;
 
 - (int16_t)primitiveMkg_ownd_dig_aset_idValue;
 - (void)setPrimitiveMkg_ownd_dig_aset_idValue:(int16_t)value_;
+
+
+
+
+- (NSNumber*)primitiveMkg_vrtn_typ_cd_id;
+- (void)setPrimitiveMkg_vrtn_typ_cd_id:(NSNumber*)value;
+
+- (int16_t)primitiveMkg_vrtn_typ_cd_idValue;
+- (void)setPrimitiveMkg_vrtn_typ_cd_idValue:(int16_t)value_;
 
 
 

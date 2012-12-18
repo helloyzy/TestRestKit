@@ -1,0 +1,1282 @@
+{
+	"MKG_PROD_FETR_VRNT": [
+	{
+      "mkg_prod_fetr_vrnt_id": 36843,
+      "mkg_prod_id": 1906,
+      "mkg_brnd_cat_fvnt_id": 5332,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 3831
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 36850,
+      "mkg_prod_id": 1906,
+      "mkg_brnd_cat_fvnt_id": 5419,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 3872
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 36851,
+      "mkg_prod_id": 1906,
+      "mkg_brnd_cat_fvnt_id": 5426,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 3877
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 36845,
+      "mkg_prod_id": 1906,
+      "mkg_brnd_cat_fvnt_id": 6672,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 3845
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 36842,
+      "mkg_prod_id": 1906,
+      "mkg_brnd_cat_fvnt_id": 6673,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 3825
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 36847,
+      "mkg_prod_id": 1906,
+      "mkg_brnd_cat_fvnt_id": 7236,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 3854
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 36844,
+      "mkg_prod_id": 1906,
+      "mkg_brnd_cat_fvnt_id": 7284,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 3832
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 36848,
+      "mkg_prod_id": 1906,
+      "mkg_brnd_cat_fvnt_id": 7290,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 3862
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 36849,
+      "mkg_prod_id": 1906,
+      "mkg_brnd_cat_fvnt_id": 7333,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 3863
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 36852,
+      "mkg_prod_id": 1906,
+      "mkg_brnd_cat_fvnt_id": 7336,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 3892
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 36846,
+      "mkg_prod_id": 1906,
+      "mkg_brnd_cat_fvnt_id": 7341,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 3849
+    },
+	{
+      "mkg_prod_fetr_vrnt_id": 14881,
+      "mkg_prod_id": 1197,
+      "mkg_brnd_cat_fvnt_id": 3980,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 2985
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 14885,
+      "mkg_prod_id": 1197,
+      "mkg_brnd_cat_fvnt_id": 4047,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 3022
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 14891,
+      "mkg_prod_id": 1197,
+      "mkg_brnd_cat_fvnt_id": 4118,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 3066
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 14892,
+      "mkg_prod_id": 1197,
+      "mkg_brnd_cat_fvnt_id": 4122,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 3070
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 27084,
+      "mkg_prod_id": 1197,
+      "mkg_brnd_cat_fvnt_id": 4124,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 3030
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 14893,
+      "mkg_prod_id": 1197,
+      "mkg_brnd_cat_fvnt_id": 4130,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 3078
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 26760,
+      "mkg_prod_id": 1197,
+      "mkg_brnd_cat_fvnt_id": 7084,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 3020
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 26804,
+      "mkg_prod_id": 1197,
+      "mkg_brnd_cat_fvnt_id": 7090,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 3026
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 27021,
+      "mkg_prod_id": 1197,
+      "mkg_brnd_cat_fvnt_id": 7120,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 3048
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 27040,
+      "mkg_prod_id": 1197,
+      "mkg_brnd_cat_fvnt_id": 7125,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 3050
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 27067,
+      "mkg_prod_id": 1197,
+      "mkg_brnd_cat_fvnt_id": 7127,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 3052
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 27074,
+      "mkg_prod_id": 1197,
+      "mkg_brnd_cat_fvnt_id": 7129,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 3058
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 27496,
+      "mkg_prod_id": 1197,
+      "mkg_brnd_cat_fvnt_id": 7177,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 3082
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 27516,
+      "mkg_prod_id": 1197,
+      "mkg_brnd_cat_fvnt_id": 7179,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 3094
+    },
+	{
+      "mkg_prod_fetr_vrnt_id": 15126,
+      "mkg_prod_id": 1218,
+      "mkg_brnd_cat_fvnt_id": 3981,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 2986
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 15130,
+      "mkg_prod_id": 1218,
+      "mkg_brnd_cat_fvnt_id": 4048,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 3023
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 15136,
+      "mkg_prod_id": 1218,
+      "mkg_brnd_cat_fvnt_id": 4119,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 3067
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 15137,
+      "mkg_prod_id": 1218,
+      "mkg_brnd_cat_fvnt_id": 4121,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 3069
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 15138,
+      "mkg_prod_id": 1218,
+      "mkg_brnd_cat_fvnt_id": 4123,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 3071
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 27090,
+      "mkg_prod_id": 1218,
+      "mkg_brnd_cat_fvnt_id": 4125,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 3031
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 15139,
+      "mkg_prod_id": 1218,
+      "mkg_brnd_cat_fvnt_id": 4131,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 3079
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 26693,
+      "mkg_prod_id": 1218,
+      "mkg_brnd_cat_fvnt_id": 7075,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 2994
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 26697,
+      "mkg_prod_id": 1218,
+      "mkg_brnd_cat_fvnt_id": 7078,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 2996
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 26724,
+      "mkg_prod_id": 1218,
+      "mkg_brnd_cat_fvnt_id": 7083,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 3007
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 26766,
+      "mkg_prod_id": 1218,
+      "mkg_brnd_cat_fvnt_id": 7085,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 3021
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 26809,
+      "mkg_prod_id": 1218,
+      "mkg_brnd_cat_fvnt_id": 7092,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 3027
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 27026,
+      "mkg_prod_id": 1218,
+      "mkg_brnd_cat_fvnt_id": 7121,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 3049
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 27045,
+      "mkg_prod_id": 1218,
+      "mkg_brnd_cat_fvnt_id": 7126,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 3051
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 27072,
+      "mkg_prod_id": 1218,
+      "mkg_brnd_cat_fvnt_id": 7128,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 3053
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 27079,
+      "mkg_prod_id": 1218,
+      "mkg_brnd_cat_fvnt_id": 7130,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 3059
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 27502,
+      "mkg_prod_id": 1218,
+      "mkg_brnd_cat_fvnt_id": 7178,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 3083
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 27521,
+      "mkg_prod_id": 1218,
+      "mkg_brnd_cat_fvnt_id": 7180,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 3095
+    },
+	{
+      "mkg_prod_fetr_vrnt_id": 17058,
+      "mkg_prod_id": 608,
+      "mkg_brnd_cat_fvnt_id": 6072,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 4136
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 17059,
+      "mkg_prod_id": 608,
+      "mkg_brnd_cat_fvnt_id": 6073,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 4138
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 17061,
+      "mkg_prod_id": 608,
+      "mkg_brnd_cat_fvnt_id": 6076,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 4139
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 17069,
+      "mkg_prod_id": 608,
+      "mkg_brnd_cat_fvnt_id": 6091,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 4146
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 17057,
+      "mkg_prod_id": 608,
+      "mkg_brnd_cat_fvnt_id": 6093,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 2913
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 17070,
+      "mkg_prod_id": 608,
+      "mkg_brnd_cat_fvnt_id": 6094,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 4147
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 17071,
+      "mkg_prod_id": 608,
+      "mkg_brnd_cat_fvnt_id": 6096,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 4148
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 17072,
+      "mkg_prod_id": 608,
+      "mkg_brnd_cat_fvnt_id": 6098,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 4149
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 17073,
+      "mkg_prod_id": 608,
+      "mkg_brnd_cat_fvnt_id": 6100,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 4150
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 17074,
+      "mkg_prod_id": 608,
+      "mkg_brnd_cat_fvnt_id": 6101,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 4151
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 17078,
+      "mkg_prod_id": 608,
+      "mkg_brnd_cat_fvnt_id": 6108,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 4155
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 39227,
+      "mkg_prod_id": 608,
+      "mkg_brnd_cat_fvnt_id": 6665,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 4348
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 25139,
+      "mkg_prod_id": 608,
+      "mkg_brnd_cat_fvnt_id": 6950,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 4336
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 25501,
+      "mkg_prod_id": 608,
+      "mkg_brnd_cat_fvnt_id": 6965,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 4143
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 25504,
+      "mkg_prod_id": 608,
+      "mkg_brnd_cat_fvnt_id": 6967,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 4152
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 25507,
+      "mkg_prod_id": 608,
+      "mkg_brnd_cat_fvnt_id": 6969,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 4145
+    },
+	{
+      "mkg_prod_fetr_vrnt_id": 13020,
+      "mkg_prod_id": 1265,
+      "mkg_brnd_cat_fvnt_id": 5455,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 2912
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 13019,
+      "mkg_prod_id": 1265,
+      "mkg_brnd_cat_fvnt_id": 5456,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 2911
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 13018,
+      "mkg_prod_id": 1265,
+      "mkg_brnd_cat_fvnt_id": 5457,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 2910
+    },
+    {
+      "mkg_prod_fetr_vrnt_id": 13017,
+      "mkg_prod_id": 1265,
+      "mkg_brnd_cat_fvnt_id": 5458,
+      "is_difn": 0,
+      "mkg_prod_cat_fetr_id": 2909
+    }
+	],
+	"MKG_BRND_CAT_FVNT": [
+	{
+      "mkg_brnd_cat_fvnt_id": 5332,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 2395,
+      "mkg_prod_cat_fetr_id": 3831,
+      "rank": 6
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 5419,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 2464,
+      "mkg_prod_cat_fetr_id": 3872,
+      "rank": 1
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 5426,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 2469,
+      "mkg_prod_cat_fetr_id": 3877,
+      "rank": 5
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 6672,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 2883,
+      "mkg_prod_cat_fetr_id": 3845,
+      "rank": 7
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 6673,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 2884,
+      "mkg_prod_cat_fetr_id": 3825,
+      "rank": 12
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 7236,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 2857,
+      "mkg_prod_cat_fetr_id": 3854,
+      "rank": 13
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 7284,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 2653,
+      "mkg_prod_cat_fetr_id": 3832,
+      "rank": 4
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 7290,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 2650,
+      "mkg_prod_cat_fetr_id": 3862,
+      "rank": 8
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 7333,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 3001,
+      "mkg_prod_cat_fetr_id": 3863,
+      "rank": 2
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 7336,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 3002,
+      "mkg_prod_cat_fetr_id": 3892,
+      "rank": 3
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 7341,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 3004,
+      "mkg_prod_cat_fetr_id": 3849,
+      "rank": 3
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 3980,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 1760,
+      "mkg_prod_cat_fetr_id": 2985,
+      "rank": 11
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 4047,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 1787,
+      "mkg_prod_cat_fetr_id": 3022,
+      "rank": 10
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 4118,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 1821,
+      "mkg_prod_cat_fetr_id": 3066,
+      "rank": 19
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 4122,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 1823,
+      "mkg_prod_cat_fetr_id": 3070,
+      "rank": 2
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 4124,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 1824,
+      "mkg_prod_cat_fetr_id": 3030,
+      "rank": 4
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 4130,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 1827,
+      "mkg_prod_cat_fetr_id": 3078,
+      "rank": 20
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 7084,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 1784,
+      "mkg_prod_cat_fetr_id": 3020,
+      "rank": 8
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 7090,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 1789,
+      "mkg_prod_cat_fetr_id": 3026,
+      "rank": 14
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 7120,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 1806,
+      "mkg_prod_cat_fetr_id": 3048,
+      "rank": 5
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 7125,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 1808,
+      "mkg_prod_cat_fetr_id": 3050,
+      "rank": 6
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 7127,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 1810,
+      "mkg_prod_cat_fetr_id": 3052,
+      "rank": 21
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 7129,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 1815,
+      "mkg_prod_cat_fetr_id": 3058,
+      "rank": 13
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 7177,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 1831,
+      "mkg_prod_cat_fetr_id": 3082,
+      "rank": 7
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 7179,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 1840,
+      "mkg_prod_cat_fetr_id": 3094,
+      "rank": 9
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 3981,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 1760,
+      "mkg_prod_cat_fetr_id": 2986,
+      "rank": 11
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 4048,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 1787,
+      "mkg_prod_cat_fetr_id": 3023,
+      "rank": 10
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 4119,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 1821,
+      "mkg_prod_cat_fetr_id": 3067,
+      "rank": 19
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 4121,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 1822,
+      "mkg_prod_cat_fetr_id": 3069,
+      "rank": 1
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 4123,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 1823,
+      "mkg_prod_cat_fetr_id": 3071,
+      "rank": 2
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 4125,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 1824,
+      "mkg_prod_cat_fetr_id": 3031,
+      "rank": 4
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 4131,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 1827,
+      "mkg_prod_cat_fetr_id": 3079,
+      "rank": 20
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 7075,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 2614,
+      "mkg_prod_cat_fetr_id": 2994,
+      "rank": 22
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 7078,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 1763,
+      "mkg_prod_cat_fetr_id": 2996,
+      "rank": 15
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 7083,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 1774,
+      "mkg_prod_cat_fetr_id": 3007,
+      "rank": 12
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 7085,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 1784,
+      "mkg_prod_cat_fetr_id": 3021,
+      "rank": 8
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 7092,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 1789,
+      "mkg_prod_cat_fetr_id": 3027,
+      "rank": 14
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 7121,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 1806,
+      "mkg_prod_cat_fetr_id": 3049,
+      "rank": 5
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 7126,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 1808,
+      "mkg_prod_cat_fetr_id": 3051,
+      "rank": 6
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 7128,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 1810,
+      "mkg_prod_cat_fetr_id": 3053,
+      "rank": 21
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 7130,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 1815,
+      "mkg_prod_cat_fetr_id": 3059,
+      "rank": 13
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 7178,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 1831,
+      "mkg_prod_cat_fetr_id": 3083,
+      "rank": 7
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 7180,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 1840,
+      "mkg_prod_cat_fetr_id": 3095,
+      "rank": 9
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 6072,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 2703,
+      "mkg_prod_cat_fetr_id": 4136,
+      "rank": 1
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 6073,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 2704,
+      "mkg_prod_cat_fetr_id": 4138,
+      "rank": 2
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 6076,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 2707,
+      "mkg_prod_cat_fetr_id": 4139,
+      "rank": 5
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 6091,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 2722,
+      "mkg_prod_cat_fetr_id": 4146,
+      "rank": 11
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 6093,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 2724,
+      "mkg_prod_cat_fetr_id": 2913,
+      "rank": 12
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 6094,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 2725,
+      "mkg_prod_cat_fetr_id": 4147,
+      "rank": 13
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 6096,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 2727,
+      "mkg_prod_cat_fetr_id": 4148,
+      "rank": 14
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 6098,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 2729,
+      "mkg_prod_cat_fetr_id": 4149,
+      "rank": 16
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 6100,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 2731,
+      "mkg_prod_cat_fetr_id": 4150,
+      "rank": 20
+    },
+    {
+      "mkg_brnd_cat_fvnt_id": 6101,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 2732,
+      "mkg_prod_cat_fetr_id": 4151,
+      "rank": 21
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 6108,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 2739,
+      "mkg_prod_cat_fetr_id": 4155,
+      "rank": 4
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 6665,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 2876,
+      "mkg_prod_cat_fetr_id": 4348,
+      "rank": 9
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 6950,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 2849,
+      "mkg_prod_cat_fetr_id": 4336,
+      "rank": 18
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 6965,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 2716,
+      "mkg_prod_cat_fetr_id": 4143,
+      "rank": 8
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 6967,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 2734,
+      "mkg_prod_cat_fetr_id": 4152,
+      "rank": 22
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 6969,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 2721,
+      "mkg_prod_cat_fetr_id": 4145,
+      "rank": 10
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 5455,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 1687,
+      "mkg_prod_cat_fetr_id": 2912,
+      "rank": 6
+    },
+	{
+      "mkg_brnd_cat_fvnt_id": 5456,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 1686,
+      "mkg_prod_cat_fetr_id": 2911,
+      "rank": 5
+    },
+    {
+      "mkg_brnd_cat_fvnt_id": 5457,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 1685,
+      "mkg_prod_cat_fetr_id": 2910,
+      "rank": 1
+    },
+    {
+      "mkg_brnd_cat_fvnt_id": 5458,
+      "mkg_brnd_id": 8,
+      "mkg_fetr_vrnt_id": 1683,
+      "mkg_prod_cat_fetr_id": 2909,
+      "rank": 3
+    }
+	],
+	"MKG_FETR_VRNT": [
+	{
+      "mkg_fetr_vrnt_id": 2395,
+      "vrnt_nm": "ct:fff:CookingVersatility",
+      "bult_txt_proc": "Cooking Versatility",
+      "desc_proc": "Gentle enough to melt chocolate and powerful enough to boil water, so it?s great for entertaining or getting dinner on the table quickly.",
+      "mkg_fetr_id": 1448,
+      "mkg_dig_aset_ownr_id": 6930
+    },
+	{
+      "mkg_fetr_vrnt_id": 2464,
+      "vrnt_nm": "ct:fpr:PowerPlusBoost",
+      "bult_txt_proc": "PowerPlus?Boost",
+      "desc_proc": "Generates rapid heat for a quicker boil.",
+      "mkg_fetr_id": 1490,
+      "mkg_dig_aset_ownr_id": 6999
+    },
+	{
+      "mkg_fetr_vrnt_id": 2469,
+      "vrnt_nm": "ct:fpr:ProSelectCntrls",
+      "bult_txt_proc": "Pro-Select?Controls",
+      "desc_proc": "Precise control at your fingertips.",
+      "mkg_fetr_id": 1495,
+      "mkg_dig_aset_ownr_id": 7004
+    },
+	{
+      "mkg_fetr_vrnt_id": 2883,
+      "vrnt_nm": "ct:fff:ExceptionalTempCntrl(Full Ind,Hybrid)",
+      "bult_txt_proc": "Exceptional Temperature Control",
+      "desc_proc": "Adjust heat with greater accuracy than on gas or electric cooktops especially at lower settings.",
+      "mkg_fetr_id": 1462,
+      "mkg_dig_aset_ownr_id": 8348
+    },
+	{
+      "mkg_fetr_vrnt_id": 2884,
+      "vrnt_nm": "ct:fff:CeramicGlassCooktop(Full Ind)",
+      "bult_txt_proc": "Smoothtop Ceramic Glass Cooking Surface",
+      "desc_proc": "",
+      "mkg_fetr_id": 1442,
+      "mkg_dig_aset_ownr_id": 8349
+    },
+	{
+      "mkg_fetr_vrnt_id": 2857,
+      "vrnt_nm": "ct:fff:HotSurfaceIndctr(Elec+Ind)",
+      "bult_txt_proc": "Hot Surface Indicators",
+      "desc_proc": "",
+      "mkg_fetr_id": 1471,
+      "mkg_dig_aset_ownr_id": 8320
+    },
+	{
+      "mkg_fetr_vrnt_id": 2653,
+      "vrnt_nm": "ct:fff:CooktopStaysCooler(IND)",
+      "bult_txt_proc": "Cooktop Stays Cooler for Easy Cleaning",
+      "desc_proc": "With induction cooking heat is transferred directly to the cookware. The cooktop stays cooler, preventing burnt-on foods and making it easier to clean.",
+      "mkg_fetr_id": 1449,
+      "mkg_dig_aset_ownr_id": 7259
+    },
+	{
+      "mkg_fetr_vrnt_id": 2650,
+      "vrnt_nm": "ct:fff:MoreEnergyEffcnt",
+      "bult_txt_proc": "More Energy-Efficient",
+      "desc_proc": "Cooking with induction is 70% more efficient than gas and 20% more efficient than electric.",
+      "mkg_fetr_id": 1480,
+      "mkg_dig_aset_ownr_id": 7256
+    },
+	{
+      "mkg_fetr_vrnt_id": 3001,
+      "vrnt_nm": "ct:fff:MoreResponsive(Full,Hyb)",
+      "bult_txt_proc": "More Responsive",
+      "desc_proc": "Cooking with induction is more responsive than gas or electric so you can easily go from simmer to boil.",
+      "mkg_fetr_id": 1481,
+      "mkg_dig_aset_ownr_id": 9356
+    },
+	{
+      "mkg_fetr_vrnt_id": 3002,
+      "vrnt_nm": "ct:fff:VersatileIndElmnts (Full Ind)",
+      "bult_txt_proc": "Versatile Induction Elements",
+      "desc_proc": "With up to five powerfully efficient induction elements the Induction Cooktop offers the superior cooking flexibility. And the 10\" induction element offers up to 3,400 watts of power, so you can bring water to a boil quickly.",
+      "mkg_fetr_id": 1510,
+      "mkg_dig_aset_ownr_id": 9357
+    },
+	{
+      "mkg_fetr_vrnt_id": 3004,
+      "vrnt_nm": "ct:fff:FitsMoreCooktop(Full Ind)",
+      "bult_txt_proc": "Fits-More? Cooktop",
+      "desc_proc": "The Fits-More? cooktop features five elements so you can cook more at once.",
+      "mkg_fetr_id": 1466,
+      "mkg_dig_aset_ownr_id": 9359
+    },
+	{
+      "mkg_fetr_vrnt_id": 1760,
+      "vrnt_nm": "wo:fpr:MyFavoriteSettings",
+      "bult_txt_proc": "My Favorite Settings",
+      "desc_proc": "Easily program your most used setting with the touch of a button.",
+      "mkg_fetr_id": 1016,
+      "mkg_dig_aset_ownr_id": 6259
+    },
+	{
+      "mkg_fetr_vrnt_id": 1787,
+      "vrnt_nm": "wo:fff:EffortlessConvection",
+      "bult_txt_proc": "Effortless? Convection",
+      "desc_proc": "Takes the guesswork out of convection cooking - our oven does the converting for you.",
+      "mkg_fetr_id": 1033,
+      "mkg_dig_aset_ownr_id": 6286
+    },
+	{
+      "mkg_fetr_vrnt_id": 1821,
+      "vrnt_nm": "wo:fpr:PowerPlusClean",
+      "bult_txt_proc": "PowerPlus?Clean",
+      "desc_proc": "For a heavy-duty clean with 25% more cleaning power.",
+      "mkg_fetr_id": 1055,
+      "mkg_dig_aset_ownr_id": 6320
+    },
+	{
+      "mkg_fetr_vrnt_id": 1823,
+      "vrnt_nm": "wo:fpr:PowerPlusPreheat",
+      "bult_txt_proc": "PowerPlus?Preheat",
+      "desc_proc": "Preheat in less than 6 minutes.* (*Based on single rack cooking performance, not set temperature, using PowerPlus?Preheat.)",
+      "mkg_fetr_id": 1057,
+      "mkg_dig_aset_ownr_id": 6322
+    },
+	{
+      "mkg_fetr_vrnt_id": 1824,
+      "vrnt_nm": "wo:fpr:ProSelectCntrls",
+      "bult_txt_proc": "Pro-Select?Controls",
+      "desc_proc": "Precise control at your fingertips.",
+      "mkg_fetr_id": 1037,
+      "mkg_dig_aset_ownr_id": 6323
+    },
+	{
+      "mkg_fetr_vrnt_id": 1827,
+      "vrnt_nm": "wo:fpr:RapidClean",
+      "bult_txt_proc": "Rapid Clean",
+      "desc_proc": "For a quick, light oven cleaning.",
+      "mkg_fetr_id": 1061,
+      "mkg_dig_aset_ownr_id": 6326
+    },
+	{
+      "mkg_fetr_vrnt_id": 1784,
+      "vrnt_nm": "wo:fff:DelayStart",
+      "bult_txt_proc": "Delay Start",
+      "desc_proc": "Set your oven to begin cooking on your schedule. It can be programmed from one to 24 hours.",
+      "mkg_fetr_id": 1032,
+      "mkg_dig_aset_ownr_id": 6283
+    },
+	{
+      "mkg_fetr_vrnt_id": 1789,
+      "vrnt_nm": "wo:fff:EvnBakingTech(Elec)",
+      "bult_txt_proc": "Even Baking Technology",
+      "desc_proc": "Our latest technology ensures even baking every time.",
+      "mkg_fetr_id": 1035,
+      "mkg_dig_aset_ownr_id": 6288
+    },
+	{
+      "mkg_fetr_vrnt_id": 1806,
+      "vrnt_nm": "wo:fff:OneTouchKeepWrmSetting",
+      "bult_txt_proc": "One-Touch Keep Warm Setting",
+      "desc_proc": "Just one touch of a button keeps food warm until everything ? and everyone ? is ready.",
+      "mkg_fetr_id": 1046,
+      "mkg_dig_aset_ownr_id": 6305
+    },
+	{
+      "mkg_fetr_vrnt_id": 1808,
+      "vrnt_nm": "wo:fff:OneTouchOptions",
+      "bult_txt_proc": "One-Touch Options",
+      "desc_proc": "Our ovens feature easy-to-use one touch buttons so you can cook pizza or chicken nuggets ? or even add a minute to the timer ? with the touch of a button.",
+      "mkg_fetr_id": 1047,
+      "mkg_dig_aset_ownr_id": 6307
+    },
+	{
+      "mkg_fetr_vrnt_id": 1810,
+      "vrnt_nm": "wo:fff:OneTouchSelfClean",
+      "bult_txt_proc": "One-Touch Self Clean",
+      "desc_proc": "Start the self-cleaning cycle with just the touch of a button.",
+      "mkg_fetr_id": 1048,
+      "mkg_dig_aset_ownr_id": 6309
+    },
+	{
+      "mkg_fetr_vrnt_id": 1815,
+      "vrnt_nm": "wo:fff:PizzaButton",
+      "bult_txt_proc": "Pizza Button",
+      "desc_proc": "Easily bake perfect pizza with the touch of a button.",
+      "mkg_fetr_id": 1051,
+      "mkg_dig_aset_ownr_id": 6314
+    },
+	{
+      "mkg_fetr_vrnt_id": 1831,
+      "vrnt_nm": "wo:fff:SmudgeProofSS",
+      "bult_txt_proc": "Smudge-Proof Stainless Steel",
+      "desc_proc": "Protective coating reduces fingerprints and smudges so it's easy to clean.",
+      "mkg_fetr_id": 1063,
+      "mkg_dig_aset_ownr_id": 6330
+    },
+	{
+      "mkg_fetr_vrnt_id": 1840,
+      "vrnt_nm": "wo:fff:SpaceWiseHalfRack",
+      "bult_txt_proc": "SpaceWise?Half Rack",
+      "desc_proc": "Flexible rack system that adjusts to cook multiple dishes at once. Remove the half rack and you?ll have extra height for tall dishes.",
+      "mkg_fetr_id": 1069,
+      "mkg_dig_aset_ownr_id": 6339
+    },
+	{
+      "mkg_fetr_vrnt_id": 1822,
+      "vrnt_nm": "wo:fpr:PowerPlusConvection",
+      "bult_txt_proc": "PowerPlus?Convection",
+      "desc_proc": "You can roast to tender, juicy perfection in less time.",
+      "mkg_fetr_id": 1056,
+      "mkg_dig_aset_ownr_id": 6321
+    },
+	{
+      "mkg_fetr_vrnt_id": 2614,
+      "vrnt_nm": "wo:fff:ADACompliant",
+      "bult_txt_proc": "ADA Compliant*",
+      "desc_proc": "(*When properly installed, meets the appliance standards in the Americans with Disabilities Act Accessibility Guidelines as published by the United States Access Board on June 23, 2004, as amended August 5, 2005.)",
+      "mkg_fetr_id": 1019,
+      "mkg_dig_aset_ownr_id": 7202
+    },
+	{
+      "mkg_fetr_vrnt_id": 1763,
+      "vrnt_nm": "wo:fff:AddaMinute",
+      "bult_txt_proc": "Add-a-Minute",
+      "desc_proc": "Easily add a minute to the oven timer in the middle of a cycle without resetting.",
+      "mkg_fetr_id": 1020,
+      "mkg_dig_aset_ownr_id": 6262
+    },
+	{
+      "mkg_fetr_vrnt_id": 1774,
+      "vrnt_nm": "wo:fff:ChickenNuggetButton",
+      "bult_txt_proc": "Chicken Nugget Button",
+      "desc_proc": "Easily bake perfect chicken nuggets with the touch of a button.",
+      "mkg_fetr_id": 1025,
+      "mkg_dig_aset_ownr_id": 6273
+    },
+	{
+      "mkg_fetr_vrnt_id": 2703,
+      "vrnt_nm": "mcb:fpr:PowerPlusPreheat",
+      "bult_txt_proc": "PowerPlus?Preheat",
+      "desc_proc": "Preheat in less than 6 minutes.* (*Based on single rack cooking performance, not set temperature, using PowerPlus?Preheat.)",
+      "mkg_fetr_id": 1647,
+      "mkg_dig_aset_ownr_id": 7309
+    },
+    {
+      "mkg_fetr_vrnt_id": 2704,
+      "vrnt_nm": "mcb:fpr:PowerPlusConvctn(30\")",
+      "bult_txt_proc": "PowerPlus?Convection",
+      "desc_proc": "You can roast to tender, juicy perfection in less time.",
+      "mkg_fetr_id": 1649,
+      "mkg_dig_aset_ownr_id": 7310
+    },
+	{
+      "mkg_fetr_vrnt_id": 2707,
+      "vrnt_nm": "mcb:fff:EffortlessReheat",
+      "bult_txt_proc": "Effortless? Reheat",
+      "desc_proc": "Reheat almost anything at the touch of a button.",
+      "mkg_fetr_id": 1650,
+      "mkg_dig_aset_ownr_id": 7313
+    },
+	{
+      "mkg_fetr_vrnt_id": 2722,
+      "vrnt_nm": "mcb:fff:EffortlessConvection",
+      "bult_txt_proc": "Effortless? Convection",
+      "desc_proc": "Takes the guesswork out of convection cooking ? our oven does the converting for you.",
+      "mkg_fetr_id": 1657,
+      "mkg_dig_aset_ownr_id": 7328
+    },
+	{
+      "mkg_fetr_vrnt_id": 2724,
+      "vrnt_nm": "mcb:fpr:MyFavSettings",
+      "bult_txt_proc": "My Favorite Setting",
+      "desc_proc": "Easily program your most used setting with the touch of a button.",
+      "mkg_fetr_id": 963,
+      "mkg_dig_aset_ownr_id": 7330
+    },
+	{
+      "mkg_fetr_vrnt_id": 2725,
+      "vrnt_nm": "mcb:fff:ChickenNuggetBttn",
+      "bult_txt_proc": "Chicken Nugget Button",
+      "desc_proc": "Easily bake perfect chicken nuggets with the touch of a button.",
+      "mkg_fetr_id": 1658,
+      "mkg_dig_aset_ownr_id": 7331
+    },
+    {
+      "mkg_fetr_vrnt_id": 2727,
+      "vrnt_nm": "mcb:fpr:PizzaButton",
+      "bult_txt_proc": "Pizza Button",
+      "desc_proc": "Easily bake perfect pizza with the touch of a button.",
+      "mkg_fetr_id": 1659,
+      "mkg_dig_aset_ownr_id": 7333
+    },
+	{
+      "mkg_fetr_vrnt_id": 2729,
+      "vrnt_nm": "mcb:fpr:AddAMin",
+      "bult_txt_proc": "Add-a-Minute",
+      "desc_proc": "Easily add a minute to the oven timer in the middle of a cycle without resetting.",
+      "mkg_fetr_id": 1660,
+      "mkg_dig_aset_ownr_id": 7335
+    },
+	{
+      "mkg_fetr_vrnt_id": 2731,
+      "vrnt_nm": "mcb:fpr:PowerPlusClean",
+      "bult_txt_proc": "PowerPlus?Clean",
+      "desc_proc": "For a heavy-duty clean with 25% more cleaning power.",
+      "mkg_fetr_id": 1661,
+      "mkg_dig_aset_ownr_id": 7337
+    },
+	{
+      "mkg_fetr_vrnt_id": 2732,
+      "vrnt_nm": "mcb:fpr:RapidClean",
+      "bult_txt_proc": "Rapid Clean",
+      "desc_proc": "For a quick, light oven cleaning.",
+      "mkg_fetr_id": 1662,
+      "mkg_dig_aset_ownr_id": 7338
+    },
+	{
+      "mkg_fetr_vrnt_id": 2739,
+      "vrnt_nm": "mcb:fff:FitsMoreMicro",
+      "bult_txt_proc": "Fits-More? Microwave Oven",
+      "desc_proc": "Extra-large microwave provides 2.0 cubic feet of cooking space.",
+      "mkg_fetr_id": 1666,
+      "mkg_dig_aset_ownr_id": 7345
+    },
+	{
+      "mkg_fetr_vrnt_id": 2876,
+      "vrnt_nm": "mcb:fpr:SmudgeProofSS",
+      "bult_txt_proc": "Smudge-Proof Stainless Steel",
+      "desc_proc": "Protective coating reduces fingerprints and smudges so it's easy to clean.",
+      "mkg_fetr_id": 1748,
+      "mkg_dig_aset_ownr_id": 8341
+    },
+	{
+      "mkg_fetr_vrnt_id": 2849,
+      "vrnt_nm": "mcb:fff:AutoOvenShutOff",
+      "bult_txt_proc": "Auto Oven Shut-Off",
+      "desc_proc": "As an extra safety measure, the oven will automatically shut off after six hours.",
+      "mkg_fetr_id": 1740,
+      "mkg_dig_aset_ownr_id": 8312
+    },
+	{
+      "mkg_fetr_vrnt_id": 2716,
+      "vrnt_nm": "mcb:fff:OneTouchOptions(Oven)",
+      "bult_txt_proc": "One-Touch? Options",
+      "desc_proc": "Our ovens feature easy-to-use one touch buttons so you can cook pizza or chicken nuggets - or even add a minute to the timer - with the touch of a button.",
+      "mkg_fetr_id": 1654,
+      "mkg_dig_aset_ownr_id": 7322
+    },
+	{
+      "mkg_fetr_vrnt_id": 2734,
+      "vrnt_nm": "mcb:fff:OneTouchSelfClean",
+      "bult_txt_proc": "One-Touch? Self-Clean",
+      "desc_proc": "Start the self-cleaning cycle with just the touch of a button.",
+      "mkg_fetr_id": 1663,
+      "mkg_dig_aset_ownr_id": 7340
+    },
+	{
+      "mkg_fetr_vrnt_id": 2721,
+      "vrnt_nm": "mcb:fff:SpaceWiseHalfRack",
+      "bult_txt_proc": "SpaceWise?Half Rack",
+      "desc_proc": "Flexible rack system that adjusts to cook multiple dishes at once. Remove the half rack and you?ll have extra height for tall dishes.",
+      "mkg_fetr_id": 1656,
+      "mkg_dig_aset_ownr_id": 7327
+    },
+	{
+      "mkg_fetr_vrnt_id": 1687,
+      "vrnt_nm": "wdr:fpr:AdjHumidityCntrl",
+      "bult_txt_proc": "Adjustable Humidity Control",
+      "desc_proc": "Keep food moist and delicious until it's time to eat.",
+      "mkg_fetr_id": 962,
+      "mkg_dig_aset_ownr_id": 6184
+    },
+	{
+      "mkg_fetr_vrnt_id": 1686,
+      "vrnt_nm": "wdr:fpr:LargeCapacity",
+      "bult_txt_proc": "Large Capacity",
+      "desc_proc": "Large enough to keep several dishes warm until dinner is ready.",
+      "mkg_fetr_id": 961,
+      "mkg_dig_aset_ownr_id": 6183
+    },
+	{
+      "mkg_fetr_vrnt_id": 1685,
+      "vrnt_nm": "wdr:fpr:ProSelectCntrls",
+      "bult_txt_proc": "Pro-Select?Controls",
+      "desc_proc": "Precise control at your fingertips.",
+      "mkg_fetr_id": 960,
+      "mkg_dig_aset_ownr_id": 6182
+    },
+	{
+      "mkg_fetr_vrnt_id": 1683,
+      "vrnt_nm": "wdr:fpr:SmudgeProofSS",
+      "bult_txt_proc": "Smudge-Proof Stainless Steel",
+      "desc_proc": "Protective coating reduces fingerprints and smudges so it's easy to clean.",
+      "mkg_fetr_id": 959,
+      "mkg_dig_aset_ownr_id": 6179
+    }
+	]
+}

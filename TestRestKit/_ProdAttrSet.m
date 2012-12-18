@@ -9,7 +9,7 @@ const struct ProdAttrSetAttributes ProdAttrSetAttributes = {
 	.mkg_attr_val_id = @"mkg_attr_val_id",
 	.mkg_brnd_attr_id = @"mkg_brnd_attr_id",
 	.mkg_brnd_attr_typ_id = @"mkg_brnd_attr_typ_id",
-	.mkg_prod_attr_set_id = @"mkg_prod_attr_set_id",
+	.mkg_prod_attr_val_id = @"mkg_prod_attr_val_id",
 	.mkg_prod_id = @"mkg_prod_id",
 };
 
@@ -74,8 +74,8 @@ const struct ProdAttrSetFetchedProperties ProdAttrSetFetchedProperties = {
 		keyPaths = [keyPaths setByAddingObjectsFromSet:affectingKey];
 		return keyPaths;
 	}
-	if ([key isEqualToString:@"mkg_prod_attr_set_idValue"]) {
-		NSSet *affectingKey = [NSSet setWithObject:@"mkg_prod_attr_set_id"];
+	if ([key isEqualToString:@"mkg_prod_attr_val_idValue"]) {
+		NSSet *affectingKey = [NSSet setWithObject:@"mkg_prod_attr_val_id"];
 		keyPaths = [keyPaths setByAddingObjectsFromSet:affectingKey];
 		return keyPaths;
 	}
@@ -221,26 +221,26 @@ const struct ProdAttrSetFetchedProperties ProdAttrSetFetchedProperties = {
 
 
 
-@dynamic mkg_prod_attr_set_id;
+@dynamic mkg_prod_attr_val_id;
 
 
 
-- (int16_t)mkg_prod_attr_set_idValue {
-	NSNumber *result = [self mkg_prod_attr_set_id];
+- (int16_t)mkg_prod_attr_val_idValue {
+	NSNumber *result = [self mkg_prod_attr_val_id];
 	return [result shortValue];
 }
 
-- (void)setMkg_prod_attr_set_idValue:(int16_t)value_ {
-	[self setMkg_prod_attr_set_id:[NSNumber numberWithShort:value_]];
+- (void)setMkg_prod_attr_val_idValue:(int16_t)value_ {
+	[self setMkg_prod_attr_val_id:[NSNumber numberWithShort:value_]];
 }
 
-- (int16_t)primitiveMkg_prod_attr_set_idValue {
-	NSNumber *result = [self primitiveMkg_prod_attr_set_id];
+- (int16_t)primitiveMkg_prod_attr_val_idValue {
+	NSNumber *result = [self primitiveMkg_prod_attr_val_id];
 	return [result shortValue];
 }
 
-- (void)setPrimitiveMkg_prod_attr_set_idValue:(int16_t)value_ {
-	[self setPrimitiveMkg_prod_attr_set_id:[NSNumber numberWithShort:value_]];
+- (void)setPrimitiveMkg_prod_attr_val_idValue:(int16_t)value_ {
+	[self setPrimitiveMkg_prod_attr_val_id:[NSNumber numberWithShort:value_]];
 }
 
 

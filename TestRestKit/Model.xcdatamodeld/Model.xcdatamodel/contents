@@ -58,7 +58,7 @@
         <attribute name="mkg_fetr_vrnt_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="mkg_prod_cat_fetr_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="rank" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
-        <relationship name="fetrVrnts" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="FeatureVrnt" inverseName="brndCatFvnts" inverseEntity="FeatureVrnt" syncable="YES"/>
+        <relationship name="fetrVrnt" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="FeatureVrnt" inverseName="brndCatFvnts" inverseEntity="FeatureVrnt" syncable="YES"/>
         <relationship name="prodFetrVrnts" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ProdFeatureVrnt" inverseName="brandCatFvnt" inverseEntity="ProdFeatureVrnt" syncable="YES"/>
     </entity>
     <entity name="BrndCatImage" representedClassName="BrndCatImage" syncable="YES">
@@ -73,7 +73,7 @@
         <attribute name="mkg_fetr_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="mkg_fetr_vrnt_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="vrnt_nm" optional="YES" attributeType="String" syncable="YES"/>
-        <relationship name="brndCatFvnts" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="BrndCatFvnt" inverseName="fetrVrnts" inverseEntity="BrndCatFvnt" syncable="YES"/>
+        <relationship name="brndCatFvnts" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="BrndCatFvnt" inverseName="fetrVrnt" inverseEntity="BrndCatFvnt" syncable="YES"/>
     </entity>
     <entity name="InstallType" representedClassName="InstallType" syncable="YES">
         <attribute name="dsp_ord" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
@@ -89,7 +89,7 @@
         <attribute name="mkg_attr_val_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="mkg_brnd_attr_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="mkg_brnd_attr_typ_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
-        <attribute name="mkg_prod_attr_set_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="mkg_prod_attr_val_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="mkg_prod_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <relationship name="attrVal" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="AttrVal" inverseName="prodAttrSets" inverseEntity="AttrVal" syncable="YES"/>
         <relationship name="brndAttr" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="BrndAttr" inverseName="prodAttrSets" inverseEntity="BrndAttr" syncable="YES"/>
@@ -187,11 +187,12 @@
         <relationship name="productArea" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="ProductArea" inverseName="prodCat" inverseEntity="ProductArea" syncable="YES"/>
     </entity>
     <entity name="ProductImage" representedClassName="ProductImage" syncable="YES">
-        <attribute name="dig_aset_purp_nm" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="dsp_ord" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="file_lctn" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="mkg_dig_aset_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="mkg_dig_aset_ownr_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="mkg_dig_aset_purp_nm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mkg_ownd_dig_aset_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
     </entity>
     <entity name="ProdVrnt" representedClassName="ProdVrnt" syncable="YES">
         <attribute name="mkg_chnl_vis_stts_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
@@ -215,6 +216,13 @@
         <attribute name="vrtn_typ_cd_nm" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="prodVrtns" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ProdVrnt" inverseName="vrtnTypeCode" inverseEntity="ProdVrnt" syncable="YES"/>
     </entity>
+    <entity name="VrtnTypeImage" representedClassName="VrtnTypeImage" syncable="YES">
+        <attribute name="file_lctn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mkg_dig_aset_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="mkg_dig_aset_ownr_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="mkg_ownd_dig_aset_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="mkg_vrtn_typ_cd_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
     <elements>
         <element name="AttrVal" positionX="-839" positionY="396" width="128" height="135"/>
         <element name="Brand" positionX="-497" positionY="-252" width="128" height="240"/>
@@ -236,8 +244,9 @@
         <element name="Product" positionX="-1089" positionY="-111" width="128" height="345"/>
         <element name="ProductArea" positionX="-522" positionY="360" width="128" height="135"/>
         <element name="ProductCategory" positionX="-497" positionY="63" width="128" height="195"/>
-        <element name="ProductImage" positionX="-992" positionY="-513" width="128" height="120"/>
+        <element name="ProductImage" positionX="-983" positionY="-507" width="128" height="135"/>
         <element name="ProdVrnt" positionX="-1361" positionY="336" width="128" height="195"/>
         <element name="VrtnTypeCode" positionX="-1604" positionY="429" width="128" height="165"/>
+        <element name="VrtnTypeImage" positionX="-828" positionY="-495" width="128" height="120"/>
     </elements>
 </model>

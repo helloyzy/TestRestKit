@@ -13,7 +13,7 @@ extern const struct BrndCatFvntAttributes {
 } BrndCatFvntAttributes;
 
 extern const struct BrndCatFvntRelationships {
-	__unsafe_unretained NSString *fetrVrnts;
+	__unsafe_unretained NSString *fetrVrnt;
 	__unsafe_unretained NSString *prodFetrVrnts;
 } BrndCatFvntRelationships;
 
@@ -112,9 +112,9 @@ extern const struct BrndCatFvntFetchedProperties {
 
 
 
-@property (nonatomic, strong) FeatureVrnt *fetrVrnts;
+@property (nonatomic, strong) FeatureVrnt *fetrVrnt;
 
-//- (BOOL)validateFetrVrnts:(id*)value_ error:(NSError**)error_;
+//- (BOOL)validateFetrVrnt:(id*)value_ error:(NSError**)error_;
 
 
 
@@ -187,8 +187,8 @@ extern const struct BrndCatFvntFetchedProperties {
 
 
 
-- (FeatureVrnt*)primitiveFetrVrnts;
-- (void)setPrimitiveFetrVrnts:(FeatureVrnt*)value;
+- (FeatureVrnt*)primitiveFetrVrnt;
+- (void)setPrimitiveFetrVrnt:(FeatureVrnt*)value;
 
 
 

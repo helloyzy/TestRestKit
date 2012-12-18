@@ -10,7 +10,7 @@ extern const struct ProdAttrSetAttributes {
 	__unsafe_unretained NSString *mkg_attr_val_id;
 	__unsafe_unretained NSString *mkg_brnd_attr_id;
 	__unsafe_unretained NSString *mkg_brnd_attr_typ_id;
-	__unsafe_unretained NSString *mkg_prod_attr_set_id;
+	__unsafe_unretained NSString *mkg_prod_attr_val_id;
 	__unsafe_unretained NSString *mkg_prod_id;
 } ProdAttrSetAttributes;
 
@@ -120,15 +120,15 @@ extern const struct ProdAttrSetFetchedProperties {
 
 
 
-@property (nonatomic, strong) NSNumber* mkg_prod_attr_set_id;
+@property (nonatomic, strong) NSNumber* mkg_prod_attr_val_id;
 
 
 
-@property int16_t mkg_prod_attr_set_idValue;
-- (int16_t)mkg_prod_attr_set_idValue;
-- (void)setMkg_prod_attr_set_idValue:(int16_t)value_;
+@property int16_t mkg_prod_attr_val_idValue;
+- (int16_t)mkg_prod_attr_val_idValue;
+- (void)setMkg_prod_attr_val_idValue:(int16_t)value_;
 
-//- (BOOL)validateMkg_prod_attr_set_id:(id*)value_ error:(NSError**)error_;
+//- (BOOL)validateMkg_prod_attr_val_id:(id*)value_ error:(NSError**)error_;
 
 
 
@@ -231,11 +231,11 @@ extern const struct ProdAttrSetFetchedProperties {
 
 
 
-- (NSNumber*)primitiveMkg_prod_attr_set_id;
-- (void)setPrimitiveMkg_prod_attr_set_id:(NSNumber*)value;
+- (NSNumber*)primitiveMkg_prod_attr_val_id;
+- (void)setPrimitiveMkg_prod_attr_val_id:(NSNumber*)value;
 
-- (int16_t)primitiveMkg_prod_attr_set_idValue;
-- (void)setPrimitiveMkg_prod_attr_set_idValue:(int16_t)value_;
+- (int16_t)primitiveMkg_prod_attr_val_idValue;
+- (void)setPrimitiveMkg_prod_attr_val_idValue:(int16_t)value_;
 
 
 

@@ -12,7 +12,7 @@ const struct BrndCatFvntAttributes BrndCatFvntAttributes = {
 };
 
 const struct BrndCatFvntRelationships BrndCatFvntRelationships = {
-	.fetrVrnts = @"fetrVrnts",
+	.fetrVrnt = @"fetrVrnt",
 	.prodFetrVrnts = @"prodFetrVrnts",
 };
 
@@ -207,7 +207,7 @@ const struct BrndCatFvntFetchedProperties BrndCatFvntFetchedProperties = {
 
 
 
-@dynamic fetrVrnts;
+@dynamic fetrVrnt;
 
 	
 
