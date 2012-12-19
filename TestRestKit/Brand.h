@@ -2,8 +2,8 @@
 
 @interface Brand : _Brand {}
 
-// - (NSArray*) areaNames;
-// - (NSArray*) childrenAreaNames;
+// get self and all descendants' Ids
+- (NSArray *) familyBrandIds;
 
 // self and its children's product categories, deduplicated
 - (NSArray *) selfAndDirtChildProdCatsByAreas;
@@ -19,6 +19,7 @@
 
 // all top brands (parent=nil) sorted by display order
 + (NSArray *) allTopBrands;
+
 
 @property (nonatomic, readonly) NSArray * productCategories;
 @property (nonatomic, readonly) NSString * name;

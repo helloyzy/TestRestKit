@@ -10,14 +10,46 @@
 #import "IBFunctions.h"
 #import "Brand.h"
 #import "ECSeeder.h"
+#import "NSManagedObject+InnerBand.h"
+#import "BrandProdCat.h"
+#import "ProductCategory.h"
 
 @implementation AppDelegate
 
+- (void) testIn {
+    NSArray * topBrnds = [Brand allTopBrands];
+    NSLog(@"All top brand size is %d", [topBrnds count]);
+    for (Brand * brand in topBrnds) {
+        NSArray * familyBrandIds = [brand familyBrandIds];
+        NSLog(@"Family brand %@:(%@)", brand.name, familyBrandIds);
+        NSPredicate * predicate = [NSPredicate predicateWithFormat:@"mkg_brnd_id IN %@", familyBrandIds];
+        NSArray * searchedBrands = [Brand allForPredicate:predicate];
+        for (Brand * brnd in searchedBrands) {
+            NSLog(@"----- Searched Brand name %@ with id %d", brnd.name, brnd.mkg_brnd_idValue);
+        }
+    }
+}
+
+- (void) testObjectSearch {
+    NSArray * topBrnds = [Brand allTopBrands];
+    Brand * topBrnd = [topBrnds objectAtIndex:0];
+    NSPredicate * predicate = [NSPredicate predicateWithFormat:@"self.parent = %@", topBrnd];
+    NSArray * searchedBrands = [Brand allForPredicate:predicate];
+    for (Brand * brnd in searchedBrands) {
+        NSLog(@"----- Searched Brand name %@ with id %d", brnd.name, brnd.mkg_brnd_idValue);
+    }
+}
+
 - (void) test {
     NSLog(@"%@", IB_DOCUMENTS_DIR());
-    // [CoreDataTest createData];
-    // [CoreDataTest queryBrand];
-    NSLog(@"All top brand size is %d", [[Brand allTopBrands] count]);
+    NSArray * topBrnds = [Brand allTopBrands];
+    Brand * topBrnd = [topBrnds objectAtIndex:0];
+    NSArray * familyBrandIds = [topBrnd familyBrandIds];
+    NSArray * childProdCats = [BrandProdCat childProdCats:16 inBrandFamiliy:familyBrandIds];
+    for (ProductCategory * prodCat in childProdCats) {
+        NSLog(@"Product category id %d, name %@", prodCat.mkg_prod_cat_idValue, prodCat.name);
+    }
+    // [self testIn];
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions

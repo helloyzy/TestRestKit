@@ -2,9 +2,21 @@
 #import "ProductCategory.h"
 #import "NSArray+ECDataRelated.h"
 #import "NSManagedObject+InnerBand.h"
+#import "IBFunctions.h"
 
 @implementation Brand
 
+NSString * STRINGIFY_INT(NSInteger x) {
+    return IB_STRINGIFY_INT(x);
+}
+
+- (NSArray *) familyBrandIds {
+    NSMutableArray * result = [NSMutableArray arrayWithObject:self.mkg_brnd_id];
+    for (Brand * subBrand in self.children) {
+        [result addObjectsFromArray:[subBrand familyBrandIds]];
+    }
+    return result;
+}
 
 #pragma mark - class methods
 
