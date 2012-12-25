@@ -52,9 +52,9 @@ extern const struct BrndAttrTypeFetchedProperties {
 
 
 
-@property int16_t mkg_attr_typ_idValue;
-- (int16_t)mkg_attr_typ_idValue;
-- (void)setMkg_attr_typ_idValue:(int16_t)value_;
+@property int32_t mkg_attr_typ_idValue;
+- (int32_t)mkg_attr_typ_idValue;
+- (void)setMkg_attr_typ_idValue:(int32_t)value_;
 
 //- (BOOL)validateMkg_attr_typ_id:(id*)value_ error:(NSError**)error_;
 
@@ -66,9 +66,9 @@ extern const struct BrndAttrTypeFetchedProperties {
 
 
 
-@property int16_t mkg_brnd_attr_typ_idValue;
-- (int16_t)mkg_brnd_attr_typ_idValue;
-- (void)setMkg_brnd_attr_typ_idValue:(int16_t)value_;
+@property int32_t mkg_brnd_attr_typ_idValue;
+- (int32_t)mkg_brnd_attr_typ_idValue;
+- (void)setMkg_brnd_attr_typ_idValue:(int32_t)value_;
 
 //- (BOOL)validateMkg_brnd_attr_typ_id:(id*)value_ error:(NSError**)error_;
 
@@ -80,9 +80,9 @@ extern const struct BrndAttrTypeFetchedProperties {
 
 
 
-@property int16_t mkg_brnd_idValue;
-- (int16_t)mkg_brnd_idValue;
-- (void)setMkg_brnd_idValue:(int16_t)value_;
+@property int32_t mkg_brnd_idValue;
+- (int32_t)mkg_brnd_idValue;
+- (void)setMkg_brnd_idValue:(int32_t)value_;
 
 //- (BOOL)validateMkg_brnd_id:(id*)value_ error:(NSError**)error_;
 
@@ -121,8 +121,8 @@ extern const struct BrndAttrTypeFetchedProperties {
 - (NSNumber*)primitiveMkg_attr_typ_id;
 - (void)setPrimitiveMkg_attr_typ_id:(NSNumber*)value;
 
-- (int16_t)primitiveMkg_attr_typ_idValue;
-- (void)setPrimitiveMkg_attr_typ_idValue:(int16_t)value_;
+- (int32_t)primitiveMkg_attr_typ_idValue;
+- (void)setPrimitiveMkg_attr_typ_idValue:(int32_t)value_;
 
 
 
@@ -130,8 +130,8 @@ extern const struct BrndAttrTypeFetchedProperties {
 - (NSNumber*)primitiveMkg_brnd_attr_typ_id;
 - (void)setPrimitiveMkg_brnd_attr_typ_id:(NSNumber*)value;
 
-- (int16_t)primitiveMkg_brnd_attr_typ_idValue;
-- (void)setPrimitiveMkg_brnd_attr_typ_idValue:(int16_t)value_;
+- (int32_t)primitiveMkg_brnd_attr_typ_idValue;
+- (void)setPrimitiveMkg_brnd_attr_typ_idValue:(int32_t)value_;
 
 
 
@@ -139,8 +139,8 @@ extern const struct BrndAttrTypeFetchedProperties {
 - (NSNumber*)primitiveMkg_brnd_id;
 - (void)setPrimitiveMkg_brnd_id:(NSNumber*)value;
 
-- (int16_t)primitiveMkg_brnd_idValue;
-- (void)setPrimitiveMkg_brnd_idValue:(int16_t)value_;
+- (int32_t)primitiveMkg_brnd_idValue;
+- (void)setPrimitiveMkg_brnd_idValue:(int32_t)value_;
 
 
 

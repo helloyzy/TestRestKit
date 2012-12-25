@@ -76,22 +76,22 @@ const struct BrandProdCatFetchedProperties BrandProdCatFetchedProperties = {
 
 
 
-- (int16_t)mkg_brnd_idValue {
+- (int32_t)mkg_brnd_idValue {
 	NSNumber *result = [self mkg_brnd_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setMkg_brnd_idValue:(int16_t)value_ {
-	[self setMkg_brnd_id:[NSNumber numberWithShort:value_]];
+- (void)setMkg_brnd_idValue:(int32_t)value_ {
+	[self setMkg_brnd_id:[NSNumber numberWithInt:value_]];
 }
 
-- (int16_t)primitiveMkg_brnd_idValue {
+- (int32_t)primitiveMkg_brnd_idValue {
 	NSNumber *result = [self primitiveMkg_brnd_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setPrimitiveMkg_brnd_idValue:(int16_t)value_ {
-	[self setPrimitiveMkg_brnd_id:[NSNumber numberWithShort:value_]];
+- (void)setPrimitiveMkg_brnd_idValue:(int32_t)value_ {
+	[self setPrimitiveMkg_brnd_id:[NSNumber numberWithInt:value_]];
 }
 
 
@@ -102,22 +102,22 @@ const struct BrandProdCatFetchedProperties BrandProdCatFetchedProperties = {
 
 
 
-- (int16_t)mkg_brnd_prod_cat_idValue {
+- (int32_t)mkg_brnd_prod_cat_idValue {
 	NSNumber *result = [self mkg_brnd_prod_cat_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setMkg_brnd_prod_cat_idValue:(int16_t)value_ {
-	[self setMkg_brnd_prod_cat_id:[NSNumber numberWithShort:value_]];
+- (void)setMkg_brnd_prod_cat_idValue:(int32_t)value_ {
+	[self setMkg_brnd_prod_cat_id:[NSNumber numberWithInt:value_]];
 }
 
-- (int16_t)primitiveMkg_brnd_prod_cat_idValue {
+- (int32_t)primitiveMkg_brnd_prod_cat_idValue {
 	NSNumber *result = [self primitiveMkg_brnd_prod_cat_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setPrimitiveMkg_brnd_prod_cat_idValue:(int16_t)value_ {
-	[self setPrimitiveMkg_brnd_prod_cat_id:[NSNumber numberWithShort:value_]];
+- (void)setPrimitiveMkg_brnd_prod_cat_idValue:(int32_t)value_ {
+	[self setPrimitiveMkg_brnd_prod_cat_id:[NSNumber numberWithInt:value_]];
 }
 
 
@@ -128,22 +128,22 @@ const struct BrandProdCatFetchedProperties BrandProdCatFetchedProperties = {
 
 
 
-- (int16_t)mkg_dig_aset_ownr_idValue {
+- (int32_t)mkg_dig_aset_ownr_idValue {
 	NSNumber *result = [self mkg_dig_aset_ownr_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setMkg_dig_aset_ownr_idValue:(int16_t)value_ {
-	[self setMkg_dig_aset_ownr_id:[NSNumber numberWithShort:value_]];
+- (void)setMkg_dig_aset_ownr_idValue:(int32_t)value_ {
+	[self setMkg_dig_aset_ownr_id:[NSNumber numberWithInt:value_]];
 }
 
-- (int16_t)primitiveMkg_dig_aset_ownr_idValue {
+- (int32_t)primitiveMkg_dig_aset_ownr_idValue {
 	NSNumber *result = [self primitiveMkg_dig_aset_ownr_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setPrimitiveMkg_dig_aset_ownr_idValue:(int16_t)value_ {
-	[self setPrimitiveMkg_dig_aset_ownr_id:[NSNumber numberWithShort:value_]];
+- (void)setPrimitiveMkg_dig_aset_ownr_idValue:(int32_t)value_ {
+	[self setPrimitiveMkg_dig_aset_ownr_id:[NSNumber numberWithInt:value_]];
 }
 
 
@@ -154,22 +154,22 @@ const struct BrandProdCatFetchedProperties BrandProdCatFetchedProperties = {
 
 
 
-- (int16_t)mkg_prod_cat_idValue {
+- (int32_t)mkg_prod_cat_idValue {
 	NSNumber *result = [self mkg_prod_cat_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setMkg_prod_cat_idValue:(int16_t)value_ {
-	[self setMkg_prod_cat_id:[NSNumber numberWithShort:value_]];
+- (void)setMkg_prod_cat_idValue:(int32_t)value_ {
+	[self setMkg_prod_cat_id:[NSNumber numberWithInt:value_]];
 }
 
-- (int16_t)primitiveMkg_prod_cat_idValue {
+- (int32_t)primitiveMkg_prod_cat_idValue {
 	NSNumber *result = [self primitiveMkg_prod_cat_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setPrimitiveMkg_prod_cat_idValue:(int16_t)value_ {
-	[self setPrimitiveMkg_prod_cat_id:[NSNumber numberWithShort:value_]];
+- (void)setPrimitiveMkg_prod_cat_idValue:(int32_t)value_ {
+	[self setPrimitiveMkg_prod_cat_id:[NSNumber numberWithInt:value_]];
 }
 
 

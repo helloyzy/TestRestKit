@@ -129,22 +129,22 @@ const struct VrtnTypeCodeFetchedProperties VrtnTypeCodeFetchedProperties = {
 
 
 
-- (int16_t)mkg_prod_vrtn_typ_idValue {
+- (int32_t)mkg_prod_vrtn_typ_idValue {
 	NSNumber *result = [self mkg_prod_vrtn_typ_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setMkg_prod_vrtn_typ_idValue:(int16_t)value_ {
-	[self setMkg_prod_vrtn_typ_id:[NSNumber numberWithShort:value_]];
+- (void)setMkg_prod_vrtn_typ_idValue:(int32_t)value_ {
+	[self setMkg_prod_vrtn_typ_id:[NSNumber numberWithInt:value_]];
 }
 
-- (int16_t)primitiveMkg_prod_vrtn_typ_idValue {
+- (int32_t)primitiveMkg_prod_vrtn_typ_idValue {
 	NSNumber *result = [self primitiveMkg_prod_vrtn_typ_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setPrimitiveMkg_prod_vrtn_typ_idValue:(int16_t)value_ {
-	[self setPrimitiveMkg_prod_vrtn_typ_id:[NSNumber numberWithShort:value_]];
+- (void)setPrimitiveMkg_prod_vrtn_typ_idValue:(int32_t)value_ {
+	[self setPrimitiveMkg_prod_vrtn_typ_id:[NSNumber numberWithInt:value_]];
 }
 
 
@@ -155,22 +155,22 @@ const struct VrtnTypeCodeFetchedProperties VrtnTypeCodeFetchedProperties = {
 
 
 
-- (int16_t)mkg_vrtn_typ_cd_idValue {
+- (int32_t)mkg_vrtn_typ_cd_idValue {
 	NSNumber *result = [self mkg_vrtn_typ_cd_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setMkg_vrtn_typ_cd_idValue:(int16_t)value_ {
-	[self setMkg_vrtn_typ_cd_id:[NSNumber numberWithShort:value_]];
+- (void)setMkg_vrtn_typ_cd_idValue:(int32_t)value_ {
+	[self setMkg_vrtn_typ_cd_id:[NSNumber numberWithInt:value_]];
 }
 
-- (int16_t)primitiveMkg_vrtn_typ_cd_idValue {
+- (int32_t)primitiveMkg_vrtn_typ_cd_idValue {
 	NSNumber *result = [self primitiveMkg_vrtn_typ_cd_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setPrimitiveMkg_vrtn_typ_cd_idValue:(int16_t)value_ {
-	[self setPrimitiveMkg_vrtn_typ_cd_id:[NSNumber numberWithShort:value_]];
+- (void)setPrimitiveMkg_vrtn_typ_cd_idValue:(int32_t)value_ {
+	[self setPrimitiveMkg_vrtn_typ_cd_id:[NSNumber numberWithInt:value_]];
 }
 
 

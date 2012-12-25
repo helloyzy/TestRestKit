@@ -127,22 +127,22 @@ const struct ProdSizeFetchedProperties ProdSizeFetchedProperties = {
 
 
 
-- (int16_t)mkg_nmnl_prod_sz_idValue {
+- (int32_t)mkg_nmnl_prod_sz_idValue {
 	NSNumber *result = [self mkg_nmnl_prod_sz_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setMkg_nmnl_prod_sz_idValue:(int16_t)value_ {
-	[self setMkg_nmnl_prod_sz_id:[NSNumber numberWithShort:value_]];
+- (void)setMkg_nmnl_prod_sz_idValue:(int32_t)value_ {
+	[self setMkg_nmnl_prod_sz_id:[NSNumber numberWithInt:value_]];
 }
 
-- (int16_t)primitiveMkg_nmnl_prod_sz_idValue {
+- (int32_t)primitiveMkg_nmnl_prod_sz_idValue {
 	NSNumber *result = [self primitiveMkg_nmnl_prod_sz_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setPrimitiveMkg_nmnl_prod_sz_idValue:(int16_t)value_ {
-	[self setPrimitiveMkg_nmnl_prod_sz_id:[NSNumber numberWithShort:value_]];
+- (void)setPrimitiveMkg_nmnl_prod_sz_idValue:(int32_t)value_ {
+	[self setPrimitiveMkg_nmnl_prod_sz_id:[NSNumber numberWithInt:value_]];
 }
 
 
@@ -153,22 +153,22 @@ const struct ProdSizeFetchedProperties ProdSizeFetchedProperties = {
 
 
 
-- (int16_t)mkg_prod_cat_idValue {
+- (int32_t)mkg_prod_cat_idValue {
 	NSNumber *result = [self mkg_prod_cat_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setMkg_prod_cat_idValue:(int16_t)value_ {
-	[self setMkg_prod_cat_id:[NSNumber numberWithShort:value_]];
+- (void)setMkg_prod_cat_idValue:(int32_t)value_ {
+	[self setMkg_prod_cat_id:[NSNumber numberWithInt:value_]];
 }
 
-- (int16_t)primitiveMkg_prod_cat_idValue {
+- (int32_t)primitiveMkg_prod_cat_idValue {
 	NSNumber *result = [self primitiveMkg_prod_cat_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setPrimitiveMkg_prod_cat_idValue:(int16_t)value_ {
-	[self setPrimitiveMkg_prod_cat_id:[NSNumber numberWithShort:value_]];
+- (void)setPrimitiveMkg_prod_cat_idValue:(int32_t)value_ {
+	[self setPrimitiveMkg_prod_cat_id:[NSNumber numberWithInt:value_]];
 }
 
 

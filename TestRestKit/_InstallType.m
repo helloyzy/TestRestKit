@@ -136,22 +136,22 @@ const struct InstallTypeFetchedProperties InstallTypeFetchedProperties = {
 
 
 
-- (int16_t)mkg_inst_typ_idValue {
+- (int32_t)mkg_inst_typ_idValue {
 	NSNumber *result = [self mkg_inst_typ_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setMkg_inst_typ_idValue:(int16_t)value_ {
-	[self setMkg_inst_typ_id:[NSNumber numberWithShort:value_]];
+- (void)setMkg_inst_typ_idValue:(int32_t)value_ {
+	[self setMkg_inst_typ_id:[NSNumber numberWithInt:value_]];
 }
 
-- (int16_t)primitiveMkg_inst_typ_idValue {
+- (int32_t)primitiveMkg_inst_typ_idValue {
 	NSNumber *result = [self primitiveMkg_inst_typ_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setPrimitiveMkg_inst_typ_idValue:(int16_t)value_ {
-	[self setPrimitiveMkg_inst_typ_id:[NSNumber numberWithShort:value_]];
+- (void)setPrimitiveMkg_inst_typ_idValue:(int32_t)value_ {
+	[self setPrimitiveMkg_inst_typ_id:[NSNumber numberWithInt:value_]];
 }
 
 

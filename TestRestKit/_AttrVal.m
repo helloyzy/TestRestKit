@@ -108,22 +108,22 @@ const struct AttrValFetchedProperties AttrValFetchedProperties = {
 
 
 
-- (int16_t)mkg_attr_idValue {
+- (int32_t)mkg_attr_idValue {
 	NSNumber *result = [self mkg_attr_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setMkg_attr_idValue:(int16_t)value_ {
-	[self setMkg_attr_id:[NSNumber numberWithShort:value_]];
+- (void)setMkg_attr_idValue:(int32_t)value_ {
+	[self setMkg_attr_id:[NSNumber numberWithInt:value_]];
 }
 
-- (int16_t)primitiveMkg_attr_idValue {
+- (int32_t)primitiveMkg_attr_idValue {
 	NSNumber *result = [self primitiveMkg_attr_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setPrimitiveMkg_attr_idValue:(int16_t)value_ {
-	[self setPrimitiveMkg_attr_id:[NSNumber numberWithShort:value_]];
+- (void)setPrimitiveMkg_attr_idValue:(int32_t)value_ {
+	[self setPrimitiveMkg_attr_id:[NSNumber numberWithInt:value_]];
 }
 
 
@@ -134,22 +134,22 @@ const struct AttrValFetchedProperties AttrValFetchedProperties = {
 
 
 
-- (int16_t)mkg_attr_val_idValue {
+- (int32_t)mkg_attr_val_idValue {
 	NSNumber *result = [self mkg_attr_val_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setMkg_attr_val_idValue:(int16_t)value_ {
-	[self setMkg_attr_val_id:[NSNumber numberWithShort:value_]];
+- (void)setMkg_attr_val_idValue:(int32_t)value_ {
+	[self setMkg_attr_val_id:[NSNumber numberWithInt:value_]];
 }
 
-- (int16_t)primitiveMkg_attr_val_idValue {
+- (int32_t)primitiveMkg_attr_val_idValue {
 	NSNumber *result = [self primitiveMkg_attr_val_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setPrimitiveMkg_attr_val_idValue:(int16_t)value_ {
-	[self setPrimitiveMkg_attr_val_id:[NSNumber numberWithShort:value_]];
+- (void)setPrimitiveMkg_attr_val_idValue:(int32_t)value_ {
+	[self setPrimitiveMkg_attr_val_id:[NSNumber numberWithInt:value_]];
 }
 
 

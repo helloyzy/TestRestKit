@@ -156,22 +156,22 @@ const struct BrandFetchedProperties BrandFetchedProperties = {
 
 
 
-- (int16_t)mkg_brnd_idValue {
+- (int32_t)mkg_brnd_idValue {
 	NSNumber *result = [self mkg_brnd_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setMkg_brnd_idValue:(int16_t)value_ {
-	[self setMkg_brnd_id:[NSNumber numberWithShort:value_]];
+- (void)setMkg_brnd_idValue:(int32_t)value_ {
+	[self setMkg_brnd_id:[NSNumber numberWithInt:value_]];
 }
 
-- (int16_t)primitiveMkg_brnd_idValue {
+- (int32_t)primitiveMkg_brnd_idValue {
 	NSNumber *result = [self primitiveMkg_brnd_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setPrimitiveMkg_brnd_idValue:(int16_t)value_ {
-	[self setPrimitiveMkg_brnd_id:[NSNumber numberWithShort:value_]];
+- (void)setPrimitiveMkg_brnd_idValue:(int32_t)value_ {
+	[self setPrimitiveMkg_brnd_id:[NSNumber numberWithInt:value_]];
 }
 
 
@@ -182,22 +182,22 @@ const struct BrandFetchedProperties BrandFetchedProperties = {
 
 
 
-- (int16_t)mkg_dig_aset_ownr_idValue {
+- (int32_t)mkg_dig_aset_ownr_idValue {
 	NSNumber *result = [self mkg_dig_aset_ownr_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setMkg_dig_aset_ownr_idValue:(int16_t)value_ {
-	[self setMkg_dig_aset_ownr_id:[NSNumber numberWithShort:value_]];
+- (void)setMkg_dig_aset_ownr_idValue:(int32_t)value_ {
+	[self setMkg_dig_aset_ownr_id:[NSNumber numberWithInt:value_]];
 }
 
-- (int16_t)primitiveMkg_dig_aset_ownr_idValue {
+- (int32_t)primitiveMkg_dig_aset_ownr_idValue {
 	NSNumber *result = [self primitiveMkg_dig_aset_ownr_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setPrimitiveMkg_dig_aset_ownr_idValue:(int16_t)value_ {
-	[self setPrimitiveMkg_dig_aset_ownr_id:[NSNumber numberWithShort:value_]];
+- (void)setPrimitiveMkg_dig_aset_ownr_idValue:(int32_t)value_ {
+	[self setPrimitiveMkg_dig_aset_ownr_id:[NSNumber numberWithInt:value_]];
 }
 
 
@@ -208,22 +208,22 @@ const struct BrandFetchedProperties BrandFetchedProperties = {
 
 
 
-- (int16_t)prnt_brnd_idValue {
+- (int32_t)prnt_brnd_idValue {
 	NSNumber *result = [self prnt_brnd_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setPrnt_brnd_idValue:(int16_t)value_ {
-	[self setPrnt_brnd_id:[NSNumber numberWithShort:value_]];
+- (void)setPrnt_brnd_idValue:(int32_t)value_ {
+	[self setPrnt_brnd_id:[NSNumber numberWithInt:value_]];
 }
 
-- (int16_t)primitivePrnt_brnd_idValue {
+- (int32_t)primitivePrnt_brnd_idValue {
 	NSNumber *result = [self primitivePrnt_brnd_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setPrimitivePrnt_brnd_idValue:(int16_t)value_ {
-	[self setPrimitivePrnt_brnd_id:[NSNumber numberWithShort:value_]];
+- (void)setPrimitivePrnt_brnd_idValue:(int32_t)value_ {
+	[self setPrimitivePrnt_brnd_id:[NSNumber numberWithInt:value_]];
 }
 
 
@@ -260,22 +260,22 @@ const struct BrandFetchedProperties BrandFetchedProperties = {
 
 
 
-- (int16_t)top_brnd_idValue {
+- (int32_t)top_brnd_idValue {
 	NSNumber *result = [self top_brnd_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setTop_brnd_idValue:(int16_t)value_ {
-	[self setTop_brnd_id:[NSNumber numberWithShort:value_]];
+- (void)setTop_brnd_idValue:(int32_t)value_ {
+	[self setTop_brnd_id:[NSNumber numberWithInt:value_]];
 }
 
-- (int16_t)primitiveTop_brnd_idValue {
+- (int32_t)primitiveTop_brnd_idValue {
 	NSNumber *result = [self primitiveTop_brnd_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setPrimitiveTop_brnd_idValue:(int16_t)value_ {
-	[self setPrimitiveTop_brnd_id:[NSNumber numberWithShort:value_]];
+- (void)setPrimitiveTop_brnd_idValue:(int32_t)value_ {
+	[self setPrimitiveTop_brnd_id:[NSNumber numberWithInt:value_]];
 }
 
 

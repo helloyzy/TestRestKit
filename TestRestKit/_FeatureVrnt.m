@@ -85,22 +85,22 @@ const struct FeatureVrntFetchedProperties FeatureVrntFetchedProperties = {
 
 
 
-- (int16_t)mkg_dig_aset_ownr_idValue {
+- (int32_t)mkg_dig_aset_ownr_idValue {
 	NSNumber *result = [self mkg_dig_aset_ownr_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setMkg_dig_aset_ownr_idValue:(int16_t)value_ {
-	[self setMkg_dig_aset_ownr_id:[NSNumber numberWithShort:value_]];
+- (void)setMkg_dig_aset_ownr_idValue:(int32_t)value_ {
+	[self setMkg_dig_aset_ownr_id:[NSNumber numberWithInt:value_]];
 }
 
-- (int16_t)primitiveMkg_dig_aset_ownr_idValue {
+- (int32_t)primitiveMkg_dig_aset_ownr_idValue {
 	NSNumber *result = [self primitiveMkg_dig_aset_ownr_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setPrimitiveMkg_dig_aset_ownr_idValue:(int16_t)value_ {
-	[self setPrimitiveMkg_dig_aset_ownr_id:[NSNumber numberWithShort:value_]];
+- (void)setPrimitiveMkg_dig_aset_ownr_idValue:(int32_t)value_ {
+	[self setPrimitiveMkg_dig_aset_ownr_id:[NSNumber numberWithInt:value_]];
 }
 
 
@@ -111,22 +111,22 @@ const struct FeatureVrntFetchedProperties FeatureVrntFetchedProperties = {
 
 
 
-- (int16_t)mkg_fetr_idValue {
+- (int32_t)mkg_fetr_idValue {
 	NSNumber *result = [self mkg_fetr_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setMkg_fetr_idValue:(int16_t)value_ {
-	[self setMkg_fetr_id:[NSNumber numberWithShort:value_]];
+- (void)setMkg_fetr_idValue:(int32_t)value_ {
+	[self setMkg_fetr_id:[NSNumber numberWithInt:value_]];
 }
 
-- (int16_t)primitiveMkg_fetr_idValue {
+- (int32_t)primitiveMkg_fetr_idValue {
 	NSNumber *result = [self primitiveMkg_fetr_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setPrimitiveMkg_fetr_idValue:(int16_t)value_ {
-	[self setPrimitiveMkg_fetr_id:[NSNumber numberWithShort:value_]];
+- (void)setPrimitiveMkg_fetr_idValue:(int32_t)value_ {
+	[self setPrimitiveMkg_fetr_id:[NSNumber numberWithInt:value_]];
 }
 
 
@@ -137,22 +137,22 @@ const struct FeatureVrntFetchedProperties FeatureVrntFetchedProperties = {
 
 
 
-- (int16_t)mkg_fetr_vrnt_idValue {
+- (int32_t)mkg_fetr_vrnt_idValue {
 	NSNumber *result = [self mkg_fetr_vrnt_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setMkg_fetr_vrnt_idValue:(int16_t)value_ {
-	[self setMkg_fetr_vrnt_id:[NSNumber numberWithShort:value_]];
+- (void)setMkg_fetr_vrnt_idValue:(int32_t)value_ {
+	[self setMkg_fetr_vrnt_id:[NSNumber numberWithInt:value_]];
 }
 
-- (int16_t)primitiveMkg_fetr_vrnt_idValue {
+- (int32_t)primitiveMkg_fetr_vrnt_idValue {
 	NSNumber *result = [self primitiveMkg_fetr_vrnt_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setPrimitiveMkg_fetr_vrnt_idValue:(int16_t)value_ {
-	[self setPrimitiveMkg_fetr_vrnt_id:[NSNumber numberWithShort:value_]];
+- (void)setPrimitiveMkg_fetr_vrnt_idValue:(int32_t)value_ {
+	[self setPrimitiveMkg_fetr_vrnt_id:[NSNumber numberWithInt:value_]];
 }
 
 

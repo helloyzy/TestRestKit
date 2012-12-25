@@ -46,9 +46,9 @@ extern const struct BrndCatFvntFetchedProperties {
 
 
 
-@property int16_t mkg_brnd_cat_fvnt_idValue;
-- (int16_t)mkg_brnd_cat_fvnt_idValue;
-- (void)setMkg_brnd_cat_fvnt_idValue:(int16_t)value_;
+@property int32_t mkg_brnd_cat_fvnt_idValue;
+- (int32_t)mkg_brnd_cat_fvnt_idValue;
+- (void)setMkg_brnd_cat_fvnt_idValue:(int32_t)value_;
 
 //- (BOOL)validateMkg_brnd_cat_fvnt_id:(id*)value_ error:(NSError**)error_;
 
@@ -60,9 +60,9 @@ extern const struct BrndCatFvntFetchedProperties {
 
 
 
-@property int16_t mkg_brnd_idValue;
-- (int16_t)mkg_brnd_idValue;
-- (void)setMkg_brnd_idValue:(int16_t)value_;
+@property int32_t mkg_brnd_idValue;
+- (int32_t)mkg_brnd_idValue;
+- (void)setMkg_brnd_idValue:(int32_t)value_;
 
 //- (BOOL)validateMkg_brnd_id:(id*)value_ error:(NSError**)error_;
 
@@ -74,9 +74,9 @@ extern const struct BrndCatFvntFetchedProperties {
 
 
 
-@property int16_t mkg_fetr_vrnt_idValue;
-- (int16_t)mkg_fetr_vrnt_idValue;
-- (void)setMkg_fetr_vrnt_idValue:(int16_t)value_;
+@property int32_t mkg_fetr_vrnt_idValue;
+- (int32_t)mkg_fetr_vrnt_idValue;
+- (void)setMkg_fetr_vrnt_idValue:(int32_t)value_;
 
 //- (BOOL)validateMkg_fetr_vrnt_id:(id*)value_ error:(NSError**)error_;
 
@@ -88,9 +88,9 @@ extern const struct BrndCatFvntFetchedProperties {
 
 
 
-@property int16_t mkg_prod_cat_fetr_idValue;
-- (int16_t)mkg_prod_cat_fetr_idValue;
-- (void)setMkg_prod_cat_fetr_idValue:(int16_t)value_;
+@property int32_t mkg_prod_cat_fetr_idValue;
+- (int32_t)mkg_prod_cat_fetr_idValue;
+- (void)setMkg_prod_cat_fetr_idValue:(int32_t)value_;
 
 //- (BOOL)validateMkg_prod_cat_fetr_id:(id*)value_ error:(NSError**)error_;
 
@@ -144,8 +144,8 @@ extern const struct BrndCatFvntFetchedProperties {
 - (NSNumber*)primitiveMkg_brnd_cat_fvnt_id;
 - (void)setPrimitiveMkg_brnd_cat_fvnt_id:(NSNumber*)value;
 
-- (int16_t)primitiveMkg_brnd_cat_fvnt_idValue;
-- (void)setPrimitiveMkg_brnd_cat_fvnt_idValue:(int16_t)value_;
+- (int32_t)primitiveMkg_brnd_cat_fvnt_idValue;
+- (void)setPrimitiveMkg_brnd_cat_fvnt_idValue:(int32_t)value_;
 
 
 
@@ -153,8 +153,8 @@ extern const struct BrndCatFvntFetchedProperties {
 - (NSNumber*)primitiveMkg_brnd_id;
 - (void)setPrimitiveMkg_brnd_id:(NSNumber*)value;
 
-- (int16_t)primitiveMkg_brnd_idValue;
-- (void)setPrimitiveMkg_brnd_idValue:(int16_t)value_;
+- (int32_t)primitiveMkg_brnd_idValue;
+- (void)setPrimitiveMkg_brnd_idValue:(int32_t)value_;
 
 
 
@@ -162,8 +162,8 @@ extern const struct BrndCatFvntFetchedProperties {
 - (NSNumber*)primitiveMkg_fetr_vrnt_id;
 - (void)setPrimitiveMkg_fetr_vrnt_id:(NSNumber*)value;
 
-- (int16_t)primitiveMkg_fetr_vrnt_idValue;
-- (void)setPrimitiveMkg_fetr_vrnt_idValue:(int16_t)value_;
+- (int32_t)primitiveMkg_fetr_vrnt_idValue;
+- (void)setPrimitiveMkg_fetr_vrnt_idValue:(int32_t)value_;
 
 
 
@@ -171,8 +171,8 @@ extern const struct BrndCatFvntFetchedProperties {
 - (NSNumber*)primitiveMkg_prod_cat_fetr_id;
 - (void)setPrimitiveMkg_prod_cat_fetr_id:(NSNumber*)value;
 
-- (int16_t)primitiveMkg_prod_cat_fetr_idValue;
-- (void)setPrimitiveMkg_prod_cat_fetr_idValue:(int16_t)value_;
+- (int32_t)primitiveMkg_prod_cat_fetr_idValue;
+- (void)setPrimitiveMkg_prod_cat_fetr_idValue:(int32_t)value_;
 
 
 

@@ -80,9 +80,9 @@ extern const struct ProductCategoryFetchedProperties {
 
 
 
-@property int16_t mkg_prod_area_idValue;
-- (int16_t)mkg_prod_area_idValue;
-- (void)setMkg_prod_area_idValue:(int16_t)value_;
+@property int32_t mkg_prod_area_idValue;
+- (int32_t)mkg_prod_area_idValue;
+- (void)setMkg_prod_area_idValue:(int32_t)value_;
 
 //- (BOOL)validateMkg_prod_area_id:(id*)value_ error:(NSError**)error_;
 
@@ -94,9 +94,9 @@ extern const struct ProductCategoryFetchedProperties {
 
 
 
-@property int16_t mkg_prod_cat_idValue;
-- (int16_t)mkg_prod_cat_idValue;
-- (void)setMkg_prod_cat_idValue:(int16_t)value_;
+@property int32_t mkg_prod_cat_idValue;
+- (int32_t)mkg_prod_cat_idValue;
+- (void)setMkg_prod_cat_idValue:(int32_t)value_;
 
 //- (BOOL)validateMkg_prod_cat_id:(id*)value_ error:(NSError**)error_;
 
@@ -108,9 +108,9 @@ extern const struct ProductCategoryFetchedProperties {
 
 
 
-@property int16_t prnt_prod_cat_idValue;
-- (int16_t)prnt_prod_cat_idValue;
-- (void)setPrnt_prod_cat_idValue:(int16_t)value_;
+@property int32_t prnt_prod_cat_idValue;
+- (int32_t)prnt_prod_cat_idValue;
+- (void)setPrnt_prod_cat_idValue:(int32_t)value_;
 
 //- (BOOL)validatePrnt_prod_cat_id:(id*)value_ error:(NSError**)error_;
 
@@ -197,8 +197,8 @@ extern const struct ProductCategoryFetchedProperties {
 - (NSNumber*)primitiveMkg_prod_area_id;
 - (void)setPrimitiveMkg_prod_area_id:(NSNumber*)value;
 
-- (int16_t)primitiveMkg_prod_area_idValue;
-- (void)setPrimitiveMkg_prod_area_idValue:(int16_t)value_;
+- (int32_t)primitiveMkg_prod_area_idValue;
+- (void)setPrimitiveMkg_prod_area_idValue:(int32_t)value_;
 
 
 
@@ -206,8 +206,8 @@ extern const struct ProductCategoryFetchedProperties {
 - (NSNumber*)primitiveMkg_prod_cat_id;
 - (void)setPrimitiveMkg_prod_cat_id:(NSNumber*)value;
 
-- (int16_t)primitiveMkg_prod_cat_idValue;
-- (void)setPrimitiveMkg_prod_cat_idValue:(int16_t)value_;
+- (int32_t)primitiveMkg_prod_cat_idValue;
+- (void)setPrimitiveMkg_prod_cat_idValue:(int32_t)value_;
 
 
 
@@ -215,8 +215,8 @@ extern const struct ProductCategoryFetchedProperties {
 - (NSNumber*)primitivePrnt_prod_cat_id;
 - (void)setPrimitivePrnt_prod_cat_id:(NSNumber*)value;
 
-- (int16_t)primitivePrnt_prod_cat_idValue;
-- (void)setPrimitivePrnt_prod_cat_idValue:(int16_t)value_;
+- (int32_t)primitivePrnt_prod_cat_idValue;
+- (void)setPrimitivePrnt_prod_cat_idValue:(int32_t)value_;
 
 
 

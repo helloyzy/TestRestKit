@@ -42,9 +42,9 @@ extern const struct ProdPriceFetchedProperties {
 
 
 
-@property int16_t mkg_prod_idValue;
-- (int16_t)mkg_prod_idValue;
-- (void)setMkg_prod_idValue:(int16_t)value_;
+@property int32_t mkg_prod_idValue;
+- (int32_t)mkg_prod_idValue;
+- (void)setMkg_prod_idValue:(int32_t)value_;
 
 //- (BOOL)validateMkg_prod_id:(id*)value_ error:(NSError**)error_;
 
@@ -56,9 +56,9 @@ extern const struct ProdPriceFetchedProperties {
 
 
 
-@property int16_t mkg_prod_prce_crnt_idValue;
-- (int16_t)mkg_prod_prce_crnt_idValue;
-- (void)setMkg_prod_prce_crnt_idValue:(int16_t)value_;
+@property int32_t mkg_prod_prce_crnt_idValue;
+- (int32_t)mkg_prod_prce_crnt_idValue;
+- (void)setMkg_prod_prce_crnt_idValue:(int32_t)value_;
 
 //- (BOOL)validateMkg_prod_prce_crnt_id:(id*)value_ error:(NSError**)error_;
 
@@ -70,9 +70,9 @@ extern const struct ProdPriceFetchedProperties {
 
 
 
-@property int16_t mkg_prod_prce_typ_idValue;
-- (int16_t)mkg_prod_prce_typ_idValue;
-- (void)setMkg_prod_prce_typ_idValue:(int16_t)value_;
+@property int32_t mkg_prod_prce_typ_idValue;
+- (int32_t)mkg_prod_prce_typ_idValue;
+- (void)setMkg_prod_prce_typ_idValue:(int32_t)value_;
 
 //- (BOOL)validateMkg_prod_prce_typ_id:(id*)value_ error:(NSError**)error_;
 
@@ -114,8 +114,8 @@ extern const struct ProdPriceFetchedProperties {
 - (NSNumber*)primitiveMkg_prod_id;
 - (void)setPrimitiveMkg_prod_id:(NSNumber*)value;
 
-- (int16_t)primitiveMkg_prod_idValue;
-- (void)setPrimitiveMkg_prod_idValue:(int16_t)value_;
+- (int32_t)primitiveMkg_prod_idValue;
+- (void)setPrimitiveMkg_prod_idValue:(int32_t)value_;
 
 
 
@@ -123,8 +123,8 @@ extern const struct ProdPriceFetchedProperties {
 - (NSNumber*)primitiveMkg_prod_prce_crnt_id;
 - (void)setPrimitiveMkg_prod_prce_crnt_id:(NSNumber*)value;
 
-- (int16_t)primitiveMkg_prod_prce_crnt_idValue;
-- (void)setPrimitiveMkg_prod_prce_crnt_idValue:(int16_t)value_;
+- (int32_t)primitiveMkg_prod_prce_crnt_idValue;
+- (void)setPrimitiveMkg_prod_prce_crnt_idValue:(int32_t)value_;
 
 
 
@@ -132,8 +132,8 @@ extern const struct ProdPriceFetchedProperties {
 - (NSNumber*)primitiveMkg_prod_prce_typ_id;
 - (void)setPrimitiveMkg_prod_prce_typ_id:(NSNumber*)value;
 
-- (int16_t)primitiveMkg_prod_prce_typ_idValue;
-- (void)setPrimitiveMkg_prod_prce_typ_idValue:(int16_t)value_;
+- (int32_t)primitiveMkg_prod_prce_typ_idValue;
+- (void)setPrimitiveMkg_prod_prce_typ_idValue:(int32_t)value_;
 
 
 

@@ -72,9 +72,9 @@ extern const struct ProdSizeFetchedProperties {
 
 
 
-@property int16_t mkg_nmnl_prod_sz_idValue;
-- (int16_t)mkg_nmnl_prod_sz_idValue;
-- (void)setMkg_nmnl_prod_sz_idValue:(int16_t)value_;
+@property int32_t mkg_nmnl_prod_sz_idValue;
+- (int32_t)mkg_nmnl_prod_sz_idValue;
+- (void)setMkg_nmnl_prod_sz_idValue:(int32_t)value_;
 
 //- (BOOL)validateMkg_nmnl_prod_sz_id:(id*)value_ error:(NSError**)error_;
 
@@ -86,9 +86,9 @@ extern const struct ProdSizeFetchedProperties {
 
 
 
-@property int16_t mkg_prod_cat_idValue;
-- (int16_t)mkg_prod_cat_idValue;
-- (void)setMkg_prod_cat_idValue:(int16_t)value_;
+@property int32_t mkg_prod_cat_idValue;
+- (int32_t)mkg_prod_cat_idValue;
+- (void)setMkg_prod_cat_idValue:(int32_t)value_;
 
 //- (BOOL)validateMkg_prod_cat_id:(id*)value_ error:(NSError**)error_;
 
@@ -149,8 +149,8 @@ extern const struct ProdSizeFetchedProperties {
 - (NSNumber*)primitiveMkg_nmnl_prod_sz_id;
 - (void)setPrimitiveMkg_nmnl_prod_sz_id:(NSNumber*)value;
 
-- (int16_t)primitiveMkg_nmnl_prod_sz_idValue;
-- (void)setPrimitiveMkg_nmnl_prod_sz_idValue:(int16_t)value_;
+- (int32_t)primitiveMkg_nmnl_prod_sz_idValue;
+- (void)setPrimitiveMkg_nmnl_prod_sz_idValue:(int32_t)value_;
 
 
 
@@ -158,8 +158,8 @@ extern const struct ProdSizeFetchedProperties {
 - (NSNumber*)primitiveMkg_prod_cat_id;
 - (void)setPrimitiveMkg_prod_cat_id:(NSNumber*)value;
 
-- (int16_t)primitiveMkg_prod_cat_idValue;
-- (void)setPrimitiveMkg_prod_cat_idValue:(int16_t)value_;
+- (int32_t)primitiveMkg_prod_cat_idValue;
+- (void)setPrimitiveMkg_prod_cat_idValue:(int32_t)value_;
 
 
 

@@ -70,9 +70,9 @@ extern const struct ProdPowerTypeFetchedProperties {
 
 
 
-@property int16_t mkg_nmnl_powr_typ_idValue;
-- (int16_t)mkg_nmnl_powr_typ_idValue;
-- (void)setMkg_nmnl_powr_typ_idValue:(int16_t)value_;
+@property int32_t mkg_nmnl_powr_typ_idValue;
+- (int32_t)mkg_nmnl_powr_typ_idValue;
+- (void)setMkg_nmnl_powr_typ_idValue:(int32_t)value_;
 
 //- (BOOL)validateMkg_nmnl_powr_typ_id:(id*)value_ error:(NSError**)error_;
 
@@ -133,8 +133,8 @@ extern const struct ProdPowerTypeFetchedProperties {
 - (NSNumber*)primitiveMkg_nmnl_powr_typ_id;
 - (void)setPrimitiveMkg_nmnl_powr_typ_id:(NSNumber*)value;
 
-- (int16_t)primitiveMkg_nmnl_powr_typ_idValue;
-- (void)setPrimitiveMkg_nmnl_powr_typ_idValue:(int16_t)value_;
+- (int32_t)primitiveMkg_nmnl_powr_typ_idValue;
+- (void)setPrimitiveMkg_nmnl_powr_typ_idValue:(int32_t)value_;
 
 
 

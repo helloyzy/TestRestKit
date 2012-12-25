@@ -76,22 +76,22 @@ const struct BrndAttrFetchedProperties BrndAttrFetchedProperties = {
 
 
 
-- (int16_t)mkg_attr_idValue {
+- (int32_t)mkg_attr_idValue {
 	NSNumber *result = [self mkg_attr_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setMkg_attr_idValue:(int16_t)value_ {
-	[self setMkg_attr_id:[NSNumber numberWithShort:value_]];
+- (void)setMkg_attr_idValue:(int32_t)value_ {
+	[self setMkg_attr_id:[NSNumber numberWithInt:value_]];
 }
 
-- (int16_t)primitiveMkg_attr_idValue {
+- (int32_t)primitiveMkg_attr_idValue {
 	NSNumber *result = [self primitiveMkg_attr_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setPrimitiveMkg_attr_idValue:(int16_t)value_ {
-	[self setPrimitiveMkg_attr_id:[NSNumber numberWithShort:value_]];
+- (void)setPrimitiveMkg_attr_idValue:(int32_t)value_ {
+	[self setPrimitiveMkg_attr_id:[NSNumber numberWithInt:value_]];
 }
 
 
@@ -102,22 +102,22 @@ const struct BrndAttrFetchedProperties BrndAttrFetchedProperties = {
 
 
 
-- (int16_t)mkg_brnd_attr_idValue {
+- (int32_t)mkg_brnd_attr_idValue {
 	NSNumber *result = [self mkg_brnd_attr_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setMkg_brnd_attr_idValue:(int16_t)value_ {
-	[self setMkg_brnd_attr_id:[NSNumber numberWithShort:value_]];
+- (void)setMkg_brnd_attr_idValue:(int32_t)value_ {
+	[self setMkg_brnd_attr_id:[NSNumber numberWithInt:value_]];
 }
 
-- (int16_t)primitiveMkg_brnd_attr_idValue {
+- (int32_t)primitiveMkg_brnd_attr_idValue {
 	NSNumber *result = [self primitiveMkg_brnd_attr_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setPrimitiveMkg_brnd_attr_idValue:(int16_t)value_ {
-	[self setPrimitiveMkg_brnd_attr_id:[NSNumber numberWithShort:value_]];
+- (void)setPrimitiveMkg_brnd_attr_idValue:(int32_t)value_ {
+	[self setPrimitiveMkg_brnd_attr_id:[NSNumber numberWithInt:value_]];
 }
 
 
@@ -128,22 +128,22 @@ const struct BrndAttrFetchedProperties BrndAttrFetchedProperties = {
 
 
 
-- (int16_t)mkg_brnd_idValue {
+- (int32_t)mkg_brnd_idValue {
 	NSNumber *result = [self mkg_brnd_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setMkg_brnd_idValue:(int16_t)value_ {
-	[self setMkg_brnd_id:[NSNumber numberWithShort:value_]];
+- (void)setMkg_brnd_idValue:(int32_t)value_ {
+	[self setMkg_brnd_id:[NSNumber numberWithInt:value_]];
 }
 
-- (int16_t)primitiveMkg_brnd_idValue {
+- (int32_t)primitiveMkg_brnd_idValue {
 	NSNumber *result = [self primitiveMkg_brnd_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setPrimitiveMkg_brnd_idValue:(int16_t)value_ {
-	[self setPrimitiveMkg_brnd_id:[NSNumber numberWithShort:value_]];
+- (void)setPrimitiveMkg_brnd_idValue:(int32_t)value_ {
+	[self setPrimitiveMkg_brnd_id:[NSNumber numberWithInt:value_]];
 }
 
 

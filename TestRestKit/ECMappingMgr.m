@@ -139,6 +139,37 @@
     [prodFetrVrntMapping connectRelationship:@"product" withObjectForPrimaryKeyAttribute:@"mkg_prod_id"];
     [objectManager.mappingProvider setMapping:prodFetrVrntMapping forKeyPath:@"MKG_PROD_FETR_VRNT"];
     
+    //--------------------------------- Product Specs -----------------------------------
+    
+    RKManagedObjectMapping * brandAttrMapping = [RKManagedObjectMapping mappingForEntityWithName:@"BrndAttr" inManagedObjectStore:objectManager.objectStore];
+    brandAttrMapping.primaryKeyAttribute = @"mkg_brnd_attr_id";
+    [brandAttrMapping mapAttributes:@"mkg_brnd_attr_id", @"mkg_brnd_id", @"mkg_attr_id", @"dspl_nm", nil];
+    [objectManager.mappingProvider setMapping:brandAttrMapping forKeyPath:@"MKG_BRND_ATTR"];
+    
+    RKManagedObjectMapping * brandAttrTypeMapping = [RKManagedObjectMapping mappingForEntityWithName:@"BrndAttrType" inManagedObjectStore:objectManager.objectStore];
+    brandAttrTypeMapping.primaryKeyAttribute = @"mkg_brnd_attr_typ_id";
+    [brandAttrTypeMapping mapAttributes:@"mkg_brnd_attr_typ_id", @"mkg_brnd_id", @"mkg_attr_typ_id", @"dspl_nm", nil];
+    [objectManager.mappingProvider setMapping:brandAttrTypeMapping forKeyPath:@"MKG_BRND_ATTR_TYP"];
+    
+    RKManagedObjectMapping * attrValMapping = [RKManagedObjectMapping mappingForEntityWithName:@"AttrVal" inManagedObjectStore:objectManager.objectStore];
+    attrValMapping.primaryKeyAttribute = @"mkg_attr_val_id";
+    [attrValMapping mapAttributes:@"mkg_attr_val_id", @"mkg_attr_id", @"attr_val", @"val_is_neg", @"is_actv", nil];
+    [objectManager.mappingProvider setMapping:attrValMapping forKeyPath:@"MKG_ATTR_VAL"];
+    
+    RKManagedObjectMapping * prodAttrSetMapping = [RKManagedObjectMapping mappingForEntityWithName:@"ProdAttrSet" inManagedObjectStore:objectManager.objectStore];
+    prodAttrSetMapping.primaryKeyAttribute = @"mkg_prod_attr_val_id";
+    [prodAttrSetMapping mapAttributes:@"mkg_prod_attr_val_id", @"mkg_prod_id", @"attr_typ_rank", @"attr_rank", @"mkg_brnd_attr_typ_id", @"mkg_brnd_attr_id", @"mkg_attr_val_id", nil];
+    [prodAttrSetMapping hasOne:@"attrVal" withMapping:attrValMapping];
+    [prodAttrSetMapping connectRelationship:@"attrVal" withObjectForPrimaryKeyAttribute:@"mkg_attr_val_id"];
+    [prodAttrSetMapping hasOne:@"brndAttr" withMapping:brandAttrMapping];
+    [prodAttrSetMapping connectRelationship:@"brndAttr" withObjectForPrimaryKeyAttribute:@"mkg_brnd_attr_id"];
+    [prodAttrSetMapping hasOne:@"brndAttrType" withMapping:brandAttrTypeMapping];
+    [prodAttrSetMapping connectRelationship:@"brndAttrType" withObjectForPrimaryKeyAttribute:@"mkg_brnd_attr_typ_id"];
+    [prodAttrSetMapping hasOne:@"product" withMapping:productMapping];
+    [prodAttrSetMapping connectRelationship:@"product" withObjectForPrimaryKeyAttribute:@"mkg_prod_id"];
+    [objectManager.mappingProvider setMapping:prodAttrSetMapping forKeyPath:@"IMKG_PROD_ATTR_SET"];
+    
+    
     //--------------------------------- Image Resource ----------------------------------
     
     RKManagedObjectMapping * vrtnTypeCodeImageMapping = [RKManagedObjectMapping mappingForEntityWithName:@"VrtnTypeImage" inManagedObjectStore:objectManager.objectStore];
@@ -148,7 +179,7 @@
     
     RKManagedObjectMapping * prodImageMapping = [RKManagedObjectMapping mappingForEntityWithName:@"ProductImage" inManagedObjectStore:objectManager.objectStore];
     prodImageMapping.primaryKeyAttribute = @"mkg_ownd_dig_aset_id";
-    [prodImageMapping mapAttributes:@"mkg_ownd_dig_aset_id", @"mkg_dig_aset_ownr_id", @"mkg_dig_aset_id", @"mkg_dig_aset_purp_nm", @"dsp_ord", @"file_lctn", nil];
+    [prodImageMapping mapAttributes:@"mkg_ownd_dig_aset_id", @"mkg_dig_aset_ownr_id", @"mkg_dig_aset_id", @"dig_aset_purp_nm", @"dsp_ord", @"file_lctn", nil];
     [objectManager.mappingProvider setMapping:prodImageMapping forKeyPath:@"IMKG_OWND_IMG"];
 
 }

@@ -5,11 +5,11 @@
 
 
 extern const struct ProductImageAttributes {
+	__unsafe_unretained NSString *dig_aset_purp_nm;
 	__unsafe_unretained NSString *dsp_ord;
 	__unsafe_unretained NSString *file_lctn;
 	__unsafe_unretained NSString *mkg_dig_aset_id;
 	__unsafe_unretained NSString *mkg_dig_aset_ownr_id;
-	__unsafe_unretained NSString *mkg_dig_aset_purp_nm;
 	__unsafe_unretained NSString *mkg_ownd_dig_aset_id;
 } ProductImageAttributes;
 
@@ -35,6 +35,16 @@ extern const struct ProductImageFetchedProperties {
 + (NSString*)entityName;
 + (NSEntityDescription*)entityInManagedObjectContext:(NSManagedObjectContext*)moc_;
 - (ProductImageID*)objectID;
+
+
+
+
+
+@property (nonatomic, strong) NSString* dig_aset_purp_nm;
+
+
+
+//- (BOOL)validateDig_aset_purp_nm:(id*)value_ error:(NSError**)error_;
 
 
 
@@ -68,9 +78,9 @@ extern const struct ProductImageFetchedProperties {
 
 
 
-@property int16_t mkg_dig_aset_idValue;
-- (int16_t)mkg_dig_aset_idValue;
-- (void)setMkg_dig_aset_idValue:(int16_t)value_;
+@property int32_t mkg_dig_aset_idValue;
+- (int32_t)mkg_dig_aset_idValue;
+- (void)setMkg_dig_aset_idValue:(int32_t)value_;
 
 //- (BOOL)validateMkg_dig_aset_id:(id*)value_ error:(NSError**)error_;
 
@@ -82,21 +92,11 @@ extern const struct ProductImageFetchedProperties {
 
 
 
-@property int16_t mkg_dig_aset_ownr_idValue;
-- (int16_t)mkg_dig_aset_ownr_idValue;
-- (void)setMkg_dig_aset_ownr_idValue:(int16_t)value_;
+@property int32_t mkg_dig_aset_ownr_idValue;
+- (int32_t)mkg_dig_aset_ownr_idValue;
+- (void)setMkg_dig_aset_ownr_idValue:(int32_t)value_;
 
 //- (BOOL)validateMkg_dig_aset_ownr_id:(id*)value_ error:(NSError**)error_;
-
-
-
-
-
-@property (nonatomic, strong) NSString* mkg_dig_aset_purp_nm;
-
-
-
-//- (BOOL)validateMkg_dig_aset_purp_nm:(id*)value_ error:(NSError**)error_;
 
 
 
@@ -106,9 +106,9 @@ extern const struct ProductImageFetchedProperties {
 
 
 
-@property int16_t mkg_ownd_dig_aset_idValue;
-- (int16_t)mkg_ownd_dig_aset_idValue;
-- (void)setMkg_ownd_dig_aset_idValue:(int16_t)value_;
+@property int32_t mkg_ownd_dig_aset_idValue;
+- (int32_t)mkg_ownd_dig_aset_idValue;
+- (void)setMkg_ownd_dig_aset_idValue:(int32_t)value_;
 
 //- (BOOL)validateMkg_ownd_dig_aset_id:(id*)value_ error:(NSError**)error_;
 
@@ -124,6 +124,12 @@ extern const struct ProductImageFetchedProperties {
 @end
 
 @interface _ProductImage (CoreDataGeneratedPrimitiveAccessors)
+
+
+- (NSString*)primitiveDig_aset_purp_nm;
+- (void)setPrimitiveDig_aset_purp_nm:(NSString*)value;
+
+
 
 
 - (NSNumber*)primitiveDsp_ord;
@@ -144,8 +150,8 @@ extern const struct ProductImageFetchedProperties {
 - (NSNumber*)primitiveMkg_dig_aset_id;
 - (void)setPrimitiveMkg_dig_aset_id:(NSNumber*)value;
 
-- (int16_t)primitiveMkg_dig_aset_idValue;
-- (void)setPrimitiveMkg_dig_aset_idValue:(int16_t)value_;
+- (int32_t)primitiveMkg_dig_aset_idValue;
+- (void)setPrimitiveMkg_dig_aset_idValue:(int32_t)value_;
 
 
 
@@ -153,14 +159,8 @@ extern const struct ProductImageFetchedProperties {
 - (NSNumber*)primitiveMkg_dig_aset_ownr_id;
 - (void)setPrimitiveMkg_dig_aset_ownr_id:(NSNumber*)value;
 
-- (int16_t)primitiveMkg_dig_aset_ownr_idValue;
-- (void)setPrimitiveMkg_dig_aset_ownr_idValue:(int16_t)value_;
-
-
-
-
-- (NSString*)primitiveMkg_dig_aset_purp_nm;
-- (void)setPrimitiveMkg_dig_aset_purp_nm:(NSString*)value;
+- (int32_t)primitiveMkg_dig_aset_ownr_idValue;
+- (void)setPrimitiveMkg_dig_aset_ownr_idValue:(int32_t)value_;
 
 
 
@@ -168,8 +168,8 @@ extern const struct ProductImageFetchedProperties {
 - (NSNumber*)primitiveMkg_ownd_dig_aset_id;
 - (void)setPrimitiveMkg_ownd_dig_aset_id:(NSNumber*)value;
 
-- (int16_t)primitiveMkg_ownd_dig_aset_idValue;
-- (void)setPrimitiveMkg_ownd_dig_aset_idValue:(int16_t)value_;
+- (int32_t)primitiveMkg_ownd_dig_aset_idValue;
+- (void)setPrimitiveMkg_ownd_dig_aset_idValue:(int32_t)value_;
 
 
 

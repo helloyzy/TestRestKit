@@ -66,9 +66,9 @@ extern const struct FeatureVrntFetchedProperties {
 
 
 
-@property int16_t mkg_dig_aset_ownr_idValue;
-- (int16_t)mkg_dig_aset_ownr_idValue;
-- (void)setMkg_dig_aset_ownr_idValue:(int16_t)value_;
+@property int32_t mkg_dig_aset_ownr_idValue;
+- (int32_t)mkg_dig_aset_ownr_idValue;
+- (void)setMkg_dig_aset_ownr_idValue:(int32_t)value_;
 
 //- (BOOL)validateMkg_dig_aset_ownr_id:(id*)value_ error:(NSError**)error_;
 
@@ -80,9 +80,9 @@ extern const struct FeatureVrntFetchedProperties {
 
 
 
-@property int16_t mkg_fetr_idValue;
-- (int16_t)mkg_fetr_idValue;
-- (void)setMkg_fetr_idValue:(int16_t)value_;
+@property int32_t mkg_fetr_idValue;
+- (int32_t)mkg_fetr_idValue;
+- (void)setMkg_fetr_idValue:(int32_t)value_;
 
 //- (BOOL)validateMkg_fetr_id:(id*)value_ error:(NSError**)error_;
 
@@ -94,9 +94,9 @@ extern const struct FeatureVrntFetchedProperties {
 
 
 
-@property int16_t mkg_fetr_vrnt_idValue;
-- (int16_t)mkg_fetr_vrnt_idValue;
-- (void)setMkg_fetr_vrnt_idValue:(int16_t)value_;
+@property int32_t mkg_fetr_vrnt_idValue;
+- (int32_t)mkg_fetr_vrnt_idValue;
+- (void)setMkg_fetr_vrnt_idValue:(int32_t)value_;
 
 //- (BOOL)validateMkg_fetr_vrnt_id:(id*)value_ error:(NSError**)error_;
 
@@ -151,8 +151,8 @@ extern const struct FeatureVrntFetchedProperties {
 - (NSNumber*)primitiveMkg_dig_aset_ownr_id;
 - (void)setPrimitiveMkg_dig_aset_ownr_id:(NSNumber*)value;
 
-- (int16_t)primitiveMkg_dig_aset_ownr_idValue;
-- (void)setPrimitiveMkg_dig_aset_ownr_idValue:(int16_t)value_;
+- (int32_t)primitiveMkg_dig_aset_ownr_idValue;
+- (void)setPrimitiveMkg_dig_aset_ownr_idValue:(int32_t)value_;
 
 
 
@@ -160,8 +160,8 @@ extern const struct FeatureVrntFetchedProperties {
 - (NSNumber*)primitiveMkg_fetr_id;
 - (void)setPrimitiveMkg_fetr_id:(NSNumber*)value;
 
-- (int16_t)primitiveMkg_fetr_idValue;
-- (void)setPrimitiveMkg_fetr_idValue:(int16_t)value_;
+- (int32_t)primitiveMkg_fetr_idValue;
+- (void)setPrimitiveMkg_fetr_idValue:(int32_t)value_;
 
 
 
@@ -169,8 +169,8 @@ extern const struct FeatureVrntFetchedProperties {
 - (NSNumber*)primitiveMkg_fetr_vrnt_id;
 - (void)setPrimitiveMkg_fetr_vrnt_id:(NSNumber*)value;
 
-- (int16_t)primitiveMkg_fetr_vrnt_idValue;
-- (void)setPrimitiveMkg_fetr_vrnt_idValue:(int16_t)value_;
+- (int32_t)primitiveMkg_fetr_vrnt_idValue;
+- (void)setPrimitiveMkg_fetr_vrnt_idValue:(int32_t)value_;
 
 
 

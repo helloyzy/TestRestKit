@@ -89,22 +89,22 @@ const struct ProdVrntFetchedProperties ProdVrntFetchedProperties = {
 
 
 
-- (int16_t)mkg_chnl_vis_stts_idValue {
+- (int32_t)mkg_chnl_vis_stts_idValue {
 	NSNumber *result = [self mkg_chnl_vis_stts_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setMkg_chnl_vis_stts_idValue:(int16_t)value_ {
-	[self setMkg_chnl_vis_stts_id:[NSNumber numberWithShort:value_]];
+- (void)setMkg_chnl_vis_stts_idValue:(int32_t)value_ {
+	[self setMkg_chnl_vis_stts_id:[NSNumber numberWithInt:value_]];
 }
 
-- (int16_t)primitiveMkg_chnl_vis_stts_idValue {
+- (int32_t)primitiveMkg_chnl_vis_stts_idValue {
 	NSNumber *result = [self primitiveMkg_chnl_vis_stts_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setPrimitiveMkg_chnl_vis_stts_idValue:(int16_t)value_ {
-	[self setPrimitiveMkg_chnl_vis_stts_id:[NSNumber numberWithShort:value_]];
+- (void)setPrimitiveMkg_chnl_vis_stts_idValue:(int32_t)value_ {
+	[self setPrimitiveMkg_chnl_vis_stts_id:[NSNumber numberWithInt:value_]];
 }
 
 
@@ -115,22 +115,22 @@ const struct ProdVrntFetchedProperties ProdVrntFetchedProperties = {
 
 
 
-- (int16_t)mkg_cons_vis_stts_idValue {
+- (int32_t)mkg_cons_vis_stts_idValue {
 	NSNumber *result = [self mkg_cons_vis_stts_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setMkg_cons_vis_stts_idValue:(int16_t)value_ {
-	[self setMkg_cons_vis_stts_id:[NSNumber numberWithShort:value_]];
+- (void)setMkg_cons_vis_stts_idValue:(int32_t)value_ {
+	[self setMkg_cons_vis_stts_id:[NSNumber numberWithInt:value_]];
 }
 
-- (int16_t)primitiveMkg_cons_vis_stts_idValue {
+- (int32_t)primitiveMkg_cons_vis_stts_idValue {
 	NSNumber *result = [self primitiveMkg_cons_vis_stts_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setPrimitiveMkg_cons_vis_stts_idValue:(int16_t)value_ {
-	[self setPrimitiveMkg_cons_vis_stts_id:[NSNumber numberWithShort:value_]];
+- (void)setPrimitiveMkg_cons_vis_stts_idValue:(int32_t)value_ {
+	[self setPrimitiveMkg_cons_vis_stts_id:[NSNumber numberWithInt:value_]];
 }
 
 
@@ -141,22 +141,22 @@ const struct ProdVrntFetchedProperties ProdVrntFetchedProperties = {
 
 
 
-- (int16_t)mkg_dig_aset_ownr_idValue {
+- (int32_t)mkg_dig_aset_ownr_idValue {
 	NSNumber *result = [self mkg_dig_aset_ownr_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setMkg_dig_aset_ownr_idValue:(int16_t)value_ {
-	[self setMkg_dig_aset_ownr_id:[NSNumber numberWithShort:value_]];
+- (void)setMkg_dig_aset_ownr_idValue:(int32_t)value_ {
+	[self setMkg_dig_aset_ownr_id:[NSNumber numberWithInt:value_]];
 }
 
-- (int16_t)primitiveMkg_dig_aset_ownr_idValue {
+- (int32_t)primitiveMkg_dig_aset_ownr_idValue {
 	NSNumber *result = [self primitiveMkg_dig_aset_ownr_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setPrimitiveMkg_dig_aset_ownr_idValue:(int16_t)value_ {
-	[self setPrimitiveMkg_dig_aset_ownr_id:[NSNumber numberWithShort:value_]];
+- (void)setPrimitiveMkg_dig_aset_ownr_idValue:(int32_t)value_ {
+	[self setPrimitiveMkg_dig_aset_ownr_id:[NSNumber numberWithInt:value_]];
 }
 
 
@@ -167,22 +167,22 @@ const struct ProdVrntFetchedProperties ProdVrntFetchedProperties = {
 
 
 
-- (int16_t)mkg_prod_idValue {
+- (int32_t)mkg_prod_idValue {
 	NSNumber *result = [self mkg_prod_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setMkg_prod_idValue:(int16_t)value_ {
-	[self setMkg_prod_id:[NSNumber numberWithShort:value_]];
+- (void)setMkg_prod_idValue:(int32_t)value_ {
+	[self setMkg_prod_id:[NSNumber numberWithInt:value_]];
 }
 
-- (int16_t)primitiveMkg_prod_idValue {
+- (int32_t)primitiveMkg_prod_idValue {
 	NSNumber *result = [self primitiveMkg_prod_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setPrimitiveMkg_prod_idValue:(int16_t)value_ {
-	[self setPrimitiveMkg_prod_id:[NSNumber numberWithShort:value_]];
+- (void)setPrimitiveMkg_prod_idValue:(int32_t)value_ {
+	[self setPrimitiveMkg_prod_id:[NSNumber numberWithInt:value_]];
 }
 
 
@@ -193,22 +193,22 @@ const struct ProdVrntFetchedProperties ProdVrntFetchedProperties = {
 
 
 
-- (int16_t)mkg_prod_vrnt_idValue {
+- (int32_t)mkg_prod_vrnt_idValue {
 	NSNumber *result = [self mkg_prod_vrnt_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setMkg_prod_vrnt_idValue:(int16_t)value_ {
-	[self setMkg_prod_vrnt_id:[NSNumber numberWithShort:value_]];
+- (void)setMkg_prod_vrnt_idValue:(int32_t)value_ {
+	[self setMkg_prod_vrnt_id:[NSNumber numberWithInt:value_]];
 }
 
-- (int16_t)primitiveMkg_prod_vrnt_idValue {
+- (int32_t)primitiveMkg_prod_vrnt_idValue {
 	NSNumber *result = [self primitiveMkg_prod_vrnt_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setPrimitiveMkg_prod_vrnt_idValue:(int16_t)value_ {
-	[self setPrimitiveMkg_prod_vrnt_id:[NSNumber numberWithShort:value_]];
+- (void)setPrimitiveMkg_prod_vrnt_idValue:(int32_t)value_ {
+	[self setPrimitiveMkg_prod_vrnt_id:[NSNumber numberWithInt:value_]];
 }
 
 
@@ -219,22 +219,22 @@ const struct ProdVrntFetchedProperties ProdVrntFetchedProperties = {
 
 
 
-- (int16_t)mkg_vrtn_typ_cd_idValue {
+- (int32_t)mkg_vrtn_typ_cd_idValue {
 	NSNumber *result = [self mkg_vrtn_typ_cd_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setMkg_vrtn_typ_cd_idValue:(int16_t)value_ {
-	[self setMkg_vrtn_typ_cd_id:[NSNumber numberWithShort:value_]];
+- (void)setMkg_vrtn_typ_cd_idValue:(int32_t)value_ {
+	[self setMkg_vrtn_typ_cd_id:[NSNumber numberWithInt:value_]];
 }
 
-- (int16_t)primitiveMkg_vrtn_typ_cd_idValue {
+- (int32_t)primitiveMkg_vrtn_typ_cd_idValue {
 	NSNumber *result = [self primitiveMkg_vrtn_typ_cd_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setPrimitiveMkg_vrtn_typ_cd_idValue:(int16_t)value_ {
-	[self setPrimitiveMkg_vrtn_typ_cd_id:[NSNumber numberWithShort:value_]];
+- (void)setPrimitiveMkg_vrtn_typ_cd_idValue:(int32_t)value_ {
+	[self setPrimitiveMkg_vrtn_typ_cd_id:[NSNumber numberWithInt:value_]];
 }
 
 

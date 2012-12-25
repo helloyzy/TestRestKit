@@ -76,9 +76,9 @@ extern const struct VrtnTypeCodeFetchedProperties {
 
 
 
-@property int16_t mkg_prod_vrtn_typ_idValue;
-- (int16_t)mkg_prod_vrtn_typ_idValue;
-- (void)setMkg_prod_vrtn_typ_idValue:(int16_t)value_;
+@property int32_t mkg_prod_vrtn_typ_idValue;
+- (int32_t)mkg_prod_vrtn_typ_idValue;
+- (void)setMkg_prod_vrtn_typ_idValue:(int32_t)value_;
 
 //- (BOOL)validateMkg_prod_vrtn_typ_id:(id*)value_ error:(NSError**)error_;
 
@@ -90,9 +90,9 @@ extern const struct VrtnTypeCodeFetchedProperties {
 
 
 
-@property int16_t mkg_vrtn_typ_cd_idValue;
-- (int16_t)mkg_vrtn_typ_cd_idValue;
-- (void)setMkg_vrtn_typ_cd_idValue:(int16_t)value_;
+@property int32_t mkg_vrtn_typ_cd_idValue;
+- (int32_t)mkg_vrtn_typ_cd_idValue;
+- (void)setMkg_vrtn_typ_cd_idValue:(int32_t)value_;
 
 //- (BOOL)validateMkg_vrtn_typ_cd_id:(id*)value_ error:(NSError**)error_;
 
@@ -173,8 +173,8 @@ extern const struct VrtnTypeCodeFetchedProperties {
 - (NSNumber*)primitiveMkg_prod_vrtn_typ_id;
 - (void)setPrimitiveMkg_prod_vrtn_typ_id:(NSNumber*)value;
 
-- (int16_t)primitiveMkg_prod_vrtn_typ_idValue;
-- (void)setPrimitiveMkg_prod_vrtn_typ_idValue:(int16_t)value_;
+- (int32_t)primitiveMkg_prod_vrtn_typ_idValue;
+- (void)setPrimitiveMkg_prod_vrtn_typ_idValue:(int32_t)value_;
 
 
 
@@ -182,8 +182,8 @@ extern const struct VrtnTypeCodeFetchedProperties {
 - (NSNumber*)primitiveMkg_vrtn_typ_cd_id;
 - (void)setPrimitiveMkg_vrtn_typ_cd_id:(NSNumber*)value;
 
-- (int16_t)primitiveMkg_vrtn_typ_cd_idValue;
-- (void)setPrimitiveMkg_vrtn_typ_cd_idValue:(int16_t)value_;
+- (int32_t)primitiveMkg_vrtn_typ_cd_idValue;
+- (void)setPrimitiveMkg_vrtn_typ_cd_idValue:(int32_t)value_;
 
 
 

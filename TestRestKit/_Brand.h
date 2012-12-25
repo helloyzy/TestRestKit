@@ -96,9 +96,9 @@ extern const struct BrandFetchedProperties {
 
 
 
-@property int16_t mkg_brnd_idValue;
-- (int16_t)mkg_brnd_idValue;
-- (void)setMkg_brnd_idValue:(int16_t)value_;
+@property int32_t mkg_brnd_idValue;
+- (int32_t)mkg_brnd_idValue;
+- (void)setMkg_brnd_idValue:(int32_t)value_;
 
 //- (BOOL)validateMkg_brnd_id:(id*)value_ error:(NSError**)error_;
 
@@ -110,9 +110,9 @@ extern const struct BrandFetchedProperties {
 
 
 
-@property int16_t mkg_dig_aset_ownr_idValue;
-- (int16_t)mkg_dig_aset_ownr_idValue;
-- (void)setMkg_dig_aset_ownr_idValue:(int16_t)value_;
+@property int32_t mkg_dig_aset_ownr_idValue;
+- (int32_t)mkg_dig_aset_ownr_idValue;
+- (void)setMkg_dig_aset_ownr_idValue:(int32_t)value_;
 
 //- (BOOL)validateMkg_dig_aset_ownr_id:(id*)value_ error:(NSError**)error_;
 
@@ -124,9 +124,9 @@ extern const struct BrandFetchedProperties {
 
 
 
-@property int16_t prnt_brnd_idValue;
-- (int16_t)prnt_brnd_idValue;
-- (void)setPrnt_brnd_idValue:(int16_t)value_;
+@property int32_t prnt_brnd_idValue;
+- (int32_t)prnt_brnd_idValue;
+- (void)setPrnt_brnd_idValue:(int32_t)value_;
 
 //- (BOOL)validatePrnt_brnd_id:(id*)value_ error:(NSError**)error_;
 
@@ -152,9 +152,9 @@ extern const struct BrandFetchedProperties {
 
 
 
-@property int16_t top_brnd_idValue;
-- (int16_t)top_brnd_idValue;
-- (void)setTop_brnd_idValue:(int16_t)value_;
+@property int32_t top_brnd_idValue;
+- (int32_t)top_brnd_idValue;
+- (void)setTop_brnd_idValue:(int32_t)value_;
 
 //- (BOOL)validateTop_brnd_id:(id*)value_ error:(NSError**)error_;
 
@@ -249,8 +249,8 @@ extern const struct BrandFetchedProperties {
 - (NSNumber*)primitiveMkg_brnd_id;
 - (void)setPrimitiveMkg_brnd_id:(NSNumber*)value;
 
-- (int16_t)primitiveMkg_brnd_idValue;
-- (void)setPrimitiveMkg_brnd_idValue:(int16_t)value_;
+- (int32_t)primitiveMkg_brnd_idValue;
+- (void)setPrimitiveMkg_brnd_idValue:(int32_t)value_;
 
 
 
@@ -258,8 +258,8 @@ extern const struct BrandFetchedProperties {
 - (NSNumber*)primitiveMkg_dig_aset_ownr_id;
 - (void)setPrimitiveMkg_dig_aset_ownr_id:(NSNumber*)value;
 
-- (int16_t)primitiveMkg_dig_aset_ownr_idValue;
-- (void)setPrimitiveMkg_dig_aset_ownr_idValue:(int16_t)value_;
+- (int32_t)primitiveMkg_dig_aset_ownr_idValue;
+- (void)setPrimitiveMkg_dig_aset_ownr_idValue:(int32_t)value_;
 
 
 
@@ -267,8 +267,8 @@ extern const struct BrandFetchedProperties {
 - (NSNumber*)primitivePrnt_brnd_id;
 - (void)setPrimitivePrnt_brnd_id:(NSNumber*)value;
 
-- (int16_t)primitivePrnt_brnd_idValue;
-- (void)setPrimitivePrnt_brnd_idValue:(int16_t)value_;
+- (int32_t)primitivePrnt_brnd_idValue;
+- (void)setPrimitivePrnt_brnd_idValue:(int32_t)value_;
 
 
 
@@ -285,8 +285,8 @@ extern const struct BrandFetchedProperties {
 - (NSNumber*)primitiveTop_brnd_id;
 - (void)setPrimitiveTop_brnd_id:(NSNumber*)value;
 
-- (int16_t)primitiveTop_brnd_idValue;
-- (void)setPrimitiveTop_brnd_idValue:(int16_t)value_;
+- (int32_t)primitiveTop_brnd_idValue;
+- (void)setPrimitiveTop_brnd_idValue:(int32_t)value_;
 
 
 

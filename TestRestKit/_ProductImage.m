@@ -4,11 +4,11 @@
 #import "_ProductImage.h"
 
 const struct ProductImageAttributes ProductImageAttributes = {
+	.dig_aset_purp_nm = @"dig_aset_purp_nm",
 	.dsp_ord = @"dsp_ord",
 	.file_lctn = @"file_lctn",
 	.mkg_dig_aset_id = @"mkg_dig_aset_id",
 	.mkg_dig_aset_ownr_id = @"mkg_dig_aset_ownr_id",
-	.mkg_dig_aset_purp_nm = @"mkg_dig_aset_purp_nm",
 	.mkg_ownd_dig_aset_id = @"mkg_ownd_dig_aset_id",
 };
 
@@ -71,6 +71,13 @@ const struct ProductImageFetchedProperties ProductImageFetchedProperties = {
 
 
 
+@dynamic dig_aset_purp_nm;
+
+
+
+
+
+
 @dynamic dsp_ord;
 
 
@@ -108,22 +115,22 @@ const struct ProductImageFetchedProperties ProductImageFetchedProperties = {
 
 
 
-- (int16_t)mkg_dig_aset_idValue {
+- (int32_t)mkg_dig_aset_idValue {
 	NSNumber *result = [self mkg_dig_aset_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setMkg_dig_aset_idValue:(int16_t)value_ {
-	[self setMkg_dig_aset_id:[NSNumber numberWithShort:value_]];
+- (void)setMkg_dig_aset_idValue:(int32_t)value_ {
+	[self setMkg_dig_aset_id:[NSNumber numberWithInt:value_]];
 }
 
-- (int16_t)primitiveMkg_dig_aset_idValue {
+- (int32_t)primitiveMkg_dig_aset_idValue {
 	NSNumber *result = [self primitiveMkg_dig_aset_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setPrimitiveMkg_dig_aset_idValue:(int16_t)value_ {
-	[self setPrimitiveMkg_dig_aset_id:[NSNumber numberWithShort:value_]];
+- (void)setPrimitiveMkg_dig_aset_idValue:(int32_t)value_ {
+	[self setPrimitiveMkg_dig_aset_id:[NSNumber numberWithInt:value_]];
 }
 
 
@@ -134,30 +141,23 @@ const struct ProductImageFetchedProperties ProductImageFetchedProperties = {
 
 
 
-- (int16_t)mkg_dig_aset_ownr_idValue {
+- (int32_t)mkg_dig_aset_ownr_idValue {
 	NSNumber *result = [self mkg_dig_aset_ownr_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setMkg_dig_aset_ownr_idValue:(int16_t)value_ {
-	[self setMkg_dig_aset_ownr_id:[NSNumber numberWithShort:value_]];
+- (void)setMkg_dig_aset_ownr_idValue:(int32_t)value_ {
+	[self setMkg_dig_aset_ownr_id:[NSNumber numberWithInt:value_]];
 }
 
-- (int16_t)primitiveMkg_dig_aset_ownr_idValue {
+- (int32_t)primitiveMkg_dig_aset_ownr_idValue {
 	NSNumber *result = [self primitiveMkg_dig_aset_ownr_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setPrimitiveMkg_dig_aset_ownr_idValue:(int16_t)value_ {
-	[self setPrimitiveMkg_dig_aset_ownr_id:[NSNumber numberWithShort:value_]];
+- (void)setPrimitiveMkg_dig_aset_ownr_idValue:(int32_t)value_ {
+	[self setPrimitiveMkg_dig_aset_ownr_id:[NSNumber numberWithInt:value_]];
 }
-
-
-
-
-
-@dynamic mkg_dig_aset_purp_nm;
-
 
 
 
@@ -167,22 +167,22 @@ const struct ProductImageFetchedProperties ProductImageFetchedProperties = {
 
 
 
-- (int16_t)mkg_ownd_dig_aset_idValue {
+- (int32_t)mkg_ownd_dig_aset_idValue {
 	NSNumber *result = [self mkg_ownd_dig_aset_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setMkg_ownd_dig_aset_idValue:(int16_t)value_ {
-	[self setMkg_ownd_dig_aset_id:[NSNumber numberWithShort:value_]];
+- (void)setMkg_ownd_dig_aset_idValue:(int32_t)value_ {
+	[self setMkg_ownd_dig_aset_id:[NSNumber numberWithInt:value_]];
 }
 
-- (int16_t)primitiveMkg_ownd_dig_aset_idValue {
+- (int32_t)primitiveMkg_ownd_dig_aset_idValue {
 	NSNumber *result = [self primitiveMkg_ownd_dig_aset_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setPrimitiveMkg_ownd_dig_aset_idValue:(int16_t)value_ {
-	[self setPrimitiveMkg_ownd_dig_aset_id:[NSNumber numberWithShort:value_]];
+- (void)setPrimitiveMkg_ownd_dig_aset_idValue:(int32_t)value_ {
+	[self setPrimitiveMkg_ownd_dig_aset_id:[NSNumber numberWithInt:value_]];
 }
 
 

@@ -86,9 +86,9 @@ extern const struct ProdLifeStatusFetchedProperties {
 
 
 
-@property int16_t mkg_prod_lif_stts_idValue;
-- (int16_t)mkg_prod_lif_stts_idValue;
-- (void)setMkg_prod_lif_stts_idValue:(int16_t)value_;
+@property int32_t mkg_prod_lif_stts_idValue;
+- (int32_t)mkg_prod_lif_stts_idValue;
+- (void)setMkg_prod_lif_stts_idValue:(int32_t)value_;
 
 //- (BOOL)validateMkg_prod_lif_stts_id:(id*)value_ error:(NSError**)error_;
 
@@ -158,8 +158,8 @@ extern const struct ProdLifeStatusFetchedProperties {
 - (NSNumber*)primitiveMkg_prod_lif_stts_id;
 - (void)setPrimitiveMkg_prod_lif_stts_id:(NSNumber*)value;
 
-- (int16_t)primitiveMkg_prod_lif_stts_idValue;
-- (void)setPrimitiveMkg_prod_lif_stts_idValue:(int16_t)value_;
+- (int32_t)primitiveMkg_prod_lif_stts_idValue;
+- (void)setPrimitiveMkg_prod_lif_stts_idValue:(int32_t)value_;
 
 
 

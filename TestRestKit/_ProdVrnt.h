@@ -52,9 +52,9 @@ extern const struct ProdVrntFetchedProperties {
 
 
 
-@property int16_t mkg_chnl_vis_stts_idValue;
-- (int16_t)mkg_chnl_vis_stts_idValue;
-- (void)setMkg_chnl_vis_stts_idValue:(int16_t)value_;
+@property int32_t mkg_chnl_vis_stts_idValue;
+- (int32_t)mkg_chnl_vis_stts_idValue;
+- (void)setMkg_chnl_vis_stts_idValue:(int32_t)value_;
 
 //- (BOOL)validateMkg_chnl_vis_stts_id:(id*)value_ error:(NSError**)error_;
 
@@ -66,9 +66,9 @@ extern const struct ProdVrntFetchedProperties {
 
 
 
-@property int16_t mkg_cons_vis_stts_idValue;
-- (int16_t)mkg_cons_vis_stts_idValue;
-- (void)setMkg_cons_vis_stts_idValue:(int16_t)value_;
+@property int32_t mkg_cons_vis_stts_idValue;
+- (int32_t)mkg_cons_vis_stts_idValue;
+- (void)setMkg_cons_vis_stts_idValue:(int32_t)value_;
 
 //- (BOOL)validateMkg_cons_vis_stts_id:(id*)value_ error:(NSError**)error_;
 
@@ -80,9 +80,9 @@ extern const struct ProdVrntFetchedProperties {
 
 
 
-@property int16_t mkg_dig_aset_ownr_idValue;
-- (int16_t)mkg_dig_aset_ownr_idValue;
-- (void)setMkg_dig_aset_ownr_idValue:(int16_t)value_;
+@property int32_t mkg_dig_aset_ownr_idValue;
+- (int32_t)mkg_dig_aset_ownr_idValue;
+- (void)setMkg_dig_aset_ownr_idValue:(int32_t)value_;
 
 //- (BOOL)validateMkg_dig_aset_ownr_id:(id*)value_ error:(NSError**)error_;
 
@@ -94,9 +94,9 @@ extern const struct ProdVrntFetchedProperties {
 
 
 
-@property int16_t mkg_prod_idValue;
-- (int16_t)mkg_prod_idValue;
-- (void)setMkg_prod_idValue:(int16_t)value_;
+@property int32_t mkg_prod_idValue;
+- (int32_t)mkg_prod_idValue;
+- (void)setMkg_prod_idValue:(int32_t)value_;
 
 //- (BOOL)validateMkg_prod_id:(id*)value_ error:(NSError**)error_;
 
@@ -108,9 +108,9 @@ extern const struct ProdVrntFetchedProperties {
 
 
 
-@property int16_t mkg_prod_vrnt_idValue;
-- (int16_t)mkg_prod_vrnt_idValue;
-- (void)setMkg_prod_vrnt_idValue:(int16_t)value_;
+@property int32_t mkg_prod_vrnt_idValue;
+- (int32_t)mkg_prod_vrnt_idValue;
+- (void)setMkg_prod_vrnt_idValue:(int32_t)value_;
 
 //- (BOOL)validateMkg_prod_vrnt_id:(id*)value_ error:(NSError**)error_;
 
@@ -122,9 +122,9 @@ extern const struct ProdVrntFetchedProperties {
 
 
 
-@property int16_t mkg_vrtn_typ_cd_idValue;
-- (int16_t)mkg_vrtn_typ_cd_idValue;
-- (void)setMkg_vrtn_typ_cd_idValue:(int16_t)value_;
+@property int32_t mkg_vrtn_typ_cd_idValue;
+- (int32_t)mkg_vrtn_typ_cd_idValue;
+- (void)setMkg_vrtn_typ_cd_idValue:(int32_t)value_;
 
 //- (BOOL)validateMkg_vrtn_typ_cd_id:(id*)value_ error:(NSError**)error_;
 
@@ -179,8 +179,8 @@ extern const struct ProdVrntFetchedProperties {
 - (NSNumber*)primitiveMkg_chnl_vis_stts_id;
 - (void)setPrimitiveMkg_chnl_vis_stts_id:(NSNumber*)value;
 
-- (int16_t)primitiveMkg_chnl_vis_stts_idValue;
-- (void)setPrimitiveMkg_chnl_vis_stts_idValue:(int16_t)value_;
+- (int32_t)primitiveMkg_chnl_vis_stts_idValue;
+- (void)setPrimitiveMkg_chnl_vis_stts_idValue:(int32_t)value_;
 
 
 
@@ -188,8 +188,8 @@ extern const struct ProdVrntFetchedProperties {
 - (NSNumber*)primitiveMkg_cons_vis_stts_id;
 - (void)setPrimitiveMkg_cons_vis_stts_id:(NSNumber*)value;
 
-- (int16_t)primitiveMkg_cons_vis_stts_idValue;
-- (void)setPrimitiveMkg_cons_vis_stts_idValue:(int16_t)value_;
+- (int32_t)primitiveMkg_cons_vis_stts_idValue;
+- (void)setPrimitiveMkg_cons_vis_stts_idValue:(int32_t)value_;
 
 
 
@@ -197,8 +197,8 @@ extern const struct ProdVrntFetchedProperties {
 - (NSNumber*)primitiveMkg_dig_aset_ownr_id;
 - (void)setPrimitiveMkg_dig_aset_ownr_id:(NSNumber*)value;
 
-- (int16_t)primitiveMkg_dig_aset_ownr_idValue;
-- (void)setPrimitiveMkg_dig_aset_ownr_idValue:(int16_t)value_;
+- (int32_t)primitiveMkg_dig_aset_ownr_idValue;
+- (void)setPrimitiveMkg_dig_aset_ownr_idValue:(int32_t)value_;
 
 
 
@@ -206,8 +206,8 @@ extern const struct ProdVrntFetchedProperties {
 - (NSNumber*)primitiveMkg_prod_id;
 - (void)setPrimitiveMkg_prod_id:(NSNumber*)value;
 
-- (int16_t)primitiveMkg_prod_idValue;
-- (void)setPrimitiveMkg_prod_idValue:(int16_t)value_;
+- (int32_t)primitiveMkg_prod_idValue;
+- (void)setPrimitiveMkg_prod_idValue:(int32_t)value_;
 
 
 
@@ -215,8 +215,8 @@ extern const struct ProdVrntFetchedProperties {
 - (NSNumber*)primitiveMkg_prod_vrnt_id;
 - (void)setPrimitiveMkg_prod_vrnt_id:(NSNumber*)value;
 
-- (int16_t)primitiveMkg_prod_vrnt_idValue;
-- (void)setPrimitiveMkg_prod_vrnt_idValue:(int16_t)value_;
+- (int32_t)primitiveMkg_prod_vrnt_idValue;
+- (void)setPrimitiveMkg_prod_vrnt_idValue:(int32_t)value_;
 
 
 
@@ -224,8 +224,8 @@ extern const struct ProdVrntFetchedProperties {
 - (NSNumber*)primitiveMkg_vrtn_typ_cd_id;
 - (void)setPrimitiveMkg_vrtn_typ_cd_id:(NSNumber*)value;
 
-- (int16_t)primitiveMkg_vrtn_typ_cd_idValue;
-- (void)setPrimitiveMkg_vrtn_typ_cd_idValue:(int16_t)value_;
+- (int32_t)primitiveMkg_vrtn_typ_cd_idValue;
+- (void)setPrimitiveMkg_vrtn_typ_cd_idValue:(int32_t)value_;
 
 
 

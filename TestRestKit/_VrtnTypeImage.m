@@ -81,22 +81,22 @@ const struct VrtnTypeImageFetchedProperties VrtnTypeImageFetchedProperties = {
 
 
 
-- (int16_t)mkg_dig_aset_idValue {
+- (int32_t)mkg_dig_aset_idValue {
 	NSNumber *result = [self mkg_dig_aset_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setMkg_dig_aset_idValue:(int16_t)value_ {
-	[self setMkg_dig_aset_id:[NSNumber numberWithShort:value_]];
+- (void)setMkg_dig_aset_idValue:(int32_t)value_ {
+	[self setMkg_dig_aset_id:[NSNumber numberWithInt:value_]];
 }
 
-- (int16_t)primitiveMkg_dig_aset_idValue {
+- (int32_t)primitiveMkg_dig_aset_idValue {
 	NSNumber *result = [self primitiveMkg_dig_aset_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setPrimitiveMkg_dig_aset_idValue:(int16_t)value_ {
-	[self setPrimitiveMkg_dig_aset_id:[NSNumber numberWithShort:value_]];
+- (void)setPrimitiveMkg_dig_aset_idValue:(int32_t)value_ {
+	[self setPrimitiveMkg_dig_aset_id:[NSNumber numberWithInt:value_]];
 }
 
 
@@ -107,22 +107,22 @@ const struct VrtnTypeImageFetchedProperties VrtnTypeImageFetchedProperties = {
 
 
 
-- (int16_t)mkg_dig_aset_ownr_idValue {
+- (int32_t)mkg_dig_aset_ownr_idValue {
 	NSNumber *result = [self mkg_dig_aset_ownr_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setMkg_dig_aset_ownr_idValue:(int16_t)value_ {
-	[self setMkg_dig_aset_ownr_id:[NSNumber numberWithShort:value_]];
+- (void)setMkg_dig_aset_ownr_idValue:(int32_t)value_ {
+	[self setMkg_dig_aset_ownr_id:[NSNumber numberWithInt:value_]];
 }
 
-- (int16_t)primitiveMkg_dig_aset_ownr_idValue {
+- (int32_t)primitiveMkg_dig_aset_ownr_idValue {
 	NSNumber *result = [self primitiveMkg_dig_aset_ownr_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setPrimitiveMkg_dig_aset_ownr_idValue:(int16_t)value_ {
-	[self setPrimitiveMkg_dig_aset_ownr_id:[NSNumber numberWithShort:value_]];
+- (void)setPrimitiveMkg_dig_aset_ownr_idValue:(int32_t)value_ {
+	[self setPrimitiveMkg_dig_aset_ownr_id:[NSNumber numberWithInt:value_]];
 }
 
 
@@ -133,22 +133,22 @@ const struct VrtnTypeImageFetchedProperties VrtnTypeImageFetchedProperties = {
 
 
 
-- (int16_t)mkg_ownd_dig_aset_idValue {
+- (int32_t)mkg_ownd_dig_aset_idValue {
 	NSNumber *result = [self mkg_ownd_dig_aset_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setMkg_ownd_dig_aset_idValue:(int16_t)value_ {
-	[self setMkg_ownd_dig_aset_id:[NSNumber numberWithShort:value_]];
+- (void)setMkg_ownd_dig_aset_idValue:(int32_t)value_ {
+	[self setMkg_ownd_dig_aset_id:[NSNumber numberWithInt:value_]];
 }
 
-- (int16_t)primitiveMkg_ownd_dig_aset_idValue {
+- (int32_t)primitiveMkg_ownd_dig_aset_idValue {
 	NSNumber *result = [self primitiveMkg_ownd_dig_aset_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setPrimitiveMkg_ownd_dig_aset_idValue:(int16_t)value_ {
-	[self setPrimitiveMkg_ownd_dig_aset_id:[NSNumber numberWithShort:value_]];
+- (void)setPrimitiveMkg_ownd_dig_aset_idValue:(int32_t)value_ {
+	[self setPrimitiveMkg_ownd_dig_aset_id:[NSNumber numberWithInt:value_]];
 }
 
 
@@ -159,22 +159,22 @@ const struct VrtnTypeImageFetchedProperties VrtnTypeImageFetchedProperties = {
 
 
 
-- (int16_t)mkg_vrtn_typ_cd_idValue {
+- (int32_t)mkg_vrtn_typ_cd_idValue {
 	NSNumber *result = [self mkg_vrtn_typ_cd_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setMkg_vrtn_typ_cd_idValue:(int16_t)value_ {
-	[self setMkg_vrtn_typ_cd_id:[NSNumber numberWithShort:value_]];
+- (void)setMkg_vrtn_typ_cd_idValue:(int32_t)value_ {
+	[self setMkg_vrtn_typ_cd_id:[NSNumber numberWithInt:value_]];
 }
 
-- (int16_t)primitiveMkg_vrtn_typ_cd_idValue {
+- (int32_t)primitiveMkg_vrtn_typ_cd_idValue {
 	NSNumber *result = [self primitiveMkg_vrtn_typ_cd_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setPrimitiveMkg_vrtn_typ_cd_idValue:(int16_t)value_ {
-	[self setPrimitiveMkg_vrtn_typ_cd_id:[NSNumber numberWithShort:value_]];
+- (void)setPrimitiveMkg_vrtn_typ_cd_idValue:(int32_t)value_ {
+	[self setPrimitiveMkg_vrtn_typ_cd_id:[NSNumber numberWithInt:value_]];
 }
 
 

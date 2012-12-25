@@ -121,22 +121,22 @@ const struct ProdPowerTypeFetchedProperties ProdPowerTypeFetchedProperties = {
 
 
 
-- (int16_t)mkg_nmnl_powr_typ_idValue {
+- (int32_t)mkg_nmnl_powr_typ_idValue {
 	NSNumber *result = [self mkg_nmnl_powr_typ_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setMkg_nmnl_powr_typ_idValue:(int16_t)value_ {
-	[self setMkg_nmnl_powr_typ_id:[NSNumber numberWithShort:value_]];
+- (void)setMkg_nmnl_powr_typ_idValue:(int32_t)value_ {
+	[self setMkg_nmnl_powr_typ_id:[NSNumber numberWithInt:value_]];
 }
 
-- (int16_t)primitiveMkg_nmnl_powr_typ_idValue {
+- (int32_t)primitiveMkg_nmnl_powr_typ_idValue {
 	NSNumber *result = [self primitiveMkg_nmnl_powr_typ_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setPrimitiveMkg_nmnl_powr_typ_idValue:(int16_t)value_ {
-	[self setPrimitiveMkg_nmnl_powr_typ_id:[NSNumber numberWithShort:value_]];
+- (void)setPrimitiveMkg_nmnl_powr_typ_idValue:(int32_t)value_ {
+	[self setPrimitiveMkg_nmnl_powr_typ_id:[NSNumber numberWithInt:value_]];
 }
 
 

@@ -68,9 +68,9 @@ extern const struct AttrValFetchedProperties {
 
 
 
-@property int16_t mkg_attr_idValue;
-- (int16_t)mkg_attr_idValue;
-- (void)setMkg_attr_idValue:(int16_t)value_;
+@property int32_t mkg_attr_idValue;
+- (int32_t)mkg_attr_idValue;
+- (void)setMkg_attr_idValue:(int32_t)value_;
 
 //- (BOOL)validateMkg_attr_id:(id*)value_ error:(NSError**)error_;
 
@@ -82,9 +82,9 @@ extern const struct AttrValFetchedProperties {
 
 
 
-@property int16_t mkg_attr_val_idValue;
-- (int16_t)mkg_attr_val_idValue;
-- (void)setMkg_attr_val_idValue:(int16_t)value_;
+@property int32_t mkg_attr_val_idValue;
+- (int32_t)mkg_attr_val_idValue;
+- (void)setMkg_attr_val_idValue:(int32_t)value_;
 
 //- (BOOL)validateMkg_attr_val_id:(id*)value_ error:(NSError**)error_;
 
@@ -146,8 +146,8 @@ extern const struct AttrValFetchedProperties {
 - (NSNumber*)primitiveMkg_attr_id;
 - (void)setPrimitiveMkg_attr_id:(NSNumber*)value;
 
-- (int16_t)primitiveMkg_attr_idValue;
-- (void)setPrimitiveMkg_attr_idValue:(int16_t)value_;
+- (int32_t)primitiveMkg_attr_idValue;
+- (void)setPrimitiveMkg_attr_idValue:(int32_t)value_;
 
 
 
@@ -155,8 +155,8 @@ extern const struct AttrValFetchedProperties {
 - (NSNumber*)primitiveMkg_attr_val_id;
 - (void)setPrimitiveMkg_attr_val_id:(NSNumber*)value;
 
-- (int16_t)primitiveMkg_attr_val_idValue;
-- (void)setPrimitiveMkg_attr_val_idValue:(int16_t)value_;
+- (int32_t)primitiveMkg_attr_val_idValue;
+- (void)setPrimitiveMkg_attr_val_idValue:(int32_t)value_;
 
 
 

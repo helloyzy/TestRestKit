@@ -74,22 +74,22 @@ const struct ProdPriceFetchedProperties ProdPriceFetchedProperties = {
 
 
 
-- (int16_t)mkg_prod_idValue {
+- (int32_t)mkg_prod_idValue {
 	NSNumber *result = [self mkg_prod_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setMkg_prod_idValue:(int16_t)value_ {
-	[self setMkg_prod_id:[NSNumber numberWithShort:value_]];
+- (void)setMkg_prod_idValue:(int32_t)value_ {
+	[self setMkg_prod_id:[NSNumber numberWithInt:value_]];
 }
 
-- (int16_t)primitiveMkg_prod_idValue {
+- (int32_t)primitiveMkg_prod_idValue {
 	NSNumber *result = [self primitiveMkg_prod_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setPrimitiveMkg_prod_idValue:(int16_t)value_ {
-	[self setPrimitiveMkg_prod_id:[NSNumber numberWithShort:value_]];
+- (void)setPrimitiveMkg_prod_idValue:(int32_t)value_ {
+	[self setPrimitiveMkg_prod_id:[NSNumber numberWithInt:value_]];
 }
 
 
@@ -100,22 +100,22 @@ const struct ProdPriceFetchedProperties ProdPriceFetchedProperties = {
 
 
 
-- (int16_t)mkg_prod_prce_crnt_idValue {
+- (int32_t)mkg_prod_prce_crnt_idValue {
 	NSNumber *result = [self mkg_prod_prce_crnt_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setMkg_prod_prce_crnt_idValue:(int16_t)value_ {
-	[self setMkg_prod_prce_crnt_id:[NSNumber numberWithShort:value_]];
+- (void)setMkg_prod_prce_crnt_idValue:(int32_t)value_ {
+	[self setMkg_prod_prce_crnt_id:[NSNumber numberWithInt:value_]];
 }
 
-- (int16_t)primitiveMkg_prod_prce_crnt_idValue {
+- (int32_t)primitiveMkg_prod_prce_crnt_idValue {
 	NSNumber *result = [self primitiveMkg_prod_prce_crnt_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setPrimitiveMkg_prod_prce_crnt_idValue:(int16_t)value_ {
-	[self setPrimitiveMkg_prod_prce_crnt_id:[NSNumber numberWithShort:value_]];
+- (void)setPrimitiveMkg_prod_prce_crnt_idValue:(int32_t)value_ {
+	[self setPrimitiveMkg_prod_prce_crnt_id:[NSNumber numberWithInt:value_]];
 }
 
 
@@ -126,22 +126,22 @@ const struct ProdPriceFetchedProperties ProdPriceFetchedProperties = {
 
 
 
-- (int16_t)mkg_prod_prce_typ_idValue {
+- (int32_t)mkg_prod_prce_typ_idValue {
 	NSNumber *result = [self mkg_prod_prce_typ_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setMkg_prod_prce_typ_idValue:(int16_t)value_ {
-	[self setMkg_prod_prce_typ_id:[NSNumber numberWithShort:value_]];
+- (void)setMkg_prod_prce_typ_idValue:(int32_t)value_ {
+	[self setMkg_prod_prce_typ_id:[NSNumber numberWithInt:value_]];
 }
 
-- (int16_t)primitiveMkg_prod_prce_typ_idValue {
+- (int32_t)primitiveMkg_prod_prce_typ_idValue {
 	NSNumber *result = [self primitiveMkg_prod_prce_typ_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setPrimitiveMkg_prod_prce_typ_idValue:(int16_t)value_ {
-	[self setPrimitiveMkg_prod_prce_typ_id:[NSNumber numberWithShort:value_]];
+- (void)setPrimitiveMkg_prod_prce_typ_idValue:(int32_t)value_ {
+	[self setPrimitiveMkg_prod_prce_typ_id:[NSNumber numberWithInt:value_]];
 }
 
 

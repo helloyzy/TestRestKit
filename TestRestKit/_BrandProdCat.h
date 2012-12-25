@@ -46,9 +46,9 @@ extern const struct BrandProdCatFetchedProperties {
 
 
 
-@property int16_t mkg_brnd_idValue;
-- (int16_t)mkg_brnd_idValue;
-- (void)setMkg_brnd_idValue:(int16_t)value_;
+@property int32_t mkg_brnd_idValue;
+- (int32_t)mkg_brnd_idValue;
+- (void)setMkg_brnd_idValue:(int32_t)value_;
 
 //- (BOOL)validateMkg_brnd_id:(id*)value_ error:(NSError**)error_;
 
@@ -60,9 +60,9 @@ extern const struct BrandProdCatFetchedProperties {
 
 
 
-@property int16_t mkg_brnd_prod_cat_idValue;
-- (int16_t)mkg_brnd_prod_cat_idValue;
-- (void)setMkg_brnd_prod_cat_idValue:(int16_t)value_;
+@property int32_t mkg_brnd_prod_cat_idValue;
+- (int32_t)mkg_brnd_prod_cat_idValue;
+- (void)setMkg_brnd_prod_cat_idValue:(int32_t)value_;
 
 //- (BOOL)validateMkg_brnd_prod_cat_id:(id*)value_ error:(NSError**)error_;
 
@@ -74,9 +74,9 @@ extern const struct BrandProdCatFetchedProperties {
 
 
 
-@property int16_t mkg_dig_aset_ownr_idValue;
-- (int16_t)mkg_dig_aset_ownr_idValue;
-- (void)setMkg_dig_aset_ownr_idValue:(int16_t)value_;
+@property int32_t mkg_dig_aset_ownr_idValue;
+- (int32_t)mkg_dig_aset_ownr_idValue;
+- (void)setMkg_dig_aset_ownr_idValue:(int32_t)value_;
 
 //- (BOOL)validateMkg_dig_aset_ownr_id:(id*)value_ error:(NSError**)error_;
 
@@ -88,9 +88,9 @@ extern const struct BrandProdCatFetchedProperties {
 
 
 
-@property int16_t mkg_prod_cat_idValue;
-- (int16_t)mkg_prod_cat_idValue;
-- (void)setMkg_prod_cat_idValue:(int16_t)value_;
+@property int32_t mkg_prod_cat_idValue;
+- (int32_t)mkg_prod_cat_idValue;
+- (void)setMkg_prod_cat_idValue:(int32_t)value_;
 
 //- (BOOL)validateMkg_prod_cat_id:(id*)value_ error:(NSError**)error_;
 
@@ -137,8 +137,8 @@ extern const struct BrandProdCatFetchedProperties {
 - (NSNumber*)primitiveMkg_brnd_id;
 - (void)setPrimitiveMkg_brnd_id:(NSNumber*)value;
 
-- (int16_t)primitiveMkg_brnd_idValue;
-- (void)setPrimitiveMkg_brnd_idValue:(int16_t)value_;
+- (int32_t)primitiveMkg_brnd_idValue;
+- (void)setPrimitiveMkg_brnd_idValue:(int32_t)value_;
 
 
 
@@ -146,8 +146,8 @@ extern const struct BrandProdCatFetchedProperties {
 - (NSNumber*)primitiveMkg_brnd_prod_cat_id;
 - (void)setPrimitiveMkg_brnd_prod_cat_id:(NSNumber*)value;
 
-- (int16_t)primitiveMkg_brnd_prod_cat_idValue;
-- (void)setPrimitiveMkg_brnd_prod_cat_idValue:(int16_t)value_;
+- (int32_t)primitiveMkg_brnd_prod_cat_idValue;
+- (void)setPrimitiveMkg_brnd_prod_cat_idValue:(int32_t)value_;
 
 
 
@@ -155,8 +155,8 @@ extern const struct BrandProdCatFetchedProperties {
 - (NSNumber*)primitiveMkg_dig_aset_ownr_id;
 - (void)setPrimitiveMkg_dig_aset_ownr_id:(NSNumber*)value;
 
-- (int16_t)primitiveMkg_dig_aset_ownr_idValue;
-- (void)setPrimitiveMkg_dig_aset_ownr_idValue:(int16_t)value_;
+- (int32_t)primitiveMkg_dig_aset_ownr_idValue;
+- (void)setPrimitiveMkg_dig_aset_ownr_idValue:(int32_t)value_;
 
 
 
@@ -164,8 +164,8 @@ extern const struct BrandProdCatFetchedProperties {
 - (NSNumber*)primitiveMkg_prod_cat_id;
 - (void)setPrimitiveMkg_prod_cat_id:(NSNumber*)value;
 
-- (int16_t)primitiveMkg_prod_cat_idValue;
-- (void)setPrimitiveMkg_prod_cat_idValue:(int16_t)value_;
+- (int32_t)primitiveMkg_prod_cat_idValue;
+- (void)setPrimitiveMkg_prod_cat_idValue:(int32_t)value_;
 
 
 

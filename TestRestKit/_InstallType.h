@@ -92,9 +92,9 @@ extern const struct InstallTypeFetchedProperties {
 
 
 
-@property int16_t mkg_inst_typ_idValue;
-- (int16_t)mkg_inst_typ_idValue;
-- (void)setMkg_inst_typ_idValue:(int16_t)value_;
+@property int32_t mkg_inst_typ_idValue;
+- (int32_t)mkg_inst_typ_idValue;
+- (void)setMkg_inst_typ_idValue:(int32_t)value_;
 
 //- (BOOL)validateMkg_inst_typ_id:(id*)value_ error:(NSError**)error_;
 
@@ -157,8 +157,8 @@ extern const struct InstallTypeFetchedProperties {
 - (NSNumber*)primitiveMkg_inst_typ_id;
 - (void)setPrimitiveMkg_inst_typ_id:(NSNumber*)value;
 
-- (int16_t)primitiveMkg_inst_typ_idValue;
-- (void)setPrimitiveMkg_inst_typ_idValue:(int16_t)value_;
+- (int32_t)primitiveMkg_inst_typ_idValue;
+- (void)setPrimitiveMkg_inst_typ_idValue:(int32_t)value_;
 
 
 

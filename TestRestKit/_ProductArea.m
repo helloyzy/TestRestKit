@@ -122,22 +122,22 @@ const struct ProductAreaFetchedProperties ProductAreaFetchedProperties = {
 
 
 
-- (int16_t)mkg_prod_area_idValue {
+- (int32_t)mkg_prod_area_idValue {
 	NSNumber *result = [self mkg_prod_area_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setMkg_prod_area_idValue:(int16_t)value_ {
-	[self setMkg_prod_area_id:[NSNumber numberWithShort:value_]];
+- (void)setMkg_prod_area_idValue:(int32_t)value_ {
+	[self setMkg_prod_area_id:[NSNumber numberWithInt:value_]];
 }
 
-- (int16_t)primitiveMkg_prod_area_idValue {
+- (int32_t)primitiveMkg_prod_area_idValue {
 	NSNumber *result = [self primitiveMkg_prod_area_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setPrimitiveMkg_prod_area_idValue:(int16_t)value_ {
-	[self setPrimitiveMkg_prod_area_id:[NSNumber numberWithShort:value_]];
+- (void)setPrimitiveMkg_prod_area_idValue:(int32_t)value_ {
+	[self setPrimitiveMkg_prod_area_id:[NSNumber numberWithInt:value_]];
 }
 
 

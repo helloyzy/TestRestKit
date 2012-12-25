@@ -40,9 +40,9 @@ extern const struct BrandImageFetchedProperties {
 
 
 
-@property int16_t dig_aset_purp_idValue;
-- (int16_t)dig_aset_purp_idValue;
-- (void)setDig_aset_purp_idValue:(int16_t)value_;
+@property int32_t dig_aset_purp_idValue;
+- (int32_t)dig_aset_purp_idValue;
+- (void)setDig_aset_purp_idValue:(int32_t)value_;
 
 //- (BOOL)validateDig_aset_purp_id:(id*)value_ error:(NSError**)error_;
 
@@ -64,9 +64,9 @@ extern const struct BrandImageFetchedProperties {
 
 
 
-@property int16_t mkg_brnd_idValue;
-- (int16_t)mkg_brnd_idValue;
-- (void)setMkg_brnd_idValue:(int16_t)value_;
+@property int32_t mkg_brnd_idValue;
+- (int32_t)mkg_brnd_idValue;
+- (void)setMkg_brnd_idValue:(int32_t)value_;
 
 //- (BOOL)validateMkg_brnd_id:(id*)value_ error:(NSError**)error_;
 
@@ -78,9 +78,9 @@ extern const struct BrandImageFetchedProperties {
 
 
 
-@property int16_t mkg_dig_aset_ownr_idValue;
-- (int16_t)mkg_dig_aset_ownr_idValue;
-- (void)setMkg_dig_aset_ownr_idValue:(int16_t)value_;
+@property int32_t mkg_dig_aset_ownr_idValue;
+- (int32_t)mkg_dig_aset_ownr_idValue;
+- (void)setMkg_dig_aset_ownr_idValue:(int32_t)value_;
 
 //- (BOOL)validateMkg_dig_aset_ownr_id:(id*)value_ error:(NSError**)error_;
 
@@ -101,8 +101,8 @@ extern const struct BrandImageFetchedProperties {
 - (NSNumber*)primitiveDig_aset_purp_id;
 - (void)setPrimitiveDig_aset_purp_id:(NSNumber*)value;
 
-- (int16_t)primitiveDig_aset_purp_idValue;
-- (void)setPrimitiveDig_aset_purp_idValue:(int16_t)value_;
+- (int32_t)primitiveDig_aset_purp_idValue;
+- (void)setPrimitiveDig_aset_purp_idValue:(int32_t)value_;
 
 
 
@@ -116,8 +116,8 @@ extern const struct BrandImageFetchedProperties {
 - (NSNumber*)primitiveMkg_brnd_id;
 - (void)setPrimitiveMkg_brnd_id:(NSNumber*)value;
 
-- (int16_t)primitiveMkg_brnd_idValue;
-- (void)setPrimitiveMkg_brnd_idValue:(int16_t)value_;
+- (int32_t)primitiveMkg_brnd_idValue;
+- (void)setPrimitiveMkg_brnd_idValue:(int32_t)value_;
 
 
 
@@ -125,8 +125,8 @@ extern const struct BrandImageFetchedProperties {
 - (NSNumber*)primitiveMkg_dig_aset_ownr_id;
 - (void)setPrimitiveMkg_dig_aset_ownr_id:(NSNumber*)value;
 
-- (int16_t)primitiveMkg_dig_aset_ownr_idValue;
-- (void)setPrimitiveMkg_dig_aset_ownr_idValue:(int16_t)value_;
+- (int32_t)primitiveMkg_dig_aset_ownr_idValue;
+- (void)setPrimitiveMkg_dig_aset_ownr_idValue:(int32_t)value_;
 
 
 

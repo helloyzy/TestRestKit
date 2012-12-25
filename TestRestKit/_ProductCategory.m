@@ -136,22 +136,22 @@ const struct ProductCategoryFetchedProperties ProductCategoryFetchedProperties =
 
 
 
-- (int16_t)mkg_prod_area_idValue {
+- (int32_t)mkg_prod_area_idValue {
 	NSNumber *result = [self mkg_prod_area_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setMkg_prod_area_idValue:(int16_t)value_ {
-	[self setMkg_prod_area_id:[NSNumber numberWithShort:value_]];
+- (void)setMkg_prod_area_idValue:(int32_t)value_ {
+	[self setMkg_prod_area_id:[NSNumber numberWithInt:value_]];
 }
 
-- (int16_t)primitiveMkg_prod_area_idValue {
+- (int32_t)primitiveMkg_prod_area_idValue {
 	NSNumber *result = [self primitiveMkg_prod_area_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setPrimitiveMkg_prod_area_idValue:(int16_t)value_ {
-	[self setPrimitiveMkg_prod_area_id:[NSNumber numberWithShort:value_]];
+- (void)setPrimitiveMkg_prod_area_idValue:(int32_t)value_ {
+	[self setPrimitiveMkg_prod_area_id:[NSNumber numberWithInt:value_]];
 }
 
 
@@ -162,22 +162,22 @@ const struct ProductCategoryFetchedProperties ProductCategoryFetchedProperties =
 
 
 
-- (int16_t)mkg_prod_cat_idValue {
+- (int32_t)mkg_prod_cat_idValue {
 	NSNumber *result = [self mkg_prod_cat_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setMkg_prod_cat_idValue:(int16_t)value_ {
-	[self setMkg_prod_cat_id:[NSNumber numberWithShort:value_]];
+- (void)setMkg_prod_cat_idValue:(int32_t)value_ {
+	[self setMkg_prod_cat_id:[NSNumber numberWithInt:value_]];
 }
 
-- (int16_t)primitiveMkg_prod_cat_idValue {
+- (int32_t)primitiveMkg_prod_cat_idValue {
 	NSNumber *result = [self primitiveMkg_prod_cat_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setPrimitiveMkg_prod_cat_idValue:(int16_t)value_ {
-	[self setPrimitiveMkg_prod_cat_id:[NSNumber numberWithShort:value_]];
+- (void)setPrimitiveMkg_prod_cat_idValue:(int32_t)value_ {
+	[self setPrimitiveMkg_prod_cat_id:[NSNumber numberWithInt:value_]];
 }
 
 
@@ -188,22 +188,22 @@ const struct ProductCategoryFetchedProperties ProductCategoryFetchedProperties =
 
 
 
-- (int16_t)prnt_prod_cat_idValue {
+- (int32_t)prnt_prod_cat_idValue {
 	NSNumber *result = [self prnt_prod_cat_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setPrnt_prod_cat_idValue:(int16_t)value_ {
-	[self setPrnt_prod_cat_id:[NSNumber numberWithShort:value_]];
+- (void)setPrnt_prod_cat_idValue:(int32_t)value_ {
+	[self setPrnt_prod_cat_id:[NSNumber numberWithInt:value_]];
 }
 
-- (int16_t)primitivePrnt_prod_cat_idValue {
+- (int32_t)primitivePrnt_prod_cat_idValue {
 	NSNumber *result = [self primitivePrnt_prod_cat_id];
-	return [result shortValue];
+	return [result intValue];
 }
 
-- (void)setPrimitivePrnt_prod_cat_idValue:(int16_t)value_ {
-	[self setPrimitivePrnt_prod_cat_id:[NSNumber numberWithShort:value_]];
+- (void)setPrimitivePrnt_prod_cat_idValue:(int32_t)value_ {
+	[self setPrimitivePrnt_prod_cat_id:[NSNumber numberWithInt:value_]];
 }
 
 
