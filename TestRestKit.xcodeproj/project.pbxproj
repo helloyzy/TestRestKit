@@ -89,6 +89,8 @@
 		009679BC16789C5F005E7A69 /* ECMappingMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 009679B816789C5F005E7A69 /* ECMappingMgr.m */; };
 		009679BD16789C5F005E7A69 /* ECSeeder.m in Sources */ = {isa = PBXBuildFile; fileRef = 009679BA16789C5F005E7A69 /* ECSeeder.m */; };
 		009679BE16789C5F005E7A69 /* ECSeeder.m in Sources */ = {isa = PBXBuildFile; fileRef = 009679BA16789C5F005E7A69 /* ECSeeder.m */; };
+		00A521011689790A0029B334 /* ECBrandUTF8.json in Resources */ = {isa = PBXBuildFile; fileRef = 00A520FF1689790A0029B334 /* ECBrandUTF8.json */; };
+		00A521021689790A0029B334 /* ECBrandUTF16.json in Resources */ = {isa = PBXBuildFile; fileRef = 00A521001689790A0029B334 /* ECBrandUTF16.json */; };
 		00AB83EC1664866600E5EB97 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00AB83EA1664866600E5EB97 /* Model.xcdatamodeld */; };
 		00AB83FA166489A200E5EB97 /* _Brand.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB83F7166489A200E5EB97 /* _Brand.m */; };
 		00AB83FC166489A200E5EB97 /* _ProductCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB83F9166489A200E5EB97 /* _ProductCategory.m */; };
@@ -364,6 +366,8 @@
 		009679B816789C5F005E7A69 /* ECMappingMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECMappingMgr.m; sourceTree = "<group>"; };
 		009679B916789C5F005E7A69 /* ECSeeder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSeeder.h; sourceTree = "<group>"; };
 		009679BA16789C5F005E7A69 /* ECSeeder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSeeder.m; sourceTree = "<group>"; };
+		00A520FF1689790A0029B334 /* ECBrandUTF8.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ECBrandUTF8.json; sourceTree = SOURCE_ROOT; };
+		00A521001689790A0029B334 /* ECBrandUTF16.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ECBrandUTF16.json; sourceTree = SOURCE_ROOT; };
 		00AB83EB1664866600E5EB97 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		00AB83F6166489A200E5EB97 /* _Brand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Brand.h; sourceTree = "<group>"; };
 		00AB83F7166489A200E5EB97 /* _Brand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Brand.m; sourceTree = "<group>"; };
@@ -588,6 +592,8 @@
 		002E48D7166357A70003B4B4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				00A520FF1689790A0029B334 /* ECBrandUTF8.json */,
+				00A521001689790A0029B334 /* ECBrandUTF16.json */,
 				00E3F9FA167097DD0017B783 /* ECProdPrice.json */,
 				00D6102E16707F9B002ECCBB /* ECProdDesc.json */,
 				00D6102F16707F9B002ECCBB /* ECProdMisc.json */,
@@ -1028,6 +1034,8 @@
 				00D6107D1670805C002ECCBB /* ECProdDesc.json in Resources */,
 				00D6107E1670805C002ECCBB /* ECProdMisc.json in Resources */,
 				00E3F9FC167097E90017B783 /* ECProdPrice.json in Resources */,
+				00A521011689790A0029B334 /* ECBrandUTF8.json in Resources */,
+				00A521021689790A0029B334 /* ECBrandUTF16.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
