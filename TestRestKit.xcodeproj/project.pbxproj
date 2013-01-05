@@ -41,6 +41,11 @@
 		002E4935166362320003B4B4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E4934166362320003B4B4 /* SystemConfiguration.framework */; };
 		002E49371663623B0003B4B4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E49361663623B0003B4B4 /* QuartzCore.framework */; };
 		002E4939166362460003B4B4 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E4938166362460003B4B4 /* libxml2.dylib */; };
+		005DF91A1696A0FF00863931 /* ECLoginService.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DF9191696A0FF00863931 /* ECLoginService.m */; };
+		005DF91D1696A22D00863931 /* ECServiceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DF91C1696A22D00863931 /* ECServiceBase.m */; };
+		005DF9561696AAA800863931 /* colors in Resources */ = {isa = PBXBuildFile; fileRef = 005DF9551696AAA800863931 /* colors */; };
+		005DF9581696AD8D00863931 /* TestBlue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 005DF9571696AD8D00863931 /* TestBlue.jpg */; };
+		005DF9891698149900863931 /* ECImgDownloadMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DF9881698149900863931 /* ECImgDownloadMgr.m */; };
 		00823E8A1678275300412B5D /* _AttrVal.m in Sources */ = {isa = PBXBuildFile; fileRef = 00823E751678275200412B5D /* _AttrVal.m */; };
 		00823E8B1678275300412B5D /* _AttrVal.m in Sources */ = {isa = PBXBuildFile; fileRef = 00823E751678275200412B5D /* _AttrVal.m */; };
 		00823E8C1678275300412B5D /* _BrandImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 00823E771678275200412B5D /* _BrandImage.m */; };
@@ -318,6 +323,14 @@
 		002E4934166362320003B4B4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		002E49361663623B0003B4B4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		002E4938166362460003B4B4 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		005DF9181696A0FF00863931 /* ECLoginService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECLoginService.h; sourceTree = "<group>"; };
+		005DF9191696A0FF00863931 /* ECLoginService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECLoginService.m; sourceTree = "<group>"; };
+		005DF91B1696A22D00863931 /* ECServiceBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECServiceBase.h; sourceTree = "<group>"; };
+		005DF91C1696A22D00863931 /* ECServiceBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECServiceBase.m; sourceTree = "<group>"; };
+		005DF9551696AAA800863931 /* colors */ = {isa = PBXFileReference; lastKnownFileType = folder; path = colors; sourceTree = "<group>"; };
+		005DF9571696AD8D00863931 /* TestBlue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TestBlue.jpg; sourceTree = "<group>"; };
+		005DF9871698149900863931 /* ECImgDownloadMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECImgDownloadMgr.h; sourceTree = "<group>"; };
+		005DF9881698149900863931 /* ECImgDownloadMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECImgDownloadMgr.m; sourceTree = "<group>"; };
 		00823E741678275200412B5D /* _AttrVal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _AttrVal.h; sourceTree = "<group>"; };
 		00823E751678275200412B5D /* _AttrVal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _AttrVal.m; sourceTree = "<group>"; };
 		00823E761678275200412B5D /* _BrandImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _BrandImage.h; sourceTree = "<group>"; };
@@ -537,6 +550,7 @@
 		002E48C1166357A70003B4B4 = {
 			isa = PBXGroup;
 			children = (
+				005DF9551696AAA800863931 /* colors */,
 				002E49131663617C0003B4B4 /* RestKit.xcodeproj */,
 				002E48D6166357A70003B4B4 /* TestRestKit */,
 				002E48CF166357A70003B4B4 /* Frameworks */,
@@ -575,6 +589,7 @@
 		002E48D6166357A70003B4B4 /* TestRestKit */ = {
 			isa = PBXGroup;
 			children = (
+				005DF9171696A0E800863931 /* Service */,
 				00AB8415166495D200E5EB97 /* 3rdParty */,
 				002E48DF166357A70003B4B4 /* AppDelegate.h */,
 				002E48E0166357A70003B4B4 /* AppDelegate.m */,
@@ -592,6 +607,7 @@
 		002E48D7166357A70003B4B4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				005DF9571696AD8D00863931 /* TestBlue.jpg */,
 				00A520FF1689790A0029B334 /* ECBrandUTF8.json */,
 				00A521001689790A0029B334 /* ECBrandUTF16.json */,
 				00E3F9FA167097DD0017B783 /* ECProdPrice.json */,
@@ -623,6 +639,19 @@
 				002E49271663617C0003B4B4 /* RestKitResources.bundle */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		005DF9171696A0E800863931 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				005DF9181696A0FF00863931 /* ECLoginService.h */,
+				005DF9191696A0FF00863931 /* ECLoginService.m */,
+				005DF91B1696A22D00863931 /* ECServiceBase.h */,
+				005DF91C1696A22D00863931 /* ECServiceBase.m */,
+				005DF9871698149900863931 /* ECImgDownloadMgr.h */,
+				005DF9881698149900863931 /* ECImgDownloadMgr.m */,
+			);
+			name = Service;
 			sourceTree = "<group>";
 		};
 		00AB83EE1664889900E5EB97 /* CoreData */ = {
@@ -1015,6 +1044,8 @@
 				00D6103116707F9B002ECCBB /* ECProdDesc.json in Resources */,
 				00D6103216707F9B002ECCBB /* ECProdMisc.json in Resources */,
 				00E3F9FB167097DD0017B783 /* ECProdPrice.json in Resources */,
+				005DF9561696AAA800863931 /* colors in Resources */,
+				005DF9581696AD8D00863931 /* TestBlue.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1145,6 +1176,9 @@
 				009679BD16789C5F005E7A69 /* ECSeeder.m in Sources */,
 				00B84C06168075C200BC7A26 /* _VrtnTypeImage.m in Sources */,
 				00B84C0A168075D200BC7A26 /* VrtnTypeImage.m in Sources */,
+				005DF91A1696A0FF00863931 /* ECLoginService.m in Sources */,
+				005DF91D1696A22D00863931 /* ECServiceBase.m in Sources */,
+				005DF9891698149900863931 /* ECImgDownloadMgr.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

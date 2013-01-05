@@ -40,11 +40,19 @@
     }
 }
 
+- (void)loadImage {
+    // self.imageView.image = [UIImage imageNamed:@"TestBlue.jpg"];
+    UIImage * colorImage = [UIImage imageNamed:@"colors/8000/8904/15228/FA_ClassicSilver.jpg"];
+    self.imageView.image = colorImage;
+    // self.imageView.image = [UIImage imageNamed:@"RedHotRed"];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     [self configureView];
+    [self loadImage];
 }
 
 - (void)didReceiveMemoryWarning

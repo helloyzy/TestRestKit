@@ -13,6 +13,15 @@
 #import "NSManagedObject+InnerBand.h"
 #import "BrandProdCat.h"
 #import "ProductCategory.h"
+#import "ECLoginService.h"
+#import "ECImgDownloadMgr.h"
+
+
+@interface AppDelegate()
+
+@property (strong, nonatomic) ECLoginService * loginService;
+
+@end
 
 @implementation AppDelegate
 
@@ -40,7 +49,7 @@
     }
 }
 
-- (void) test {
+- (void) testBrndProdCats {
     NSLog(@"%@", IB_DOCUMENTS_DIR());
     NSArray * topBrnds = [Brand allTopBrands];
     Brand * topBrnd = [topBrnds objectAtIndex:0];
@@ -49,8 +58,21 @@
     for (ProductCategory * prodCat in childProdCats) {
         NSLog(@"Product category id %d, name %@", prodCat.mkg_prod_cat_idValue, prodCat.name);
     }
-    // [self testIn];
 }
+
+- (void) testLoginService {
+    self.loginService = [[ECLoginService alloc] init];
+    [self.loginService authenticate];
+}
+
+- (void) testImageService {
+    [ECImgDownloadMgr test];
+}
+
+- (void) test {
+    [self testImageService];
+}
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
