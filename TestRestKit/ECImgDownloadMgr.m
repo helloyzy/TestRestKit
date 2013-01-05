@@ -36,6 +36,15 @@ static ECImgDownloadMgr * sharedMgr = nil;
     return self;
 }
 
+- (void) addImgRequest:(NSString *) imgURL {
+    RKRequest * imgRequest = [ECImgDownloadMgr createRequest:imgURL];
+    [self.imgRequestQueue addRequest:imgRequest];
+}
+
+- (void) startDownloadImages {
+    [self.imgRequestQueue start];
+}
+
 #pragma mark - class methods
 
 + (ECImgDownloadMgr *) sharedImgDownloadMgr {
@@ -43,6 +52,14 @@ static ECImgDownloadMgr * sharedMgr = nil;
         sharedMgr = [[ECImgDownloadMgr alloc] init];
     }
     return sharedMgr;
+}
+
++ (void) addImgRequest:(NSString *) imgURL {
+    [[self sharedImgDownloadMgr] addImgRequest:imgURL];
+}
+
++ (void) startDownloadImages {
+    [[self sharedImgDownloadMgr] startDownloadImages];
 }
 
 #pragma mark - test
@@ -69,10 +86,8 @@ static ECImgDownloadMgr * sharedMgr = nil;
 }
 
 + (void) test {
-    ECImgDownloadMgr * mgr = [self sharedImgDownloadMgr];
-    // mgr.imgRequestQueue addRequest:
-    [mgr.imgRequestQueue addRequest:[self createRequest:@"http://static.adzerk.net/Advertisers/fdec4733b4814d9e958b7f86c25020b5.jpg"]];
-    [mgr.imgRequestQueue start];
+    [self addImgRequest:@"http://static.adzerk.net/Advertisers/fdec4733b4814d9e958b7f86c25020b5.jpg"];
+    [self startDownloadImages];
 }
 
 @end
