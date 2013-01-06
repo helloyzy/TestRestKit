@@ -12,10 +12,6 @@
 
 @interface ECImgDownloadMgr : NSObject <RKRequestQueueDelegate>
 
-+ (ECImgDownloadMgr *) sharedImgDownloadMgr;
-+ (void) startDownloadImages;
-+ (void) addImgRequest:(NSString *) imgURL;
-
 + (void) test;
 
 @end
