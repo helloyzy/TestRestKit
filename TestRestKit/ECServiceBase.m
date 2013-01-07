@@ -1,24 +1,62 @@
 //
 //  ECServiceBase.m
-//  TestRestKit
+//  ipad
 //
-//  Created by AAA on 1/4/13.
-//  Copyright (c) 2013 AAA. All rights reserved.
+//  Created by AAA on 1/7/13.
+//  Copyright (c) 2013 Electrolux. All rights reserved.
 //
 
 #import "ECServiceBase.h"
-#import <RestKit/RestKit.h>
 
-
+static RKClient * sharedClient = nil;
 
 @implementation ECServiceBase
 
 +(RKClient *) sharedClient {
-    RKClient * result = [RKClient sharedClient];
-    if (!result) {
-        result = [RKClient clientWithBaseURLString:@"http://ema-productadmin-ipad-00694sp03.northridgedev.com/IPadService.svc"];
+    if (!sharedClient) {
+        sharedClient = [RKClient clientWithBaseURLString:ECServiceBaseUrl];
     }
-    return result;
+    return sharedClient;
+}
+
++(BOOL) isServiceAvailable {
+    return ([[[RKClient sharedClient] reachabilityObserver] isReachabilityDetermined] && [[RKClient sharedClient] isNetworkReachable]);
+}
+
+#pragma mark - RKRequest delegate related
+
+//TODO mock code, need future work
+
+- (void)request:(RKRequest*)request didLoadResponse:(RKResponse*)response {
+    if (self.onDidLoadResponse) {
+        self.onDidLoadResponse(response);
+    }
+    /**
+    if ([request isGET]) {
+        // Handling GET /foo.xml
+        if ([response isOK]) {
+            // Success! Let's take a look at the data
+            NSLog(@"Retrieved XML: %@", [response bodyAsString]);
+        }
+    } else if ([request isPOST]) {
+        // Handling POST /other.json
+        if ([response isJSON]) {
+            NSLog(@"Got a JSON response back from our POST!");
+        }
+    } else if ([request isDELETE]) {
+        // Handling DELETE /missing_resource.txt
+        if ([response isNotFound]) {
+            NSLog(@"The resource path '%@' was not found.", [request resourcePath]);
+        }
+    }
+     */
+}
+
+- (void)request:(RKRequest *)request didFailLoadWithError:(NSError *)error {
+    // TODO
+    if (self.onDidFailLoadWithError) {
+        self.onDidFailLoadWithError(error);
+    }
 }
 
 @end

@@ -1,17 +1,40 @@
 //
 //  ECServiceBase.h
-//  TestRestKit
+//  ipad
 //
-//  Created by AAA on 1/4/13.
-//  Copyright (c) 2013 AAA. All rights reserved.
+//  Created by AAA on 1/7/13.
+//  Copyright (c) 2013 Electrolux. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
+#import <RestKit/RestKit.h>
 
-@class RKClient;
+static NSString * ECServiceBaseUrl = @"http://ema-productadmin-ipad-00694sp03.northridgedev.com/IPadService.svc";
 
-@interface ECServiceBase : NSObject
+///-----------------------------------------------------------------------------
+/// @name Block Declarations
+///-----------------------------------------------------------------------------
+typedef void(^ECSvcRequestDidLoadResponseBlock)(RKResponse *response);
+typedef void(^ECRequestDidFailLoadWithErrorBlock)(NSError *error);
+
+@interface ECServiceBase : NSObject <RKRequestDelegate>
 
 +(RKClient *) sharedClient;
+
++(BOOL) isServiceAvailable;
+
+/**
+ A block to invoke when the receiver has loaded a response.
+ 
+ @see [RKRequestDelegate request:didLoadResponse:]
+ */
+@property (nonatomic, copy) RKRequestDidLoadResponseBlock onDidLoadResponse;
+
+/**
+ A block to invoke when the receiver has failed loading due to an error.
+ 
+ @see [RKRequestDelegate request:didFailLoadWithError:]
+ */
+@property (nonatomic, copy) RKRequestDidFailLoadWithErrorBlock onDidFailLoadWithError;
 
 @end
