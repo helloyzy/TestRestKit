@@ -62,7 +62,7 @@
 
 - (void) testLoginService {
     self.loginService = [[ECLoginService alloc] init];
-    [self.loginService authenticate];
+    [self.loginService authenticate:@"ProdIntVisit" withPwd:@"ecU@pHoY"];
 }
 
 - (void) testImageService {
