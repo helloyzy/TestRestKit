@@ -137,6 +137,7 @@
 		00B60F30169BBCFE00D53AD6 /* ECProdFeatrue.json in Resources */ = {isa = PBXBuildFile; fileRef = 00B60F2A169BBCFE00D53AD6 /* ECProdFeatrue.json */; };
 		00B60F32169BBD6200D53AD6 /* ECESpecs.json in Resources */ = {isa = PBXBuildFile; fileRef = 00B60F31169BBD6200D53AD6 /* ECESpecs.json */; };
 		00B60F33169BBD6200D53AD6 /* ECESpecs.json in Resources */ = {isa = PBXBuildFile; fileRef = 00B60F31169BBD6200D53AD6 /* ECESpecs.json */; };
+		00B60F36169BC48100D53AD6 /* ECDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B60F35169BC48100D53AD6 /* ECDataService.m */; };
 		00B84C06168075C200BC7A26 /* _VrtnTypeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B84C05168075C200BC7A26 /* _VrtnTypeImage.m */; };
 		00B84C07168075C200BC7A26 /* _VrtnTypeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B84C05168075C200BC7A26 /* _VrtnTypeImage.m */; };
 		00B84C0A168075D200BC7A26 /* VrtnTypeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B84C09168075D200BC7A26 /* VrtnTypeImage.m */; };
@@ -460,6 +461,8 @@
 		00B60F29169BBCFE00D53AD6 /* ECImage.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ECImage.json; sourceTree = SOURCE_ROOT; };
 		00B60F2A169BBCFE00D53AD6 /* ECProdFeatrue.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ECProdFeatrue.json; sourceTree = SOURCE_ROOT; };
 		00B60F31169BBD6200D53AD6 /* ECESpecs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ECESpecs.json; sourceTree = SOURCE_ROOT; };
+		00B60F34169BC48100D53AD6 /* ECDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECDataService.h; sourceTree = "<group>"; };
+		00B60F35169BC48100D53AD6 /* ECDataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECDataService.m; sourceTree = "<group>"; };
 		00B84C04168075C200BC7A26 /* _VrtnTypeImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _VrtnTypeImage.h; sourceTree = "<group>"; };
 		00B84C05168075C200BC7A26 /* _VrtnTypeImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _VrtnTypeImage.m; sourceTree = "<group>"; };
 		00B84C08168075D200BC7A26 /* VrtnTypeImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VrtnTypeImage.h; sourceTree = "<group>"; };
@@ -660,12 +663,14 @@
 		005DF9171696A0E800863931 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				00B60F34169BC48100D53AD6 /* ECDataService.h */,
+				00B60F35169BC48100D53AD6 /* ECDataService.m */,
+				005DF9871698149900863931 /* ECImgDownloadMgr.h */,
+				005DF9881698149900863931 /* ECImgDownloadMgr.m */,
 				005DF9181696A0FF00863931 /* ECLoginService.h */,
 				005DF9191696A0FF00863931 /* ECLoginService.m */,
 				005DF91B1696A22D00863931 /* ECServiceBase.h */,
 				005DF91C1696A22D00863931 /* ECServiceBase.m */,
-				005DF9871698149900863931 /* ECImgDownloadMgr.h */,
-				005DF9881698149900863931 /* ECImgDownloadMgr.m */,
 			);
 			name = Service;
 			sourceTree = "<group>";
@@ -1203,6 +1208,7 @@
 				005DF91A1696A0FF00863931 /* ECLoginService.m in Sources */,
 				005DF91D1696A22D00863931 /* ECServiceBase.m in Sources */,
 				005DF9891698149900863931 /* ECImgDownloadMgr.m in Sources */,
+				00B60F36169BC48100D53AD6 /* ECDataService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

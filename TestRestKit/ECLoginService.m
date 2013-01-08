@@ -40,10 +40,11 @@ static ECLoginService * sharedInstance = nil;
 }
 
 - (void)request:(RKRequest*)request didLoadResponse:(RKResponse*)response {
-    [super request:request didLoadResponse:response];
     if ([response isOK]) {
-        self.token = response.bodyAsString;
+        NSString * responseBody = response.bodyAsString; // has the format of "f28fe8-feifei-feij" 
+        self.token = [responseBody substringWithRange:NSMakeRange(1, responseBody.length - 2)]; // remove the leading and trailing "
     }
+    [super request:request didLoadResponse:response];
     [self sendUserTokenNotification];
     [self reset];
 }

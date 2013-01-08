@@ -239,7 +239,7 @@ static NSMutableDictionary * imgDownloadMgrs = nil;
 + (RKRequest *) createRequest:(NSString *) resURL {
     // http://static.adzerk.net/Advertisers/fdec4733b4814d9e958b7f86c25020b5.jpg
     NSURL * url = [NSURL URLWithString:resURL];
-    RKRequest * request = [RKRequest requestWithURL:url];
+    ECImgRequest * request = [[ECImgRequest alloc] initWithURL:url];
         
     request.onDidLoadResponse = ^(RKResponse* response) {
         // UIImage * image = [UIImage imageWithData: response.body];

@@ -15,7 +15,7 @@
 #import "ProductCategory.h"
 #import "ECLoginService.h"
 #import "ECImgDownloadMgr.h"
-
+#import "ECDataService.h"
 
 @interface AppDelegate()
 
@@ -61,7 +61,10 @@
 }
 
 - (void) testLoginService {
-    self.loginService = [[ECLoginService alloc] init];
+    self.loginService = [ECLoginService sharedInstance];
+    self.loginService.onDidLoadResponse = ^(RKResponse * response) {
+        NSLog(@"Login service, response status code is %d, token is %@", response.statusCode, [ECLoginService userToken]);
+    };
     [self.loginService authenticate:@"ProdIntVisit" withPwd:@"ecU@pHoY"];
 }
 
@@ -69,8 +72,18 @@
     [ECImgDownloadMgr test];
 }
 
+- (void) testDataService {
+    self.loginService = [ECLoginService sharedInstance];
+    self.loginService.onDidLoadResponse = ^(RKResponse * response) {
+        NSLog(@"Login service, response status code is %d, token is %@", response.statusCode, [ECLoginService userToken]);
+        [ECDataService test];
+    };
+    [self.loginService authenticate:@"ProdIntiPad1" withPwd:@"Northridge*1"];
+}
+
 - (void) test {
-    [self testImageService];
+    // [self testImageService];
+    [self testDataService];
 }
 
 
