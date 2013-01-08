@@ -38,6 +38,7 @@
     RKLogConfigureByName("RestKit/ObjectMapping", RKLogLevelDebug);
     RKLogConfigureByName("RestKit/CoreData", RKLogLevelDebug);
     RKManagedObjectSeeder *seeder = [RKManagedObjectSeeder objectSeederWithObjectManager:objectManager];
+    
     // brand and product category
     [seeder seedObjectsFromFiles:@"ECData.json", nil];
     
@@ -47,8 +48,11 @@
     // product features
     [seeder seedObjectsFromFiles:@"ECProdFeatrue.json", nil];
     
+    // product especs
+    [seeder seedObjectsFromFiles:@"ECESpecs.json", nil];
+    
     // images
-    [seeder seedObjectsFromFiles:@"ECImage.json", nil];
+    [seeder seedObjectsFromFiles:@"ECImage.json", @"ECBrandProdCatImg.json", nil];
     
     [seeder finalizeSeedingAndExit];
 }

@@ -1,0 +1,1414 @@
+{
+  "IMKG_BRND_PROD_CAT_IMG": [
+    {
+      "mkg_brnd_prod_cat_id": 213,
+      "mkg_dig_aset_ownr_id": 4695,
+      "file_lctn": "PL\\e-cooktopsgas.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 230,
+      "mkg_dig_aset_ownr_id": 4712,
+      "file_lctn": "PL\\e-wallOvensDouble.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 229,
+      "mkg_dig_aset_ownr_id": 4711,
+      "file_lctn": "PL\\e-wallOvensDouble.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 231,
+      "mkg_dig_aset_ownr_id": 4713,
+      "file_lctn": "PL\\e-wallOvensSingle.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 218,
+      "mkg_dig_aset_ownr_id": 4700,
+      "file_lctn": "PL\\e-wallovens.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 233,
+      "mkg_dig_aset_ownr_id": 4715,
+      "file_lctn": "PL\\e-warmerDrawers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 220,
+      "mkg_dig_aset_ownr_id": 4702,
+      "file_lctn": "PL\\e-rangesGas.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 228,
+      "mkg_dig_aset_ownr_id": 4710,
+      "file_lctn": "PL\\e-ventilation.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 219,
+      "mkg_dig_aset_ownr_id": 4701,
+      "file_lctn": "PL\\e-microwaves.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 242,
+      "mkg_dig_aset_ownr_id": 4724,
+      "file_lctn": "PL\\e-microwavesBuiltIn.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 248,
+      "mkg_dig_aset_ownr_id": 4730,
+      "file_lctn": "PL\\e-microwaves.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 223,
+      "mkg_dig_aset_ownr_id": 4705,
+      "file_lctn": "PL\\e-allRefrigerators.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 224,
+      "mkg_dig_aset_ownr_id": 4706,
+      "file_lctn": "PL\\e-refrigeratorsFrenchdoor.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 225,
+      "mkg_dig_aset_ownr_id": 4707,
+      "file_lctn": "PL\\e-refrigeratorsSideBySide.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 267,
+      "mkg_dig_aset_ownr_id": 4749,
+      "file_lctn": "PL\\e-refrigeratorsBeverageCenter.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 226,
+      "mkg_dig_aset_ownr_id": 4708,
+      "file_lctn": "PL\\e-refrigeratorsRefrigerationDrawer.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 227,
+      "mkg_dig_aset_ownr_id": 4709,
+      "file_lctn": "PL\\e-wineStorage.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 214,
+      "mkg_dig_aset_ownr_id": 4696,
+      "file_lctn": "PL\\e-dishwashers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 216,
+      "mkg_dig_aset_ownr_id": 4698,
+      "file_lctn": "PL\\e-allFreezers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 263,
+      "mkg_dig_aset_ownr_id": 4745,
+      "file_lctn": "PL\\e-allFreezers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 217,
+      "mkg_dig_aset_ownr_id": 4699,
+      "file_lctn": "PL\\e-refrigeratorsIceMaker.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 212,
+      "mkg_dig_aset_ownr_id": 4694,
+      "file_lctn": "PL\\e-compactors.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 236,
+      "mkg_dig_aset_ownr_id": 4718,
+      "file_lctn": "PL\\e-washers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 268,
+      "mkg_dig_aset_ownr_id": 4750,
+      "file_lctn": "PL\\e-washers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 234,
+      "mkg_dig_aset_ownr_id": 4716,
+      "file_lctn": "PL\\e-Dryers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 235,
+      "mkg_dig_aset_ownr_id": 4717,
+      "file_lctn": "PL\\e-pedestals.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 3,
+      "mkg_dig_aset_ownr_id": 937,
+      "file_lctn": "PL\\i-cooktopGas.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 23,
+      "mkg_dig_aset_ownr_id": 957,
+      "file_lctn": "PL\\i-wallovens.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 17,
+      "mkg_dig_aset_ownr_id": 951,
+      "file_lctn": "PL\\i-wallOvensDouble.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 18,
+      "mkg_dig_aset_ownr_id": 952,
+      "file_lctn": "PL\\i-wallOvensSingle.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 19,
+      "mkg_dig_aset_ownr_id": 953,
+      "file_lctn": "PL\\i-wallOvensHighSpeed.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 7,
+      "mkg_dig_aset_ownr_id": 941,
+      "file_lctn": "PL\\i-wallovens.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 20,
+      "mkg_dig_aset_ownr_id": 954,
+      "file_lctn": "PL\\i-warmerDrawers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 9,
+      "mkg_dig_aset_ownr_id": 943,
+      "file_lctn": "PL\\i-rangesGas.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 16,
+      "mkg_dig_aset_ownr_id": 950,
+      "file_lctn": "PL\\i-ventilation.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 8,
+      "mkg_dig_aset_ownr_id": 942,
+      "file_lctn": "PL\\i-microwaves.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 241,
+      "mkg_dig_aset_ownr_id": 4723,
+      "file_lctn": "PL\\i-microwaves.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 247,
+      "mkg_dig_aset_ownr_id": 4729,
+      "file_lctn": "PL\\i-microwavesOverTheRange.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 22,
+      "mkg_dig_aset_ownr_id": 956,
+      "file_lctn": "PL\\i-refrigeratorAllRefrigerators.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 12,
+      "mkg_dig_aset_ownr_id": 946,
+      "file_lctn": "PL\\i-refrigeratorFrenchDoor.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 13,
+      "mkg_dig_aset_ownr_id": 947,
+      "file_lctn": "PL\\i-refrigeratorSideBySide.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 365,
+      "mkg_dig_aset_ownr_id": 7400,
+      "file_lctn": "PL\\i-refrigeratorAllRefrigerators.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 14,
+      "mkg_dig_aset_ownr_id": 948,
+      "file_lctn": "PL\\i-refrigeratorDrawers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 15,
+      "mkg_dig_aset_ownr_id": 949,
+      "file_lctn": "PL\\i-wineStorage.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 4,
+      "mkg_dig_aset_ownr_id": 938,
+      "file_lctn": "PL\\i-dishwashers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 21,
+      "mkg_dig_aset_ownr_id": 955,
+      "file_lctn": "PL\\i-refrigeratorAllFreezers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 364,
+      "mkg_dig_aset_ownr_id": 7399,
+      "file_lctn": "PL\\i-refrigeratorAllFreezers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 6,
+      "mkg_dig_aset_ownr_id": 940,
+      "file_lctn": "PL\\i-iceMakers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 2,
+      "mkg_dig_aset_ownr_id": 936,
+      "file_lctn": "PL\\i-compactors.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 1,
+      "mkg_dig_aset_ownr_id": 935,
+      "file_lctn": "PL\\fpo.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 25,
+      "mkg_dig_aset_ownr_id": 959,
+      "file_lctn": "PL\\e-cooktopsgas.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 42,
+      "mkg_dig_aset_ownr_id": 976,
+      "file_lctn": "PL\\e-wallOvensDouble.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 34,
+      "mkg_dig_aset_ownr_id": 968,
+      "file_lctn": "PL\\e-wallOvensDouble.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 35,
+      "mkg_dig_aset_ownr_id": 969,
+      "file_lctn": "PL\\e-wallOvensSingle.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 40,
+      "mkg_dig_aset_ownr_id": 974,
+      "file_lctn": "PL\\e-wallovens.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 36,
+      "mkg_dig_aset_ownr_id": 970,
+      "file_lctn": "PL\\e-warmerDrawers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 30,
+      "mkg_dig_aset_ownr_id": 964,
+      "file_lctn": "PL\\e-rangesGas.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 33,
+      "mkg_dig_aset_ownr_id": 967,
+      "file_lctn": "PL\\e-ventilation.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 28,
+      "mkg_dig_aset_ownr_id": 962,
+      "file_lctn": "PL\\e-microwaves.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 264,
+      "mkg_dig_aset_ownr_id": 4746,
+      "file_lctn": "PL\\e-microwavesBuiltIn.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 120,
+      "mkg_dig_aset_ownr_id": 1408,
+      "file_lctn": "PL\\e-microwaves.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 41,
+      "mkg_dig_aset_ownr_id": 975,
+      "file_lctn": "PL\\e-allRefrigerators.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 31,
+      "mkg_dig_aset_ownr_id": 965,
+      "file_lctn": "PL\\e-refrigeratorsFrenchdoor.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 32,
+      "mkg_dig_aset_ownr_id": 966,
+      "file_lctn": "PL\\e-refrigeratorsSideBySide.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 523,
+      "mkg_dig_aset_ownr_id": 11921,
+      "file_lctn": "PL\\fpo.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 349,
+      "mkg_dig_aset_ownr_id": 7042,
+      "file_lctn": "PL\\fpo.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 125,
+      "mkg_dig_aset_ownr_id": 1681,
+      "file_lctn": "PL\\e-refrigeratorsBeverageCenter.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 126,
+      "mkg_dig_aset_ownr_id": 1684,
+      "file_lctn": "PL\\e-refrigeratorsRefrigerationDrawer.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 127,
+      "mkg_dig_aset_ownr_id": 1687,
+      "file_lctn": "PL\\e-wineStorage.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 26,
+      "mkg_dig_aset_ownr_id": 960,
+      "file_lctn": "PL\\e-dishwashers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 38,
+      "mkg_dig_aset_ownr_id": 972,
+      "file_lctn": "PL\\e-allFreezers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 345,
+      "mkg_dig_aset_ownr_id": 6766,
+      "file_lctn": "PL\\e-allFreezers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 117,
+      "mkg_dig_aset_ownr_id": 1384,
+      "file_lctn": "PL\\e-allFreezers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 39,
+      "mkg_dig_aset_ownr_id": 973,
+      "file_lctn": "PL\\e-refrigeratorsIceMaker.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 24,
+      "mkg_dig_aset_ownr_id": 958,
+      "file_lctn": "PL\\e-compactors.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 37,
+      "mkg_dig_aset_ownr_id": 971,
+      "file_lctn": "PL\\e-washers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 128,
+      "mkg_dig_aset_ownr_id": 1787,
+      "file_lctn": "PL\\e-washers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 494,
+      "mkg_dig_aset_ownr_id": 10784,
+      "file_lctn": "PL\\fpo.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 27,
+      "mkg_dig_aset_ownr_id": 961,
+      "file_lctn": "PL\\e-Dryers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 29,
+      "mkg_dig_aset_ownr_id": 963,
+      "file_lctn": "PL\\e-pedestals.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 525,
+      "mkg_dig_aset_ownr_id": 12276,
+      "file_lctn": "PL\\e-irons.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 567,
+      "mkg_dig_aset_ownr_id": 13535,
+      "file_lctn": "PL\\fpo.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 568,
+      "mkg_dig_aset_ownr_id": 13536,
+      "file_lctn": "PL\\fpo.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 569,
+      "mkg_dig_aset_ownr_id": 13537,
+      "file_lctn": "PL\\fpo.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 570,
+      "mkg_dig_aset_ownr_id": 13538,
+      "file_lctn": "PL\\fpo.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 81,
+      "mkg_dig_aset_ownr_id": 1021,
+      "file_lctn": "PL\\i-cooktopGas.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 261,
+      "mkg_dig_aset_ownr_id": 4743,
+      "file_lctn": "PL\\i-wallovens.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 109,
+      "mkg_dig_aset_ownr_id": 1190,
+      "file_lctn": "PL\\i-wallOvensDouble.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 111,
+      "mkg_dig_aset_ownr_id": 1196,
+      "file_lctn": "PL\\i-wallOvensSingle.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 113,
+      "mkg_dig_aset_ownr_id": 1202,
+      "file_lctn": "PL\\i-wallOvensHighSpeed.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 88,
+      "mkg_dig_aset_ownr_id": 1089,
+      "file_lctn": "PL\\i-wallovens.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 115,
+      "mkg_dig_aset_ownr_id": 1208,
+      "file_lctn": "PL\\i-warmerDrawers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 95,
+      "mkg_dig_aset_ownr_id": 1110,
+      "file_lctn": "PL\\i-rangesGas.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 107,
+      "mkg_dig_aset_ownr_id": 1160,
+      "file_lctn": "PL\\i-ventilation.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 244,
+      "mkg_dig_aset_ownr_id": 4726,
+      "file_lctn": "PL\\i-microwaves.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 243,
+      "mkg_dig_aset_ownr_id": 4725,
+      "file_lctn": "PL\\i-microwaves.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 93,
+      "mkg_dig_aset_ownr_id": 1104,
+      "file_lctn": "PL\\i-microwavesOverTheRange.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 249,
+      "mkg_dig_aset_ownr_id": 4731,
+      "file_lctn": "PL\\i-refrigeratorAllRefrigerators.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 250,
+      "mkg_dig_aset_ownr_id": 4732,
+      "file_lctn": "PL\\i-refrigeratorFrenchDoor.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 255,
+      "mkg_dig_aset_ownr_id": 4737,
+      "file_lctn": "PL\\i-refrigeratorSideBySide.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 350,
+      "mkg_dig_aset_ownr_id": 7065,
+      "file_lctn": "PL\\i-refrigeratorAllRefrigerators.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 103,
+      "mkg_dig_aset_ownr_id": 1148,
+      "file_lctn": "PL\\i-refrigeratorDrawers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 105,
+      "mkg_dig_aset_ownr_id": 1154,
+      "file_lctn": "PL\\i-wineStorage.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 83,
+      "mkg_dig_aset_ownr_id": 1060,
+      "file_lctn": "PL\\i-dishwashers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 239,
+      "mkg_dig_aset_ownr_id": 4721,
+      "file_lctn": "PL\\i-refrigeratorAllFreezers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 346,
+      "mkg_dig_aset_ownr_id": 6768,
+      "file_lctn": "PL\\i-refrigeratorAllFreezers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 86,
+      "mkg_dig_aset_ownr_id": 1081,
+      "file_lctn": "PL\\i-iceMakers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 79,
+      "mkg_dig_aset_ownr_id": 1015,
+      "file_lctn": "PL\\i-compactors.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 82,
+      "mkg_dig_aset_ownr_id": 1034,
+      "file_lctn": "PL\\i-cooktopGas.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 262,
+      "mkg_dig_aset_ownr_id": 4744,
+      "file_lctn": "PL\\i-wallovens.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 110,
+      "mkg_dig_aset_ownr_id": 1193,
+      "file_lctn": "PL\\i-wallOvensDouble.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 112,
+      "mkg_dig_aset_ownr_id": 1199,
+      "file_lctn": "PL\\i-wallOvensSingle.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 114,
+      "mkg_dig_aset_ownr_id": 1205,
+      "file_lctn": "PL\\i-wallOvensHighSpeed.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 89,
+      "mkg_dig_aset_ownr_id": 1092,
+      "file_lctn": "PL\\i-wallovens.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 116,
+      "mkg_dig_aset_ownr_id": 1211,
+      "file_lctn": "PL\\i-warmerDrawers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 108,
+      "mkg_dig_aset_ownr_id": 1173,
+      "file_lctn": "PL\\i-ventilation.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 240,
+      "mkg_dig_aset_ownr_id": 4722,
+      "file_lctn": "PL\\i-microwaves.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 90,
+      "mkg_dig_aset_ownr_id": 1095,
+      "file_lctn": "PL\\i-microwaves.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 94,
+      "mkg_dig_aset_ownr_id": 1107,
+      "file_lctn": "PL\\i-microwavesOverTheRange.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 254,
+      "mkg_dig_aset_ownr_id": 4736,
+      "file_lctn": "PL\\i-refrigeratorAllRefrigerators.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 253,
+      "mkg_dig_aset_ownr_id": 4735,
+      "file_lctn": "PL\\i-refrigeratorFrenchDoor.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 258,
+      "mkg_dig_aset_ownr_id": 4740,
+      "file_lctn": "PL\\i-refrigeratorSideBySide.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 351,
+      "mkg_dig_aset_ownr_id": 7066,
+      "file_lctn": "PL\\i-refrigeratorAllRefrigerators.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 104,
+      "mkg_dig_aset_ownr_id": 1151,
+      "file_lctn": "PL\\i-refrigeratorDrawers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 106,
+      "mkg_dig_aset_ownr_id": 1157,
+      "file_lctn": "PL\\i-wineStorage.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 84,
+      "mkg_dig_aset_ownr_id": 1065,
+      "file_lctn": "PL\\i-dishwashers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 347,
+      "mkg_dig_aset_ownr_id": 6769,
+      "file_lctn": "PL\\i-refrigeratorAllFreezers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 87,
+      "mkg_dig_aset_ownr_id": 1086,
+      "file_lctn": "PL\\i-iceMakers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 80,
+      "mkg_dig_aset_ownr_id": 1018,
+      "file_lctn": "PL\\i-compactors.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 78,
+      "mkg_dig_aset_ownr_id": 1012,
+      "file_lctn": "PL\\fop.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 43,
+      "mkg_dig_aset_ownr_id": 977,
+      "file_lctn": "PL\\fa-cooktopsGas.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 74,
+      "mkg_dig_aset_ownr_id": 1008,
+      "file_lctn": "PL\\fb-wallOvensDouble.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 66,
+      "mkg_dig_aset_ownr_id": 1000,
+      "file_lctn": "PL\\fb-wallOvensDouble.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 67,
+      "mkg_dig_aset_ownr_id": 1001,
+      "file_lctn": "PL\\fb-wallOvensSingle.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 56,
+      "mkg_dig_aset_ownr_id": 990,
+      "file_lctn": "PL\\fb-rangesGas.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 65,
+      "mkg_dig_aset_ownr_id": 999,
+      "file_lctn": "PL\\fb-ventilationWallMounted.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 53,
+      "mkg_dig_aset_ownr_id": 987,
+      "file_lctn": "PL\\fb-microwavesOTR.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 275,
+      "mkg_dig_aset_ownr_id": 4757,
+      "file_lctn": "PL\\fb-microwavesBuiltIn.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 237,
+      "mkg_dig_aset_ownr_id": 4719,
+      "file_lctn": "PL\\fb-microwavesOTR.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 281,
+      "mkg_dig_aset_ownr_id": 4763,
+      "file_lctn": "PL\\fb-microwavesCountertop.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 76,
+      "mkg_dig_aset_ownr_id": 1010,
+      "file_lctn": "PL\\fb-refrigerationSideBySide.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 59,
+      "mkg_dig_aset_ownr_id": 993,
+      "file_lctn": "PL\\fg-refrigeratorsFrenchDoor.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 60,
+      "mkg_dig_aset_ownr_id": 994,
+      "file_lctn": "PL\\fb-refrigerationSideBySide.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 61,
+      "mkg_dig_aset_ownr_id": 995,
+      "file_lctn": "PL\\fb-refrigerationTopFreezer.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 62,
+      "mkg_dig_aset_ownr_id": 996,
+      "file_lctn": "PL\\fb-refrigerationAllRefrigerator.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 63,
+      "mkg_dig_aset_ownr_id": 997,
+      "file_lctn": "PL\\fb-refrigerationCompact.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 64,
+      "mkg_dig_aset_ownr_id": 998,
+      "file_lctn": "PL\\fb-refrigerationWineStorage.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 45,
+      "mkg_dig_aset_ownr_id": 979,
+      "file_lctn": "PL\\fa-dishwashers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 75,
+      "mkg_dig_aset_ownr_id": 1009,
+      "file_lctn": "PL\\fa-freezersUpright.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 47,
+      "mkg_dig_aset_ownr_id": 981,
+      "file_lctn": "PL\\fa-freezersChest.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 48,
+      "mkg_dig_aset_ownr_id": 982,
+      "file_lctn": "PL\\fa-freezersConvertible.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 50,
+      "mkg_dig_aset_ownr_id": 984,
+      "file_lctn": "PL\\fa-freezersUpright.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 69,
+      "mkg_dig_aset_ownr_id": 1003,
+      "file_lctn": "PL\\fa-washersFrontLoad.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 300,
+      "mkg_dig_aset_ownr_id": 4782,
+      "file_lctn": "PL\\fa-washersFrontLoad.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 303,
+      "mkg_dig_aset_ownr_id": 4785,
+      "file_lctn": "PL\\fa-dryersTopLoad.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 46,
+      "mkg_dig_aset_ownr_id": 980,
+      "file_lctn": "PL\\fa-dryers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 55,
+      "mkg_dig_aset_ownr_id": 989,
+      "file_lctn": "PL\\fa-pedestals.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 51,
+      "mkg_dig_aset_ownr_id": 985,
+      "file_lctn": "PL\\fb-laundryCenters.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 238,
+      "mkg_dig_aset_ownr_id": 4720,
+      "file_lctn": "PL\\fb-homeComfortAirConditionersBuiltIn.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 70,
+      "mkg_dig_aset_ownr_id": 1004,
+      "file_lctn": "PL\\fb-homeComfortAirConditionersWindowUnit.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 71,
+      "mkg_dig_aset_ownr_id": 1005,
+      "file_lctn": "PL\\fb-homeComfortAirConditionersBuiltIn.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 72,
+      "mkg_dig_aset_ownr_id": 1006,
+      "file_lctn": "PL\\fb-homeComfortAirConditionersPortable.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 73,
+      "mkg_dig_aset_ownr_id": 1007,
+      "file_lctn": "PL\\fb-homeComfortHVACDuctlessSplit.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 483,
+      "mkg_dig_aset_ownr_id": 10373,
+      "file_lctn": "PL\\fb-homeComfortHVACPtacs.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 44,
+      "mkg_dig_aset_ownr_id": 978,
+      "file_lctn": "PL\\fb-homeComfortDehumidifiers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 490,
+      "mkg_dig_aset_ownr_id": 10380,
+      "file_lctn": "PL\\fb-wasteDisposal.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 299,
+      "mkg_dig_aset_ownr_id": 4781,
+      "file_lctn": "PL\\fa-washersFrontLoad.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 196,
+      "mkg_dig_aset_ownr_id": 4364,
+      "file_lctn": "PL\\fa-washersFrontLoad.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 369,
+      "mkg_dig_aset_ownr_id": 7994,
+      "file_lctn": "PL\\fa-dryersTopLoad.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 137,
+      "mkg_dig_aset_ownr_id": 2222,
+      "file_lctn": "PL\\fa-dryers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 161,
+      "mkg_dig_aset_ownr_id": 2788,
+      "file_lctn": "PL\\fa-pedestals.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 495,
+      "mkg_dig_aset_ownr_id": 10889,
+      "file_lctn": "PL\\fa-irons.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 129,
+      "mkg_dig_aset_ownr_id": 1821,
+      "file_lctn": "PL\\fp-cooktopsGas.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 296,
+      "mkg_dig_aset_ownr_id": 4778,
+      "file_lctn": "PL\\fp-cooktopsElectric.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 189,
+      "mkg_dig_aset_ownr_id": 4181,
+      "file_lctn": "PL\\fp-cooktopsGas.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 192,
+      "mkg_dig_aset_ownr_id": 4241,
+      "file_lctn": "PL\\fp-cooktopsInduction.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 150,
+      "mkg_dig_aset_ownr_id": 2616,
+      "file_lctn": "PL\\fp-microcombi.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 195,
+      "mkg_dig_aset_ownr_id": 4355,
+      "file_lctn": "PL\\fp-warmingDrawers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 163,
+      "mkg_dig_aset_ownr_id": 2806,
+      "file_lctn": "PL\\fp-rangesGas.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 372,
+      "mkg_dig_aset_ownr_id": 8375,
+      "file_lctn": "PL\\fb-entilationUnderCabinet.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 273,
+      "mkg_dig_aset_ownr_id": 4755,
+      "file_lctn": "PL\\fp-microwavesOTR.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 272,
+      "mkg_dig_aset_ownr_id": 4754,
+      "file_lctn": "PL\\fp-microwavesBuiltIn.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 155,
+      "mkg_dig_aset_ownr_id": 2666,
+      "file_lctn": "PL\\fp-microwavesOTR.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 283,
+      "mkg_dig_aset_ownr_id": 4765,
+      "file_lctn": "PL\\fp-refrigerationFrenchDoor.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 282,
+      "mkg_dig_aset_ownr_id": 4764,
+      "file_lctn": "PL\\fp-refrigerationFrenchDoor.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 289,
+      "mkg_dig_aset_ownr_id": 4771,
+      "file_lctn": "PL\\fp-refrigerationSideBySide.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 181,
+      "mkg_dig_aset_ownr_id": 3792,
+      "file_lctn": "PL\\fp-refrigerationTopFreezer.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 184,
+      "mkg_dig_aset_ownr_id": 4077,
+      "file_lctn": "PL\\fp-refrigerationAllRefrigerators.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 133,
+      "mkg_dig_aset_ownr_id": 2064,
+      "file_lctn": "PL\\fp-dishwashers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 271,
+      "mkg_dig_aset_ownr_id": 4753,
+      "file_lctn": "PL\\fp-freezers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 348,
+      "mkg_dig_aset_ownr_id": 6770,
+      "file_lctn": "PL\\fa-freezersUpright.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 145,
+      "mkg_dig_aset_ownr_id": 2554,
+      "file_lctn": "PL\\fa-freezersUpright.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 424,
+      "mkg_dig_aset_ownr_id": 9239,
+      "file_lctn": "PL\\fp-smallAppliancesCoffeeMaker.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 425,
+      "mkg_dig_aset_ownr_id": 9240,
+      "file_lctn": "PL\\fp-smallAppliancesToasterOven.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 426,
+      "mkg_dig_aset_ownr_id": 9241,
+      "file_lctn": "PL\\fp-smallAppliancesBlender.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 427,
+      "mkg_dig_aset_ownr_id": 9242,
+      "file_lctn": "PL\\fp-smallAppliancesSlowCooker.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 428,
+      "mkg_dig_aset_ownr_id": 9243,
+      "file_lctn": "PL\\fp-smallAppliancesGrillAndGriddle.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 429,
+      "mkg_dig_aset_ownr_id": 9244,
+      "file_lctn": "PL\\fp-smallAppliancesToaster.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 430,
+      "mkg_dig_aset_ownr_id": 9245,
+      "file_lctn": "PL\\fp-smallAppliancesHandBlender.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 432,
+      "mkg_dig_aset_ownr_id": 9300,
+      "file_lctn": "PL\\fp-wasteDisposal.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 564,
+      "mkg_dig_aset_ownr_id": 12998,
+      "file_lctn": "PL\\fp-smallAppliancesHandBlender.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 130,
+      "mkg_dig_aset_ownr_id": 1842,
+      "file_lctn": "PL\\fg-cooktopsGas.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 297,
+      "mkg_dig_aset_ownr_id": 4779,
+      "file_lctn": "PL\\fg-wallOvensDouble.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 190,
+      "mkg_dig_aset_ownr_id": 4190,
+      "file_lctn": "PL\\fg-wallOvensDouble.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 193,
+      "mkg_dig_aset_ownr_id": 4256,
+      "file_lctn": "PL\\fg-wallOvensSingle.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 151,
+      "mkg_dig_aset_ownr_id": 2625,
+      "file_lctn": "PL\\fg-microcombi.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 165,
+      "mkg_dig_aset_ownr_id": 2883,
+      "file_lctn": "PL\\fg-rangesGas.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 279,
+      "mkg_dig_aset_ownr_id": 4761,
+      "file_lctn": "PL\\fg-microwavesOTR.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 278,
+      "mkg_dig_aset_ownr_id": 4760,
+      "file_lctn": "PL\\fg-microwavesBuiltIn.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 157,
+      "mkg_dig_aset_ownr_id": 2682,
+      "file_lctn": "PL\\fg-microwavesOTR.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 288,
+      "mkg_dig_aset_ownr_id": 4770,
+      "file_lctn": "PL\\fg-refrigeratorsFrenchDoor.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 287,
+      "mkg_dig_aset_ownr_id": 4769,
+      "file_lctn": "PL\\fg-refrigeratorsFrenchDoor.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 292,
+      "mkg_dig_aset_ownr_id": 4774,
+      "file_lctn": "PL\\fg-refrigeratorsSideBySide.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 182,
+      "mkg_dig_aset_ownr_id": 3817,
+      "file_lctn": "PL\\fg-refrigeratorsTopFreezer.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 135,
+      "mkg_dig_aset_ownr_id": 2081,
+      "file_lctn": "PL\\fg-dishwashers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 269,
+      "mkg_dig_aset_ownr_id": 4751,
+      "file_lctn": "PL\\fg-freezersUpright.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 491,
+      "mkg_dig_aset_ownr_id": 10443,
+      "file_lctn": "PL\\fg-freezersUpright.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 140,
+      "mkg_dig_aset_ownr_id": 2511,
+      "file_lctn": "PL\\fg-freezersChest.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 146,
+      "mkg_dig_aset_ownr_id": 2559,
+      "file_lctn": "PL\\fg-freezersUpright.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 301,
+      "mkg_dig_aset_ownr_id": 4783,
+      "file_lctn": "PL\\fa-washersFrontLoad.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 197,
+      "mkg_dig_aset_ownr_id": 4444,
+      "file_lctn": "PL\\fa-washersFrontLoad.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 199,
+      "mkg_dig_aset_ownr_id": 4465,
+      "file_lctn": "PL\\fa-dryersTopLoad.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 138,
+      "mkg_dig_aset_ownr_id": 2419,
+      "file_lctn": "PL\\fa-dryers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 148,
+      "mkg_dig_aset_ownr_id": 2592,
+      "file_lctn": "PL\\fb-laundryCenters.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 434,
+      "mkg_dig_aset_ownr_id": 9302,
+      "file_lctn": "PL\\fg-wasteDisposal.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 131,
+      "mkg_dig_aset_ownr_id": 1905,
+      "file_lctn": "PL\\fa-cooktopsGas.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 298,
+      "mkg_dig_aset_ownr_id": 4780,
+      "file_lctn": "PL\\fb-wallOvensDouble.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 191,
+      "mkg_dig_aset_ownr_id": 4213,
+      "file_lctn": "PL\\fb-wallOvensDouble.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 194,
+      "mkg_dig_aset_ownr_id": 4295,
+      "file_lctn": "PL\\fb-wallOvensSingle.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 166,
+      "mkg_dig_aset_ownr_id": 3091,
+      "file_lctn": "PL\\fb-rangesGas.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 188,
+      "mkg_dig_aset_ownr_id": 4128,
+      "file_lctn": "PL\\fb-ventilationWallMounted.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 280,
+      "mkg_dig_aset_ownr_id": 4762,
+      "file_lctn": "PL\\fb-microwavesOTR.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 316,
+      "mkg_dig_aset_ownr_id": 5777,
+      "file_lctn": "PL\\fb-microwavesBuiltIn.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 158,
+      "mkg_dig_aset_ownr_id": 2714,
+      "file_lctn": "PL\\fb-microwavesOTR.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 160,
+      "mkg_dig_aset_ownr_id": 2763,
+      "file_lctn": "PL\\fb-microwavesCountertop.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 294,
+      "mkg_dig_aset_ownr_id": 4776,
+      "file_lctn": "PL\\fb-refrigerationSideBySide.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 565,
+      "mkg_dig_aset_ownr_id": 13133,
+      "file_lctn": "PL\\fg-refrigeratorsFrenchDoor.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 293,
+      "mkg_dig_aset_ownr_id": 4775,
+      "file_lctn": "PL\\fb-refrigerationSideBySide.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 183,
+      "mkg_dig_aset_ownr_id": 3884,
+      "file_lctn": "PL\\fb-refrigerationTopFreezer.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 185,
+      "mkg_dig_aset_ownr_id": 4082,
+      "file_lctn": "PL\\fb-refrigerationAllRefrigerator.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 360,
+      "mkg_dig_aset_ownr_id": 7222,
+      "file_lctn": "PL\\fpo.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 186,
+      "mkg_dig_aset_ownr_id": 4087,
+      "file_lctn": "PL\\fb-refrigerationCompact.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 187,
+      "mkg_dig_aset_ownr_id": 4111,
+      "file_lctn": "PL\\fb-refrigerationWineStorage.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 136,
+      "mkg_dig_aset_ownr_id": 2138,
+      "file_lctn": "PL\\fa-dishwashers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 270,
+      "mkg_dig_aset_ownr_id": 4752,
+      "file_lctn": "PL\\fa-freezersUpright.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 141,
+      "mkg_dig_aset_ownr_id": 2520,
+      "file_lctn": "PL\\fa-freezersChest.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 142,
+      "mkg_dig_aset_ownr_id": 2539,
+      "file_lctn": "PL\\fa-freezersConvertible.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 147,
+      "mkg_dig_aset_ownr_id": 2566,
+      "file_lctn": "PL\\fa-freezersUpright.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 302,
+      "mkg_dig_aset_ownr_id": 4784,
+      "file_lctn": "PL\\fa-washersFrontLoad.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 198,
+      "mkg_dig_aset_ownr_id": 4451,
+      "file_lctn": "PL\\fa-washersFrontLoad.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 200,
+      "mkg_dig_aset_ownr_id": 4470,
+      "file_lctn": "PL\\fa-dryersTopLoad.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 139,
+      "mkg_dig_aset_ownr_id": 2457,
+      "file_lctn": "PL\\fa-dryers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 162,
+      "mkg_dig_aset_ownr_id": 2797,
+      "file_lctn": "PL\\fa-pedestals.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 149,
+      "mkg_dig_aset_ownr_id": 2609,
+      "file_lctn": "PL\\fb-laundryCenters.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 304,
+      "mkg_dig_aset_ownr_id": 4786,
+      "file_lctn": "PL\\fb-homeComfortAirConditionersBuiltIn.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 305,
+      "mkg_dig_aset_ownr_id": 4787,
+      "file_lctn": "PL\\fb-homeComfortAirConditionersWindowUnit.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 201,
+      "mkg_dig_aset_ownr_id": 4477,
+      "file_lctn": "PL\\fb-homeComfortAirConditionersBuiltIn.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 202,
+      "mkg_dig_aset_ownr_id": 4522,
+      "file_lctn": "PL\\fb-homeComfortAirConditionersPortable.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 209,
+      "mkg_dig_aset_ownr_id": 4651,
+      "file_lctn": "PL\\fb-homeComfortHVACDuctlessSplit.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 407,
+      "mkg_dig_aset_ownr_id": 8880,
+      "file_lctn": "PL\\fb-homeComfortHVACPtacs.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 132,
+      "mkg_dig_aset_ownr_id": 2023,
+      "file_lctn": "PL\\fb-homeComfortDehumidifiers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 435,
+      "mkg_dig_aset_ownr_id": 9303,
+      "file_lctn": "PL\\fb-wasteDisposal.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 492,
+      "mkg_dig_aset_ownr_id": 10452,
+      "file_lctn": "PL\\fp-refrigerationAllRefrigerators.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 421,
+      "mkg_dig_aset_ownr_id": 9179,
+      "file_lctn": "PL\\fp-refrigerationAllRefrigerators.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 493,
+      "mkg_dig_aset_ownr_id": 10453,
+      "file_lctn": "PL\\fg-freezersUpright.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 422,
+      "mkg_dig_aset_ownr_id": 9180,
+      "file_lctn": "PL\\fg-freezersChest.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 423,
+      "mkg_dig_aset_ownr_id": 9181,
+      "file_lctn": "PL\\fg-freezersUpright.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 534,
+      "mkg_dig_aset_ownr_id": 12337,
+      "file_lctn": "PL\\k-refrigeratorsReachIns.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 480,
+      "mkg_dig_aset_ownr_id": 10229,
+      "file_lctn": "PL\\fpo.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 526,
+      "mkg_dig_aset_ownr_id": 12324,
+      "file_lctn": "PL\\k-refrigeratorsGlassDoorMerchandiser.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 527,
+      "mkg_dig_aset_ownr_id": 12325,
+      "file_lctn": "PL\\k-refrigeratorsReachIns.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 528,
+      "mkg_dig_aset_ownr_id": 12326,
+      "file_lctn": "PL\\k-refrigeratorsUnderCounter.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 529,
+      "mkg_dig_aset_ownr_id": 12327,
+      "file_lctn": "PL\\k-bottleCoolers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 530,
+      "mkg_dig_aset_ownr_id": 12328,
+      "file_lctn": "PL\\k-prepTablesMega.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 535,
+      "mkg_dig_aset_ownr_id": 12338,
+      "file_lctn": "PL\\k-FreezersChestFreezers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 481,
+      "mkg_dig_aset_ownr_id": 10230,
+      "file_lctn": "PL\\k-FreezersChestFreezers.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 539,
+      "mkg_dig_aset_ownr_id": 12774,
+      "file_lctn": "PL\\i-freezersNovelty.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 540,
+      "mkg_dig_aset_ownr_id": 12775,
+      "file_lctn": "PL\\i-freezersNovelty.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 533,
+      "mkg_dig_aset_ownr_id": 12331,
+      "file_lctn": "PL\\k-freezersUnderCounter.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 532,
+      "mkg_dig_aset_ownr_id": 12330,
+      "file_lctn": "PL\\k-freezersReachIn.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 531,
+      "mkg_dig_aset_ownr_id": 12329,
+      "file_lctn": "PL\\k-freezersGlassDoorMerchandiser.png"
+    },
+    {
+      "mkg_brnd_prod_cat_id": 482,
+      "mkg_dig_aset_ownr_id": 10231,
+      "file_lctn": "PL\\fpo.png"
+    }
+  ]
+}

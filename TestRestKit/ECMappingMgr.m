@@ -172,6 +172,11 @@
     
     //--------------------------------- Image Resource ----------------------------------
     
+    RKManagedObjectMapping * brndProdCatImageMapping = [RKManagedObjectMapping mappingForEntityWithName:@"BrndCatImage" inManagedObjectStore:objectManager.objectStore];
+    brndProdCatImageMapping.primaryKeyAttribute = @"mkg_brnd_prod_cat_id";
+    [brndProdCatImageMapping mapAttributes:@"mkg_brnd_prod_cat_id", @"mkg_dig_aset_ownr_id", @"file_lctn", @"dig_aset_purp_nm", nil];
+    [objectManager.mappingProvider setMapping:brndProdCatImageMapping forKeyPath:@"IMKG_BRND_PROD_CAT_IMG"];
+    
     RKManagedObjectMapping * vrtnTypeCodeImageMapping = [RKManagedObjectMapping mappingForEntityWithName:@"VrtnTypeImage" inManagedObjectStore:objectManager.objectStore];
     vrtnTypeCodeImageMapping.primaryKeyAttribute = @"mkg_ownd_dig_aset_id";
     [vrtnTypeCodeImageMapping mapAttributes:@"mkg_ownd_dig_aset_id", @"mkg_vrtn_typ_cd_id", @"mkg_dig_aset_ownr_id", @"mkg_dig_aset_id", @"file_lctn", nil];

@@ -129,6 +129,14 @@
 		00AB8471166497CC00E5EB97 /* IBMessageProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB8455166497CC00E5EB97 /* IBMessageProcessor.m */; };
 		00AB8472166497CC00E5EB97 /* IBTargetAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB8457166497CC00E5EB97 /* IBTargetAction.m */; };
 		00AB84741664986000E5EB97 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AB84731664986000E5EB97 /* CoreText.framework */; };
+		00B60F2B169BBCFE00D53AD6 /* ECBrandProdCatImg.json in Resources */ = {isa = PBXBuildFile; fileRef = 00B60F28169BBCFE00D53AD6 /* ECBrandProdCatImg.json */; };
+		00B60F2C169BBCFE00D53AD6 /* ECBrandProdCatImg.json in Resources */ = {isa = PBXBuildFile; fileRef = 00B60F28169BBCFE00D53AD6 /* ECBrandProdCatImg.json */; };
+		00B60F2D169BBCFE00D53AD6 /* ECImage.json in Resources */ = {isa = PBXBuildFile; fileRef = 00B60F29169BBCFE00D53AD6 /* ECImage.json */; };
+		00B60F2E169BBCFE00D53AD6 /* ECImage.json in Resources */ = {isa = PBXBuildFile; fileRef = 00B60F29169BBCFE00D53AD6 /* ECImage.json */; };
+		00B60F2F169BBCFE00D53AD6 /* ECProdFeatrue.json in Resources */ = {isa = PBXBuildFile; fileRef = 00B60F2A169BBCFE00D53AD6 /* ECProdFeatrue.json */; };
+		00B60F30169BBCFE00D53AD6 /* ECProdFeatrue.json in Resources */ = {isa = PBXBuildFile; fileRef = 00B60F2A169BBCFE00D53AD6 /* ECProdFeatrue.json */; };
+		00B60F32169BBD6200D53AD6 /* ECESpecs.json in Resources */ = {isa = PBXBuildFile; fileRef = 00B60F31169BBD6200D53AD6 /* ECESpecs.json */; };
+		00B60F33169BBD6200D53AD6 /* ECESpecs.json in Resources */ = {isa = PBXBuildFile; fileRef = 00B60F31169BBD6200D53AD6 /* ECESpecs.json */; };
 		00B84C06168075C200BC7A26 /* _VrtnTypeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B84C05168075C200BC7A26 /* _VrtnTypeImage.m */; };
 		00B84C07168075C200BC7A26 /* _VrtnTypeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B84C05168075C200BC7A26 /* _VrtnTypeImage.m */; };
 		00B84C0A168075D200BC7A26 /* VrtnTypeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B84C09168075D200BC7A26 /* VrtnTypeImage.m */; };
@@ -448,6 +456,10 @@
 		00AB8456166497CC00E5EB97 /* IBTargetAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBTargetAction.h; sourceTree = "<group>"; };
 		00AB8457166497CC00E5EB97 /* IBTargetAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBTargetAction.m; sourceTree = "<group>"; };
 		00AB84731664986000E5EB97 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		00B60F28169BBCFE00D53AD6 /* ECBrandProdCatImg.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ECBrandProdCatImg.json; sourceTree = SOURCE_ROOT; };
+		00B60F29169BBCFE00D53AD6 /* ECImage.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ECImage.json; sourceTree = SOURCE_ROOT; };
+		00B60F2A169BBCFE00D53AD6 /* ECProdFeatrue.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ECProdFeatrue.json; sourceTree = SOURCE_ROOT; };
+		00B60F31169BBD6200D53AD6 /* ECESpecs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ECESpecs.json; sourceTree = SOURCE_ROOT; };
 		00B84C04168075C200BC7A26 /* _VrtnTypeImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _VrtnTypeImage.h; sourceTree = "<group>"; };
 		00B84C05168075C200BC7A26 /* _VrtnTypeImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _VrtnTypeImage.m; sourceTree = "<group>"; };
 		00B84C08168075D200BC7A26 /* VrtnTypeImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VrtnTypeImage.h; sourceTree = "<group>"; };
@@ -607,24 +619,28 @@
 		002E48D7166357A70003B4B4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				005DF9571696AD8D00863931 /* TestBlue.jpg */,
-				00A520FF1689790A0029B334 /* ECBrandUTF8.json */,
-				00A521001689790A0029B334 /* ECBrandUTF16.json */,
-				00E3F9FA167097DD0017B783 /* ECProdPrice.json */,
-				00D6102E16707F9B002ECCBB /* ECProdDesc.json */,
-				00D6102F16707F9B002ECCBB /* ECProdMisc.json */,
-				00D60F42166E0E83002ECCBB /* ECProducts.json */,
-				00D60F43166E0E83002ECCBB /* ECSku.json */,
-				00BCD4491665C87800F3D5D6 /* ECData.json */,
-				E2AC49E71665240700009863 /* RKSeedDatabase.sqlite */,
-				00AB83EA1664866600E5EB97 /* Model.xcdatamodeld */,
-				002E48D8166357A70003B4B4 /* TestRestKit-Info.plist */,
-				002E48D9166357A70003B4B4 /* InfoPlist.strings */,
-				002E48DC166357A70003B4B4 /* main.m */,
-				002E48DE166357A70003B4B4 /* TestRestKit-Prefix.pch */,
+				002E48E6166357A70003B4B4 /* Default-568h@2x.png */,
 				002E48E2166357A70003B4B4 /* Default.png */,
 				002E48E4166357A70003B4B4 /* Default@2x.png */,
-				002E48E6166357A70003B4B4 /* Default-568h@2x.png */,
+				00B60F28169BBCFE00D53AD6 /* ECBrandProdCatImg.json */,
+				00A521001689790A0029B334 /* ECBrandUTF16.json */,
+				00A520FF1689790A0029B334 /* ECBrandUTF8.json */,
+				00BCD4491665C87800F3D5D6 /* ECData.json */,
+				00B60F31169BBD6200D53AD6 /* ECESpecs.json */,
+				00B60F29169BBCFE00D53AD6 /* ECImage.json */,
+				00D6102E16707F9B002ECCBB /* ECProdDesc.json */,
+				00B60F2A169BBCFE00D53AD6 /* ECProdFeatrue.json */,
+				00D6102F16707F9B002ECCBB /* ECProdMisc.json */,
+				00E3F9FA167097DD0017B783 /* ECProdPrice.json */,
+				00D60F42166E0E83002ECCBB /* ECProducts.json */,
+				00D60F43166E0E83002ECCBB /* ECSku.json */,
+				002E48D9166357A70003B4B4 /* InfoPlist.strings */,
+				002E48DC166357A70003B4B4 /* main.m */,
+				00AB83EA1664866600E5EB97 /* Model.xcdatamodeld */,
+				E2AC49E71665240700009863 /* RKSeedDatabase.sqlite */,
+				005DF9571696AD8D00863931 /* TestBlue.jpg */,
+				002E48D8166357A70003B4B4 /* TestRestKit-Info.plist */,
+				002E48DE166357A70003B4B4 /* TestRestKit-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -1046,6 +1062,10 @@
 				00E3F9FB167097DD0017B783 /* ECProdPrice.json in Resources */,
 				005DF9561696AAA800863931 /* colors in Resources */,
 				005DF9581696AD8D00863931 /* TestBlue.jpg in Resources */,
+				00B60F2B169BBCFE00D53AD6 /* ECBrandProdCatImg.json in Resources */,
+				00B60F2D169BBCFE00D53AD6 /* ECImage.json in Resources */,
+				00B60F2F169BBCFE00D53AD6 /* ECProdFeatrue.json in Resources */,
+				00B60F32169BBD6200D53AD6 /* ECESpecs.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1067,6 +1087,10 @@
 				00E3F9FC167097E90017B783 /* ECProdPrice.json in Resources */,
 				00A521011689790A0029B334 /* ECBrandUTF8.json in Resources */,
 				00A521021689790A0029B334 /* ECBrandUTF16.json in Resources */,
+				00B60F2C169BBCFE00D53AD6 /* ECBrandProdCatImg.json in Resources */,
+				00B60F2E169BBCFE00D53AD6 /* ECImage.json in Resources */,
+				00B60F30169BBCFE00D53AD6 /* ECProdFeatrue.json in Resources */,
+				00B60F33169BBD6200D53AD6 /* ECESpecs.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,3281 @@
+{
+    "IMKG_PROD_ATTR_SET": [
+                           {
+                           "mkg_prod_attr_val_id": 46206,
+                           "mkg_prod_id": 1197,
+                           "attr_typ_rank": 1,
+                           "attr_rank": 1,
+                           "mkg_brnd_attr_typ_id": 318,
+                           "mkg_brnd_attr_id": 2483,
+                           "mkg_attr_val_id": 815
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 75250,
+                           "mkg_prod_id": 1197,
+                           "attr_typ_rank": 1,
+                           "attr_rank": 2,
+                           "mkg_brnd_attr_typ_id": 318,
+                           "mkg_brnd_attr_id": 2484,
+                           "mkg_attr_val_id": 5330
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 75252,
+                           "mkg_prod_id": 1197,
+                           "attr_typ_rank": 2,
+                           "attr_rank": 2,
+                           "mkg_brnd_attr_typ_id": 335,
+                           "mkg_brnd_attr_id": 2489,
+                           "mkg_attr_val_id": 420
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 90332,
+                           "mkg_prod_id": 1197,
+                           "attr_typ_rank": 3,
+                           "attr_rank": 1,
+                           "mkg_brnd_attr_typ_id": 347,
+                           "mkg_brnd_attr_id": 2101,
+                           "mkg_attr_val_id": 8096
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 90333,
+                           "mkg_prod_id": 1197,
+                           "attr_typ_rank": 3,
+                           "attr_rank": 2,
+                           "mkg_brnd_attr_typ_id": 347,
+                           "mkg_brnd_attr_id": 2468,
+                           "mkg_attr_val_id": 8095
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 46214,
+                           "mkg_prod_id": 1197,
+                           "attr_typ_rank": 4,
+                           "attr_rank": 1,
+                           "mkg_brnd_attr_typ_id": 317,
+                           "mkg_brnd_attr_id": 2624,
+                           "mkg_attr_val_id": 3456
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 46188,
+                           "mkg_prod_id": 1197,
+                           "attr_typ_rank": 4,
+                           "attr_rank": 2,
+                           "mkg_brnd_attr_typ_id": 317,
+                           "mkg_brnd_attr_id": 3052,
+                           "mkg_attr_val_id": 1876
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 46181,
+                           "mkg_prod_id": 1197,
+                           "attr_typ_rank": 6,
+                           "attr_rank": 1,
+                           "mkg_brnd_attr_typ_id": 345,
+                           "mkg_brnd_attr_id": 3045,
+                           "mkg_attr_val_id": 5973
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 46182,
+                           "mkg_prod_id": 1197,
+                           "attr_typ_rank": 6,
+                           "attr_rank": 2,
+                           "mkg_brnd_attr_typ_id": 345,
+                           "mkg_brnd_attr_id": 3046,
+                           "mkg_attr_val_id": 4093
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 46183,
+                           "mkg_prod_id": 1197,
+                           "attr_typ_rank": 6,
+                           "attr_rank": 3,
+                           "mkg_brnd_attr_typ_id": 345,
+                           "mkg_brnd_attr_id": 3047,
+                           "mkg_attr_val_id": 7835
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 46189,
+                           "mkg_prod_id": 1197,
+                           "attr_typ_rank": 6,
+                           "attr_rank": 4,
+                           "mkg_brnd_attr_typ_id": 345,
+                           "mkg_brnd_attr_id": 3053,
+                           "mkg_attr_val_id": 7791
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 46190,
+                           "mkg_prod_id": 1197,
+                           "attr_typ_rank": 6,
+                           "attr_rank": 5,
+                           "mkg_brnd_attr_typ_id": 345,
+                           "mkg_brnd_attr_id": 3054,
+                           "mkg_attr_val_id": 7792
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 46179,
+                           "mkg_prod_id": 1197,
+                           "attr_typ_rank": 6,
+                           "attr_rank": 6,
+                           "mkg_brnd_attr_typ_id": 345,
+                           "mkg_brnd_attr_id": 3043,
+                           "mkg_attr_val_id": 4174
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 46191,
+                           "mkg_prod_id": 1197,
+                           "attr_typ_rank": 6,
+                           "attr_rank": 7,
+                           "mkg_brnd_attr_typ_id": 345,
+                           "mkg_brnd_attr_id": 3055,
+                           "mkg_attr_val_id": 6054
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 46196,
+                           "mkg_prod_id": 1197,
+                           "attr_typ_rank": 8,
+                           "attr_rank": 1,
+                           "mkg_brnd_attr_typ_id": 321,
+                           "mkg_brnd_attr_id": 1396,
+                           "mkg_attr_val_id": 4078
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 46197,
+                           "mkg_prod_id": 1197,
+                           "attr_typ_rank": 8,
+                           "attr_rank": 2,
+                           "mkg_brnd_attr_typ_id": 321,
+                           "mkg_brnd_attr_id": 1397,
+                           "mkg_attr_val_id": 4097
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 46195,
+                           "mkg_prod_id": 1197,
+                           "attr_typ_rank": 8,
+                           "attr_rank": 3,
+                           "mkg_brnd_attr_typ_id": 321,
+                           "mkg_brnd_attr_id": 1395,
+                           "mkg_attr_val_id": 4077
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 47088,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 1,
+                           "attr_rank": 1,
+                           "mkg_brnd_attr_typ_id": 318,
+                           "mkg_brnd_attr_id": 2483,
+                           "mkg_attr_val_id": 815
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 47072,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 1,
+                           "attr_rank": 2,
+                           "mkg_brnd_attr_typ_id": 318,
+                           "mkg_brnd_attr_id": 2484,
+                           "mkg_attr_val_id": 938
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 75128,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 1,
+                           "attr_rank": 3,
+                           "mkg_brnd_attr_typ_id": 318,
+                           "mkg_brnd_attr_id": 3706,
+                           "mkg_attr_val_id": 2428
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 75083,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 2,
+                           "attr_rank": 5,
+                           "mkg_brnd_attr_typ_id": 335,
+                           "mkg_brnd_attr_id": 2476,
+                           "mkg_attr_val_id": 384
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 75081,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 2,
+                           "attr_rank": 6,
+                           "mkg_brnd_attr_typ_id": 335,
+                           "mkg_brnd_attr_id": 2489,
+                           "mkg_attr_val_id": 420
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 90427,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 3,
+                           "attr_rank": 2,
+                           "mkg_brnd_attr_typ_id": 347,
+                           "mkg_brnd_attr_id": 2086,
+                           "mkg_attr_val_id": 449
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 90428,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 3,
+                           "attr_rank": 3,
+                           "mkg_brnd_attr_typ_id": 347,
+                           "mkg_brnd_attr_id": 2087,
+                           "mkg_attr_val_id": 7709
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 90429,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 3,
+                           "attr_rank": 4,
+                           "mkg_brnd_attr_typ_id": 347,
+                           "mkg_brnd_attr_id": 2088,
+                           "mkg_attr_val_id": 2812
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 90430,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 3,
+                           "attr_rank": 7,
+                           "mkg_brnd_attr_typ_id": 347,
+                           "mkg_brnd_attr_id": 2090,
+                           "mkg_attr_val_id": 452
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 90431,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 3,
+                           "attr_rank": 10,
+                           "mkg_brnd_attr_typ_id": 347,
+                           "mkg_brnd_attr_id": 2093,
+                           "mkg_attr_val_id": 456
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 90432,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 3,
+                           "attr_rank": 11,
+                           "mkg_brnd_attr_typ_id": 347,
+                           "mkg_brnd_attr_id": 2094,
+                           "mkg_attr_val_id": 2813
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 90433,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 3,
+                           "attr_rank": 14,
+                           "mkg_brnd_attr_typ_id": 347,
+                           "mkg_brnd_attr_id": 2097,
+                           "mkg_attr_val_id": 458
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 90434,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 3,
+                           "attr_rank": 17,
+                           "mkg_brnd_attr_typ_id": 347,
+                           "mkg_brnd_attr_id": 2098,
+                           "mkg_attr_val_id": 2816
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 90435,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 3,
+                           "attr_rank": 19,
+                           "mkg_brnd_attr_typ_id": 347,
+                           "mkg_brnd_attr_id": 2100,
+                           "mkg_attr_val_id": 2817
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 90436,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 3,
+                           "attr_rank": 20,
+                           "mkg_brnd_attr_typ_id": 347,
+                           "mkg_brnd_attr_id": 2101,
+                           "mkg_attr_val_id": 467
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 90443,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 3,
+                           "attr_rank": 22,
+                           "mkg_brnd_attr_typ_id": 347,
+                           "mkg_brnd_attr_id": 2468,
+                           "mkg_attr_val_id": 468
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 90437,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 3,
+                           "attr_rank": 27,
+                           "mkg_brnd_attr_typ_id": 347,
+                           "mkg_brnd_attr_id": 2104,
+                           "mkg_attr_val_id": 472
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 90438,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 3,
+                           "attr_rank": 32,
+                           "mkg_brnd_attr_typ_id": 347,
+                           "mkg_brnd_attr_id": 2106,
+                           "mkg_attr_val_id": 2818
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 90442,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 3,
+                           "attr_rank": 33,
+                           "mkg_brnd_attr_typ_id": 347,
+                           "mkg_brnd_attr_id": 2470,
+                           "mkg_attr_val_id": 7905
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 90439,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 3,
+                           "attr_rank": 35,
+                           "mkg_brnd_attr_typ_id": 347,
+                           "mkg_brnd_attr_id": 2108,
+                           "mkg_attr_val_id": 478
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 47093,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 4,
+                           "attr_rank": 1,
+                           "mkg_brnd_attr_typ_id": 317,
+                           "mkg_brnd_attr_id": 2624,
+                           "mkg_attr_val_id": 6220
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 67281,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 5,
+                           "attr_rank": 1,
+                           "mkg_brnd_attr_typ_id": 343,
+                           "mkg_brnd_attr_id": 4025,
+                           "mkg_attr_val_id": 6179
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 47089,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 5,
+                           "attr_rank": 2,
+                           "mkg_brnd_attr_typ_id": 343,
+                           "mkg_brnd_attr_id": 2165,
+                           "mkg_attr_val_id": 1104
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 47073,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 5,
+                           "attr_rank": 3,
+                           "mkg_brnd_attr_typ_id": 343,
+                           "mkg_brnd_attr_id": 2168,
+                           "mkg_attr_val_id": 5974
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 47090,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 5,
+                           "attr_rank": 4,
+                           "mkg_brnd_attr_typ_id": 343,
+                           "mkg_brnd_attr_id": 2166,
+                           "mkg_attr_val_id": 537
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 47091,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 5,
+                           "attr_rank": 5,
+                           "mkg_brnd_attr_typ_id": 343,
+                           "mkg_brnd_attr_id": 2169,
+                           "mkg_attr_val_id": 7834
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 47075,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 5,
+                           "attr_rank": 6,
+                           "mkg_brnd_attr_typ_id": 343,
+                           "mkg_brnd_attr_id": 2161,
+                           "mkg_attr_val_id": 7795
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 47095,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 5,
+                           "attr_rank": 7,
+                           "mkg_brnd_attr_typ_id": 343,
+                           "mkg_brnd_attr_id": 2482,
+                           "mkg_attr_val_id": 7789
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 47096,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 5,
+                           "attr_rank": 8,
+                           "mkg_brnd_attr_typ_id": 343,
+                           "mkg_brnd_attr_id": 2167,
+                           "mkg_attr_val_id": 7788
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 47094,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 5,
+                           "attr_rank": 13,
+                           "mkg_brnd_attr_typ_id": 343,
+                           "mkg_brnd_attr_id": 2170,
+                           "mkg_attr_val_id": 3100
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 47097,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 5,
+                           "attr_rank": 14,
+                           "mkg_brnd_attr_typ_id": 343,
+                           "mkg_brnd_attr_id": 2171,
+                           "mkg_attr_val_id": 5979
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 75087,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 6,
+                           "attr_rank": 1,
+                           "mkg_brnd_attr_typ_id": 341,
+                           "mkg_brnd_attr_id": 2122,
+                           "mkg_attr_val_id": 496
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 75086,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 6,
+                           "attr_rank": 2,
+                           "mkg_brnd_attr_typ_id": 341,
+                           "mkg_brnd_attr_id": 2123,
+                           "mkg_attr_val_id": 497
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 75088,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 6,
+                           "attr_rank": 3,
+                           "mkg_brnd_attr_typ_id": 341,
+                           "mkg_brnd_attr_id": 2121,
+                           "mkg_attr_val_id": 2823
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 47083,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 7,
+                           "attr_rank": 1,
+                           "mkg_brnd_attr_typ_id": 505,
+                           "mkg_brnd_attr_id": 1405,
+                           "mkg_attr_val_id": 1885
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 47084,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 7,
+                           "attr_rank": 2,
+                           "mkg_brnd_attr_typ_id": 505,
+                           "mkg_brnd_attr_id": 1406,
+                           "mkg_attr_val_id": 214
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 47081,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 7,
+                           "attr_rank": 3,
+                           "mkg_brnd_attr_typ_id": 505,
+                           "mkg_brnd_attr_id": 1404,
+                           "mkg_attr_val_id": 1420
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 47082,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 7,
+                           "attr_rank": 4,
+                           "mkg_brnd_attr_typ_id": 505,
+                           "mkg_brnd_attr_id": 1588,
+                           "mkg_attr_val_id": 767
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 47087,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 8,
+                           "attr_rank": 1,
+                           "mkg_brnd_attr_typ_id": 334,
+                           "mkg_brnd_attr_id": 1391,
+                           "mkg_attr_val_id": 441
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 75090,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 8,
+                           "attr_rank": 2,
+                           "mkg_brnd_attr_typ_id": 334,
+                           "mkg_brnd_attr_id": 1393,
+                           "mkg_attr_val_id": 218
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 47085,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 8,
+                           "attr_rank": 5,
+                           "mkg_brnd_attr_typ_id": 334,
+                           "mkg_brnd_attr_id": 1392,
+                           "mkg_attr_val_id": 23
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 47098,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 9,
+                           "attr_rank": 1,
+                           "mkg_brnd_attr_typ_id": 340,
+                           "mkg_brnd_attr_id": 3144,
+                           "mkg_attr_val_id": 48
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 47100,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 10,
+                           "attr_rank": 1,
+                           "mkg_brnd_attr_typ_id": 338,
+                           "mkg_brnd_attr_id": 1416,
+                           "mkg_attr_val_id": 4198
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 47099,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 10,
+                           "attr_rank": 2,
+                           "mkg_brnd_attr_typ_id": 338,
+                           "mkg_brnd_attr_id": 1407,
+                           "mkg_attr_val_id": 3333
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 47078,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 11,
+                           "attr_rank": 1,
+                           "mkg_brnd_attr_typ_id": 321,
+                           "mkg_brnd_attr_id": 1396,
+                           "mkg_attr_val_id": 4196
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 47079,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 11,
+                           "attr_rank": 2,
+                           "mkg_brnd_attr_typ_id": 321,
+                           "mkg_brnd_attr_id": 1397,
+                           "mkg_attr_val_id": 1084
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 47077,
+                           "mkg_prod_id": 1218,
+                           "attr_typ_rank": 11,
+                           "attr_rank": 3,
+                           "mkg_brnd_attr_typ_id": 321,
+                           "mkg_brnd_attr_id": 1395,
+                           "mkg_attr_val_id": 4077
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 75662,
+                           "mkg_prod_id": 1265,
+                           "attr_typ_rank": 1,
+                           "attr_rank": 1,
+                           "mkg_brnd_attr_typ_id": 318,
+                           "mkg_brnd_attr_id": 2483,
+                           "mkg_attr_val_id": 5337
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 48503,
+                           "mkg_prod_id": 1265,
+                           "attr_typ_rank": 1,
+                           "attr_rank": 2,
+                           "mkg_brnd_attr_typ_id": 318,
+                           "mkg_brnd_attr_id": 2484,
+                           "mkg_attr_val_id": 938
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 75663,
+                           "mkg_prod_id": 1265,
+                           "attr_typ_rank": 1,
+                           "attr_rank": 3,
+                           "mkg_brnd_attr_typ_id": 318,
+                           "mkg_brnd_attr_id": 3706,
+                           "mkg_attr_val_id": 2428
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 48520,
+                           "mkg_prod_id": 1265,
+                           "attr_typ_rank": 5,
+                           "attr_rank": 3,
+                           "mkg_brnd_attr_typ_id": 317,
+                           "mkg_brnd_attr_id": 3192,
+                           "mkg_attr_val_id": 1151
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 48522,
+                           "mkg_prod_id": 1265,
+                           "attr_typ_rank": 12,
+                           "attr_rank": 2,
+                           "mkg_brnd_attr_typ_id": 354,
+                           "mkg_brnd_attr_id": 3198,
+                           "mkg_attr_val_id": 1153
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 48521,
+                           "mkg_prod_id": 1265,
+                           "attr_typ_rank": 12,
+                           "attr_rank": 4,
+                           "mkg_brnd_attr_typ_id": 354,
+                           "mkg_brnd_attr_id": 3193,
+                           "mkg_attr_val_id": 7765
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 48519,
+                           "mkg_prod_id": 1265,
+                           "attr_typ_rank": 12,
+                           "attr_rank": 5,
+                           "mkg_brnd_attr_typ_id": 354,
+                           "mkg_brnd_attr_id": 3197,
+                           "mkg_attr_val_id": 1150
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 48524,
+                           "mkg_prod_id": 1265,
+                           "attr_typ_rank": 12,
+                           "attr_rank": 6,
+                           "mkg_brnd_attr_typ_id": 354,
+                           "mkg_brnd_attr_id": 3200,
+                           "mkg_attr_val_id": 4267
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 48516,
+                           "mkg_prod_id": 1265,
+                           "attr_typ_rank": 12,
+                           "attr_rank": 7,
+                           "mkg_brnd_attr_typ_id": 354,
+                           "mkg_brnd_attr_id": 3194,
+                           "mkg_attr_val_id": 1146
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 48526,
+                           "mkg_prod_id": 1265,
+                           "attr_typ_rank": 12,
+                           "attr_rank": 8,
+                           "mkg_brnd_attr_typ_id": 354,
+                           "mkg_brnd_attr_id": 3202,
+                           "mkg_attr_val_id": 1157
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 48511,
+                           "mkg_prod_id": 1265,
+                           "attr_typ_rank": 13,
+                           "attr_rank": 1,
+                           "mkg_brnd_attr_typ_id": 505,
+                           "mkg_brnd_attr_id": 1405,
+                           "mkg_attr_val_id": 1143
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 48512,
+                           "mkg_prod_id": 1265,
+                           "attr_typ_rank": 13,
+                           "attr_rank": 2,
+                           "mkg_brnd_attr_typ_id": 505,
+                           "mkg_brnd_attr_id": 1406,
+                           "mkg_attr_val_id": 214
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 48509,
+                           "mkg_prod_id": 1265,
+                           "attr_typ_rank": 13,
+                           "attr_rank": 3,
+                           "mkg_brnd_attr_typ_id": 505,
+                           "mkg_brnd_attr_id": 1404,
+                           "mkg_attr_val_id": 1142
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 48514,
+                           "mkg_prod_id": 1265,
+                           "attr_typ_rank": 14,
+                           "attr_rank": 1,
+                           "mkg_brnd_attr_typ_id": 334,
+                           "mkg_brnd_attr_id": 1391,
+                           "mkg_attr_val_id": 27
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 75664,
+                           "mkg_prod_id": 1265,
+                           "attr_typ_rank": 14,
+                           "attr_rank": 2,
+                           "mkg_brnd_attr_typ_id": 334,
+                           "mkg_brnd_attr_id": 1393,
+                           "mkg_attr_val_id": 22
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 48513,
+                           "mkg_prod_id": 1265,
+                           "attr_typ_rank": 14,
+                           "attr_rank": 7,
+                           "mkg_brnd_attr_typ_id": 334,
+                           "mkg_brnd_attr_id": 1392,
+                           "mkg_attr_val_id": 61
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 48527,
+                           "mkg_prod_id": 1265,
+                           "attr_typ_rank": 15,
+                           "attr_rank": 1,
+                           "mkg_brnd_attr_typ_id": 340,
+                           "mkg_brnd_attr_id": 3144,
+                           "mkg_attr_val_id": 48
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 48506,
+                           "mkg_prod_id": 1265,
+                           "attr_typ_rank": 17,
+                           "attr_rank": 1,
+                           "mkg_brnd_attr_typ_id": 321,
+                           "mkg_brnd_attr_id": 1396,
+                           "mkg_attr_val_id": 4263
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 48507,
+                           "mkg_prod_id": 1265,
+                           "attr_typ_rank": 17,
+                           "attr_rank": 2,
+                           "mkg_brnd_attr_typ_id": 321,
+                           "mkg_brnd_attr_id": 1397,
+                           "mkg_attr_val_id": 1160
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 48505,
+                           "mkg_prod_id": 1265,
+                           "attr_typ_rank": 17,
+                           "attr_rank": 3,
+                           "mkg_brnd_attr_typ_id": 321,
+                           "mkg_brnd_attr_id": 1395,
+                           "mkg_attr_val_id": 4262
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 94910,
+                           "mkg_prod_id": 1906,
+                           "attr_typ_rank": 1,
+                           "attr_rank": 1,
+                           "mkg_brnd_attr_typ_id": 320,
+                           "mkg_brnd_attr_id": 1399,
+                           "mkg_attr_val_id": 8181
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 94913,
+                           "mkg_prod_id": 1906,
+                           "attr_typ_rank": 1,
+                           "attr_rank": 2,
+                           "mkg_brnd_attr_typ_id": 320,
+                           "mkg_brnd_attr_id": 1402,
+                           "mkg_attr_val_id": 8182
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 94912,
+                           "mkg_prod_id": 1906,
+                           "attr_typ_rank": 1,
+                           "attr_rank": 3,
+                           "mkg_brnd_attr_typ_id": 320,
+                           "mkg_brnd_attr_id": 1401,
+                           "mkg_attr_val_id": 7536
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 94929,
+                           "mkg_prod_id": 1906,
+                           "attr_typ_rank": 1,
+                           "attr_rank": 4,
+                           "mkg_brnd_attr_typ_id": 320,
+                           "mkg_brnd_attr_id": 1419,
+                           "mkg_attr_val_id": 7596
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 94920,
+                           "mkg_prod_id": 1906,
+                           "attr_typ_rank": 2,
+                           "attr_rank": 1,
+                           "mkg_brnd_attr_typ_id": 319,
+                           "mkg_brnd_attr_id": 1414,
+                           "mkg_attr_val_id": 2125
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 94909,
+                           "mkg_prod_id": 1906,
+                           "attr_typ_rank": 3,
+                           "attr_rank": 1,
+                           "mkg_brnd_attr_typ_id": 321,
+                           "mkg_brnd_attr_id": 1397,
+                           "mkg_attr_val_id": 180
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 94907,
+                           "mkg_prod_id": 1906,
+                           "attr_typ_rank": 3,
+                           "attr_rank": 2,
+                           "mkg_brnd_attr_typ_id": 321,
+                           "mkg_brnd_attr_id": 1395,
+                           "mkg_attr_val_id": 201
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 94908,
+                           "mkg_prod_id": 1906,
+                           "attr_typ_rank": 3,
+                           "attr_rank": 3,
+                           "mkg_brnd_attr_typ_id": 321,
+                           "mkg_brnd_attr_id": 1396,
+                           "mkg_attr_val_id": 202
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 75886,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 1,
+                           "attr_rank": 1,
+                           "mkg_brnd_attr_typ_id": 318,
+                           "mkg_brnd_attr_id": 2483,
+                           "mkg_attr_val_id": 815
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 75884,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 1,
+                           "attr_rank": 2,
+                           "mkg_brnd_attr_typ_id": 318,
+                           "mkg_brnd_attr_id": 2484,
+                           "mkg_attr_val_id": 5330
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 75885,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 1,
+                           "attr_rank": 3,
+                           "mkg_brnd_attr_typ_id": 318,
+                           "mkg_brnd_attr_id": 3706,
+                           "mkg_attr_val_id": 2428
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 75887,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 2,
+                           "attr_rank": 1,
+                           "mkg_brnd_attr_typ_id": 335,
+                           "mkg_brnd_attr_id": 4248,
+                           "mkg_attr_val_id": 7631
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 75888,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 2,
+                           "attr_rank": 5,
+                           "mkg_brnd_attr_typ_id": 335,
+                           "mkg_brnd_attr_id": 2476,
+                           "mkg_attr_val_id": 384
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 75889,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 2,
+                           "attr_rank": 6,
+                           "mkg_brnd_attr_typ_id": 335,
+                           "mkg_brnd_attr_id": 2489,
+                           "mkg_attr_val_id": 420
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 90221,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 3,
+                           "attr_rank": 1,
+                           "mkg_brnd_attr_typ_id": 347,
+                           "mkg_brnd_attr_id": 2086,
+                           "mkg_attr_val_id": 449
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 90222,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 3,
+                           "attr_rank": 2,
+                           "mkg_brnd_attr_typ_id": 347,
+                           "mkg_brnd_attr_id": 2087,
+                           "mkg_attr_val_id": 7709
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 90223,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 3,
+                           "attr_rank": 3,
+                           "mkg_brnd_attr_typ_id": 347,
+                           "mkg_brnd_attr_id": 2088,
+                           "mkg_attr_val_id": 2812
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 90225,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 3,
+                           "attr_rank": 6,
+                           "mkg_brnd_attr_typ_id": 347,
+                           "mkg_brnd_attr_id": 2090,
+                           "mkg_attr_val_id": 452
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 90224,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 3,
+                           "attr_rank": 7,
+                           "mkg_brnd_attr_typ_id": 347,
+                           "mkg_brnd_attr_id": 4760,
+                           "mkg_attr_val_id": 8085
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 90226,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 3,
+                           "attr_rank": 9,
+                           "mkg_brnd_attr_typ_id": 347,
+                           "mkg_brnd_attr_id": 2093,
+                           "mkg_attr_val_id": 456
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 90227,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 3,
+                           "attr_rank": 10,
+                           "mkg_brnd_attr_typ_id": 347,
+                           "mkg_brnd_attr_id": 2094,
+                           "mkg_attr_val_id": 2813
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 90228,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 3,
+                           "attr_rank": 13,
+                           "mkg_brnd_attr_typ_id": 347,
+                           "mkg_brnd_attr_id": 2097,
+                           "mkg_attr_val_id": 458
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 90229,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 3,
+                           "attr_rank": 16,
+                           "mkg_brnd_attr_typ_id": 347,
+                           "mkg_brnd_attr_id": 2098,
+                           "mkg_attr_val_id": 2816
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 90231,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 3,
+                           "attr_rank": 19,
+                           "mkg_brnd_attr_typ_id": 347,
+                           "mkg_brnd_attr_id": 2101,
+                           "mkg_attr_val_id": 5966
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 90238,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 3,
+                           "attr_rank": 21,
+                           "mkg_brnd_attr_typ_id": 347,
+                           "mkg_brnd_attr_id": 2468,
+                           "mkg_attr_val_id": 468
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 90232,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 3,
+                           "attr_rank": 26,
+                           "mkg_brnd_attr_typ_id": 347,
+                           "mkg_brnd_attr_id": 2104,
+                           "mkg_attr_val_id": 472
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 90233,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 3,
+                           "attr_rank": 32,
+                           "mkg_brnd_attr_typ_id": 347,
+                           "mkg_brnd_attr_id": 2106,
+                           "mkg_attr_val_id": 2818
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 90235,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 3,
+                           "attr_rank": 33,
+                           "mkg_brnd_attr_typ_id": 347,
+                           "mkg_brnd_attr_id": 2470,
+                           "mkg_attr_val_id": 7905
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 90234,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 3,
+                           "attr_rank": 35,
+                           "mkg_brnd_attr_typ_id": 347,
+                           "mkg_brnd_attr_id": 2108,
+                           "mkg_attr_val_id": 478
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 90236,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 3,
+                           "attr_rank": 48,
+                           "mkg_brnd_attr_typ_id": 347,
+                           "mkg_brnd_attr_id": 4656,
+                           "mkg_attr_val_id": 7706
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 90241,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 3,
+                           "attr_rank": 54,
+                           "mkg_brnd_attr_typ_id": 347,
+                           "mkg_brnd_attr_id": 4495,
+                           "mkg_attr_val_id": 1563
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 90240,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 3,
+                           "attr_rank": 55,
+                           "mkg_brnd_attr_typ_id": 347,
+                           "mkg_brnd_attr_id": 4774,
+                           "mkg_attr_val_id": 7872
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 90230,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 3,
+                           "attr_rank": 56,
+                           "mkg_brnd_attr_typ_id": 347,
+                           "mkg_brnd_attr_id": 2100,
+                           "mkg_attr_val_id": 2817
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 90237,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 3,
+                           "attr_rank": 57,
+                           "mkg_brnd_attr_typ_id": 347,
+                           "mkg_brnd_attr_id": 4753,
+                           "mkg_attr_val_id": 7864
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 24000,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 5,
+                           "attr_rank": 4,
+                           "mkg_brnd_attr_typ_id": 317,
+                           "mkg_brnd_attr_id": 2120,
+                           "mkg_attr_val_id": 494
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 23995,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 5,
+                           "attr_rank": 5,
+                           "mkg_brnd_attr_typ_id": 317,
+                           "mkg_brnd_attr_id": 2115,
+                           "mkg_attr_val_id": 2822
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 67245,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 6,
+                           "attr_rank": 1,
+                           "mkg_brnd_attr_typ_id": 343,
+                           "mkg_brnd_attr_id": 4025,
+                           "mkg_attr_val_id": 6179
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 24054,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 6,
+                           "attr_rank": 2,
+                           "mkg_brnd_attr_typ_id": 343,
+                           "mkg_brnd_attr_id": 2165,
+                           "mkg_attr_val_id": 1104
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 24057,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 6,
+                           "attr_rank": 3,
+                           "mkg_brnd_attr_typ_id": 343,
+                           "mkg_brnd_attr_id": 2168,
+                           "mkg_attr_val_id": 5974
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 24055,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 6,
+                           "attr_rank": 4,
+                           "mkg_brnd_attr_typ_id": 343,
+                           "mkg_brnd_attr_id": 2166,
+                           "mkg_attr_val_id": 537
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 24058,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 6,
+                           "attr_rank": 5,
+                           "mkg_brnd_attr_typ_id": 343,
+                           "mkg_brnd_attr_id": 2169,
+                           "mkg_attr_val_id": 7834
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 75881,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 6,
+                           "attr_rank": 6,
+                           "mkg_brnd_attr_typ_id": 343,
+                           "mkg_brnd_attr_id": 4269,
+                           "mkg_attr_val_id": 7803
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 24046,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 6,
+                           "attr_rank": 7,
+                           "mkg_brnd_attr_typ_id": 343,
+                           "mkg_brnd_attr_id": 2161,
+                           "mkg_attr_val_id": 7795
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 75883,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 6,
+                           "attr_rank": 8,
+                           "mkg_brnd_attr_typ_id": 343,
+                           "mkg_brnd_attr_id": 2482,
+                           "mkg_attr_val_id": 7789
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 24056,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 6,
+                           "attr_rank": 9,
+                           "mkg_brnd_attr_typ_id": 343,
+                           "mkg_brnd_attr_id": 2167,
+                           "mkg_attr_val_id": 7788
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 75880,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 6,
+                           "attr_rank": 10,
+                           "mkg_brnd_attr_typ_id": 343,
+                           "mkg_brnd_attr_id": 4319,
+                           "mkg_attr_val_id": 7800
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 24002,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 6,
+                           "attr_rank": 11,
+                           "mkg_brnd_attr_typ_id": 343,
+                           "mkg_brnd_attr_id": 2122,
+                           "mkg_attr_val_id": 496
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 24003,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 6,
+                           "attr_rank": 12,
+                           "mkg_brnd_attr_typ_id": 343,
+                           "mkg_brnd_attr_id": 2123,
+                           "mkg_attr_val_id": 497
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 24001,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 6,
+                           "attr_rank": 13,
+                           "mkg_brnd_attr_typ_id": 343,
+                           "mkg_brnd_attr_id": 2121,
+                           "mkg_attr_val_id": 2823
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 75882,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 6,
+                           "attr_rank": 14,
+                           "mkg_brnd_attr_typ_id": 343,
+                           "mkg_brnd_attr_id": 4280,
+                           "mkg_attr_val_id": 7799
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 24059,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 6,
+                           "attr_rank": 15,
+                           "mkg_brnd_attr_typ_id": 343,
+                           "mkg_brnd_attr_id": 2170,
+                           "mkg_attr_val_id": 3100
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 24061,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 6,
+                           "attr_rank": 16,
+                           "mkg_brnd_attr_typ_id": 343,
+                           "mkg_brnd_attr_id": 2171,
+                           "mkg_attr_val_id": 5979
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 75891,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 8,
+                           "attr_rank": 1,
+                           "mkg_brnd_attr_typ_id": 342,
+                           "mkg_brnd_attr_id": 2147,
+                           "mkg_attr_val_id": 519
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 75894,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 8,
+                           "attr_rank": 3,
+                           "mkg_brnd_attr_typ_id": 342,
+                           "mkg_brnd_attr_id": 2149,
+                           "mkg_attr_val_id": 2837
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 75895,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 8,
+                           "attr_rank": 4,
+                           "mkg_brnd_attr_typ_id": 342,
+                           "mkg_brnd_attr_id": 2117,
+                           "mkg_attr_val_id": 1470
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 23998,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 8,
+                           "attr_rank": 5,
+                           "mkg_brnd_attr_typ_id": 342,
+                           "mkg_brnd_attr_id": 2118,
+                           "mkg_attr_val_id": 1487
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 75892,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 8,
+                           "attr_rank": 6,
+                           "mkg_brnd_attr_typ_id": 342,
+                           "mkg_brnd_attr_id": 2116,
+                           "mkg_attr_val_id": 1482
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 75893,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 8,
+                           "attr_rank": 7,
+                           "mkg_brnd_attr_typ_id": 342,
+                           "mkg_brnd_attr_id": 2119,
+                           "mkg_attr_val_id": 493
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 90244,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 9,
+                           "attr_rank": 3,
+                           "mkg_brnd_attr_typ_id": 540,
+                           "mkg_brnd_attr_id": 4523,
+                           "mkg_attr_val_id": 7640
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 90243,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 9,
+                           "attr_rank": 4,
+                           "mkg_brnd_attr_typ_id": 540,
+                           "mkg_brnd_attr_id": 4530,
+                           "mkg_attr_val_id": 7642
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 90242,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 9,
+                           "attr_rank": 5,
+                           "mkg_brnd_attr_typ_id": 540,
+                           "mkg_brnd_attr_id": 4537,
+                           "mkg_attr_val_id": 7646
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 90259,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 9,
+                           "attr_rank": 15,
+                           "mkg_brnd_attr_typ_id": 540,
+                           "mkg_brnd_attr_id": 4865,
+                           "mkg_attr_val_id": 7912
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 90248,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 9,
+                           "attr_rank": 17,
+                           "mkg_brnd_attr_typ_id": 540,
+                           "mkg_brnd_attr_id": 4621,
+                           "mkg_attr_val_id": 7681
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 90253,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 9,
+                           "attr_rank": 18,
+                           "mkg_brnd_attr_typ_id": 540,
+                           "mkg_brnd_attr_id": 4628,
+                           "mkg_attr_val_id": 7685
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 75872,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 10,
+                           "attr_rank": 1,
+                           "mkg_brnd_attr_typ_id": 316,
+                           "mkg_brnd_attr_id": 2126,
+                           "mkg_attr_val_id": 7861
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 75873,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 10,
+                           "attr_rank": 2,
+                           "mkg_brnd_attr_typ_id": 316,
+                           "mkg_brnd_attr_id": 2127,
+                           "mkg_attr_val_id": 2828
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 75871,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 10,
+                           "attr_rank": 3,
+                           "mkg_brnd_attr_typ_id": 316,
+                           "mkg_brnd_attr_id": 2129,
+                           "mkg_attr_val_id": 7614
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 75870,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 10,
+                           "attr_rank": 4,
+                           "mkg_brnd_attr_typ_id": 316,
+                           "mkg_brnd_attr_id": 4460,
+                           "mkg_attr_val_id": 7604
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 75874,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 10,
+                           "attr_rank": 5,
+                           "mkg_brnd_attr_typ_id": 316,
+                           "mkg_brnd_attr_id": 2132,
+                           "mkg_attr_val_id": 7862
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 75878,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 11,
+                           "attr_rank": 1,
+                           "mkg_brnd_attr_typ_id": 351,
+                           "mkg_brnd_attr_id": 2152,
+                           "mkg_attr_val_id": 7860
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 23993,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 13,
+                           "attr_rank": 1,
+                           "mkg_brnd_attr_typ_id": 505,
+                           "mkg_brnd_attr_id": 1405,
+                           "mkg_attr_val_id": 2821
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 23994,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 13,
+                           "attr_rank": 2,
+                           "mkg_brnd_attr_typ_id": 505,
+                           "mkg_brnd_attr_id": 1406,
+                           "mkg_attr_val_id": 214
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 23991,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 13,
+                           "attr_rank": 3,
+                           "mkg_brnd_attr_typ_id": 505,
+                           "mkg_brnd_attr_id": 1404,
+                           "mkg_attr_val_id": 1420
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 23992,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 13,
+                           "attr_rank": 5,
+                           "mkg_brnd_attr_typ_id": 505,
+                           "mkg_brnd_attr_id": 1588,
+                           "mkg_attr_val_id": 667
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 24064,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 14,
+                           "attr_rank": 1,
+                           "mkg_brnd_attr_typ_id": 334,
+                           "mkg_brnd_attr_id": 1391,
+                           "mkg_attr_val_id": 441
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 75879,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 14,
+                           "attr_rank": 2,
+                           "mkg_brnd_attr_typ_id": 334,
+                           "mkg_brnd_attr_id": 1393,
+                           "mkg_attr_val_id": 218
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 24063,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 14,
+                           "attr_rank": 4,
+                           "mkg_brnd_attr_typ_id": 334,
+                           "mkg_brnd_attr_id": 3874,
+                           "mkg_attr_val_id": 7959
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 24062,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 14,
+                           "attr_rank": 6,
+                           "mkg_brnd_attr_typ_id": 334,
+                           "mkg_brnd_attr_id": 3882,
+                           "mkg_attr_val_id": 7960
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 24065,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 14,
+                           "attr_rank": 7,
+                           "mkg_brnd_attr_typ_id": 334,
+                           "mkg_brnd_attr_id": 1392,
+                           "mkg_attr_val_id": 1606
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 24004,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 16,
+                           "attr_rank": 1,
+                           "mkg_brnd_attr_typ_id": 338,
+                           "mkg_brnd_attr_id": 1416,
+                           "mkg_attr_val_id": 721
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 24005,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 16,
+                           "attr_rank": 2,
+                           "mkg_brnd_attr_typ_id": 338,
+                           "mkg_brnd_attr_id": 1407,
+                           "mkg_attr_val_id": 2824
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 75876,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 17,
+                           "attr_rank": 1,
+                           "mkg_brnd_attr_typ_id": 321,
+                           "mkg_brnd_attr_id": 1396,
+                           "mkg_attr_val_id": 7958
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 75875,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 17,
+                           "attr_rank": 2,
+                           "mkg_brnd_attr_typ_id": 321,
+                           "mkg_brnd_attr_id": 1397,
+                           "mkg_attr_val_id": 1084
+                           },
+                           {
+                           "mkg_prod_attr_val_id": 75877,
+                           "mkg_prod_id": 608,
+                           "attr_typ_rank": 17,
+                           "attr_rank": 3,
+                           "mkg_brnd_attr_typ_id": 321,
+                           "mkg_brnd_attr_id": 1395,
+                           "mkg_attr_val_id": 4077
+                           }
+                           ],
+    "MKG_BRND_ATTR": [
+                      {
+                      "mkg_brnd_attr_id": 2126,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 77,
+                      "dspl_nm": "Auto Cook Options",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 2127,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 78,
+                      "dspl_nm": "Auto Defrost Options",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 2129,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 86,
+                      "dspl_nm": "Auto Melt / Soften Options",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 4460,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 89,
+                      "dspl_nm": "Auto Reheat",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 2132,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 96,
+                      "dspl_nm": "Snack Menu Options",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 2484,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 103,
+                      "dspl_nm": "ADA Compliant",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 3706,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 105,
+                      "dspl_nm": "Agency Approval",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 2483,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 111,
+                      "dspl_nm": "Sabbath Mode (Star-K?Certified)",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 2115,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 123,
+                      "dspl_nm": "Microwave Capacity (Cu. Ft.)",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 2120,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 124,
+                      "dspl_nm": "Oven Capacity (Cu. Ft.)",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 2624,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 126,
+                      "dspl_nm": "Oven 1 Capacity",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 3052,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 129,
+                      "dspl_nm": "Oven 2 Capacity",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 1414,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 165,
+                      "dspl_nm": "Control Location",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 1395,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 199,
+                      "dspl_nm": "Cut-Out Depth",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 1396,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 202,
+                      "dspl_nm": "Cut-Out Height",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 1397,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 205,
+                      "dspl_nm": "Cut-Out Width",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 1419,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 228,
+                      "dspl_nm": "Center",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 1399,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 240,
+                      "dspl_nm": "Left Front",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 1401,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 245,
+                      "dspl_nm": "Right Front",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 1402,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 246,
+                      "dspl_nm": "Right Rear",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 1407,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 690,
+                      "dspl_nm": "Shipping Weight (lbs)",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 1416,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 692,
+                      "dspl_nm": "Product Weight (lbs)",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 2152,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 959,
+                      "dspl_nm": "Sensor Cooking Options",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 3198,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 1080,
+                      "dspl_nm": "Auto Shut Off",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 3194,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 1082,
+                      "dspl_nm": "Bread Proofing",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 3192,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 1083,
+                      "dspl_nm": "Drawer Capacity (Cu. Ft.)",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 3193,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 1086,
+                      "dspl_nm": "Handle Design",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 3197,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 1089,
+                      "dspl_nm": "Humidity Control",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 3200,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 1091,
+                      "dspl_nm": "Drawer Rack Configuration",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 3202,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 1094,
+                      "dspl_nm": "Temperature Range",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 3874,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 1166,
+                      "dspl_nm": "Connected Load (kW Rating) @ 240V",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 3882,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 1167,
+                      "dspl_nm": "Amps @ 240 Volts",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 4025,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 1182,
+                      "dspl_nm": "Oven 1 Type",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 4248,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 1211,
+                      "dspl_nm": "Control Panel Finish",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 4269,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 1214,
+                      "dspl_nm": "Oven 1 Convection",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 4319,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 1220,
+                      "dspl_nm": "Oven 1 Rack Positions",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 4523,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 1231,
+                      "dspl_nm": "Sensor Cook Option(s)",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 4530,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 1232,
+                      "dspl_nm": "Auto Cook Option(s)",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 4537,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 1233,
+                      "dspl_nm": "Defrost Options",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 4621,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 1245,
+                      "dspl_nm": "Popcorn",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 4628,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 1246,
+                      "dspl_nm": "Power Level Button",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 4656,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 1250,
+                      "dspl_nm": "Bake Time",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 4753,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 1257,
+                      "dspl_nm": "Set Clock",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 4760,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 1258,
+                      "dspl_nm": "Convect",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 4774,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 1260,
+                      "dspl_nm": "Cancel Button",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 4865,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 1273,
+                      "dspl_nm": "Snack Option(s)",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 1404,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 437,
+                      "dspl_nm": "Depth",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 3144,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 716,
+                      "dspl_nm": "Under Counter Approved",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 2116,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 724,
+                      "dspl_nm": "Microwave Interior Depth",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 2117,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 725,
+                      "dspl_nm": "Microwave Interior Height",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 2118,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 727,
+                      "dspl_nm": "Microwave Interior Width",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 4280,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 728,
+                      "dspl_nm": "Oven 1 Interior Color",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 2121,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 729,
+                      "dspl_nm": "Oven 1 Interior Depth",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 2122,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 730,
+                      "dspl_nm": "Oven 1 Interior Height",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 2123,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 731,
+                      "dspl_nm": "Oven 1 Interior Width",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 2147,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 764,
+                      "dspl_nm": "Frequency (Mhz)",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 2149,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 766,
+                      "dspl_nm": "Interior Light",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 2119,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 770,
+                      "dspl_nm": "Microwave Turntable Diameter",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 2086,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 800,
+                      "dspl_nm": "Bake",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 2087,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 802,
+                      "dspl_nm": "Broil",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 2088,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 803,
+                      "dspl_nm": "Chicken Nugget Button",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 2108,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 856,
+                      "dspl_nm": "Timer On-Off",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 3045,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 864,
+                      "dspl_nm": "Oven 2 Baking System",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 3046,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 865,
+                      "dspl_nm": "Oven 2 Broil",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 3047,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 866,
+                      "dspl_nm": "Oven 2 Broiling System",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 3043,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 867,
+                      "dspl_nm": "Oven 2 Cleaning System",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 3053,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 871,
+                      "dspl_nm": "Oven 2 Interior Lighting",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 3054,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 872,
+                      "dspl_nm": "Oven 2 Rack Configuration",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 3055,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 876,
+                      "dspl_nm": "Oven 2 Window (Size)",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 2165,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 877,
+                      "dspl_nm": "Oven 1 Bake",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 2168,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 880,
+                      "dspl_nm": "Oven 1 Baking System",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 2166,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 881,
+                      "dspl_nm": "Oven 1 Broil ",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 2169,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 885,
+                      "dspl_nm": "Oven 1 Broiling System",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 2170,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 887,
+                      "dspl_nm": "Oven 1 Cleaning System",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 2161,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 890,
+                      "dspl_nm": "Oven 1 Convection System",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 2482,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 894,
+                      "dspl_nm": "Oven 1 Interior Lighting",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 2167,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 896,
+                      "dspl_nm": "Oven 1 Rack Configuration",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 2171,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 901,
+                      "dspl_nm": "Oven Window",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 1588,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 443,
+                      "dspl_nm": "Depth (with Door 90?Open)",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 1405,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 451,
+                      "dspl_nm": "Height",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 1392,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 465,
+                      "dspl_nm": "Minimum Circuit Required (Amps)",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 1391,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 469,
+                      "dspl_nm": "Power Supply Connection Location",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 1393,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 481,
+                      "dspl_nm": "Voltage Rating",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 2476,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 496,
+                      "dspl_nm": "Door Finish",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 2489,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 499,
+                      "dspl_nm": "Handle Color",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 2097,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 815,
+                      "dspl_nm": "Quick Preheat",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 2098,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 818,
+                      "dspl_nm": "Self-Clean",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 2100,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 827,
+                      "dspl_nm": "Interface",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 4495,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 828,
+                      "dspl_nm": "Up/Down Keypad",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 2101,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 829,
+                      "dspl_nm": "Oven Light",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 2468,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 831,
+                      "dspl_nm": "Oven Lockout",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 2104,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 838,
+                      "dspl_nm": "My Favorite",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 2106,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 851,
+                      "dspl_nm": "Add-a-Minute",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 2470,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 853,
+                      "dspl_nm": "Delay Start",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 1406,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 460,
+                      "dspl_nm": "Width",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 2090,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 806,
+                      "dspl_nm": "Convection Conversion",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 2093,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 809,
+                      "dspl_nm": "Keep Warm",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      },
+                      {
+                      "mkg_brnd_attr_id": 2094,
+                      "mkg_brnd_id": 8,
+                      "mkg_attr_id": 812,
+                      "dspl_nm": "Pizza Button",
+                      "dspl_desc": "",
+                      "dspl_ukwn": ""
+                      }
+                      ],
+    "MKG_BRND_ATTR_TYP": [
+                          {
+                          "mkg_brnd_attr_typ_id": 316,
+                          "mkg_brnd_id": 6,
+                          "mkg_attr_typ_id": 3,
+                          "dspl_nm": "Auto Features"
+                          },
+                          {
+                          "mkg_brnd_attr_typ_id": 317,
+                          "mkg_brnd_id": 6,
+                          "mkg_attr_typ_id": 4,
+                          "dspl_nm": "Capacities"
+                          },
+                          {
+                          "mkg_brnd_attr_typ_id": 318,
+                          "mkg_brnd_id": 6,
+                          "mkg_attr_typ_id": 6,
+                          "dspl_nm": "Certifications & Approvals"
+                          },
+                          {
+                          "mkg_brnd_attr_typ_id": 319,
+                          "mkg_brnd_id": 6,
+                          "mkg_attr_typ_id": 8,
+                          "dspl_nm": "Controls"
+                          },
+                          {
+                          "mkg_brnd_attr_typ_id": 320,
+                          "mkg_brnd_id": 6,
+                          "mkg_attr_typ_id": 10,
+                          "dspl_nm": "Cooktop"
+                          },
+                          {
+                          "mkg_brnd_attr_typ_id": 321,
+                          "mkg_brnd_id": 6,
+                          "mkg_attr_typ_id": 11,
+                          "dspl_nm": "Cut-Out Dimensions"
+                          },
+                          {
+                          "mkg_brnd_attr_typ_id": 334,
+                          "mkg_brnd_id": 6,
+                          "mkg_attr_typ_id": 24,
+                          "dspl_nm": "Electrical Specifications"
+                          },
+                          {
+                          "mkg_brnd_attr_typ_id": 335,
+                          "mkg_brnd_id": 6,
+                          "mkg_attr_typ_id": 25,
+                          "dspl_nm": "Exterior"
+                          },
+                          {
+                          "mkg_brnd_attr_typ_id": 505,
+                          "mkg_brnd_id": 6,
+                          "mkg_attr_typ_id": 26,
+                          "dspl_nm": "Exterior Dimensions"
+                          },
+                          {
+                          "mkg_brnd_attr_typ_id": 338,
+                          "mkg_brnd_id": 6,
+                          "mkg_attr_typ_id": 28,
+                          "dspl_nm": "General Specifications"
+                          },
+                          {
+                          "mkg_brnd_attr_typ_id": 340,
+                          "mkg_brnd_id": 6,
+                          "mkg_attr_typ_id": 30,
+                          "dspl_nm": "Installation Type"
+                          },
+                          {
+                          "mkg_brnd_attr_typ_id": 341,
+                          "mkg_brnd_id": 6,
+                          "mkg_attr_typ_id": 31,
+                          "dspl_nm": "Internal Specifications"
+                          },
+                          {
+                          "mkg_brnd_attr_typ_id": 342,
+                          "mkg_brnd_id": 6,
+                          "mkg_attr_typ_id": 32,
+                          "dspl_nm": "Microwave Oven Specifications"
+                          },
+                          {
+                          "mkg_brnd_attr_typ_id": 343,
+                          "mkg_brnd_id": 6,
+                          "mkg_attr_typ_id": 33,
+                          "dspl_nm": "Oven Specifications"
+                          },
+                          {
+                          "mkg_brnd_attr_typ_id": 345,
+                          "mkg_brnd_id": 6,
+                          "mkg_attr_typ_id": 35,
+                          "dspl_nm": "Oven 2 Specifications"
+                          },
+                          {
+                          "mkg_brnd_attr_typ_id": 347,
+                          "mkg_brnd_id": 6,
+                          "mkg_attr_typ_id": 37,
+                          "dspl_nm": "Cooking Controls"
+                          },
+                          {
+                          "mkg_brnd_attr_typ_id": 351,
+                          "mkg_brnd_id": 6,
+                          "mkg_attr_typ_id": 41,
+                          "dspl_nm": "Sensor Feature Specifications"
+                          },
+                          {
+                          "mkg_brnd_attr_typ_id": 354,
+                          "mkg_brnd_id": 6,
+                          "mkg_attr_typ_id": 44,
+                          "dspl_nm": "Warmer Drawer"
+                          },
+                          {
+                          "mkg_brnd_attr_typ_id": 540,
+                          "mkg_brnd_id": 6,
+                          "mkg_attr_typ_id": 59,
+                          "dspl_nm": "Microwave Oven Controls"
+                          }
+                          ],
+    "MKG_ATTR_VAL": [
+                     {
+                     "mkg_attr_val_id": 22,
+                     "mkg_attr_id": 481,
+                     "attr_val": "120V, 60Hz",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 23,
+                     "mkg_attr_id": 465,
+                     "attr_val": "20A",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 27,
+                     "mkg_attr_id": 469,
+                     "attr_val": "Right Rear Bottom",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 48,
+                     "mkg_attr_id": 716,
+                     "attr_val": "Yes",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 61,
+                     "mkg_attr_id": 465,
+                     "attr_val": "15A",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 180,
+                     "mkg_attr_id": 205,
+                     "attr_val": "35-7/8\" - 36\"",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 201,
+                     "mkg_attr_id": 199,
+                     "attr_val": "20-3/8\" - 20-1/2\"",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 202,
+                     "mkg_attr_id": 202,
+                     "attr_val": "4-1/2\"",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 214,
+                     "mkg_attr_id": 460,
+                     "attr_val": "30\"",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 218,
+                     "mkg_attr_id": 481,
+                     "attr_val": "240V / 208V, 60Hz",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 384,
+                     "mkg_attr_id": 496,
+                     "attr_val": "Stainless Steel",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 420,
+                     "mkg_attr_id": 499,
+                     "attr_val": "Stainless Steel",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 441,
+                     "mkg_attr_id": 469,
+                     "attr_val": "Left Rear Bottom",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 449,
+                     "mkg_attr_id": 800,
+                     "attr_val": "Yes",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 452,
+                     "mkg_attr_id": 806,
+                     "attr_val": "Yes",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 456,
+                     "mkg_attr_id": 809,
+                     "attr_val": "Yes",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 458,
+                     "mkg_attr_id": 815,
+                     "attr_val": "Yes",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 467,
+                     "mkg_attr_id": 829,
+                     "attr_val": "Oven Light",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 468,
+                     "mkg_attr_id": 831,
+                     "attr_val": "Yes",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 472,
+                     "mkg_attr_id": 838,
+                     "attr_val": "Yes",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 478,
+                     "mkg_attr_id": 856,
+                     "attr_val": "Yes",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 493,
+                     "mkg_attr_id": 770,
+                     "attr_val": "16\"",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 494,
+                     "mkg_attr_id": 124,
+                     "attr_val": "4.2",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 496,
+                     "mkg_attr_id": 730,
+                     "attr_val": "16-1/2\"",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 497,
+                     "mkg_attr_id": 731,
+                     "attr_val": "24-1/8\"",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 519,
+                     "mkg_attr_id": 764,
+                     "attr_val": "2,450",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 537,
+                     "mkg_attr_id": 881,
+                     "attr_val": "8 pass 4,000 Watts",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 667,
+                     "mkg_attr_id": 443,
+                     "attr_val": "45-1/2\"",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 721,
+                     "mkg_attr_id": 692,
+                     "attr_val": "230",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 767,
+                     "mkg_attr_id": 443,
+                     "attr_val": "44-1/2\"",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 815,
+                     "mkg_attr_id": 111,
+                     "attr_val": "Yes",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 938,
+                     "mkg_attr_id": 103,
+                     "attr_val": "Yes",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 1084,
+                     "mkg_attr_id": 205,
+                     "attr_val": "28-1/2\" - 29\"",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 1104,
+                     "mkg_attr_id": 877,
+                     "attr_val": "2,200 Watts",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 1142,
+                     "mkg_attr_id": 437,
+                     "attr_val": "23-3/8\"",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 1143,
+                     "mkg_attr_id": 451,
+                     "attr_val": "11-1/4\"",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 1146,
+                     "mkg_attr_id": 1082,
+                     "attr_val": "Yes",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 1150,
+                     "mkg_attr_id": 1089,
+                     "attr_val": "Yes",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 1151,
+                     "mkg_attr_id": 1083,
+                     "attr_val": "1.6",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 1153,
+                     "mkg_attr_id": 1080,
+                     "attr_val": "4 hours",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 1157,
+                     "mkg_attr_id": 1094,
+                     "attr_val": "80?F - 210?F",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 1160,
+                     "mkg_attr_id": 205,
+                     "attr_val": "28-1/2\" - 28-3/4\"",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 1420,
+                     "mkg_attr_id": 437,
+                     "attr_val": "24-1/2\"",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 1470,
+                     "mkg_attr_id": 725,
+                     "attr_val": "10-1/2\"",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 1482,
+                     "mkg_attr_id": 724,
+                     "attr_val": "18-5/8\"",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 1487,
+                     "mkg_attr_id": 727,
+                     "attr_val": "17-3/8\"",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 1563,
+                     "mkg_attr_id": 828,
+                     "attr_val": "Yes",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 1606,
+                     "mkg_attr_id": 465,
+                     "attr_val": "30A",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 1876,
+                     "mkg_attr_id": 129,
+                     "attr_val": "3.5",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 1885,
+                     "mkg_attr_id": 451,
+                     "attr_val": "29\"",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 2125,
+                     "mkg_attr_id": 165,
+                     "attr_val": "Center front",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 2428,
+                     "mkg_attr_id": 105,
+                     "attr_val": "UL",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 2812,
+                     "mkg_attr_id": 803,
+                     "attr_val": "Yes",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 2813,
+                     "mkg_attr_id": 812,
+                     "attr_val": "Yes",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 2816,
+                     "mkg_attr_id": 818,
+                     "attr_val": "2, 3, 4 Hours",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 2817,
+                     "mkg_attr_id": 827,
+                     "attr_val": "Membrane",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 2818,
+                     "mkg_attr_id": 851,
+                     "attr_val": "Yes",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 2821,
+                     "mkg_attr_id": 451,
+                     "attr_val": "42-3/4\"",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 2822,
+                     "mkg_attr_id": 123,
+                     "attr_val": "2",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 2823,
+                     "mkg_attr_id": 729,
+                     "attr_val": "18-1/32\"",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 2824,
+                     "mkg_attr_id": 690,
+                     "attr_val": "250",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 2828,
+                     "mkg_attr_id": 78,
+                     "attr_val": "6 Options (Ground Meat, Steaks/Chops/Fish, Chicken Pieces, Roast, Casserole, Soup)",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 2837,
+                     "mkg_attr_id": 766,
+                     "attr_val": "Incandescent",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 3100,
+                     "mkg_attr_id": 887,
+                     "attr_val": "Self-Clean",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 3333,
+                     "mkg_attr_id": 690,
+                     "attr_val": "175",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 3456,
+                     "mkg_attr_id": 126,
+                     "attr_val": "3.5",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 4077,
+                     "mkg_attr_id": 199,
+                     "attr_val": "23-1/2\"",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 4078,
+                     "mkg_attr_id": 202,
+                     "attr_val": "48-7/8\" - 49-7/8\"",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 4093,
+                     "mkg_attr_id": 865,
+                     "attr_val": "6 pass 3,400 Watts",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 4097,
+                     "mkg_attr_id": 205,
+                     "attr_val": "24-7/8\" - 25-1/4\"",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 4174,
+                     "mkg_attr_id": 867,
+                     "attr_val": "Self-Clean",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 4196,
+                     "mkg_attr_id": 202,
+                     "attr_val": "27-1/4\" - 28-5/8\"",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 4198,
+                     "mkg_attr_id": 692,
+                     "attr_val": "160",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 4262,
+                     "mkg_attr_id": 199,
+                     "attr_val": "23-5/8\"",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 4263,
+                     "mkg_attr_id": 202,
+                     "attr_val": "9-7/8\" - 10-1/4\"",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 4267,
+                     "mkg_attr_id": 1091,
+                     "attr_val": "1 Half-Rack",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 5330,
+                     "mkg_attr_id": 103,
+                     "attr_val": "No",
+                     "val_is_neg": 1,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 5337,
+                     "mkg_attr_id": 111,
+                     "attr_val": "No",
+                     "val_is_neg": 1,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 5966,
+                     "mkg_attr_id": 829,
+                     "attr_val": "Yes",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 5973,
+                     "mkg_attr_id": 864,
+                     "attr_val": "True Hidden",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 5974,
+                     "mkg_attr_id": 880,
+                     "attr_val": "True Hidden",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 5979,
+                     "mkg_attr_id": 901,
+                     "attr_val": "Large",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 6054,
+                     "mkg_attr_id": 876,
+                     "attr_val": "Large",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 6179,
+                     "mkg_attr_id": 1182,
+                     "attr_val": "Main",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 6220,
+                     "mkg_attr_id": 126,
+                     "attr_val": "4.2",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 7536,
+                     "mkg_attr_id": 245,
+                     "attr_val": "10\" - 2,500/3,400 Watts (Induction)",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 7596,
+                     "mkg_attr_id": 228,
+                     "attr_val": "8\" - 2,300/3,200 Watts (Induction)",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 7604,
+                     "mkg_attr_id": 89,
+                     "attr_val": "3 Options (Fresh Rolls/Muffins, Frozen Rolls/Muffins, Pasta)",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 7614,
+                     "mkg_attr_id": 86,
+                     "attr_val": "4 Options (Ice Cream, Cream Cheese, Butter, Chocolate)",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 7631,
+                     "mkg_attr_id": 1211,
+                     "attr_val": "Stainless Steel",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 7640,
+                     "mkg_attr_id": 1231,
+                     "attr_val": "Yes",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 7642,
+                     "mkg_attr_id": 1232,
+                     "attr_val": "Yes",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 7646,
+                     "mkg_attr_id": 1233,
+                     "attr_val": "Yes",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 7681,
+                     "mkg_attr_id": 1245,
+                     "attr_val": "Yes",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 7685,
+                     "mkg_attr_id": 1246,
+                     "attr_val": "Yes",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 7706,
+                     "mkg_attr_id": 1250,
+                     "attr_val": "Yes",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 7709,
+                     "mkg_attr_id": 802,
+                     "attr_val": "Variable",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 7765,
+                     "mkg_attr_id": 1086,
+                     "attr_val": "Stainless Steel",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 7788,
+                     "mkg_attr_id": 896,
+                     "attr_val": "1 HD Handle, 1 Offset, 1 Half Rack",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 7789,
+                     "mkg_attr_id": 894,
+                     "attr_val": "2 Incandescent",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 7791,
+                     "mkg_attr_id": 871,
+                     "attr_val": "2 Incandescent",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 7792,
+                     "mkg_attr_id": 872,
+                     "attr_val": "1 HD Handle, 1 Offset, 1 Half Rack",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 7795,
+                     "mkg_attr_id": 890,
+                     "attr_val": "Dual Fan",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 7799,
+                     "mkg_attr_id": 728,
+                     "attr_val": "Marlin Blue",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 7800,
+                     "mkg_attr_id": 1220,
+                     "attr_val": "4 positions",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 7803,
+                     "mkg_attr_id": 1214,
+                     "attr_val": "500 Watts",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 7834,
+                     "mkg_attr_id": 885,
+                     "attr_val": "Variable (400?F to 550?F)",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 7835,
+                     "mkg_attr_id": 866,
+                     "attr_val": "Variable (400?F to 550?F)",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 7860,
+                     "mkg_attr_id": 959,
+                     "attr_val": "5 Options (Frozen Entrees, Ground Meat, Rice, Chicken Breast, Fish/Seafood)",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 7861,
+                     "mkg_attr_id": 77,
+                     "attr_val": "3 Options (Pizza, Hot Dogs, Beverage)",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 7862,
+                     "mkg_attr_id": 96,
+                     "attr_val": "3 Options (Hand Held Snacks 3-4 oz., Hand Held Snacks 5-6 oz., Frozen Kids' Meals)",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 7864,
+                     "mkg_attr_id": 1257,
+                     "attr_val": "Yes",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 7872,
+                     "mkg_attr_id": 1260,
+                     "attr_val": "Yes",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 7905,
+                     "mkg_attr_id": 853,
+                     "attr_val": "Multiple Functions",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 7912,
+                     "mkg_attr_id": 1273,
+                     "attr_val": "Yes",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 7958,
+                     "mkg_attr_id": 202,
+                     "attr_val": "41-1/8\" - 41-1/4\"",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 7959,
+                     "mkg_attr_id": 1166,
+                     "attr_val": "7.0 / 6.0",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 7960,
+                     "mkg_attr_id": 1167,
+                     "attr_val": "29.2 / 28.9",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 8085,
+                     "mkg_attr_id": 1258,
+                     "attr_val": "Bake, Roast, Broil",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 8095,
+                     "mkg_attr_id": 831,
+                     "attr_val": "Both Ovens",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 8096,
+                     "mkg_attr_id": 829,
+                     "attr_val": "Both Ovens",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 8181,
+                     "mkg_attr_id": 240,
+                     "attr_val": "6\" - 1,450/2,000 Watts (Induction)",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     },
+                     {
+                     "mkg_attr_val_id": 8182,
+                     "mkg_attr_id": 246,
+                     "attr_val": "7\" - 1,800/2,600 Watts (Induction)",
+                     "val_is_neg": 0,
+                     "is_actv": 1
+                     }
+                     ]
+}
