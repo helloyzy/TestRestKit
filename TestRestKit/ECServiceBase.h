@@ -28,13 +28,13 @@ typedef void(^ECRequestDidFailLoadWithErrorBlock)(NSError *error);
  
  @see [RKRequestDelegate request:didLoadResponse:]
  */
-@property (nonatomic, copy) RKRequestDidLoadResponseBlock onDidLoadResponse;
+@property (nonatomic, copy) ECSvcRequestDidLoadResponseBlock onDidLoadResponse;
 
 /**
  A block to invoke when the receiver has failed loading due to an error.
  
  @see [RKRequestDelegate request:didFailLoadWithError:]
  */
-@property (nonatomic, copy) RKRequestDidFailLoadWithErrorBlock onDidFailLoadWithError;
+@property (nonatomic, copy) ECRequestDidFailLoadWithErrorBlock onDidFailLoadWithError;
 
 @end
