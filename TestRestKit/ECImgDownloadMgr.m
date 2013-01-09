@@ -22,6 +22,7 @@ static NSInteger maxFailuresAllowed = 3;
 @interface ECImgRequest : RKRequest
 
 + (ECImgRequest *) constructImgRequest:(NSString *)imgRelativePath underService:(NSString *)serviceName;
+- (ECImgRequest *) copyRequest;
 
 @property (strong, nonatomic) NSString * imgServiceName;
 @property (strong, nonatomic) NSString * imgPathToSave;
@@ -32,6 +33,11 @@ static NSInteger maxFailuresAllowed = 3;
 
 @implementation ECImgRequest
 
+- (ECImgRequest *) copyRequest {
+    ECImgRequest * result = [ECImgRequest constructImgRequest:self.imgRelativePath underService:self.imgServiceName];
+    result.failedTimes = self.failedTimes;
+    return result;
+}
 
 - (void) constructImgUrl {
     NSString * imgUrlStr = ECServiceBaseUrl;
@@ -160,7 +166,7 @@ static NSInteger maxFailuresAllowed = 3;
     [self stopDownload];
     NSLog(@"Retry failed requests, count is %d", [self.failedRequests count]);
     for (ECImgRequest * failedRequest in self.failedRequests) {
-        [self.imgRequestQueue addRequest:failedRequest];
+        [self.imgRequestQueue addRequest:[failedRequest copyRequest]]; // need to have a copy of the request or the requestqueue will not send out the request
     }
     [self.failedRequests removeAllObjects];
     [self restartDownload];
@@ -351,7 +357,7 @@ static NSInteger maxFailuresAllowed = 3;
     // http://static.adzerk.net/Advertisers/fdec4733b4814d9e958b7f86c25020b5.jpg
     NSURL * url = [NSURL URLWithString:resURL];
     ECImgRequest * request = [[ECImgRequest alloc] initWithURL:url];
-        
+    request.timeoutInterval = 5.0;
     request.onDidLoadResponse = ^(RKResponse* response) {
         // UIImage * image = [UIImage imageWithData: response.body];
         // do something interesting with the image
@@ -387,7 +393,7 @@ static NSInteger maxFailuresAllowed = 3;
     
     [self addRequest:@"https://devimages.apple.com.edgekey.net/home/images/home-imac-md-20120607.jpg"];
     [self addRequest:@"http://note.youdao.com/web/images/logo-icon.png"];
-    [self addRequest:@"http://www.google.com.hk/images/nav_logo114.png"];
+    // [self addRequest:@"http://www.google.com.hk/images/nav_logo114.png"];
     
     [self startDownloadImages];
 }
