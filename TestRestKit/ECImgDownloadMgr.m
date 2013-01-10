@@ -7,10 +7,7 @@
 //
 
 #import "ECImgDownloadMgr.h"
-#import "IBFunctions.h"
-#import <RestKit/RestKit.h>
 #import "ProductImage.h"
-#import "NSManagedObject+InnerBand.h"
 #import "ECServiceBase.h"
 #import "ECLoginService.h"
 
@@ -309,11 +306,7 @@ static NSInteger maxFailuresAllowed = 3;
 #pragma mark - public methods
 
 - (void) downloadImages {
-    // TODO move this to Product Image
-    NSArray * productImages = [ProductImage all];
-    NSArray * imgRelativePaths = [productImages valueForKey:@"file_lctn"];
-    // De-duplication
-    NSSet * uniqueImgRelativePaths = [NSSet setWithArray:imgRelativePaths];
+    NSArray * uniqueImgRelativePaths = [ProductImage allImageRelativePaths];
     
     for (NSString * imgRelativePath in uniqueImgRelativePaths) {
         ECImgRequest * imgRequest = [ECImgRequest constructImgRequest:imgRelativePath underService:self.imgServiceName];
@@ -331,6 +324,7 @@ static NSInteger maxFailuresAllowed = 3;
 + (ECImgDownloadMgr *) createDownloadThumbImgService {
     return [[ECImgDownloadMgr alloc] initWithServiceName:thumbnailImgService];
 }
+
 
 #pragma mark - test
 
@@ -376,11 +370,7 @@ static ECImgDownloadMgr * sharedMgr = nil;
 #pragma mark - test download preview images
 
 - (void) downloadSingleImageTest {
-    // TODO move this to Product Image
-    NSArray * productImages = [NSArray arrayWithObject:[ProductImage first]];
-    NSArray * imgRelativePaths = [productImages valueForKey:@"file_lctn"];
-    // De-duplication
-    NSSet * uniqueImgRelativePaths = [NSSet setWithArray:imgRelativePaths];
+    NSString * imgRelativePath = [[ProductImage allImageRelativePaths] objectAtIndex:0];
     
     ECImgRequest * imgRequest = [ECImgRequest constructImgRequest:@"10000\\10468\\" underService:self.imgServiceName];
     imgRequest.URL = [NSURL URLWithString:@"http:/ema-productadmin-ipad-00694sp03.northridgedev.com/IPadService.svc/GetPreviewImage/?authToken=12345&relativePath=10000%5C10468%5C"]; // simulate invalid token
@@ -391,11 +381,9 @@ static ECImgDownloadMgr * sharedMgr = nil;
         [self addImgRequest:imgRequest];
     }
     
-    for (NSString * imgRelativePath in uniqueImgRelativePaths) {
-        ECImgRequest * imgRequest = [ECImgRequest constructImgRequest:imgRelativePath underService:self.imgServiceName];
-        // imgRequest.URL = [NSURL URLWithString:@"http:/ema-productadmin-ipad-00694sp03.northridgedev.com/IPadService.svc/GetPreviewImage/?authToken=12345&relativePath=10000%5C10468%5C"]; // simulate invalid token
-        [self addImgRequest:imgRequest];
-    }
+    imgRequest = [ECImgRequest constructImgRequest:imgRelativePath underService:self.imgServiceName];
+    // imgRequest.URL = [NSURL URLWithString:@"http:/ema-productadmin-ipad-00694sp03.northridgedev.com/IPadService.svc/GetPreviewImage/?authToken=12345&relativePath=10000%5C10468%5C"]; // simulate invalid token
+    [self addImgRequest:imgRequest];
     
     [self startDownloadImages];
     
@@ -521,5 +509,6 @@ static ECImgDownloadMgr * sharedMgr = nil;
     
     [self startDownloadImages];
 }
+
 
 @end
