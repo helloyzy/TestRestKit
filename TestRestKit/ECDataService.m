@@ -9,7 +9,47 @@
 #import "ECDataService.h"
 #import "ECLoginService.h"
 
-static ECDataService * sharedInstance = nil;
+static ECDataService * sharedDataServiceInstance = nil;
+
+typedef void(^ECSvcDidLoadDataChunkCountBlock)(int numOfChunks);
+
+@interface ECDataChunkCountService : ECServiceBase
+
+- (void) getDataChunkCount;
+
+@property(nonatomic, strong) ECSvcDidLoadDataChunkCountBlock onLoadDataChunkCount;
+
+@end
+
+@implementation ECDataChunkCountService
+
+- (void) getDataChunkCount {
+    NSString * servicePath = [NSString stringWithFormat:@"/GetDataChunksCount/?authToken=%@", [ECLoginService userToken]];
+    NSLog(@"%@", servicePath);
+    [[ECServiceBase sharedClient] get:servicePath delegate:self];
+}
+
+- (void) service {
+    [self getDataChunkCount];
+}
+
+- (void)request:(RKRequest *)request didLoadResponse:(RKResponse *)response {
+    [super request:request didLoadResponse:response];
+    NSLog(@"Receive response for data chunk service, status code is %d", response.statusCode);
+    NSString * result = response.bodyAsString;
+    if (self.onLoadDataChunkCount) {
+        self.onLoadDataChunkCount([result intValue]);
+    }
+}
+
+- (void)request:(RKRequest *)request didFailLoadWithError:(NSError *)error {
+    [super request:request didFailLoadWithError:error];
+    NSLog(@"Data chunk service error, error description is %@", [error description]);
+}
+
+@end
+
+static ECDataChunkCountService * sharedDataChunkCountService = nil;
 
 @interface ECDataService()
 
@@ -22,9 +62,9 @@ static ECDataService * sharedInstance = nil;
 - (void) getData {
     self.client = [RKClient clientWithBaseURLString:ECServiceBaseUrl];
     [self.client setValue:@"gzip, deflate" forHTTPHeaderField:@"Accept-Encoding"];
-    self.client.timeoutInterval = 3600.0;
+    // self.client.timeoutInterval = 3600.0;
     
-    NSString * servicePath = [NSString stringWithFormat:@"/GetUserData/?authToken=%@", [ECLoginService userToken]];
+    NSString * servicePath = [NSString stringWithFormat:@"/GetUserData/?authToken=%@&chunkNumber=1", [ECLoginService userToken]];
     NSLog(@"%@", servicePath);
     [self.client get:servicePath delegate:self];
     
@@ -33,6 +73,7 @@ static ECDataService * sharedInstance = nil;
 }
 
 - (void)request:(RKRequest *)request didLoadResponse:(RKResponse *)response {
+    [super request:request didLoadResponse:response];
     NSLog(@"Receive response for data service, status code is %d", response.statusCode);
     NSString * fileName = @"Documents/all.json";
     NSString * pathToSave = [NSHomeDirectory() stringByAppendingPathComponent:fileName];
@@ -52,11 +93,19 @@ static ECDataService * sharedInstance = nil;
 }
 
 + (void) test {
-    sharedInstance = [[ECDataService alloc] init];
-    sharedInstance.onDidLoadResponse = ^(RKResponse * response) {
-        NSLog(@"%@", response.bodyAsString);
+    sharedDataChunkCountService = [[ECDataChunkCountService alloc] init];
+    
+    sharedDataChunkCountService.onLoadDataChunkCount = ^(int numOfDataChunck) {
+        NSLog(@"Data chunk service, chunk size is %d", numOfDataChunck);
+        sharedDataServiceInstance = [[ECDataService alloc] init];
+        sharedDataServiceInstance.onDidLoadResponse = ^(RKResponse * response) {
+            NSLog(@"Finished downloading.");
+        };
+        [sharedDataServiceInstance getData];
     };
-    [sharedInstance getData];
+    
+    [sharedDataChunkCountService getDataChunkCount];
+    
 }
 
 @end

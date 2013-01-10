@@ -41,6 +41,7 @@
 		002E4935166362320003B4B4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E4934166362320003B4B4 /* SystemConfiguration.framework */; };
 		002E49371663623B0003B4B4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E49361663623B0003B4B4 /* QuartzCore.framework */; };
 		002E4939166362460003B4B4 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E4938166362460003B4B4 /* libxml2.dylib */; };
+		003AB290169EC03F0052BE39 /* ECDataBadFormat.json in Resources */ = {isa = PBXBuildFile; fileRef = 003AB28F169EC03F0052BE39 /* ECDataBadFormat.json */; };
 		005DF91A1696A0FF00863931 /* ECLoginService.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DF9191696A0FF00863931 /* ECLoginService.m */; };
 		005DF91D1696A22D00863931 /* ECServiceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DF91C1696A22D00863931 /* ECServiceBase.m */; };
 		005DF9561696AAA800863931 /* colors in Resources */ = {isa = PBXBuildFile; fileRef = 005DF9551696AAA800863931 /* colors */; };
@@ -332,6 +333,7 @@
 		002E4934166362320003B4B4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		002E49361663623B0003B4B4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		002E4938166362460003B4B4 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		003AB28F169EC03F0052BE39 /* ECDataBadFormat.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ECDataBadFormat.json; sourceTree = SOURCE_ROOT; };
 		005DF9181696A0FF00863931 /* ECLoginService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECLoginService.h; sourceTree = "<group>"; };
 		005DF9191696A0FF00863931 /* ECLoginService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECLoginService.m; sourceTree = "<group>"; };
 		005DF91B1696A22D00863931 /* ECServiceBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECServiceBase.h; sourceTree = "<group>"; };
@@ -622,6 +624,7 @@
 		002E48D7166357A70003B4B4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				003AB28F169EC03F0052BE39 /* ECDataBadFormat.json */,
 				002E48E6166357A70003B4B4 /* Default-568h@2x.png */,
 				002E48E2166357A70003B4B4 /* Default.png */,
 				002E48E4166357A70003B4B4 /* Default@2x.png */,
@@ -1071,6 +1074,7 @@
 				00B60F2D169BBCFE00D53AD6 /* ECImage.json in Resources */,
 				00B60F2F169BBCFE00D53AD6 /* ECProdFeatrue.json in Resources */,
 				00B60F32169BBD6200D53AD6 /* ECESpecs.json in Resources */,
+				003AB290169EC03F0052BE39 /* ECDataBadFormat.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

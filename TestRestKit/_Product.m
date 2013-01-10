@@ -4,6 +4,7 @@
 #import "_Product.h"
 
 const struct ProductAttributes ProductAttributes = {
+	.is_enrg_star = @"is_enrg_star",
 	.mkg_brnd_modl_yr_id = @"mkg_brnd_modl_yr_id",
 	.mkg_brnd_prod_cat_id = @"mkg_brnd_prod_cat_id",
 	.mkg_dig_aset_ownr_id = @"mkg_dig_aset_ownr_id",
@@ -58,6 +59,11 @@ const struct ProductFetchedProperties ProductFetchedProperties = {
 + (NSSet*)keyPathsForValuesAffectingValueForKey:(NSString*)key {
 	NSSet *keyPaths = [super keyPathsForValuesAffectingValueForKey:key];
 	
+	if ([key isEqualToString:@"is_enrg_starValue"]) {
+		NSSet *affectingKey = [NSSet setWithObject:@"is_enrg_star"];
+		keyPaths = [keyPaths setByAddingObjectsFromSet:affectingKey];
+		return keyPaths;
+	}
 	if ([key isEqualToString:@"mkg_brnd_modl_yr_idValue"]) {
 		NSSet *affectingKey = [NSSet setWithObject:@"mkg_brnd_modl_yr_id"];
 		keyPaths = [keyPaths setByAddingObjectsFromSet:affectingKey];
@@ -106,6 +112,32 @@ const struct ProductFetchedProperties ProductFetchedProperties = {
 
 	return keyPaths;
 }
+
+
+
+
+@dynamic is_enrg_star;
+
+
+
+- (int16_t)is_enrg_starValue {
+	NSNumber *result = [self is_enrg_star];
+	return [result shortValue];
+}
+
+- (void)setIs_enrg_starValue:(int16_t)value_ {
+	[self setIs_enrg_star:[NSNumber numberWithShort:value_]];
+}
+
+- (int16_t)primitiveIs_enrg_starValue {
+	NSNumber *result = [self primitiveIs_enrg_star];
+	return [result shortValue];
+}
+
+- (void)setPrimitiveIs_enrg_starValue:(int16_t)value_ {
+	[self setPrimitiveIs_enrg_star:[NSNumber numberWithShort:value_]];
+}
+
 
 
 

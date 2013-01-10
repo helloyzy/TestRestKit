@@ -14,7 +14,6 @@
 #import "ECServiceBase.h"
 #import "ECLoginService.h"
 
-static ECImgDownloadMgr * sharedMgr = nil;
 static NSString * previewImgService = @"GetPreviewImage";
 static NSString * thumbnailImgService = @"GetThumbnailImage";
 static NSInteger maxFailuresAllowed = 3;
@@ -22,7 +21,6 @@ static NSInteger maxFailuresAllowed = 3;
 @interface ECImgRequest : RKRequest
 
 + (ECImgRequest *) constructImgRequest:(NSString *)imgRelativePath underService:(NSString *)serviceName;
-- (ECImgRequest *) copyRequest;
 
 @property (strong, nonatomic) NSString * imgServiceName;
 @property (strong, nonatomic) NSString * imgPathToSave;
@@ -33,22 +31,29 @@ static NSInteger maxFailuresAllowed = 3;
 
 @implementation ECImgRequest
 
+/**
 - (ECImgRequest *) copyRequest {
     ECImgRequest * result = [ECImgRequest constructImgRequest:self.imgRelativePath underService:self.imgServiceName];
     result.failedTimes = self.failedTimes;
     return result;
 }
+ */
 
-- (void) constructImgUrl {
++ (NSString *) constructImgUrl:(NSString *)imgRelativePath underService:(NSString *)serviceName {
     NSString * imgUrlStr = ECServiceBaseUrl;
-    imgUrlStr = [imgUrlStr stringByAppendingPathComponent:self.imgServiceName];
+    imgUrlStr = [imgUrlStr stringByAppendingPathComponent:serviceName];
     // NSDictionary * queryParams = @{@"authToken":token, @"relativePath":relativePath};
     // NSString * queryStr = [[NSString string] stringByAppendingQueryParameters:queryParams];
-    NSString * queryStr = [NSString stringWithFormat:@"?authToken=%@&relativePath=%@", [ECLoginService userToken], self.imgRelativePath];
+    NSString * queryStr = [NSString stringWithFormat:@"?authToken=%@&relativePath=%@", [ECLoginService userToken], imgRelativePath];
     imgUrlStr = [imgUrlStr stringByAppendingPathComponent:queryStr];
     // encode
     imgUrlStr = [imgUrlStr stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-    self.URL = [[NSURL alloc] initWithString:imgUrlStr];
+    return imgUrlStr;
+}
+
+- (void) constructImgUrl {
+    NSString * newImgUrl = [ECImgRequest constructImgUrl:self.imgRelativePath underService:self.imgServiceName];
+    self.URL = [NSURL URLWithString:newImgUrl];
 }
 
 - (void) constructImgSavePath {
@@ -61,11 +66,11 @@ static NSInteger maxFailuresAllowed = 3;
 }
 
 + (ECImgRequest *) constructImgRequest:(NSString *)imgRelativePath underService:(NSString *)serviceName {
-    ECImgRequest * imgRequest = [[ECImgRequest alloc] init]; 
+    NSString * imgUrl = [self constructImgUrl:imgRelativePath underService:serviceName];
+    ECImgRequest * imgRequest = [[ECImgRequest alloc] initWithURL:[NSURL URLWithString:imgUrl]];
     imgRequest.failedTimes = 0;
     imgRequest.imgServiceName = serviceName;
     imgRequest.imgRelativePath = imgRelativePath;
-    [imgRequest constructImgUrl];
     [imgRequest constructImgSavePath];
     imgRequest.onDidLoadResponse = ^(RKResponse* response) {
         ECImgRequest * originalRequest = (ECImgRequest *)[response request];
@@ -145,18 +150,6 @@ static NSInteger maxFailuresAllowed = 3;
     [self.imgRequestQueue addRequest:imgRequest];
 }
 
-/**
-- (void) addFailedRequestForProcess:(ECImgRequest *) failedImgRequest {
-    [self.imgRequestQueue addRequest:failedImgRequest];
-}
- */
-
-/**
-- (void) addFailedImgRequest:(ECImgRequest *) imgRequest {
-    [self.failedRequests addObject:imgRequest];
-}
- */
-
 - (BOOL) isFailedTooMuch:(ECImgRequest *) imgRequest {
     imgRequest.failedTimes = imgRequest.failedTimes + 1;
     return (imgRequest.failedTimes > maxFailuresAllowed);
@@ -164,9 +157,11 @@ static NSInteger maxFailuresAllowed = 3;
 
 - (void) retryFailedImgRequests {
     [self stopDownload];
-    NSLog(@"Retry failed requests, count is %d", [self.failedRequests count]);
+    NSLog(@"Image downloading sevice(%@): retry %d failed requests", self.imgServiceName, [self.failedRequests count]);
     for (ECImgRequest * failedRequest in self.failedRequests) {
-        [self.imgRequestQueue addRequest:[failedRequest copyRequest]]; // need to have a copy of the request or the requestqueue will not send out the request
+        [failedRequest reset];
+        NSLog(@"Image downloading sevice(%@): will retry request:%@", self.imgServiceName, [failedRequest.URL absoluteString]);
+        [self.imgRequestQueue addRequest:failedRequest];
     }
     [self.failedRequests removeAllObjects];
     [self restartDownload];
@@ -179,7 +174,7 @@ static NSInteger maxFailuresAllowed = 3;
         return;
     }
      */
-    self.totalRequestCount = [self.imgRequestQueue count];
+    self.totalRequestCount = [self.imgRequestQueue count]; // do not use the allImgRequests to determine the total request count
     self.downloadedCount = 0;
     self.failedCount = 0;
     [self.imgRequestQueue start];
@@ -202,6 +197,8 @@ static NSInteger maxFailuresAllowed = 3;
 - (void) handleImgDownloadError:(NSUInteger) errorCode {
     [self stopDownload];
     [self.imgRequestQueue cancelAllRequests];
+    NSLog(@"Image downloading sevice(%@): error, code is %d", self.imgServiceName, errorCode);
+
     if (self.onImageDownloadError) {
         self.onImageDownloadError([NSError errorWithDomain:ECImgDownloadDomain code:errorCode userInfo:nil]);
     }
@@ -210,8 +207,7 @@ static NSInteger maxFailuresAllowed = 3;
 
 - (void) handleSingleImgDownloadError:(ECImgRequest *) failedRequest errorCode:(NSUInteger) errorCode {
     self.failedCount = self.failedCount + 1;
-    [self printURLString:failedRequest];
-    NSLog(@"Failed request, count is %d", self.failedCount);
+    NSLog(@"Image downloading sevice(%@): single image download failure, total failed is %d, erro code is %d", self.imgServiceName, self.failedCount, errorCode);
     if (self.onSingleImageDownloadError) {
         self.onSingleImageDownloadError([NSError errorWithDomain:ECImgDownloadDomain code:errorCode userInfo:nil]);
     }
@@ -232,44 +228,53 @@ static NSInteger maxFailuresAllowed = 3;
     if ([response isOK]) { // status = 200 
         // as the notification dispatch is always on the main thread, no need to synchronize this
         self.downloadedCount = self.downloadedCount + 1;
+        NSLog(@"Image downloading sevice(%@): downloaded %d images out of %d", self.imgServiceName, self.downloadedCount, self.totalRequestCount);
+
         // notify progress callback
         if (self.onImageDownloadProgress) {
             self.onImageDownloadProgress(self.downloadedCount, self.totalRequestCount);
         }
         return;
-    } else if ([response isNotFound]) { // status = 404 (not found)
+    } else if ([response isNotFound] || [response isNoContent]) { // status = 404 (not found)
+        NSLog(@"Image downloading sevice(%@): no image found at %@, status code is %d", self.imgServiceName, [response.request.URL absoluteString], response.statusCode);
         [self handleSingleImgDownloadError:imgRequest errorCode:ECSingleImageDownloadFailNoRes];
         return;
     } else if ([response isUnauthorized]) { // status = 401
         // block until get valid user token
+        NSLog(@"Image downloading sevice(%@): user token invalid, current token is %@, failed request is %@", self.imgServiceName, [ECLoginService userToken], [response.request.URL absoluteString]);
+
         [self stopDownload];
+        [self handleFailedImgRequest:imgRequest errorCode:ECSingleImageDownloadInvalidToken];
         [ECLoginService accquireUserToken:self selector:@selector(onUserTokenAccquired)];
         return;
     } else if ([response isServerError]) { // status = 500
         // check for adding for retry
+        NSLog(@"Image downloading sevice(%@): server error(status = 500), failed request is %@", self.imgServiceName, [response.request.URL absoluteString]);
+
         [self handleFailedImgRequest:imgRequest errorCode:ECSingleImageDownloadFailServerError];
         return;
     } else { // other status code
+        NSLog(@"Image downloading sevice(%@): unknown error(status = %d), failed request is %@", self.imgServiceName, response.statusCode, [response.request.URL absoluteString]);
         [self handleFailedImgRequest:imgRequest errorCode:ECSingleImageDownloadFailUnknown];
         return;
     }
 }
 
 - (void) requestQueue:(RKRequestQueue *)queue didFailRequest:(RKRequest *)request withError:(NSError *)error {
+    NSLog(@"Image downloading sevice(%@): error with description:%@, failed request is %@", self.imgServiceName, [error description], [request.URL absoluteString]);
     ECImgRequest * imgRequest = (ECImgRequest *)request;
     [self handleFailedImgRequest:imgRequest errorCode:ECSingleImageDownloadFailUnknown];
 }
 
 - (void) requestQueueDidFinishLoading:(RKRequestQueue *)queue {
     if ([self.failedRequests count] == 0) {
+        NSLog(@"Image downloading sevice(%@): finish downloading, downloaded %d, failed %d, total is %d", self.imgServiceName, self.downloadedCount,self.failedCount, self.totalRequestCount );
         if (self.onImageDidFinishDownload) {
             self.onImageDidFinishDownload(self.failedCount, self.totalRequestCount);
-        }
-        NSLog(@"Finished image downloading for service %@, failedCount is %d, total is %d", self.imgServiceName, self.failedCount, self.totalRequestCount );
+        }        
         [self clearup];
     } else {
         // [self performSelector:@selector(retryFailedImgRequests) withObject:self afterDelay:1.0];
-        // [self retryFailedImgRequests];
         [self performSelectorInBackground:@selector(retryFailedImgRequests) withObject:nil];
     }
 }
@@ -286,6 +291,8 @@ static NSInteger maxFailuresAllowed = 3;
 }
 
 - (void) onUserTokenAccquired {
+    NSLog(@"Image downloading sevice(%@): receive notification from login service", self.imgServiceName);
+
     // Unreg notification
     [ECLoginService unregForUserTokenAccquired:self];
     // continue downloading...
@@ -299,6 +306,8 @@ static NSInteger maxFailuresAllowed = 3;
     
 }
 
+#pragma mark - public methods
+
 - (void) downloadImages {
     // TODO move this to Product Image
     NSArray * productImages = [ProductImage all];
@@ -309,28 +318,143 @@ static NSInteger maxFailuresAllowed = 3;
     for (NSString * imgRelativePath in uniqueImgRelativePaths) {
         ECImgRequest * imgRequest = [ECImgRequest constructImgRequest:imgRelativePath underService:self.imgServiceName];
         [self addImgRequest:imgRequest];
-        // NSLog(@"%@", imgRequest.imgPathToSave);
     }
     
     [self startDownloadImages];
 
 }
 
-- (void) downloadAllThumbImgs {
-    self.imgServiceName = thumbnailImgService;
-    [self downloadImages];
++ (ECImgDownloadMgr *) createDownloadPreImgService {
+    return [[ECImgDownloadMgr alloc] initWithServiceName:previewImgService];
 }
 
-- (void) downloadAllPreImgs {
-    self.imgServiceName = previewImgService;
-    [self downloadImages];
++ (ECImgDownloadMgr *) createDownloadThumbImgService {
+    return [[ECImgDownloadMgr alloc] initWithServiceName:thumbnailImgService];
 }
 
 #pragma mark - test
 
+static ECImgDownloadMgr * sharedMgr = nil;
+
++ (void) test {
+    [self testDownloadSinglePreImages];
+}
+
 - (void) printURLString:(ECImgRequest *) request {
     NSLog(@"%@", [request.URL absoluteString]);
 }
+
+#pragma mark - test download thumb images;
+
++ (void) _testDownloadAllThumbImages {
+    sharedMgr = [self createDownloadThumbImgService];
+    sharedMgr.onImageDidFinishDownload = ^(int numOfFailed, int numOfTotal) {
+        NSLog(@"Thumbnail images downloading finished, failed:%d, total:%d", numOfFailed, numOfTotal);
+    };
+    sharedMgr.onImageDownloadError = ^(NSError * error) {
+        NSLog(@"Error code is %d", [error code]);
+    };
+    sharedMgr.onImageDownloadProgress = ^(int numOfDidDownloaded, int numOfTotal) {
+        NSLog(@"Thumbnail images downloading, downloaded:%d, total:%d", numOfDidDownloaded, numOfTotal);
+    };
+    sharedMgr.onSingleImageDownloadError = ^(NSError * error) {
+        NSLog(@"Error code is %d", [error code]);
+    };
+    [sharedMgr downloadImages];
+}
+
++ (void) testDownloadAllThumbImages {
+    ECLoginService * loginService = [ECLoginService sharedInstance];
+    loginService.onDidLoadResponse = ^(RKResponse * response) {
+        NSLog(@"Login service, response status code is %d, token is %@", response.statusCode, [ECLoginService userToken]);
+        [self _testDownloadAllThumbImages];
+    };
+    [loginService authenticate:@"ProdIntiPad1" withPwd:@"Northridge*1"];
+    
+}
+
+#pragma mark - test download preview images
+
+- (void) downloadSingleImageTest {
+    // TODO move this to Product Image
+    NSArray * productImages = [NSArray arrayWithObject:[ProductImage first]];
+    NSArray * imgRelativePaths = [productImages valueForKey:@"file_lctn"];
+    // De-duplication
+    NSSet * uniqueImgRelativePaths = [NSSet setWithArray:imgRelativePaths];
+    
+    ECImgRequest * imgRequest = [ECImgRequest constructImgRequest:@"10000\\10468\\" underService:self.imgServiceName];
+    imgRequest.URL = [NSURL URLWithString:@"http:/ema-productadmin-ipad-00694sp03.northridgedev.com/IPadService.svc/GetPreviewImage/?authToken=12345&relativePath=10000%5C10468%5C"]; // simulate invalid token
+    [self addImgRequest:imgRequest];
+    
+    for (int count = 1; count <= 9; count ++) {
+        ECImgRequest * imgRequest = [ECImgRequest constructImgRequest:@"10000\\10468\\" underService:self.imgServiceName];
+        [self addImgRequest:imgRequest];
+    }
+    
+    for (NSString * imgRelativePath in uniqueImgRelativePaths) {
+        ECImgRequest * imgRequest = [ECImgRequest constructImgRequest:imgRelativePath underService:self.imgServiceName];
+        // imgRequest.URL = [NSURL URLWithString:@"http:/ema-productadmin-ipad-00694sp03.northridgedev.com/IPadService.svc/GetPreviewImage/?authToken=12345&relativePath=10000%5C10468%5C"]; // simulate invalid token
+        [self addImgRequest:imgRequest];
+    }
+    
+    [self startDownloadImages];
+    
+}
+
++ (void) _testDownloadSinglePreImage {
+    sharedMgr = [self createDownloadPreImgService];
+    sharedMgr.onImageDidFinishDownload = ^(int numOfFailed, int numOfTotal) {
+        NSLog(@"Preview images downloading finished, failed:%d, total:%d", numOfFailed, numOfTotal);
+    };
+    sharedMgr.onImageDownloadError = ^(NSError * error) {
+        NSLog(@"Error code is %d", [error code]);
+    };
+    sharedMgr.onImageDownloadProgress = ^(int numOfDidDownloaded, int numOfTotal) {
+        NSLog(@"Preview images downloading, downloaded:%d, total:%d", numOfDidDownloaded, numOfTotal);
+    };
+    sharedMgr.onSingleImageDownloadError = ^(NSError * error) {
+        NSLog(@"Error code is %d", [error code]);
+    };
+    [sharedMgr downloadSingleImageTest];
+}
+
++ (void) testDownloadSinglePreImages {
+    ECLoginService * loginService = [ECLoginService sharedInstance];
+    loginService.onDidLoadResponse = ^(RKResponse * response) {
+        NSLog(@"Login service, response status code is %d, token is %@", response.statusCode, [ECLoginService userToken]);
+        [self _testDownloadSinglePreImage];
+    };
+    [loginService authenticate:@"ProdIntiPad1" withPwd:@"Northridge*1"];
+}
+
++ (void) _testDownloadAllPreImages {
+    sharedMgr = [self createDownloadPreImgService];
+    sharedMgr.onImageDidFinishDownload = ^(int numOfFailed, int numOfTotal) {
+        NSLog(@"Preview images downloading finished, failed:%d, total:%d", numOfFailed, numOfTotal);
+    };
+    sharedMgr.onImageDownloadError = ^(NSError * error) {
+        NSLog(@"Error code is %d", [error code]);
+    };
+    sharedMgr.onImageDownloadProgress = ^(int numOfDidDownloaded, int numOfTotal) {
+        NSLog(@"Preview images downloading, downloaded:%d, total:%d", numOfDidDownloaded, numOfTotal);
+    };
+    sharedMgr.onSingleImageDownloadError = ^(NSError * error) {
+        NSLog(@"Error code is %d", [error code]);
+    };
+    [sharedMgr downloadImages];
+}
+
++ (void) testDownloadAllPreImages {
+    ECLoginService * loginService = [ECLoginService sharedInstance];
+    loginService.onDidLoadResponse = ^(RKResponse * response) {
+        NSLog(@"Login service, response status code is %d, token is %@", response.statusCode, [ECLoginService userToken]);
+        [self _testDownloadAllPreImages];
+    };
+    [loginService authenticate:@"ProdIntiPad1" withPwd:@"Northridge*1"];
+
+}
+
+#pragma mark - test images from internet
 
 + (ECImgDownloadMgr *) sharedImgDownloadMgr {
     if (!sharedMgr) {
@@ -382,7 +506,7 @@ static NSInteger maxFailuresAllowed = 3;
     
 }
 
-+ (void) test1 {
++ (void) testDownloadOutsideImages {
     [self addRequest:@"http://static.adzerk.net/Advertisers/fdec4733b4814d9e958b7f86c25020b5.jpg"];
     [self addRequest:@"http://g-ec4.images-amazon.com/images/G/28/img12/projects/newyear/beacon/lll_20121225_pj660_180_cny_05._V397099809_.jpg"];
     [self addRequest:@"http://ec4.images-amazon.com/images/I/51nStdcFOdL._SL75_PIsitb-sticker-arrow-st,TopRight,8,-14_OU28_.jpg"];
@@ -397,58 +521,5 @@ static NSInteger maxFailuresAllowed = 3;
     
     [self startDownloadImages];
 }
-
-+ (void) test {
-    [self test1];
-}
-
-/**
- + (NSString *) constructThumbImgUrl:(NSString *) relativePath {
- return [self constructImgUrl:relativePath underService:@"GetThumbnailImage"];
- }
- 
- + (NSString *) constructPreviewImgUrl:(NSString *) relativePath {
- return [self constructImgUrl:relativePath underService:@"GetPreviewImage"];
- }
- 
- - (NSString *) constructImgUrl:(NSString *) relativePath underService:(NSString *)serviceName {
- NSString * result = ECServiceBaseUrl;
- result = [result stringByAppendingPathComponent:serviceName];
- // NSDictionary * queryParams = @{@"authToken":token, @"relativePath":relativePath};
- // NSString * queryStr = [[NSString string] stringByAppendingQueryParameters:queryParams];
- NSString * queryStr = [NSString stringWithFormat:@"?authToken=%@&relativePath=%@", [ECLoginService userToken], relativePath];
- result = [result stringByAppendingPathComponent:queryStr];
- // encode
- result = [result stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
- return result;
- }
- 
- 
- - (NSString *) constructImgSavePath:(NSString *)imgRelativePath underService:(NSString *)serviceName {
- NSString * flatImgPath = [imgRelativePath stringByReplacingOccurrencesOfString:@"\\" withString:@"_"];
- if ([serviceName isEqualToString:previewImgService]) {
- return [NSString stringWithFormat:@"%@Preview.jpg", flatImgPath];
- } else {
- return [NSString stringWithFormat:@"%@Thumbnail.jpg", flatImgPath];
- 
- }
- }
- 
- - (ECImgRequest *) constructImgRequest:(NSString *)imgRelativePath underService:(NSString *)serviceName {
- NSString * imgUrl = [self constructImgUrl:imgRelativePath underService:serviceName];
- ECImgRequest * imgRequest = [[ECImgRequest alloc] initWithURL:[NSURL URLWithString:imgUrl]];
- imgRequest.failedTimes = 0;
- imgRequest.imgRelativePath = imgRelativePath;
- imgRequest.imgPathToSave = [self constructImgSavePath:imgRelativePath underService:serviceName];
- imgRequest.onDidLoadResponse = ^(RKResponse* response) {
- ECImgRequest * originalRequest = (ECImgRequest *)[response request];
- NSString * docDir = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
- NSString * pathToSave = [docDir stringByAppendingPathComponent:originalRequest.imgPathToSave];
- [response.body writeToFile:pathToSave atomically:YES];
- };
- 
- return imgRequest;
- }
- */
 
 @end

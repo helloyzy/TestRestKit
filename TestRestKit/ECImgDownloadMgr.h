@@ -22,7 +22,8 @@ typedef enum ECImageDownloadFailCode {
 typedef enum ECSingleImageDownloadFailCode {
     ECSingleImageDownloadFailNoRes = -1,
     ECSingleImageDownloadFailServerError,
-    ECSingleImageDownloadFailUnknown
+    ECSingleImageDownloadFailUnknown,
+    ECSingleImageDownloadInvalidToken
 } ECSingleImageDownloadFailCode;
 
 ///-----------------------------------------------------------------------------
@@ -36,6 +37,9 @@ typedef void(^ECSvcSingleImageDownloadDidFailWithErrorBlock)(NSError *error);
 @interface ECImgDownloadMgr : NSObject <RKRequestQueueDelegate>
 
 + (void) test;
++ (ECImgDownloadMgr *) createDownloadPreImgService;
++ (ECImgDownloadMgr *) createDownloadThumbImgService;
+- (void) downloadImages;
 
 @property (nonatomic, copy) ECSvcImageDownloadProgressBlock onImageDownloadProgress;
 @property (nonatomic, copy) ECSvcImageDidFinishDownloadBlock onImageDidFinishDownload;

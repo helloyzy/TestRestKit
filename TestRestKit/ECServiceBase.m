@@ -12,6 +12,10 @@ static RKClient * sharedClient = nil;
 
 @implementation ECServiceBase
 
++(void) setupService {
+    sharedClient = [RKClient clientWithBaseURLString:ECServiceBaseUrl];
+}
+
 +(RKClient *) sharedClient {
     if (!sharedClient) {
         sharedClient = [RKClient clientWithBaseURLString:ECServiceBaseUrl];

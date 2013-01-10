@@ -5,6 +5,7 @@
 
 
 extern const struct ProductAttributes {
+	__unsafe_unretained NSString *is_enrg_star;
 	__unsafe_unretained NSString *mkg_brnd_modl_yr_id;
 	__unsafe_unretained NSString *mkg_brnd_prod_cat_id;
 	__unsafe_unretained NSString *mkg_dig_aset_ownr_id;
@@ -55,6 +56,7 @@ extern const struct ProductFetchedProperties {
 
 
 
+
 @interface ProductID : NSManagedObjectID {}
 @end
 
@@ -63,6 +65,20 @@ extern const struct ProductFetchedProperties {
 + (NSString*)entityName;
 + (NSEntityDescription*)entityInManagedObjectContext:(NSManagedObjectContext*)moc_;
 - (ProductID*)objectID;
+
+
+
+
+
+@property (nonatomic, strong) NSNumber* is_enrg_star;
+
+
+
+@property int16_t is_enrg_starValue;
+- (int16_t)is_enrg_starValue;
+- (void)setIs_enrg_starValue:(int16_t)value_;
+
+//- (BOOL)validateIs_enrg_star:(id*)value_ error:(NSError**)error_;
 
 
 
@@ -302,6 +318,15 @@ extern const struct ProductFetchedProperties {
 @end
 
 @interface _Product (CoreDataGeneratedPrimitiveAccessors)
+
+
+- (NSNumber*)primitiveIs_enrg_star;
+- (void)setPrimitiveIs_enrg_star:(NSNumber*)value;
+
+- (int16_t)primitiveIs_enrg_starValue;
+- (void)setPrimitiveIs_enrg_starValue:(int16_t)value_;
+
+
 
 
 - (NSNumber*)primitiveMkg_brnd_modl_yr_id;

@@ -145,6 +145,7 @@
         <relationship name="products" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Product" inverseName="prodSize" inverseEntity="Product" syncable="YES"/>
     </entity>
     <entity name="Product" representedClassName="Product" syncable="YES">
+        <attribute name="is_enrg_star" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="mkg_brnd_modl_yr_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
         <attribute name="mkg_brnd_prod_cat_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
         <attribute name="mkg_dig_aset_ownr_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
@@ -241,7 +242,7 @@
         <element name="ProdPowerType" positionX="-794" positionY="24" width="128" height="120"/>
         <element name="ProdPrice" positionX="-1494" positionY="-9" width="128" height="120"/>
         <element name="ProdSize" positionX="-801" positionY="207" width="128" height="135"/>
-        <element name="Product" positionX="-1089" positionY="-111" width="128" height="345"/>
+        <element name="Product" positionX="-1089" positionY="-111" width="128" height="360"/>
         <element name="ProductArea" positionX="-522" positionY="360" width="128" height="135"/>
         <element name="ProductCategory" positionX="-497" positionY="63" width="128" height="195"/>
         <element name="ProductImage" positionX="-983" positionY="-507" width="128" height="135"/>

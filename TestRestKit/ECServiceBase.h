@@ -19,6 +19,7 @@ typedef void(^ECRequestDidFailLoadWithErrorBlock)(NSError *error);
 
 @interface ECServiceBase : NSObject <RKRequestDelegate>
 
++(void) setupService;
 +(RKClient *) sharedClient;
 
 +(BOOL) isServiceAvailable;

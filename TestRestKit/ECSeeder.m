@@ -39,9 +39,10 @@
     RKLogConfigureByName("RestKit/CoreData", RKLogLevelDebug);
     RKManagedObjectSeeder *seeder = [RKManagedObjectSeeder objectSeederWithObjectManager:objectManager];
     
+    // [seeder seedObjectsFromFiles:@"ECDataBadFormat.json", nil];
+    
     // brand and product category
     [seeder seedObjectsFromFiles:@"ECData.json", nil];
-    
     // products/product variant(SKU) related
     [seeder seedObjectsFromFiles:@"ECProdDesc.json", @"ECProdMisc.json", @"ECProducts.json", @"ECProdPrice.json", @"ECSku.json", nil];
     
@@ -53,7 +54,7 @@
     
     // images
     [seeder seedObjectsFromFiles:@"ECImage.json", @"ECBrandProdCatImg.json", nil];
-    
+
     [seeder finalizeSeedingAndExit];
 }
 
