@@ -9,42 +9,37 @@
 #import "ECDataService.h"
 #import "ECLoginService.h"
 
-static ECDataService * sharedDataServiceInstance = nil;
-
-typedef void(^ECSvcDidLoadDataChunkCountBlock)(int numOfChunks);
+// typedef void(^ECSvcDidLoadDataChunkCountBlock)(int numOfChunks);
 
 @interface ECDataChunkCountService : ECServiceBase
 
 - (void) getDataChunkCount;
 
-@property(nonatomic, strong) ECSvcDidLoadDataChunkCountBlock onLoadDataChunkCount;
+// @property(nonatomic, strong) ECSvcDidLoadDataChunkCountBlock onLoadDataChunkCount;
+@property(nonatomic, assign) NSInteger dataChunkCount;
 
 @end
 
 @implementation ECDataChunkCountService
 
 - (void) getDataChunkCount {
-    NSString * servicePath = [NSString stringWithFormat:@"/GetDataChunksCount/?authToken=%@", [ECLoginService userToken]];
-    NSLog(@"%@", servicePath);
-    [[ECServiceBase sharedClient] get:servicePath delegate:self];
-}
-
-- (void) service {
-    [self getDataChunkCount];
+    NSString * serviceUrl = [NSString stringWithFormat:@"/GetDataChunksCount/?authToken=%@", [ECLoginService userToken]];
+    serviceUrl = [serviceUrl stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    [[ECServiceBase sharedClient] get:serviceUrl delegate:self];
 }
 
 - (void)request:(RKRequest *)request didLoadResponse:(RKResponse *)response {
-    [super request:request didLoadResponse:response];
-    NSLog(@"Receive response for data chunk service, status code is %d", response.statusCode);
-    NSString * result = response.bodyAsString;
-    if (self.onLoadDataChunkCount) {
-        self.onLoadDataChunkCount([result intValue]);
+    NSLog(@"GetDataChunkCount service: receive response with status code is %d", response.statusCode);
+    if (response.isOK) {
+        NSString * result = response.bodyAsString;
+        self.dataChunkCount = [result integerValue];
     }
+    [super request:request didLoadResponse:response];
 }
 
 - (void)request:(RKRequest *)request didFailLoadWithError:(NSError *)error {
     [super request:request didFailLoadWithError:error];
-    NSLog(@"Data chunk service error, error description is %@", [error description]);
+    NSLog(@"Error in GetDataChunkCount service: %@", [error description]);
 }
 
 @end
@@ -54,58 +49,99 @@ static ECDataChunkCountService * sharedDataChunkCountService = nil;
 @interface ECDataService()
 
 @property (nonatomic, strong) RKClient * client;
+@property (nonatomic, strong) NSString * requestUrl;
+@property (nonatomic, assign) NSInteger dataChunkCount;
+@property (nonatomic, assign) NSInteger curChunkNr;
 
 @end
 
 @implementation ECDataService
 
-- (void) getData {
-    self.client = [RKClient clientWithBaseURLString:ECServiceBaseUrl];
-    [self.client setValue:@"gzip, deflate" forHTTPHeaderField:@"Accept-Encoding"];
-    // self.client.timeoutInterval = 3600.0;
-    
-    NSString * servicePath = [NSString stringWithFormat:@"/GetUserData/?authToken=%@&chunkNumber=1", [ECLoginService userToken]];
-    NSLog(@"%@", servicePath);
-    [self.client get:servicePath delegate:self];
-    
-    // NSDictionary* params = @{@"authToken" : [ECLoginService userToken]};
-    // [self.client get:@"/GetUserData/" queryParameters:params delegate:self];
+- (void) downloadChunk {
+    [self.client get:self.requestUrl delegate:self];
 }
 
+- (void) getNextChunk {
+    self.curChunkNr = self.curChunkNr + 1;
+    self.requestUrl = [NSString stringWithFormat:@"/GetUserDataChunk/?authToken=%@&chunkNumber=%d", [ECLoginService userToken], self.curChunkNr];
+    // NSDictionary* params = @{@"authToken" : [ECLoginService userToken]};
+    // [self.client get:@"/GetUserData/" queryParameters:params delegate:self];
+    [self downloadChunk];
+}
+
+- (void) getDataChunkCount {
+    sharedDataChunkCountService = [[ECDataChunkCountService alloc] init];
+    sharedDataChunkCountService.onDidLoadResponse = ^(RKResponse * response) {
+        self.dataChunkCount = sharedDataChunkCountService.dataChunkCount;
+        self.curChunkNr = 0;
+        [self getNextChunk];
+    };
+}
+
+#pragma mark RKRequest delegate
+
 - (void)request:(RKRequest *)request didLoadResponse:(RKResponse *)response {
-    [super request:request didLoadResponse:response];
-    NSLog(@"Receive response for data service, status code is %d", response.statusCode);
-    NSString * fileName = @"Documents/all.json";
-    NSString * pathToSave = [NSHomeDirectory() stringByAppendingPathComponent:fileName];
-    [response.body writeToFile:pathToSave atomically:YES];
+    NSLog(@"GetDataService: receive response on chunk %d (total %d), status code is %d", self.curChunkNr, self.dataChunkCount, response.statusCode);
+
+    if ([response isOK]) {
+        // TODO chunk X finished, total X, callback
+        NSString * fileName = [NSString stringWithFormat:@"Documents/data%d.json", self.curChunkNr]; // @"Documents/all3.json";
+        NSString * pathToSave = [NSHomeDirectory() stringByAppendingPathComponent:fileName];
+        [response.body writeToFile:pathToSave atomically:YES];
+    }
+    
+    // TODO, add invalid token check
+    
+    // TODO, add remaining chunks of data when they are ready
+    if (self.curChunkNr < self.dataChunkCount - 1) {
+        [self getNextChunk];
+    } else {
+        
+        // TODO add success callback
+        // [super request:request didLoadResponse:response];
+    }
+    
+   
 }
 
 - (void)request:(RKRequest *)request didFailLoadWithError:(NSError *)error {
-    NSLog(@"Data service error, error description is %@", [error description]);
+    NSLog(@"Error in GetDataService: %@", [error description]);
+    [super request:request didFailLoadWithError:error];
 }
 
+/**
 - (void)request:(RKRequest *)request didReceiveResponse:(RKResponse *)response {
     NSLog(@"Starting to receive response, status code is %d", response.statusCode);
 }
+ */
 
 - (void)request:(RKRequest *)request didReceiveData:(NSInteger)bytesReceived totalBytesReceived:(NSInteger)totalBytesReceived totalBytesExpectedToReceive:(NSInteger)totalBytesExpectedToReceive {
-    NSLog(@"bytesReceived is %d, totalBytesReceived is %d, totalBytesExpectedToReceive is %d", bytesReceived, totalBytesReceived, totalBytesExpectedToReceive);
+    // NSLog(@"bytesReceived is %d, totalBytesReceived is %d, totalBytesExpectedToReceive is %d", bytesReceived, totalBytesReceived, totalBytesExpectedToReceive);
+    
+    // TODO add progress callback
 }
 
-+ (void) test {
-    sharedDataChunkCountService = [[ECDataChunkCountService alloc] init];
+#pragma mark - public methods
+
+- (void) getData {
+    self.client = [RKClient clientWithBaseURLString:ECServiceBaseUrl];
+    [self.client setValue:@"gzip, deflate" forHTTPHeaderField:@"Accept-Encoding"];
     
-    sharedDataChunkCountService.onLoadDataChunkCount = ^(int numOfDataChunck) {
-        NSLog(@"Data chunk service, chunk size is %d", numOfDataChunck);
-        sharedDataServiceInstance = [[ECDataService alloc] init];
-        sharedDataServiceInstance.onDidLoadResponse = ^(RKResponse * response) {
-            NSLog(@"Finished downloading.");
-        };
-        [sharedDataServiceInstance getData];
-    };
-    
-    [sharedDataChunkCountService getDataChunkCount];
-    
+    [self getDataChunkCount];
+}
+
+- (void) retry {
+    [self downloadChunk];
+}
+
+#pragma mark - test methods
+
+static ECDataService * sharedDataServiceInstance = nil;
+
+
++ (void) test {    
+    sharedDataServiceInstance = [[ECDataService alloc] init];
+    [sharedDataServiceInstance getData];
 }
 
 @end

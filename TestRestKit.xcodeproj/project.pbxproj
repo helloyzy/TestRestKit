@@ -21,6 +21,8 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		0015D140169FC1B300229023 /* ECBrand1.json in Resources */ = {isa = PBXBuildFile; fileRef = 0015D13E169FC1B300229023 /* ECBrand1.json */; };
+		0015D141169FC1B300229023 /* ECBrand2.json in Resources */ = {isa = PBXBuildFile; fileRef = 0015D13F169FC1B300229023 /* ECBrand2.json */; };
 		002E48D1166357A70003B4B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E48D0166357A70003B4B4 /* UIKit.framework */; };
 		002E48D3166357A70003B4B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E48D2166357A70003B4B4 /* Foundation.framework */; };
 		002E48D5166357A70003B4B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E48D4166357A70003B4B4 /* CoreGraphics.framework */; };
@@ -307,6 +309,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0015D13E169FC1B300229023 /* ECBrand1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ECBrand1.json; sourceTree = SOURCE_ROOT; };
+		0015D13F169FC1B300229023 /* ECBrand2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ECBrand2.json; sourceTree = SOURCE_ROOT; };
 		002E48CC166357A70003B4B4 /* TestRestKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestRestKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		002E48D0166357A70003B4B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		002E48D2166357A70003B4B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -624,6 +628,8 @@
 		002E48D7166357A70003B4B4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0015D13E169FC1B300229023 /* ECBrand1.json */,
+				0015D13F169FC1B300229023 /* ECBrand2.json */,
 				003AB28F169EC03F0052BE39 /* ECDataBadFormat.json */,
 				002E48E6166357A70003B4B4 /* Default-568h@2x.png */,
 				002E48E2166357A70003B4B4 /* Default.png */,
@@ -1075,6 +1081,8 @@
 				00B60F2F169BBCFE00D53AD6 /* ECProdFeatrue.json in Resources */,
 				00B60F32169BBD6200D53AD6 /* ECESpecs.json in Resources */,
 				003AB290169EC03F0052BE39 /* ECDataBadFormat.json in Resources */,
+				0015D140169FC1B300229023 /* ECBrand1.json in Resources */,
+				0015D141169FC1B300229023 /* ECBrand2.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

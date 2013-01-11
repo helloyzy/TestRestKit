@@ -1,0 +1,64 @@
+{
+    "MKG_BRND": [
+                 {
+                 "mkg_brnd_id": 13,
+                 "prnt_brnd_id": null,
+                 "top_brnd_id": null,
+                 "brnd_nm": "Tappan",
+                 "is_internal": 1,
+                 "mkg_dig_aset_ownr_id": 17,
+                 "dsp_ord": 4,
+                 "show_sub_brnd": 0
+                 },
+                 {
+                 "mkg_brnd_id": 14,
+                 "prnt_brnd_id": null,
+                 "top_brnd_id": null,
+                 "brnd_nm": "White Westinghouse",
+                 "is_internal": 1,
+                 "mkg_dig_aset_ownr_id": 18,
+                 "dsp_ord": 5,
+                 "show_sub_brnd": 0
+                 },
+                 {
+                 "mkg_brnd_id": 15,
+                 "prnt_brnd_id": 6,
+                 "top_brnd_id": null,
+                 "brnd_nm": "Commercial",
+                 "is_internal": 1,
+                 "mkg_dig_aset_ownr_id": 9178,
+                 "dsp_ord": 6,
+                 "show_sub_brnd": 0
+                 },
+                 {
+                 "mkg_brnd_id": 16,
+                 "prnt_brnd_id": null,
+                 "top_brnd_id": null,
+                 "brnd_nm": "Kelvinator",
+                 "is_internal": 1,
+                 "mkg_dig_aset_ownr_id": 9237,
+                 "dsp_ord": 3,
+                 "show_sub_brnd": 0
+                 },
+                 {
+                 "mkg_brnd_id": 19,
+                 "prnt_brnd_id": 16,
+                 "top_brnd_id": null,
+                 "brnd_nm": "Commercial",
+                 "is_internal": 0,
+                 "mkg_dig_aset_ownr_id": 9856,
+                 "dsp_ord": 2,
+                 "show_sub_brnd": 0
+                 },
+                 {
+                 "mkg_brnd_id": 20,
+                 "prnt_brnd_id": 16,
+                 "top_brnd_id": null,
+                 "brnd_nm": "Kelvinator",
+                 "is_internal": 0,
+                 "mkg_dig_aset_ownr_id": 9865,
+                 "dsp_ord": 1,
+                 "show_sub_brnd": 0
+                 }
+                 ]
+}

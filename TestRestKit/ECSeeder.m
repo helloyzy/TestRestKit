@@ -41,6 +41,9 @@
     
     // [seeder seedObjectsFromFiles:@"ECDataBadFormat.json", nil];
     
+    [seeder seedObjectsFromFiles:@"ECBrand1.json", @"ECBrand2.json", nil];
+    
+    /**
     // brand and product category
     [seeder seedObjectsFromFiles:@"ECData.json", nil];
     // products/product variant(SKU) related
@@ -54,7 +57,8 @@
     
     // images
     [seeder seedObjectsFromFiles:@"ECImage.json", @"ECBrandProdCatImg.json", nil];
-
+     */
+     
     [seeder finalizeSeedingAndExit];
 }
 
