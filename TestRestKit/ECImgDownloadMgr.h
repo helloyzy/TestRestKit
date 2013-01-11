@@ -41,6 +41,7 @@ typedef void(^ECSvcSingleImageDownloadDidFailWithErrorBlock)(NSError *error);
 + (ECImgDownloadMgr *) createDownloadThumbImgService;
 - (void) downloadImages;
 - (void) cancelDownload;
+- (BOOL) isServiceCancelled;
 
 @property (nonatomic, copy) ECSvcImageDownloadProgressBlock onImageDownloadProgress;
 @property (nonatomic, copy) ECSvcImageDidFinishDownloadBlock onImageDidFinishDownload;

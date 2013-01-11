@@ -8,6 +8,7 @@
 
 #import "ECDataService.h"
 #import "ECLoginService.h"
+#import "ECMappingMgr.h"
 
 // typedef void(^ECSvcDidLoadDataChunkCountBlock)(int numOfChunks);
 
@@ -50,6 +51,7 @@ static ECDataChunkCountService * sharedDataChunkCountService = nil;
 @interface ECDataService()
 
 @property (nonatomic, strong) RKClient * client;
+@property (nonatomic, strong) RKObjectManager * objectManager;
 @property (nonatomic, strong) NSString * requestUrl;
 @property (nonatomic, assign) NSInteger dataChunkCount;
 @property (nonatomic, assign) NSInteger curChunkNr;
@@ -59,7 +61,8 @@ static ECDataChunkCountService * sharedDataChunkCountService = nil;
 @implementation ECDataService
 
 - (void) downloadChunk {
-    [self.client get:self.requestUrl delegate:self];
+    // [self.client get:self.requestUrl delegate:self];
+    [self.objectManager loadObjectsAtResourcePath:self.requestUrl delegate:self];
 }
 
 - (void) getNextChunk {
@@ -111,6 +114,17 @@ static ECDataChunkCountService * sharedDataChunkCountService = nil;
     [super request:request didFailLoadWithError:error];
 }
 
+#pragma mark RKObjectLoader delegate
+
+- (void)objectLoader:(RKObjectLoader *)objectLoader didLoadObjects:(NSArray *)objects {
+    NSLog(@"Did load %d objects", [objects count]);
+}
+
+- (void)objectLoader:(RKObjectLoader *)objectLoader didFailWithError:(NSError *)error {
+    NSLog(@"Hit error: %@", error);
+}
+
+
 /**
 - (void)request:(RKRequest *)request didReceiveResponse:(RKResponse *)response {
     NSLog(@"Starting to receive response, status code is %d", response.statusCode);
@@ -126,9 +140,14 @@ static ECDataChunkCountService * sharedDataChunkCountService = nil;
 #pragma mark - public methods
 
 - (void) getData {
-    self.client = [RKClient clientWithBaseURLString:ECServiceBaseUrl];
-    [self.client setValue:@"gzip, deflate" forHTTPHeaderField:@"Accept-Encoding"];
-    
+    // self.client = [RKClient clientWithBaseURLString:ECServiceBaseUrl];
+    // [self.client setValue:@"gzip, deflate" forHTTPHeaderField:@"Accept-Encoding"];
+    RKObjectManager * objectManager = [RKObjectManager managerWithBaseURLString:ECServiceBaseUrl];
+    objectManager.client.requestQueue.showsNetworkActivityIndicatorWhenBusy = YES;
+    [objectManager.client setValue:@"gzip, deflate" forHTTPHeaderField:@"Accept-Encoding"];
+    objectManager.objectStore = [RKManagedObjectStore objectStoreWithStoreFilename:@"CoreDataStore.sqlite" usingSeedDatabaseName:nil managedObjectModel:nil delegate:self];
+    [ECMappingMgr setupMapping:objectManager];
+    self.objectManager = objectManager;
     [self getDataChunkCount];
 }
 

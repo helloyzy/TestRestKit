@@ -7,8 +7,9 @@
 //
 
 #import "ECServiceBase.h"
+#import <RestKit/RestKit.h>
 
-@interface ECDataService : ECServiceBase
+@interface ECDataService : ECServiceBase <RKObjectLoaderDelegate>
 
 + (void) test;
 

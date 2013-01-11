@@ -97,6 +97,7 @@ static NSInteger maxFailuresAllowed = 3;
 @property (nonatomic, assign) NSInteger failedCount;
 @property (strong, nonatomic) NSMutableArray * failedRequests;
 @property (strong, nonatomic) NSMutableArray * allImgRequests; // hold this for reconstruct urls in case of token re-accquired
+@property (assign, nonatomic) BOOL isCancelled;
 
 @end
 
@@ -174,6 +175,7 @@ static NSInteger maxFailuresAllowed = 3;
     self.totalRequestCount = [self.imgRequestQueue count]; // do not use the allImgRequests to determine the total request count
     self.downloadedCount = 0;
     self.failedCount = 0;
+    self.isCancelled = NO;
     [self.imgRequestQueue start];
 }
 
@@ -270,7 +272,7 @@ static NSInteger maxFailuresAllowed = 3;
             self.onImageDidFinishDownload(self.failedCount, self.totalRequestCount);
         }        
         [self clearup];
-    } else {
+    } else if (![self isServiceCancelled]) {
         // [self performSelector:@selector(retryFailedImgRequests) withObject:self afterDelay:1.0];
         [self performSelectorInBackground:@selector(retryFailedImgRequests) withObject:nil];
     }
@@ -318,8 +320,14 @@ static NSInteger maxFailuresAllowed = 3;
 }
 
 - (void) cancelDownload {
-    [self.imgRequestQueue cancelAllRequests];
     [self.allImgRequests removeAllObjects];
+    [self.failedRequests removeAllObjects];
+    self.isCancelled = YES;
+    [self.imgRequestQueue cancelAllRequests];
+}
+
+- (BOOL) isServiceCancelled {
+    return self.isCancelled;
 }
 
 + (ECImgDownloadMgr *) createDownloadPreImgService {
