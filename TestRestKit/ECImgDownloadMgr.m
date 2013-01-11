@@ -317,6 +317,11 @@ static NSInteger maxFailuresAllowed = 3;
 
 }
 
+- (void) cancelDownload {
+    [self.imgRequestQueue cancelAllRequests];
+    [self.allImgRequests removeAllObjects];
+}
+
 + (ECImgDownloadMgr *) createDownloadPreImgService {
     return [[ECImgDownloadMgr alloc] initWithServiceName:previewImgService];
 }

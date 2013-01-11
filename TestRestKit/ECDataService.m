@@ -34,6 +34,7 @@
         NSString * result = response.bodyAsString;
         self.dataChunkCount = [result integerValue];
     }
+    // TODO handle user token invalid?
     [super request:request didLoadResponse:response];
 }
 
@@ -76,6 +77,7 @@ static ECDataChunkCountService * sharedDataChunkCountService = nil;
         self.curChunkNr = 0;
         [self getNextChunk];
     };
+    [sharedDataChunkCountService getDataChunkCount];
 }
 
 #pragma mark RKRequest delegate
@@ -131,7 +133,11 @@ static ECDataChunkCountService * sharedDataChunkCountService = nil;
 }
 
 - (void) retry {
-    [self downloadChunk];
+    if (self.dataChunkCount == 0) { // not getting the dataChunkCount, fresh start
+        [self getDataChunkCount];
+    } else {
+        [self downloadChunk];
+    }
 }
 
 #pragma mark - test methods

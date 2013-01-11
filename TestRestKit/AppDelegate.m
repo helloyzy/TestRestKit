@@ -83,7 +83,7 @@
 
 - (void) test {
     // [self testImageService];
-    // [self testDataService];
+    [self testDataService];
 }
 
 

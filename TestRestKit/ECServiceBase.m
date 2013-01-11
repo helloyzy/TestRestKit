@@ -12,16 +12,23 @@ static RKClient * sharedClient = nil;
 
 @implementation ECServiceBase
 
++ (RKClient *) createRKClient {
+    RKClient * result = [RKClient clientWithBaseURLString:ECServiceBaseUrl];
+    result.requestQueue.showsNetworkActivityIndicatorWhenBusy = YES;
+    return result;
+}
+
 +(void) setupService {
-    sharedClient = [RKClient clientWithBaseURLString:ECServiceBaseUrl];
+    sharedClient = [self createRKClient];
 }
 
 +(RKClient *) sharedClient {
     if (!sharedClient) {
-        sharedClient = [RKClient clientWithBaseURLString:ECServiceBaseUrl];
+        sharedClient = [self createRKClient];
     }
     return sharedClient;
 }
+
 
 +(BOOL) isServiceAvailable {
     return ([[[RKClient sharedClient] reachabilityObserver] isReachabilityDetermined] && [[RKClient sharedClient] isNetworkReachable]);
