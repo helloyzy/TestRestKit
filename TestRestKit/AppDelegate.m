@@ -16,6 +16,57 @@
 #import "ECLoginService.h"
 #import "ECImgDownloadMgr.h"
 #import "ECDataService.h"
+#import "IBFunctions.h"
+
+@interface ECDataChunkCountServiceTemp : ECServiceBase
+
+- (void) getDataChunkCount;
+
+// @property(nonatomic, strong) ECSvcDidLoadDataChunkCountBlock onLoadDataChunkCount;
+@property(nonatomic, assign) NSInteger dataChunkCount;
+
+@end
+
+@implementation ECDataChunkCountServiceTemp
+
+- (id) init {
+    self = [super init];
+    if (self) {
+        self.isHandleUserTokenInvalid = YES;
+    }
+    return self;
+}
+
+- (void) retryServiceOnUserTokenAccquired {
+    [self getDataChunkCount];
+}
+
+- (void) getDataChunkCount {
+    NSString * serviceUrl = [NSString stringWithFormat:@"/GetDataChunksCount/?authToken=%@", [ECLoginService userToken]];
+    serviceUrl = [serviceUrl stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    [[ECServiceBase sharedClient] get:serviceUrl delegate:self];
+}
+
+- (void)request:(RKRequest *)request didLoadResponse:(RKResponse *)response {
+    NSLog(@"GetDataChunkCount service: receive response with status code is %d", response.statusCode);
+    if (response.isOK) {
+        NSString * result = response.bodyAsString;
+        self.dataChunkCount = [result integerValue];
+    }
+    // TODO handle user token invalid?
+    [super request:request didLoadResponse:response];
+}
+
+- (void)request:(RKRequest *)request didFailLoadWithError:(NSError *)error {
+    [super request:request didFailLoadWithError:error];
+    NSLog(@"Error in GetDataChunkCount service: %@", [error description]);
+}
+
+@end
+
+static ECDataChunkCountServiceTemp * dataCountService = nil;
+static NSDate * date1;
+static NSDate * date2;
 
 @interface AppDelegate()
 
@@ -81,9 +132,63 @@
     [self.loginService authenticate:@"ProdIntiPad1" withPwd:@"Northridge*1"];
 }
 
+// ------------- test duration --------------
+
+- (void) testDuration {
+    date1 = [NSDate date];
+    self.loginService = [ECLoginService sharedInstance];
+    self.loginService.onDidLoadResponse = ^(RKResponse * response) {
+        NSLog(@"Login service, response status code is %d, token is %@", response.statusCode, [ECLoginService userToken]);
+        dataCountService = [[ECDataChunkCountServiceTemp alloc] init];
+        dataCountService.onDidLoadResponse = ^(RKResponse * response) {
+            NSLog(@"%d", dataCountService.dataChunkCount);
+            NSString * requestUrl = [NSString stringWithFormat:@"/GetUserDataChunk/?authToken=%@&chunkNumber=3", [ECLoginService userToken]];
+            [[RKClient sharedClient] get:requestUrl delegate:self];
+        };
+        [dataCountService getDataChunkCount];
+    };
+    [self.loginService authenticate:@"ProdIntiPad1" withPwd:@"Northridge*1"];
+}
+
+- (void)request:(RKRequest *)request didLoadResponse:(RKResponse *)response {
+    NSString * filePath = [IB_DOCUMENTS_DIR() stringByAppendingPathComponent:@"all3.json"];
+    [response.body writeToFile:filePath atomically:YES];
+    date2 = [NSDate date];
+    NSLog(@"%f", [date2 timeIntervalSinceDate:date1]);
+}
+
+- (void)request:(RKRequest *)request didFailLoadWithError:(NSError *)error {
+    date2 = [NSDate date];
+    NSLog(@"%f", [date2 timeIntervalSinceDate:date1]);
+}
+
+- (void)request:(RKRequest *)request didReceiveData:(NSInteger)bytesReceived totalBytesReceived:(NSInteger)totalBytesReceived totalBytesExpectedToReceive:(NSInteger)totalBytesExpectedToReceive {
+    NSLog(@"bytesReceived is %d, totalBytesReceived is %d, totalBytesExpectedToReceive is %d", bytesReceived, totalBytesReceived, totalBytesExpectedToReceive);
+}
+
+// ------------- test duration --------------
+
 - (void) test {
     // [self testImageService];
     [self testDataService];
+    // [self testDuration];
+    
+    /**
+    NSString * imgPath = IB_DOCUMENTS_DIR();
+    imgPath = [imgPath stringByAppendingPathComponent:@"Images/Preview/1000_789.json"];
+
+    NSString * dirPath = IB_DOCUMENTS_DIR();
+    dirPath = [dirPath stringByAppendingPathComponent:@"Images/Preview"];
+    NSFileManager * fileManager = [NSFileManager defaultManager];
+    if (![fileManager fileExistsAtPath:dirPath]) {
+        [fileManager createDirectoryAtPath:dirPath withIntermediateDirectories:YES attributes:nil error:nil];
+    }
+
+    
+    NSString * result = @"123";
+    [result writeToFile:imgPath atomically:YES encoding:NSUTF8StringEncoding error:nil];
+    NSLog(@"%@", imgPath);
+     */
 }
 
 

@@ -7,10 +7,20 @@
 //
 
 #import "ECServiceBase.h"
+#import "ECLoginService.h"
 
 static RKClient * sharedClient = nil;
 
 @implementation ECServiceBase
+
+- (id) init {
+    self = [super init];
+    if (self) {
+        self.isHandleUserTokenInvalid = NO;
+        self.userTokenIvalidHandled = NO;
+    }
+    return self;
+}
 
 + (RKClient *) createRKClient {
     RKClient * result = [RKClient clientWithBaseURLString:ECServiceBaseUrl];
@@ -29,9 +39,8 @@ static RKClient * sharedClient = nil;
     return sharedClient;
 }
 
-
 +(BOOL) isServiceAvailable {
-    return ([[[RKClient sharedClient] reachabilityObserver] isReachabilityDetermined] && [[RKClient sharedClient] isNetworkReachable]);
+    return ([[sharedClient reachabilityObserver] isReachabilityDetermined] && [sharedClient isNetworkReachable]);
 }
 
 #pragma mark - RKRequest delegate related
@@ -39,6 +48,13 @@ static RKClient * sharedClient = nil;
 //TODO mock code, need future work
 
 - (void)request:(RKRequest*)request didLoadResponse:(RKResponse*)response {
+    if ([response isUnauthorized] && self.isHandleUserTokenInvalid && !self.userTokenIvalidHandled) {
+        self.userTokenIvalidHandled = YES;
+        self.isContinueProcessing = NO;
+        [ECLoginService accquireUserToken:self selector:@selector(_retryServiceOnUserTokenAccquired)];
+        return;
+    }
+    self.isContinueProcessing = YES;
     if (self.onDidLoadResponse) {
         self.onDidLoadResponse(response);
     }
@@ -69,5 +85,14 @@ static RKClient * sharedClient = nil;
         self.onDidFailLoadWithError(error);
     }
 }
+
+#pragma mark - methods that child can override
+
+- (void) _retryServiceOnUserTokenAccquired {
+    [ECLoginService unregForUserTokenAccquired:self];
+    [self retryServiceOnUserTokenAccquired];
+}
+
+- (void) retryServiceOnUserTokenAccquired {}
 
 @end

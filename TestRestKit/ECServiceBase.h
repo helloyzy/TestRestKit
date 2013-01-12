@@ -19,10 +19,13 @@ typedef void(^ECRequestDidFailLoadWithErrorBlock)(NSError *error);
 
 @interface ECServiceBase : NSObject <RKRequestDelegate>
 
-+(void) setupService;
 +(RKClient *) sharedClient;
 
++(void) setupService;
 +(BOOL) isServiceAvailable;
+
+// for child classes to implement for user token callback if they pass the control to base
+-(void) retryServiceOnUserTokenAccquired;
 
 /**
  A block to invoke when the receiver has loaded a response.
@@ -37,5 +40,11 @@ typedef void(^ECRequestDidFailLoadWithErrorBlock)(NSError *error);
  @see [RKRequestDelegate request:didFailLoadWithError:]
  */
 @property (nonatomic, copy) ECRequestDidFailLoadWithErrorBlock onDidFailLoadWithError;
+
+@property (nonatomic, assign) BOOL isHandleUserTokenInvalid;
+
+@property (nonatomic, assign) BOOL userTokenIvalidHandled;
+
+@property (nonatomic, assign) BOOL isContinueProcessing;
 
 @end

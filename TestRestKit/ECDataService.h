@@ -9,8 +9,20 @@
 #import "ECServiceBase.h"
 #import <RestKit/RestKit.h>
 
+/**
+ Error codes
+ */
+typedef enum ECDataServiceFailCode {
+    ECDataServiceFailInvalidToken = -1,
+    ECDataServiceFailNoConnection
+} ECDataServiceFailCode;
+
+static NSString * ECDataServiceDomain = @"ECDataServiceDomain";
+
 @interface ECDataService : ECServiceBase <RKObjectLoaderDelegate>
 
 + (void) test;
+- (void) cancel;
+- (void) getData;
 
 @end

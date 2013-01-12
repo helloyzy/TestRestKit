@@ -23,6 +23,18 @@
 
 @implementation ECDataChunkCountService
 
+- (id) init {
+    self = [super init];
+    if (self) {
+        self.isHandleUserTokenInvalid = YES;
+    }
+    return self;
+}
+
+- (void) retryServiceOnUserTokenAccquired {
+    [self getDataChunkCount];
+}
+
 - (void) getDataChunkCount {
     NSString * serviceUrl = [NSString stringWithFormat:@"/GetDataChunksCount/?authToken=%@", [ECLoginService userToken]];
     serviceUrl = [serviceUrl stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
@@ -48,6 +60,9 @@
 
 static ECDataChunkCountService * sharedDataChunkCountService = nil;
 
+typedef void(^ECSvcDataChunkProgressBlock)(NSInteger received, NSInteger total);
+typedef void(^ECSvcDataChunkLoadChunkBlock)(NSInteger curLoadedChunk, NSInteger totalChunks);
+
 @interface ECDataService()
 
 @property (nonatomic, strong) RKClient * client;
@@ -55,10 +70,24 @@ static ECDataChunkCountService * sharedDataChunkCountService = nil;
 @property (nonatomic, strong) NSString * requestUrl;
 @property (nonatomic, assign) NSInteger dataChunkCount;
 @property (nonatomic, assign) NSInteger curChunkNr;
+@property (nonatomic, strong) ECSvcDataChunkProgressBlock onProgressData;
+@property (nonatomic, strong) ECSvcDataChunkLoadChunkBlock onLoadChunk;
 
 @end
 
 @implementation ECDataService
+
+- (id) init {
+    self = [super init];
+    if (self) {
+        self.isHandleUserTokenInvalid = YES;
+    }
+    return self;
+}
+
+- (void) retryServiceOnUserTokenAccquired {
+    [self retry];
+}
 
 - (void) downloadChunk {
     // [self.client get:self.requestUrl delegate:self];
@@ -88,22 +117,33 @@ static ECDataChunkCountService * sharedDataChunkCountService = nil;
 - (void)request:(RKRequest *)request didLoadResponse:(RKResponse *)response {
     NSLog(@"GetDataService: receive response on chunk %d (total %d), status code is %d", self.curChunkNr, self.dataChunkCount, response.statusCode);
 
+    [super request:request didLoadResponse:response];
+    if (!self.isContinueProcessing) {
+        return;
+    }
+    
+    if ([response isUnauthorized]) {
+        // user password changed, report error
+        [self request:request didFailLoadWithError:[NSError errorWithDomain:ECDataServiceDomain code:ECDataServiceFailInvalidToken userInfo:nil]];
+        return;
+    }
+    
     if ([response isOK]) {
-        // TODO chunk X finished, total X, callback
+        if (self.onLoadChunk) {
+            self.onLoadChunk(self.curChunkNr, self.dataChunkCount);
+        }
+        /**
         NSString * fileName = [NSString stringWithFormat:@"Documents/data%d.json", self.curChunkNr]; // @"Documents/all3.json";
         NSString * pathToSave = [NSHomeDirectory() stringByAppendingPathComponent:fileName];
         [response.body writeToFile:pathToSave atomically:YES];
-    }
-    
-    // TODO, add invalid token check
-    
-    // TODO, add remaining chunks of data when they are ready
-    if (self.curChunkNr < self.dataChunkCount - 1) {
-        [self getNextChunk];
-    } else {
+         */
+    } 
         
+    // TODO, add remaining chunks of data when they are ready
+    if (self.curChunkNr < self.dataChunkCount) {
+        [self getNextChunk];
+    } else {        
         // TODO add success callback
-        // [super request:request didLoadResponse:response];
     }
     
    
@@ -114,27 +154,21 @@ static ECDataChunkCountService * sharedDataChunkCountService = nil;
     [super request:request didFailLoadWithError:error];
 }
 
+- (void)request:(RKRequest *)request didReceiveData:(NSInteger)bytesReceived totalBytesReceived:(NSInteger)totalBytesReceived totalBytesExpectedToReceive:(NSInteger)totalBytesExpectedToReceive {
+    NSLog(@"Data chunk service: bytesReceived is %d, totalBytesReceived is %d, totalBytesExpectedToReceive is %d", bytesReceived, totalBytesReceived, totalBytesExpectedToReceive);
+    if (self.onProgressData) {
+        self.onProgressData(totalBytesReceived, totalBytesExpectedToReceive);
+    }
+}
+
 #pragma mark RKObjectLoader delegate
 
 - (void)objectLoader:(RKObjectLoader *)objectLoader didLoadObjects:(NSArray *)objects {
-    NSLog(@"Did load %d objects", [objects count]);
+    // NSLog(@"Did load %d objects", [objects count]);
 }
 
 - (void)objectLoader:(RKObjectLoader *)objectLoader didFailWithError:(NSError *)error {
-    NSLog(@"Hit error: %@", error);
-}
-
-
-/**
-- (void)request:(RKRequest *)request didReceiveResponse:(RKResponse *)response {
-    NSLog(@"Starting to receive response, status code is %d", response.statusCode);
-}
- */
-
-- (void)request:(RKRequest *)request didReceiveData:(NSInteger)bytesReceived totalBytesReceived:(NSInteger)totalBytesReceived totalBytesExpectedToReceive:(NSInteger)totalBytesExpectedToReceive {
-    // NSLog(@"bytesReceived is %d, totalBytesReceived is %d, totalBytesExpectedToReceive is %d", bytesReceived, totalBytesReceived, totalBytesExpectedToReceive);
-    
-    // TODO add progress callback
+    // NSLog(@"Hit error: %@", error);
 }
 
 #pragma mark - public methods
@@ -157,6 +191,10 @@ static ECDataChunkCountService * sharedDataChunkCountService = nil;
     } else {
         [self downloadChunk];
     }
+}
+
+- (void) cancel {
+    [self.objectManager.client.requestQueue cancelAllRequests];
 }
 
 #pragma mark - test methods

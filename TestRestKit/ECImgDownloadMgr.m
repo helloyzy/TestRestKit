@@ -10,9 +10,12 @@
 #import "ProductImage.h"
 #import "ECServiceBase.h"
 #import "ECLoginService.h"
+#import "IBFunctions.h"
 
 static NSString * previewImgService = @"GetPreviewImage";
 static NSString * thumbnailImgService = @"GetThumbnailImage";
+static NSString * previewImgDir = @"Images/Preview";
+static NSString * thumbnailImgDir = @"Images/Thumbnail";
 static NSInteger maxFailuresAllowed = 3;
 
 @interface ECImgRequest : RKRequest
@@ -27,14 +30,6 @@ static NSInteger maxFailuresAllowed = 3;
 @end
 
 @implementation ECImgRequest
-
-/**
-- (ECImgRequest *) copyRequest {
-    ECImgRequest * result = [ECImgRequest constructImgRequest:self.imgRelativePath underService:self.imgServiceName];
-    result.failedTimes = self.failedTimes;
-    return result;
-}
- */
 
 + (NSString *) constructImgUrl:(NSString *)imgRelativePath underService:(NSString *)serviceName {
     NSString * imgUrlStr = ECServiceBaseUrl;
@@ -55,11 +50,18 @@ static NSInteger maxFailuresAllowed = 3;
 
 - (void) constructImgSavePath {
     NSString * flatImgPath = [self.imgRelativePath stringByReplacingOccurrencesOfString:@"\\" withString:@"_"];
+    NSString * imgPath = IB_DOCUMENTS_DIR();
     if ([self.imgServiceName isEqualToString:previewImgService]) {
-        self.imgPathToSave = [NSString stringWithFormat:@"%@Preview.jpg", flatImgPath];
+        imgPath = [imgPath stringByAppendingPathComponent:previewImgDir];
+        // self.imgPathToSave = [NSString stringWithFormat:@"%@Preview.jpg", flatImgPath];
     } else {
-        self.imgPathToSave = [NSString stringWithFormat:@"%@Thumbnail.jpg", flatImgPath];
+        imgPath = [imgPath stringByAppendingPathComponent:thumbnailImgDir];
+        // self.imgPathToSave = [NSString stringWithFormat:@"%@Thumbnail.jpg", flatImgPath];
     }
+    imgPath = [imgPath stringByAppendingPathComponent:flatImgPath];
+    imgPath = [imgPath stringByAppendingPathExtension:@"jpg"];
+    self.imgPathToSave = imgPath;
+    
 }
 
 + (ECImgRequest *) constructImgRequest:(NSString *)imgRelativePath underService:(NSString *)serviceName {
@@ -71,9 +73,9 @@ static NSInteger maxFailuresAllowed = 3;
     [imgRequest constructImgSavePath];
     imgRequest.onDidLoadResponse = ^(RKResponse* response) {
         ECImgRequest * originalRequest = (ECImgRequest *)[response request];
-        NSString * docDir = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
-        NSString * pathToSave = [docDir stringByAppendingPathComponent:originalRequest.imgPathToSave];
-        [response.body writeToFile:pathToSave atomically:YES];
+        // NSString * docDir = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
+        // NSString * pathToSave = [docDir stringByAppendingPathComponent:originalRequest.imgPathToSave];
+        [response.body writeToFile:originalRequest.imgPathToSave atomically:YES];
     };
     
     /**
@@ -165,6 +167,19 @@ static NSInteger maxFailuresAllowed = 3;
     [self restartDownload];
 }
 
+- (void) ensureImageDir {
+    NSString * imgDir = IB_DOCUMENTS_DIR();
+    if ([self.imgServiceName isEqualToString:previewImgService]) {
+        imgDir = [imgDir stringByAppendingPathComponent:previewImgDir];
+    } else {
+        imgDir = [imgDir stringByAppendingPathComponent:thumbnailImgDir];
+    }
+    NSFileManager * fileManager = [NSFileManager defaultManager];
+    if (![fileManager fileExistsAtPath:imgDir]) {
+        [fileManager createDirectoryAtPath:imgDir withIntermediateDirectories:YES attributes:nil error:nil];
+    }
+}
+
 - (void) startDownloadImages {
     /**
     if (![ECServiceBase isServiceAvailable]) {
@@ -176,6 +191,7 @@ static NSInteger maxFailuresAllowed = 3;
     self.downloadedCount = 0;
     self.failedCount = 0;
     self.isCancelled = NO;
+    [self ensureImageDir];
     [self.imgRequestQueue start];
 }
 
