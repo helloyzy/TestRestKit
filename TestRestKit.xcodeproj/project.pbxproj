@@ -24,6 +24,11 @@
 		0015D140169FC1B300229023 /* ECBrand1.json in Resources */ = {isa = PBXBuildFile; fileRef = 0015D13E169FC1B300229023 /* ECBrand1.json */; };
 		0015D141169FC1B300229023 /* ECBrand2.json in Resources */ = {isa = PBXBuildFile; fileRef = 0015D13F169FC1B300229023 /* ECBrand2.json */; };
 		0020D37E16A563FE002B4F71 /* Functions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0020D37D16A563FE002B4F71 /* Functions.m */; };
+		0020D38F16A568BF002B4F71 /* ECDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B60F35169BC48100D53AD6 /* ECDataService.m */; };
+		0020D39516A568D0002B4F71 /* ECImgDownloadMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DF9881698149900863931 /* ECImgDownloadMgr.m */; };
+		0020D39616A568D6002B4F71 /* Functions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0020D37D16A563FE002B4F71 /* Functions.m */; };
+		0020D39716A568DD002B4F71 /* ECServiceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DF91C1696A22D00863931 /* ECServiceBase.m */; };
+		0020D39816A568E7002B4F71 /* ECLoginService.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DF9191696A0FF00863931 /* ECLoginService.m */; };
 		002E48D1166357A70003B4B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E48D0166357A70003B4B4 /* UIKit.framework */; };
 		002E48D3166357A70003B4B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E48D2166357A70003B4B4 /* Foundation.framework */; };
 		002E48D5166357A70003B4B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E48D4166357A70003B4B4 /* CoreGraphics.framework */; };
@@ -1234,6 +1239,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0020D39816A568E7002B4F71 /* ECLoginService.m in Sources */,
+				0020D39716A568DD002B4F71 /* ECServiceBase.m in Sources */,
+				0020D39616A568D6002B4F71 /* Functions.m in Sources */,
+				0020D39516A568D0002B4F71 /* ECImgDownloadMgr.m in Sources */,
+				0020D38F16A568BF002B4F71 /* ECDataService.m in Sources */,
 				00D610371670805C002ECCBB /* main.m in Sources */,
 				00D610381670805C002ECCBB /* AppDelegate.m in Sources */,
 				00D610391670805C002ECCBB /* MasterViewController.m in Sources */,
