@@ -146,7 +146,7 @@ static NSDate * date2;
         NSLog(@"Erron on downloading preview images: error code is %d", [error code]);
     };
     self.previewImgDownloadSvc.onImageDownloadProgress = ^(int numOfDidDownloaded, int numOfFailed, int numOfTotal) {
-        NSLog(@"Preview images downloading, downloaded:%d, , failed:%d, total:%d", numOfDidDownloaded, numOfFailed, numOfTotal);
+        NSLog(@"Preview images downloading, downloaded:%d, failed:%d, total:%d", numOfDidDownloaded, numOfFailed, numOfTotal);
     };
     self.previewImgDownloadSvc.onSingleImageDownloadError = ^(NSError * error) {
         NSLog(@"Erron on downloading preview images(single): error code is %d", [error code]);
@@ -304,19 +304,18 @@ static NSDate * date2;
 #pragma mark - public testing APIs
 
 - (void) testService {
-    self.loginService = [ECLoginService sharedInstance];
-    self.loginService.onDidLoadResponse = ^(RKResponse * response) {
+    ECLoginService * loginService = [ECLoginService sharedInstance];
+    loginService.onDidLoadResponse = ^(RKResponse * response) {
         NSLog(@"Login service, response status code is %d, token is %@", response.statusCode, [ECLoginService userToken]);
-        // call other services
+        [self testPreviewImageService];
     };
-    [self.loginService authenticate:@"ProdIntiPad1" withPwd:@"Northridge*1"];
+    [loginService authenticate:@"ProdIntiPad1" withPwd:@"Northridge*1"];
 }
 
 - (void) test {
-    // [self testImageService];
-    // [self testDataService];
     // [self testDuration];
     // [self testWriteFile];
+    [self testService];
 }
 
 
