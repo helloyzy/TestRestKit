@@ -76,7 +76,7 @@
     
     RKManagedObjectMapping * productMapping = [RKManagedObjectMapping mappingForEntityWithName:@"Product" inManagedObjectStore:objectManager.objectStore];
     productMapping.primaryKeyAttribute = @"mkg_prod_id";
-    [productMapping mapAttributes:@"mkg_prod_id", @"prod_cd", @"mkg_brnd_prod_cat_id", @"mkg_brnd_modl_yr_id", @"mkg_inst_typ_id", @"mkg_prod_desc_id", @"mkg_nmnl_powr_typ_id", @"mkg_nmnl_prod_sz_id", @"mkg_prod_lif_stts_id", @"mkg_dig_aset_ownr_id",  nil];
+    [productMapping mapAttributes:@"mkg_prod_id", @"prod_cd", @"mkg_brnd_prod_cat_id", @"mkg_brnd_modl_yr_id", @"mkg_inst_typ_id", @"mkg_prod_desc_id", @"mkg_nmnl_powr_typ_id", @"mkg_nmnl_prod_sz_id", @"mkg_prod_lif_stts_id", @"mkg_dig_aset_ownr_id", @"is_enrg_star", nil];
     [productMapping hasOne:@"brandProdCat" withMapping:brandProdCatMapping];
     [productMapping connectRelationship:@"brandProdCat" withObjectForPrimaryKeyAttribute:@"mkg_brnd_prod_cat_id"];
     [productMapping hasOne:@"installType" withMapping:prodInsTypeMapping];

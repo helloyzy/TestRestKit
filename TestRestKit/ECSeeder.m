@@ -39,9 +39,9 @@
     RKLogConfigureByName("RestKit/CoreData", RKLogLevelDebug);
     RKManagedObjectSeeder *seeder = [RKManagedObjectSeeder objectSeederWithObjectManager:objectManager];
     
-    // [seeder seedObjectsFromFiles:@"ECDataBadFormat.json", nil];
+    [seeder seedObjectsFromFiles:@"ECDataBadFormat.json", nil];
     
-    [seeder seedObjectsFromFiles:@"ECBrand1.json", @"ECBrand2.json", nil];
+    // [seeder seedObjectsFromFiles:@"ECBrand1.json", @"ECBrand2.json", nil];
     
     /**
     // brand and product category

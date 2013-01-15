@@ -168,10 +168,38 @@ static NSDate * date2;
 
 // ------------- test duration --------------
 
+
+// --------------- test write file ------------------------
+
+- (void) appendContent:(NSString *) contentToAppend {
+    NSString * docDir = IB_DOCUMENTS_DIR();
+    NSString * filePath = [docDir stringByAppendingPathComponent:@"failed.txt"];
+    
+    NSFileHandle * fileHandle = [NSFileHandle fileHandleForWritingAtPath:filePath];
+    [fileHandle seekToEndOfFile];
+    [fileHandle writeData:[contentToAppend dataUsingEncoding:NSUTF8StringEncoding]];
+    [fileHandle writeData:[@"\n" dataUsingEncoding:NSUTF8StringEncoding]];
+    [fileHandle closeFile];
+
+}
+
+- (void) testWriteFile {
+    [self appendContent:@"123"];
+    [self appendContent:@"456"];
+    
+    // NSString * fileContents = [NSString stringWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:nil];
+    // [fileContents stringByAppendingString:test1];
+    // [fileContents writeToFile:filePath atomically:YES encoding:NSUTF8StringEncoding error:nil];    
+}
+
+// -------------- test write file -------------------------
+
 - (void) test {
     // [self testImageService];
-    [self testDataService];
+    // [self testDataService];
     // [self testDuration];
+    // [self testWriteFile];
+    
     
     /**
     NSString * imgPath = IB_DOCUMENTS_DIR();

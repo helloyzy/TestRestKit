@@ -223,6 +223,8 @@ static NSInteger maxFailuresAllowed = 3;
 - (void) handleSingleImgDownloadError:(ECImgRequest *) failedRequest errorCode:(NSUInteger) errorCode {
     self.failedCount = self.failedCount + 1;
     NSLog(@"Image downloading sevice(%@): single image download failure, total failed is %d, erro code is %d", self.imgServiceName, self.failedCount, errorCode);
+    NSString * failedToWrite = [NSString stringWithFormat:@"Status code %d with url:%@", errorCode, [failedRequest.URL absoluteString]];
+    [self writeFailedRequestToFile:failedToWrite];
     if (self.onSingleImageDownloadError) {
         self.onSingleImageDownloadError([NSError errorWithDomain:ECImgDownloadDomain code:errorCode userInfo:nil]);
     }
@@ -360,11 +362,22 @@ static NSInteger maxFailuresAllowed = 3;
 static ECImgDownloadMgr * sharedMgr = nil;
 
 + (void) test {
-    [self testDownloadSinglePreImages];
+    [self testDownloadAllPreImages];
 }
 
 - (void) printURLString:(ECImgRequest *) request {
     NSLog(@"%@", [request.URL absoluteString]);
+}
+
+- (void) writeFailedRequestToFile:(NSString *) failedRequest {
+    NSString * docDir = IB_DOCUMENTS_DIR();
+    NSString * filePath = [docDir stringByAppendingPathComponent:@"failed.txt"];
+    
+    NSFileHandle * fileHandle = [NSFileHandle fileHandleForWritingAtPath:filePath];
+    [fileHandle seekToEndOfFile];
+    [fileHandle writeData:[failedRequest dataUsingEncoding:NSUTF8StringEncoding]];
+    [fileHandle writeData:[@"\n" dataUsingEncoding:NSUTF8StringEncoding]];
+    [fileHandle closeFile];
 }
 
 #pragma mark - test download thumb images;
@@ -467,7 +480,7 @@ static ECImgDownloadMgr * sharedMgr = nil;
         NSLog(@"Login service, response status code is %d, token is %@", response.statusCode, [ECLoginService userToken]);
         [self _testDownloadAllPreImages];
     };
-    [loginService authenticate:@"ProdIntiPad1" withPwd:@"Northridge*1"];
+    [loginService authenticate:@"ProdIntiPad3" withPwd:@"Northridge*3"];
 
 }
 
