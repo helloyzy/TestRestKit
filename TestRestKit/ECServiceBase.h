@@ -27,6 +27,8 @@ typedef void(^ECRequestDidFailLoadWithErrorBlock)(NSError *error);
 // for child classes to implement for user token callback if they pass the control to base
 -(void) retryServiceOnUserTokenAccquired;
 
+-(void) cancel;
+
 /**
  A block to invoke when the receiver has loaded a response.
  

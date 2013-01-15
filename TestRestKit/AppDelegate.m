@@ -71,6 +71,7 @@ static NSDate * date2;
 @interface AppDelegate()
 
 @property (strong, nonatomic) ECLoginService * loginService;
+@property (strong, nonatomic) ECDataService * dataService;
 
 @end
 
@@ -127,7 +128,21 @@ static NSDate * date2;
     self.loginService = [ECLoginService sharedInstance];
     self.loginService.onDidLoadResponse = ^(RKResponse * response) {
         NSLog(@"Login service, response status code is %d, token is %@", response.statusCode, [ECLoginService userToken]);
-        [ECDataService test];
+        self.dataService = [[ECDataService alloc] init];
+        [self.dataService getData];
+        self.dataService.onProgressData = ^(NSInteger received, NSInteger total){
+            NSLog(@"Download data progressing, received:%i,total:%i",received,total);
+        };
+        self.dataService.onLoadChunk = ^(NSInteger curLoadedChunk, NSInteger totalChunks){
+            NSLog(@"Download data onLoadChunk, curLoadedChunk:%i,totalChunks:%i",curLoadedChunk,totalChunks);
+        };
+        self.dataService.onDataChunkCountDetermined = ^(NSInteger totalChunks){
+            NSLog(@"Download data onDataChunkCountDetermined, totalChunksLoaded:%i",totalChunks);
+        };
+        self.dataService.onDataFinishLoading = ^(NSInteger totalChunksLoaded){
+            NSLog(@"Download data finish, totalChunks:%i",totalChunksLoaded);
+        };
+
     };
     [self.loginService authenticate:@"ProdIntiPad1" withPwd:@"Northridge*1"];
 }
@@ -186,10 +201,6 @@ static NSDate * date2;
 - (void) testWriteFile {
     [self appendContent:@"123"];
     [self appendContent:@"456"];
-    
-    // NSString * fileContents = [NSString stringWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:nil];
-    // [fileContents stringByAppendingString:test1];
-    // [fileContents writeToFile:filePath atomically:YES encoding:NSUTF8StringEncoding error:nil];    
 }
 
 // -------------- test write file -------------------------

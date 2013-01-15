@@ -88,11 +88,17 @@ static RKClient * sharedClient = nil;
 
 #pragma mark - methods that child can override
 
+- (void) retryServiceOnUserTokenAccquired {}
+
+- (void) cancel {
+    [[ECServiceBase sharedClient].requestQueue cancelRequestsWithDelegate:self];
+}
+
+#pragma mark - instance methods
+
 - (void) _retryServiceOnUserTokenAccquired {
     [ECLoginService unregForUserTokenAccquired:self];
     [self retryServiceOnUserTokenAccquired];
 }
-
-- (void) retryServiceOnUserTokenAccquired {}
 
 @end
