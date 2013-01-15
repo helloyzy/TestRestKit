@@ -29,19 +29,19 @@ typedef enum ECSingleImageDownloadFailCode {
 ///-----------------------------------------------------------------------------
 /// @name Block Declarations
 ///-----------------------------------------------------------------------------
-typedef void(^ECSvcImageDownloadProgressBlock)(int numOfDidDownloaded, int numOfTotal);
+typedef void(^ECSvcImageDownloadProgressBlock)(int numOfDidDownloaded, int numOfFailed, int numOfTotal);
 typedef void(^ECSvcImageDidFinishDownloadBlock)(int numOfFailed, int numOfTotal);
 typedef void(^ECSvcImageDownloadDidFailWithErrorBlock)(NSError *error);
 typedef void(^ECSvcSingleImageDownloadDidFailWithErrorBlock)(NSError *error);
 
 @interface ECImgDownloadMgr : NSObject <RKRequestQueueDelegate>
 
-+ (void) test;
 + (ECImgDownloadMgr *) createDownloadPreImgService;
 + (ECImgDownloadMgr *) createDownloadThumbImgService;
 - (void) downloadImages;
 - (void) cancelDownload;
 - (BOOL) isServiceCancelled;
+
 
 @property (nonatomic, copy) ECSvcImageDownloadProgressBlock onImageDownloadProgress;
 @property (nonatomic, copy) ECSvcImageDidFinishDownloadBlock onImageDidFinishDownload;

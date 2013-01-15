@@ -9,7 +9,7 @@
 #import "ECSeeder.h"
 #import <RestKit/RestKit.h>
 #import "ECMappingMgr.h"
-#import "IBFunctions.h"
+#import "Functions.h"
 
 @implementation ECSeeder
 
@@ -60,10 +60,6 @@
      */
      
     [seeder finalizeSeedingAndExit];
-}
-
-NSString * DOCUMENTS_DIR() {
-    return IB_DOCUMENTS_DIR();
 }
 
 + (void)seedIfNecessary {

@@ -16,7 +16,7 @@
 #import "ECLoginService.h"
 #import "ECImgDownloadMgr.h"
 #import "ECDataService.h"
-#import "IBFunctions.h"
+#import "Functions.h"
 
 @interface ECDataChunkCountServiceTemp : ECServiceBase
 
@@ -72,10 +72,14 @@ static NSDate * date2;
 
 @property (strong, nonatomic) ECLoginService * loginService;
 @property (strong, nonatomic) ECDataService * dataService;
+@property (strong, nonatomic) ECImgDownloadMgr * previewImgDownloadSvc;
+@property (strong, nonatomic) ECImgDownloadMgr * thumbnailImgDownloadSvc;
 
 @end
 
 @implementation AppDelegate
+
+#pragma mark - test object mapping 
 
 - (void) testIn {
     NSArray * topBrnds = [Brand allTopBrands];
@@ -112,6 +116,8 @@ static NSDate * date2;
     }
 }
 
+# pragma mark - testing services
+
 - (void) testLoginService {
     self.loginService = [ECLoginService sharedInstance];
     self.loginService.onDidLoadResponse = ^(RKResponse * response) {
@@ -120,31 +126,118 @@ static NSDate * date2;
     [self.loginService authenticate:@"ProdIntVisit" withPwd:@"ecU@pHoY"];
 }
 
-- (void) testImageService {
-    [ECImgDownloadMgr test];
+- (void) writeFailedRequestToFile:(NSString *) failedRequest {
+    NSString * docDir = DOCUMENTS_DIR();
+    NSString * filePath = [docDir stringByAppendingPathComponent:@"failed.txt"];
+    
+    NSFileHandle * fileHandle = [NSFileHandle fileHandleForWritingAtPath:filePath];
+    [fileHandle seekToEndOfFile];
+    [fileHandle writeData:[failedRequest dataUsingEncoding:NSUTF8StringEncoding]];
+    [fileHandle writeData:[@"\n" dataUsingEncoding:NSUTF8StringEncoding]];
+    [fileHandle closeFile];
+}
+
+- (void) testPreviewImageService {
+    self.previewImgDownloadSvc = [ECImgDownloadMgr createDownloadPreImgService];
+    self.previewImgDownloadSvc.onImageDidFinishDownload = ^(int numOfFailed, int numOfTotal) {
+        NSLog(@"Preview images downloading finished, failed:%d, total:%d", numOfFailed, numOfTotal);
+    };
+    self.previewImgDownloadSvc.onImageDownloadError = ^(NSError * error) {
+        NSLog(@"Erron on downloading preview images: error code is %d", [error code]);
+    };
+    self.previewImgDownloadSvc.onImageDownloadProgress = ^(int numOfDidDownloaded, int numOfFailed, int numOfTotal) {
+        NSLog(@"Preview images downloading, downloaded:%d, , failed:%d, total:%d", numOfDidDownloaded, numOfFailed, numOfTotal);
+    };
+    self.previewImgDownloadSvc.onSingleImageDownloadError = ^(NSError * error) {
+        NSLog(@"Erron on downloading preview images(single): error code is %d", [error code]);
+    };
+    [self.previewImgDownloadSvc downloadImages];
+}
+
+- (void) testThumbnailImageService {
+    self.thumbnailImgDownloadSvc = [ECImgDownloadMgr createDownloadThumbImgService];
+    self.thumbnailImgDownloadSvc.onImageDidFinishDownload = ^(int numOfFailed, int numOfTotal) {
+        NSLog(@"Thumbnail images downloading finished, failed:%d, total:%d", numOfFailed, numOfTotal);
+    };
+    self.thumbnailImgDownloadSvc.onImageDownloadError = ^(NSError * error) {
+        NSLog(@"Erron on downloading Thumbnail images: error code is %d", [error code]);
+    };
+    self.thumbnailImgDownloadSvc.onImageDownloadProgress = ^(int numOfDidDownloaded, int numOfFailed, int numOfTotal) {
+        NSLog(@"Thumbnail images downloading, downloaded:%d, , failed:%d, total:%d", numOfDidDownloaded, numOfFailed, numOfTotal);
+    };
+    self.thumbnailImgDownloadSvc.onSingleImageDownloadError = ^(NSError * error) {
+        NSLog(@"Erron on downloading Thumbnail images(single): error code is %d", [error code]);
+    };
+    [self.thumbnailImgDownloadSvc downloadImages];
 }
 
 - (void) testDataService {
-    self.loginService = [ECLoginService sharedInstance];
-    self.loginService.onDidLoadResponse = ^(RKResponse * response) {
-        NSLog(@"Login service, response status code is %d, token is %@", response.statusCode, [ECLoginService userToken]);
-        self.dataService = [[ECDataService alloc] init];
-        [self.dataService getData];
-        self.dataService.onProgressData = ^(NSInteger received, NSInteger total){
-            NSLog(@"Download data progressing, received:%i,total:%i",received,total);
+    self.dataService = [[ECDataService alloc] init];
+    self.dataService.onProgressData = ^(NSInteger received, NSInteger total){
+        NSLog(@"Download data progressing, received:%i,total:%i",received,total);
+    };
+    self.dataService.onLoadChunk = ^(NSInteger curLoadedChunk, NSInteger totalChunks){
+        NSLog(@"Download data onLoadChunk, curLoadedChunk:%i,totalChunks:%i",curLoadedChunk,totalChunks);
+    };
+    self.dataService.onDataChunkCountDetermined = ^(NSInteger totalChunks){
+        NSLog(@"Download data onDataChunkCountDetermined, totalChunksLoaded:%i",totalChunks);
+    };
+    self.dataService.onDataFinishLoading = ^(NSInteger totalChunksLoaded){
+        NSLog(@"Download data finish, totalChunks:%i",totalChunksLoaded);
+    };
+    [self.dataService getData];
+}
+
+- (void) testDataImageService {
+    self.dataService = [[ECDataService alloc] init];
+    /**
+    self.dataService.onProgressData = ^(NSInteger received, NSInteger total){
+        NSLog(@"Download data progressing, received:%i,total:%i",received,total);
+    };
+     */
+    self.dataService.onLoadChunk = ^(NSInteger curLoadedChunk, NSInteger totalChunks){
+        NSLog(@"Download data onLoadChunk, curLoadedChunk:%i,totalChunks:%i",curLoadedChunk,totalChunks);
+    };
+    self.dataService.onDataChunkCountDetermined = ^(NSInteger totalChunks){
+        NSLog(@"Download data onDataChunkCountDetermined, totalChunksLoaded:%i",totalChunks);
+    };
+    self.dataService.onDataFinishLoading = ^(NSInteger totalChunksLoaded){
+        NSLog(@"Download data finish, totalChunks:%i",totalChunksLoaded);
+        self.previewImgDownloadSvc = [ECImgDownloadMgr createDownloadPreImgService];
+        self.previewImgDownloadSvc.onImageDidFinishDownload = ^(int numOfFailed, int numOfTotal) {
+            NSLog(@"Preview images downloading finished, failed:%d, total:%d", numOfFailed, numOfTotal);
+            self.thumbnailImgDownloadSvc = [ECImgDownloadMgr createDownloadThumbImgService];
+            self.thumbnailImgDownloadSvc.onImageDidFinishDownload = ^(int numOfFailed, int numOfTotal) {
+                NSLog(@"Thumbnail images downloading finished, failed:%d, total:%d", numOfFailed, numOfTotal);
+            };
+            self.thumbnailImgDownloadSvc.onImageDownloadError = ^(NSError * error) {
+                NSLog(@"Erron on downloading Thumbnail images: error code is %d", [error code]);
+            };
+            /**
+            self.thumbnailImgDownloadSvc.onImageDownloadProgress = ^(int numOfDidDownloaded, int numOfFailed, int numOfTotal) {
+                NSLog(@"Thumbnail images downloading, downloaded:%d, , failed:%d, total:%d", numOfDidDownloaded, numOfFailed, numOfTotal);
+            };
+             */
+            self.thumbnailImgDownloadSvc.onSingleImageDownloadError = ^(NSError * error) {
+                NSLog(@"Erron on downloading Thumbnail images(single): error code is %d", [error code]);
+            };
+            [self.thumbnailImgDownloadSvc downloadImages];
         };
-        self.dataService.onLoadChunk = ^(NSInteger curLoadedChunk, NSInteger totalChunks){
-            NSLog(@"Download data onLoadChunk, curLoadedChunk:%i,totalChunks:%i",curLoadedChunk,totalChunks);
+        self.previewImgDownloadSvc.onImageDownloadError = ^(NSError * error) {
+            NSLog(@"Erron on downloading preview images: error code is %d", [error code]);
         };
-        self.dataService.onDataChunkCountDetermined = ^(NSInteger totalChunks){
-            NSLog(@"Download data onDataChunkCountDetermined, totalChunksLoaded:%i",totalChunks);
+        /**
+        self.previewImgDownloadSvc.onImageDownloadProgress = ^(int numOfDidDownloaded, int numOfFailed, int numOfTotal) {
+            NSLog(@"Preview images downloading, downloaded:%d, , failed:%d, total:%d", numOfDidDownloaded, numOfFailed, numOfTotal);
         };
-        self.dataService.onDataFinishLoading = ^(NSInteger totalChunksLoaded){
-            NSLog(@"Download data finish, totalChunks:%i",totalChunksLoaded);
+         */
+        self.previewImgDownloadSvc.onSingleImageDownloadError = ^(NSError * error) {
+            NSLog(@"Erron on downloading preview images(single): error code is %d", [error code]);
         };
+        [self.previewImgDownloadSvc downloadImages];
 
     };
-    [self.loginService authenticate:@"ProdIntiPad1" withPwd:@"Northridge*1"];
+    [self.dataService getData];
 }
 
 // ------------- test duration --------------
@@ -184,6 +277,9 @@ static NSDate * date2;
 // ------------- test duration --------------
 
 
+#pragma mark - testing other misc
+
+
 // --------------- test write file ------------------------
 
 - (void) appendContent:(NSString *) contentToAppend {
@@ -205,29 +301,22 @@ static NSDate * date2;
 
 // -------------- test write file -------------------------
 
+#pragma mark - public testing APIs
+
+- (void) testService {
+    self.loginService = [ECLoginService sharedInstance];
+    self.loginService.onDidLoadResponse = ^(RKResponse * response) {
+        NSLog(@"Login service, response status code is %d, token is %@", response.statusCode, [ECLoginService userToken]);
+        // call other services
+    };
+    [self.loginService authenticate:@"ProdIntiPad1" withPwd:@"Northridge*1"];
+}
+
 - (void) test {
     // [self testImageService];
     // [self testDataService];
     // [self testDuration];
     // [self testWriteFile];
-    
-    
-    /**
-    NSString * imgPath = IB_DOCUMENTS_DIR();
-    imgPath = [imgPath stringByAppendingPathComponent:@"Images/Preview/1000_789.json"];
-
-    NSString * dirPath = IB_DOCUMENTS_DIR();
-    dirPath = [dirPath stringByAppendingPathComponent:@"Images/Preview"];
-    NSFileManager * fileManager = [NSFileManager defaultManager];
-    if (![fileManager fileExistsAtPath:dirPath]) {
-        [fileManager createDirectoryAtPath:dirPath withIntermediateDirectories:YES attributes:nil error:nil];
-    }
-
-    
-    NSString * result = @"123";
-    [result writeToFile:imgPath atomically:YES encoding:NSUTF8StringEncoding error:nil];
-    NSLog(@"%@", imgPath);
-     */
 }
 
 

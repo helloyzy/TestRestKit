@@ -23,6 +23,7 @@
 /* Begin PBXBuildFile section */
 		0015D140169FC1B300229023 /* ECBrand1.json in Resources */ = {isa = PBXBuildFile; fileRef = 0015D13E169FC1B300229023 /* ECBrand1.json */; };
 		0015D141169FC1B300229023 /* ECBrand2.json in Resources */ = {isa = PBXBuildFile; fileRef = 0015D13F169FC1B300229023 /* ECBrand2.json */; };
+		0020D37E16A563FE002B4F71 /* Functions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0020D37D16A563FE002B4F71 /* Functions.m */; };
 		002E48D1166357A70003B4B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E48D0166357A70003B4B4 /* UIKit.framework */; };
 		002E48D3166357A70003B4B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E48D2166357A70003B4B4 /* Foundation.framework */; };
 		002E48D5166357A70003B4B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E48D4166357A70003B4B4 /* CoreGraphics.framework */; };
@@ -311,6 +312,8 @@
 /* Begin PBXFileReference section */
 		0015D13E169FC1B300229023 /* ECBrand1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ECBrand1.json; sourceTree = SOURCE_ROOT; };
 		0015D13F169FC1B300229023 /* ECBrand2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ECBrand2.json; sourceTree = SOURCE_ROOT; };
+		0020D37C16A563FE002B4F71 /* Functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Functions.h; sourceTree = "<group>"; };
+		0020D37D16A563FE002B4F71 /* Functions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Functions.m; sourceTree = "<group>"; };
 		002E48CC166357A70003B4B4 /* TestRestKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestRestKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		002E48D0166357A70003B4B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		002E48D2166357A70003B4B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -680,6 +683,8 @@
 				005DF9191696A0FF00863931 /* ECLoginService.m */,
 				005DF91B1696A22D00863931 /* ECServiceBase.h */,
 				005DF91C1696A22D00863931 /* ECServiceBase.m */,
+				0020D37C16A563FE002B4F71 /* Functions.h */,
+				0020D37D16A563FE002B4F71 /* Functions.m */,
 			);
 			name = Service;
 			sourceTree = "<group>";
@@ -1221,6 +1226,7 @@
 				005DF91D1696A22D00863931 /* ECServiceBase.m in Sources */,
 				005DF9891698149900863931 /* ECImgDownloadMgr.m in Sources */,
 				00B60F36169BC48100D53AD6 /* ECDataService.m in Sources */,
+				0020D37E16A563FE002B4F71 /* Functions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

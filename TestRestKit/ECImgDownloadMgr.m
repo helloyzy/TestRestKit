@@ -10,7 +10,7 @@
 #import "ProductImage.h"
 #import "ECServiceBase.h"
 #import "ECLoginService.h"
-#import "IBFunctions.h"
+#import "Functions.h"
 
 static NSString * previewImgService = @"GetPreviewImage";
 static NSString * thumbnailImgService = @"GetThumbnailImage";
@@ -50,7 +50,7 @@ static NSInteger maxFailuresAllowed = 3;
 
 - (void) constructImgSavePath {
     NSString * flatImgPath = [self.imgRelativePath stringByReplacingOccurrencesOfString:@"\\" withString:@"_"];
-    NSString * imgPath = IB_DOCUMENTS_DIR();
+    NSString * imgPath = DOCUMENTS_DIR();
     if ([self.imgServiceName isEqualToString:previewImgService]) {
         imgPath = [imgPath stringByAppendingPathComponent:previewImgDir];
         // self.imgPathToSave = [NSString stringWithFormat:@"%@Preview.jpg", flatImgPath];
@@ -168,7 +168,7 @@ static NSInteger maxFailuresAllowed = 3;
 }
 
 - (void) ensureImageDir {
-    NSString * imgDir = IB_DOCUMENTS_DIR();
+    NSString * imgDir = DOCUMENTS_DIR();
     if ([self.imgServiceName isEqualToString:previewImgService]) {
         imgDir = [imgDir stringByAppendingPathComponent:previewImgDir];
     } else {
@@ -182,10 +182,10 @@ static NSInteger maxFailuresAllowed = 3;
 
 - (void) startDownloadImages {
     /**
-    if (![ECServiceBase isServiceAvailable]) {
-        [self handleImgDownloadError:ECImageDownloadFailNoConnection];
-        return;
-    }
+     if (![ECServiceBase isServiceAvailable]) {
+     [self handleImgDownloadError:ECImageDownloadFailNoConnection];
+     return;
+     }
      */
     self.totalRequestCount = [self.imgRequestQueue count]; // do not use the allImgRequests to determine the total request count
     self.downloadedCount = 0;
@@ -213,7 +213,7 @@ static NSInteger maxFailuresAllowed = 3;
     [self stopDownload];
     [self.imgRequestQueue cancelAllRequests];
     NSLog(@"Image downloading sevice(%@): error, code is %d", self.imgServiceName, errorCode);
-
+    
     if (self.onImageDownloadError) {
         self.onImageDownloadError([NSError errorWithDomain:ECImgDownloadDomain code:errorCode userInfo:nil]);
     }
@@ -223,8 +223,10 @@ static NSInteger maxFailuresAllowed = 3;
 - (void) handleSingleImgDownloadError:(ECImgRequest *) failedRequest errorCode:(NSUInteger) errorCode {
     self.failedCount = self.failedCount + 1;
     NSLog(@"Image downloading sevice(%@): single image download failure, total failed is %d, erro code is %d", self.imgServiceName, self.failedCount, errorCode);
-    NSString * failedToWrite = [NSString stringWithFormat:@"Status code %d with url:%@", errorCode, [failedRequest.URL absoluteString]];
-    [self writeFailedRequestToFile:failedToWrite];
+    // notify progress callback
+    if (self.onImageDownloadProgress) {
+        self.onImageDownloadProgress(self.downloadedCount, self.failedCount, self.totalRequestCount);
+    }
     if (self.onSingleImageDownloadError) {
         self.onSingleImageDownloadError([NSError errorWithDomain:ECImgDownloadDomain code:errorCode userInfo:nil]);
     }
@@ -242,14 +244,14 @@ static NSInteger maxFailuresAllowed = 3;
 
 - (void) requestQueue:(RKRequestQueue *)queue didLoadResponse:(RKResponse *)response {
     ECImgRequest * imgRequest = (ECImgRequest *)response.request;
-    if ([response isOK]) { // status = 200 
+    if ([response isOK]) { // status = 200
         // as the notification dispatch is always on the main thread, no need to synchronize this
         self.downloadedCount = self.downloadedCount + 1;
         NSLog(@"Image downloading sevice(%@): downloaded %d images out of %d", self.imgServiceName, self.downloadedCount, self.totalRequestCount);
-
+        
         // notify progress callback
         if (self.onImageDownloadProgress) {
-            self.onImageDownloadProgress(self.downloadedCount, self.totalRequestCount);
+            self.onImageDownloadProgress(self.downloadedCount, self.failedCount, self.totalRequestCount);
         }
         return;
     } else if ([response isNotFound] || [response isNoContent]) { // status = 404 (not found)
@@ -259,7 +261,7 @@ static NSInteger maxFailuresAllowed = 3;
     } else if ([response isUnauthorized]) { // status = 401
         // block until get valid user token
         NSLog(@"Image downloading sevice(%@): user token invalid, current token is %@, failed request is %@", self.imgServiceName, [ECLoginService userToken], [response.request.URL absoluteString]);
-
+        
         [self stopDownload];
         [self handleFailedImgRequest:imgRequest errorCode:ECSingleImageDownloadInvalidToken];
         [ECLoginService accquireUserToken:self selector:@selector(onUserTokenAccquired)];
@@ -267,7 +269,7 @@ static NSInteger maxFailuresAllowed = 3;
     } else if ([response isServerError]) { // status = 500
         // check for adding for retry
         NSLog(@"Image downloading sevice(%@): server error(status = 500), failed request is %@", self.imgServiceName, [response.request.URL absoluteString]);
-
+        
         [self handleFailedImgRequest:imgRequest errorCode:ECSingleImageDownloadFailServerError];
         return;
     } else { // other status code
@@ -288,7 +290,7 @@ static NSInteger maxFailuresAllowed = 3;
         NSLog(@"Image downloading sevice(%@): finish downloading, downloaded %d, failed %d, total is %d", self.imgServiceName, self.downloadedCount,self.failedCount, self.totalRequestCount );
         if (self.onImageDidFinishDownload) {
             self.onImageDidFinishDownload(self.failedCount, self.totalRequestCount);
-        }        
+        }
         [self clearup];
     } else if (![self isServiceCancelled]) {
         // [self performSelector:@selector(retryFailedImgRequests) withObject:self afterDelay:1.0];
@@ -309,7 +311,7 @@ static NSInteger maxFailuresAllowed = 3;
 
 - (void) onUserTokenAccquired {
     NSLog(@"Image downloading sevice(%@): receive notification from login service", self.imgServiceName);
-
+    
     // Unreg notification
     [ECLoginService unregForUserTokenAccquired:self];
     // continue downloading...
@@ -334,7 +336,7 @@ static NSInteger maxFailuresAllowed = 3;
     }
     
     [self startDownloadImages];
-
+    
 }
 
 - (void) cancelDownload {
@@ -356,7 +358,7 @@ static NSInteger maxFailuresAllowed = 3;
     return [[ECImgDownloadMgr alloc] initWithServiceName:thumbnailImgService];
 }
 
-
+/**
 #pragma mark - test
 
 static ECImgDownloadMgr * sharedMgr = nil;
@@ -551,6 +553,7 @@ static ECImgDownloadMgr * sharedMgr = nil;
     
     [self startDownloadImages];
 }
+ */
 
 
 @end
