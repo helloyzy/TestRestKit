@@ -17,7 +17,10 @@
     NSArray * imgRelativePaths = [productImages valueForKey:@"file_lctn"];
     // De-duplication
     NSSet * result = [NSSet setWithArray:imgRelativePaths];
-    return [result allObjects];
+    
+    NSArray * resultArray = [result allObjects];
+    resultArray = [resultArray subarrayWithRange:NSMakeRange(0, 500)];
+    return resultArray;
 }
 
 

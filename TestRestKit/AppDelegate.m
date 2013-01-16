@@ -146,12 +146,22 @@ static NSDate * date2;
         NSLog(@"Erron on downloading preview images: error code is %d", [error code]);
     };
     self.previewImgDownloadSvc.onImageDownloadProgress = ^(int numOfDidDownloaded, int numOfFailed, int numOfTotal) {
-        NSLog(@"Preview images downloading, downloaded:%d, failed:%d, total:%d", numOfDidDownloaded, numOfFailed, numOfTotal);
+        // NSLog(@"Preview images downloading, downloaded:%d, failed:%d, total:%d", numOfDidDownloaded, numOfFailed, numOfTotal);
     };
     self.previewImgDownloadSvc.onSingleImageDownloadError = ^(NSError * error) {
         NSLog(@"Erron on downloading preview images(single): error code is %d", [error code]);
     };
+    self.previewImgDownloadSvc.onImageDownloadCancelled = ^ {
+        NSLog(@"Preview images downloading cancelled");
+    };
     [self.previewImgDownloadSvc downloadImages];
+    /**
+    int64_t delayInSeconds = 15.0;
+    dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, delayInSeconds * NSEC_PER_SEC);
+    dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
+        [self.previewImgDownloadSvc cancelDownload];
+    });
+     */
 }
 
 - (void) testThumbnailImageService {
@@ -309,7 +319,7 @@ static NSDate * date2;
         NSLog(@"Login service, response status code is %d, token is %@", response.statusCode, [ECLoginService userToken]);
         [self testPreviewImageService];
     };
-    [loginService authenticate:@"ProdIntiPad1" withPwd:@"Northridge*1"];
+    [loginService authenticate:@"ProdIntiPad3" withPwd:@"Northridge*3"];
 }
 
 - (void) test {

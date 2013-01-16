@@ -90,7 +90,9 @@ static NSInteger maxFailuresAllowed = 3;
 
 @end
 
-@interface ECImgDownloadMgr()
+@interface ECImgDownloadMgr() {
+    dispatch_queue_t bgQueue;
+}
 
 @property (strong, nonatomic) NSString * imgServiceName;
 @property (strong, nonatomic) RKRequestQueue * imgRequestQueue;
@@ -145,22 +147,27 @@ static NSInteger maxFailuresAllowed = 3;
     self.imgRequestQueue.showsNetworkActivityIndicatorWhenBusy = YES;
 }
 
-- (void) addImgRequest:(ECImgRequest *) imgRequest {
-    [self.allImgRequests addObject:imgRequest];
-    [self.imgRequestQueue addRequest:imgRequest];
-}
-
 - (BOOL) isFailedTooMuch:(ECImgRequest *) imgRequest {
     imgRequest.failedTimes = imgRequest.failedTimes + 1;
     return (imgRequest.failedTimes > maxFailuresAllowed);
 }
 
+#pragma mark - methods which should be handled async
+
+- (void) addImgRequest:(ECImgRequest *) imgRequest {
+    [self.allImgRequests addObject:imgRequest];
+    [self.imgRequestQueue addRequest:imgRequest];
+}
+
 - (void) retryFailedImgRequests {
+    if (self.isCancelled) {
+        return;
+    }
     [self stopDownload];
     NSLog(@"Image downloading sevice(%@): retry %d failed requests", self.imgServiceName, [self.failedRequests count]);
     for (ECImgRequest * failedRequest in self.failedRequests) {
         [failedRequest reset];
-        NSLog(@"Image downloading sevice(%@): will retry request:%@", self.imgServiceName, [failedRequest.URL absoluteString]);
+        // NSLog(@"Image downloading sevice(%@): will retry request:%@", self.imgServiceName, [failedRequest.URL absoluteString]);
         [self.imgRequestQueue addRequest:failedRequest];
     }
     [self.failedRequests removeAllObjects];
@@ -180,13 +187,17 @@ static NSInteger maxFailuresAllowed = 3;
     }
 }
 
+- (void) prepareImgRequests {
+    NSArray * uniqueImgRelativePaths = [ProductImage allImageRelativePaths];
+    
+    for (NSString * imgRelativePath in uniqueImgRelativePaths) {
+        ECImgRequest * imgRequest = [ECImgRequest constructImgRequest:imgRelativePath underService:self.imgServiceName];
+        [self addImgRequest:imgRequest];
+    }
+}
+
 - (void) startDownloadImages {
-    /**
-     if (![ECServiceBase isServiceAvailable]) {
-     [self handleImgDownloadError:ECImageDownloadFailNoConnection];
-     return;
-     }
-     */
+    [self prepareImgRequests];
     self.totalRequestCount = [self.imgRequestQueue count]; // do not use the allImgRequests to determine the total request count
     self.downloadedCount = 0;
     self.failedCount = 0;
@@ -204,20 +215,44 @@ static NSInteger maxFailuresAllowed = 3;
 }
 
 - (void) clearup {
+    self.onImageDownloadProgress = nil;
+    self.onImageDidFinishDownload = nil;
+    self.onSingleImageDownloadError = nil;
+    self.onImageDownloadError = nil;
+    self.onImageDownloadCancelled = nil;
+    [self.failedRequests removeAllObjects];
     [self.allImgRequests removeAllObjects];
+}
+
+- (void) cancelAllRequests {
+    self.isCancelled = YES;
+    [self stopDownload];
+    [self clearup];
+    [self.imgRequestQueue cancelAllRequests];
 }
 
 #pragma mark - error handling
 
 - (void) handleImgDownloadError:(NSUInteger) errorCode {
+    /**
     [self stopDownload];
     [self.imgRequestQueue cancelAllRequests];
     NSLog(@"Image downloading sevice(%@): error, code is %d", self.imgServiceName, errorCode);
-    
     if (self.onImageDownloadError) {
         self.onImageDownloadError([NSError errorWithDomain:ECImgDownloadDomain code:errorCode userInfo:nil]);
     }
     [self clearup];
+     */
+    NSLog(@"Image downloading sevice(%@): error, code is %d", self.imgServiceName, errorCode);
+    dispatch_async(bgQueue, ^{
+        ECSvcImageDownloadDidFailWithErrorBlock errorBlock = self.onImageDownloadError;
+        dispatch_async(dispatch_get_main_queue(), ^{
+            if (errorBlock) {
+                errorBlock([NSError errorWithDomain:ECImgDownloadDomain code:errorCode userInfo:nil]);
+            }
+        });
+        [self cancelAllRequests];
+    });
 }
 
 - (void) handleSingleImgDownloadError:(ECImgRequest *) failedRequest errorCode:(NSUInteger) errorCode {
@@ -236,7 +271,9 @@ static NSInteger maxFailuresAllowed = 3;
     if ([self isFailedTooMuch:failedRequest]) {
         [self handleSingleImgDownloadError:failedRequest errorCode:errorCode];
     } else {
-        [self.failedRequests addObject:failedRequest];
+        dispatch_async(bgQueue, ^{
+            [self.failedRequests addObject:failedRequest];
+        });
     }
 }
 
@@ -247,7 +284,7 @@ static NSInteger maxFailuresAllowed = 3;
     if ([response isOK]) { // status = 200
         // as the notification dispatch is always on the main thread, no need to synchronize this
         self.downloadedCount = self.downloadedCount + 1;
-        NSLog(@"Image downloading sevice(%@): downloaded %d images out of %d", self.imgServiceName, self.downloadedCount, self.totalRequestCount);
+        // NSLog(@"Image downloading sevice(%@): downloaded %d images out of %d", self.imgServiceName, self.downloadedCount, self.totalRequestCount);
         
         // notify progress callback
         if (self.onImageDownloadProgress) {
@@ -261,10 +298,11 @@ static NSInteger maxFailuresAllowed = 3;
     } else if ([response isUnauthorized]) { // status = 401
         // block until get valid user token
         NSLog(@"Image downloading sevice(%@): user token invalid, current token is %@, failed request is %@", self.imgServiceName, [ECLoginService userToken], [response.request.URL absoluteString]);
-        
-        [self stopDownload];
+        if (!self.imgRequestQueue.suspended) {
+            [self stopDownload];
+            [ECLoginService accquireUserToken:self selector:@selector(onUserTokenAccquired)];
+        }
         [self handleFailedImgRequest:imgRequest errorCode:ECSingleImageDownloadInvalidToken];
-        [ECLoginService accquireUserToken:self selector:@selector(onUserTokenAccquired)];
         return;
     } else if ([response isServerError]) { // status = 500
         // check for adding for retry
@@ -292,9 +330,12 @@ static NSInteger maxFailuresAllowed = 3;
             self.onImageDidFinishDownload(self.failedCount, self.totalRequestCount);
         }
         [self clearup];
-    } else if (![self isServiceCancelled]) {
+    } else {
         // [self performSelector:@selector(retryFailedImgRequests) withObject:self afterDelay:1.0];
-        [self performSelectorInBackground:@selector(retryFailedImgRequests) withObject:nil];
+        // [self performSelectorInBackground:@selector(retryFailedImgRequests) withObject:nil];
+        dispatch_async(bgQueue, ^{
+            [self retryFailedImgRequests];
+        });
     }
 }
 
@@ -314,36 +355,46 @@ static NSInteger maxFailuresAllowed = 3;
     
     // Unreg notification
     [ECLoginService unregForUserTokenAccquired:self];
+    
     // continue downloading...
     if ([ECLoginService userToken]) {
         // modify the token on every request (including failed and imgRequestQueue)
-        [self reconstructImgUrls];
-        [self restartDownload];
+        dispatch_async(bgQueue, ^{
+            [self reconstructImgUrls];
+            [self restartDownload];
+        });
     } else { // token cannot be accquired
         [self handleImgDownloadError:ECImageDownloadFailInvalidToken];
     }
-    
 }
 
 #pragma mark - public methods
 
 - (void) downloadImages {
-    NSArray * uniqueImgRelativePaths = [ProductImage allImageRelativePaths];
     
-    for (NSString * imgRelativePath in uniqueImgRelativePaths) {
-        ECImgRequest * imgRequest = [ECImgRequest constructImgRequest:imgRelativePath underService:self.imgServiceName];
-        [self addImgRequest:imgRequest];
+    NSString * queueName;
+    if (self.imgServiceName) {
+        queueName = [NSString stringWithFormat:@"com.electrolux.imgDownload.%@", self.imgServiceName];
+    } else {
+        queueName = @"com.electrolux.imgDownload";
     }
+    bgQueue = dispatch_queue_create([queueName UTF8String], DISPATCH_QUEUE_SERIAL);
     
-    [self startDownloadImages];
-    
+    dispatch_async(bgQueue, ^{        
+        [self startDownloadImages];
+    });
 }
 
 - (void) cancelDownload {
-    [self.allImgRequests removeAllObjects];
-    [self.failedRequests removeAllObjects];
-    self.isCancelled = YES;
-    [self.imgRequestQueue cancelAllRequests];
+    dispatch_async(bgQueue, ^{
+        ECSvcImageDownloadDidCancelledBlock cancelBlock = self.onImageDownloadCancelled;
+        dispatch_async(dispatch_get_main_queue(), ^{
+            if (cancelBlock) {
+                cancelBlock();
+            }
+        });
+        [self cancelAllRequests];
+    });
 }
 
 - (BOOL) isServiceCancelled {

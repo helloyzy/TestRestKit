@@ -33,6 +33,8 @@ typedef void(^ECSvcImageDownloadProgressBlock)(int numOfDidDownloaded, int numOf
 typedef void(^ECSvcImageDidFinishDownloadBlock)(int numOfFailed, int numOfTotal);
 typedef void(^ECSvcImageDownloadDidFailWithErrorBlock)(NSError *error);
 typedef void(^ECSvcSingleImageDownloadDidFailWithErrorBlock)(NSError *error);
+typedef void(^ECSvcImageDownloadDidCancelledBlock)(void);
+
 
 @interface ECImgDownloadMgr : NSObject <RKRequestQueueDelegate>
 
@@ -47,6 +49,7 @@ typedef void(^ECSvcSingleImageDownloadDidFailWithErrorBlock)(NSError *error);
 @property (nonatomic, copy) ECSvcImageDidFinishDownloadBlock onImageDidFinishDownload;
 @property (nonatomic, copy) ECSvcImageDownloadDidFailWithErrorBlock onImageDownloadError;
 @property (nonatomic, copy) ECSvcSingleImageDownloadDidFailWithErrorBlock onSingleImageDownloadError;
+@property (nonatomic, copy) ECSvcImageDownloadDidCancelledBlock onImageDownloadCancelled;
 
 @end
 
